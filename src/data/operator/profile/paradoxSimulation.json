@@ -1,0 +1,787 @@
+{
+  "char_009_12fce": {
+    "name": "Survivor",
+    "text": "12F is an experienced, foundational Caster Operator. While ensuring survival, he can use Originium Arts to damage enemy units in an area of effect.\nUnder favorable terrain and with compatible operators, 12F gives his all to his own advantage, creating opportunities for his teammates.\nSudden bursts of firepower tend to affect Caster Operators' performances, but 12F has his answers to those, and those little knacks are the secret to his continued survival.",
+    "unlockCond": { "elite": 0, "lvl": 30 }
+  },
+  "char_124_kroos": {
+    "name": "Simulation Scenario 1122K",
+    "text": "This simulation aims to test a decision maker's command capability, a whole team's rapport, and a Sniper Operator's ability to cope under pressure.\nWithin, Sniper Operators are this simulation's focus target.\nPains have been taken to assemble this simulation's team, and ample personnel are present, but lack direly for long-range output methods.\nFocus area has been assigned to Operator Kroos. As her detachment's sole Sniper Operator, her composure and firing skills will determine what direction the simulation's outcome goes.",
+    "unlockCond": { "elite": 1, "lvl": 55 }
+  },
+  "char_236_rope": {
+    "name": "Hey, Where Is Everyone?",
+    "text": "On some risky missions, odds are our teams will run into some brutal, dangerous enemies. Whether you can dispatch the other side without disturbing them is this simulation's main focus.\nRope wanted to ditch this training session, but trying out this new model of auxiliary device was just too fun, and chances like this don't grow on trees. You've gotta get your own experience in.\nHook 'em, and hook 'em hard! Be mega careful you don't wake any defenseless enemies, or else your whole team's in for a bad day!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_118_yuki": {
+    "name": "Controlling Distance",
+    "text": "Shirayuki's weapon and combat style are far from the norm.\nThough she can directly attack any enemy in a straight line, the most destructive part of her attacks are undoubtedly when, acting as boomerangs, they slow and spin at the edge of their arc.\nThus, to allow her combat methods to achieve maximum effectiveness, we need to understand her range, and properly compute where to meet the enemy.\nLuckily, this is where the Doctor shines.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_356_broca": {
+    "name": "Standing Fast",
+    "text": "Until now, when working with the other two, Broca's typically been the one at the rear.\nHis physique and weapon make him well suited to it, and he's ready to do it.\nNot that it's because he truly likes doing it, but because he trusts Chiave and Aosta.\nAt present, he's been gradually willing to assume similar responsibility in missions. In situations where enemies are numerous, you can safely leave defending the position to him.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_145_prove": {
+    "name": "Don't Let Yourself Freeze",
+    "text": "Provence is well-versed in most wilderness environments and survival techniques. This simulation has a rugged environment as its base, and has set up new challenges for her.\nWatch for the enemies before you. Judge the timing and positioning of your actions, prioritize taking out principal threats, and leave enemies who'll further affect your movements to your trustworthy teammates.\nProvence knows well, no matter what kind of environment the bleak battlefield is, only sufficient agility can guarantee survival.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_158_milu": {
+    "name": "Optimal Field of View",
+    "text": "On the battlefield, Firewatch can always find a suitable position to conceal herself, take advantage of her superior field of view, and eliminate threats before the enemy get close.\nGiven suitable assembly, an outstanding sniper can be an even greater force in team combat. This simulated combat will emphasize training her cooperative ability. When teammates block the enemy's forward advance at the right time, Firewatch can snipe a whole squad on her own.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_2013_cerber": {
+    "name": "Tips for Beating Up Bad Guys",
+    "text": "Today Kay and Vulcan and also a lady with a metal box are gonna beat up bad guys together!\nVulcan said Kay's the main character today, yeah!\nI wanna charge 'em and hit 'em, but Vulcan says staying back a bit and using really heavy spears to get rid of 'em is better.\nSo I guess I'll listen to Vulcan for now.\nOkay, that's pretty much it, I understand everything! Now we all just wait for the bad guys to show up!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_180_amgoat": {
+    "name": "One-Person Encirclement",
+    "text": "The more you learn about Eyjafjalla, the more you realize a titanic power to rival volcanoes lies stored in her small stature.\nIf she could, she'd want to devote all of her Originium Arts to academic research, but reality often leaves us without a choice.\nOn the battlefield, her Arts are the most reliable force for deciding a battle. Just remember, as long as her teammates draw the enemy into her eruption range at the best time, you can leave the rest up to her.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_250_phatom": {
+    "name": "Take Control",
+    "text": "The enemy mills forth; the vanguard team's defensive perimeter is under attack!\nA sublime assassin can appear on the battlefield at any time, in any corner, strikes true, and never lingers.\nYou needn't seize his silhouette; know only that he uses the terrain and his own ability, dispatching those foes who would perplex with nary a whisper, alleviating his team's pressure.\nFor Phantom, getting used to coordinating with his teammates and choosing the right time to strike will still take some practice.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_208_melan": {
+    "name": "Pain Endurance",
+    "text": "How to cope alone in crisis under a huge volume of enemies attacking—one of the exam questions given by the instructors to their students, and the first Operator called up was Melantha, the best at frontal combat.\nOne-on-one direct confrontations are very much suited to Melantha displaying her own strength, but malicious combat environments can become a hindrance to her operation. Support from Medical, carefully calculated usage of strength and finding the right time to burst are the keys to victory in this simulated combat.",
+    "unlockCond": { "elite": 1, "lvl": 55 }
+  },
+  "char_121_lava": {
+    "name": "Just a few little bugs!",
+    "text": "The swarm is a piece of cake for Lava. She's sure she can handle this exercise by herself. \nAs part of her training, the steady and prolonged casting will help her control her Arts, while the exploding ones mixed in with the normal slugs will be a test of the operator's battlefield alertness.",
+    "unlockCond": { "elite": 1, "lvl": 55 }
+  },
+  "char_290_vigna": {
+    "name": "Passion",
+    "text": "For Vigna, no matter what she does, passion is a majorly important thing.\nThis is reflected in combat, where on occasion her attacks will burst with power far beyond normal, just like a rock 'n' roll number hitting its chorus.\nIn what manner you make use of Vigna's up-and-down style is key to driving her strength against the limiter, and there's plenty of ways.\nOne of them—get her going faster, amping up her burst frequency.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_109_fmout": {
+    "name": "Foretelling",
+    "text": "When the action starts, Gitano will tell you that she already knows the enemy's deployment pattern and will use her crystal ball to repel all of them at exactly the right time. Of course, the response is also part of the calculation. Teammates only need help block the enemy. \nGitano alone knows that some difficulties cannot be perceived through divination, and she can turn only to her Originium Arts, experience, and cooperation with her teammates.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_242_otter": {
+    "name": "The Aesthetics of Explosions",
+    "text": "The Lutra Workshop's magnum opus, 'Meeboos,' are indomitable on the battlefield. They're not just effective at curbing lack of manpower, but can also carry and prime explosive units when encountering armies of enemies, mopping up huge areas in a flash. After their detonation concludes, the 'Meeboos' will automatically return for basic maintenance from Mayer, prepping for the next time they deploy.\nOne explosion not gonna do it? Then here comes another.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_171_bldsk": {
+    "name": "Combat Power Enhancement",
+    "text": "Dr. Warfarin believes that helping our operators quickly wipe out the enemy is a good way to reduce friendly casualties. \nHer deep understanding of blood gives her a wealth of special medical skill. Of course, as a battle-hardened veteran, Warfarin feels no need to participate in any simulation exercises. The way she sees it, she's only here to train the young operators so they can better adapt to her 'unusual' brand of combat medicine.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_291_aglina": {
+    "name": "Beyond Gravity",
+    "text": "As one of the top three most popular supporter operators among specialist operators, Angelina was surprised to learn of the existence of such a list, but is secretly quite pleased with her placement on it. \nWith their tacit understanding, the specialists can handle the enemy while Angelina prepares her Arts. Then, when the timing is right, she uses her powers to sweep away all threats on a large scale, all while using her gravity-altering Arts to allow her teammates to more effectively displace the enemy. \nShe'll work even harder in the next training session!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_355_ethan": {
+    "name": "Enemy Ambush Control",
+    "text": "Ethan finds avoidance of direct conflict a discipline worthy of deeper study. Why rush the enemy head-on when you have the element of surprise? \nChoose a good position, find the right time, then pop up behind the enemy with a 'surprise, assholes!' Then watch them stumble all over each other in a panic. It's actually lots of fun.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_181_flower": {
+    "name": "Floral Fragrance",
+    "text": "When Perfumer spreads her scents around the battlefield, it's not only the operators who get pelted with potpourri benefit. With every toss, the particles waft across the space with the scent, healing all the Rhodes Island Operators present.\nWhile the effect is no match for direct medical attention, it is a form of stable, continuous healing support. And it's saved many lives.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_107_liskam": {
+    "name": "Sword and Shield",
+    "text": "Liskarm employs a unique and powerful form of electrical Originium Arts. This, combined with her stable temperament and reliable defensive techniques, allows her to switch between offense and defense in the midst of combat. \nWhen working with teammates who favor offense, Liskarm creates an effective attack environment, helping them play to their strengths. \nWhen assuming an offensive role, Liskarm unleashes a devastating electric shock. Unfortunately, this power comes with a risk of physical exhaustion, so make sure to employ flexible tactics.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_340_shwaz": {
+    "name": "Flame Net",
+    "text": "A long-time mercenary, Schwarz is familiar with all features of the battlefield, such that she is able to provide specific instructions to other sniper operators to boost their effectiveness. \nIn addition, she has an understanding of the limitations of long-range weaponry, and an eye for locating an enemy's weaknesses. Her attacks always strike those weakest sections of an enemy's defense. \nLet her face the toughest target out there and she won't let you down.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_500_noirc": {
+    "name": "Brachistochrone Perimeter",
+    "text": "In real combat, thanks to his plentiful combat experience, Noir Corne can be readied in a snap, and help the commander establish a front in the initial moments.\nEven if the enemies' offensive comes to be too fierce, Noir Corne won't be flustered. He knows it best, after all: if he falls before his teammates, then he'll stand back up before his teammates too. Regardless of if it's the tip of the frontline or the very rear, he'll hold fast.",
+    "unlockCond": { "elite": 0, "lvl": 30 }
+  },
+  "char_155_tiger": {
+    "name": "Pursuin' in the Wind",
+    "text": "Under appropriate combat environments, Indra's mood can elevate beyond the norm, her fists accelerating to the point no enemy can put up resistance.\nArrange her teammates, force the enemy into confronting Indra, and let her go for a proper kind of showdown! Who cares about injury, that's not gonna stop her! Keep attackin'! Harder and faster! Under this mental force, her wounds even display signs of healing! Now this is a genuine fighter—Indra!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_333_sidero": {
+    "name": "Ceaseless",
+    "text": "As a longtime weathered mercenary, Sideroca's well-versed in coping with enemies and their attempts to pull her negative side out in battles of attrition.\nAs combat gradually turns white-hot, Sideroca's exceptional constitution and tempered gains will all come into prominence. Enemies will realize: no matter how they break through, no matter how they affect her, the Forte before them is still going to fight as bravely as ever.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_103_angel": {
+    "name": "Laterano Style",
+    "text": "Exusiai's good with one-on-many chaotic warfare, her guns as light and obedient as playthings in her hands. Moreover, what's lucky is that when she wants to break out and bust a major move, there'll always be people who can coordinate especially well with her.\nJust how fast can a Laterano who's gotten serious shoot? The test results will leave anyone speechless.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_141_nights": {
+    "name": "Victory from Jaws of Danger",
+    "text": "A great deal of harm entails a greater deal of danger. Releasing Operator Haze from her shackles demands extreme caution; her Arts can deal mortal blows to the enemy, but while casting, she'll inevitably be too occupied to consider her own injuries from the enemy. At these times, the nimble silhouette of Operator Gravel can help to draw some firepower away from Haze, winning her even more time to cast. Be flexible in response to the battlefield situation.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_143_ghost": {
+    "name": "Still Spirit and Bone Persist",
+    "text": "Specter is sure to satisfy the desires of her commander, splitting apart all hindrance with an unbridled mind for battle. In very many cases, Specter can accomplish missions close to pushing the limit alone. But afterwards, Operator Specter requires a period of tranquil rest. As well as this, one must be vigilant for threats she cannot tend to, such as aerial attacks. Please allocate sufficient backup support to her, so as to ensure absolute success in meeting the challenge.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_102_texas": {
+    "name": "Roll With It",
+    "text": "Texas is often one of the very first Operators to plunge into the battlefield. With the help of her abilities, we can construct our first defensive line and hasten conducting other Operators to their positions, her Originium Arts-suffused Sword Rain frequently able to impede enemies within a large range. Pay close attention to the battlefield, deploy her to an appropriate location, and she won't disappoint you.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_188_helage": {
+    "name": "Yet, I Went",
+    "text": "There has never been a coward who feared the frontline in the ranks of Ursus's generals; Hellagur exemplifies that to say the least. He is none other than an army—though he does not depend on Medics and long-range support, he may still rely on his own bloodsoaked valiance to stand unassailable.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_183_skgoat": {
+    "name": "A Line for Three",
+    "text": "Earthspirit does repeatedly stress she has nowhere close to enough talent for Arts, but she has sufficient ability to integrate her own knowledge with Originium Arts theory, and can in appropriate places apply Originium Arts to induce quicksand formation in the ground, troubling enemy movement.\nDoctor, we request that together with the formidable bounty hunter Skadi, you help her repel these headache-inducing enemies.\nShould you spend too long, she'll consider this as overtime!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_230_savage": {
+    "name": "Ha! Through to the Front!",
+    "text": "Keep alive on the way, fight back in dire straits. Through rugged mountain roads and low-lying valleys, Operator Savage makes full use of her own unique Originium Arts, able to prevail in adversity against the enemy.\nThis battle is constricted by the terrain's influence, severely limiting what support can be given to Operator Savage. You must formulate your plan prudently, pick the right timing, and you'll surely be able to turn the tables.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_179_cgbird": {
+    "name": "Impregnable Illusion",
+    "text": "On the battlefield, Miss Nightingale is not only an outstanding doctor, but also able to offer strong protection against the enemy's Originium Arts attacks to surrounding Operators, and can at necessary junctures create phantoms to draw fire.\nHave the Operators fight by Miss Nightingale's side. Do not panic; there is no need to fear. Trust in her, and once you do, once more, try to step just a bit closer.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_264_f12yin": {
+    "name": "Immovable as His Name",
+    "text": "Immovable as the mountains; this four-word phrase from Yan seems as if it was tailor-made for him. Place Mountain on the battlefield, and he'll strike awe into his enemies, just as an eternally insurmountable summit.\nThe more enemies there are, the more his value is magnified. Therefore, deploy him where enemies are forced to cross him, and he won't let you down.\nImmovable as the mountains; immovable as his name.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_281_popka": {
+    "name": "Chainsaw-Go-Round",
+    "text": "Popukar doesn't understand orders when they're too complicated. Arranging missions for her? Just tell her where to go, and leave everything else to her so she can shine. No, seriously, leave everything else to her. So long as the chainsaw's revved up, there's few out there who can beat Popukar. When we have to think hard for ways to stop her ourselves, who needs to worry about the enemy?",
+    "unlockCond": { "elite": 1, "lvl": 55 }
+  },
+  "char_126_shotst": {
+    "name": "Arrow Shower",
+    "text": "No matter where the enemy attacks from, Meteor will always be trailing them from afar. The first arrow, to shatter the enemy's armor. The second, to pierce the enemy's heart. Though the enemy comes relentless as the tide, Meteor won't be shaken, because she no longer needs to fight bitterly alone.\nMeteor, daughter of the forest, Rhodes Island Operator, ever prepared to loose her drawn bowstring.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_275_breeze": {
+    "name": "Cannon-Crossbow Circle-Net",
+    "text": "Before coming to Rhodes Island, Breeze had already worked out a multitude of ways to use herbal medicine. With rational application of these medicines, she can be effective in alleviating the many abnormal symptoms other Operators may suffer on the battlefield.\nEven though she doesn't understand combat itself, her belief in her reliable colleagues has never wavered. Facing the enemy's sudden offensive, she'll strive to do what she should well, without a hair of hesitation.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_213_mostma": {
+    "name": "Keeper of the Lock & Keys",
+    "text": "Mostima's enemies feel a sense of sluggishness while facing her, as if the tempo of their own time has been lowered, but we've never heard of an Originium Arts capable of interfering with time, and have never been able to find the secret within. This ability and her identity are just as full of enigma.\nRegardless, as a Caster, her worth doesn't stop there. Give her the ultimate stage, and give her a little time to prepare. When she pulls the other staff out, no matter how great her enemies are, they'll be dust on the wind.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_501_durin": {
+    "name": "Focused Cooperation",
+    "text": "To achieve ever better complementary results in missions, Op Team A4's training regimen will invite other Operators to join now and again, especially when focused on training Durin—the veterans will teach newcomers how to catch Durin when she's goofing off, and cleverly supervise her as she completes her own work.\nPlease be aware: to achieve effective training, give thought to deploying Operator Durin in the hardest place to slack.",
+    "unlockCond": { "elite": 0, "lvl": 30 }
+  },
+  "char_260_durnar": {
+    "name": "Hold Fast as Lightning",
+    "text": "Raising a firm shield and facing the enemy is only the first step. When to draw, when to ram, when to defend—every step requires consideration, and for Dur-nar, these considerations have long since become conditioned reflexes. As a soldier, she never feared standing against might nor skill, and as an Operator, she uses her shield to bring protection to others.\nHer blade is still keen as ever, her shield still as firm.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_237_gravel": {
+    "name": "Here, There, Everywhere",
+    "text": "As a fourth-order Kazimierz knight, Gravel possesses ample combat experience. Those familiar with Miss Gravel's capabilities will know they're perfectly suited for supporting teammates. Agile movement, substantial defense, precise enemy-pinning—all helping Gravel hinder and stall enemies alone, making more time for her teammates to adjust.\nMore than one tricky foe? No need to worry. The nimble, here-and-there Gravel won't allow the enemy any openings.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_017_huang": {
+    "name": "An Army of One",
+    "text": "Pressurize, pressurize, and pressurize some more. When assault-op Blaze is needed in a battle, you know there'll be no relaxing. Withstanding direct pressure, weakening enemies to the side, and then finding just the right moment to wipe out the opponent in one move!\nThat's Blaze's MO in a war situation, and the way she splits open a path to victory for her team.\nTrust in her, and leave it all in her hands. Relax, Operator Blaze doesn't let people down.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_123_fang": {
+    "name": "Cordial Cooperation",
+    "text": "Fang, day-to-day captain of her team, excels in mutual coordination with her squad, and with unexpected tactics both initiates an offensive and lays the defensive. When faced with fast-moving, hard-to-impede enemies, repeated obstructive tactics seem more effective still. At the same time, defense of key points cannot be relaxed. The combat environments may be complex, the enemies with tricks up their sleeves, but... when faced with being put to the test, Fang is determined to overcome.",
+    "unlockCond": { "elite": 1, "lvl": 55 }
+  },
+  "char_298_susuro": {
+    "name": "First Aid",
+    "text": "Professional doctor, first aid specialist, disaster response elite, a trust-inspiring Medic Operator... a few nice and shiny titles can't hope to prove anything. Only on the battlefield can you truly experience this short little Medic Operator's true strength. She is a watch posted at life's gate.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_474_glady": {
+    "name": "Dancing on Land",
+    "text": "There are no trenches on dry land, but Gladiia still rapidly adapts to this unfamiliar battlefield. All you must do is find a suitable position for her, allow her to dance by her will, and she will make light work of crushing volumes of enemies.\nWhat is more important is that Gladiia has retrieved her hunter. Face their dance of hand in hand; the puny Sea Terrors shall be crushed in the whirl, and the evolved Seaborn will find their next step difficult indeed.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_411_tomimi": {
+    "name": "Twotail Kombat",
+    "text": "'See that? It's just two people fighting, one Caster, one Medic. The big-headed Archosauria must be lucky—lucky Gavial isn't bothered to beat them up. Of course, that doesn't mean they'll be spared from the thrashing. After all, Tomimi fought her way to the position of Chief. If anyone doesn't listen, or even tries to throw hands, she'll come out swinging with that giant metal rod she's holding until they DO listen. That's the fine tradition of the Acahualla region.'",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_277_sqrrel": {
+    "name": "Extinguishing!",
+    "text": "After informing herself of the enemy info in advance, Shaw has shown up to this solo test with the underlying rules figured out and a healthy confidence.\nEmploy the firefighting equipment she holds, and give any enemies that approach a significant push! Take aim at the ones that all look like each other, ready—extinguish!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_209_ardign": {
+    "name": "Now Lay 'Em Down!",
+    "text": "As a Defender Operator, Cardigan keeps a close eye on her own physical state during a battle. Using her strong self-recovery ability to cover an important point by herself is no sweat!\nCardigan's solid defense is enough to give wise commanders ample thinking time, employing nothing but trap items to toy with the enemy in the palm of your hand.",
+    "unlockCond": { "elite": 1, "lvl": 55 }
+  },
+  "char_222_bpipe": {
+    "name": "Spear of Victoria",
+    "text": "As a former member of the Victorian Tempest Platoon, Bagpipe possesses outstanding assault and rush capability. Should the enemy be too much to handle, she may rapidly adjust tactics and put forth empowered means of attack and defense. Of course, being accustomed to fighting in a unit, Bagpipe will require help to hold the front when swarmed by multiple enemies.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_101_sora": {
+    "name": "All Ready, We're Heading Up",
+    "text": "Boosted morale can rouse the moods of squad members, leading to superior performance. As an active idol, Sora can apply her unique charm—her singing voice—to boost the morale of her squad, readying for a concerted offensive at the key moment. Raise your weapons, hold them high, attack as one, and drop the curtains on the opposition!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_282_catap": {
+    "name": "Anti-Air Artillerist",
+    "text": "Catapult's weapon lets her deal smoothly with enemy clusters. If the need arises, she can even pressurize her weapon, stepping her ammo's explosion radius up a notch. So long as she has squadmates who can tackle the occasional hard targets, she'll be ready to mop up the remaining marks with her cannon, nice and clean.",
+    "unlockCond": { "elite": 1, "lvl": 55 }
+  },
+  "char_283_midn": {
+    "name": "Blade of the Midnight Lord",
+    "text": "Quite a few Operators might find it hard to believe, but Midnight's swordsmanship really is as he describes it, 'both glistering and elegant.' When he earnestly takes the enemy, his swordhand can be overwhelming for those lacking Originium Arts resistance. Just have his squadmates draw the enemy to a position best suited to his offensive, and you can kick back and watch his show. Now, come and admire a blade's glint under the gorgeous midnight moons!",
+    "unlockCond": { "elite": 1, "lvl": 55 }
+  },
+  "char_204_platnm": {
+    "name": "Drone Filter",
+    "text": "We've invited Platinum to be our tester for an evaluation focusing on the efficiency of drones. She will fire at drones in a safe environment to test their anti-jamming and anti-damage capability. We presume that once a serious Platinum shoots every drone down, it'll serve as a pertinent and effective assessment of this batch of machines.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_128_plosis": {
+    "name": "Quantitative Treatment",
+    "text": "Based on the deployment of battling operators and forecast of enemy scale, Ptilopsis has completed a full assessment of this battle's required medical resources. Verdict: Ptilopsis can provide basic healing services to a majority of operators; in the addition of sudden pressure, Ptilopsis will autonomously determine the timing for use of Enkephalin. After this dummy run of the battle, Ptilopsis has confidence in ensuring all operators will return safely.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_196_sunbr": {
+    "name": "Battlefield Culinarian",
+    "text": "On cruel battlefields with no medical support, Gummy's impromptu emergency cooking serves as an optimal guarantee of operators' physical strength.\nNormally, Gummy's squadmates take charge of beating every comer, and what Gummy does is ensure she's always full of energy, guarding the point, not letting anyone pass!\nSummon your strength! Only enough food and drink can give you the energy to face the challenge!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_423_blemsh": {
+    "name": "Into the Breach",
+    "text": "Operator Blemishine and her sister Nearl are both classified as defender operators. However, with ex-competition knight Zofia's personal instruction, plus a tempering in the Major, Blemishine's combat style clearly has a stronger offense over typical defender operators.\nThat said, her treatment by 'self-sacrifice to shine on others' is just the same as her sister's.\nWith her at the front, you often only need to ensure her safety, and the entire frontline situation can be stabilized.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_215_mantic": {
+    "name": "See Her",
+    "text": "Manticore always seems to endure battles on her lonesome. Her enemies don't know where she is, and her squadmates don't either. Despite her inability to effectively communicate, when the deadly machines of war come a-rollin', whether fanged blades, overwhelming force, or a storm of Originium Arts, the silent killer uses but one precise strike to dodge.\nIt amazes everyone, seeing her poison edge wielded so much more fluent and firm than her words.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_240_wyvern": {
+    "name": "Farewell Fragility",
+    "text": "As a Rhodes Island operator, Vanilla's always charging at the battlefield's frontmost line.\nWithstanding the pressure of the front to buy other operators time, this staunch Vouivre soldier never lets her squadmates down. But: only when facing enemy Originium Slugs and the like, does Vanilla hesitate. In response, Instructor Dobermann's readied a harsh drill for Vanilla, so that she can be aware in the critical moment, on the battlefield, that she has more important things to protect.",
+    "unlockCond": { "elite": 1, "lvl": 55 }
+  },
+  "char_172_svrash": {
+    "name": "A Look of Disdain",
+    "text": "Many are willing to fight at the head for the Snow Realm's master, but this doesn't mean he won't himself fight. On the contrary, when he takes up arms, his enemies quake in response.\nVulgar ambushes have no meaning in front of him, and to confront the fools who try to win in numbers, what you must do is utterly simple—buy him time.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_174_slbell": {
+    "name": "The Blizzard is Nigh",
+    "text": "When Karlan's bell tolls, the blizzard is nigh. While conspicuously lazy in her off-time, when Pramanix hits the battlefield, the might of the mountains in a millennium's solemn towering of ice and snow are called by her soft prayer. The bitter cold shelters its tenacious people, and the weak intruders will fall in the end.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_173_slchan": {
+    "name": "Corniche Ambush",
+    "text": "A qualified mountaineer carefully chooses the safest route before they leave, but the enemies Cliffheart must handle clearly lack that awareness.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_199_yak": {
+    "name": " Still as a Peak",
+    "text": "No matter how blizzards wreak their brutal havoc, they cannot move the great land. Matterhorn, named for a mountain peak, possesses the resolve to stand the same ground, even if it crushes every bone and sinew. Only with his shield up and guarding in front, do we have a hope of reversing this situation.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_437_mizuki": {
+    "name": "Paradox of Evolution",
+    "text": "The mere existence of some beings already serves to mock the 'science' a portion of humanity is so confident in.\nThe center of a simulated battlefield is equal to a no man's land, and Mizuki never fears being pincered in any form. You might say he's very happy he can help more good people, and, of course, deal with more bad ones. In this maze he lays together with you, ensnaring as the moon in the water, even the unstoppable sand beasts can't escape his cage, or flee his control.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_195_glassb": {
+    "name": " Eye of the Storm",
+    "text": "Should you read word by word or fly through lines at a time? It's not a question worth vying over to Istina. The battlefield is just the same; as long as you give her suitable conditions, she can set off a storm of Arts all around, leaving the enemy inside with nowhere to run.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_192_falco": {
+    "name": "Nimble Wings",
+    "text": "The times she leads a charge into the battlefield aren't down to her sufficient agility, or adaptive capacity, but just because she reckons it her responsibility to scout battlefield information for her squadmates, winning time to act. And when she has to retreat, she'll leave the battlefield immediately, never having thought to share in the feat of her squadmates' final victory.\nHer dream isn't to become a hero; she simply wants to protect others. However, what is it the commander surveying the whole scene sees?",
+    "unlockCond": { "elite": 1, "lvl": 55 }
+  },
+  "char_2014_nian": {
+    "name": "'Dusk Ridding'",
+    "text": "Nian and Dusk's sisterly relationship isn't as simple as good or bad. Indeed, the two's personalities just don't quite mesh. One's calm and understated, one's casual and boisterous; she says the other's 'all style, no substance,' she says the other's 'up on cloud nine.' The real crux, no surprise, is that Nian loves spicy stuff, while Dusk can't handle it in the slightest. Usually, it seems neither takes to the other. If you're asking when the two ever feel like actual sisters, the answer is, of course—when they fight.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_241_panda": {
+    "name": "A Fist Brushing Past Your Face",
+    "text": "Don't you doubt a single move or style she busted out on camera; they're a whole lot more than just kung fu for the movies. Nobody knows it, but whether at stage front or behind the scenes, she's never slacked on training for a single beat. Nor is anyone going to ask how many times you must drench your clothes in sweat before you can finally equip those megaton gauntlets. Careful—it'd better not be your cheeks her fists are breezing over.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_308_swire": {
+    "name": "Money Rules Everything",
+    "text": "Miss Swire's able to sort out many a trouble with her own wisdom.\nThis 'wisdom' is formed of: command, tactics, combat skills, and... money.\nThat's right—the power to put money to good use is a wisdom all of its own.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_010_chen": {
+    "name": "No Retreat",
+    "text": "Ch'en always puts herself on the frontlines.\nAt first, her colleagues thought she was foolhardy, and believed themselves proven right when she paid a price for it. Once she learned to wield Chi Xiao properly, however, they began to make way for her of their own accord,\nboth because they do not want to get caught in the blade's wake, and because they know that when Ch'en says she can do something, she will not rest until it is done.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_1013_chen2": {
+    "name": "High Ground",
+    "text": "Ch'en does not hesitate to use guns. This does not mean she lacks trust in Chi Xiao and her own swordsmanship, only that she understands the need to expand her horizons without giving away the bottom line.\nWhen facing a large host of enemies, one would do well to put as much trust in her gun as her sword.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_455_nothin": {
+    "name": "Way of Life",
+    "text": "Mr. Nothing describes his martial arts philosophy as follows: 'Free and flee.' When asked for tips on tactics, his answer is always to run away.\nFrom another perspective, he solves most problems with nothing more than an umbrella and a fan, always emerging unscathed.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_272_strong": {
+    "name": "Fruit of Hard Work",
+    "text": "A good fishmonger must be skilled with a knife, able to gut even the strangest fish; be well versed with ingredients, knowing how to preserve their natural taste; and be lithe and agile, in order to avoid any trouble that might arise in their mongering. If trouble cannot be avoided, the least they can do is not make a mess of their stall.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_106_franka": {
+    "name": "Hot Knife Through Butter",
+    "text": "Franka is trained to find the enemy's weakness.\nArmor has no meaning when facing her.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_117_myrrh": {
+    "name": "Bitter Medicine",
+    "text": "She brings not just bitter-yet-effective medicine, but care and concern for every operator on the battlefield, praying for their safe return.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_149_scave": {
+    "name": "Lone Wolf's Plot",
+    "text": "Assassins like Scavenger typically work alone. Her style of charging into the fray with a greatsword does not lend itself easily to working with others, but she has discovered surprising combinations after coming to Rhodes Island.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_243_waaifu": {
+    "name": "Banish Evil",
+    "text": "Waai Fu has no qualms about dangerous missions, given that they're for the proper cause. Her agility lets her enter the fray, strike at dangerous foes, then pull out. Few, however, know of her crippling fear of ghosts and certain bugs.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_336_folivo": {
+    "name": "Faceoff",
+    "text": "If physical challenges can be overcome by machinery, then it is Scene's strong heart that allows her to face the battlefield head-on.\nPlus, there are wondrous sights that can only be seen there.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_348_ceylon": {
+    "name": "Still Waters Run Deep",
+    "text": "Ceylon's research had nothing to do with the battlefield to begin with, but it seems that because of her tendency to put herself in others' shoes, all she ever has on her mind is how to save and protect even more lives. She may have left her homeland a long time ago, but the Siestan tides yet surge in the words she writes in her thick notebook.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_235_jesica": {
+    "name": "Trembling With Fear",
+    "text": "Aim at the flying target, control your Originium Arts and fire, and drop smoke to protect yourself, just like all the drills she participated in at Blacksteel. Jessica is always especially nervous before sorties, but her colleagues know that she will do everything just fine during the mission.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_301_cutter": {
+    "name": "\tBlade of Loyalty",
+    "text": "When she used to be a merc, Cutter never violated her three principles even once, and ever since she joined Rhodes Island, she naturally hasn't defrauded or trafficked anyone again, much less killing the innocent. On the rare occasion she causes any damages during her missions, Rhodes Island is always there to deal with the aftermath, too. In that case, Cutter only has one principle left—Never let an enemy get away. Trust her blade. You won't be disappointed.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_436_whispr": {
+    "name": "Soothing Heartaches",
+    "text": "With her frail body, Whisperain traveled through many regions of Terra and saved many from their adverse environments. At the same time, she also had to rack her brains to protect herself from the sandstorms, severe cold, and blazing heat. Now, she puts her experiences and Originium Arts to the test and works as a first responder on the battlefield, even if the roaring cold winds and the enemy's Originium Arts explosions force her to ever so briefly close her eyes.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_378_asbest": {
+    "name": "Patience!",
+    "text": "In Asbestos's eyes, after her countless adventures, she can now take care of certain crises easily by herself. Which is why Asbestos also thinks that some of Rhodes Island's training isn't primarily meant to train her skills and techniques, but rather her patience. She just wants this endless stream of enemies to all disappear before she finally loses it and yells at anyone.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_278_orchid": {
+    "name": "Mind at Peace",
+    "text": "Ever since she started to lead the Operations Reserve Team A6 on field missions, Orchid hasn't been as hesitant about working overtime than before. After all, emergency missions don't come in on a regular schedule like office paperwork. After she got woken up by late night urgent calls a couple times, she started to face all this calmly. If she could have just five more minutes before the mission, she would even have given herself a full face makeup before showing up in front of her teammates.",
+    "unlockCond": { "elite": 1, "lvl": 55 }
+  },
+  "char_226_hmau": {
+    "name": "Lump of Gold",
+    "text": "Not everyone is willing to trust someone like Aak to back them up in battle, but Hung has no such reservations. Hung always treats others with sincerity, and his family with love and care, doing all he can to protect them. How could anyone not like him? How could anyone not trust him?",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_253_greyy": {
+    "name": "Flickering Meander",
+    "text": "Memories linger in Greyy's mind, taking horrifying shapes and latching onto his consciousness. The only thing he can do is hold his staff, lighting a spark in the endless darkness. The light drives away the fear and illuminates the friends behind him. Whenever he breaks free of a nightmare through his own effort, the courage brought on by that little spark is enough to carry him through even more challenges.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_263_skadi": {
+    "name": "Pure Power",
+    "text": "Those who refuse to work with others often overestimate their ability, but not Skadi. The foe is doomed to fall before her sword, no matter how powerful they are.\nTrust her to deal with foes that are too much for normal people. The name 'Abyssal Hunter' may be unfamiliar to most, but anyone who has seen Skadi fight knows that it means pure strength.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_346_aosta": {
+    "name": "Scattered Pieces",
+    "text": "As one problem is taken care of, another emerges. Aosta is used to planning several steps ahead, helping him deal with the trouble that catches his teammates by surprise. That habit comes from his own personality, as well as the influence of his friends. The foolish rarely live long in Siracusa.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_363_toddi": {
+    "name": "Rain of Fire",
+    "text": "Operators know better than to provoke Toddifons. This does not mean she is hot-tempered; she simply does not care what other people think, following the guidance of her own heart. She would rather tear down a building than waste time thinking about personal relationships.\nToddifons does not hesitate when she has to strike, reducing her foes to cinders with arrows from the sky. Watch out! Here comes the Rain of Fire!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_134_ifrit": {
+    "name": "We've Got Each Other's Backs",
+    "text": "Every child has drawn secret pictures of the way they'd like to be in future, but Ifrit found that person in the flesh a long time ago. She's the child's hero, the safe harbor, the person she strives to become—or even surpass.\nAnd in this moment, she's secretly thrilled to fight alongside her shoulder to shoulder, and every part of her hopes to be the greatest someone who ever had that person's back.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_108_silent": {
+    "name": "Total First Aid Coverage",
+    "text": "A cavalcade of operators are happy to take on combat assignments with Dr. Silence, and all the more so when headed far into craggy, rugged field terrain. In addition to her consummate healing hand, Dr. Silence can fly drones to positions where Medic Operators typically can't carry out first aid, letting her administer timely and effective treatment to those operators in treacherous situations.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_129_bluep": {
+    "name": "Poison Bone-Deep",
+    "text": "As a toxicology specialist, Blue Poison has a unique knack for mixing toxins. Her poison-tipped bolts must surely be the stuff of enemies' nightmares in battle, extended harm being a great effector of diminishing enemy combat power. You may wonder about allies—do not doubt her loyalty one bit in that regard. Not to mention, just on the off-chance, she always has antidotes prepared for everyone.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_293_thorns": {
+    "name": "Help's Here, Want It or Not",
+    "text": "Thorns has worked out the speed of his own swordsmanship before, and he's estimated the skill of the enemies he's about to take on. His final verdict is that he can deal with this group alone, and thus he's refused any reinforcements.\nNo need to worry, though. When the moment strikes, there'll be someone to lend him a hand.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_415_flint": {
+    "name": "Faster! Stronger!",
+    "text": "Tiacauh warriors are well-versed in the idea that combat calls for seizing terrain that favors you. Even if she's been away for a while, she still knows every corner of the rainforest inside and out.\nAll she's got to do is pummel faster, and no foe trying to enter her home gets past her!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_365_aprl": {
+    "name": "Hunt to the Beat",
+    "text": "April's got her own rules for jungle survival. First, wait for the right moment, watch how things pan out, cover your breathing, and always strike first. Next, be flexible, adapt, keep switching up your position, and never panic no matter the jam you're in. Lastly, no putting music on during the hunt, but you <i>can</i> hum a tune to lift your teammates' spirits.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_469_indigo": {
+    "name": "Bleaklight, Riddlelight",
+    "text": "If the reefs and wuthering waves are the bed that deranges direction, then the beam from the lighthouse is the lantern that answers the riddle. As you take in more of these rays shining upon the midnight tide, it's hard not to respect the lamp that shows the way by them. But the lives long wandering to and fro 'twixt darkness and glowing stream—to where do they go?",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_440_pinecn": {
+    "name": "A Moment to Recharge",
+    "text": "Every worker's got a knack, and setting them up with the right post will put their abilities to the max. But without enough hands on deck, the pressure on the current crew only gets stronger. So! At least take a break before you're back on the clock. Get you enough energy to make your shift a good one!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_248_mgllan": {
+    "name": "Unlimited Scientific Works",
+    "text": "Technology is a researcher's weapon. Word of warning, don't underestimate the lady before you—she's not flying solo.\nShe's got capable assistants at her back, crystallizations of knowledge, each and every function derived from a tale of personal risk, enough to carry her forward ever further.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_163_hpsts": {
+    "name": "Hold",
+    "text": "She's a smith of few words, but not of little strength. She forges weapons that ensure their wielders are safe, and she stands herself at the very front, withstanding every attack the enemy throws at her, up close or from afar.\nOn the battlefield, no amount of words can reassure as much as a back stood firm. Trust in her ability, and offer your powers for her and the things she does.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_166_skfire": {
+    "name": "Heavens Ablaze",
+    "text": "Skyfire takes pride in her abilities. Nothing can escape the inferno she controls, and all boils down to her whim. Not to say she's a capricious person, however—after learning again and again how there's far too much that no flame can burn away, she's decided to stop pondering just what she ought to be doing. Since then, she's discovered something even more capable of scorching filth to cinders than flames—her intelligence.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_137_brownb": {
+    "name": "Round-Robin Rumble",
+    "text": "Out of the ring and into the battlefield, Beehunter's valiant fists care little how out of place she is. A successive enemy onslaught with blades from all directions mean exhaustion's never far behind, but every deeply stubborn bone in her tells her to hold the line firm, and never back down. Once everything's over, do the right thing and throw her an ice-cold towel—we're sure her weary face will break into a smile.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_115_headbr": {
+    "name": "Rally to Solidarity",
+    "text": "Zima will forever dare to charge first into the breach, not only due to her personality, but even moreso thanks to her faith in her friends. She trusts them to always be with her, as they deal with any and all problems they face.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_127_estell": {
+    "name": "A Position to Keep",
+    "text": "Reunion has caught wind of this makeshift medical camp being guarded by an unarmed Archosauria girl, and has since dispatched a large number to raid it. Rope has returned from recon with word of the inbound enemy, but... there won't be reinforcements for this battle. The few triumphing over the many may seem the stuff of legends, but perhaps Estelle <i>can</i> withstand the enemy tide, and defend this camp together with Rope. Put your faith in them.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_258_podego": {
+    "name": "Unbeaten Path",
+    "text": "Podenco had no real time to consider how the gloompincers would take to the spores assaulting them. The leaves billowed, light flickered down through the forest, and in they drew. She took a deep breath, and shut her eyes. The sounds of the gloompincers' claws ruffling against the ground seemed to fade. She heard... the flowers speak. 'You rascals. This'll teach you to underestimate the power of plants.' And Podenco opened her eyes, and held the staff high in her hands.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_400_weedy": {
+    "name": "Ready and Prepared",
+    "text": "Getting maximum heft out of a reserve water cannon demands precise control over attack initiation timing, and the experience Weedy's gained through scientific experimentation has assuredly given her the advantage on this front. Familiarization with battlefield environments has been an essential undertaking for Weedy, to improve her grasp of enemy attack routes and water flow orientations—which she's got quite the handle on by now. 'Everything's ready.' Aim at the weakpoint, mouth the words, count down, fire! —That's when the enemies' cries suddenly vanish, and all is the sound of the waves surging past the trees without end.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_422_aurora": {
+    "name": "Fear No Cold",
+    "text": "Aurora knows the feeling of the cold like nobody else, to the point she can continue to work completely unaffected in low temperatures the typical person could never even bear. This ability that sets her apart is hardly natural-born; it's something she's gained from time after time spent striving, training—if one day she wants to be able to protect her own home, protect Kjerag, then she can't fall short in any place that might ever need her. And striving, well, there's no better way than that to make it a reality.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_388_mint": {
+    "name": "Come On, Then, You!",
+    "text": "As a geology researcher, throughout the course of her on-site investigations, Mint has gradually picked up on a few practical tricks for making use of reasonable terrain to dispatch danger. When you're surrounded by a huge crowd of enemies, don't panic, get ready to cast, and find just the right time and place—now! Come on, then, you!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_452_bstalk": {
+    "name": "Together We Thrive",
+    "text": "Whether training Metal Crabs or taking them on missions, Beanstalk always keeps in mind her most important baseline rule: always ensure the Metal Crabs are safe. No matter how complicated the terrain or how troublesome the opponent, Beanstalk will place the Metal Crabs' safety first, even turning a blind eye to her own hazardous position at times. In these times, the Metal Crabs will reciprocate with an equal love and care for their breeder, not letting her suffer so much as a nick of harm.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_201_moeshd": {
+    "name": "An Almighty Blow",
+    "text": "When meeting Croissant at first, people are always surprised at the sheer sense of might her slender frame hides. Express delivery runs see her carrying a dozen-plus heavy crates solo with ease, and likewise on the battlefield, she can hold off numerous hulking enemies on nothing but her own power. However, when together with friends, she always keeps her strength in check for a nice soft hug.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_478_kirara": {
+    "name": "Optimal Partner",
+    "text": "Kirara certainly likes to be alone, but that's not to say she's alone even on the battlefield. Keeping a comfortable distance from her teammates means she needn't concern herself with enemies she hasn't the spare time to cope with, allowing her the peace of mind to put her own powers on show to the maximum.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_1014_nearl2": {
+    "name": "Unsheathed",
+    "text": "Nearl regards not her title of 'The Radiant Knight' as her glory, but knows too well how this appellation, 'The Radiant Knight', this symbol, has stirred countless people to keep struggling for their own ideals. Hence, she wills to be honored by this expectation, by this acknowledgment, and still she stands at the forefront of the road she travels, to break through all that fetters.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_426_billro": {
+    "name": "Harvest",
+    "text": "While saving her strength, Carnelian is also paying close attention to the enemy's movements. Where are their forces gathered? Will she take advantage of the greater number of combatants on her side and attack?\nWell, they arrived at just the perfect time. Carnelian is not one to spare any hostiles she's set her eyes on. Now that they're here, they're all staying.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_252_bibeak": {
+    "name": "Certain Victory",
+    "text": "Bibeak's swordsmanship master once cautioned her that, when flustered, she must be firmer than ever and focus her attention on both the tip of her sword and her enemy to land the decisive blow at her foe's moment of weakness. Bibeak thinks her hobby, sewing, has many similarities to swordsmanship. Both require the same level of attentiveness, and the thinking that one requires can help her further understand the other. Each of her swordplay techniques is as fine and meticulous as stitching, as though she is weaving a vividly colored rug that leads to victory.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_402_tuye": {
+    "name": "The Shade Beneath the Umbrella",
+    "text": "Owing to her excellent adaptability, the busy Tuye can often be found on the frontlines of the most precarious battlefields. Although she is likely to mock those who get hurt during combat, not a whole lot of operators express dissatisfaction over this. After all, on these battlefields abound with dangers, it is the shadow cast by her umbrella held high that shields them from the scorching heat and bloodshed, and clears the path forward to victory.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_344_beewax": {
+    "name": "On the Reef",
+    "text": "When fighting in the familiar desert environment, Beeswax is able to put the Originium Arts she's mastered to great use and defeat her foes. Still, sometimes she gets deployed to environments completely foreign to her. That said, after a brief moment of panic, she is always able to calm down. After all, even away from the golden sands, she remains graced by the gods' protection.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_449_glider": {
+    "name": "Emergency First Aid",
+    "text": "'Miss Honeyberry's always there with a 'whoosh' by your side to treat you.' When newcomer operators hear this, and connect it to their having seen Honeyberry jump down from up high as light as a feather, they're hard-pressed not to take it as the whole truth—she's not specifically done so yet, but Honeyberry herself isn't in a rush to refute it either. After all, if emergency calls one day, it's not like she can't actually do what she does in the rumors!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_433_windft": {
+    "name": "Behind You, Supporting You",
+    "text": "When in combat, Windflit knows the more ferocious enemies are beyond him to handle. His job is to provide support for his squadmates, letting them exhibit their combat abilities all the better.\nOf course, when it's in his power, his machine assembly tools in peacetime get taken up, and he throws the enemy a snarl—so, still coming closer?!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_4040_rockr": {
+    "name": "Create the Advantage",
+    "text": "The Londinium Citizens' Self-Salvation Corps know the city like the backs of their own hands. The streetways and underground alleys are a given, but everything down to abandoned passages finds use in their hands. It's only natural, as a member of the Corps, that Rockrock knows all the same tricks.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_496_wildmn": {
+    "name": "Flank Protection",
+    "text": "On the battlefield, Wild Mane never rushes ahead. With her unique shelled lance, she can guard her allies' flanks and keep the most troublesome enemies from reaching the battlefront.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_401_elysm": {
+    "name": "The Target's Over Here!",
+    "text": "Although Operator Elysium is often active in the battlefront, he is actually not very suited for intense direct combat.\nHowever, that does not mean we should underestimate this experienced operator. When deployed to a suitable location, and given the right opportunity, he will put his keen observation and outstanding Originium Arts to good use by finding and locking onto all hidden enemies, and directing the entire squad to fire in the most effective direction.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_219_meteo": {
+    "name": "Sniper's High Ground",
+    "text": "As a seasoned mercenary, Meteorite possesses highly effective lethal techniques and is capable of quickly determining the most suitable ambush point prior to battle, lying prone for extended periods of time to patiently await her objective, and neutralizing the enemy with high precision from afar. When she has the cooperation of her allies, her abilities truly shine and become the key to victory.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_284_spot": {
+    "name": "Drawing Fire",
+    "text": "As a Sargonian warrior, Spot can take on much of the enemy's firepower with the aid of medic operators, and can also create a safe striking space for others with his basic healing abilities. Some people tend to forget this fact, but Spot himself doesn't mind so much.",
+    "unlockCond": { "elite": 1, "lvl": 55 }
+  },
+  "char_274_astesi": {
+    "name": "Twinkling Like Stars",
+    "text": "Astesia's Originium blade enhances her attacks with Arts-like effects, and when paired with the special swordplay she has practiced for years, she can gain the upper hand against even the trickiest foes. With advantageous terrain and the help of her sister, she will attempt to claim victory in this combat experiment that Rhine Lab invited her to participate in.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_486_takila": {
+    "name": "Beach Vacation",
+    "text": "No matter how precarious the battle's situation, Tequila will never cease to smile. He is able to adapt to a wide variety of complex dangers on the battlefield without losing his cool. Influenced by his calm demeanor, his teammates are all able to quickly regain their composure and immediately continue with the battle.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_110_deepcl": {
+    "name": "Battlefield Charting",
+    "text": "It's hard to say for sure how this lone painter feels when she faces the Seaborn. However, after a brief moment of hesitation, she lifts her hand with brush in tow, seemingly having made up her mind. The paint on her palette splashes toward the battlefield, and her 'assistants' begin to appear on her painting one after another. The painter keeps bravely raising her hand toward wheresoever her enemy appears.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_484_robrta": {
+    "name": "Emergency Touchup!",
+    "text": "Although full auto-modelers can apply makeup completely without human intervention, when deployed in complex battlefield environments, their operators must still make the proper adjustments to all the variables based on the needs of the terrain to make best use of them. As long as they have been fine-tuned by Roberta, her full auto-modelers will always be deployed to their fullest.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_479_sleach": {
+    "name": "Front of the Line",
+    "text": "After leaving County Hillock, Saileach also left her squad. All the honor and glory she had obtained were abandoned in that place of grief. But the direction she had set on and the target she longed to protect became clearer and clearer the moment she turned to leave.\nPerhaps deep in her heart was the belief that she was still a soldier, and in her own battles she will still choose to stand and fight.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_133_mm": {
+    "name": "'Don't come any closer!'",
+    "text": "As we all know, a great detective may not be a good fighter, but he always has a way to intimidate the suspect in front of him.\nThe Great Detective May then showed us her method—of course, this was just one of many, and one of the simplest and least technical.\nOnly that we witnessed May pulling out a taser, pointing it straight at him and shouting 'Hands up! Not another step forward! I have evidence of your crimes right here!'",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_185_frncat": {
+    "name": "All Ten Fingers",
+    "text": "Mousse has always felt inferior because of her hands, and she would always hold her hands tightly behind her back when speaking to her teammates.\nUnbeknownst to her, her hands never made anyone uncomfortable. On the contrary, the sight would fill their hearts with glee.\nAfter all, who wouldn't be pleased to see the enemy's armor being reduced to a mere scratching board underneath her digits?",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_332_archet": {
+    "name": "Aiming Ever Further",
+    "text": "Whether it was learning archery from her father or combat skills in the monastery, Archetto would always hold herself to a high standard to hunt more animals and uphold the monastery's reputation. When she left the monastery and saw just how vast the land truly was, Archetto realized how much more significance her arrows could carry. Draw the bow, use all your strength, and after taking aim at the target, raise the arrow in your hand a little higher and it will fly even further.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_2023_ling": {
+    "name": "To Have and Not",
+    "text": "Toss a goblet to life, and the brush comes alive on paper. Bring all those who create, and need not explain. Just recall the insobriety of then, the empty jar of wine, the lost drive to write, and that is all.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_489_serum": {
+    "name": "Bravely Advance",
+    "text": "Did you really think you could quickly achieve your goal just by stubbornly dashing in a straight line non-stop, just like this?",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_304_zebra": {
+    "name": "Indecisiveness",
+    "text": "This time, I'm standing here? Did I... really make the right choice?",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_2015_dusk": {
+    "name": "Keep Calm and Stay Cool",
+    "text": "Haphazardly splashing ink everywhere when in turmoil is most probably a waste of effort and time. And for someone like Dusk, it was even more troublesome to sort out her messed up paintings. But coincidentally, there were two uninvited helpers whom she was inexplicably familiar with, and she was no longer in the mood to snap at them.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_225_haak": {
+    "name": "\tJust Take Your Medicine",
+    "text": "Aak would always dispense mysterious medicine to the most anxious operators on the battlefield. After ingesting them, their fighting prowess would momentarily and substantially boosted, and victory came easy. But the side effects also made everyone who took them suffer, some would doze off, some would have their hair curl, and some would always get the taste of durian out of their mouth.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_322_lmlee": {
+    "name": "Money-making Expert",
+    "text": "It is very worthwhile to ask someone like Lee to help you out, for no matter how big or small the task, he is sure to leave you satisfied. The price may be high sometimes, but if you have the time to chat with him about everything under the sky, and also savor a few cups of exquisite sweet tea with him, he may offer you a small discount.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_473_mberry": {
+    "name": "\tCompatriots",
+    "text": "Even when surrounded by her Yanese compatriots with no language barrier between them, Mulberry is still the quietest person in her group. But there's no need to worry about missing her during dispatches, for her confidence in her expertise at finding a safe way out is unparalleled.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_476_blkngt": {
+    "name": "Little Buddies",
+    "text": "Blacknight understands just how important it is to have trustworthy partners living out in the wilderness. It's true that having outstanding abilities will let you survive in the harsh environment for a while, but the real difficulty is surviving loneliness.\nAnd everything out here is hard to come by, water, food, medicine... and companions.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_492_quercu": {
+    "name": "As Things Should Be",
+    "text": "May this great land forgive the sacrifices of the fearless, and let life grow evergreen.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_338_iris": {
+    "name": "\tFairy-tale Wish",
+    "text": "May every child, no matter how old they grow or how far they go, be able to pause momentarily and recall the fairy tales they heard when they were young.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_349_chiave": {
+    "name": "\tGenius Commander",
+    "text": "Chiave can not only make quick repairs and modifications to Rhodes Island's support robots, but also even increase their operational efficiency. While most of the Engineering operators believe that his technical expertise has let him establish some sort of efficient human-computer interaction, Chiave attributes it to his own genius and claims that one day everyone else will be able to benefit from it as well—although his two best buddies would never admit it.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_300_phenxi": {
+    "name": "Afternoon Time",
+    "text": "Fiammetta lives up to her Lataran roots when it comes to enjoying desserts. She rarely admits it, but partaking in a delicious soft serve is certainly the ideal way to spent a leisurely afternoon in Laterano.\nOf course, it would be even better if the target she's meant to supervise didn't get her into trouble, and the streets were free of unapproved explosions.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_4055_bgsnow": {
+    "name": "To Write Of Sorrow",
+    "text": "One of the reasons Pozëmka doesn't like walking around bright and sunny Zeruertza with her crossbow in tow is because the way she easily lifts her weapon with one hand looks extremely out of place among the Durin.\nHowever, when she paces back and forth with her crossbow in a deserted open field while contemplating her manuscripts, she is usually facing her nightmares alone.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_343_tknogi": {
+    "name": "Protection",
+    "text": "Tsukinogi is quite popular. Many operators are happy to travel with her in the field, listening to her ramble about her interesting experiences as a Catastrophe Messenger, or her strange and little-known stories of Higashi.\nBut not many know this: Tsukinogi's abundance of travel buddies is not solely due to her personal charm. It's also from the way she shows up on the battlefield: the light that pours from her staff protects each and every one of her companions from harm.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_383_snsant": {
+    "name": "Efficient Pest Control",
+    "text": "'Still struggling with Originium Slugs slithering around? Try Snowsant's Electric Net—no matter what it is, if it explodes, if it smells, if it freezes people, or even splits itself into smaller ones, you can catch them all at once!'\n—A poster Vanilla chanced upon in the corridor",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_366_acdrop": {
+    "name": "Marksmanship Mentoring",
+    "text": "People generally have the impression that a lightweight hand crossbow doesn't have the capacity to be lethal. However, in the hands of a skateboarding Aciddrop, the weapon is sure to hit the enemy's weak spots, devastating even heavily armored foes.\nYounger operators often seek her out to ask for marksmanship lessons, and she has never refused. But no matter how fast or slow a learner they are, or even if they go to her for advice and end up even more confused than before, her lessons always end with fried onion rings.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_325_bison": {
+    "name": "Fighting With Friends",
+    "text": "Bison and his friends from Penguin Logistics form an unbreakable frontline on the battlefield. While it's true that each of them have their own specialties they use in combat to make things easier for themselves, the real reason why their line of defense is impregnable is because of their shared experiences: some bizarre, some ludicrous, some thrilling, and some even heartwarming.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_254_vodfox": {
+    "name": "Little Terror",
+    "text": "Shamare uses fear as a means to protect herself, and treats Morte as her only companion.\n—Of course, since arriving at Rhodes Island, she's no longer been alone with Morte in tow.\nDon't be afraid of her; the ones who should be afraid are her enemies.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_265_sophia": {
+    "name": "Personalized Lessons",
+    "text": "Helping others find their own style of fighting is not an easy task. Not only do you have to help them find their strengths and adapt familiar techniques to their advantage, you also have to make them understand their enemies and environments. Zofia is undoubtedly well-known for this amongst all the instructors, regardless of whether her students are the daughters of the Nearl family or Rhodes Island's operators.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_328_cammou": {
+    "name": "Machine Assistance",
+    "text": "Even for an outdoor videographer of some fame like Click, good shoots and postproc hit the wallet hard. Still, Rhodes Island's Engineering Department doesn't just do her drone repair for under half the price, they throw in a bunch of refits and remodels too. Sure, she feels a little awkward taking advantage of it, but hey, if kits this cheap AND functional is a perk of sticking with the firm, then that sounds fair to her!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_4042_lumen": {
+    "name": "A Shimmer in Stormy Seas",
+    "text": "Whether a care worker at Gran Faro, an Inquisitor for Iberia, or a Rhodes Island operator, Lumen has always done every last thing he can to provide support and aid to his companions. Perhaps it is precisely the sight of that lantern, undying in the most tempestuous storms, which allows us to set aside the barriers of region or race, and trust him with all our heart and soul.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_294_ayer": {
+    "name": "Defensive Prowess",
+    "text": "Even in the most hostile environments, Ayerscarpe has never failed to unflinchingly carry out his duties. An original combat style is far from the only method he has to clear the way—being a professional bodyguard, he knows just as well how to display his own abilities in a team operation.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_373_lionhd": {
+    "name": "Forces, Deconstructed",
+    "text": "As a highly seasoned Catastrophe Messenger, Leonhardt's intimately familiar with sweeping the message's path clean of all obstacles—first you find high ground with open visibility, then he can unleash his 'Detonation Arts' on all in front of him without fear or restraint. What? What about behind him, you ask? Don't worry, there'll always be someone to swiftly dispose of the enemies who think they're so smart.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_4063_quartz": {
+    "name": "No Return",
+    "text": "No matter the challenge or the danger, or how thoroughly she's surrounded, the Quartz today will never waver or hesitate again. Bring it!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_4048_doroth": {
+    "name": "Rebuild It, Dorothy",
+    "text": "Uninvited guests tear down brick walls and raze the fields, and Dorothy is patient as she draws them into her trap. She will never allow anyone to harm her friends. Now look back, quick, for there's still room to redeem it all.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_4071_peper": {
+    "name": "'Don't Touch My Friends!'",
+    "text": "On the battlefield, Paprika always takes it upon herself to look after every companion of hers. Even if her power falls short at times, she'll never let even a single compatriot fall by the wayside.\n'Of course I'll save you! Because we're friends in this together!' says the young Sarkaz.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_379_sesa": {
+    "name": "All-Out Attack",
+    "text": "Sesa's journey has been at times lonesome, faced with all manner of danger in all forms of flux, nipping at his heels. Even still, he has full faith that by his own power, he can shatter it all to pieces.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_326_glacus": {
+    "name": "Aviatory Lockdown",
+    "text": "When she stares up at the sky, Glaucus always envies the fowlbeasts, wheeling about the horizon. But illegally flown drones scare fowlbeasts off, and Glaucus <i>will</i> find a way to win the skies back for them.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_193_frostl": {
+    "name": "Her Squad",
+    "text": "The young mercenary has arrived someplace new. Here, your teammates lend you a helping hand. Here, your companions have your back firmly covered. Here, your squad is your sanctuary, and not just some figment that could fall apart at any moment. The young mercenary stands in a land of ice and snow, but her heart feels so very warm.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  }
+}

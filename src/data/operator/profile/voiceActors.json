@@ -1,0 +1,1561 @@
+{
+  "char_285_medic2": [
+    { "langId": "CN_MANDARIN", "actor": ["Kiki"] },
+    { "langId": "JP", "actor": ["Asami Shimoda"] },
+    { "langId": "KR", "actor": ["Lee So-eun"] }
+  ],
+  "char_286_cast3": [
+    { "langId": "CN_MANDARIN", "actor": ["Yang Ma"] },
+    { "langId": "JP", "actor": ["Atsushi Abe"] },
+    { "langId": "KR", "actor": ["Choi Seung-hun"] }
+  ],
+  "char_376_therex": [
+    { "langId": "CN_MANDARIN", "actor": ["Yuxuan Liu"] },
+    { "langId": "JP", "actor": ["Hikaru Midorikawa"] }
+  ],
+  "char_502_nblade": [
+    { "langId": "CN_MANDARIN", "actor": ["Fifi"] },
+    { "langId": "EN", "actor": ["Jessica Mcdonald"] },
+    { "langId": "JP", "actor": ["Saki Fujita"] },
+    { "langId": "KR", "actor": ["Woo Jeong-sin"] }
+  ],
+  "char_500_noirc": [
+    { "langId": "CN_MANDARIN", "actor": ["Zhaokun Liu"] },
+    { "langId": "EN", "actor": ["Ben Cura"] },
+    { "langId": "JP", "actor": ["Kengo Kawanishi"] },
+    { "langId": "KR", "actor": ["Ryu Seung-gon"] }
+  ],
+  "char_503_rang": [
+    { "langId": "CN_MANDARIN", "actor": ["King Kong"] },
+    { "langId": "EN", "actor": ["David Menkin"] },
+    { "langId": "JP", "actor": ["Shunsuke Takeuchi"] },
+    { "langId": "KR", "actor": ["Kim Ki-hyun"] }
+  ],
+  "char_501_durin": [
+    { "langId": "CN_MANDARIN", "actor": ["Menglu Yang"] },
+    { "langId": "EN", "actor": ["Emma Ballantine"] },
+    { "langId": "JP", "actor": ["Akari Kageyama"] },
+    { "langId": "KR", "actor": ["Yang Jung-hwa"] }
+  ],
+  "char_009_12fce": [
+    { "langId": "CN_MANDARIN", "actor": ["Yuxuan Liu"] },
+    { "langId": "EN", "actor": ["James Phoon"] },
+    { "langId": "JP", "actor": ["Takuya Sato"] },
+    { "langId": "KR", "actor": ["Kim Young-sun"] }
+  ],
+  "char_123_fang": [
+    { "langId": "CN_MANDARIN", "actor": ["Yee Chen"] },
+    { "langId": "EN", "actor": ["Norma Butikofer"] },
+    { "langId": "JP", "actor": ["Ryoko Shiraishi"] },
+    { "langId": "KR", "actor": ["Kim Ha-ru"] }
+  ],
+  "char_240_wyvern": [
+    { "langId": "CN_MANDARIN", "actor": ["Ruoyu Zhang"] },
+    { "langId": "EN", "actor": ["Stephanie Sheh"] },
+    { "langId": "JP", "actor": ["Shiori Sugiura"] },
+    { "langId": "KR", "actor": ["Kang Sae-bom"] }
+  ],
+  "char_192_falco": [
+    { "langId": "CN_MANDARIN", "actor": ["Vila"] },
+    { "langId": "EN", "actor": ["Rosie Jones"] },
+    { "langId": "JP", "actor": ["Rika Tachibana"] },
+    { "langId": "KR", "actor": ["Yoon Mi-na"] }
+  ],
+  "char_208_melan": [
+    { "langId": "CN_MANDARIN", "actor": ["Yue Xin"] },
+    { "langId": "EN", "actor": ["Penelope Rawlins"] },
+    { "langId": "JP", "actor": ["Yuko Hara"] },
+    { "langId": "KR", "actor": ["Yoon Mi-na"] }
+  ],
+  "char_283_midn": [
+    { "langId": "CN_MANDARIN", "actor": ["Yang Ma"] },
+    { "langId": "EN", "actor": ["Alex Jordan"] },
+    { "langId": "JP", "actor": ["Takuya Sato"] }
+  ],
+  "char_281_popka": [
+    { "langId": "CN_MANDARIN", "actor": ["Yee Chen"] },
+    { "langId": "JP", "actor": ["Chiyo Ousaki"] },
+    { "langId": "KR", "actor": ["Ryu Jeom-hee"] }
+  ],
+  "char_209_ardign": [
+    { "langId": "CN_MANDARIN", "actor": ["Z"] },
+    { "langId": "EN", "actor": ["Anjali Kunapaneni"] },
+    { "langId": "JP", "actor": ["Azumi Asakura"] },
+    { "langId": "KR", "actor": ["Lee Jae-hyun"] }
+  ],
+  "char_122_beagle": [
+    { "langId": "CN_MANDARIN", "actor": ["Cheddar"] },
+    { "langId": "EN", "actor": ["Claire Morgan"] },
+    { "langId": "JP", "actor": ["Nana Harumura"] },
+    { "langId": "KR", "actor": ["Lee Hyun-jin"] }
+  ],
+  "char_284_spot": [
+    { "langId": "CN_MANDARIN", "actor": ["Kyle"] },
+    { "langId": "EN", "actor": ["Hyoie O'Grady"] },
+    { "langId": "JP", "actor": ["Atsushi Abe"] },
+    { "langId": "KR", "actor": ["Kim Ji-yul"] }
+  ],
+  "char_124_kroos": [
+    { "langId": "CN_MANDARIN", "actor": ["Sue"] },
+    { "langId": "EN", "actor": ["Grace Hogg-Robinson"] },
+    { "langId": "JP", "actor": ["Azusa Tadokoro"] },
+    { "langId": "KR", "actor": ["Yang Jung-hwa"] }
+  ],
+  "char_211_adnach": [
+    { "langId": "CN_MANDARIN", "actor": ["KeMuqing"] },
+    { "langId": "EN", "actor": ["Stefan Menaul"] },
+    { "langId": "JP", "actor": ["Kengo Kawanishi"] },
+    { "langId": "KR", "actor": ["Shim Kyu-hyuck"] }
+  ],
+  "char_282_catap": [
+    { "langId": "CN_MANDARIN", "actor": ["Hart Lau"] },
+    { "langId": "EN", "actor": ["Clare Louise Connolly"] },
+    { "langId": "JP", "actor": ["Junko Minagawa"] }
+  ],
+  "char_121_lava": [
+    { "langId": "CN_MANDARIN", "actor": ["Ying Xie"] },
+    { "langId": "EN", "actor": ["Díana Bermudez"] },
+    { "langId": "JP", "actor": ["Kaori Mizuhashi"] },
+    { "langId": "KR", "actor": ["Kim Ha-young"] }
+  ],
+  "char_120_hibisc": [
+    { "langId": "CN_MANDARIN", "actor": ["D. QQ"] },
+    { "langId": "EN", "actor": ["Yuuki Luna"] },
+    { "langId": "JP", "actor": ["Yuka Iguchi"] },
+    { "langId": "KR", "actor": ["Bang Yeon-ji"] }
+  ],
+  "char_212_ansel": [
+    { "langId": "CN_MANDARIN", "actor": ["Kousou Mao"] },
+    { "langId": "EN", "actor": ["Claire Morgan"] },
+    { "langId": "JP", "actor": ["Mayumi Kaneko"] },
+    { "langId": "KR", "actor": ["Ahn Hyun-seo"] }
+  ],
+  "char_210_stward": [
+    { "langId": "CN_MANDARIN", "actor": ["Pei Zhang"] },
+    { "langId": "EN", "actor": ["Gregg Lowe"] },
+    { "langId": "JP", "actor": ["Chihiro Suzuki"] },
+    { "langId": "KR", "actor": ["Han Man-joong"] }
+  ],
+  "char_278_orchid": [
+    { "langId": "CN_MANDARIN", "actor": ["Ke Zhong"] },
+    { "langId": "EN", "actor": ["Susie Riddell"] },
+    { "langId": "JP", "actor": ["Airi Ohtsu"] },
+    { "langId": "KR", "actor": ["Yeo Min-jeong"] }
+  ],
+  "char_141_nights": [
+    { "langId": "CN_MANDARIN", "actor": ["Ke Zhong"] },
+    { "langId": "EN", "actor": ["Ratana"] },
+    { "langId": "JP", "actor": ["Thing Ru"] },
+    { "langId": "KR", "actor": ["Lee Seul"] }
+  ],
+  "char_109_fmout": [
+    { "langId": "CN_MANDARIN", "actor": ["Chris Xu"] },
+    { "langId": "EN", "actor": ["Sarah Ovens"] },
+    { "langId": "JP", "actor": ["Kana Yuuki"] },
+    { "langId": "KR", "actor": ["Kim Bo-na"] }
+  ],
+  "char_253_greyy": [
+    { "langId": "CN_MANDARIN", "actor": ["Z"] },
+    { "langId": "EN", "actor": ["Maihan"] },
+    { "langId": "JP", "actor": ["Mai Fuchigami"] },
+    { "langId": "KR", "actor": ["So Yeon"] }
+  ],
+  "char_328_cammou": [
+    { "langId": "CN_MANDARIN", "actor": ["Elivia"] },
+    { "langId": "JP", "actor": ["Yuko Kurose"] },
+    { "langId": "KR", "actor": ["Park Seon-young"] }
+  ],
+  "char_469_indigo": [
+    { "langId": "CN_MANDARIN", "actor": ["Tin"] },
+    { "langId": "JP", "actor": ["Hyosei"] }
+  ],
+  "char_235_jesica": [
+    { "langId": "CN_MANDARIN", "actor": ["Fifi"] },
+    { "langId": "EN", "actor": ["Yuuki Luna"] },
+    { "langId": "JP", "actor": ["Ryo Hirohashi"] },
+    { "langId": "KR", "actor": ["Kim Ha-young"] }
+  ],
+  "char_126_shotst": [
+    { "langId": "CN_MANDARIN", "actor": ["Fifi"] },
+    { "langId": "EN", "actor": ["Samantha Dakin"] },
+    { "langId": "JP", "actor": ["Ayaka Fukuhara"] },
+    { "langId": "KR", "actor": ["Jo Kyoung-I"] }
+  ],
+  "char_190_clour": [
+    { "langId": "CN_MANDARIN", "actor": ["Ke Zhong"] },
+    { "langId": "JP", "actor": ["Ayaka Saito"] },
+    { "langId": "KR", "actor": ["Kim Seo-young"] }
+  ],
+  "char_133_mm": [
+    { "langId": "CN_MANDARIN", "actor": ["Wen Liu"] },
+    { "langId": "JP", "actor": ["Kaori Mizuhashi"] },
+    { "langId": "KR", "actor": ["Yu Yeong"] }
+  ],
+  "char_118_yuki": [
+    { "langId": "CN_MANDARIN", "actor": ["Ke Zhong"] },
+    { "langId": "EN", "actor": ["Rae Lim"] },
+    { "langId": "JP", "actor": ["Nana Harumura"] },
+    { "langId": "KR", "actor": ["Min Ah"] }
+  ],
+  "char_440_pinecn": [
+    { "langId": "CN_MANDARIN", "actor": ["Rylynn"] },
+    { "langId": "JP", "actor": ["Riho Tsuda"] }
+  ],
+  "char_302_glaze": [
+    { "langId": "CN_MANDARIN", "actor": ["Zhixiao Liu"] },
+    { "langId": "JP", "actor": ["Nishida Nozomi"] }
+  ],
+  "char_366_acdrop": [
+    { "langId": "CN_MANDARIN", "actor": ["Hayami"] },
+    { "langId": "JP", "actor": ["Yui Nakajima"] }
+  ],
+  "char_198_blackd": [
+    { "langId": "CN_MANDARIN", "actor": ["Ethan"] },
+    { "langId": "EN", "actor": ["Joseph May"] },
+    { "langId": "JP", "actor": ["Daisuke Hirakawa"] },
+    { "langId": "KR", "actor": ["Choi Seung-hun"] }
+  ],
+  "char_149_scave": [
+    { "langId": "CN_MANDARIN", "actor": ["Mia Miao"] },
+    { "langId": "EN", "actor": ["Jennifer Armour"] },
+    { "langId": "JP", "actor": ["You Taichi"] },
+    { "langId": "KR", "actor": ["Chong Yu-mi"] }
+  ],
+  "char_290_vigna": [
+    { "langId": "CN_MANDARIN", "actor": ["Angel Zhang"] },
+    { "langId": "EN", "actor": ["Julia Gu"] },
+    { "langId": "JP", "actor": ["Asami Shimoda"] },
+    { "langId": "KR", "actor": ["Ahn Hyun-seo"] }
+  ],
+  "char_151_myrtle": [
+    { "langId": "CN_MANDARIN", "actor": ["Juniper Berry"] },
+    { "langId": "EN", "actor": ["Hollie Taylor"] },
+    { "langId": "JP", "actor": ["Shino Shimoji"] },
+    { "langId": "KR", "actor": ["Chung Yu-joung"] }
+  ],
+  "char_452_bstalk": [
+    { "langId": "CN_MANDARIN", "actor": ["Miruku"] },
+    { "langId": "JP", "actor": ["Ayasa Ito"] },
+    { "langId": "KR", "actor": ["Jang Ye-na"] }
+  ],
+  "char_130_doberm": [
+    { "langId": "CN_MANDARIN", "actor": ["D. QQ"] },
+    { "langId": "EN", "actor": ["Lucy Montgomery"] },
+    { "langId": "JP", "actor": ["Atsumi Tanezaki"] },
+    { "langId": "KR", "actor": ["Kim Hyun-ji"] }
+  ],
+  "char_289_gyuki": [
+    { "langId": "CN_MANDARIN", "actor": ["Ellen Wang"] },
+    { "langId": "JP", "actor": ["Airi Ohtsu"] },
+    { "langId": "KR", "actor": ["Chae Min-ji"] }
+  ],
+  "char_159_peacok": [
+    { "langId": "CN_MANDARIN", "actor": ["Ying Xie"] },
+    { "langId": "JP", "actor": ["Yuri Yamaoka"] },
+    { "langId": "KR", "actor": ["Kim Hyeon-sim"] }
+  ],
+  "char_193_frostl": [
+    { "langId": "CN_MANDARIN", "actor": ["Ruan "] },
+    { "langId": "EN", "actor": ["Ina Marie Smith"] },
+    { "langId": "JP", "actor": ["Ai Kakuma"] },
+    { "langId": "KR", "actor": ["Jang Mi"] }
+  ],
+  "char_271_spikes": [
+    { "langId": "CN_MANDARIN", "actor": ["FengXiu"] },
+    { "langId": "JP", "actor": ["Yoshitsugu Matsuoka"] }
+  ],
+  "char_127_estell": [
+    { "langId": "CN_MANDARIN", "actor": ["Mia Miao"] },
+    { "langId": "EN", "actor": ["Clare Corbett"] },
+    { "langId": "JP", "actor": ["Nozomi Yamamoto"] },
+    { "langId": "KR", "actor": ["Kim Seo-young"] }
+  ],
+  "char_185_frncat": [
+    { "langId": "CN_MANDARIN", "actor": ["Yuqi Zhang"] },
+    { "langId": "EN", "actor": ["Angel Lin"] },
+    { "langId": "JP", "actor": ["Natsumi Takamori"] },
+    { "langId": "KR", "actor": ["Jo Kyoung-I"] }
+  ],
+  "char_137_brownb": [
+    { "langId": "CN_MANDARIN", "actor": ["Duduru"] },
+    { "langId": "JP", "actor": ["Yuko Hara"] },
+    { "langId": "KR", "actor": ["Kwak Kyumi"] }
+  ],
+  "char_347_jaksel": [
+    { "langId": "CN_MANDARIN", "actor": ["Ellen Wang"] },
+    { "langId": "JP", "actor": ["Sayumi Suzushiro"] }
+  ],
+  "char_301_cutter": [
+    { "langId": "CN_MANDARIN", "actor": ["Sue"] },
+    { "langId": "JP", "actor": ["Sayuri Yahagi"] },
+    { "langId": "KR", "actor": ["Esther Won"] }
+  ],
+  "char_337_utage": [
+    { "langId": "CN_MANDARIN", "actor": ["Skye"] },
+    { "langId": "JP", "actor": ["Mayu Yoshioka"] },
+    { "langId": "KR", "actor": ["Choi Ha-ri"] }
+  ],
+  "char_237_gravel": [
+    { "langId": "CN_MANDARIN", "actor": ["D. QQ"] },
+    { "langId": "EN", "actor": ["Naomi Mcdonald"] },
+    { "langId": "JP", "actor": ["Rika Tachibana"] },
+    { "langId": "KR", "actor": ["Chae Min-ji"] }
+  ],
+  "char_272_strong": [
+    { "langId": "CN_MANDARIN", "actor": ["Gary"] },
+    { "langId": "JP", "actor": ["Yusuke Shirai"] }
+  ],
+  "char_236_rope": [
+    { "langId": "CN_MANDARIN", "actor": ["Kiiki"] },
+    { "langId": "EN", "actor": ["Claire Morgan"] },
+    { "langId": "JP", "actor": ["Ayumi Fujimura"] },
+    { "langId": "KR", "actor": ["Lee Sae-byeok"] }
+  ],
+  "char_117_myrrh": [
+    { "langId": "CN_MANDARIN", "actor": ["Z"] },
+    { "langId": "EN", "actor": ["Angel Lin"] },
+    { "langId": "JP", "actor": ["Kana Yuuki"] },
+    { "langId": "KR", "actor": ["Kang Eun-ae"] }
+  ],
+  "char_187_ccheal": [
+    { "langId": "CN_MANDARIN", "actor": ["Emma Chen"] },
+    { "langId": "EN", "actor": ["Natalie Winter"] },
+    { "langId": "JP", "actor": ["Ayaka Suwa"] },
+    { "langId": "KR", "actor": ["Kim You-lim"] }
+  ],
+  "char_298_susuro": [
+    { "langId": "CN_MANDARIN", "actor": ["Yue Xin"] },
+    { "langId": "JP", "actor": ["Haruka Terui"] },
+    { "langId": "KR", "actor": ["Seo Yu-ri"] }
+  ],
+  "char_181_flower": [
+    { "langId": "CN_MANDARIN", "actor": ["Rachel"] },
+    { "langId": "JP", "actor": ["Rie Takahashi"] },
+    { "langId": "KR", "actor": ["Lee Hyun-jin"] }
+  ],
+  "char_385_finlpp": [
+    { "langId": "CN_MANDARIN", "actor": ["Li Cheng"] },
+    { "langId": "JP", "actor": ["Marie Miyake"] },
+    { "langId": "KR", "actor": ["Ga Bin"] }
+  ],
+  "char_199_yak": [
+    { "langId": "CN_MANDARIN", "actor": ["Yuxuan Liu"] },
+    { "langId": "EN", "actor": ["Adam Diggle"] },
+    { "langId": "JP", "actor": ["Shunsuke Takeuchi"] },
+    { "langId": "KR", "actor": ["Jang Min-hyuck"] }
+  ],
+  "char_150_snakek": [
+    { "langId": "CN_MANDARIN", "actor": ["Gelin Tian"] },
+    { "langId": "EN", "actor": ["Xanthe Huynh"] },
+    { "langId": "JP", "actor": ["Ayaka Suwa"] },
+    { "langId": "KR", "actor": ["Jung Hye-won"] }
+  ],
+  "char_381_bubble": [
+    { "langId": "CN_MANDARIN", "actor": ["Misty"] },
+    { "langId": "JP", "actor": ["Hikaru Akao"] }
+  ],
+  "char_196_sunbr": [
+    { "langId": "CN_MANDARIN", "actor": ["Winter"] },
+    { "langId": "EN", "actor": ["Cristina Vee"] },
+    { "langId": "JP", "actor": ["Natsumi Takamori"] },
+    { "langId": "KR", "actor": ["Kim Chae-ha"] }
+  ],
+  "char_260_durnar": [
+    { "langId": "CN_MANDARIN", "actor": ["Thea"] },
+    { "langId": "EN", "actor": ["Triya Leong"] },
+    { "langId": "JP", "actor": ["Mori Nanako"] }
+  ],
+  "char_110_deepcl": [
+    { "langId": "CN_MANDARIN", "actor": ["Misty"] },
+    { "langId": "EN", "actor": ["Jenny Yokobori"] },
+    { "langId": "JP", "actor": ["You Taichi"] },
+    { "langId": "KR", "actor": ["Kim Sae-hae"] }
+  ],
+  "char_183_skgoat": [
+    { "langId": "CN_MANDARIN", "actor": ["Zilan Qu"] },
+    { "langId": "JP", "actor": ["Aoi Yuki"] },
+    { "langId": "KR", "actor": ["Chae Min-ji"] }
+  ],
+  "char_258_podego": [
+    { "langId": "CN_MANDARIN", "actor": ["Rachel"] },
+    { "langId": "JP", "actor": ["Hikaru Ueda"] },
+    { "langId": "KR", "actor": ["Bang Si-u"] }
+  ],
+  "char_484_robrta": [
+    { "langId": "CN_MANDARIN", "actor": ["Anita Luo"] },
+    { "langId": "EN", "actor": ["Becky Wright"] },
+    { "langId": "JP", "actor": ["Ayako Kamegai"] },
+    { "langId": "KR", "actor": ["Kim Bo-min"] }
+  ],
+  "char_355_ethan": [
+    { "langId": "CN_MANDARIN", "actor": ["Pei Zhang"] },
+    { "langId": "EN", "actor": ["Jack Ayres"] },
+    { "langId": "JP", "actor": ["Hiroyuki Yoshino"] },
+    { "langId": "KR", "actor": ["Lee Sang-ho"] }
+  ],
+  "char_277_sqrrel": [
+    { "langId": "CN_MANDARIN", "actor": ["Shi Haku"] },
+    { "langId": "EN", "actor": ["Harriet Carmichael"] },
+    { "langId": "JP", "actor": ["Ryo Hirohashi"] },
+    { "langId": "KR", "actor": ["Seo Eun-bi"] }
+  ],
+  "char_128_plosis": [
+    { "langId": "CN_MANDARIN", "actor": ["D. QQ"] },
+    { "langId": "EN", "actor": ["Heather Nicol"] },
+    { "langId": "JP", "actor": ["Hisako Kanemoto"] },
+    { "langId": "KR", "actor": ["Kim Sae-hae"] }
+  ],
+  "char_275_breeze": [
+    { "langId": "CN_MANDARIN", "actor": ["Jinni"] },
+    { "langId": "EN", "actor": ["Felecia Angelle"] },
+    { "langId": "JP", "actor": ["Haruna Ikezawa"] }
+  ],
+  "char_115_headbr": [
+    { "langId": "CN_MANDARIN", "actor": ["Certain"] },
+    { "langId": "EN", "actor": ["Amy Lennox"] },
+    { "langId": "JP", "actor": ["Ami Koshimizu"] },
+    { "langId": "KR", "actor": ["Lee Myung-hi"] }
+  ],
+  "char_102_texas": [
+    { "langId": "CN_MANDARIN", "actor": ["Menglu Yang"] },
+    { "langId": "EN", "actor": ["Jessica Preddy"] },
+    { "langId": "ITA", "actor": ["Ilaria Silvestri"] },
+    { "langId": "JP", "actor": ["Azusa Tadokoro"] },
+    { "langId": "KR", "actor": ["Kim Chae-ha"] }
+  ],
+  "char_349_chiave": [
+    { "langId": "CN_MANDARIN", "actor": ["Tongming Zhang"] },
+    { "langId": "JP", "actor": ["Wataru Hatano"] },
+    { "langId": "KR", "actor": ["Kim Ji-yul"] }
+  ],
+  "char_220_grani": [
+    { "langId": "CN_MANDARIN", "actor": ["Rylynn"] },
+    { "langId": "EN", "actor": ["Carina Reeves"] },
+    { "langId": "JP", "actor": ["Haruka Yamazaki"] },
+    { "langId": "KR", "actor": ["Lee Jae-hyun"] }
+  ],
+  "char_261_sddrag": [
+    { "langId": "CN_MANDARIN", "actor": ["Tracy"] },
+    { "langId": "EN", "actor": ["Martha Mackintosh"] },
+    { "langId": "JP", "actor": ["Mamiko Noto"] },
+    { "langId": "KR", "actor": ["Yoo Bo-ra"] }
+  ],
+  "char_401_elysm": [
+    { "langId": "CN_MANDARIN", "actor": ["F.Ming"] },
+    { "langId": "JP", "actor": ["Showtaro Morikubo"] },
+    { "langId": "KR", "actor": ["Nam Doh-hyeong"] }
+  ],
+  "char_308_swire": [
+    { "langId": "CN_MANDARIN", "actor": ["Ying Xie"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Qiantong Wu"] },
+    { "langId": "EN", "actor": ["Emma Ballantine"] },
+    { "langId": "JP", "actor": ["Sora Tokui"] },
+    { "langId": "KR", "actor": ["Kim Yul"] }
+  ],
+  "char_265_sophia": [
+    { "langId": "CN_MANDARIN", "actor": ["Tin"] },
+    { "langId": "JP", "actor": ["Minami Takahashi"] }
+  ],
+  "char_106_franka": [
+    { "langId": "CN_MANDARIN", "actor": ["Vila"] },
+    { "langId": "EN", "actor": ["Maya Aoki Tuttle"] },
+    { "langId": "JP", "actor": ["Ai Kakuma"] },
+    { "langId": "KR", "actor": ["Park Ko-woon"] }
+  ],
+  "char_131_flameb": [
+    { "langId": "CN_MANDARIN", "actor": ["Ji Huang"] },
+    { "langId": "EN", "actor": ["Mercer Boffey"] },
+    { "langId": "JP", "actor": ["Yuichi Nakamura"] }
+  ],
+  "char_155_tiger": [
+    { "langId": "CN_MANDARIN", "actor": ["Mia Miao"] },
+    { "langId": "EN", "actor": ["Polly Eachus"] },
+    { "langId": "JP", "actor": ["Yuko Hara"] },
+    { "langId": "KR", "actor": ["Lee Sae-byeok"] }
+  ],
+  "char_415_flint": [
+    { "langId": "CN_MANDARIN", "actor": ["Fifi"] },
+    { "langId": "JP", "actor": ["Hibiku Yamamura"] }
+  ],
+  "char_140_whitew": [
+    { "langId": "CN_MANDARIN", "actor": ["Yee Chen"] },
+    { "langId": "EN", "actor": ["Christina Kowalchuk"] },
+    { "langId": "ITA", "actor": ["Elisa Contestabile"] },
+    { "langId": "JP", "actor": ["Asami Imai"] },
+    { "langId": "KR", "actor": ["Seo Yu-ri"] }
+  ],
+  "char_294_ayer": [
+    { "langId": "CN_MANDARIN", "actor": ["Jinze Huang"] },
+    { "langId": "JP", "actor": ["Yuki Kaji"] },
+    { "langId": "KR", "actor": ["Kim Myung-jun"] }
+  ],
+  "char_252_bibeak": [
+    { "langId": "CN_MANDARIN", "actor": ["Zhixiao Liu"] },
+    { "langId": "JP", "actor": ["Akane Fujita"] },
+    { "langId": "KR", "actor": ["Yi Sae-ah"] }
+  ],
+  "char_459_tachak": [{ "langId": "LINKAGE", "actor": ["Vlado Stokanic"] }],
+  "char_143_ghost": [
+    { "langId": "CN_MANDARIN", "actor": ["Angel Zhang"] },
+    { "langId": "EN", "actor": ["Harriet Carmichael"] },
+    { "langId": "JP", "actor": ["Azumi Asakura"] },
+    { "langId": "KR", "actor": ["Kim Hyeon-sim"] }
+  ],
+  "char_356_broca": [
+    { "langId": "CN_MANDARIN", "actor": ["Zhaokun Liu"] },
+    { "langId": "JP", "actor": ["Kohsuke Toriumi"] },
+    { "langId": "KR", "actor": ["Sung Wan-kyung"] }
+  ],
+  "char_230_savage": [
+    { "langId": "CN_MANDARIN", "actor": ["Rylynn"] },
+    { "langId": "EN", "actor": ["Stephanie Sheh"] },
+    { "langId": "JP", "actor": ["Ayumi Fujimura"] },
+    { "langId": "KR", "actor": ["Lee Bo-hee"] }
+  ],
+  "char_274_astesi": [
+    { "langId": "CN_MANDARIN", "actor": ["kiyo"] },
+    { "langId": "JP", "actor": ["Kaori Nazuka"] }
+  ],
+  "char_333_sidero": [
+    { "langId": "CN_MANDARIN", "actor": ["Jinni"] },
+    { "langId": "JP", "actor": ["Yuuki Kuwahara"] },
+    { "langId": "KR", "actor": ["Kim Soo-yeong"] }
+  ],
+  "char_1001_amiya2": [
+    { "langId": "CN_MANDARIN", "actor": ["Dian Tao"] },
+    { "langId": "EN", "actor": ["Emma Ballantine"] },
+    { "langId": "JP", "actor": ["Tomoyo Kurosawa"] },
+    { "langId": "KR", "actor": ["Lee Ji-hyun"] }
+  ],
+  "char_475_akafyu": [
+    { "langId": "CN_MANDARIN", "actor": ["Thea"] },
+    { "langId": "JP", "actor": ["Yumi Uchiyama"] }
+  ],
+  "char_421_crow": [
+    { "langId": "CN_MANDARIN", "actor": ["Liu Yilei"] },
+    { "langId": "JP", "actor": ["Marika Kohno"] }
+  ],
+  "char_486_takila": [
+    { "langId": "CN_MANDARIN", "actor": ["Javen Zheng"] },
+    { "langId": "JP", "actor": ["Nobunaga Shimazaki"] }
+  ],
+  "char_129_bluep": [
+    { "langId": "CN_MANDARIN", "actor": ["Yee Chen"] },
+    { "langId": "EN", "actor": ["Alex Tregear"] },
+    { "langId": "JP", "actor": ["Atsumi Tanezaki"] },
+    { "langId": "KR", "actor": ["Woo Jeong-sin"] }
+  ],
+  "char_204_platnm": [
+    { "langId": "CN_MANDARIN", "actor": ["Kiiki"] },
+    { "langId": "EN", "actor": ["Rosie Day"] },
+    { "langId": "JP", "actor": ["Mizuki Kitajima"] },
+    { "langId": "KR", "actor": ["Kim Chae-ha"] }
+  ],
+  "char_367_swllow": [
+    { "langId": "CN_MANDARIN", "actor": ["Yuan Weng"] },
+    { "langId": "JP", "actor": ["Misato Fukuen"] }
+  ],
+  "char_365_aprl": [
+    { "langId": "CN_MANDARIN", "actor": ["Esther"] },
+    { "langId": "JP", "actor": ["Minami Tanaka"] }
+  ],
+  "char_219_meteo": [
+    { "langId": "CN_MANDARIN", "actor": ["Ke Zhong"] },
+    { "langId": "EN", "actor": ["Hollie Taylor"] },
+    { "langId": "JP", "actor": ["Risa Taneda"] },
+    { "langId": "KR", "actor": ["Kim Soo-yeong"] }
+  ],
+  "char_379_sesa": [
+    { "langId": "CN_MANDARIN", "actor": ["Ethan"] },
+    { "langId": "JP", "actor": ["Yuki Ono"] },
+    { "langId": "KR", "actor": ["Ryu Seung-gon"] }
+  ],
+  "char_279_excu": [
+    { "langId": "CN_MANDARIN", "actor": ["Ji Huang"] },
+    { "langId": "JP", "actor": ["Takashi Kondo"] },
+    { "langId": "KR", "actor": ["Kim Young-sun"] }
+  ],
+  "char_346_aosta": [
+    { "langId": "CN_MANDARIN", "actor": ["Kimi"] },
+    { "langId": "JP", "actor": ["Tatsuhisa Suzuki"] }
+  ],
+  "char_002_amiya": [
+    { "langId": "CN_MANDARIN", "actor": ["Dian Tao"] },
+    { "langId": "EN", "actor": ["Emma Ballantine"] },
+    { "langId": "JP", "actor": ["Tomoyo Kurosawa"] },
+    { "langId": "KR", "actor": ["Lee Ji-hyun"] }
+  ],
+  "char_164_nightm": [
+    { "langId": "CN_MANDARIN", "actor": ["Elivia"] },
+    { "langId": "JP", "actor": ["Rie Takahashi"] },
+    { "langId": "KR", "actor": ["Yi Sae-ah"] }
+  ],
+  "char_405_absin": [
+    { "langId": "CN_MANDARIN", "actor": ["Icy"] },
+    { "langId": "EN", "actor": ["Monica Rial"] },
+    { "langId": "JP", "actor": ["Rie Murakawa"] },
+    { "langId": "KR", "actor": ["Song Ha-rim"] }
+  ],
+  "char_411_tomimi": [
+    { "langId": "CN_MANDARIN", "actor": ["Xueting Mu"] },
+    { "langId": "JP", "actor": ["Mikako Takahashi"] }
+  ],
+  "char_166_skfire": [
+    { "langId": "CN_MANDARIN", "actor": ["Xiaowen Xu"] },
+    { "langId": "EN", "actor": ["Anne Yatco"] },
+    { "langId": "JP", "actor": ["Kana Ueda"] },
+    { "langId": "KR", "actor": ["Yeo Yun-mi"] }
+  ],
+  "char_306_leizi": [
+    { "langId": "CN_MANDARIN", "actor": ["Skye"] },
+    { "langId": "JP", "actor": ["Yuhko Kaida"] },
+    { "langId": "KR", "actor": ["Kang Si-hyun"] }
+  ],
+  "char_344_beewax": [
+    { "langId": "CN_MANDARIN", "actor": ["Yuan Weng"] },
+    { "langId": "JP", "actor": ["Eri Kitamura"] },
+    { "langId": "KR", "actor": ["Kim Yeon-woo"] }
+  ],
+  "char_388_mint": [
+    { "langId": "CN_MANDARIN", "actor": ["Esther"] },
+    { "langId": "JP", "actor": ["Hitomi Ohwada"] },
+    { "langId": "KR", "actor": ["Yeo Yun-mi"] }
+  ],
+  "char_338_iris": [
+    { "langId": "CN_MANDARIN", "actor": ["kiyo"] },
+    { "langId": "JP", "actor": ["Haruka Shiraishi"] }
+  ],
+  "char_373_lionhd": [
+    { "langId": "CN_MANDARIN", "actor": ["Wei Chen"] },
+    { "langId": "JP", "actor": ["Soma Saito"] }
+  ],
+  "char_1011_lava2": [
+    { "langId": "CN_MANDARIN", "actor": ["Ying Xie"] },
+    { "langId": "EN", "actor": ["Díana Bermudez"] },
+    { "langId": "JP", "actor": ["Kaori Mizuhashi"] },
+    { "langId": "KR", "actor": ["Kim Ha-young"] }
+  ],
+  "char_242_otter": [
+    { "langId": "CN_MANDARIN", "actor": ["Kousou Mao"] },
+    { "langId": "EN", "actor": ["Anjali Kunapaneni"] },
+    { "langId": "JP", "actor": ["Chiwa Saito"] },
+    { "langId": "KR", "actor": ["Jung Hye-won"] }
+  ],
+  "char_336_folivo": [
+    { "langId": "CN_MANDARIN", "actor": ["Misty"] },
+    { "langId": "JP", "actor": ["Satomi Amano"] }
+  ],
+  "char_108_silent": [
+    { "langId": "CN_MANDARIN", "actor": ["Shuang Liang"] },
+    { "langId": "EN", "actor": ["Erica Lindbeck"] },
+    { "langId": "JP", "actor": ["Akari Kito"] },
+    { "langId": "KR", "actor": ["Seo Dahye"] }
+  ],
+  "char_171_bldsk": [
+    { "langId": "CN_MANDARIN", "actor": ["Gelin Tian"] },
+    { "langId": "EN", "actor": ["Lindsay Morton"] },
+    { "langId": "JP", "actor": ["Manaka Iwami"] },
+    { "langId": "KR", "actor": ["Shin Song-yi"] }
+  ],
+  "char_345_folnic": [
+    { "langId": "CN_MANDARIN", "actor": ["Tracy"] },
+    { "langId": "JP", "actor": ["Reina Kondo"] }
+  ],
+  "char_402_tuye": [
+    { "langId": "CN_MANDARIN", "actor": ["Z"] },
+    { "langId": "JP", "actor": ["Saima Nakano"] },
+    { "langId": "KR", "actor": ["Han Chae-eon"] }
+  ],
+  "char_348_ceylon": [
+    { "langId": "CN_MANDARIN", "actor": ["Li Cheng"] },
+    { "langId": "JP", "actor": ["Miho Arakawa"] },
+    { "langId": "KR", "actor": ["Lee Bo-hee"] }
+  ],
+  "char_436_whispr": [
+    { "langId": "CN_MANDARIN", "actor": ["Jingxia Liu"] },
+    { "langId": "JP", "actor": ["Saori Goto"] }
+  ],
+  "char_473_mberry": [
+    { "langId": "CN_MANDARIN", "actor": ["X·Cai"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Nancie"] },
+    { "langId": "EN", "actor": ["Julie Rogers"] },
+    { "langId": "JP", "actor": ["Riko Kohara"] },
+    { "langId": "KR", "actor": ["Chang Kyug-hee"] }
+  ],
+  "char_148_nearl": [
+    { "langId": "CN_MANDARIN", "actor": ["Xueting Mu"] },
+    { "langId": "EN", "actor": ["Devora Wilde"] },
+    { "langId": "JP", "actor": ["Ayane Sakura"] },
+    { "langId": "KR", "actor": ["Kim Yea-lim"] }
+  ],
+  "char_226_hmau": [
+    { "langId": "CN_MANDARIN", "actor": ["Lv ShuJun"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Lost"] },
+    { "langId": "JP", "actor": ["Satoshi Hino"] },
+    { "langId": "KR", "actor": ["Choi Na-kyoon"] }
+  ],
+  "char_144_red": [
+    { "langId": "CN_MANDARIN", "actor": ["X·Cai"] },
+    { "langId": "EN", "actor": ["Jenny Yokobori"] },
+    { "langId": "JP", "actor": ["Ami Koshimizu"] },
+    { "langId": "KR", "actor": ["Park Seen-hee"] }
+  ],
+  "char_243_waaifu": [
+    { "langId": "CN_MANDARIN", "actor": ["kiyo"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Cotton Candy"] },
+    { "langId": "JP", "actor": ["Yu Kobayashi"] },
+    { "langId": "KR", "actor": ["Yoon Eun-seo"] }
+  ],
+  "char_214_kafka": [
+    { "langId": "CN_MANDARIN", "actor": ["Shi Haku"] },
+    { "langId": "JP", "actor": ["Miyu Tomita"] }
+  ],
+  "char_455_nothin": [
+    { "langId": "CN_MANDARIN", "actor": ["Flynn Liu"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Flynn Liu"] },
+    { "langId": "JP", "actor": ["Junichi Suwabe"] },
+    { "langId": "KR", "actor": ["Lim Chae-heon"] }
+  ],
+  "char_107_liskam": [
+    { "langId": "CN_MANDARIN", "actor": ["Ruoyu Zhang"] },
+    { "langId": "EN", "actor": ["Megan Maczko"] },
+    { "langId": "JP", "actor": ["Yui Ishikawa"] },
+    { "langId": "KR", "actor": ["Yi Sae-ah"] }
+  ],
+  "char_201_moeshd": [
+    { "langId": "CN_MANDARIN", "actor": ["Wen Liu"] },
+    { "langId": "JP", "actor": ["Yurika Kubo"] },
+    { "langId": "KR", "actor": ["Yang Jung-hwa"] }
+  ],
+  "char_325_bison": [
+    { "langId": "CN_MANDARIN", "actor": ["Thea"] },
+    { "langId": "JP", "actor": ["Junko Minagawa"] },
+    { "langId": "KR", "actor": ["Bae Jeong-mi"] }
+  ],
+  "char_457_blitz": [{ "langId": "LINKAGE", "actor": ["Christopher J. Domig"] }],
+  "char_304_zebra": [
+    { "langId": "CN_MANDARIN", "actor": ["Cotton Candy"] },
+    { "langId": "JP", "actor": ["Kaori Ishihara"] }
+  ],
+  "char_163_hpsts": [
+    { "langId": "CN_MANDARIN", "actor": ["Mimia"] },
+    { "langId": "JP", "actor": ["Rina Sato"] },
+    { "langId": "KR", "actor": ["Chang Kyug-hee"] }
+  ],
+  "char_378_asbest": [
+    { "langId": "CN_MANDARIN", "actor": ["Rose"] },
+    { "langId": "JP", "actor": ["Kei Shindo"] },
+    { "langId": "KR", "actor": ["Chong Yu-mi"] }
+  ],
+  "char_431_ashlok": [
+    { "langId": "CN_MANDARIN", "actor": ["D. QQ"] },
+    { "langId": "EN", "actor": ["Diana Bermudez"] },
+    { "langId": "JP", "actor": ["Hitomi Ueda"] },
+    { "langId": "KR", "actor": ["Lee Ji-young"] }
+  ],
+  "char_145_prove": [
+    { "langId": "CN_MANDARIN", "actor": ["Chen Xu"] },
+    { "langId": "JP", "actor": ["Akari Kageyama"] },
+    { "langId": "KR", "actor": ["Park Ji-yoon"] }
+  ],
+  "char_158_milu": [
+    { "langId": "CN_MANDARIN", "actor": ["Jingxia Liu"] },
+    { "langId": "EN", "actor": ["Jemma Moore"] },
+    { "langId": "JP", "actor": ["Thing Ru"] },
+    { "langId": "KR", "actor": ["Jang Mi"] }
+  ],
+  "char_218_cuttle": [
+    { "langId": "CN_MANDARIN", "actor": ["Sherry Brown"] },
+    { "langId": "JP", "actor": ["Kaoru Sakura"] }
+  ],
+  "char_363_toddi": [
+    { "langId": "CN_MANDARIN", "actor": ["Gin"] },
+    { "langId": "JP", "actor": ["Eri Sendai"] }
+  ],
+  "char_173_slchan": [
+    { "langId": "CN_MANDARIN", "actor": ["Rachel"] },
+    { "langId": "EN", "actor": ["Rebecca Yeo"] },
+    { "langId": "JP", "actor": ["Ryoko Shiraishi"] },
+    { "langId": "KR", "actor": ["Kim Bo-young"] }
+  ],
+  "char_383_snsant": [
+    { "langId": "CN_MANDARIN", "actor": ["Atom"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Mao Qian"] },
+    { "langId": "JP", "actor": ["Kana Asumi"] },
+    { "langId": "KR", "actor": ["Bang Si-u"] }
+  ],
+  "char_174_slbell": [
+    { "langId": "CN_MANDARIN", "actor": ["Xueting Mu"] },
+    { "langId": "EN", "actor": ["Ashleigh Haddad"] },
+    { "langId": "JP", "actor": ["Saori Hayami"] },
+    { "langId": "KR", "actor": ["Park Ko-woon"] }
+  ],
+  "char_254_vodfox": [
+    { "langId": "CN_MANDARIN", "actor": ["Rachel"] },
+    { "langId": "JP", "actor": ["Akane Fujita"] },
+    { "langId": "KR", "actor": ["Lee Seul"] }
+  ],
+  "char_195_glassb": [
+    { "langId": "CN_MANDARIN", "actor": ["Z"] },
+    { "langId": "EN", "actor": ["Risa Mei"] },
+    { "langId": "JP", "actor": ["Aoi Yuki"] },
+    { "langId": "KR", "actor": ["Kim Ga-ryeong"] }
+  ],
+  "char_326_glacus": [
+    { "langId": "CN_MANDARIN", "actor": ["Cuo"] },
+    { "langId": "JP", "actor": ["Ai Nonaka"] }
+  ],
+  "char_101_sora": [
+    { "langId": "CN_MANDARIN", "actor": ["Fifi"] },
+    { "langId": "JP", "actor": ["Minori Suzuki"] },
+    { "langId": "KR", "actor": ["Jang Ye-na"] }
+  ],
+  "char_343_tknogi": [
+    { "langId": "CN_MANDARIN", "actor": ["Shuang Liang"] },
+    { "langId": "JP", "actor": ["Sayaka Oohara"] },
+    { "langId": "KR", "actor": ["Hong Soo-jung"] }
+  ],
+  "char_215_mantic": [
+    { "langId": "CN_MANDARIN", "actor": ["Kousou Mao"] },
+    { "langId": "EN", "actor": ["Haviland Stillwell"] },
+    { "langId": "JP", "actor": ["Ayaka Suwa"] },
+    { "langId": "KR", "actor": ["Kim Bo-young"] }
+  ],
+  "char_478_kirara": [
+    { "langId": "CN_MANDARIN", "actor": ["Chen Tingting"] },
+    { "langId": "JP", "actor": ["Anzu Haruno"] }
+  ],
+  "char_241_panda": [
+    { "langId": "CN_MANDARIN", "actor": ["Yue Xin"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Atom"] },
+    { "langId": "EN", "actor": ["Ashleigh Haddad"] },
+    { "langId": "JP", "actor": ["Mie Sonozaki"] },
+    { "langId": "KR", "actor": ["Song Ha-rim"] }
+  ],
+  "char_451_robin": [
+    { "langId": "CN_MANDARIN", "actor": ["Icy"] },
+    { "langId": "JP", "actor": ["Ryoko Ono"] }
+  ],
+  "char_458_rfrost": [{ "langId": "LINKAGE", "actor": ["Julie Tamiko Manning"] }],
+  "char_369_bena": [
+    { "langId": "CN_MANDARIN", "actor": ["Cheddar"] },
+    { "langId": "JP", "actor": ["Chitose Morinaga"] }
+  ],
+  "char_103_angel": [
+    { "langId": "CN_MANDARIN", "actor": ["Shujin Cai"] },
+    { "langId": "EN", "actor": ["Leonora Haig"] },
+    { "langId": "JP", "actor": ["Manaka Iwami"] },
+    { "langId": "KR", "actor": ["Lee Ji-hyun"] }
+  ],
+  "char_332_archet": [
+    { "langId": "CN_MANDARIN", "actor": ["Rylynn"] },
+    { "langId": "JP", "actor": ["Inori Minase"] }
+  ],
+  "char_456_ash": [{ "langId": "LINKAGE", "actor": ["Patricia Summersett"] }],
+  "char_340_shwaz": [
+    { "langId": "CN_MANDARIN", "actor": ["Gino"] },
+    { "langId": "JP", "actor": ["Shizuka Itoh"] },
+    { "langId": "KR", "actor": ["Park Seen-hee"] }
+  ],
+  "char_430_fartth": [
+    { "langId": "CN_MANDARIN", "actor": ["Wen Liu"] },
+    { "langId": "EN", "actor": ["Samantha Dakin"] },
+    { "langId": "JP", "actor": ["Suzuko Mimori"] },
+    { "langId": "KR", "actor": ["Yeo Yun-mi"] }
+  ],
+  "char_113_cqbw": [
+    { "langId": "CN_MANDARIN", "actor": ["Ruan "] },
+    { "langId": "EN", "actor": ["Caitlyn Bairstow"] },
+    { "langId": "JP", "actor": ["Ayana Taketatsu"] },
+    { "langId": "KR", "actor": ["Park Ko-woon"] }
+  ],
+  "char_197_poca": [
+    { "langId": "CN_MANDARIN", "actor": ["Zhiqiu Ye"] },
+    { "langId": "EN", "actor": ["Elizabeth Maxwell"] },
+    { "langId": "JP", "actor": ["Reina Ueda"] },
+    { "langId": "KR", "actor": ["Choi Ha-ri"] }
+  ],
+  "char_391_rosmon": [
+    { "langId": "CN_MANDARIN", "actor": ["Ruoyu Zhang"] },
+    { "langId": "JP", "actor": ["Yui Ogura"] },
+    { "langId": "KR", "actor": ["Yoon Eun-seo"] }
+  ],
+  "char_1013_chen2": [
+    { "langId": "CN_MANDARIN", "actor": ["Jen Zhang"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Sunny So"] },
+    { "langId": "EN", "actor": ["Amy Lennox"] },
+    { "langId": "JP", "actor": ["Shizuka Ishigami"] },
+    { "langId": "KR", "actor": ["Chung Yu-joung"] }
+  ],
+  "char_112_siege": [
+    { "langId": "CN_MANDARIN", "actor": ["Shuang Liang"] },
+    { "langId": "EN", "actor": ["Claudia Jolly"] },
+    { "langId": "JP", "actor": ["Ayako Kawasumi"] },
+    { "langId": "KR", "actor": ["Ga Bin"] }
+  ],
+  "char_222_bpipe": [
+    { "langId": "CN_MANDARIN", "actor": ["Iris"] },
+    { "langId": "JP", "actor": ["Aki Toyosaki"] }
+  ],
+  "char_479_sleach": [
+    { "langId": "CN_MANDARIN", "actor": ["Yuan Weng"] },
+    { "langId": "EN", "actor": ["Meaghan Martin"] },
+    { "langId": "JP", "actor": ["Haruka Tomatsu"] },
+    { "langId": "KR", "actor": ["Kim Sun-hye"] }
+  ],
+  "char_362_saga": [
+    { "langId": "CN_MANDARIN", "actor": ["Ruth"] },
+    { "langId": "JP", "actor": ["Sanae Kobayashi"] }
+  ],
+  "char_134_ifrit": [
+    { "langId": "CN_MANDARIN", "actor": ["Ellen Wang"] },
+    { "langId": "EN", "actor": ["Jennifer Sun Bell"] },
+    { "langId": "JP", "actor": ["Yumiri Hanamori"] },
+    { "langId": "KR", "actor": ["So Yeon"] }
+  ],
+  "char_213_mostma": [
+    { "langId": "CN_MANDARIN", "actor": ["Luttefair"] },
+    { "langId": "JP", "actor": ["Nana Mizuki"] }
+  ],
+  "char_180_amgoat": [
+    { "langId": "CN_MANDARIN", "actor": ["Juniper Berry"] },
+    { "langId": "EN", "actor": ["Hollie Taylor"] },
+    { "langId": "JP", "actor": ["Risa Taneda"] },
+    { "langId": "KR", "actor": ["Kim Ha-ru"] }
+  ],
+  "char_2013_cerber": [
+    { "langId": "CN_MANDARIN", "actor": ["Kousou Mao"] },
+    { "langId": "JP", "actor": ["Asami Seto"] },
+    { "langId": "KR", "actor": ["Ryu Jeom-hee"] }
+  ],
+  "char_2015_dusk": [
+    { "langId": "CN_MANDARIN", "actor": ["Blank"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Blank"] },
+    { "langId": "EN", "actor": ["Aileen Mythen"] },
+    { "langId": "JP", "actor": ["yukana"] },
+    { "langId": "KR", "actor": ["Bae Jeong-mi"] }
+  ],
+  "char_472_pasngr": [
+    { "langId": "CN_MANDARIN", "actor": ["James"] },
+    { "langId": "JP", "actor": ["Takahiro Sakurai"] },
+    { "langId": "KR", "actor": ["Yun Dong-ki"] }
+  ],
+  "char_426_billro": [
+    { "langId": "CN_MANDARIN", "actor": ["Cai Na"] },
+    { "langId": "JP", "actor": ["Eri Kitamura"] }
+  ],
+  "char_291_aglina": [
+    { "langId": "CN_MANDARIN", "actor": ["Vivia"] },
+    { "langId": "EN", "actor": ["Lizzie Waterworth"] },
+    { "langId": "JP", "actor": ["Ayaka Ohashi"] },
+    { "langId": "KR", "actor": ["Lee So-eun"] }
+  ],
+  "char_358_lisa": [
+    { "langId": "CN_MANDARIN", "actor": ["Shi Haku"] },
+    { "langId": "JP", "actor": ["Kaede Hondo"] },
+    { "langId": "KR", "actor": ["Jo Kyoung-I"] }
+  ],
+  "char_248_mgllan": [
+    { "langId": "CN_MANDARIN", "actor": ["Zilan Qu"] },
+    { "langId": "JP", "actor": ["Mariya Ise"] },
+    { "langId": "KR", "actor": ["Kim Bo-na"] }
+  ],
+  "char_1012_skadi2": [
+    { "langId": "CN_MANDARIN", "actor": ["Kiiki"] },
+    { "langId": "EN", "actor": ["Cristina Vee"] },
+    { "langId": "JP", "actor": ["Rina Sato"] },
+    { "langId": "KR", "actor": ["Kim Na-yul"] }
+  ],
+  "char_250_phatom": [
+    { "langId": "CN_MANDARIN", "actor": ["Zhaokun Liu"] },
+    { "langId": "EN", "actor": ["Ben Cura"] },
+    { "langId": "JP", "actor": ["Akira Ishida"] },
+    { "langId": "KR", "actor": ["Pyo Young-jae"] }
+  ],
+  "char_400_weedy": [
+    { "langId": "CN_MANDARIN", "actor": ["Esther"] },
+    { "langId": "JP", "actor": ["Maria Naganawa"] },
+    { "langId": "KR", "actor": ["Ga Bin"] }
+  ],
+  "char_225_haak": [
+    { "langId": "CN_MANDARIN", "actor": ["Vila"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Joanne"] },
+    { "langId": "JP", "actor": ["Yuko Sanpei"] },
+    { "langId": "KR", "actor": ["Jun Suk-kyong"] }
+  ],
+  "char_474_glady": [
+    { "langId": "CN_MANDARIN", "actor": ["Fiona"] },
+    { "langId": "JP", "actor": ["Hitomi Nabatame"] }
+  ],
+  "char_437_mizuki": [
+    { "langId": "CN_MANDARIN", "actor": ["Ruth"] },
+    { "langId": "JP", "actor": ["Ayumu Murase"] }
+  ],
+  "char_147_shining": [
+    { "langId": "CN_MANDARIN", "actor": ["Ellen Wang"] },
+    { "langId": "EN", "actor": ["Jane Jackson"] },
+    { "langId": "JP", "actor": ["Risa Shimizu"] },
+    { "langId": "KR", "actor": ["Kim Sun-hye"] }
+  ],
+  "char_179_cgbird": [
+    { "langId": "CN_MANDARIN", "actor": ["Claire"] },
+    { "langId": "EN", "actor": ["Sophie Colquhoun"] },
+    { "langId": "JP", "actor": ["Yui Ishikawa"] },
+    { "langId": "KR", "actor": ["Lee Hyun-jin"] }
+  ],
+  "char_003_kalts": [
+    { "langId": "CN_MANDARIN", "actor": ["Liu Xue"] },
+    { "langId": "EN", "actor": ["Sura Siu"] },
+    { "langId": "JP", "actor": ["Yoko Hikasa"] },
+    { "langId": "KR", "actor": ["Han Chae-eon"] }
+  ],
+  "char_136_hsguma": [
+    { "langId": "CN_MANDARIN", "actor": ["X·Cai"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Shixin Peng"] },
+    { "langId": "EN", "actor": ["Meaghan Martin"] },
+    { "langId": "JP", "actor": ["Kiyono Yasuno"] },
+    { "langId": "KR", "actor": ["Lee Sae-byeok"] }
+  ],
+  "char_202_demkni": [
+    { "langId": "CN_MANDARIN", "actor": ["Yee Chen"] },
+    { "langId": "EN", "actor": ["Norma Butikofer"] },
+    { "langId": "JP", "actor": ["Yuka Iguchi"] },
+    { "langId": "KR", "actor": ["Esther Won"] }
+  ],
+  "char_423_blemsh": [
+    { "langId": "CN_MANDARIN", "actor": ["Cheddar"] },
+    { "langId": "JP", "actor": ["Kana Hanazawa"] }
+  ],
+  "char_2014_nian": [
+    { "langId": "CN_MANDARIN", "actor": ["Catherine Young"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Li Cheng"] },
+    { "langId": "EN", "actor": ["Akira Lee Watanabe"] },
+    { "langId": "JP", "actor": ["Aoi Yuki"] },
+    { "langId": "KR", "actor": ["Kim Na-yul"] }
+  ],
+  "char_311_mudrok": [
+    { "langId": "CN_MANDARIN", "actor": ["Duduru"] },
+    { "langId": "JP", "actor": ["Maaya Uchida"] },
+    { "langId": "KR", "actor": ["Kim Yea-lim"] }
+  ],
+  "char_416_zumama": [
+    { "langId": "CN_MANDARIN", "actor": ["Bean Z"] },
+    { "langId": "JP", "actor": ["Houko Kuwashima"] }
+  ],
+  "char_263_skadi": [
+    { "langId": "CN_MANDARIN", "actor": ["Kiiki"] },
+    { "langId": "EN", "actor": ["Cristina Vee"] },
+    { "langId": "JP", "actor": ["Rina Sato"] },
+    { "langId": "KR", "actor": ["Kim Na-yul"] }
+  ],
+  "char_264_f12yin": [
+    { "langId": "CN_MANDARIN", "actor": ["Neo Wang"] },
+    { "langId": "JP", "actor": ["Kazuya Nakai"] }
+  ],
+  "char_172_svrash": [
+    { "langId": "CN_MANDARIN", "actor": ["Michael.R"] },
+    { "langId": "EN", "actor": ["James Day"] },
+    { "langId": "JP", "actor": ["Katsuyuki Konishi"] },
+    { "langId": "KR", "actor": ["Nam Doh-hyeong"] }
+  ],
+  "char_293_thorns": [
+    { "langId": "CN_MANDARIN", "actor": ["Ethan"] },
+    { "langId": "JP", "actor": ["Kaito Ishikawa"] }
+  ],
+  "char_010_chen": [
+    { "langId": "CN_MANDARIN", "actor": ["Jen Zhang"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Sunny So"] },
+    { "langId": "EN", "actor": ["Amy Lennox"] },
+    { "langId": "JP", "actor": ["Shizuka Ishigami"] },
+    { "langId": "KR", "actor": ["Chung Yu-joung"] }
+  ],
+  "char_017_huang": [
+    { "langId": "CN_MANDARIN", "actor": ["Atom"] },
+    { "langId": "JP", "actor": ["Mai Nakahara"] },
+    { "langId": "KR", "actor": ["Kim Yeon-woo"] }
+  ],
+  "char_350_surtr": [
+    { "langId": "CN_MANDARIN", "actor": ["Yi Zhu"] },
+    { "langId": "JP", "actor": ["Yui Horie"] },
+    { "langId": "KR", "actor": ["Seo Yu-ri"] }
+  ],
+  "char_188_helage": [
+    { "langId": "CN_MANDARIN", "actor": ["Robin Liu"] },
+    { "langId": "EN", "actor": ["Paul Herzberg"] },
+    { "langId": "JP", "actor": ["Show Hayami"] },
+    { "langId": "KR", "actor": ["Si Young-jun"] }
+  ],
+  "char_485_pallas": [
+    { "langId": "CN_MANDARIN", "actor": ["Yihan Zhou"] },
+    { "langId": "JP", "actor": ["Marina Inoue"] }
+  ],
+  "char_1014_nearl2": [
+    { "langId": "CN_MANDARIN", "actor": ["Xueting Mu"] },
+    { "langId": "EN", "actor": ["Devora Wilde"] },
+    { "langId": "JP", "actor": ["Ayane Sakura"] },
+    { "langId": "KR", "actor": ["Kim Yea-lim"] }
+  ],
+  "char_420_flamtl": [
+    { "langId": "CN_MANDARIN", "actor": ["Sue"] },
+    { "langId": "EN", "actor": ["Jennie Kwan"] },
+    { "langId": "JP", "actor": ["Aya Hirano"] },
+    { "langId": "KR", "actor": ["Kim Bo-min"] }
+  ],
+  "char_496_wildmn": [
+    { "langId": "CN_MANDARIN", "actor": ["Jingxia Liu"] },
+    { "langId": "EN", "actor": ["Judy Alice Lee"] },
+    { "langId": "JP", "actor": ["Tomo Muranaka"] },
+    { "langId": "KR", "actor": ["Kim Young-eun"] }
+  ],
+  "char_4000_jnight": [
+    { "langId": "CN_MANDARIN", "actor": ["Yannie Wang"] },
+    { "langId": "EN", "actor": ["Ina Marie Smith"] },
+    { "langId": "JP", "actor": ["Satsuki Yukino"] },
+    { "langId": "KR", "actor": ["Kim Sun-hye"] }
+  ],
+  "char_449_glider": [
+    { "langId": "CN_MANDARIN", "actor": ["Elivia"] },
+    { "langId": "EN", "actor": ["Sophie Shad"] },
+    { "langId": "JP", "actor": ["Honoka Inoue"] },
+    { "langId": "KR", "actor": ["Yoon Eun-seo"] }
+  ],
+  "char_4004_pudd": [
+    { "langId": "CN_MANDARIN", "actor": ["Vivia"] },
+    { "langId": "EN", "actor": ["Penelope Rawlins"] },
+    { "langId": "JP", "actor": ["Hina Tachibana"] },
+    { "langId": "KR", "actor": ["Kim Sae-hae"] }
+  ],
+  "char_489_serum": [
+    { "langId": "CN_MANDARIN", "actor": ["FengXiu"] },
+    { "langId": "EN", "actor": ["David Menkin"] },
+    { "langId": "JP", "actor": ["Daisuke Kishio"] },
+    { "langId": "KR", "actor": ["Kim Sin-woo"] }
+  ],
+  "char_206_gnosis": [
+    { "langId": "CN_MANDARIN", "actor": ["Flynn Liu"] },
+    { "langId": "EN", "actor": ["Charles Aitken"] },
+    { "langId": "JP", "actor": ["Hikaru Midorikawa"] },
+    { "langId": "KR", "actor": ["Jun Seung-hwa"] }
+  ],
+  "char_422_aurora": [
+    { "langId": "CN_MANDARIN", "actor": ["Jingxia Liu"] },
+    { "langId": "EN", "actor": ["Sarah Burke"] },
+    { "langId": "JP", "actor": ["Satomi Akesaka"] },
+    { "langId": "KR", "actor": ["Yu Yeong"] }
+  ],
+  "char_4019_ncdeer": [{ "langId": "LINKAGE", "actor": ["Menglu Yang"] }],
+  "char_4013_kjera": [
+    { "langId": "CN_MANDARIN", "actor": ["Emma Chen"] },
+    { "langId": "EN", "actor": ["Sarah Ovens"] },
+    { "langId": "JP", "actor": ["Aya Hisakawa"] },
+    { "langId": "KR", "actor": ["Jun Suk-kyong"] }
+  ],
+  "char_4025_aprot2": [
+    { "langId": "CN_MANDARIN", "actor": ["Javen Zheng"] },
+    { "langId": "EN", "actor": ["Chase Brown"] },
+    { "langId": "JP", "actor": ["Shinnosuke Tachibana"] },
+    { "langId": "KR", "actor": ["Kim Myung-jun"] }
+  ],
+  "char_2023_ling": [
+    { "langId": "CN_MANDARIN", "actor": ["Shan"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Shan"] },
+    { "langId": "EN", "actor": ["Denise Moreno"] },
+    { "langId": "JP", "actor": ["Kikuko Inoue"] },
+    { "langId": "KR", "actor": ["Lee Da-eun"] }
+  ],
+  "char_322_lmlee": [
+    { "langId": "CN_MANDARIN", "actor": ["Flynn Liu"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Peter"] },
+    { "langId": "EN", "actor": ["Joseph May"] },
+    { "langId": "JP", "actor": ["Shin-ichiro Miki"] },
+    { "langId": "KR", "actor": ["Choi Han"] }
+  ],
+  "char_476_blkngt": [
+    { "langId": "CN_MANDARIN", "actor": ["Ellen Wang"] },
+    { "langId": "EN", "actor": ["Norma Butikofer"] },
+    { "langId": "JP", "actor": ["Junko Noda"] },
+    { "langId": "KR", "actor": ["Yun A-yeong"] }
+  ],
+  "char_1021_kroos2": [
+    { "langId": "CN_MANDARIN", "actor": ["Sue"] },
+    { "langId": "EN", "actor": ["Grace Hogg-Robinson"] },
+    { "langId": "JP", "actor": ["Azusa Tadokoro"] },
+    { "langId": "KR", "actor": ["Yang Jung-hwa"] }
+  ],
+  "char_377_gdglow": [
+    { "langId": "CN_MANDARIN", "actor": ["Akari.D"] },
+    { "langId": "EN", "actor": ["Heather Nicol"] },
+    { "langId": "JP", "actor": ["Ayane Sakura"] },
+    { "langId": "KR", "actor": ["Jung Hye-won"] }
+  ],
+  "char_492_quercu": [
+    { "langId": "CN_MANDARIN", "actor": ["Mia Miao"] },
+    { "langId": "EN", "actor": ["Meaghan Martin"] },
+    { "langId": "JP", "actor": ["Asami Takano"] },
+    { "langId": "KR", "actor": ["Kim Yeon-woo"] }
+  ],
+  "char_300_phenxi": [
+    { "langId": "CN_MANDARIN", "actor": ["Xiaowen Xu"] },
+    { "langId": "EN", "actor": ["Ina Marie Smith"] },
+    { "langId": "JP", "actor": ["Fumiko Orikasa"] },
+    { "langId": "KR", "actor": ["Kim Bo-na"] }
+  ],
+  "char_4016_kazema": [
+    { "langId": "CN_MANDARIN", "actor": ["Kiiki"] },
+    { "langId": "EN", "actor": ["Penelope Rawlins"] },
+    { "langId": "JP", "actor": ["Mariko Honda"] },
+    { "langId": "KR", "actor": ["Lee Ja-myeong"] }
+  ],
+  "char_4036_forcer": [
+    { "langId": "CN_MANDARIN", "actor": ["Guangyi Du"] },
+    { "langId": "EN", "actor": ["Chase Brown"] },
+    { "langId": "JP", "actor": ["Kensho Ono"] },
+    { "langId": "KR", "actor": ["Shin Yong-woo"] }
+  ],
+  "char_4039_horn": [
+    { "langId": "CN_MANDARIN", "actor": ["Yuan Weng"] },
+    { "langId": "EN", "actor": ["Anna Burnett"] },
+    { "langId": "JP", "actor": ["Megumi Toyoguchi"] },
+    { "langId": "KR", "actor": ["Sung Ye-won"] }
+  ],
+  "char_4040_rockr": [
+    { "langId": "CN_MANDARIN", "actor": ["Esther"] },
+    { "langId": "EN", "actor": ["Clare Louise Connolly"] },
+    { "langId": "JP", "actor": ["Haruka Chisuga"] },
+    { "langId": "KR", "actor": ["Lee Yoo-ri"] }
+  ],
+  "char_4041_chnut": [
+    { "langId": "CN_MANDARIN", "actor": ["ZhiAn"] },
+    { "langId": "JP", "actor": ["Shoya Chiba"] },
+    { "langId": "KR", "actor": ["Hong Seung-hyo"] }
+  ],
+  "char_4045_heidi": [
+    { "langId": "CN_MANDARIN", "actor": ["Ying Xie"] },
+    { "langId": "EN", "actor": ["Sophie Shad"] },
+    { "langId": "JP", "actor": ["Akira Sekine"] },
+    { "langId": "KR", "actor": ["Sung Ye-won"] }
+  ],
+  "char_1023_ghost2": [
+    { "langId": "CN_MANDARIN", "actor": ["Angel Zhang"] },
+    { "langId": "EN", "actor": ["Harriet Carmichael"] },
+    { "langId": "JP", "actor": ["Azumi Asakura"] },
+    { "langId": "KR", "actor": ["Kim Hyeon-sim"] }
+  ],
+  "char_4009_irene": [
+    { "langId": "CN_MANDARIN", "actor": ["Wen Liu"] },
+    { "langId": "EN", "actor": ["Lizzie Waterworth"] },
+    { "langId": "JP", "actor": ["Rie Kugimiya"] },
+    { "langId": "KR", "actor": ["Sa Moon-young"] }
+  ],
+  "char_4042_lumen": [
+    { "langId": "CN_MANDARIN", "actor": ["Gary"] },
+    { "langId": "EN", "actor": ["Jay Rincon"] },
+    { "langId": "JP", "actor": ["Yusuke Kobayashi"] },
+    { "langId": "KR", "actor": ["Min Seung-woo"] }
+  ],
+  "char_433_windft": [
+    { "langId": "CN_MANDARIN", "actor": ["Wei Chen"] },
+    { "langId": "EN", "actor": ["Caleb Yen"] },
+    { "langId": "JP", "actor": ["Taku Yashiro"] },
+    { "langId": "KR", "actor": ["Jung Ui-taek"] }
+  ],
+  "char_4043_erato": [
+    { "langId": "CN_MANDARIN", "actor": ["Kousou Mao"] },
+    { "langId": "JP", "actor": ["Kotomi Aihara"] },
+    { "langId": "KR", "actor": ["Kim Yun-chae"] }
+  ],
+  "char_4046_ebnhlz": [
+    { "langId": "CN_MANDARIN", "actor": ["Jax"] },
+    { "langId": "EN", "actor": ["Atilla Akinci"] },
+    { "langId": "JP", "actor": ["Ryota Osaka"] },
+    { "langId": "KR", "actor": ["Um Sang-hyun"] }
+  ],
+  "char_1024_hbisc2": [
+    { "langId": "CN_MANDARIN", "actor": ["D. QQ"] },
+    { "langId": "EN", "actor": ["Yuuki Luna"] },
+    { "langId": "JP", "actor": ["Yuka Iguchi"] },
+    { "langId": "KR", "actor": ["Bang Yeon-ji"] }
+  ],
+  "char_4047_pianst": [
+    { "langId": "CN_MANDARIN", "actor": ["Qd"] },
+    { "langId": "EN", "actor": ["Gunnar Cauthery"] },
+    { "langId": "JP", "actor": ["Hiroki Yasumoto"] },
+    { "langId": "KR", "actor": ["Lee Hyun"] }
+  ],
+  "char_512_aprot": [
+    { "langId": "CN_MANDARIN", "actor": ["Javen Zheng"] },
+    { "langId": "JP", "actor": ["Shinnosuke Tachibana"] }
+  ],
+  "char_4048_doroth": [
+    { "langId": "CN_MANDARIN", "actor": ["Kousou Mao"] },
+    { "langId": "EN", "actor": ["Allegra Clark"] },
+    { "langId": "JP", "actor": ["Satomi Sato"] },
+    { "langId": "KR", "actor": ["Lee Eun-jo"] }
+  ],
+  "char_1027_greyy2": [
+    { "langId": "CN_MANDARIN", "actor": ["ZhiAn"] },
+    { "langId": "EN", "actor": ["Mark Daugherty"] },
+    { "langId": "JP", "actor": ["Mai Fuchigami"] },
+    { "langId": "KR", "actor": ["So Yeon"] }
+  ],
+  "char_135_halo": [
+    { "langId": "CN_MANDARIN", "actor": ["Li Cheng"] },
+    { "langId": "EN", "actor": ["Maya Aoki Tuttle"] },
+    { "langId": "JP", "actor": ["Saho Shirasu"] },
+    { "langId": "KR", "actor": ["Kim Ian"] }
+  ],
+  "char_1026_gvial2": [
+    { "langId": "CN_MANDARIN", "actor": ["Emma Chen"] },
+    { "langId": "EN", "actor": ["Natalie Winter"] },
+    { "langId": "JP", "actor": ["Ayaka Suwa"] },
+    { "langId": "KR", "actor": ["Kim You-lim"] }
+  ],
+  "char_4055_bgsnow": [
+    { "langId": "CN_MANDARIN", "actor": ["Yi Zhu"] },
+    { "langId": "EN", "actor": ["Alyson Leigh Rosenfeld"] },
+    { "langId": "JP", "actor": ["Chika Anzai"] },
+    { "langId": "KR", "actor": ["Park Ri-na"] }
+  ],
+  "char_497_ctable": [
+    { "langId": "CN_MANDARIN", "actor": ["Luttefair"] },
+    { "langId": "EN", "actor": ["Frankie Kevich"] },
+    { "langId": "JP", "actor": ["Yuka Saito"] },
+    { "langId": "KR", "actor": ["Moon Sun-hee"] }
+  ],
+  "char_4054_malist": [
+    { "langId": "CN_MANDARIN", "actor": ["Xiaowen Xu"] },
+    { "langId": "EN", "actor": ["Caleb Yen"] },
+    { "langId": "JP", "actor": ["Sho Nogami"] },
+    { "langId": "KR", "actor": ["Lee Ju-seung"] }
+  ],
+  "char_511_asnipe": [
+    { "langId": "CN_MANDARIN", "actor": ["Pei Zhang"] },
+    { "langId": "EN", "actor": ["Dar Dash"] },
+    { "langId": "JP", "actor": ["Motoyuki Kawahara"] },
+    { "langId": "KR", "actor": ["Park Ju-gwang"] }
+  ],
+  "char_510_amedic": [
+    { "langId": "CN_MANDARIN", "actor": ["Tweezle"] },
+    { "langId": "EN", "actor": ["Elsie Bennett"] },
+    { "langId": "JP", "actor": ["Ryoka Yuzuki "] },
+    { "langId": "KR", "actor": ["Park Yi-seo"] }
+  ],
+  "char_508_aguard": [
+    { "langId": "CN_MANDARIN", "actor": ["Robin Liu"] },
+    { "langId": "EN", "actor": ["Ben Starr"] },
+    { "langId": "JP", "actor": ["Taiten Kusunoki"] },
+    { "langId": "KR", "actor": ["Choi Na-kyoon"] }
+  ],
+  "char_509_acast": [
+    { "langId": "CN_MANDARIN", "actor": ["Jenny"] },
+    { "langId": "EN", "actor": ["Rebecca Hanssen"] },
+    { "langId": "JP", "actor": ["Asami Yaguchi"] },
+    { "langId": "KR", "actor": ["Lee Myung-hwa"] }
+  ],
+  "char_4064_mlynar": [
+    { "langId": "CN_MANDARIN", "actor": ["Yuhang Wang"] },
+    { "langId": "EN", "actor": ["Anthony Howell"] },
+    { "langId": "JP", "actor": ["Rikiya Koyama"] },
+    { "langId": "KR", "actor": ["Choi Hyun-su"] }
+  ],
+  "char_4032_provs": [
+    { "langId": "CN_MANDARIN", "actor": ["Ying Xie"] },
+    { "langId": "EN", "actor": ["Allegra Clark"] },
+    { "langId": "JP", "actor": ["Madoka Yonezawa"] },
+    { "langId": "KR", "actor": ["Kim Chae-rin"] }
+  ],
+  "char_4067_lolxh": [
+    { "langId": "CN_MANDARIN", "actor": ["Shanxin"] },
+    { "langId": "JP", "actor": ["Kana Hanazawa & Shanxin"] }
+  ],
+  "char_513_apionr": [
+    { "langId": "CN_MANDARIN", "actor": ["Luttefair"] },
+    { "langId": "EN", "actor": ["Melissa Medina"] },
+    { "langId": "JP", "actor": ["YUKO IIDA"] },
+    { "langId": "KR", "actor": ["Kim Chae-rin"] }
+  ],
+  "char_4066_highmo": [
+    { "langId": "CN_MANDARIN", "actor": ["Xiaowen Xu"] },
+    { "langId": "EN", "actor": ["Ashlyn Madden"] },
+    { "langId": "JP", "actor": ["Natsumi Oshita"] },
+    { "langId": "KR", "actor": ["Lee Da-eun"] }
+  ],
+  "char_4071_peper": [
+    { "langId": "CN_MANDARIN", "actor": ["Yihan Zhou"] },
+    { "langId": "EN", "actor": ["Erika Harlacher-Stone"] },
+    { "langId": "JP", "actor": ["Yu Sasahara"] },
+    { "langId": "KR", "actor": ["Park Ri-na"] }
+  ],
+  "char_157_dagda": [
+    { "langId": "CN_MANDARIN", "actor": ["Misty"] },
+    { "langId": "EN", "actor": ["Eleanor Bennett"] },
+    { "langId": "JP", "actor": ["Shiki Aoki"] },
+    { "langId": "KR", "actor": ["Park Shi-yoon"] }
+  ],
+  "char_4072_ironmn": [
+    { "langId": "CN_MANDARIN", "actor": ["Jinze Huang"] },
+    { "langId": "EN", "actor": ["Jack Ayres"] },
+    { "langId": "JP", "actor": ["Takuma Terashima"] },
+    { "langId": "KR", "actor": ["Park Sung-tae"] }
+  ],
+  "char_4062_totter": [
+    { "langId": "CN_MANDARIN", "actor": ["Beichen Liu"] },
+    { "langId": "EN", "actor": ["Mercer Boffey"] },
+    { "langId": "JP", "actor": ["Chikahiro Kobayashi"] },
+    { "langId": "KR", "actor": ["Lee Jin-moo"] }
+  ],
+  "char_4063_quartz": [
+    { "langId": "CN_MANDARIN", "actor": ["Jen Zhang"] },
+    { "langId": "JP", "actor": ["Rikako Aida"] },
+    { "langId": "KR", "actor": ["Kim Yun-chae"] }
+  ],
+  "char_466_qanik": [
+    { "langId": "CN_MANDARIN", "actor": ["Tongming Zhang"] },
+    { "langId": "JP", "actor": ["GEN SATO"] },
+    { "langId": "KR", "actor": ["Seok Seung-hoon"] }
+  ],
+  "char_4014_lunacu": [
+    { "langId": "CN_MANDARIN", "actor": ["yoyo"] },
+    { "langId": "EN", "actor": ["Stephanie McKeon"] },
+    { "langId": "JP", "actor": ["Risa Kubota"] },
+    { "langId": "KR", "actor": ["Park Ha-jin"] }
+  ],
+  "char_427_vigil": [
+    { "langId": "CN_MANDARIN", "actor": ["Tongming Zhang"] },
+    { "langId": "EN", "actor": ["Salvatore Scarpa"] },
+    { "langId": "ITA", "actor": ["Alessandro Pili"] },
+    { "langId": "JP", "actor": ["KENN"] },
+    { "langId": "KR", "actor": ["Lee Sang-ho"] }
+  ],
+  "char_4065_judge": [
+    { "langId": "CN_MANDARIN", "actor": ["Icy"] },
+    { "langId": "EN", "actor": ["Allegra Clark"] },
+    { "langId": "ITA", "actor": ["Annalisa Longo"] },
+    { "langId": "JP", "actor": ["Sayaka Oohara"] },
+    { "langId": "KR", "actor": ["Bi Ju-eon"] }
+  ],
+  "char_1028_texas2": [
+    { "langId": "CN_MANDARIN", "actor": ["Menglu Yang"] },
+    { "langId": "EN", "actor": ["Jessica Preddy"] },
+    { "langId": "ITA", "actor": ["Ilaria Silvestri"] },
+    { "langId": "JP", "actor": ["Azusa Tadokoro"] },
+    { "langId": "KR", "actor": ["Kim Chae-ha"] }
+  ],
+  "char_297_hamoni": [
+    { "langId": "CN_MANDARIN", "actor": ["Elaine"] },
+    { "langId": "EN", "actor": ["Lexi Fontaine"] },
+    { "langId": "JP", "actor": ["Yumi Kakazu"] },
+    { "langId": "KR", "actor": ["Lee Myeong-ho"] }
+  ],
+  "char_4017_puzzle": [
+    { "langId": "CN_MANDARIN", "actor": ["Thousand Down"] },
+    { "langId": "EN", "actor": ["Khoi Dao"] },
+    { "langId": "JP", "actor": ["KENGO TAKANASHI"] },
+    { "langId": "KR", "actor": ["Shim Kyu-hyuck"] }
+  ],
+  "char_1020_reed2": [
+    { "langId": "CN_MANDARIN", "actor": ["Tracy"] },
+    { "langId": "EN", "actor": ["Martha Mackintosh"] },
+    { "langId": "JP", "actor": ["Mamiko Noto"] },
+    { "langId": "KR", "actor": ["Yoo Bo-ra"] }
+  ],
+  "char_4080_lin": [
+    { "langId": "CN_MANDARIN", "actor": ["Sophia"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Cotton Candy"] },
+    { "langId": "EN", "actor": ["Artemis Snow"] },
+    { "langId": "JP", "actor": ["Kanae Ito"] },
+    { "langId": "KR", "actor": ["Kang Eun-ae"] }
+  ],
+  "char_2024_chyue": [
+    { "langId": "CN_MANDARIN", "actor": ["Ling Zhao"] },
+    { "langId": "CN_TOPOLECT", "actor": ["Bill"] },
+    { "langId": "EN", "actor": ["Yong Yea"] },
+    { "langId": "JP", "actor": ["Toshihiko Seki"] },
+    { "langId": "KR", "actor": ["Koo Ja-hyoung"] }
+  ],
+  "char_4078_bdhkgt": [
+    { "langId": "CN_MANDARIN", "actor": ["Icy"] },
+    { "langId": "EN", "actor": ["Judy Alice Lee"] },
+    { "langId": "JP", "actor": ["NATSUMI FUJIWARA"] },
+    { "langId": "KR", "actor": ["Hur Yea-eun"] }
+  ],
+  "char_493_firwhl": [
+    { "langId": "CN_MANDARIN", "actor": ["Luttefair"] },
+    { "langId": "EN", "actor": ["Jennifer Losi"] },
+    { "langId": "JP", "actor": ["Eriko Matsui"] },
+    { "langId": "KR", "actor": ["Kim So-hee"] }
+  ],
+  "char_4082_qiubai": [
+    { "langId": "CN_MANDARIN", "actor": ["Daisy"] },
+    { "langId": "EN", "actor": ["Angel Lin"] },
+    { "langId": "JP", "actor": ["Minako Kotobuki"] },
+    { "langId": "KR", "actor": ["Cho Hyun-jung"] }
+  ],
+  "char_4083_chimes": [
+    { "langId": "CN_MANDARIN", "actor": ["Yannie Wang"] },
+    { "langId": "EN", "actor": ["Vivian Lu"] },
+    { "langId": "JP", "actor": ["HIROMI HIRATA"] },
+    { "langId": "KR", "actor": ["Cha Young-hee"] }
+  ],
+  "char_1029_yato2": [
+    { "langId": "CN_MANDARIN", "actor": ["Fifi"] },
+    { "langId": "EN", "actor": ["Jessica Mcdonald"] },
+    { "langId": "JP", "actor": ["Saki Fujita"] },
+    { "langId": "KR", "actor": ["Woo Jeong-sin"] }
+  ],
+  "char_4077_palico": [{ "langId": "LINKAGE", "actor": ["-"] }],
+  "char_1030_noirc2": [
+    { "langId": "CN_MANDARIN", "actor": ["Zhaokun Liu"] },
+    { "langId": "EN", "actor": ["Ben Cura"] },
+    { "langId": "JP", "actor": ["Kengo Kawanishi"] },
+    { "langId": "KR", "actor": ["Ryu Seung-gon"] }
+  ],
+  "char_4087_ines": [
+    { "langId": "CN_MANDARIN", "actor": ["Ruoyu Zhang"] },
+    { "langId": "EN", "actor": ["Erica Lindbeck"] },
+    { "langId": "JP", "actor": ["Ayumi Tsunematsu"] },
+    { "langId": "KR", "actor": ["Shin Na-ri"] }
+  ],
+  "char_154_morgan": [
+    { "langId": "CN_MANDARIN", "actor": ["Zhiqiu Ye"] },
+    { "langId": "EN", "actor": ["Denise Hoey "] },
+    { "langId": "JP", "actor": ["Mayumi Kaneko"] },
+    { "langId": "KR", "actor": ["Kang Sae-bom"] }
+  ],
+  "char_464_cement": [
+    { "langId": "CN_MANDARIN", "actor": ["Daisy"] },
+    { "langId": "EN", "actor": ["Dani Chambers "] },
+    { "langId": "JP", "actor": ["Kozue Yuuki"] },
+    { "langId": "KR", "actor": ["Seo Eun-bi"] }
+  ],
+  "char_491_humus": [
+    { "langId": "CN_MANDARIN", "actor": ["Yuxuan Liu"] },
+    { "langId": "EN", "actor": ["Gabriel Romero "] },
+    { "langId": "JP", "actor": ["Kazuki Kyan"] },
+    { "langId": "KR", "actor": ["Park Ju-gwang"] }
+  ],
+  "char_1031_slent2": [
+    { "langId": "CN_MANDARIN", "actor": ["Shuang Liang"] },
+    { "langId": "EN", "actor": ["Erica Lindbeck"] },
+    { "langId": "JP", "actor": ["Akari Kito"] },
+    { "langId": "KR", "actor": ["Seo Dahye"] }
+  ],
+  "char_4027_heyak": [
+    { "langId": "CN_MANDARIN", "actor": ["Hong Haitian"] },
+    { "langId": "EN", "actor": ["Anne Yatco"] },
+    { "langId": "JP", "actor": ["Miyuki Sawashiro"] },
+    { "langId": "KR", "actor": ["Jang Mi"] }
+  ],
+  "char_4006_melnte": [
+    { "langId": "CN_MANDARIN", "actor": ["Miruku"] },
+    { "langId": "EN", "actor": ["Christie Cate "] },
+    { "langId": "JP", "actor": ["Hana Takeda"] },
+    { "langId": "KR", "actor": ["Sa Moon-young"] }
+  ],
+  "char_249_mlyss": [
+    { "langId": "CN_MANDARIN", "actor": ["Wang Yaxin"] },
+    { "langId": "EN", "actor": ["Kayli Mills"] },
+    { "langId": "JP", "actor": ["Yukari Tamura"] },
+    { "langId": "KR", "actor": ["Park Shi-yoon"] }
+  ]
+}
