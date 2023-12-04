@@ -1,0 +1,51 @@
+name: Update Data
+on:
+  schedule:
+    - cron: "30 16 * * 2" # Runs 30min after new data is fetched in `cyanChill/Caerula-Data`
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Fetch latest data & types from `cyanChill/Caerula-Data`
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout `staging` branch of current repository (`cyanChill/Caerula`)
+      - uses: actions/checkout@v4
+        with:
+          # Relative path under $GITHUB_WORKSPACE to place the repository
+          path: main
+          fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
+          ref: staging # Working in the `staging` branch
+          sparse-checkout: |
+            src/data
+            src/types
+      # Checkout `main` branch of `cyanChill/Caerula-Data`
+      - uses: actions/checkout@v4
+        with:
+          repository: cyanChill/Caerula-Data
+          ssh-key: ${{ secrets.REPO_ACCESS_KEY }}
+          path: caerula-data
+          ref: main # Working in the `main` branch
+          sparse-checkout: |
+            data
+            types
+      - name: Copy files over to `cyanChill/Caerula`
+        run: |
+          cp -r caerula-data/data main/src/data
+          cp -r caerula-data/types main/src/types
+      - name: Commit & push changes to cyanChill/Caerula
+        id: push
+        run: |
+          cd main
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ./src/data ./src/types
+          git commit -m "ci(data): `date`"
+          git push
+        continue-on-error: true
+      - name: Create pull request if push was successful
+        if: steps.push.outcome == 'success'
+        run: |
+          gh pr create -B main -H staging --label "game data" --title "chore(data): Bumped Game Data" --body "Created by GitHub Actions."
+        env:
+          GH_TOKEN: ${{ github.token }}
