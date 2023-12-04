@@ -31,8 +31,8 @@ jobs:
             types
       - name: Copy files over to `cyanChill/Caerula`
         run: |
-          cp -r caerula-data/data main/src/data
-          cp -r caerula-data/types main/src/types
+          cp -a caerula-data/data/. main/src/data/
+          cp -a caerula-data/types/. main/src/types/
       - name: Commit & push changes to cyanChill/Caerula
         id: push
         run: |
@@ -46,6 +46,7 @@ jobs:
       - name: Create pull request if push was successful
         if: steps.push.outcome == 'success'
         run: |
+          cd main
           gh pr create -B main -H staging --label "game data" --title "chore(data): Bumped Game Data" --body "Created by GitHub Actions."
         env:
           GH_TOKEN: ${{ github.token }}
