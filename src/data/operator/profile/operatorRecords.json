@@ -1,0 +1,1755 @@
+{
+  "char_500_noirc": [
+    {
+      "name": "The Other Side of the Deck",
+      "description": ["Life only truly begins after you get off work."],
+      "unlockCond": { "elite": 0, "lvl": 30 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_501_durin": [
+    {
+      "name": "Lunchtime Nap",
+      "description": [
+        "As long as it doesn't hold up work, there's nothing wrong with sleeping in a little."
+      ],
+      "unlockCond": { "elite": 0, "lvl": 30 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_123_fang": [
+    {
+      "name": "Second Charge",
+      "description": [
+        "When you gain greater strength, you must assume greater responsibility. Raised as the captain of the squad, Fang, too, wants to prove she deserves to have hope placed in her."
+      ],
+      "unlockCond": { "elite": 1, "lvl": 55 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_124_kroos": [
+    {
+      "name": "Apples",
+      "description": ["Chance idleness can have a ripple effect like you'd never predict."],
+      "unlockCond": { "elite": 1, "lvl": 55 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_121_lava": [
+    {
+      "name": "'Sisters'",
+      "description": ["Looking for a big sister?"],
+      "unlockCond": { "elite": 1, "lvl": 55 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "'Caring'",
+      "description": ["Just who is taking care of whom?"],
+      "unlockCond": { "elite": 1, "lvl": 55 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_208_melan": [
+    {
+      "name": "Team Captain",
+      "description": [
+        "You see how wonderful other people are, and other people see you just the same."
+      ],
+      "unlockCond": { "elite": 1, "lvl": 55 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_209_ardign": [
+    {
+      "name": "It'll Be Fine, Guaranteed!",
+      "description": [
+        "Cardigan likes running. Cardigan's good at running. Cardigan, right now, has gotta run!"
+      ],
+      "unlockCond": { "elite": 1, "lvl": 55 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_108_silent": [
+    {
+      "name": "New to the Workforce",
+      "description": [
+        "The way forward is a tough and tricky one, but as new blood, she's done well enough already."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_134_ifrit": [
+    {
+      "name": "Team Captain",
+      "description": [
+        "She thinks the person she's looking after has gotten thin, but according to them, she's just gotten tall."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_128_plosis": [
+    {
+      "name": "Deep, Dark Dream",
+      "description": [
+        "A late friend, an odd Originium device, an uncanny muttering. All these mysteries buried in the depths of her soul, buried by her."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_242_otter": [
+    {
+      "name": "One Packed Daily Schedule",
+      "description": [
+        "Every day's non-stop, round the clock. There's bad times, there's good times."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "Heart of Creation",
+      "description": ["From Rhine Lab to Rhodes Island, they've always come with."],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_215_mantic": [
+    {
+      "name": "Dead Silence",
+      "description": ["She trembles and shudders, scared even of the sound when she speaks."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_149_scave": [
+    {
+      "name": "The Will of a Coin",
+      "description": [
+        "She knows the rules of survival well, and leaves everything else to the flip of a coin."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_204_platnm": [
+    {
+      "name": "Bubbles",
+      "description": ["'If only life and dreams could all be a little more interesting...'"],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_172_svrash": [
+    {
+      "name": "Unpredictable",
+      "description": ["A rare-to-see counterpart; a hard-to-meet opponent."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "Unbreakable Ice",
+      "description": ["Eternity does not melt; eternity does not forsake."],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_173_slchan": [
+    {
+      "name": "Heart of the Cliffs",
+      "description": ["'The climb is easy; the descent is hard.'"],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_174_slbell": [
+    {
+      "name": "Beyond the Snowy Mountain",
+      "description": [
+        "Her first time leaving Kjerag, but not her first time looking outwards."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_199_yak": [
+    {
+      "name": "One Day",
+      "description": ["Matterhorn has stewed this bowl of soup the whole day."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_219_meteo": [
+    {
+      "name": "Firefly's Light",
+      "description": [
+        "That is our language, and every single word is full of reminiscence and hope."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_158_milu": [
+    {
+      "name": "On My Way",
+      "description": ["The one who survived walks the road of revenge."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_115_headbr": [
+    {
+      "name": "Strong Meets Stronger",
+      "description": ["Don't think too hard about it, just go and have some fun."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_195_glassb": [
+    {
+      "name": "Let's Go, Let's Go",
+      "description": [
+        "The shadow of that city is far too long. She has to hurry, be faster, or else she'll be engulfed by the past."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_196_sunbr": [
+    {
+      "name": "Lost Companion",
+      "description": ["To a child, nothing really beats the company of loved ones."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "Growing Up",
+      "description": ["Gummy will do anything to protect the friends by her side."],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_179_cgbird": [
+    {
+      "name": "A Song and a Blue Feather",
+      "description": [
+        "One who cannot see her own hopes, still wishing yet to bring hope to others."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_155_tiger": [
+    {
+      "name": "The Guide to Mutual Learning",
+      "description": [
+        "To go from a street thug to an excellent Operator takes a decent few deep breaths."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_101_sora": [
+    {
+      "name": "Distance",
+      "description": ["It's an idol's job to bring hope to people, and not just on the stage."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_102_texas": [
+    {
+      "name": "Guaranteed Success",
+      "description": ["Who knew there'd come a day when you deliver to the losers?"],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_103_angel": [
+    {
+      "name": "Incoming Mail",
+      "description": [
+        "Don't worry too much about Laterano people, they can cope fine no matter where they end up."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "Constants Within Changes",
+      "description": ["Live in the present and enjoy it."],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_201_moeshd": [
+    {
+      "name": "The Business",
+      "description": [
+        "You buy, you sell, and when it leaves your hands, it's gone like smoke."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_118_yuki": [
+    {
+      "name": "The Way of Shinobi",
+      "description": ["The Princess once said, unwise is blind loyalty."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_106_franka": [
+    {
+      "name": "Symbols of the Past",
+      "description": [
+        "The flowers and trees around her could be symbols of days gone, or of nothing at all; it is all in her mind."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_107_liskam": [
+    {
+      "name": "'Apple Pie Party, Now Preparing!'",
+      "description": ["A serious look? Won't fly here."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "'Still Waiting'",
+      "description": ["After leaving home, one longs to protect the rebirth of one's origin."],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_117_myrrh": [
+    {
+      "name": "Lucky Charm",
+      "description": [
+        "Sometimes, people want to believe that something is real, even when they know it isn't."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_193_frostl": [
+    {
+      "name": "Learning to Read",
+      "description": [
+        "When all's said and done, just what is 'a new life' to a roving mercenary?"
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_129_bluep": [
+    {
+      "name": "Untouchable",
+      "description": ["The farthest distance is the one from legend to reality."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_143_ghost": [
+    {
+      "name": "Merry Christmas!",
+      "description": [
+        "A precious chance at a gift exchange, bearing a sincere heart upon its back. Can she sense it?"
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "I, Namely I",
+      "description": [
+        "A long, long-awaited, yet all too brief reuniting, and a torrent of words her mind wants to speak. She wants to relay all that she can."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_181_flower": [
+    {
+      "name": "'Refurbishment Plans'",
+      "description": ["Flowers grow, and gardens expand."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "How Old Trees Grow",
+      "description": [
+        "It's no mere nostalgia, nor simple hatred. Perhaps this complicated feeling is what you call 'homesickness.'"
+      ],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_109_fmout": [
+    {
+      "name": "'Divination'",
+      "description": ["Giving a few useless directions to the lost."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_126_shotst": [
+    {
+      "name": "Scalding Old Memories",
+      "description": ["Bygone recollections are beasts, the pursuers behind you."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "Dilemma",
+      "description": [
+        "The moons aren't always consummate, and the world has many a shortcoming."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_127_estell": [
+    {
+      "name": "One Small Step For Her",
+      "description": ["Every thought held in your heart will bloom, one day or another."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_141_nights": [
+    {
+      "name": "'Kitties'",
+      "description": [
+        "'Meow—.' By their side, she seems to relax, to be pleased, to be totally content."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_145_prove": [
+    {
+      "name": "Coworkers",
+      "description": ["Of course life is precious. You, I and all of us are precious alike."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "A Perilous Road",
+      "description": [
+        "Catastrophe and man-made disaster; when both weave together, what should she do?"
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_183_skgoat": [
+    {
+      "name": "Extra Work",
+      "description": ["Leisure time: inevitably interrupted by work."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "Distant Relic",
+      "description": ["Sometimes, work is the simpler part of living."],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_241_panda": [
+    {
+      "name": "Nosedive",
+      "description": [
+        "When it grows on the cliffside, even the sturdiest bamboo fears a change in the wind."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_180_amgoat": [
+    {
+      "name": "Heart of a Scholar",
+      "description": ["The darkness pursues her, and she pursues the light."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "Volcano",
+      "description": ["That once burnt away is truth, and eternity too."],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_185_frncat": [
+    {
+      "name": "Sweetheart",
+      "description": [
+        "For a new loaf of bread, feelings and affection are the best ingredients."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_163_hpsts": [
+    {
+      "name": "Forging",
+      "description": [
+        "She mends more than just weapons; she mends what they mean to their users."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_171_bldsk": [
+    {
+      "name": "'Monster'",
+      "description": ["'Monsters' have their own way in the world too."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "Rarely Serious",
+      "description": ["She's lived for centuries, after all."],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_110_deepcl": [
+    {
+      "name": "Azure Memories",
+      "description": ["That is her own shade of blue."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_166_skfire": [
+    {
+      "name": "Old Classmate",
+      "description": ["People pick up all sorts of tricks while you're away."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_240_wyvern": [
+    {
+      "name": "Originium Slugs and Hops",
+      "description": [
+        "Man's relationship with nature is always full of issues, but down at the root, it's all people issues."
+      ],
+      "unlockCond": { "elite": 1, "lvl": 55 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_236_rope": [
+    {
+      "name": "Floral Perfume",
+      "description": [
+        "Foreigners always have some mystical fantasies, but unfortunately, not every Yan person can hop between roofs and walk on walls.",
+        "To true lovers of gardening, there's blooming flowers and bearing fruits, but what warrants closer attention is the soil itself."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_237_gravel": [
+    {
+      "name": "Past in Dreams",
+      "description": [
+        "One's parents and hometown; the origins every child is forever looking for."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_286_cast3": [
+    {
+      "name": "Immortal",
+      "description": ["Keep running, Castle-3. "],
+      "unlockCond": { "elite": 0, "lvl": 30 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_285_medic2": [
+    {
+      "name": "A Piece of Graffiti",
+      "description": ["The raddest robot, and the raddest friend."],
+      "unlockCond": { "elite": 0, "lvl": 30 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_009_12fce": [
+    {
+      "name": "Certain Choices",
+      "description": ["His past isn't secret, it's completely empty."],
+      "unlockCond": { "elite": 0, "lvl": 30 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_278_orchid": [
+    {
+      "name": "Incomplete",
+      "description": [
+        "The moment the scissors tear through the dress, it is too late to regret anything."
+      ],
+      "unlockCond": { "elite": 1, "lvl": 55 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_235_jesica": [
+    {
+      "name": "The Slow Walk Ahead",
+      "description": [
+        "She walks slowly, and the path she chose isn't the easiest one in the eyes of others."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_290_vigna": [
+    {
+      "name": "What You've Gotta Do",
+      "description": [
+        "Rock 'n' roll can be your whole hobby, but it doesn't have to be your whole life."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_277_sqrrel": [
+    {
+      "name": "Careful of Flammables",
+      "description": [
+        "Firefighters never fear fire. She just fears people losing far too many precious things to it."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "Flammables",
+      "description": [
+        "Sooner or later, every fireman learns how it feels to fail to save a life."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_291_aglina": [
+    {
+      "name": "'Package with No Recipient'",
+      "description": [
+        "Messengers rarely make mistakes at work, since fixing them is always rough.",
+        "A good Messenger shares the feelings between people."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_192_falco": [
+    {
+      "name": "A Grand, Distant Ideal",
+      "description": ["She'll bear that old halberd, and she'll go on."],
+      "unlockCond": { "elite": 1, "lvl": 55 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_230_savage": [
+    {
+      "name": "Painful Reversal",
+      "description": ["A responsibility, an opportunity."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "No Less Than a Pie",
+      "description": [
+        "Why's Savage so affectionate towards Cautus? Eh, the Cautus are meant to huddle up all nice and cozy together, aren't they!",
+        "Eat a slice of carrot pie, and listen to her thoughts."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_282_catap": [
+    {
+      "name": "Break Free",
+      "description": [
+        "When you can no longer stand your life as it is, smash it apart and choose a new one."
+      ],
+      "unlockCond": { "elite": 1, "lvl": 55 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "Change",
+      "description": ["How much can time really change?"],
+      "unlockCond": { "elite": 1, "lvl": 55 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_283_midn": [
+    {
+      "name": "Letter From Home",
+      "description": ["Maybe looking back isn't all that bad, every now and then."],
+      "unlockCond": { "elite": 1, "lvl": 55 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_137_brownb": [
+    {
+      "name": "Ending Bell",
+      "description": [
+        "A match closes out to its ring, but the bell just signals the start of the next."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_263_skadi": [
+    {
+      "name": "Endless Journey",
+      "description": ["She always thought she was the last Abyssal Hunter."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_284_spot": [
+    {
+      "name": "Face of the Hero",
+      "description": ["Perhaps accepting your true self is in its way a heroic achievement?"],
+      "unlockCond": { "elite": 1, "lvl": 55 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_281_popka": [
+    {
+      "name": "Funtime",
+      "description": [
+        "Putting young Operators in the playroom is the peak of safety. How could anything possibly happen?"
+      ],
+      "unlockCond": { "elite": 1, "lvl": 55 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_308_swire": [
+    {
+      "name": "Day Before the Job",
+      "description": [
+        "The family is humanity's eternal motif. Young children will always take family to be all there is to life, but if it crashes against this land of ours when it tries to decide all their days to come, it may end up no more than an inconsequential ripple."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_253_greyy": [
+    {
+      "name": "Filter Stars",
+      "description": ["He lights a corner of the night sky after his mother."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_010_chen": [
+    {
+      "name": "In One Effort",
+      "description": ["Swell, then ebb."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_298_susuro": [
+    {
+      "name": "Professional Doctor",
+      "description": [
+        "Sussurro is frequently misjudged by others for her appearance, but she really is a professional doctor."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_274_astesi": [
+    {
+      "name": "Revelation",
+      "description": ["There are more than just the stars that can light up tomorrow."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_326_glacus": [
+    {
+      "name": "On My Own Two Legs",
+      "description": [
+        "She doesn't need others to recognize it. In Glaucus's heart, technology takes its own shape."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_348_ceylon": [
+    {
+      "name": "Heartfelt Present",
+      "description": [
+        "The search for truth is far more difficult than she imagined, but she learned to seek the encouragement and support from those who walk the same path."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_340_shwaz": [
+    {
+      "name": "'The Day We Left Home'",
+      "description": ["What is the meaning of life? That is the question."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_188_helage": [
+    {
+      "name": "Fate",
+      "description": ["Knights and generals, wars and arrogance, country and Infected."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_260_durnar": [
+    {
+      "name": "Extra Training",
+      "description": ["Training is all about facing your fears."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "A Glass with Old Stories",
+      "description": [
+        "Have a drink after nine, and watch your worries fade into greater worries."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_355_ethan": [
+    {
+      "name": "'Old Friends in Foreign Places'",
+      "description": [
+        "A thing long past, an old friend, or a forgettable experience. The past never stops haunting Ethan."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_275_breeze": [
+    {
+      "name": "Breeze's Warmth, Chilled Forest",
+      "description": ["To shed a noble identity does not entail running away."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "Prisoner's Dream",
+      "description": [
+        "They are dissatisﬁed with their present, and devote their lives to another path, but in the end, there was no path leading to happiness. The cycle repeats, time runs out, and only sorrow remains."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_248_mgllan": [
+    {
+      "name": "Cycle of Life",
+      "description": [
+        "The old before her sang while planting the seeds, and Magallan sees to it those seeds grow into great flowers."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_213_mostma": [
+    {
+      "name": "Atop the Skyscrapers",
+      "description": ["Not all wishes have an outcome."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_325_bison": [
+    {
+      "name": "A Fulfilling Holiday",
+      "description": ["It's best to learn how to take a vacation before learning how to work."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_243_waaifu": [
+    {
+      "name": "What Martial Arts Serve",
+      "description": [
+        "Strength is needed to uphold justice, but not every problem can be solved by strength."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_133_mm": [
+    {
+      "name": "The Great Detective's Case Files - Volume I",
+      "description": [
+        "The shining star of Victorian Detectives! The Great Detective Metis Geraldine's memorable first case!"
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_356_broca": [
+    {
+      "name": "The First Step Towards Trust",
+      "description": ["If you want someone to trust you, the best method of proof is action."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_017_huang": [
+    {
+      "name": "Will You?",
+      "description": ["Countless people have traveled this road too, or perhaps are about to."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_2014_nian": [
+    {
+      "name": "A Thousand Years in a Sigh",
+      "description": [
+        "Nian's films have oddball and bizarre stories, but occasionally, she slips something a little more serious in."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_225_haak": [
+    {
+      "name": "A Night of Terror",
+      "description": ["The more you panic, the messier it gets."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_226_hmau": [
+    {
+      "name": "South Wall",
+      "description": [
+        "The whimpering of conscience is drowned out by the clanging of gold and silver in the bowl."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_383_snsant": [
+    {
+      "name": "A Dilemma of Values",
+      "description": [
+        "Facing a target that was too high for her at the moment, she becomes anxious, but still steadily makes her way towards it, step by step."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_2013_cerber": [
+    {
+      "name": "XXL Honey Biscuit",
+      "description": [
+        "Children of the barrens will apply nature's norms in civilized society."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_222_bpipe": [
+    {
+      "name": "Dangerous Road",
+      "description": ["It's her way, and she will go."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_379_sesa": [
+    {
+      "name": "Fatal Attraction",
+      "description": [
+        "This may be a rare break in Sesa's search for the truth, or it may be the most carefully laid of traps."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_252_bibeak": [
+    {
+      "name": "Shell Break",
+      "description": [
+        "A fowlbeast is not truly born if it does not break free of its own eggshell and see the blue sky with its own eyes."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "Through the Long Hallway",
+      "description": [
+        "Bibeak received two letters, one from her parents and the other from the man who had hurt her."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_376_therex": [
+    {
+      "name": "Scorching-Hot Assault!",
+      "description": [
+        "There is no hottest, only hotter still! THRM-EX is forever on the journey to heat up and buff up!"
+      ],
+      "unlockCond": { "elite": 0, "lvl": 30 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_301_cutter": [
+    {
+      "name": "Meals, Ready-to-Eat",
+      "description": ["Mercenaries are like MREs. Mercenaries only ever get to eat MREs."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_254_vodfox": [
+    {
+      "name": "A Curse Without Words",
+      "description": [
+        "She knows fear very well, as well as how to dispel it, and so she turns the page of her book."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_333_sidero": [
+    {
+      "name": "Diligent",
+      "description": ["The Instructor team has thought of a good way to deal with Sideroca."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_401_elysm": [
+    {
+      "name": "Long Journey",
+      "description": [
+        "After leaving home, have you seen the different sights you wished to see?"
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_250_phatom": [
+    {
+      "name": "Cooperation",
+      "description": [
+        "People intersect in all sorts of ways. It's inevitable, and no-one's an exception."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_400_weedy": [
+    {
+      "name": "Together Aboard",
+      "description": [
+        "It isn't a fear of the elements that stops her heading for faraway places."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_373_lionhd": [
+    {
+      "name": "Living in Darkness",
+      "description": ["We'll see each other again, safe and sound."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_378_asbest": [
+    {
+      "name": "Strange Sights",
+      "description": ["The Archosauria love outsiders!"],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_343_tknogi": [
+    {
+      "name": "An Ordinary Sunset",
+      "description": ["There was a sunset like that, the day I left Higashi."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_258_podego": [
+    {
+      "name": "Bloom Season",
+      "description": ["May the floral fragrance bring happiness to all."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_328_cammou": [
+    {
+      "name": "Unmanned Workshop",
+      "description": [
+        "Knock, knock, knock, who's at the door? Come on into the workshop where nobody's home—"
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_344_beewax": [
+    {
+      "name": "Trail of Sands",
+      "description": [
+        "To seek out the way home for life is also to seek your own destination."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_336_folivo": [
+    {
+      "name": "Recorder",
+      "description": [
+        "There are few words that she finds worthwhile to say with her own mouth."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_294_ayer": [
+    {
+      "name": "Seeker in the Sands",
+      "description": ["Leonhardt... He's my employer."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_349_chiave": [
+    {
+      "name": "Masterpiece",
+      "description": [
+        "Chiave insists that his next work will be his magnum opus, but his two friends still think that 'she' was the peak of his car repairing career."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_293_thorns": [
+    {
+      "name": "Anniversary",
+      "description": ["To act according to your own intent, regardless of background."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_272_strong": [
+    {
+      "name": "Roll With Your Mistakes",
+      "description": [
+        "Jaye's fearsome appearance often brings trouble, but it comes in handy from time to time."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "VIP",
+      "description": [
+        "Times change, and so do the people we used to know. That's how an average seafood hawker became a 'key man.' He knows in his heart what he lost on his way here and what he must protect on the road ahead."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_366_acdrop": [
+    {
+      "name": "The Face of a Wall",
+      "description": [
+        "They pluck the things that grow spontaneously from the soil, chop, grind, and dilute them until you can no longer recognize their original form, and then paint the walls with their toy."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_411_tomimi": [
+    {
+      "name": "Brand New Life",
+      "description": ["Can you be both hedonistic and head-over-heels in longing?"],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_415_flint": [
+    {
+      "name": "Warrior's Due",
+      "description": [
+        "If your fists still aren't big enough, you need to grab hold of some other way to solve problems."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_365_aprl": [
+    {
+      "name": "Hunter's Vision",
+      "description": [
+        "Whether one loves or hates others—a question she ultimately elects not to ask."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_388_mint": [
+    {
+      "name": "Yesterday Once More",
+      "description": ["Have you ever asked yourself, 'just how did you get so attached?'"],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_346_aosta": [
+    {
+      "name": "Future Woven",
+      "description": [
+        "Perhaps this is the way of life he wanted. Perhaps he could seize it with his own hands."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_265_sophia": [
+    {
+      "name": "Exclusive Interview",
+      "description": [
+        "Her bag is always stuffed to the brim, so when she needs to find a set of keys, it always takes some time and effort."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_423_blemsh": [
+    {
+      "name": "Ready to Serve",
+      "description": ["Maybe the essence of ideals lies in whether you believe."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_436_whispr": [
+    {
+      "name": "Before the Rain",
+      "description": ["There are ailments that cannot be healed, but people live on."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_264_f12yin": [
+    {
+      "name": "Unexpected Annoyance",
+      "description": ["Oftentimes, worries spring from little nooks and crannies."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "Sinner's Path",
+      "description": [
+        "Though hesitant, one must still clench their fists and face the long, long walk ahead."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_440_pinecn": [
+    {
+      "name": "Yours Sincerely",
+      "description": [
+        "Workers will always harbor visions of beauty, be it aboard nomadic cities or aboard Rhodes Island."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_332_archet": [
+    {
+      "name": "Idol Promotion",
+      "description": [
+        "Publicity campaigns always need a representative, and for the sake of maintaining appearances, they will always be shackled to their obligations."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_338_iris": [
+    {
+      "name": "The Candy House",
+      "description": [
+        "In the world of fairy tales, children who cannot speak, adults who hide far away, the silent teapots and candlesticks can all be heard if you listen carefully."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_452_bstalk": [
+    {
+      "name": "The Wilds Do They Call",
+      "description": [
+        "There'll always be people who need to be taught respect. All those who look down on the little Metal Crabs will pay for their shallowness."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_402_tuye": [
+    {
+      "name": "Desert Rainbow",
+      "description": ["There is no greater treasure in the desert than water."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_455_nothin": [
+    {
+      "name": "Drowning",
+      "description": [
+        "He bid farewell to the kindness of the city, but cannot escape the hatred that follows him."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_2015_dusk": [
+    {
+      "name": "Dawn and Dusk",
+      "description": ["He only has tonight."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_363_toddi": [
+    {
+      "name": "Armor and Crossbow",
+      "description": ["Never go on a mission without the right teammates."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_304_zebra": [
+    {
+      "name": "Untimeliness",
+      "description": [
+        "The long knife in the soldier's hand was supposed to have cut through the enemy's shield, but it was now pointed at their comrade's back."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_474_glady": [
+    {
+      "name": "Dehydration",
+      "description": [
+        "Gladiia is forced to adapt to all that a state of waterlessness brings."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_426_billro": [
+    {
+      "name": "Protector's Nature",
+      "description": [
+        "The older sister has her way of handling things. Naturally, the younger sister also has her own way of dealing with things."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_478_kirara": [
+    {
+      "name": "Secret Ending",
+      "description": ["'No twists along the way at all, it all went smooth.'"],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "No-Damage Clear",
+      "description": ["'All according to plan!'"],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_469_indigo": [
+    {
+      "name": "Hardcore Drink",
+      "description": [
+        "You want to down the stuff in one? You won't need a hardy liver—you'll need a heart that's considerate of your friends."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_437_mizuki": [
+    {
+      "name": "The Fifth Contact",
+      "description": [
+        "It's all up to you—whether you're ready to bear every responsibility, and every consequence, that you and him incur."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_1013_chen2": [
+    {
+      "name": "Belonging",
+      "description": [
+        "Before you truly learn about something, try not to recklessly evaluate it."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "Pathways",
+      "description": ["Avoid apathy, abandon habits, endure instability, maintain pain."],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_486_takila": [
+    {
+      "name": "Taste of Thorns",
+      "description": [
+        "Although the waves continue to beat against the shore, the young man has made his decision regarding his ambitions."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_479_sleach": [
+    {
+      "name": "A Pair of Fowlbeasts",
+      "description": ["As the flag rose, so did her hopes and expectations."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_473_mberry": [
+    {
+      "name": "A Prayer for Peace",
+      "description": [
+        "She used to feel trapped by her ambition, and dared not look back; but now, she hopes to give this blessing and hope to many others."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_484_robrta": [
+    {
+      "name": "Elegy",
+      "description": ["The performers of a dirge perform for their own sake."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_1014_nearl2": [
+    {
+      "name": "Starting Point",
+      "description": [
+        "Reality is no competition, and there's no day of unconditional victory. "
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_496_wildmn": [
+    {
+      "name": "Aspiration",
+      "description": ["Which side is the real him?"],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_489_serum": [
+    {
+      "name": "Corroserum's Badge",
+      "description": [
+        "Dreams, passions, ideals and will are all not corrosion-resistant, so everyone, please pay careful attention and take care of yourself while at work, thank you."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_449_glider": [
+    {
+      "name": "A Bitterest Rhizome",
+      "description": [
+        "Prejudices and misunderstandings can seem stuck in place, but there's got to be someone, and there will be someone, who'll do something or other."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_422_aurora": [
+    {
+      "name": "What She Saw",
+      "description": [
+        "Aurora looks up at the sky, but the sky has no fantastic aurora for her. Aurora looks down at her feet, and sees herself standing firm in place, protecting herself and the friends behind her."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_4019_ncdeer": [
+    {
+      "name": "Great Compassion",
+      "description": ["If kindness is exploited, how should the mood within be quelled?"],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_476_blkngt": [
+    {
+      "name": "Souls of the Wilderness",
+      "description": ["She won't always be there, but she will be when needed."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_492_quercu": [
+    {
+      "name": "Final Moments",
+      "description": [
+        "The deceased lie in peace, but the living are not easily spared from the shadows of death."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    },
+    {
+      "name": "The Sprouts of Life",
+      "description": [
+        "Survival is a kind of greed, understandable, but should not be indulged."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
+    }
+  ],
+  "char_2023_ling": [
+    {
+      "name": "From a Long Dream Woken",
+      "description": [
+        "From Jiangnan to Saibei, to this anonymous pavilion at Shangshu's summit, a thousand spans, a hundred worldly ways, are all no more than an intoxicating dream."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_322_lmlee": [
+    {
+      "name": "Three Square Meals a Day",
+      "description": ["Whenever you're in someplace new, check out the local wet market."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_300_phenxi": [
+    {
+      "name": "Paradisus",
+      "description": ["The word 'home' only gains meaning once you have left it."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_4039_horn": [
+    {
+      "name": "Solo",
+      "description": [
+        "Even if she is the last man standing on the battlefield, even if there is no end in sight to this war, even if all she can do is try her best to stand..."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_4040_rockr": [
+    {
+      "name": "Six Hundred Pounds",
+      "description": [
+        "This snow falls from first light to last, and from last to first again."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_1023_ghost2": [
+    {
+      "name": "Selfhood",
+      "description": ["With her memories back, Specter wants to reascertain her own likeness."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_4009_irene": [
+    {
+      "name": "Lantern's Twilight",
+      "description": ["It is no easy matter to act according to your beliefs."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_4042_lumen": [
+    {
+      "name": "Till the Lights Shine Bright",
+      "description": ["Ægirian, what keeps you still in Gran Faro?"],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_433_windft": [
+    {
+      "name": "Lone Dance at the Old Factory",
+      "description": [
+        "\t'The lights shine bright in the factory tonight, / Like the sunset when I spoke my love to you.'\n—As the song most sung by the workers goes."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_4046_ebnhlz": [
+    {
+      "name": "Lone Lamp",
+      "description": [
+        "The night is deep, and the cold rain is quiet. A lone lamp tries its best to shine, hoping that the sunken sun does not freeze during the night."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_1024_hbisc2": [
+    {
+      "name": "Nameless Flower",
+      "description": ["The prophesied devil came to The Afterglow, but took disaster away."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_4048_doroth": [
+    {
+      "name": "Where is the Friend's House?",
+      "description": [
+        "Dorothy Franks, I suggest you cooperate. This conversation will be recorded in its entirety."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_1027_greyy2": [
+    {
+      "name": "Light, He Wrote",
+      "description": ["By pen he notes down data, and the people he wants to thank too."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_1026_gvial2": [
+    {
+      "name": "In the Name of Alcohol!",
+      "description": [
+        "Getting people to say bye to the bottle's tricky, even just for the time being, when they're drunk out of their gourds."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_4055_bgsnow": [
+    {
+      "name": "Fallen Inktrails",
+      "description": [
+        "She wants to escape her black past, but it is also the only thing she can speak about."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_4067_lolxh": [
+    {
+      "name": "Sleepwalker Sailing",
+      "description": [
+        "There are some nights when sleepiness just doesn't come when it should, and longing takes its place."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_4062_totter": [
+    {
+      "name": "A Plan",
+      "description": [
+        "It may be an overgrown ruins, but it'll still catch the warm gaze of the setting sun."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_4071_peper": [
+    {
+      "name": "Mercenary Youth",
+      "description": [
+        "A naive Sarkaz like her will have no future. I hope your luck is good enough, brat. Enough to live a little longer than we do."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_4063_quartz": [
+    {
+      "name": "No Regrets",
+      "description": ["I'm sorry... I had no other choice."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_427_vigil": [
+    {
+      "name": "Future Coming",
+      "description": ["Time shall judge me."],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_297_hamoni": [
+    {
+      "name": "Solitary Dancer",
+      "description": [
+        "When did it start? She had gotten used to watching the others flatter, conspire and hustle."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_2024_chyue": [
+    {
+      "name": "Once Upon a Time, I Wandered Afar",
+      "description": ["He has always been here. But does he truly belong here?"],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_154_morgan": [
+    {
+      "name": "Beneath the Worthy Wheel",
+      "description": [
+        "On the page torn out of 'Morgan's Memoirs' was a wonderful pipe dream, but the future is demanding something be filled in, and she'll find an answer."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ]
+}

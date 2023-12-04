@@ -289,16 +289,10 @@ export const OperatorIds = [
   "char_164_nightm",
   "char_220_grani",
   "char_263_skadi",
-  "char_1001_amiya2",
+  "char_1001_amiya2"
 ] as const;
 
-export const AlternateLangNames = [
-  " ",
-  "Гум",
-  "Зима",
-  "Истина",
-  "Роса",
-] as const;
+export const AlternateLangNames = [" ", "Гум", "Зима", "Истина", "Роса"] as const;
 
 export const OperatorTags = [
   "Robot",
@@ -316,19 +310,19 @@ export const OperatorTags = [
   "Debuff",
   "Summon",
   "Fast-Redeploy",
-  "Shift",
+  "Shift"
 ] as const;
 
 export const Professions = {
-  MEDIC: [
+  "MEDIC": [
     "physician",
     "ringhealer",
     "healer",
     "wandermedic",
     "incantationmedic",
-    "chainhealer",
+    "chainhealer"
   ],
-  WARRIOR: [
+  "WARRIOR": [
     "fearless",
     "centurion",
     "instructor",
@@ -339,9 +333,9 @@ export const Professions = {
     "crusher",
     "reaper",
     "fighter",
-    "librator",
+    "librator"
   ],
-  SPECIAL: [
+  "SPECIAL": [
     "executor",
     "merchant",
     "hookmaster",
@@ -349,44 +343,37 @@ export const Professions = {
     "pusher",
     "traper",
     "dollkeeper",
-    "geek",
+    "geek"
   ],
-  SNIPER: [
+  "SNIPER": [
     "fastshot",
     "bombarder",
     "aoesniper",
     "reaperrange",
     "longrange",
     "closerange",
-    "siegesniper",
+    "siegesniper"
   ],
-  PIONEER: ["pioneer", "charger", "bearer", "tactician", "agent"],
-  TANK: [
+  "PIONEER": ["pioneer", "charger", "bearer", "tactician", "agent"],
+  "TANK": [
     "protector",
     "guardian",
     "artsprotector",
     "shotprotector",
     "unyield",
     "fortress",
-    "duelist",
+    "duelist"
   ],
-  CASTER: [
+  "CASTER": [
     "corecaster",
     "splashcaster",
     "funnel",
     "mystic",
     "chain",
     "phalanx",
-    "blastcaster",
+    "blastcaster"
   ],
-  SUPPORT: [
-    "slower",
-    "summoner",
-    "craftsman",
-    "underminer",
-    "bard",
-    "blessing",
-  ],
+  "SUPPORT": ["slower", "summoner", "craftsman", "underminer", "bard", "blessing"]
 } as const;
 
 export const UnitPosition = ["MELEE", "RANGED", "ALL"] as const;
@@ -1177,7 +1164,7 @@ export const SkillIds = [
   "sktok_cdheal",
   "sktok_cdheala",
   "sktok_cdhealb",
-  "sktok_gractrl",
+  "sktok_gractrl"
 ] as const;
 
 export const SkillIconIds = [
@@ -1217,7 +1204,7 @@ export const SkillIconIds = [
   "sktok_snflwr",
   "sktok_cdaltar",
   "sktok_cddiff",
-  "sktok_cdheal",
+  "sktok_cdheal"
 ] as const;
 
 export const NationIds = [
@@ -1240,7 +1227,7 @@ export const NationIds = [
   "ursus",
   "egir",
   "leithanien",
-  "rim",
+  "rim"
 ] as const;
 
 export const FactionIds = [
@@ -1258,7 +1245,7 @@ export const FactionIds = [
   "siesta",
   "babel",
   "elite",
-  "sui",
+  "sui"
 ] as const;
 
 export const TeamIds = [
@@ -1271,7 +1258,7 @@ export const TeamIds = [
   "chiave",
   "rainbow",
   "followers",
-  "lee",
+  "lee"
 ] as const;
 
 export const EnemyIds = [
@@ -2051,19 +2038,19 @@ export const EnemyIds = [
   "enemy_7011_paki",
   "enemy_7012_wilder",
   "enemy_7013_slwazd",
-  "enemy_7014_dva",
+  "enemy_7014_dva"
 ] as const;
 
 export const EnemyRaceTable = {
-  infection: "Infected Creature",
-  drone: "Drone",
-  sarkaz: "Sarkaz",
-  mutant: "Possessed",
-  originiumartscraft: "Arts Creation",
-  animated: "Apparition",
-  seamonster: "Sea Monster",
-  machine: "Machina",
-  wildanimal: "Wild Beast",
+  "infection": "Infected Creature",
+  "drone": "Drone",
+  "sarkaz": "Sarkaz",
+  "mutant": "Possessed",
+  "originiumartscraft": "Arts Creation",
+  "animated": "Apparition",
+  "seamonster": "Sea Monster",
+  "machine": "Machina",
+  "wildanimal": "Wild Beast"
 } as const;
 
 export const EnemyAttackType = [
@@ -2077,7 +2064,7 @@ export const EnemyAttackType = [
   "Ranged Melee",
   "Healing",
   "Healing Ranged",
-  "Ranged Physical",
+  "Ranged Physical"
 ] as const;
 
 export const BrandIds = [
@@ -2100,7 +2087,7 @@ export const BrandIds = [
   "ambienceSynesthesia",
   "crossover",
   "shining",
-  "game",
+  "game"
 ] as const;
 
 export const RangeIds = [
@@ -2159,7 +2146,7 @@ export const RangeIds = [
   "y-7",
   "y-8",
   "y-9",
-  "b-1",
+  "b-1"
 ] as const;
 
 export const TokenIds = [
@@ -2201,7 +2188,7 @@ export const TokenIds = [
   "token_10028_vigil_wolf",
   "token_10029_slent2_protrb",
   "token_10030_mlyss_wtrman",
-  "trap_079_allydonq",
+  "trap_079_allydonq"
 ] as const;
 
 export const ItemIds = [
@@ -3091,5 +3078,5 @@ export const ItemIds = [
   "classic_fes_pick_tier_6_3801",
   "act25side_token_fdrchips",
   "act25side_token_key01",
-  "act25side_token_key02",
+  "act25side_token_key02"
 ] as const;
