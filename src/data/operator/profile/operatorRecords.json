@@ -205,6 +205,12 @@
       "description": ["Don't think too hard about it, just go and have some fun."],
       "unlockCond": { "elite": 2, "lvl": 1 },
       "trustUnlock": 50
+    },
+    {
+      "name": "Burning on a Winter Night",
+      "description": ["If not for this fire... No, there is no if."],
+      "unlockCond": { "elite": 2, "lvl": 60 },
+      "trustUnlock": 200
     }
   ],
   "char_195_glassb": [
@@ -1254,6 +1260,16 @@
       "trustUnlock": 200
     }
   ],
+  "char_347_jaksel": [
+    {
+      "name": "A Priceless Medal",
+      "description": [
+        "In the moment of crisis, Jackie is driven by only one thought: I would never stand idly by and watch someone die."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
   "char_264_f12yin": [
     {
       "name": "Unexpected Annoyance",
@@ -1568,6 +1584,16 @@
       "trustUnlock": 50
     }
   ],
+  "char_4016_kazema": [
+    {
+      "name": "One Should, One Must",
+      "description": [
+        "No longer a shinobi, and no longer bound by devotion, but she long since pledged her loyalty to her current job."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
   "char_4039_horn": [
     {
       "name": "Solo",
@@ -1608,6 +1634,14 @@
     {
       "name": "Till the Lights Shine Bright",
       "description": ["Ægirian, what keeps you still in Gran Faro?"],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_4043_erato": [
+    {
+      "name": "The Epic of Heroes",
+      "description": ["The wandering bard from Minos, Erato, knows where the heroes lie."],
       "unlockCond": { "elite": 2, "lvl": 1 },
       "trustUnlock": 50
     }
@@ -1673,6 +1707,16 @@
       "name": "Fallen Inktrails",
       "description": [
         "She wants to escape her black past, but it is also the only thing she can speak about."
+      ],
+      "unlockCond": { "elite": 2, "lvl": 1 },
+      "trustUnlock": 50
+    }
+  ],
+  "char_497_ctable": [
+    {
+      "name": "A Fowl Through the Window",
+      "description": [
+        "The fowlbeast pulls out a grain of rice and places it in front of Cantabile, turning its eyes up at her."
       ],
       "unlockCond": { "elite": 2, "lvl": 1 },
       "trustUnlock": 50

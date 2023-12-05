@@ -1540,6 +1540,12 @@
     { "langId": "JP", "actor": ["Akari Kito"] },
     { "langId": "KR", "actor": ["Seo Dahye"] }
   ],
+  "char_4093_frston": [
+    { "langId": "CN_MANDARIN", "actor": ["Dong Shengzhang"] },
+    { "langId": "EN", "actor": ["John Kassir "] },
+    { "langId": "JP", "actor": ["Shuichi Ikeda"] },
+    { "langId": "KR", "actor": ["Lim Chae-bin"] }
+  ],
   "char_4027_heyak": [
     { "langId": "CN_MANDARIN", "actor": ["Hong Haitian"] },
     { "langId": "EN", "actor": ["Anne Yatco"] },

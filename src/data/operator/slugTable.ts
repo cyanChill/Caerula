@@ -6,6 +6,7 @@ export const OpSlugTable = {
   "thrm-ex": "char_376_therex",
   "justice_knight": "char_4000_jnight",
   "terra_research_commission": "char_4077_palico",
+  "friston-3": "char_4093_frston",
   "yato": "char_502_nblade",
   "noir_corne": "char_500_noirc",
   "rangers": "char_503_rang",

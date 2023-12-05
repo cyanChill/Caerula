@@ -2343,6 +2343,14 @@
     "usage": "Used to improve the Potential of the Terra Research Commission.",
     "rarity": 1
   },
+  "p_char_4093_frston": {
+    "id": "p_char_4093_frston",
+    "iconId": "p_char_4093_frston",
+    "name": "Friston-3's Token",
+    "description": "An instant photo. When confronted with this strange new world, he will photograph anything with research value.",
+    "usage": "Used to improve the Potential of Friston-3.",
+    "rarity": 1
+  },
   "p_char_502_nblade": {
     "id": "p_char_502_nblade",
     "iconId": "p_char_502_nblade",
@@ -7093,6 +7101,14 @@
     "name": "Special Ops Permit β",
     "description": "Grants permission to enter the secret zone. The mechanisms within seem to work differently.",
     "usage": "Grants permission to enter the secret zone. The mechanisms within seem to work differently.",
+    "rarity": 5
+  },
+  "act38d1_token_coin": {
+    "id": "act38d1_token_coin",
+    "iconId": "act38d1_token_coin",
+    "name": "Crystalized Originium",
+    "description": "A chunk of flawless Originium crystal. The Sanctuary considers it a precious treasure.",
+    "usage": "Reward obtained by completing Pinch-Out Experimental Operation. Can be exchanged for supplies.",
     "rarity": 5
   }
 }

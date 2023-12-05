@@ -4,6 +4,7 @@ export const OperatorIds = [
   "char_376_therex",
   "char_4000_jnight",
   "char_4077_palico",
+  "char_4093_frston",
   "char_502_nblade",
   "char_500_noirc",
   "char_503_rang",
@@ -300,9 +301,9 @@ export const OperatorTags = [
   "Support",
   "Nuker",
   "Crowd-Control",
+  "Defense",
   "Starter",
   "DP-Recovery",
-  "Defense",
   "DPS",
   "Survival",
   "AoE",
@@ -354,7 +355,6 @@ export const Professions = {
     "closerange",
     "siegesniper"
   ],
-  "PIONEER": ["pioneer", "charger", "bearer", "tactician", "agent"],
   "TANK": [
     "protector",
     "guardian",
@@ -364,6 +364,7 @@ export const Professions = {
     "fortress",
     "duelist"
   ],
+  "PIONEER": ["pioneer", "charger", "bearer", "tactician", "agent"],
   "CASTER": [
     "corecaster",
     "splashcaster",
@@ -2485,6 +2486,7 @@ export const ItemIds = [
   "p_char_376_therex",
   "p_char_4000_jnight",
   "p_char_4077_palico",
+  "p_char_4093_frston",
   "p_char_502_nblade",
   "p_char_500_noirc",
   "p_char_503_rang",
@@ -3078,5 +3080,6 @@ export const ItemIds = [
   "classic_fes_pick_tier_6_3801",
   "act25side_token_fdrchips",
   "act25side_token_key01",
-  "act25side_token_key02"
+  "act25side_token_key02",
+  "act38d1_token_coin"
 ] as const;
