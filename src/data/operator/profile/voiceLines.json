@@ -58472,6 +58472,194 @@
       "unlockCond": null
     }
   ],
+  "char_4093_frston": [
+    {
+      "sortId": 1,
+      "title": "Appointed as Assistant",
+      "text": "If I become your assistant, Closure won't be able to touch me anymore, yes? I'm aware of her extreme interest in me. But those ridiculous modifications, are such an insult to a scientist, even... in my current form, I won't allow it.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 2,
+      "title": "Talk 1",
+      "text": "Why would humanity grow horns and tails? This stage of biological evolution is past my parameters of understanding... I know tens of thousands of years have passed— Kal'tsit has mentioned this countless times. I will need a bit more time to formulate my deduction.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 3,
+      "title": "Talk 2",
+      "text": "Closure wanted me to sound like a 'thirty-year-old rock band vocalist with a raspy voice,' but my original body was already twice that age... at least, that's what my final memories tell me.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 4,
+      "title": "Talk 3",
+      "text": "Let's stop here for today, Doctor. I have to go over to Kal'tsit's office, she's probably needlessly burning the midnight oil again. Trudging on for thousands of years in service of what she feels is her mission, just to stop what exactly? It would be better to get more sleep.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 7,
+      "title": "Talk after Trust Increase 1",
+      "text": "Doctor, don't look at me the same way you do Castle-3 and the others. They are very... cute, but my robot body is just like your hood, merely... a sort of costume... a style. I know who I am, and thus you and I are alike.",
+      "unlockCond": { "type": "trust", "val": 40 }
+    },
+    {
+      "sortId": 8,
+      "title": "Talk after Trust Increase 2",
+      "text": "I'm not arrogant, but I am angry at your ignorance and lack of self-awareness, angry at your self-righteousness. Yes, I've lost all my knowledge, so you can take this anger as merely a 'result' of my 'calculations,' and a very clear result at that.",
+      "unlockCond": { "type": "trust", "val": 100 }
+    },
+    {
+      "sortId": 9,
+      "title": "Talk after Trust Increase 3",
+      "text": "My wife, daughter, and the rest of my people are eternally resting in those sarcophagi, and will never wake up again. I've made many decisions, I'm well aware. But all I remember is that final dinner, where everyone bid me farewell, and prayed that the subsequent odyssey would go smoothly...",
+      "unlockCond": { "type": "trust", "val": 200 }
+    },
+    {
+      "sortId": 10,
+      "title": "Idle",
+      "text": "Doctor, are you free? I hope you might take me out for a walk.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 11,
+      "title": "Onboard",
+      "text": "Hello there, I am Friston. That's right, just 'Friston,' not a 'Friston-3' or whatever. I am not a replica, and very much less a reproduction of a replica. I hope you understand.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 12,
+      "title": "Watching Battle Record",
+      "text": "This is valuable research material. I shall require a copy for myself.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 17,
+      "title": "Added to Squad",
+      "text": "Doctor, which sector do you need me to take charge of?",
+      "unlockCond": null
+    },
+    {
+      "sortId": 18,
+      "title": "Appointed as Squad Leader",
+      "text": "Am I to lead everyone and find a new direction...? Alright.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 19,
+      "title": "Depart",
+      "text": "Let's go. This is also a new journey.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 20,
+      "title": "Begin Operation",
+      "text": "Danger detected!",
+      "unlockCond": null
+    },
+    {
+      "sortId": 21,
+      "title": "Selecting Operator 1",
+      "text": "I will relay our combat strategies to THRM-EX and Lancet-2.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 22,
+      "title": "Selecting Operator 2",
+      "text": "I am naturally capable of more than THRM-EX and the others. I will stand on the front lines.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 23,
+      "title": "Deployment 1",
+      "text": "As long as I'm still standing, no one will come to harm.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 24,
+      "title": "Deployment 2",
+      "text": "I will not fall.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 25,
+      "title": "In Battle 1",
+      "text": "Are you all... staring at my expression display?",
+      "unlockCond": null
+    },
+    {
+      "sortId": 26,
+      "title": "In Battle 2",
+      "text": "I have taken photos of all your behaviors.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 27,
+      "title": "In Battle 3",
+      "text": "Take me to your leader! I want to talk!",
+      "unlockCond": null
+    },
+    {
+      "sortId": 28,
+      "title": "In Battle 4",
+      "text": "Such... ugly creatures.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 29,
+      "title": "4-star Result",
+      "text": "Doctor, your thinking routines and command style are very much distinct and different from the others... I guess some things never change.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 30,
+      "title": "3-star Result",
+      "text": "I still remember the duty I bear, but I must admit, I am no longer able to fulfill it, let alone execute it as well as you do. You have my respect, Doctor.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 31,
+      "title": "Sub 3-star Result",
+      "text": "An odyssey will always have nigh-avoidable accidents, even if you plan ahead, and though they may be painful to accept... what else can I possibly do but accept them?",
+      "unlockCond": null
+    },
+    {
+      "sortId": 32,
+      "title": "Operation Failure",
+      "text": "If the worst possible outcome isn't as bad as turning into something like me, then there is nothing to be afraid of. Doctor, you should evacuate first, and leave the rest to me.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 33,
+      "title": "Assigned to Facility",
+      "text": "I would like to stack all of my borrowed ecological research materials over here. I trust there will be no issues with that?",
+      "unlockCond": null
+    },
+    {
+      "sortId": 34,
+      "title": "Tap",
+      "text": "You should have observed the 'anger' expression on my display.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 36,
+      "title": "Trust Tap",
+      "text": "I've taken a photo of you, Doctor. You want to see it? Sorry, but I've already saved it to my archives.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 37,
+      "title": "Title",
+      "text": "Arknights.",
+      "unlockCond": null
+    },
+    {
+      "sortId": 42,
+      "title": "Greeting",
+      "text": "Hello, Doctor.",
+      "unlockCond": null
+    }
+  ],
   "char_511_asnipe": [
     {
       "sortId": 17,

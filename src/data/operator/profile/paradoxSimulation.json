@@ -783,5 +783,25 @@
     "name": "Her Squad",
     "text": "The young mercenary has arrived someplace new. Here, your teammates lend you a helping hand. Here, your companions have your back firmly covered. Here, your squad is your sanctuary, and not just some figment that could fall apart at any moment. The young mercenary stands in a land of ice and snow, but her heart feels so very warm.",
     "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_4043_erato": {
+    "name": "Sweet Dreams Abyssal",
+    "text": "From the rugged mountains of Minos comes she, Erato, ever the defender of the lofty virtue that dwells within her bosom. Should filthy feelers dare to reach for the shore, her arrows will drive them back to their abyssal land of slumber, no quarter shown.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_497_ctable": {
+    "name": "Lie Low",
+    "text": "Concealed in the shadows, her attacks clean and swift, Cantabile now has her reason to act firmly. Just give her a momentary break to rest, and she can return straight back to the field. After all, she has an adorable, lively little Metal Crab waiting for her once the battle is through.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_4016_kazema": {
+    "name": "Co-Conspiracy",
+    "text": "As an intelligence officer, Kazemaru knows how to effectively handle situations in which enemy count plainly exceeds our own personnel. Even though they haven't met, this true ally-in-arms of ours will note her presence on the field, and provide timely support.",
+    "unlockCond": { "elite": 2, "lvl": 1 }
+  },
+  "char_347_jaksel": {
+    "name": "Seconds from Disaster",
+    "text": "Jackie's the 'act now, think later' type of operator. When in the thick of crises and pitfalls, she's not going to worry about any <i>consequences</i> or consider a safe retreat beforehand or anything. She's gonna go all out, right to the bitter end!",
+    "unlockCond": { "elite": 2, "lvl": 1 }
   }
 }

@@ -182,6 +182,15 @@
         "alt": "'Justice Knight''s \"Elite 0\" skin",
         "artists": ["NoriZC"],
         "description": "An alloy frame, powerful motor, and highly efficient energy consumption ensure its sturdiness, durability, and long battery life. Highly customizable accessory modules are available to best suit your demands. Raythean strives for perfection."
+      },
+      {
+        "id": "char_4000_jnight_boc#7b",
+        "brandId": "boc",
+        "subBrand": { "id": "2023#boc#2", "name": "Bloodline of Combat/VII" },
+        "name": "Tournament Fantasy Retrofit Kit",
+        "alt": "'Justice Knight''s \"Tournament Fantasy Retrofit Kit\" skin",
+        "artists": ["过失帝国"],
+        "description": "Bloodline of Combat Collection/Tournament Fantasy Retrofit Kit. The General Chamber of Commerce had no idea the newest wave of protests would arise from a most unremarkable robot's tournament retrofit labelled as a 'drone.'"
       }
     ],
     "char_4077_palico": [
@@ -202,6 +211,17 @@
         "alt": "Terra Research Commission's \"Fly Into the Street\" skin",
         "artists": ["Peachy Miruku"],
         "description": "Monster Hunter Collaborative Series/Fly Into the Street. The Felynes are amped with excitement for getting some Terra-style fresh fits on, and spray paint-filled cans especially pique their curiosity. Noir Corne senses something big and bad's about to go down."
+      }
+    ],
+    "char_4093_frston": [
+      {
+        "id": "char_4093_frston_1b",
+        "brandId": null,
+        "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+        "name": "Elite 0",
+        "alt": "Friston-3's \"Elite 0\" skin",
+        "artists": ["过失帝国"],
+        "description": "A mechanical body, some programs, a new look. He cannot find what he has forgotten, and cannot remember much either. But he can still witness, record, and analyze, and still has the right to face his cruel fate."
       }
     ],
     "char_502_nblade": [
@@ -3306,6 +3326,15 @@
         "alt": "Amiya's \"Fresh Fastener\" skin",
         "artists": ["唯@W"],
         "description": "Test Collection Series/Fresh Fastener. An outfit worn by Amiya while working for a Rhodes Island restaurant. This poofy coat is cold-resistant, and has enough room to hold something penguin-sized."
+      },
+      {
+        "id": "char_002_amiya_test#1b",
+        "brandId": "sale",
+        "subBrand": { "id": "2020#sale#3", "name": "Test Collection/IV" },
+        "name": "Seedsower",
+        "alt": "Amiya's \"Seedsower\" skin",
+        "artists": ["唯@W"],
+        "description": "Test Collection Series/Seedsower. A loose yet comfortable outdoors fit. Comes with an exclusive miniature mountain-grade rucksack and an agricultural nursery kit. The designer has one small wish of her own, and hopes that we can all help to realize it."
       }
     ],
     "char_405_absin": [

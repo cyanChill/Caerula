@@ -604,6 +604,127 @@
     "type": null,
     "slug": "terra_research_commission"
   },
+  "char_4093_frston": {
+    "id": "char_4093_frston",
+    "name": "Friston-3",
+    "displayName": "Friston-3",
+    "rarity": 1,
+    "potentials": [
+      "Improves Talent",
+      "Improves Talent",
+      "Improves Talent",
+      "Improves Talent",
+      "Improves Talent"
+    ],
+    "profession": "TANK",
+    "branch": "protector",
+    "range": ["0-1"],
+    "tokensUsed": null,
+    "elite": [
+      {
+        "maxLevel": 30,
+        "stats": [
+          {
+            "level": 1,
+            "data": {
+              "hp": 921,
+              "atk": 158,
+              "def": 188,
+              "res": 0,
+              "cost": 3,
+              "blockCnt": 3,
+              "atkInterval": 1.2,
+              "respawnTime": 200
+            }
+          },
+          {
+            "level": 30,
+            "data": {
+              "hp": 1152,
+              "atk": 198,
+              "def": 235,
+              "res": 0,
+              "cost": 3,
+              "blockCnt": 3,
+              "atkInterval": 1.2,
+              "respawnTime": 200
+            }
+          }
+        ],
+        "evolveCost": null
+      }
+    ],
+    "skills": [],
+    "talents": [
+      {
+        "name": "Persevere I",
+        "variants": [
+          {
+            "elite": 0,
+            "level": 1,
+            "potential": 1,
+            "description": "For 10 seconds after deployment, friendly units on surrounding tiles take 50 less damage"
+          },
+          {
+            "nameOverride": "Persevere II",
+            "elite": 0,
+            "level": 1,
+            "potential": 2,
+            "description": "For 10 seconds after deployment, friendly units on surrounding tiles take 55 less damage"
+          },
+          {
+            "nameOverride": "Persevere III",
+            "elite": 0,
+            "level": 1,
+            "potential": 3,
+            "description": "For 10 seconds after deployment, friendly units on surrounding tiles take 60 less damage"
+          },
+          {
+            "nameOverride": "Persevere IV",
+            "elite": 0,
+            "level": 1,
+            "potential": 4,
+            "description": "For 10 seconds after deployment, friendly units on surrounding tiles take 65 less damage"
+          },
+          {
+            "nameOverride": "Persevere V",
+            "elite": 0,
+            "level": 1,
+            "potential": 5,
+            "description": "For 10 seconds after deployment, friendly units on surrounding tiles take 70 less damage"
+          },
+          {
+            "nameOverride": "Persevere VI",
+            "elite": 0,
+            "level": 1,
+            "potential": 6,
+            "description": "For 10 seconds after deployment, friendly units on surrounding tiles take 75 less damage"
+          }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "level": 50,
+      "data": {
+        "hp": 100,
+        "atk": 0,
+        "def": 70,
+        "res": 0,
+        "cost": 0,
+        "blockCnt": 0,
+        "atkInterval": 0,
+        "respawnTime": 0
+      }
+    },
+    "skillLevel": [],
+    "nationId": "rhodes",
+    "factionId": null,
+    "teamId": null,
+    "position": "MELEE",
+    "tags": ["Robot", "Defense"],
+    "type": null,
+    "slug": "friston-3"
+  },
   "char_502_nblade": {
     "id": "char_502_nblade",
     "name": "Yato",
