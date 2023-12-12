@@ -13,6 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        array: ["var(--font-array)"],
+        "geist-mono": ["var(--font-geist-mono)"],
+        "geist-sans": ["var(--font-geist-sans)"],
+        khand: ["var(--font-khand)"],
+      },
     },
   },
   plugins: [],
