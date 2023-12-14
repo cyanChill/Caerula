@@ -1,9 +1,10 @@
-export function Rocket({ className }: { className: string }) {
+export function Rocket({ className }: { className?: string }) {
   return (
     <svg
+      aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
-      fill="none"
       viewBox="0 0 24 24"
+      fill="none"
       strokeWidth={1.5}
       stroke="currentColor"
       className={className}
@@ -17,7 +18,7 @@ export function Rocket({ className }: { className: string }) {
   );
 }
 
-export function Waves({ className }: { className: string }) {
+export function Waves({ className }: { className?: string }) {
   return (
     <svg
       aria-hidden="true"
@@ -34,7 +35,7 @@ export function Waves({ className }: { className: string }) {
   );
 }
 
-export function Tiles({ className }: { className: string }) {
+export function Tiles({ className }: { className?: string }) {
   return (
     <svg
       aria-hidden="true"
@@ -69,7 +70,7 @@ export function Tiles({ className }: { className: string }) {
   );
 }
 
-export function CircleWaves({ className }: { className: string }) {
+export function CircleWaves({ className }: { className?: string }) {
   return (
     <svg
       aria-hidden="true"
@@ -106,7 +107,7 @@ export function CircleWaves({ className }: { className: string }) {
   );
 }
 
-export function SquareBricks({ className }: { className: string }) {
+export function SquareBricks({ className }: { className?: string }) {
   return (
     <svg
       aria-hidden="true"
