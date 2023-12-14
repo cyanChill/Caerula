@@ -18,7 +18,7 @@ export function ScrollSlide({ sections }: ScrollSlideProps) {
   const [currSection, setCurrSection] = useState("");
 
   return (
-    <main className="grid grid-cols-3 sm:mx-5 md:grid-cols-5 lg:grid-cols-10">
+    <main className="grid grid-cols-3 sm:ml-[max(1.5rem,3cqw)] sm:mr-[max(0.5rem,1cqw)] md:grid-cols-5 lg:grid-cols-11">
       {sections.map((meta) => (
         <SlideSection
           key={meta.id}
@@ -73,8 +73,8 @@ function SlideSection({
       <div
         ref={textRef}
         className={cn(
-          "col-span-full px-5 py-[max(2.5rem,15svh)] max-lg:pb-0 lg:col-span-3 lg:min-h-[100svh]",
-          "border-white/5 @container lg:border-r-2",
+          "col-span-full px-[max(0.5rem,1cqw)] py-[max(2.5rem,15svh)] max-lg:pb-0 lg:col-span-4 lg:min-h-[100svh]",
+          "border-white/5 @container lg:border-r-[max(0.125rem,0.15cqw)]",
         )}
       >
         <h1
@@ -102,8 +102,8 @@ function SlideSection({
       <section
         aria-labelledby={id}
         className={cn(
-          "col-span-full lg:col-span-7 lg:col-start-4 lg:row-span-full",
-          "mx-5 my-[5svh] lg:sticky lg:top-[5svh] lg:max-h-[90svh]",
+          "col-span-full lg:col-span-7 lg:col-start-5 lg:row-span-full",
+          "mx-[max(0.5rem,1cqw)] my-[5svh] lg:sticky lg:top-[5svh] lg:max-h-[90svh]",
           "transition-visibility duration-500 ease-in-out lg:invisible lg:opacity-0",
           { "lg:visible lg:opacity-100": activeId === id },
         )}
@@ -125,17 +125,23 @@ export function ContentBorderWrapper({ children, className, style }: CBWProps) {
     <div
       style={style}
       className={cn(
-        "relative h-full p-5 pb-0 lg:overflow-y-auto [&>*:last-child]:pb-5",
+        "relative h-full px-[max(0.5rem,1cqw)] pt-[max(0.125rem,0.15cqw)] lg:overflow-clip",
         // Gradient Border
-        "before:border-mask before:absolute before:inset-0 before:-z-[1] before:p-0.5 before:pb-0",
-        "before:rounded-2xl before:bg-gradient-to-b before:from-white/50 before:to-white/10",
+        "before:border-mask before:pointer-events-none before:absolute before:inset-0 before:z-[1] before:p-[max(0.125rem,0.15cqw)] before:pb-0",
+        "before:rounded-[max(0.5rem,1cqw)] before:bg-gradient-to-b before:from-white/50 before:to-white/10",
         // Blur transition on overflow-hidden content
-        "after:absolute after:bottom-0 after:left-5 after:h-[1ch] after:w-[calc(100%-2.5rem)]",
-        "after:bg-gradient-to-t after:from-caerula-180 after:from-15% after:backdrop-blur-lg",
-        className,
+        "lg:after:absolute lg:after:bottom-0 lg:after:left-[max(0.5rem,1cqw)] lg:after:h-[1ch] lg:after:w-[calc(100%-2cqw)]",
+        "lg:after:bg-gradient-to-t lg:after:from-caerula-180 lg:after:from-15% lg:after:backdrop-blur-lg",
       )}
     >
-      {children}
+      <div
+        className={cn(
+          "no-scrollbar h-full py-[max(0.5rem,1cqw)] lg:overflow-y-auto",
+          className,
+        )}
+      >
+        {children}
+      </div>
     </div>
   );
 }
