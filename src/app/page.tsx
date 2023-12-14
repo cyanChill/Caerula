@@ -3,6 +3,8 @@ import {
   ContentBorderWrapper,
 } from "@/components/layout/scrollSlide";
 
+import { NavList } from "./_components/nav";
+
 export default function Home() {
   return (
     <ScrollSlide
@@ -24,7 +26,7 @@ export default function Home() {
           description: "See what Caerula has to offer.",
           content: (
             <ContentBorderWrapper>
-              <p>Navigation buttons content</p>
+              <NavList />
             </ContentBorderWrapper>
           ),
         },

@@ -23,6 +23,21 @@ const config: Config = {
           160: "#000C1B",
           180: "#00060E",
         },
+        dust: {
+          0: "#FFFFFF",
+          5: "#F2F2F2",
+          10: "#E6E6E6",
+          20: "#D9D9D9",
+          30: "#666666",
+          85: "#4D4D4D",
+          100: "#262626",
+          150: "#131313",
+          165: "#0E0E0C",
+        },
+        desatAqua: {
+          70: "#5F9EA0",
+          100: "#134E4A",
+        },
       },
       fontFamily: {
         array: ["var(--font-array)"],
@@ -32,6 +47,7 @@ const config: Config = {
       },
       fontSize: {
         "cq-title": ["clamp(2.25rem, min(7.5vw, 15cqw), 15rem)", "1.15"],
+        "cq-heading-3": ["clamp(1rem, 11.25cqw, 12.5rem)", "1.15"],
         "cq-paragraph": "clamp(1rem, min(2.5vw, 6cqw), 5rem)",
       },
       transitionProperty: {
