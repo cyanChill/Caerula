@@ -33,3 +33,9 @@
     mask-composite: exclude;
   }
 }
+
+/* Screen Lock Class */
+body[data-lock="true"] {
+  overflow: hidden !important;
+  overscroll-behavior: none !important;
+}

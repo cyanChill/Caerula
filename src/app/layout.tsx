@@ -6,6 +6,7 @@ import { GeistSans } from "geist/font/sans";
 
 import "./globals.css";
 import { cn } from "@/lib/util";
+import { Navbar } from "./_components/nav.client";
 
 const array = localFont({
   src: [
@@ -58,9 +59,10 @@ export default function RootLayout({
       lang="en"
       className={`${array.variable} ${GeistMono.variable} ${GeistSans.variable} ${khand.variable}`}
     >
-      <body className={cn("bg-caerula-180 text-white", GeistMono.className)}>
-        <Analytics />
+      <body className={cn("bg-caerula-180 text-dust-0", GeistMono.className)}>
+        <Navbar />
         {children}
+        <Analytics />
       </body>
     </html>
   );

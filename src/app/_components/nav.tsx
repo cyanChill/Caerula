@@ -120,7 +120,7 @@ export function NavList({ withHome = false }: NavListProps) {
             className={cn(
               navItemStyles[type].container,
               "rounded-[max(0.375rem,1cqw)] p-[max(0.375rem,1cqw)] @container",
-              "bg-opacity-75 backdrop-blur-lg transition duration-500 hover:bg-opacity-90",
+              "bg-opacity-50 backdrop-blur-2xl transition duration-500 hover:bg-opacity-75",
               theme.background,
             )}
           >
