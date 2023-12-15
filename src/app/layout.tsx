@@ -4,21 +4,21 @@ import localFont from "next/font/local";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 
-import "./globals.css";
-import { cn } from "@/lib/util";
+import "../assets/globals.css";
+import { cn } from "@/lib/style";
 import { Navbar } from "./_components/nav.client";
 
 const array = localFont({
   src: [
-    { path: "./fonts/Array-Semibold.woff2", weight: "600" },
-    { path: "./fonts/Array-Bold.woff2", weight: "700" },
+    { path: "../assets/fonts/Array-Semibold.woff2", weight: "600" },
+    { path: "../assets/fonts/Array-Bold.woff2", weight: "700" },
   ],
   variable: "--font-array",
   display: "swap",
 });
 
 const khand = localFont({
-  src: "./fonts/Khand-Variable.ttf",
+  src: "../assets/fonts/Khand-Variable.ttf",
   variable: "--font-khand",
   display: "swap",
 });

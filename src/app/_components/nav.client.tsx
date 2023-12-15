@@ -3,7 +3,7 @@ import { useState, useRef } from "react";
 
 import { useKey } from "@/hooks/useKey";
 
-import { cn } from "@/lib/util";
+import { cn } from "@/lib/style";
 import { NavList } from "./nav";
 
 export function Navbar() {
@@ -26,6 +26,8 @@ export function Navbar() {
     <nav aria-label="main">
       <button
         ref={openBtnRef}
+        aria-expanded={show}
+        aria-controls="main-nav-menu"
         onClick={() => setNavVisibility(true)}
         className={cn(
           "fixed bottom-[15svh] left-0 z-10 px-[0.125em] py-[2em] [writing-mode:vertical-rl]",
@@ -47,6 +49,7 @@ export function Navbar() {
         )}
       >
         <div
+          id="main-nav-menu"
           ref={menuContainerRef}
           className={cn(
             "no-scrollbar invisible fixed inset-0 z-50 overflow-y-auto",

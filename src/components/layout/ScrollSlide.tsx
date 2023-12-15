@@ -1,7 +1,8 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 
-import { cn, clamp } from "@/lib/util";
+import { cn } from "@/lib/style";
+import { clamp } from "@/utils/math";
 
 interface SectionMeta {
   id: string;

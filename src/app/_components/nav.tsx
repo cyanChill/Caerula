@@ -1,10 +1,16 @@
 import Image from "next/image";
 
-import { ArrowTopRight } from "@/svg/direction";
-import { GitHub } from "@/svg/logos";
-import { CircleWaves, Rocket, SquareBricks, Tiles, Waves } from "@/svg/shapes";
+import { ArrowTopRight } from "@/assets/svgs/direction";
+import { GitHub } from "@/assets/svgs/logos";
+import {
+  CircleWaves,
+  Rocket,
+  SquareBricks,
+  Tiles,
+  Waves,
+} from "@/assets/svgs/shapes";
 
-import { cn } from "@/lib/util";
+import { cn } from "@/lib/style";
 import ELink from "@/components/link/ELink";
 
 type BgColor = `bg-${string}-${number}`;
@@ -29,7 +35,7 @@ const navConfigs: NavConfigItem[] = [
     icon: (
       <Image
         aria-hidden="true"
-        src="/icon/logo.png"
+        src="/logo.png"
         alt=""
         width={160}
         height={160}

@@ -9,8 +9,3 @@ import { twMerge } from "tailwind-merge";
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
-
-/** @description Clamps the current number. */
-export function clamp(min: number, curr: number, max: number) {
-  return Math.min(Math.max(curr, min), max);
-}

@@ -1,7 +1,7 @@
 import {
   ScrollSlide,
   ContentBorderWrapper,
-} from "@/components/layout/scrollSlide";
+} from "@/components/layout/ScrollSlide";
 
 import { NavList } from "./_components/nav";
 
