@@ -125,18 +125,18 @@ export function ContentBorderWrapper({ children, className, style }: CBWProps) {
     <div
       style={style}
       className={cn(
-        "relative h-full px-[max(0.5rem,1cqw)] pt-[max(0.125rem,0.15cqw)] lg:overflow-clip",
+        "relative h-full px-[max(0.5rem,1cqw)] pt-[max(0.125rem,0.15cqw)]",
         // Gradient Border
         "before:border-mask before:pointer-events-none before:absolute before:inset-0 before:z-[1] before:p-[max(0.125rem,0.15cqw)] before:pb-0",
         "before:rounded-[max(0.5rem,1cqw)] before:bg-gradient-to-b before:from-white/50 before:to-white/10",
-        // Blur transition on overflow-hidden content
+        // Blur transition on overflow child content
         "lg:after:absolute lg:after:bottom-0 lg:after:left-[max(0.5rem,1cqw)] lg:after:h-[1ch] lg:after:w-[calc(100%-2cqw)]",
         "lg:after:bg-gradient-to-t lg:after:from-caerula-180 lg:after:from-15% lg:after:backdrop-blur-lg",
       )}
     >
       <div
         className={cn(
-          "no-scrollbar h-full py-[max(0.5rem,1cqw)] lg:overflow-y-auto",
+          "no-scrollbar h-full px-1 py-[max(0.5rem,1cqw)] lg:overflow-y-auto",
           className,
         )}
       >
