@@ -66,7 +66,7 @@ const navConfigs: NavConfigItem[] = [
     title: "Enemy Handbook",
     href: "/enemy",
     type: "large",
-    icon: <Waves className="text-dust-0" />,
+    icon: <Waves className="text-white" />,
     theme: {
       background: "bg-caerula-40",
       foreground: "bg-dust-100",
@@ -77,7 +77,7 @@ const navConfigs: NavConfigItem[] = [
     title: "Terminology",
     href: "/terminology",
     type: "small",
-    icon: <SquareBricks className="text-dust-0" />,
+    icon: <SquareBricks className="text-white" />,
     theme: { background: "bg-caerula-80" },
   },
   {
@@ -146,7 +146,7 @@ export function NavList({ withHome = false }: NavListProps) {
                 <IndicatorIcon
                   className={cn(
                     navItemStyles.shared.linkIcon,
-                    "justify-self-end rounded-[2cqw] border-[0.5cqw] border-dust-0 p-[0.75cqw]",
+                    "justify-self-end rounded-[2cqw] border-[0.5cqw] border-white p-[0.75cqw]",
                   )}
                 />
                 <p className={navItemStyles.shared.title}>{title}</p>

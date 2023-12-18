@@ -32,7 +32,7 @@ export function Navbar() {
         className={cn(
           "fixed bottom-[15svh] left-0 z-10 px-[0.125em] py-[2em] [writing-mode:vertical-rl]",
           "font-array text-[clamp(0.875rem,1.05vw,5rem)] tracking-[0.175em]",
-          "rounded-r-[max(0.25rem,0.675em)] border-[0.125em] border-l-0 border-dust-0",
+          "rounded-r-[max(0.25rem,0.675em)] border-[0.125em] border-l-0 border-white",
           "shadow-[0_0_0.3125em_0.0625em_#95E6FF] [text-shadow:0_0_0.5em_#95E6FF]",
           "bg-caerula-180 transition duration-500 hover:brightness-200",
         )}
@@ -63,11 +63,11 @@ export function Navbar() {
             ref={messageRef}
             className={cn(
               "mx-auto my-[1.75em] w-fit p-[0.375em]",
-              "text-[clamp(0.875rem,1.05vw,5rem)] text-dust-0/75",
+              "text-[clamp(0.875rem,1.05vw,5rem)] text-white/75",
               "rounded-[max(0.25rem,0.5em)] border-[0.125em] border-current",
             )}
           >
-            <span className="inline-block aspect-square rounded-[0.25em] bg-dust-0/75 p-[0.125em] align-middle text-caerula-180">
+            <span className="inline-block aspect-square rounded-[0.25em] bg-white/75 p-[0.125em] align-middle text-caerula-180">
               Esc
             </span>{" "}
             or &quot;Click&quot; to close menu.

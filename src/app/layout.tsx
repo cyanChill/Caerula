@@ -59,7 +59,7 @@ export default function RootLayout({
       lang="en"
       className={`${array.variable} ${GeistMono.variable} ${GeistSans.variable} ${khand.variable}`}
     >
-      <body className={cn("bg-caerula-180 text-dust-0", GeistMono.className)}>
+      <body className={cn("bg-caerula-180 text-white", GeistMono.className)}>
         <Navbar />
         {children}
         <Analytics />

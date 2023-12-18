@@ -24,7 +24,6 @@ const config: Config = {
           180: "#00060E",
         },
         dust: {
-          0: "#FFFFFF",
           5: "#F2F2F2",
           10: "#E6E6E6",
           20: "#D9D9D9",
