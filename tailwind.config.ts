@@ -38,6 +38,18 @@ const config: Config = {
           100: "#134E4A",
         },
       },
+      gridTemplateColumns: {
+        autoFill:
+          "repeat(auto-fill, minmax(min(var(--min-col-size, 200px), 100%), 1fr))",
+        autoFit:
+          "repeat(auto-fit, minmax(min(var(--min-col-size, 200px), 100%), 1fr))",
+      },
+      gridTemplateRows: {
+        autoFill:
+          "repeat(auto-fill, minmax(min(var(--min-row-size, 200px), 100%), 1fr))",
+        autoFit:
+          "repeat(auto-fit, minmax(min(var(--min-row-size, 200px), 100%), 1fr))",
+      },
       fontFamily: {
         array: ["var(--font-array)"],
         "geist-mono": ["var(--font-geist-mono)"],
@@ -45,7 +57,7 @@ const config: Config = {
         khand: ["var(--font-khand)"],
       },
       fontSize: {
-        "cq-title": ["clamp(2.25rem, min(7.5vw, 15cqw), 15rem)", "1.15"],
+        "cq-title": ["clamp(2rem, min(7.5vw, 15cqw), 15rem)", "1.15"],
         "cq-heading-3": ["clamp(1rem, 11.25cqw, 12.5rem)", "1.15"],
         "cq-paragraph": "clamp(1rem, min(2.5vw, 6cqw), 5rem)",
       },

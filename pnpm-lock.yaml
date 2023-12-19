@@ -36,7 +36,7 @@ dependencies:
 devDependencies:
   '@tailwindcss/container-queries':
     specifier: ^0.1.1
-    version: 0.1.1(tailwindcss@3.3.6)
+    version: 0.1.1(tailwindcss@3.4.0)
   '@types/eslint':
     specifier: ^8.44.9
     version: 8.44.9
@@ -74,8 +74,8 @@ devDependencies:
     specifier: ^0.5.9
     version: 0.5.9(prettier@3.1.1)
   tailwindcss:
-    specifier: ^3.3.6
-    version: 3.3.6
+    specifier: ^3.4.0
+    version: 3.4.0
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
@@ -307,12 +307,12 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@tailwindcss/container-queries@0.1.1(tailwindcss@3.3.6):
+  /@tailwindcss/container-queries@0.1.1(tailwindcss@3.4.0):
     resolution: {integrity: sha512-p18dswChx6WnTSaJCSGx6lTmrGzNNvm2FtXmiO6AuA1V4U5REyoqwmT6kgAsIMdjo07QdAfYXHJ4hnMtfHzWgA==}
     peerDependencies:
       tailwindcss: '>=3.2.0'
     dependencies:
-      tailwindcss: 3.3.6
+      tailwindcss: 3.4.0
     dev: true
 
   /@types/eslint@8.44.9:
@@ -716,7 +716,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001570
-      electron-to-chromium: 1.4.614
+      electron-to-chromium: 1.4.615
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.2)
     dev: true
@@ -909,8 +909,8 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /electron-to-chromium@1.4.614:
-    resolution: {integrity: sha512-X4ze/9Sc3QWs6h92yerwqv7aB/uU8vCjZcrMjA8N9R1pjMFRe44dLsck5FzLilOYvcXuDn93B+bpGYyufc70gQ==}
+  /electron-to-chromium@1.4.615:
+    resolution: {integrity: sha512-/bKPPcgZVUziECqDc+0HkT87+0zhaWSZHNXqF8FLd2lQcptpmUFwoCSWjCdOng9Gdq+afKArPdEg/0ZW461Eng==}
     dev: true
 
   /emoji-regex@9.2.2:
@@ -2602,8 +2602,8 @@ packages:
       '@babel/runtime': 7.23.6
     dev: false
 
-  /tailwindcss@3.3.6:
-    resolution: {integrity: sha512-AKjF7qbbLvLaPieoKeTjG1+FyNZT6KaJMJPFeQyLfIp7l82ggH1fbHJSsYIvnbTFQOlkh+gBYpyby5GT1LIdLw==}
+  /tailwindcss@3.4.0:
+    resolution: {integrity: sha512-VigzymniH77knD1dryXbyxR+ePHihHociZbXnLZHUyzf2MMs2ZVqlUrZ3FvpXP8pno9JzmILt1sZPD19M3IxtA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:

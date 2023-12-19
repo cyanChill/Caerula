@@ -30,10 +30,10 @@ export function Navbar() {
         aria-controls="main-nav-menu"
         onClick={() => setNavVisibility(true)}
         className={cn(
-          "fixed bottom-[15svh] left-0 z-10 px-[0.125em] py-[2em] [writing-mode:vertical-rl]",
-          "font-array text-[clamp(0.875rem,1.05vw,5rem)] tracking-[0.175em]",
-          "rounded-r-[max(0.25rem,0.675em)] border-[0.125em] border-l-0 border-white",
-          "shadow-[0_0_0.3125em_0.0625em_#95E6FF] [text-shadow:0_0_0.5em_#95E6FF]",
+          "fixed bottom-[15svh] left-0 z-10 px-[0.4em] py-[2em] [writing-mode:vertical-rl]",
+          "font-array text-[clamp(0.8rem,0.75vw,4rem)] leading-none tracking-[0.175em]",
+          "rounded-r-[0.675em] border-[0.125em] border-l-0 border-white",
+          "shadow-[0_0_0.5em_0.1em_#95E6FF] [text-shadow:0_0_0.5em_#95E6FF]",
           "bg-caerula-180 transition duration-500 hover:brightness-200",
         )}
       >
@@ -44,7 +44,7 @@ export function Navbar() {
         onClick={() => setNavVisibility(false)}
         className={cn(
           "pointer-events-none fixed inset-0 z-20 overflow-clip",
-          "opacity-0 backdrop-blur-2xl transition-opacity duration-500",
+          "bg-black/75 opacity-0 backdrop-blur-2xl transition-opacity duration-500",
           { "pointer-events-auto opacity-100": show },
         )}
       >
@@ -52,8 +52,8 @@ export function Navbar() {
           id="main-nav-menu"
           ref={menuContainerRef}
           className={cn(
-            "no-scrollbar invisible fixed inset-0 z-50 overflow-y-auto",
-            "w-full p-[max(0.375rem,1cqw)] pb-[2cqw] lg:w-[50vw]",
+            "no-scrollbar invisible fixed inset-0 z-50 overflow-y-auto @container",
+            "w-full max-w-screen-2xl p-[1em] pb-[5svh] text-[clamp(0.875rem,0.75vw,3rem)] lg:w-[40vw]",
             "-translate-x-full opacity-0 transition-[visibility_opacity_transform] duration-500",
             { "visible translate-x-0 opacity-100": show },
           )}
@@ -62,12 +62,11 @@ export function Navbar() {
             tabIndex={-1}
             ref={messageRef}
             className={cn(
-              "mx-auto my-[1.75em] w-fit p-[0.375em]",
-              "text-[clamp(0.875rem,1.05vw,5rem)] text-white/75",
+              "mx-auto my-[1.75em] w-fit p-[0.5em] text-white/75",
               "rounded-[max(0.25rem,0.5em)] border-[0.125em] border-current",
             )}
           >
-            <span className="inline-block aspect-square rounded-[0.25em] bg-white/75 p-[0.125em] align-middle text-caerula-180">
+            <span className="inline-flex aspect-square items-center rounded-[0.25em] bg-white/75 p-[0.125em] text-caerula-180">
               Esc
             </span>{" "}
             or &quot;Click&quot; to close menu.
