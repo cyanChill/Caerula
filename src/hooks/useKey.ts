@@ -14,7 +14,7 @@ type Callback = (event: KeyboardEvent) => void;
 
 const defaultOptions: Options = { eventTypes: ["keydown"] };
 
-/**  Fires a callback on keyboard events. */
+/** Fires a callback on keyboard events. */
 export function useKey(
   keys: Array<string | number> | string | number,
   callback: (e: KeyboardEvent) => void,

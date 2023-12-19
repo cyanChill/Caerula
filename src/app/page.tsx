@@ -1,7 +1,4 @@
-import {
-  ScrollSlide,
-  ContentBorderWrapper,
-} from "@/components/layout/ScrollSlide";
+import { ScrollSlide } from "@/components/layout/ScrollSlide";
 
 import { NavList } from "./_components/nav";
 
@@ -14,21 +11,13 @@ export default function Home() {
           title: "Latest Operators",
           description:
             "View the latest operators to add to your collection and expand your strategies.",
-          content: (
-            <ContentBorderWrapper>
-              <p>Latest operator content</p>
-            </ContentBorderWrapper>
-          ),
+          content: <p>Latest operator content</p>,
         },
         {
           id: "navigation",
           title: "Make Your Choice",
           description: "See what Caerula has to offer.",
-          content: (
-            <ContentBorderWrapper>
-              <NavList />
-            </ContentBorderWrapper>
-          ),
+          content: <NavList />,
         },
       ]}
     />

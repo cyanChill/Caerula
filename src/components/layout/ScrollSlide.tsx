@@ -1,5 +1,7 @@
 "use client";
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
+
+import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
 
 import { cn } from "@/lib/style";
 import { clamp } from "@/utils/math";
@@ -8,6 +10,8 @@ interface SectionMeta {
   id: string;
   title: string;
   description: string;
+  /** Children that goes under the description in the left column. */
+  extraInfo?: React.ReactNode;
   content: React.ReactNode;
 }
 
@@ -19,7 +23,7 @@ export function ScrollSlide({ sections }: ScrollSlideProps) {
   const [currSection, setCurrSection] = useState("");
 
   return (
-    <main className="grid grid-cols-3 sm:ml-[max(1.5rem,3cqw)] sm:mr-[max(0.5rem,1cqw)] md:grid-cols-5 lg:grid-cols-11">
+    <main className="sm:mx-[max(1.5rem,3cqw)] lg:grid lg:grid-cols-12 lg:gap-5">
       {sections.map((meta) => (
         <SlideSection
           key={meta.id}
@@ -28,6 +32,16 @@ export function ScrollSlide({ sections }: ScrollSlideProps) {
           {...meta}
         />
       ))}
+
+      {/* Left Cell border */}
+      <div
+        className={cn(
+          "pointer-events-none sticky top-[5svh] col-span-3 col-start-1 row-span-full mb-[5svh] max-h-[90svh] max-lg:hidden",
+          // Gradient Border
+          "before:border-mask before:absolute before:inset-0 before:z-[1] before:pr-[max(0.0625rem,0.05cqw)]",
+          "before:rounded-br-[max(1rem,1cqw)] before:bg-gradient-to-b before:from-white/50 before:to-white/10",
+        )}
+      />
     </main>
   );
 }
@@ -43,106 +57,69 @@ function SlideSection({
   id,
   ...sectionMeta
 }: SlideSectionProps) {
-  const textRef = useRef<HTMLDivElement>(null);
-  const [seen, setSeen] = useState(activeId === id);
+  const sectionRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    if (!textRef.current) return;
-
-    const _threshold = window.innerHeight / textRef.current.clientHeight;
-    const screenThreshold = clamp(0, _threshold - 0.1, 1);
-
-    const observer = new IntersectionObserver(
-      (entry) => {
-        // If viewport is covered by content or content is most of viewport on init
-        if (entry[0].isIntersecting || entry[0].intersectionRatio > 0.5) {
-          setSeen(true);
-          setActiveId(id);
-        }
-      },
-      { root: null, rootMargin: "0px", threshold: screenThreshold },
-    );
-    observer.observe(textRef.current);
-
-    return () => {
-      observer.disconnect();
-    };
-  }, [id, setActiveId]);
+  useIntersectionObserver(
+    sectionRef,
+    (entry) => {
+      // If viewport is covered by content or content is most of viewport on init
+      if (entry[0].isIntersecting || entry[0].intersectionRatio > 0.5) {
+        setActiveId(id);
+      }
+    },
+    {
+      root: null,
+      rootMargin: "0px",
+      threshold: clamp(
+        0,
+        (sectionRef.current
+          ? window.innerHeight / sectionRef.current.clientHeight
+          : 1) - 0.05,
+        1,
+      ),
+    },
+  );
 
   return (
     <>
       <div
-        ref={textRef}
         className={cn(
-          "col-span-full px-[max(0.5rem,1cqw)] py-[max(2.5rem,15svh)] max-lg:pb-0 lg:col-span-4 lg:min-h-[100svh]",
-          "border-white/5 @container lg:border-r-[max(0.125rem,0.15cqw)]",
+          "col-span-3 col-start-1 row-span-full @container lg:sticky lg:top-[5svh] lg:mb-[5svh] lg:max-h-[90svh]",
+          "px-[max(1rem,1cqw)] py-[max(2.5rem,15svh)] max-lg:pb-0",
+          "transition-opacity duration-500 ease-in-out lg:pointer-events-none lg:opacity-0",
+          { "lg:pointer-events-auto lg:opacity-100": activeId === id },
         )}
       >
         <h1
           id={id}
           className={cn(
-            "mb-4 transition-opacity duration-500 ease-in-out lg:opacity-25",
-            "font-array text-cq-title font-bold uppercase",
-            { "lg:opacity-100": seen },
+            "mb-4 font-array text-cq-title font-bold uppercase",
+            "[text-shadow:0_0_3.5em_#9C99FE]",
           )}
         >
           {sectionMeta.title}
         </h1>
-
         <p
           className={cn(
-            "max-w-[85cqw] transition-visibility duration-500 ease-in-out lg:invisible lg:opacity-0",
-            "font-khand text-cq-paragraph",
-            { "lg:visible lg:opacity-100": seen },
+            "mb-4 max-w-[85cqw] font-khand text-cq-paragraph",
+            "[text-shadow:0_0_3.5em_#FF00D6]",
           )}
         >
           <span className="text-caerula-40">{sectionMeta.description}</span>
         </p>
+        {sectionMeta.extraInfo}
       </div>
 
       <section
+        ref={sectionRef}
         aria-labelledby={id}
         className={cn(
-          "col-span-full lg:col-span-7 lg:col-start-5 lg:row-span-full",
-          "mx-[max(0.5rem,1cqw)] my-[5svh] lg:sticky lg:top-[5svh] lg:max-h-[90svh]",
-          "transition-visibility duration-500 ease-in-out lg:invisible lg:opacity-0",
-          { "lg:visible lg:opacity-100": activeId === id },
+          "relative col-span-9 col-start-4 lg:min-h-[100svh]",
+          "px-[max(1rem,1cqw)] py-[5svh] lg:pt-[10svh]",
         )}
       >
         {sectionMeta.content}
       </section>
     </>
-  );
-}
-
-interface CBWProps {
-  children: React.ReactNode;
-  className?: string;
-  style?: React.CSSProperties;
-}
-
-export function ContentBorderWrapper({ children, className, style }: CBWProps) {
-  return (
-    <div
-      style={style}
-      className={cn(
-        "relative h-full px-[max(0.5rem,1cqw)] pt-[max(0.125rem,0.15cqw)]",
-        // Gradient Border
-        "before:border-mask before:pointer-events-none before:absolute before:inset-0 before:z-[1] before:p-[max(0.125rem,0.15cqw)] before:pb-0",
-        "before:rounded-[max(0.5rem,1cqw)] before:bg-gradient-to-b before:from-white/50 before:to-white/10",
-        // Blur transition on overflow child content
-        "lg:after:absolute lg:after:bottom-0 lg:after:left-[max(0.5rem,1cqw)] lg:after:h-[1ch] lg:after:w-[calc(100%-2cqw)]",
-        "lg:after:bg-gradient-to-t lg:after:from-caerula-180 lg:after:from-15% lg:after:backdrop-blur-lg",
-      )}
-    >
-      <div
-        className={cn(
-          "no-scrollbar h-full px-1 py-[max(0.5rem,1cqw)] lg:overflow-y-auto",
-          className,
-        )}
-      >
-        {children}
-      </div>
-    </div>
   );
 }
