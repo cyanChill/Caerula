@@ -34,6 +34,26 @@
   }
 }
 
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 1rem;
+  background: #242e3b;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: #66798f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #99a5b4;
+}
+
 /* Screen Lock Class */
 body[data-lock="true"] {
   overflow: hidden !important;
