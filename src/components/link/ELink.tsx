@@ -2,7 +2,7 @@ import type { LinkProps } from "next/link";
 import Link from "next/link";
 
 type Props = { children: React.ReactNode; className?: string } & (
-  | (LinkProps & { external: false })
+  | (LinkProps & { external?: false })
   | (React.AnchorHTMLAttributes<HTMLAnchorElement> & { external: true })
 );
 

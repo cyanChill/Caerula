@@ -7,6 +7,7 @@ import { GeistSans } from "geist/font/sans";
 import "../assets/globals.css";
 import { cn } from "@/lib/style";
 import { Navbar } from "./_components/nav.client";
+import Footer from "./_components/footer";
 
 const array = localFont({
   src: [
@@ -62,6 +63,7 @@ export default function RootLayout({
       <body className={cn("bg-caerula-180 text-white", GeistMono.className)}>
         <Navbar />
         {children}
+        <Footer />
         <Analytics />
       </body>
     </html>
