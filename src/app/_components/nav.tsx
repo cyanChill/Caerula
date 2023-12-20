@@ -10,11 +10,10 @@ import {
   Waves,
 } from "@/assets/svgs/shapes";
 
+import type { BgColor, BorderColor } from "@/lib/style";
 import { cn } from "@/lib/style";
 import ELink from "@/components/link/ELink";
 
-type BgColor = `bg-${string}-${number}` | `bg-[#${string}]`;
-type BorderColor = `border-${string}-${number}` | `border-[#${string}]`;
 type ThemeColors = `${BgColor} ${BorderColor}`;
 type NavConfigItem = {
   title: string;

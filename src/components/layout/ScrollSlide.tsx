@@ -14,6 +14,8 @@ interface SectionMeta {
   /** Children that goes under the description in the left column. */
   extraInfo?: React.ReactNode;
   content: React.ReactNode;
+  /** Glow color for the current section of content. */
+  glow: `from-${string}-${number}` | `from-[#${string}]`;
 }
 
 interface ScrollSlideProps {
@@ -45,7 +47,7 @@ export function ScrollSlide({ sections }: ScrollSlideProps) {
       >
         <ScrollArrow
           glowRatio="1.25cqw"
-          className="fixed bottom-0 left-1/2 -translate-x-1/2 *:w-[7.5cqw]"
+          className="absolute bottom-0 left-1/2 -translate-x-1/2 *:w-[7.5cqw]"
         />
       </div>
     </main>
@@ -120,6 +122,12 @@ function SlideSection({
         )}
       >
         {sectionMeta.content}
+        <div
+          className={cn(
+            "absolute left-1/2 top-0 -z-[1] size-full -translate-x-1/2 bg-gradient-radial to-60% opacity-25",
+            sectionMeta.glow,
+          )}
+        />
       </section>
     </>
   );
