@@ -53,7 +53,7 @@ export function Navbar() {
           ref={menuContainerRef}
           className={cn(
             "no-scrollbar invisible fixed inset-0 z-50 overflow-y-auto @container",
-            "w-full max-w-screen-2xl p-[1em] pb-[5svh] text-[clamp(0.875rem,0.75vw,3rem)] lg:w-[40vw]",
+            "w-full max-w-screen-2xl p-[1em] pb-[5svh] text-[clamp(0.875rem,0.75vw,3rem)] lg:w-[40vw] lg:min-w-[40rem]",
             "-translate-x-full opacity-0 transition-[visibility_opacity_transform] duration-500",
             { "visible translate-x-0 opacity-100": show },
           )}

@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       /* Animations */
       keyframes: {
-        "fade-in-out": {
+        "slide-in-out": {
           "0%": { opacity: "0", transform: "translateY(-200%)" },
           "50%": { opacity: "1" },
           "80%, 100%": { opacity: "0", transform: "translateY(0px)" },

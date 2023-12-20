@@ -14,7 +14,7 @@ import type { BgColor, BorderColor } from "@/lib/style";
 import { cn } from "@/lib/style";
 import ELink from "@/components/link/ELink";
 
-type ThemeColors = `${BgColor} ${BorderColor}`;
+type ThemeColors = `${BgColor} ${BorderColor}/75`;
 type NavConfigItem = {
   title: string;
   icon: React.ReactNode;
@@ -40,7 +40,7 @@ const navConfigs: NavConfigItem[] = [
         className="size-full"
       />
     ),
-    theme: { primary: "bg-caerula-80 border-caerula-80" },
+    theme: { primary: "bg-caerula-80 border-caerula-80/75" },
   },
   {
     title: "Operator Network",
@@ -48,7 +48,7 @@ const navConfigs: NavConfigItem[] = [
     type: "large",
     icon: <CircleWaves />,
     theme: {
-      primary: "bg-caerula-100 border-caerula-100",
+      primary: "bg-caerula-100 border-caerula-100/75",
       button: "bg-yellow-500",
     },
   },
@@ -64,7 +64,7 @@ const navConfigs: NavConfigItem[] = [
     type: "large",
     icon: <Waves />,
     theme: {
-      primary: "bg-teal-900 border-teal-900",
+      primary: "bg-teal-900 border-teal-900/75",
       button: "bg-[#5F9EA0]",
     },
   },
@@ -109,7 +109,7 @@ export function NavList({ withHome = false }: NavListProps) {
   const items = withHome ? navConfigs : navConfigs.toSpliced(0, 1);
 
   return (
-    <ul className="grid max-w-screen-2xl auto-rows-fr gap-2 @[15rem]:grid-cols-2 @md:gap-4 @3xl:grid-cols-3">
+    <ul className="grid max-w-screen-2xl auto-rows-fr gap-2 @[15.5rem]:grid-cols-2 @md:gap-4 @3xl:grid-cols-3">
       {items.map(({ external, type, title, href, icon, theme }) => {
         const IndicatorIcon = external ? Rocket : ArrowTopRight;
         const currStyle = navItemStyles[type];
@@ -122,10 +122,10 @@ export function NavList({ withHome = false }: NavListProps) {
               href={href}
               className={cn(
                 currStyle.container,
-                "grid h-full rounded-[0.375em] border-[0.05em] p-[0.25em] text-cq-heading-3",
-                "border-opacity-50 bg-opacity-50 shadow-[0_0.05em_0.1em_#00000040] backdrop-blur-2xl",
+                "grid h-full rounded-[0.375em] border-[0.075em] p-[0.25em] text-cq-heading-3",
+                "bg-opacity-50 shadow-[0_0.05em_0.1em_#00000040] backdrop-blur-2xl",
                 "transition duration-500 hover:bg-opacity-75",
-                theme?.primary ?? "border-dust-100 bg-dust-100",
+                theme?.primary ?? "border-dust-100/75 bg-dust-100",
               )}
             >
               <div
@@ -157,7 +157,7 @@ export function NavList({ withHome = false }: NavListProps) {
                   </p>
                   <div
                     className={cn(
-                      "flex justify-end rounded-[0.2em] px-1 sm:p-[0.1em]",
+                      "flex items-center justify-end rounded-[0.2em] px-1 sm:p-[0.1em]",
                       theme.button,
                     )}
                   >

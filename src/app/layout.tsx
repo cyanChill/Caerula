@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 
-import "../assets/globals.css";
+import "@/assets/globals.css";
 import { cn } from "@/lib/style";
 import { Navbar } from "./_components/nav.client";
 import Footer from "./_components/footer";
