@@ -1,4 +1,4 @@
-import type { OperatorId } from "@/types/AKOperator";
+import type { OperatorId } from "@/data/types/AKOperator";
 
 declare const latestStore: {
   "latest-operator-ids": OperatorId[];
