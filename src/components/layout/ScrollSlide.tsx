@@ -5,6 +5,7 @@ import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
 
 import { cn } from "@/lib/style";
 import { clamp } from "@/utils/math";
+import ScrollArrow from "../accents/ScrollArrow";
 
 interface SectionMeta {
   id: string;
@@ -23,7 +24,7 @@ export function ScrollSlide({ sections }: ScrollSlideProps) {
   const [currSection, setCurrSection] = useState("");
 
   return (
-    <main className="sm:mx-[max(1.5rem,3cqw)] lg:grid lg:grid-cols-12 lg:gap-5">
+    <main className="sm:mx-[max(1.5rem,3cqw)] lg:grid lg:grid-cols-10 lg:gap-5 xl:grid-cols-12">
       {sections.map((meta) => (
         <SlideSection
           key={meta.id}
@@ -36,12 +37,17 @@ export function ScrollSlide({ sections }: ScrollSlideProps) {
       {/* Left Cell border */}
       <div
         className={cn(
-          "pointer-events-none sticky top-[5svh] col-span-3 col-start-1 row-span-full mb-[5svh] max-h-[90svh] max-lg:hidden",
+          "pointer-events-none sticky top-[5svh] col-span-3 col-start-1 row-span-full mb-[5svh] max-h-[90svh] @container max-lg:hidden",
           // Gradient Border
-          "before:border-mask before:absolute before:inset-0 before:z-[1] before:pr-[max(0.0625rem,0.05cqw)]",
+          "before:border-mask before:absolute before:inset-0 before:z-[1] before:pr-[max(0.0625rem,0.25cqw)]",
           "before:rounded-br-[max(1rem,1cqw)] before:bg-gradient-to-b before:from-white/50 before:to-white/10",
         )}
-      />
+      >
+        <ScrollArrow
+          glowRatio="1.25cqw"
+          className="fixed bottom-0 left-1/2 -translate-x-1/2 *:w-[7.5cqw]"
+        />
+      </div>
     </main>
   );
 }
@@ -59,6 +65,11 @@ function SlideSection({
 }: SlideSectionProps) {
   const sectionRef = useRef<HTMLDivElement>(null);
 
+  const _threshold = sectionRef.current
+    ? window.innerHeight / sectionRef.current.clientHeight
+    : 1;
+  const screenThreshold = clamp(0, _threshold - 0.05, 1);
+
   useIntersectionObserver(
     sectionRef,
     (entry) => {
@@ -67,17 +78,7 @@ function SlideSection({
         setActiveId(id);
       }
     },
-    {
-      root: null,
-      rootMargin: "0px",
-      threshold: clamp(
-        0,
-        (sectionRef.current
-          ? window.innerHeight / sectionRef.current.clientHeight
-          : 1) - 0.05,
-        1,
-      ),
-    },
+    { root: null, rootMargin: "0px", threshold: screenThreshold },
   );
 
   return (
@@ -102,7 +103,7 @@ function SlideSection({
         <p
           className={cn(
             "mb-4 max-w-[85cqw] font-khand text-cq-paragraph",
-            "[text-shadow:0_0_3.5em_#FF00D6]",
+            "[text-shadow:0_0_4em_#FF00D6]",
           )}
         >
           <span className="text-caerula-40">{sectionMeta.description}</span>
@@ -114,8 +115,8 @@ function SlideSection({
         ref={sectionRef}
         aria-labelledby={id}
         className={cn(
-          "relative col-span-9 col-start-4 lg:min-h-[100svh]",
-          "px-[max(1rem,1cqw)] py-[5svh] lg:pt-[10svh]",
+          "relative col-span-9 col-start-4 @container lg:min-h-svh",
+          "px-[max(1rem,1cqw)] py-[5svh] lg:py-[10svh]",
         )}
       >
         {sectionMeta.content}

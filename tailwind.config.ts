@@ -8,6 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      /* Animations */
+      keyframes: {
+        "fade-in-out": {
+          "0%": { opacity: "0", transform: "translateY(-200%)" },
+          "50%": { opacity: "1" },
+          "80%, 100%": { opacity: "0", transform: "translateY(0px)" },
+        },
+      },
+      transitionProperty: {
+        visibility: "opacity, visibility",
+      },
+      /* Styling */
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -38,6 +50,7 @@ const config: Config = {
           100: "#134E4A",
         },
       },
+      /* Grid */
       gridTemplateColumns: {
         autoFill:
           "repeat(auto-fill, minmax(min(var(--min-col-size, 200px), 100%), 1fr))",
@@ -50,6 +63,7 @@ const config: Config = {
         autoFit:
           "repeat(auto-fit, minmax(min(var(--min-row-size, 200px), 100%), 1fr))",
       },
+      /* Fonts */
       fontFamily: {
         array: ["var(--font-array)"],
         "geist-mono": ["var(--font-geist-mono)"],
@@ -60,9 +74,6 @@ const config: Config = {
         "cq-title": ["clamp(2rem, min(7.5vw, 15cqw), 15rem)", "1.15"],
         "cq-heading-3": ["clamp(1rem, 11.25cqw, 12.5rem)", "1.15"],
         "cq-paragraph": "clamp(1rem, min(2.5vw, 6cqw), 5rem)",
-      },
-      transitionProperty: {
-        visibility: "opacity, visibility",
       },
     },
   },
