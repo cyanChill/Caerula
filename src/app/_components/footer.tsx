@@ -20,7 +20,7 @@ export default function Footer() {
               alt=""
               width={80}
               height={80}
-              className="aspect-square w-[1.25em]"
+              className="size-[1.25em]"
             />
             Caerula
           </ELink>

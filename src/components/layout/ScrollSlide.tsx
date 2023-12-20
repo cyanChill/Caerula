@@ -26,7 +26,7 @@ export function ScrollSlide({ sections }: ScrollSlideProps) {
   const [currSection, setCurrSection] = useState("");
 
   return (
-    <main className="sm:mx-[max(1.5rem,3cqw)] lg:grid lg:grid-cols-10 lg:gap-5 xl:grid-cols-12">
+    <main className="grid-cols-10 gap-5 sm:mx-[max(1.5rem,3cqw)] lg:grid xl:grid-cols-12">
       {sections.map((meta) => (
         <SlideSection
           key={meta.id}
@@ -87,8 +87,9 @@ function SlideSection({
     <>
       <div
         className={cn(
-          "col-span-3 col-start-1 row-span-full @container lg:sticky lg:top-[5svh] lg:mb-[5svh] lg:max-h-[90svh]",
-          "px-[max(1rem,1cqw)] py-[max(2.5rem,15svh)] max-lg:pb-0",
+          "col-span-3 col-start-1 row-span-full @container lg:max-h-[90svh]",
+          "grid grid-rows-[auto_minmax(0,1fr)] lg:sticky lg:top-[5svh]",
+          "px-[max(1rem,1cqw)] pt-[max(2.5rem,15svh)] lg:mb-[5svh]",
           "transition-opacity duration-500 ease-in-out lg:pointer-events-none lg:opacity-0",
           { "lg:pointer-events-auto lg:opacity-100": activeId === id },
         )}
@@ -102,15 +103,17 @@ function SlideSection({
         >
           {sectionMeta.title}
         </h1>
-        <p
-          className={cn(
-            "mb-4 max-w-[85cqw] font-khand text-cq-paragraph",
-            "[text-shadow:0_0_4em_#FF00D6]",
-          )}
-        >
-          <span className="text-caerula-40">{sectionMeta.description}</span>
-        </p>
-        {sectionMeta.extraInfo}
+        <div className="no-scrollbar lg:overflow-y-auto lg:py-8">
+          <p
+            className={cn(
+              "mb-4 max-w-[85cqw] font-khand text-cq-paragraph",
+              "[text-shadow:0_0_4em_#FF00D6]",
+            )}
+          >
+            <span className="text-caerula-40">{sectionMeta.description}</span>
+          </p>
+          {sectionMeta.extraInfo}
+        </div>
       </div>
 
       <section
