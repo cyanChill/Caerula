@@ -1,4 +1,4 @@
-import type { TokenId, Token } from "@/types/AKToken";
+import type { TokenId, Token } from "@/data/types/AKToken";
 
 declare const tokens: Record<TokenId, Token>;
 

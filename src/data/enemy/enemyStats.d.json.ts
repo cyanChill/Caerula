@@ -1,4 +1,4 @@
-import type { EnemyId, EnemyStat } from "@/types/AKEnemy";
+import type { EnemyId, EnemyStat } from "@/data/types/AKEnemy";
 
 declare const enemyStats: Record<EnemyId, EnemyStat[]>;
 

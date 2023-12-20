@@ -1,4 +1,4 @@
-import type { FactionId, NationId, TeamId } from "@/types/AKAffiliation";
+import type { FactionId, NationId, TeamId } from "@/data/types/AKAffiliation";
 
 type NonNullNationId = Exclude<NationId, null>;
 type NonNullFactionId = Exclude<FactionId, null>;
