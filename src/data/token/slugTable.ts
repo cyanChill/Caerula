@@ -1,4 +1,4 @@
-import type { TokenId } from "@/data/types/AKToken"
+import type { TokenId } from "@/data/types/AKToken";
 
 export const TokSlugTable = {
   "medic_drone": "token_10000_silent_healrb",
