@@ -1,4 +1,4 @@
-import type { Branch, Profession, SubClass } from "@/types/AKClass";
+import type { Branch, Profession, SubClass } from "@/data/types/AKClass";
 
 /** @description Conversion of Profession to its display value. */
 export const ProfessionInfo = {

@@ -18,7 +18,6 @@ jobs:
           ref: staging # Working in the `staging` branch
           sparse-checkout: |
             src/data
-            src/types
       # Checkout `main` branch of `cyanChill/Caerula-Data`
       - uses: actions/checkout@v4
         with:
@@ -26,20 +25,19 @@ jobs:
           ssh-key: ${{ secrets.REPO_ACCESS_KEY }}
           path: caerula-data
           ref: main # Working in the `main` branch
+          # Types are stored in the `/data` folder
           sparse-checkout: |
             data
-            types
       - name: Copy files over to `cyanChill/Caerula`
         run: |
           cp -a caerula-data/data/. main/src/data/
-          cp -a caerula-data/types/. main/src/types/
       - name: Commit & push changes to cyanChill/Caerula
         id: push
         run: |
           cd main
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add ./src/data ./src/types
+          git add ./src/data
           git commit -m "ci(data): `date`"
           git push
         continue-on-error: true

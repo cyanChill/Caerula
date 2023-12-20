@@ -1,5 +1,5 @@
-import type { OpPersonalFile } from "@/types/AKOPFiles";
-import type { OperatorId } from "@/types/AKOperator";
+import type { OpPersonalFile } from "@/data/types/AKOPFiles";
+import type { OperatorId } from "@/data/types/AKOperator";
 
 declare const personalFiles: Record<OperatorId, OpPersonalFile[]>;
 

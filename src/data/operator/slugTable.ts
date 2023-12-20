@@ -1,4 +1,4 @@
-import type { OperatorId } from "@/types/AKOperator"
+import type { OperatorId } from "@/data/types/AKOperator"
 
 export const OpSlugTable = {
   "lancet-2": "char_285_medic2",
