@@ -123,7 +123,7 @@ export function NavList({ withHome = false }: NavListProps) {
               className={cn(
                 currStyle.container,
                 "grid h-full rounded-[0.375em] border-[0.05em] p-[0.25em] text-cq-heading-3",
-                "border-opacity-50 bg-opacity-50 backdrop-blur-2xl",
+                "border-opacity-50 bg-opacity-50 shadow-[0_0.05em_0.1em_#00000040] backdrop-blur-2xl",
                 "transition duration-500 hover:bg-opacity-75",
                 theme?.primary ?? "border-dust-100 bg-dust-100",
               )}
