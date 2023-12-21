@@ -7,6 +7,11 @@
   .flex-center {
     @apply flex items-center justify-center;
   }
+
+  /* Gradient shorthands */
+  .gradient-psychedelic {
+    @apply bg-gradient-to-tr from-[#74D8FC]/50 to-[#9C99FE]/50;
+  }
 }
 
 @layer utilities {
