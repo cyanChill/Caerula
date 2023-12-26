@@ -11,7 +11,7 @@ export type TeamId = (typeof TeamIds)[number];
 
 /** @description Shorthand for checking all affiliation types. */
 export type Affilations = {
-  nation?: NationId;
-  faction?: FactionId;
-  team?: TeamId;
+  nation?: NationId | null;
+  faction?: FactionId | null;
+  team?: TeamId | null;
 };

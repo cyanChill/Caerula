@@ -293,9 +293,58 @@ export const OperatorIds = [
   "char_1001_amiya2"
 ] as const;
 
-export const AlternateLangNames = [" ", "Гум", "Зима", "Истина", "Роса"] as const;
+export const NationIds = [
+  "rhodes",
+  "kazimierz",
+  "columbia",
+  "laterano",
+  "victoria",
+  "sami",
+  "bolivar",
+  "iberia",
+  "siracusa",
+  "higashi",
+  "sargon",
+  "kjerag",
+  "minos",
+  "yan",
+  "lungmen",
+  "ursus",
+  "egir",
+  "leithanien",
+  "rim"
+] as const;
 
-export const OperatorTags = [
+export const FactionIds = [
+  "pinus",
+  "blacksteel",
+  "karlan",
+  "sweep",
+  "rhine",
+  "penguin",
+  "lgd",
+  "glasgow",
+  "abyssal",
+  "dublinn",
+  "siesta",
+  "babel",
+  "elite",
+  "sui"
+] as const;
+
+export const TeamIds = [
+  "action4",
+  "reserve1",
+  "reserve4",
+  "reserve6",
+  "student",
+  "chiave",
+  "rainbow",
+  "followers",
+  "lee"
+] as const;
+
+export const RoleTags = [
   "Robot",
   "Healing",
   "Support",
@@ -314,7 +363,7 @@ export const OperatorTags = [
   "Shift"
 ] as const;
 
-export const Professions = {
+export const ProfessionTable = {
   "MEDIC": [
     "physician",
     "ringhealer",
@@ -376,8 +425,6 @@ export const Professions = {
   ],
   "SUPPORT": ["slower", "summoner", "craftsman", "underminer", "bard", "blessing"]
 } as const;
-
-export const UnitPosition = ["MELEE", "RANGED", "ALL"] as const;
 
 export const SkillIds = [
   "skcom_charge_cost[1]",
@@ -1169,7 +1216,6 @@ export const SkillIds = [
 ] as const;
 
 export const SkillIconIds = [
-  null,
   "skcom_enchant[1]",
   "skcom_blowrange_up[1]",
   "skcom_powerstrike[1]",
@@ -1206,60 +1252,6 @@ export const SkillIconIds = [
   "sktok_cdaltar",
   "sktok_cddiff",
   "sktok_cdheal"
-] as const;
-
-export const NationIds = [
-  "rhodes",
-  "kazimierz",
-  "columbia",
-  null,
-  "laterano",
-  "victoria",
-  "sami",
-  "bolivar",
-  "iberia",
-  "siracusa",
-  "higashi",
-  "sargon",
-  "kjerag",
-  "minos",
-  "yan",
-  "lungmen",
-  "ursus",
-  "egir",
-  "leithanien",
-  "rim"
-] as const;
-
-export const FactionIds = [
-  null,
-  "pinus",
-  "blacksteel",
-  "karlan",
-  "sweep",
-  "rhine",
-  "penguin",
-  "lgd",
-  "glasgow",
-  "abyssal",
-  "dublinn",
-  "siesta",
-  "babel",
-  "elite",
-  "sui"
-] as const;
-
-export const TeamIds = [
-  null,
-  "action4",
-  "reserve1",
-  "reserve4",
-  "reserve6",
-  "student",
-  "chiave",
-  "rainbow",
-  "followers",
-  "lee"
 ] as const;
 
 export const EnemyIds = [

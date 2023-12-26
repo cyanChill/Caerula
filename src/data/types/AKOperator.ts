@@ -1,4 +1,4 @@
-import type { OperatorIds, UnitPosition } from "./typesFrom";
+import type { OperatorIds } from "./typesFrom";
 
 import type { NationId, FactionId, TeamId } from "./AKAffiliation";
 import type { Profession, SubClass } from "./AKClass";
@@ -10,7 +10,7 @@ import type { TokenId } from "./AKToken";
 export type OperatorId = (typeof OperatorIds)[number];
 
 /** @description Describes where an operator can be placed on the map. */
-export type Position = (typeof UnitPosition)[number];
+export type Position = "MELEE" | "RANGED" | "ALL";
 
 /** @description Conversions of the raw data. */
 export type EliteLvl = 0 | 1 | 2;
@@ -96,9 +96,9 @@ export interface Operator {
   talents: OpTalent[];
   trustBonus: StatAtLevel;
   skillLevel: SkillCost[];
-  nationId: NationId;
-  factionId: FactionId;
-  teamId: TeamId;
+  nationId: NationId | null;
+  factionId: FactionId | null;
+  teamId: TeamId | null;
   position: Position;
   tags: string[];
   type: "limited" | "is" | null;

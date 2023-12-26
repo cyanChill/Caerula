@@ -12,7 +12,7 @@ export type SkillIconId = (typeof SkillIconIds)[number];
 /** @description The final object representing an operator skill. */
 export interface Skill {
   id: SkillId;
-  iconId: SkillId | Exclude<SkillIconId, null>;
+  iconId: SkillId | SkillIconId;
   name: string;
   // Populated the description with the appropriate template value
   description: string[];
