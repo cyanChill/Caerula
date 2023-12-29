@@ -6,12 +6,12 @@ export type NationId = (typeof NationIds)[number];
 /** @description Factions that belongs to a Nation. */
 export type FactionId = (typeof FactionIds)[number];
 
-/** @description Team formed between operators. */
+/** @description Teams formed between operators. */
 export type TeamId = (typeof TeamIds)[number];
 
 /** @description Shorthand for checking all affiliation types. */
 export type Affilations = {
-  nation?: NationId;
-  faction?: FactionId;
-  team?: TeamId;
+  nation?: NationId | null;
+  faction?: FactionId | null;
+  team?: TeamId | null;
 };

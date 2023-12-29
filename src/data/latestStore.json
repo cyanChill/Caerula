@@ -1,10 +1,9 @@
 {
-  "latest-operator-ids": [
-    "char_4093_frston",
-    "char_4006_melnte",
-    "char_249_mlyss",
-    "char_4027_heyak",
-    "char_1031_slent2"
-  ],
-  "latest-skin-ids": ["char_4000_jnight_boc#7b", "char_002_amiya_test#1b"]
+  "latest-operator-ids": ["char_498_inside", "char_4015_spuria", "char_1032_excu2"],
+  "latest-skin-ids": [
+    "char_362_saga_sale#9",
+    "char_430_fartth_whirlwind#5",
+    "char_4025_aprot2_whirlwind#5",
+    "char_4071_peper_whirlwind#5"
+  ]
 }

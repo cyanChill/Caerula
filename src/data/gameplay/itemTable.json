@@ -3919,6 +3919,22 @@
     "usage": "Used to improve the Potential of Melanite.",
     "rarity": 5
   },
+  "p_char_498_inside": {
+    "id": "p_char_498_inside",
+    "iconId": "p_char_498_inside",
+    "name": "Insider's Token",
+    "description": "A handwritten dessert recipe. With proportions finetuned to Insider's own personal tastes, the sugar content ABSOLUTELY exceeds recommended guidelines! This one's a pick-me-up!",
+    "usage": "Used to improve the Potential of Insider.",
+    "rarity": 5
+  },
+  "p_char_4015_spuria": {
+    "id": "p_char_4015_spuria",
+    "iconId": "p_char_4015_spuria",
+    "name": "Spuria's Token",
+    "description": "A user manual for precision machinery. Though the only thing inside is a special phone number, since she thinks telling you what to do directly is easier. (But sometimes she'll teach you wrong on purpose—depends on her mood.)",
+    "usage": "Used to improve the Potential of Spuria.",
+    "rarity": 5
+  },
   "p_char_103_angel": {
     "id": "p_char_103_angel",
     "iconId": "p_char_103_angel",
@@ -4517,6 +4533,14 @@
     "name": "Silence the Paradigmatic's Token",
     "description": "A pair of somewhat antiquated-looking round glasses. Some have told her that they make her look less courageous. As such, she decided to entrust her glasses to you. Aboard Rhodes Island, she wants to be her past self.",
     "usage": "Used to improve the Potential of Silence the Paradigmatic.",
+    "rarity": 6
+  },
+  "p_char_1032_excu2": {
+    "id": "p_char_1032_excu2",
+    "iconId": "p_char_1032_excu2",
+    "name": "Executor the Ex Foedere's Token",
+    "description": "A wireless earpiece. The latest of the Lateran Curia's tech products, and the same model that Executor himself currently uses. Is he giving this to you so you can stay in contact with him at any time, perhaps?",
+    "usage": "Used to improve the Potential of Executor the Ex Foedere.",
     "rarity": 6
   },
   "class_p_char_123_fang": {
@@ -5654,6 +5678,14 @@
     "description": "The letter mentions a few comic books that she had just completed, as well as the friends she met because of them.",
     "usage": "A personal letter sent to the Doctor, used to improve Heavyrain to Max Potential.",
     "rarity": 5
+  },
+  "voucher_full_glady": {
+    "id": "voucher_full_glady",
+    "iconId": "voucher_full_glady",
+    "name": "Gladiia's Personal Letter",
+    "description": "The letter writes of her hidden worries for Ægir and the ocean, as well as preliminary plans for an alliance with all the nations of the land.",
+    "usage": "A personal letter sent to the Doctor, used to improve Gladiia to Max Potential.",
+    "rarity": 6
   },
   "uni_set_guitar": {
     "id": "uni_set_guitar",
@@ -6943,6 +6975,14 @@
     "usage": "Obtain all furniture exclusive to the A Walk in the Dust event not yet acquired.",
     "rarity": 5
   },
+  "uni_set_abyssal": {
+    "id": "uni_set_abyssal",
+    "iconId": "uni_set_abyssal",
+    "name": "Under Tides Furniture Pack",
+    "description": "The Procurement Department's reconnected with its suppliers, and replenished stocks of initially limited pieces of furniture! Give your thanks to Closure!",
+    "usage": "Obtain all furniture exclusive to the Under Tides event not yet acquired.",
+    "rarity": 5
+  },
   "act23side_token_spirit": {
     "id": "act23side_token_spirit",
     "iconId": "act23side_token_spirit",
@@ -7044,7 +7084,7 @@
     "iconId": "classic_gacha",
     "name": "Kernel Headhunting Permit",
     "description": "Rhodes Island's expansion is inseparable from the help and support it has received from kernel personnel. This headhunting item will assist the Doctor in recruiting talent within specified bounds.",
-    "usage": "A special permit from Rhodes Island's HR distribution for recruiting a single kernel talent.",
+    "usage": "A certificate that attests an operator possesses core abilities. Can be exchanged for rare materials.",
     "rarity": 5
   },
   "classic_gacha_10": {
@@ -7109,6 +7149,22 @@
     "name": "Crystalized Originium",
     "description": "A chunk of flawless Originium crystal. The Sanctuary considers it a precious treasure.",
     "usage": "Reward obtained by completing Pinch-Out Experimental Operation. Can be exchanged for supplies.",
+    "rarity": 5
+  },
+  "act26side_token_fragmenta": {
+    "id": "act26side_token_fragmenta",
+    "iconId": "act26side_token_fragmenta",
+    "name": "Holy Statue Fragments",
+    "description": "Holy Statue Fragments telling of all sorts of damage lie forgotten in every nook and cranny of the monastery, each shard unlike any other. These may never again piece together to form the complete image of a saint with a gun, but there are always those hanging onto hope.",
+    "usage": "Statues of saints bearing guns were once ornamental mainstays all over the monastery, but most are now nowhere to be seen. The monastery's devout followers are willing to barter what supplies they have in exchange for these fragments.",
+    "rarity": 5
+  },
+  "act18side_token_pieces_rep_1": {
+    "id": "act18side_token_pieces_rep_1",
+    "iconId": "act18side_token_pieces",
+    "name": "Sheet Music",
+    "description": "The notes scribbled on the staff are jumbled and disorderly. Only the composer himself can, at a glance, make out the soul hidden therein.",
+    "usage": "Musicians often misplace their drafts during outbursts of emotion. If you straighten it out and return it to its owner, perhaps you will receive a new piece in return.",
     "rarity": 5
   }
 }

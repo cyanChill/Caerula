@@ -5,6 +5,8 @@
       "atk": 130,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.7,
       "atkRange": 0
@@ -14,6 +16,8 @@
       "atk": 300,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.7,
       "atkRange": 0
@@ -25,6 +29,8 @@
       "atk": 185,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.7,
       "atkRange": 0
@@ -34,6 +40,8 @@
       "atk": 400,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.7,
       "atkRange": 0
@@ -45,6 +53,8 @@
       "atk": 240,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.7,
       "atkRange": 0
@@ -56,6 +66,8 @@
       "atk": 180,
       "def": 80,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 3,
       "atkRange": 1.8
@@ -67,6 +79,8 @@
       "atk": 290,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 3.3,
       "atkRange": 1.75
@@ -78,6 +92,8 @@
       "atk": 260,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.7,
       "atkRange": 0
@@ -89,6 +105,8 @@
       "atk": 350,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.7,
       "atkRange": 0
@@ -100,6 +118,8 @@
       "atk": 190,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -109,6 +129,8 @@
       "atk": 400,
       "def": 190,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -120,6 +142,8 @@
       "atk": 260,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -129,6 +153,8 @@
       "atk": 460,
       "def": 210,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -140,6 +166,8 @@
       "atk": 370,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -151,6 +179,8 @@
       "atk": 200,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -160,6 +190,8 @@
       "atk": 300,
       "def": 130,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -171,6 +203,8 @@
       "atk": 240,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.4,
       "atkRange": 1.9
@@ -180,6 +214,8 @@
       "atk": 310,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.4,
       "atkRange": 1.9
@@ -191,6 +227,8 @@
       "atk": 310,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.4,
       "atkRange": 1.9
@@ -200,6 +238,8 @@
       "atk": 380,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.4,
       "atkRange": 1.9
@@ -211,6 +251,8 @@
       "atk": 200,
       "def": 50,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 1.8
@@ -220,6 +262,8 @@
       "atk": 350,
       "def": 80,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 1.8
@@ -231,6 +275,8 @@
       "atk": 300,
       "def": 80,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2
@@ -240,6 +286,8 @@
       "atk": 420,
       "def": 100,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2
@@ -249,6 +297,8 @@
       "atk": 600,
       "def": 500,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2
@@ -260,6 +310,8 @@
       "atk": 240,
       "def": 120,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.8,
       "atkRange": 2.2
@@ -271,6 +323,8 @@
       "atk": 380,
       "def": 160,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.8,
       "atkRange": 2.2
@@ -282,6 +336,8 @@
       "atk": 220,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.9,
       "atkRange": 0
@@ -291,6 +347,8 @@
       "atk": 320,
       "def": 180,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.9,
       "atkRange": 0
@@ -302,6 +360,8 @@
       "atk": 300,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.9,
       "atkRange": 0
@@ -311,6 +371,8 @@
       "atk": 400,
       "def": 220,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.9,
       "atkRange": 0
@@ -322,6 +384,8 @@
       "atk": 400,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4.5,
       "atkRange": 7
@@ -333,6 +397,8 @@
       "atk": 550,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4.5,
       "atkRange": 7
@@ -344,6 +410,8 @@
       "atk": 350,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 1.2,
       "atkRange": 0
@@ -353,6 +421,8 @@
       "atk": 310,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 1.2,
       "atkRange": 0
@@ -364,6 +434,8 @@
       "atk": 450,
       "def": 120,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 1.2,
       "atkRange": 0
@@ -373,6 +445,8 @@
       "atk": 420,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 1.2,
       "atkRange": 0
@@ -384,6 +458,8 @@
       "atk": 250,
       "def": 400,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -395,6 +471,8 @@
       "atk": 300,
       "def": 500,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -406,6 +484,8 @@
       "atk": 600,
       "def": 800,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.6,
       "atkRange": 0
@@ -415,6 +495,8 @@
       "atk": 600,
       "def": 850,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.6,
       "atkRange": 0
@@ -426,6 +508,8 @@
       "atk": 600,
       "def": 1000,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.6,
       "atkRange": 0
@@ -435,6 +519,8 @@
       "atk": 700,
       "def": 850,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.6,
       "atkRange": 0
@@ -446,6 +532,8 @@
       "atk": 1000,
       "def": 1200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.6,
       "atkRange": 0
@@ -455,6 +543,8 @@
       "atk": 2500,
       "def": 1500,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.6,
       "atkRange": 0
@@ -466,6 +556,8 @@
       "atk": 1900,
       "def": 800,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 6,
       "atkRange": 0
@@ -477,6 +569,8 @@
       "atk": 2700,
       "def": 1000,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 6,
       "atkRange": 0
@@ -488,6 +582,8 @@
       "atk": 300,
       "def": 500,
       "res": 85,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -497,6 +593,8 @@
       "atk": 500,
       "def": 800,
       "res": 85,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -508,6 +606,8 @@
       "atk": 300,
       "def": 90,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -517,6 +617,8 @@
       "atk": 400,
       "def": 130,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -528,6 +630,8 @@
       "atk": 100,
       "def": 120,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1,
       "atkRange": 0
@@ -539,6 +643,8 @@
       "atk": 100,
       "def": 350,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1,
       "atkRange": 0
@@ -550,6 +656,8 @@
       "atk": 0,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -559,6 +667,8 @@
       "atk": 0,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -570,6 +680,8 @@
       "atk": 220,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3,
       "atkRange": 2
@@ -579,6 +691,8 @@
       "atk": 330,
       "def": 125,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3,
       "atkRange": 2
@@ -590,6 +704,8 @@
       "atk": 660,
       "def": 170,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.8,
       "atkRange": 2
@@ -601,6 +717,8 @@
       "atk": 0,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2,
       "atkRange": 2.5
@@ -610,6 +728,8 @@
       "atk": 0,
       "def": 200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2,
       "atkRange": 2.5
@@ -621,6 +741,8 @@
       "atk": 260,
       "def": 100,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.7,
       "atkRange": 2.2
@@ -632,6 +754,8 @@
       "atk": 310,
       "def": 130,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.7,
       "atkRange": 2.2
@@ -643,6 +767,8 @@
       "atk": 350,
       "def": 80,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2
@@ -654,6 +780,8 @@
       "atk": 400,
       "def": 130,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2
@@ -665,6 +793,8 @@
       "atk": 270,
       "def": 100,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -676,6 +806,8 @@
       "atk": 600,
       "def": 230,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.85,
       "atkInterval": 2,
       "atkRange": 0
@@ -685,6 +817,8 @@
       "atk": 900,
       "def": 350,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.85,
       "atkInterval": 2,
       "atkRange": 0
@@ -696,6 +830,8 @@
       "atk": 750,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.85,
       "atkInterval": 2,
       "atkRange": 0
@@ -707,6 +843,8 @@
       "atk": 450,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 2.2
@@ -716,6 +854,8 @@
       "atk": 660,
       "def": 300,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 2.2
@@ -727,6 +867,8 @@
       "atk": 570,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 2.2
@@ -738,6 +880,8 @@
       "atk": 500,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -747,6 +891,8 @@
       "atk": 700,
       "def": 300,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -758,6 +904,8 @@
       "atk": 700,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -769,6 +917,8 @@
       "atk": 700,
       "def": 250,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.78,
       "atkInterval": 5,
       "atkRange": 2.35
@@ -778,6 +928,8 @@
       "atk": 950,
       "def": 250,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.78,
       "atkInterval": 5,
       "atkRange": 2.35
@@ -789,6 +941,8 @@
       "atk": 300,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -798,6 +952,8 @@
       "atk": 650,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -809,6 +965,8 @@
       "atk": 480,
       "def": 230,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -818,6 +976,8 @@
       "atk": 850,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -829,6 +989,8 @@
       "atk": 250,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -840,6 +1002,8 @@
       "atk": 350,
       "def": 85,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -851,6 +1015,8 @@
       "atk": 180,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.7,
       "atkRange": 1.75
@@ -862,6 +1028,8 @@
       "atk": 250,
       "def": 85,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.2,
       "atkRange": 1.75
@@ -873,6 +1041,8 @@
       "atk": 240,
       "def": 250,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -884,6 +1054,8 @@
       "atk": 280,
       "def": 300,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -895,6 +1067,8 @@
       "atk": 500,
       "def": 50,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 0
@@ -906,6 +1080,8 @@
       "atk": 600,
       "def": 70,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 0
@@ -917,6 +1093,8 @@
       "atk": 350,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -928,6 +1106,8 @@
       "atk": 500,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -939,6 +1119,8 @@
       "atk": 450,
       "def": 300,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -950,6 +1132,8 @@
       "atk": 550,
       "def": 350,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -961,6 +1145,8 @@
       "atk": 750,
       "def": 80,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3.3,
       "atkRange": 0
@@ -972,6 +1158,8 @@
       "atk": 850,
       "def": 100,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3.3,
       "atkRange": 0
@@ -983,6 +1171,8 @@
       "atk": 850,
       "def": 230,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -994,6 +1184,8 @@
       "atk": 950,
       "def": 270,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -1005,6 +1197,8 @@
       "atk": 1050,
       "def": 700,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -1016,6 +1210,8 @@
       "atk": 1500,
       "def": 800,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -1027,6 +1223,8 @@
       "atk": 380,
       "def": 400,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.8,
       "atkRange": 2.2
@@ -1038,6 +1236,8 @@
       "atk": 350,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -1049,6 +1249,8 @@
       "atk": 400,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2
@@ -1060,6 +1262,8 @@
       "atk": 450,
       "def": 300,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2.4
@@ -1071,6 +1275,8 @@
       "atk": 410,
       "def": 50,
       "res": 25,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 2.2
@@ -1082,6 +1288,8 @@
       "atk": 500,
       "def": 80,
       "res": 25,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 2.2
@@ -1093,6 +1301,8 @@
       "atk": 800,
       "def": 150,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 5,
       "atkRange": 2
@@ -1104,6 +1314,8 @@
       "atk": 1500,
       "def": 220,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 5,
       "atkRange": 2
@@ -1115,6 +1327,8 @@
       "atk": 220,
       "def": 100,
       "res": 65,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 2.15,
       "atkRange": 1.8
@@ -1126,6 +1340,8 @@
       "atk": 600,
       "def": 140,
       "res": 65,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3.5,
       "atkRange": 3
@@ -1137,6 +1353,8 @@
       "atk": 100,
       "def": 600,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 1,
       "atkRange": 2.5
@@ -1148,6 +1366,8 @@
       "atk": 250,
       "def": 100,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 1.8,
       "atkRange": 2.5
@@ -1159,6 +1379,8 @@
       "atk": 300,
       "def": 150,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 1.8,
       "atkRange": 2.5
@@ -1170,6 +1392,8 @@
       "atk": 500,
       "def": 130,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 3,
       "atkRange": 2.5
@@ -1181,6 +1405,8 @@
       "atk": 650,
       "def": 200,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 3,
       "atkRange": 2.5
@@ -1192,6 +1418,8 @@
       "atk": 1000,
       "def": 1000,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.5,
       "atkRange": 2.5
@@ -1203,6 +1431,8 @@
       "atk": 1500,
       "def": 2000,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.5,
       "atkRange": 2.5
@@ -1214,6 +1444,8 @@
       "atk": 280,
       "def": 85,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -1225,6 +1457,8 @@
       "atk": 330,
       "def": 100,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -1236,6 +1470,8 @@
       "atk": 150,
       "def": 100,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 3.5
@@ -1247,6 +1483,8 @@
       "atk": 200,
       "def": 150,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 4
@@ -1258,6 +1496,8 @@
       "atk": 750,
       "def": 100,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3.3,
       "atkRange": 0
@@ -1269,6 +1509,8 @@
       "atk": 900,
       "def": 100,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3.3,
       "atkRange": 0
@@ -1280,6 +1522,8 @@
       "atk": 300,
       "def": 150,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2,
       "atkRange": 0
@@ -1291,6 +1535,8 @@
       "atk": 350,
       "def": 230,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2,
       "atkRange": 0
@@ -1302,6 +1548,8 @@
       "atk": 230,
       "def": 220,
       "res": 70,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 3.5,
       "atkRange": 3.5
@@ -1311,6 +1559,8 @@
       "atk": 350,
       "def": 270,
       "res": 70,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 3.5,
       "atkRange": 3.5
@@ -1322,6 +1572,8 @@
       "atk": 320,
       "def": 100,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 1.8
@@ -1333,6 +1585,8 @@
       "atk": 350,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 1.8
@@ -1344,6 +1598,8 @@
       "atk": 200,
       "def": 400,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -1355,6 +1611,8 @@
       "atk": 300,
       "def": 500,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -1366,6 +1624,8 @@
       "atk": 100,
       "def": 120,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1,
       "atkRange": 0
@@ -1377,6 +1637,8 @@
       "atk": 100,
       "def": 260,
       "res": 45,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1,
       "atkRange": 0
@@ -1388,6 +1650,8 @@
       "atk": 700,
       "def": 800,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.6,
       "atkRange": 0
@@ -1399,6 +1663,8 @@
       "atk": 700,
       "def": 1000,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.6,
       "atkRange": 0
@@ -1410,6 +1676,8 @@
       "atk": 1000,
       "def": 150,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 3,
       "atkRange": 2.6
@@ -1419,6 +1687,8 @@
       "atk": 1300,
       "def": 240,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 3,
       "atkRange": 2.6
@@ -1428,6 +1698,8 @@
       "atk": 1950,
       "def": 400,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 3,
       "atkRange": 2.6
@@ -1439,6 +1711,8 @@
       "atk": 400,
       "def": 120,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.4,
       "atkInterval": 2.8,
       "atkRange": 0
@@ -1448,6 +1722,8 @@
       "atk": 550,
       "def": 150,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.4,
       "atkInterval": 2.8,
       "atkRange": 0
@@ -1457,6 +1733,8 @@
       "atk": 700,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.4,
       "atkInterval": 2.8,
       "atkRange": 0
@@ -1468,6 +1746,8 @@
       "atk": 470,
       "def": 100,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -1479,6 +1759,8 @@
       "atk": 420,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.7,
       "atkRange": 2
@@ -1488,6 +1770,8 @@
       "atk": 620,
       "def": 350,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.7,
       "atkRange": 2
@@ -1499,6 +1783,8 @@
       "atk": 500,
       "def": 200,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 6,
       "atkRange": 20
@@ -1508,6 +1794,8 @@
       "atk": 1000,
       "def": 300,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 6,
       "atkRange": 20
@@ -1519,6 +1807,8 @@
       "atk": 1000,
       "def": 350,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 20
@@ -1528,6 +1818,8 @@
       "atk": 1200,
       "def": 350,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 20
@@ -1539,6 +1831,8 @@
       "atk": 250,
       "def": 100,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -1550,6 +1844,8 @@
       "atk": 350,
       "def": 160,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -1561,6 +1857,8 @@
       "atk": 290,
       "def": 250,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.95,
       "atkInterval": 0.4,
       "atkRange": 0
@@ -1572,6 +1870,8 @@
       "atk": 380,
       "def": 300,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.95,
       "atkInterval": 0.4,
       "atkRange": 0
@@ -1583,6 +1883,8 @@
       "atk": 180,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 3,
       "atkRange": 1.7
@@ -1594,6 +1896,8 @@
       "atk": 230,
       "def": 200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 3,
       "atkRange": 1.7
@@ -1605,6 +1909,8 @@
       "atk": 800,
       "def": 800,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -1616,6 +1922,8 @@
       "atk": 1000,
       "def": 1000,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -1627,6 +1935,8 @@
       "atk": 700,
       "def": 500,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 5,
       "atkRange": 1.3
@@ -1638,6 +1948,8 @@
       "atk": 800,
       "def": 600,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 5,
       "atkRange": 1.3
@@ -1649,6 +1961,8 @@
       "atk": 700,
       "def": 250,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3.2,
       "atkRange": 0
@@ -1660,6 +1974,8 @@
       "atk": 800,
       "def": 250,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3.2,
       "atkRange": 0
@@ -1671,6 +1987,8 @@
       "atk": 470,
       "def": 350,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 3.4,
       "atkRange": 2.5
@@ -1680,6 +1998,8 @@
       "atk": 590,
       "def": 350,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 3.4,
       "atkRange": 2.5
@@ -1691,6 +2011,8 @@
       "atk": 600,
       "def": 800,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.6,
       "atkRange": 0
@@ -1702,6 +2024,8 @@
       "atk": 800,
       "def": 1000,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.6,
       "atkRange": 0
@@ -1713,6 +2037,8 @@
       "atk": 1000,
       "def": 200,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1.3,
       "atkRange": 0
@@ -1724,6 +2050,8 @@
       "atk": 1750,
       "def": 230,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1.3,
       "atkRange": 0
@@ -1735,6 +2063,8 @@
       "atk": 750,
       "def": 200,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2,
       "atkRange": 2.6
@@ -1746,6 +2076,8 @@
       "atk": 1050,
       "def": 220,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2,
       "atkRange": 2.6
@@ -1757,6 +2089,8 @@
       "atk": 360,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -1766,6 +2100,8 @@
       "atk": 380,
       "def": 135,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -1777,6 +2113,8 @@
       "atk": 350,
       "def": 0,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -1788,6 +2126,8 @@
       "atk": 430,
       "def": 0,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -1799,6 +2139,8 @@
       "atk": 290,
       "def": 80,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.4,
       "atkRange": 1.9
@@ -1810,6 +2152,8 @@
       "atk": 360,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.4,
       "atkRange": 1.9
@@ -1821,6 +2165,8 @@
       "atk": 300,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.7,
       "atkRange": 1.75
@@ -1832,6 +2178,8 @@
       "atk": 370,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.7,
       "atkRange": 1.9
@@ -1843,6 +2191,8 @@
       "atk": 320,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4.5,
       "atkRange": 2.2
@@ -1854,6 +2204,8 @@
       "atk": 400,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2.2
@@ -1865,6 +2217,8 @@
       "atk": 830,
       "def": 500,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 1.9
@@ -1876,6 +2230,8 @@
       "atk": 1100,
       "def": 600,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 1.9
@@ -1887,6 +2243,8 @@
       "atk": 500,
       "def": 180,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 1,
       "atkRange": 2.5
@@ -1898,6 +2256,8 @@
       "atk": 440,
       "def": 380,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.7,
       "atkRange": 2
@@ -1907,6 +2267,8 @@
       "atk": 530,
       "def": 440,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.7,
       "atkRange": 2
@@ -1918,6 +2280,8 @@
       "atk": 300,
       "def": 70,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -1929,6 +2293,8 @@
       "atk": 370,
       "def": 100,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -1940,6 +2306,8 @@
       "atk": 450,
       "def": 150,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.25,
       "atkInterval": 4,
       "atkRange": 0
@@ -1951,6 +2319,8 @@
       "atk": 500,
       "def": 230,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 4,
       "atkRange": 0
@@ -1962,6 +2332,8 @@
       "atk": 0,
       "def": 100,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 1,
       "atkRange": 0
@@ -1973,6 +2345,8 @@
       "atk": 0,
       "def": 160,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 1,
       "atkRange": 0
@@ -1984,6 +2358,8 @@
       "atk": 700,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 5,
       "atkRange": 3
@@ -1995,6 +2371,8 @@
       "atk": 850,
       "def": 300,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 5,
       "atkRange": 3
@@ -2006,6 +2384,8 @@
       "atk": 400,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -2017,6 +2397,8 @@
       "atk": 500,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -2028,6 +2410,8 @@
       "atk": 1700,
       "def": 800,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 5,
       "atkRange": 0
@@ -2039,6 +2423,8 @@
       "atk": 2200,
       "def": 1000,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 5,
       "atkRange": 0
@@ -2050,6 +2436,8 @@
       "atk": 350,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -2061,6 +2449,8 @@
       "atk": 420,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -2072,6 +2462,8 @@
       "atk": 300,
       "def": 300,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -2083,6 +2475,8 @@
       "atk": 330,
       "def": 350,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -2094,6 +2488,8 @@
       "atk": 340,
       "def": 300,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.5,
       "atkRange": 2.2
@@ -2105,6 +2501,8 @@
       "atk": 390,
       "def": 300,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.7,
       "atkRange": 2.2
@@ -2116,6 +2514,8 @@
       "atk": 300,
       "def": 120,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.7,
       "atkRange": 0
@@ -2127,6 +2527,8 @@
       "atk": 360,
       "def": 120,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -2138,6 +2540,8 @@
       "atk": 700,
       "def": 1300,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.8,
       "atkRange": 0
@@ -2149,6 +2553,8 @@
       "atk": 800,
       "def": 1500,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.8,
       "atkRange": 0
@@ -2160,6 +2566,8 @@
       "atk": 450,
       "def": 550,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4.8,
       "atkRange": 15
@@ -2171,6 +2579,8 @@
       "atk": 590,
       "def": 550,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4.8,
       "atkRange": 15
@@ -2182,6 +2592,8 @@
       "atk": 360,
       "def": 550,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.9,
       "atkRange": 0
@@ -2193,6 +2605,8 @@
       "atk": 430,
       "def": 550,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.9,
       "atkRange": 0
@@ -2204,6 +2618,8 @@
       "atk": 480,
       "def": 400,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.85,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -2215,6 +2631,8 @@
       "atk": 580,
       "def": 400,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.85,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -2226,6 +2644,8 @@
       "atk": 480,
       "def": 400,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.85,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -2237,8 +2657,10 @@
       "atk": 350,
       "def": 400,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
-      "atkInterval": 0.1,
+      "atkInterval": 5,
       "atkRange": 0
     }
   ],
@@ -2248,8 +2670,10 @@
       "atk": 450,
       "def": 400,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
-      "atkInterval": 0.1,
+      "atkInterval": 5,
       "atkRange": 0
     }
   ],
@@ -2259,8 +2683,10 @@
       "atk": 350,
       "def": 400,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
-      "atkInterval": 0.1,
+      "atkInterval": 5,
       "atkRange": 0
     }
   ],
@@ -2270,6 +2696,8 @@
       "atk": 1600,
       "def": 500,
       "res": 45,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 4,
       "atkRange": 0
@@ -2279,6 +2707,8 @@
       "atk": 2000,
       "def": 500,
       "res": 45,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 4,
       "atkRange": 0
@@ -2290,6 +2720,8 @@
       "atk": 130,
       "def": 130,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -2301,6 +2733,8 @@
       "atk": 180,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -2312,6 +2746,8 @@
       "atk": 300,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -2323,6 +2759,8 @@
       "atk": 360,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -2334,6 +2772,8 @@
       "atk": 300,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.85,
       "atkInterval": 3,
       "atkRange": 3.5
@@ -2345,6 +2785,8 @@
       "atk": 360,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.85,
       "atkInterval": 3,
       "atkRange": 3.5
@@ -2356,6 +2798,8 @@
       "atk": 500,
       "def": 300,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 1.3,
       "atkRange": 0
@@ -2367,6 +2811,8 @@
       "atk": 650,
       "def": 300,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 1.3,
       "atkRange": 0
@@ -2378,6 +2824,8 @@
       "atk": 400,
       "def": 400,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.6,
       "atkRange": 2.5
@@ -2389,6 +2837,8 @@
       "atk": 500,
       "def": 500,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.6,
       "atkRange": 2.5
@@ -2400,6 +2850,8 @@
       "atk": 900,
       "def": 800,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -2411,6 +2863,8 @@
       "atk": 1000,
       "def": 800,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -2422,6 +2876,8 @@
       "atk": 3000,
       "def": 700,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 7,
       "atkRange": 0
@@ -2433,6 +2889,8 @@
       "atk": 3600,
       "def": 800,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 7,
       "atkRange": 0
@@ -2444,6 +2902,8 @@
       "atk": 800,
       "def": 1000,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4.5,
       "atkRange": 0
@@ -2453,6 +2913,8 @@
       "atk": 1000,
       "def": 1000,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4.5,
       "atkRange": 0
@@ -2464,6 +2926,8 @@
       "atk": 290,
       "def": 60,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 1.8,
       "atkRange": 0
@@ -2475,6 +2939,8 @@
       "atk": 380,
       "def": 110,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 1.8,
       "atkRange": 0
@@ -2486,6 +2952,8 @@
       "atk": 240,
       "def": 100,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 1.3,
       "atkRange": 1.4
@@ -2497,6 +2965,8 @@
       "atk": 340,
       "def": 150,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 1.3,
       "atkRange": 1.4
@@ -2508,6 +2978,8 @@
       "atk": 320,
       "def": 380,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 1,
       "atkRange": 0
@@ -2519,6 +2991,8 @@
       "atk": 350,
       "def": 460,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 0.9,
       "atkRange": 0
@@ -2530,6 +3004,8 @@
       "atk": 250,
       "def": 200,
       "res": 70,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -2541,6 +3017,8 @@
       "atk": 350,
       "def": 250,
       "res": 80,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -2552,6 +3030,8 @@
       "atk": 650,
       "def": 550,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 5,
       "atkRange": 0
@@ -2563,6 +3043,8 @@
       "atk": 750,
       "def": 700,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 5,
       "atkRange": 0
@@ -2574,6 +3056,8 @@
       "atk": 700,
       "def": 950,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 0
@@ -2585,6 +3069,8 @@
       "atk": 1000,
       "def": 1100,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 0
@@ -2596,6 +3082,8 @@
       "atk": 500,
       "def": 1000,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 0
@@ -2605,6 +3093,8 @@
       "atk": 700,
       "def": 1200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 0
@@ -2616,6 +3106,8 @@
       "atk": 100,
       "def": 200,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 1,
       "atkRange": 0
@@ -2625,6 +3117,8 @@
       "atk": 100,
       "def": 300,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 1,
       "atkRange": 0
@@ -2634,6 +3128,8 @@
       "atk": 100,
       "def": 400,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 1,
       "atkRange": 0
@@ -2645,6 +3141,8 @@
       "atk": 2000,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -2654,6 +3152,8 @@
       "atk": 3000,
       "def": 450,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -2663,6 +3163,8 @@
       "atk": 4000,
       "def": 550,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -2674,6 +3176,8 @@
       "atk": 1500,
       "def": 600,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4.4,
       "atkRange": 2.5
@@ -2685,6 +3189,8 @@
       "atk": 400,
       "def": 280,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2,
       "atkRange": 0
@@ -2696,6 +3202,8 @@
       "atk": 500,
       "def": 300,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 3,
       "atkRange": 2.5
@@ -2707,6 +3215,8 @@
       "atk": 1200,
       "def": 550,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 5,
       "atkRange": 20
@@ -2718,6 +3228,8 @@
       "atk": 350,
       "def": 1500,
       "res": 80,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4,
       "atkRange": 2.4
@@ -2729,6 +3241,8 @@
       "atk": 2000,
       "def": 330,
       "res": 55,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.5,
       "atkRange": 2.2
@@ -2740,6 +3254,8 @@
       "atk": 280,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -2751,6 +3267,8 @@
       "atk": 360,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -2762,6 +3280,8 @@
       "atk": 380,
       "def": 450,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -2773,6 +3293,8 @@
       "atk": 450,
       "def": 700,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -2784,6 +3306,8 @@
       "atk": 300,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.4,
       "atkRange": 2
@@ -2795,6 +3319,8 @@
       "atk": 420,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.4,
       "atkRange": 2
@@ -2806,6 +3332,8 @@
       "atk": 600,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.4,
       "atkRange": 2
@@ -2817,6 +3345,8 @@
       "atk": 700,
       "def": 1000,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 0
@@ -2828,6 +3358,8 @@
       "atk": 700,
       "def": 1300,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 0
@@ -2839,6 +3371,8 @@
       "atk": 500,
       "def": 800,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -2850,6 +3384,8 @@
       "atk": 650,
       "def": 800,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -2861,6 +3397,8 @@
       "atk": 700,
       "def": 800,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -2872,6 +3410,8 @@
       "atk": 550,
       "def": 700,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.5,
       "atkRange": 1.3
@@ -2883,6 +3423,8 @@
       "atk": 650,
       "def": 700,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.5,
       "atkRange": 1.3
@@ -2894,6 +3436,8 @@
       "atk": 750,
       "def": 700,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 2.5,
       "atkRange": 1.3
@@ -2905,6 +3449,8 @@
       "atk": 0,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1,
       "atkRange": 0
@@ -2916,6 +3462,8 @@
       "atk": 0,
       "def": 300,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 1,
       "atkRange": 0
@@ -2927,6 +3475,8 @@
       "atk": 0,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1,
       "atkRange": 0
@@ -2938,6 +3488,8 @@
       "atk": 1200,
       "def": 1200,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 4,
       "atkRange": 0
@@ -2947,6 +3499,8 @@
       "atk": 1400,
       "def": 1200,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 4,
       "atkRange": 0
@@ -2958,6 +3512,8 @@
       "atk": 500,
       "def": 600,
       "res": 70,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -2967,6 +3523,8 @@
       "atk": 650,
       "def": 600,
       "res": 70,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -2978,6 +3536,8 @@
       "atk": 330,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -2989,6 +3549,8 @@
       "atk": 400,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -3000,6 +3562,8 @@
       "atk": 380,
       "def": 100,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.7,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -3011,6 +3575,8 @@
       "atk": 450,
       "def": 100,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.7,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -3022,6 +3588,8 @@
       "atk": 350,
       "def": 200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.3,
       "atkRange": 2.4
@@ -3033,6 +3601,8 @@
       "atk": 430,
       "def": 200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.3,
       "atkRange": 2.4
@@ -3044,6 +3614,8 @@
       "atk": 340,
       "def": 500,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.8,
       "atkRange": 2.2
@@ -3055,6 +3627,8 @@
       "atk": 420,
       "def": 500,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.8,
       "atkRange": 2.2
@@ -3066,6 +3640,8 @@
       "atk": 550,
       "def": 500,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 2.2,
       "atkRange": 0
@@ -3077,6 +3653,8 @@
       "atk": 700,
       "def": 500,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 2.2,
       "atkRange": 0
@@ -3088,6 +3666,8 @@
       "atk": 1000,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 2
@@ -3099,6 +3679,8 @@
       "atk": 1200,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 2
@@ -3110,6 +3692,8 @@
       "atk": 900,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4.5,
       "atkRange": 1.5
@@ -3121,6 +3705,8 @@
       "atk": 1200,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4.5,
       "atkRange": 1.5
@@ -3132,6 +3718,8 @@
       "atk": 600,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 5,
       "atkRange": 1.6
@@ -3143,6 +3731,8 @@
       "atk": 700,
       "def": 220,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 5,
       "atkRange": 1.6
@@ -3154,6 +3744,8 @@
       "atk": 0,
       "def": 3000,
       "res": 90,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 0,
       "atkRange": 0
@@ -3165,6 +3757,8 @@
       "atk": 1500,
       "def": 700,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4.5,
       "atkRange": 2.5
@@ -3174,6 +3768,8 @@
       "atk": 1800,
       "def": 700,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4.5,
       "atkRange": 2.5
@@ -3185,7 +3781,9 @@
       "atk": 450,
       "def": 450,
       "res": 30,
-      "mvSpd": 1,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.1,
       "atkInterval": 4,
       "atkRange": 3
     },
@@ -3194,7 +3792,9 @@
       "atk": 550,
       "def": 550,
       "res": 40,
-      "mvSpd": 1,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.1,
       "atkInterval": 4,
       "atkRange": 3
     }
@@ -3205,6 +3805,8 @@
       "atk": 770,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4.5,
       "atkRange": 2
@@ -3214,6 +3816,8 @@
       "atk": 1000,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4.5,
       "atkRange": 2
@@ -3225,6 +3829,8 @@
       "atk": 0,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 0,
       "atkRange": 0
@@ -3236,6 +3842,8 @@
       "atk": 600,
       "def": 350,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.45,
       "atkInterval": 5,
       "atkRange": 1.5
@@ -3247,6 +3855,8 @@
       "atk": 280,
       "def": 60,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -3258,6 +3868,8 @@
       "atk": 380,
       "def": 60,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -3269,6 +3881,8 @@
       "atk": 220,
       "def": 80,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3,
       "atkRange": 2
@@ -3280,6 +3894,8 @@
       "atk": 320,
       "def": 80,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3,
       "atkRange": 2
@@ -3291,6 +3907,8 @@
       "atk": 300,
       "def": 300,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.6,
       "atkInterval": 1.2,
       "atkRange": 0
@@ -3302,6 +3920,8 @@
       "atk": 400,
       "def": 400,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.6,
       "atkInterval": 1,
       "atkRange": 0
@@ -3313,6 +3933,8 @@
       "atk": 600,
       "def": 700,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3.3,
       "atkRange": 0
@@ -3324,6 +3946,8 @@
       "atk": 700,
       "def": 1000,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3.3,
       "atkRange": 0
@@ -3335,6 +3959,8 @@
       "atk": 300,
       "def": 100,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.5,
       "atkRange": 3
@@ -3346,6 +3972,8 @@
       "atk": 340,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.5,
       "atkRange": 3
@@ -3357,6 +3985,8 @@
       "atk": 800,
       "def": 400,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 0
@@ -3368,6 +3998,8 @@
       "atk": 1000,
       "def": 500,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 0
@@ -3379,6 +4011,8 @@
       "atk": 700,
       "def": 400,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 2
@@ -3388,6 +4022,8 @@
       "atk": 800,
       "def": 400,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 2
@@ -3399,6 +4035,8 @@
       "atk": 330,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.3,
       "atkRange": 0
@@ -3410,6 +4048,8 @@
       "atk": 380,
       "def": 0,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.3,
       "atkRange": 0
@@ -3421,6 +4061,8 @@
       "atk": 290,
       "def": 120,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -3432,6 +4074,8 @@
       "atk": 370,
       "def": 150,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -3443,6 +4087,8 @@
       "atk": 300,
       "def": 240,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3,
       "atkRange": 2.5
@@ -3454,6 +4100,8 @@
       "atk": 400,
       "def": 280,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3,
       "atkRange": 2.5
@@ -3465,6 +4113,8 @@
       "atk": 700,
       "def": 1000,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.8,
       "atkRange": 0
@@ -3476,6 +4126,8 @@
       "atk": 800,
       "def": 1300,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.8,
       "atkRange": 0
@@ -3487,6 +4139,8 @@
       "atk": 120,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 2,
       "atkRange": 0
@@ -3498,6 +4152,8 @@
       "atk": 150,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 2,
       "atkRange": 0
@@ -3509,6 +4165,8 @@
       "atk": 800,
       "def": 600,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -3520,6 +4178,8 @@
       "atk": 1000,
       "def": 750,
       "res": 25,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -3531,6 +4191,8 @@
       "atk": 500,
       "def": 200,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -3542,6 +4204,8 @@
       "atk": 700,
       "def": 220,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -3553,6 +4217,8 @@
       "atk": 1100,
       "def": 750,
       "res": 25,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 1.9
@@ -3564,6 +4230,8 @@
       "atk": 1500,
       "def": 900,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 1.9
@@ -3575,6 +4243,8 @@
       "atk": 500,
       "def": 750,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -3584,6 +4254,8 @@
       "atk": 600,
       "def": 800,
       "res": 55,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -3595,6 +4267,8 @@
       "atk": 500,
       "def": 400,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.5,
       "atkRange": 2.5
@@ -3606,6 +4280,8 @@
       "atk": 550,
       "def": 500,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.5,
       "atkRange": 2.5
@@ -3617,6 +4293,8 @@
       "atk": 0,
       "def": 100,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1,
       "atkRange": 0
@@ -3628,6 +4306,8 @@
       "atk": 0,
       "def": 200,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1,
       "atkRange": 0
@@ -3639,6 +4319,8 @@
       "atk": 0,
       "def": 250,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 3,
       "atkRange": 0
@@ -3650,6 +4332,8 @@
       "atk": 210,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2,
       "atkRange": 0
@@ -3661,6 +4345,8 @@
       "atk": 320,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.7,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -3672,6 +4358,8 @@
       "atk": 380,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.7,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -3683,6 +4371,8 @@
       "atk": 360,
       "def": 200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -3694,6 +4384,8 @@
       "atk": 410,
       "def": 200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -3705,6 +4397,8 @@
       "atk": 600,
       "def": 300,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 2
@@ -3716,6 +4410,8 @@
       "atk": 800,
       "def": 300,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 2
@@ -3727,6 +4423,8 @@
       "atk": 1000,
       "def": 2000,
       "res": 80,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 0
@@ -3738,6 +4436,8 @@
       "atk": 1500,
       "def": 2000,
       "res": 80,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 0
@@ -3749,6 +4449,8 @@
       "atk": 1500,
       "def": 300,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 5,
       "atkRange": 0
@@ -3760,6 +4462,8 @@
       "atk": 2000,
       "def": 300,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 5,
       "atkRange": 0
@@ -3771,6 +4475,8 @@
       "atk": 400,
       "def": 500,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 2,
       "atkRange": 1.5
@@ -3782,6 +4488,8 @@
       "atk": 500,
       "def": 500,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 2,
       "atkRange": 1.5
@@ -3793,6 +4501,8 @@
       "atk": 150,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 2,
       "atkRange": 0
@@ -3804,6 +4514,8 @@
       "atk": 200,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 2,
       "atkRange": 0
@@ -3815,6 +4527,8 @@
       "atk": 250,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 2,
       "atkRange": 1.5
@@ -3826,6 +4540,8 @@
       "atk": 350,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 2,
       "atkRange": 1.5
@@ -3837,7 +4553,9 @@
       "atk": 700,
       "def": 500,
       "res": 50,
-      "mvSpd": 1,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.1,
       "atkInterval": 5,
       "atkRange": 0
     },
@@ -3846,7 +4564,9 @@
       "atk": 900,
       "def": 500,
       "res": 50,
-      "mvSpd": 1,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.1,
       "atkInterval": 5,
       "atkRange": 0
     }
@@ -3857,6 +4577,8 @@
       "atk": 310,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -3868,6 +4590,8 @@
       "atk": 380,
       "def": 0,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -3879,6 +4603,8 @@
       "atk": 320,
       "def": 260,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.4,
       "atkRange": 2.5
@@ -3890,6 +4616,8 @@
       "atk": 390,
       "def": 260,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.4,
       "atkRange": 2.7
@@ -3901,6 +4629,8 @@
       "atk": 700,
       "def": 800,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2.6,
       "atkRange": 0
@@ -3912,6 +4642,8 @@
       "atk": 700,
       "def": 1000,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2.6,
       "atkRange": 0
@@ -3923,6 +4655,8 @@
       "atk": 500,
       "def": 50,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.6,
       "atkRange": 3.5
@@ -3934,6 +4668,8 @@
       "atk": 750,
       "def": 50,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.6,
       "atkRange": 4
@@ -3945,6 +4681,8 @@
       "atk": 1100,
       "def": 500,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 3,
       "atkRange": 0
@@ -3956,6 +4694,8 @@
       "atk": 1400,
       "def": 500,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 3,
       "atkRange": 0
@@ -3967,6 +4707,8 @@
       "atk": 250,
       "def": 80,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 3.8,
       "atkRange": 1.4
@@ -3978,6 +4720,8 @@
       "atk": 350,
       "def": 80,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 3.8,
       "atkRange": 1.4
@@ -3989,6 +4733,8 @@
       "atk": 0,
       "def": 80,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1,
       "atkRange": 2.5
@@ -4000,6 +4746,8 @@
       "atk": 0,
       "def": 80,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1,
       "atkRange": 2.5
@@ -4011,6 +4759,8 @@
       "atk": 600,
       "def": 400,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 2
@@ -4020,6 +4770,8 @@
       "atk": 700,
       "def": 400,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 2
@@ -4031,6 +4783,8 @@
       "atk": 280,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.3,
       "atkRange": 0
@@ -4042,6 +4796,8 @@
       "atk": 340,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.3,
       "atkRange": 0
@@ -4053,6 +4809,8 @@
       "atk": 280,
       "def": 130,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -4064,6 +4822,8 @@
       "atk": 360,
       "def": 150,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -4075,6 +4835,8 @@
       "atk": 280,
       "def": 160,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3,
       "atkRange": 2.5
@@ -4086,6 +4848,8 @@
       "atk": 320,
       "def": 200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3,
       "atkRange": 2.5
@@ -4097,6 +4861,8 @@
       "atk": 220,
       "def": 200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3,
       "atkRange": 2.5
@@ -4108,6 +4874,8 @@
       "atk": 250,
       "def": 250,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3,
       "atkRange": 2.5
@@ -4119,6 +4887,8 @@
       "atk": 400,
       "def": 800,
       "res": 75,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 3,
       "atkRange": 0
@@ -4130,6 +4900,8 @@
       "atk": 500,
       "def": 800,
       "res": 75,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 2,
       "atkRange": 0
@@ -4141,6 +4913,8 @@
       "atk": 300,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 3,
       "atkRange": 0
@@ -4152,6 +4926,8 @@
       "atk": 400,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 3,
       "atkRange": 0
@@ -4163,6 +4939,8 @@
       "atk": 550,
       "def": 240,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3.5,
       "atkRange": 1.7
@@ -4174,6 +4952,8 @@
       "atk": 700,
       "def": 240,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3.5,
       "atkRange": 1.7
@@ -4185,6 +4965,8 @@
       "atk": 600,
       "def": 500,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 2.5
@@ -4194,6 +4976,8 @@
       "atk": 700,
       "def": 600,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 2.5
@@ -4205,6 +4989,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 3,
       "atkRange": 0
@@ -4216,7 +5002,9 @@
       "atk": 380,
       "def": 500,
       "res": 50,
-      "mvSpd": 1,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.1,
       "atkInterval": 3.5,
       "atkRange": 99
     },
@@ -4225,7 +5013,9 @@
       "atk": 450,
       "def": 600,
       "res": 60,
-      "mvSpd": 1,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.1,
       "atkInterval": 3.5,
       "atkRange": 99
     }
@@ -4236,6 +5026,8 @@
       "atk": 500,
       "def": 500,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1,
       "atkRange": 0
@@ -4247,6 +5039,8 @@
       "atk": 1200,
       "def": 1000,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 0
@@ -4258,6 +5052,8 @@
       "atk": 240,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.7,
       "atkRange": 1.9
@@ -4269,6 +5065,8 @@
       "atk": 320,
       "def": 200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.7,
       "atkRange": 1.9
@@ -4280,6 +5078,8 @@
       "atk": 280,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -4291,6 +5091,8 @@
       "atk": 360,
       "def": 120,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -4302,6 +5104,8 @@
       "atk": 800,
       "def": 800,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -4313,6 +5117,8 @@
       "atk": 1000,
       "def": 1000,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -4324,6 +5130,8 @@
       "atk": 200,
       "def": 200,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2.5,
       "atkRange": 2.2
@@ -4335,6 +5143,8 @@
       "atk": 260,
       "def": 220,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2.5,
       "atkRange": 2.2
@@ -4346,6 +5156,8 @@
       "atk": 300,
       "def": 200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 3.5,
       "atkRange": 3
@@ -4357,6 +5169,8 @@
       "atk": 380,
       "def": 220,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 3.5,
       "atkRange": 3
@@ -4368,6 +5182,8 @@
       "atk": 1000,
       "def": 1000,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 5,
       "atkRange": 0
@@ -4379,6 +5195,8 @@
       "atk": 1400,
       "def": 1200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 5,
       "atkRange": 0
@@ -4390,6 +5208,8 @@
       "atk": 300,
       "def": 300,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1,
       "atkRange": 0
@@ -4401,6 +5221,8 @@
       "atk": 400,
       "def": 400,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1,
       "atkRange": 0
@@ -4412,6 +5234,8 @@
       "atk": 300,
       "def": 300,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1,
       "atkRange": 0
@@ -4421,6 +5245,8 @@
       "atk": 400,
       "def": 300,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1,
       "atkRange": 0
@@ -4432,6 +5258,8 @@
       "atk": 100,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 1,
       "atkRange": 0
@@ -4443,6 +5271,8 @@
       "atk": 1000,
       "def": 750,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 4,
       "atkRange": 3.5
@@ -4452,6 +5282,8 @@
       "atk": 1200,
       "def": 850,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 4,
       "atkRange": 3.5
@@ -4463,6 +5295,8 @@
       "atk": 300,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.7,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -4474,6 +5308,8 @@
       "atk": 380,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.7,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -4485,6 +5321,8 @@
       "atk": 280,
       "def": 110,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -4496,6 +5334,8 @@
       "atk": 380,
       "def": 180,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -4507,6 +5347,8 @@
       "atk": 250,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2.3,
       "atkRange": 2.3
@@ -4518,6 +5360,8 @@
       "atk": 380,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2.3,
       "atkRange": 2.3
@@ -4529,6 +5373,8 @@
       "atk": 300,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 3,
       "atkRange": 2.5
@@ -4540,6 +5386,8 @@
       "atk": 460,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 3,
       "atkRange": 2.5
@@ -4551,6 +5399,8 @@
       "atk": 300,
       "def": 300,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.5,
       "atkRange": 1.5
@@ -4562,6 +5412,8 @@
       "atk": 450,
       "def": 400,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.5,
       "atkRange": 1.5
@@ -4573,6 +5425,8 @@
       "atk": 700,
       "def": 750,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 0
@@ -4584,6 +5438,8 @@
       "atk": 900,
       "def": 1100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 0
@@ -4595,6 +5451,8 @@
       "atk": 400,
       "def": 350,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 1.3
@@ -4606,6 +5464,8 @@
       "atk": 550,
       "def": 450,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 1.3
@@ -4617,6 +5477,8 @@
       "atk": 550,
       "def": 550,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4,
       "atkRange": 1.6
@@ -4628,6 +5490,8 @@
       "atk": 750,
       "def": 750,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4,
       "atkRange": 1.6
@@ -4639,6 +5503,8 @@
       "atk": 500,
       "def": 400,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2,
       "atkRange": 1.5
@@ -4650,6 +5516,8 @@
       "atk": 600,
       "def": 550,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2,
       "atkRange": 1.5
@@ -4661,6 +5529,8 @@
       "atk": 900,
       "def": 900,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 1.4
@@ -4672,6 +5542,8 @@
       "atk": 1100,
       "def": 1000,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 1.4
@@ -4683,6 +5555,8 @@
       "atk": 400,
       "def": 350,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.1,
       "atkRange": 1.4
@@ -4694,6 +5568,8 @@
       "atk": 580,
       "def": 550,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.1,
       "atkRange": 1.4
@@ -4705,6 +5581,8 @@
       "atk": 0,
       "def": 450,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 5,
       "atkRange": -1
@@ -4716,6 +5594,8 @@
       "atk": 0,
       "def": 550,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 5,
       "atkRange": -1
@@ -4727,6 +5607,8 @@
       "atk": 640,
       "def": 520,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 1.8,
       "atkRange": 1.5
@@ -4736,6 +5618,8 @@
       "atk": 740,
       "def": 650,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.45,
       "atkInterval": 1.8,
       "atkRange": 1.5
@@ -4747,6 +5631,8 @@
       "atk": 350,
       "def": 300,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 2.1,
       "atkRange": 0
@@ -4758,6 +5644,8 @@
       "atk": 400,
       "def": 400,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 2.1,
       "atkRange": 0
@@ -4769,6 +5657,8 @@
       "atk": 300,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.9,
       "atkRange": 2
@@ -4780,6 +5670,8 @@
       "atk": 350,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.9,
       "atkRange": 2
@@ -4791,6 +5683,8 @@
       "atk": 400,
       "def": 250,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.2,
       "atkRange": 0
@@ -4802,6 +5696,8 @@
       "atk": 500,
       "def": 300,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.2,
       "atkRange": 0
@@ -4813,6 +5709,8 @@
       "atk": 800,
       "def": 550,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -4824,6 +5722,8 @@
       "atk": 1000,
       "def": 550,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -4835,6 +5735,8 @@
       "atk": 500,
       "def": 200,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 10
@@ -4846,6 +5748,8 @@
       "atk": 600,
       "def": 200,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 10
@@ -4857,6 +5761,8 @@
       "atk": 600,
       "def": 200,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 10
@@ -4866,6 +5772,8 @@
       "atk": 700,
       "def": 300,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 10
@@ -4877,6 +5785,8 @@
       "atk": 700,
       "def": 200,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 5,
       "atkRange": 10
@@ -4888,6 +5798,8 @@
       "atk": 800,
       "def": 200,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 5,
       "atkRange": 10
@@ -4899,6 +5811,8 @@
       "atk": 800,
       "def": 200,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 5,
       "atkRange": 10
@@ -4908,6 +5822,8 @@
       "atk": 1000,
       "def": 300,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 5,
       "atkRange": 10
@@ -4919,6 +5835,8 @@
       "atk": 350,
       "def": 300,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.2,
       "atkRange": 2.2
@@ -4930,6 +5848,8 @@
       "atk": 450,
       "def": 350,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.2,
       "atkRange": 2.2
@@ -4941,6 +5861,8 @@
       "atk": 450,
       "def": 350,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.2,
       "atkRange": 2.2
@@ -4950,6 +5872,8 @@
       "atk": 500,
       "def": 450,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.2,
       "atkRange": 2.2
@@ -4961,6 +5885,8 @@
       "atk": 1200,
       "def": 700,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 5,
       "atkRange": 0
@@ -4972,6 +5898,8 @@
       "atk": 1500,
       "def": 750,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 5,
       "atkRange": 0
@@ -4983,6 +5911,8 @@
       "atk": 1200,
       "def": 700,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 5,
       "atkRange": 0
@@ -4992,6 +5922,8 @@
       "atk": 1800,
       "def": 800,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 5,
       "atkRange": 0
@@ -5003,6 +5935,8 @@
       "atk": 800,
       "def": 300,
       "res": 80,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 3,
       "atkRange": 0
@@ -5012,6 +5946,8 @@
       "atk": 1000,
       "def": 300,
       "res": 80,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 3,
       "atkRange": 0
@@ -5023,6 +5959,8 @@
       "atk": 1750,
       "def": 1000,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 6,
       "atkRange": 0
@@ -5032,6 +5970,8 @@
       "atk": 2200,
       "def": 1200,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 6,
       "atkRange": 0
@@ -5043,6 +5983,8 @@
       "atk": 290,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -5054,6 +5996,8 @@
       "atk": 340,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -5065,6 +6009,8 @@
       "atk": 300,
       "def": 100,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 2
@@ -5076,6 +6022,8 @@
       "atk": 350,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 2
@@ -5087,6 +6035,8 @@
       "atk": 300,
       "def": 100,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.2,
       "atkRange": 0
@@ -5098,6 +6048,8 @@
       "atk": 350,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.2,
       "atkRange": 0
@@ -5109,6 +6061,8 @@
       "atk": 350,
       "def": 100,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 3.5,
       "atkRange": 15
@@ -5120,6 +6074,8 @@
       "atk": 450,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 3.5,
       "atkRange": 15
@@ -5131,6 +6087,8 @@
       "atk": 250,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4.5,
       "atkRange": 2.2
@@ -5142,6 +6100,8 @@
       "atk": 320,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 2.2
@@ -5153,6 +6113,8 @@
       "atk": 800,
       "def": 800,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 0
@@ -5164,6 +6126,8 @@
       "atk": 1000,
       "def": 1000,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 0
@@ -5175,6 +6139,8 @@
       "atk": 600,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -5186,6 +6152,8 @@
       "atk": 800,
       "def": 350,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -5197,6 +6165,8 @@
       "atk": 600,
       "def": 600,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3.7,
       "atkRange": 1.5
@@ -5208,6 +6178,8 @@
       "atk": 800,
       "def": 700,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3.7,
       "atkRange": 1.5
@@ -5219,6 +6191,8 @@
       "atk": 900,
       "def": 600,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 0
@@ -5228,6 +6202,8 @@
       "atk": 1000,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 0
@@ -5239,6 +6215,8 @@
       "atk": 750,
       "def": 600,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 3,
       "atkRange": 0
@@ -5250,6 +6228,8 @@
       "atk": 500,
       "def": 300,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -5261,6 +6241,8 @@
       "atk": 1200,
       "def": 300,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 1.3
@@ -5272,6 +6254,8 @@
       "atk": 400,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 1,
       "atkRange": 1.25
@@ -5283,6 +6267,8 @@
       "atk": 900,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -5294,6 +6280,8 @@
       "atk": 700,
       "def": 300,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 2.2
@@ -5305,6 +6293,8 @@
       "atk": 1200,
       "def": 300,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 6,
       "atkRange": 0
@@ -5316,6 +6306,8 @@
       "atk": 1500,
       "def": 600,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 3,
       "atkRange": 0
@@ -5327,6 +6319,8 @@
       "atk": 750,
       "def": 400,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 3,
       "atkRange": 0
@@ -5338,7 +6332,9 @@
       "atk": 800,
       "def": 700,
       "res": 60,
-      "mvSpd": 1,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.1,
       "atkInterval": 4,
       "atkRange": 99
     }
@@ -5349,6 +6345,8 @@
       "atk": 1000,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4,
       "atkRange": 2
@@ -5360,6 +6358,8 @@
       "atk": 800,
       "def": 1000,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 0
@@ -5371,6 +6371,8 @@
       "atk": 310,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -5382,6 +6384,8 @@
       "atk": 390,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -5393,6 +6397,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 1,
       "atkRange": 0
@@ -5404,6 +6410,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 1,
       "atkRange": 0
@@ -5415,6 +6423,8 @@
       "atk": 320,
       "def": 60,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.4,
       "atkInterval": 1.4,
       "atkRange": 0
@@ -5426,6 +6436,8 @@
       "atk": 410,
       "def": 70,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.4,
       "atkInterval": 2,
       "atkRange": 0
@@ -5437,6 +6449,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 1,
       "atkRange": 0
@@ -5448,6 +6462,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 1,
       "atkRange": 0
@@ -5459,6 +6475,8 @@
       "atk": 700,
       "def": 750,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 0
@@ -5470,6 +6488,8 @@
       "atk": 900,
       "def": 900,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 0
@@ -5481,6 +6501,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 1,
       "atkRange": 0
@@ -5492,6 +6514,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 1,
       "atkRange": 0
@@ -5503,6 +6527,8 @@
       "atk": 400,
       "def": 400,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.2,
       "atkRange": 2
@@ -5514,6 +6540,8 @@
       "atk": 500,
       "def": 500,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.2,
       "atkRange": 2
@@ -5525,6 +6553,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 1,
       "atkRange": 0
@@ -5536,6 +6566,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 1,
       "atkRange": 0
@@ -5547,6 +6579,8 @@
       "atk": 280,
       "def": 290,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3.5,
       "atkRange": 2
@@ -5558,6 +6592,8 @@
       "atk": 360,
       "def": 380,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3.5,
       "atkRange": 2
@@ -5569,6 +6605,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1,
       "atkRange": 0
@@ -5580,6 +6618,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1,
       "atkRange": 0
@@ -5591,6 +6631,8 @@
       "atk": 400,
       "def": 350,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3,
       "atkRange": 2
@@ -5602,6 +6644,8 @@
       "atk": 570,
       "def": 450,
       "res": 65,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3,
       "atkRange": 2
@@ -5613,6 +6657,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1,
       "atkRange": 0
@@ -5624,6 +6670,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1,
       "atkRange": 0
@@ -5635,6 +6683,8 @@
       "atk": 1100,
       "def": 600,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 2.2,
       "atkRange": 0
@@ -5646,6 +6696,8 @@
       "atk": 1350,
       "def": 750,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 2.2,
       "atkRange": 0
@@ -5657,6 +6709,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1,
       "atkRange": 0
@@ -5668,6 +6722,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1,
       "atkRange": 0
@@ -5679,6 +6735,8 @@
       "atk": 550,
       "def": 850,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 2
@@ -5690,6 +6748,8 @@
       "atk": 700,
       "def": 1050,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 2
@@ -5701,6 +6761,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 1,
       "atkRange": 0
@@ -5712,6 +6774,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 1,
       "atkRange": 0
@@ -5723,6 +6787,8 @@
       "atk": 0,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 1,
       "atkRange": 0
@@ -5734,7 +6800,9 @@
       "atk": 1400,
       "def": 550,
       "res": 30,
-      "mvSpd": 1,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.1,
       "atkInterval": 2.5,
       "atkRange": 0
     },
@@ -5743,7 +6811,9 @@
       "atk": 1600,
       "def": 700,
       "res": 40,
-      "mvSpd": 1,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.1,
       "atkInterval": 2.5,
       "atkRange": 0
     }
@@ -5754,6 +6824,8 @@
       "atk": 380,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -5765,6 +6837,8 @@
       "atk": 400,
       "def": 200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -5776,6 +6850,8 @@
       "atk": 300,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3,
       "atkRange": 2
@@ -5787,6 +6863,8 @@
       "atk": 350,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3,
       "atkRange": 2
@@ -5798,6 +6876,8 @@
       "atk": 320,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.6,
       "atkRange": 1.8
@@ -5809,6 +6889,8 @@
       "atk": 385,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.6,
       "atkRange": 1.8
@@ -5820,6 +6902,8 @@
       "atk": 380,
       "def": 200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2,
       "atkRange": 2
@@ -5831,6 +6915,8 @@
       "atk": 450,
       "def": 250,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2,
       "atkRange": 2
@@ -5842,6 +6928,8 @@
       "atk": 800,
       "def": 1200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4.5,
       "atkRange": 2.5
@@ -5853,6 +6941,8 @@
       "atk": 1000,
       "def": 1500,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4.5,
       "atkRange": 2.5
@@ -5864,6 +6954,8 @@
       "atk": 500,
       "def": 650,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 5,
       "atkRange": 2
@@ -5875,6 +6967,8 @@
       "atk": 600,
       "def": 650,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 5,
       "atkRange": 2
@@ -5886,6 +6980,8 @@
       "atk": 300,
       "def": 100,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.6,
       "atkInterval": 1,
       "atkRange": 0
@@ -5897,6 +6993,8 @@
       "atk": 300,
       "def": 200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.6,
       "atkInterval": 1,
       "atkRange": 0
@@ -5908,6 +7006,8 @@
       "atk": 600,
       "def": 500,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.7,
       "atkRange": 2.5
@@ -5919,6 +7019,8 @@
       "atk": 700,
       "def": 550,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.7,
       "atkRange": 2.5
@@ -5930,6 +7032,8 @@
       "atk": 750,
       "def": 550,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 2.5
@@ -5939,6 +7043,8 @@
       "atk": 900,
       "def": 600,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 2.5
@@ -5950,6 +7056,8 @@
       "atk": 280,
       "def": 100,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -5961,6 +7069,8 @@
       "atk": 380,
       "def": 100,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -5972,6 +7082,8 @@
       "atk": 680,
       "def": 200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 0
@@ -5983,6 +7095,8 @@
       "atk": 800,
       "def": 200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 0
@@ -5994,6 +7108,8 @@
       "atk": 340,
       "def": 120,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": -1
@@ -6005,6 +7121,8 @@
       "atk": 400,
       "def": 210,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": -1
@@ -6016,6 +7134,8 @@
       "atk": 300,
       "def": 250,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": -1
@@ -6027,6 +7147,8 @@
       "atk": 380,
       "def": 350,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": -1
@@ -6038,6 +7160,8 @@
       "atk": 340,
       "def": 550,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1.7,
       "atkRange": 1.6
@@ -6049,6 +7173,8 @@
       "atk": 420,
       "def": 600,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1.7,
       "atkRange": 1.6
@@ -6060,6 +7186,8 @@
       "atk": 420,
       "def": 450,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 2.2
@@ -6071,6 +7199,8 @@
       "atk": 550,
       "def": 550,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 2.2
@@ -6082,6 +7212,8 @@
       "atk": 1000,
       "def": 800,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": -1
@@ -6093,6 +7225,8 @@
       "atk": 1200,
       "def": 800,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": -1
@@ -6104,6 +7238,8 @@
       "atk": 500,
       "def": 150,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4.5,
       "atkRange": 2
@@ -6115,6 +7251,8 @@
       "atk": 650,
       "def": 220,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4.5,
       "atkRange": 2
@@ -6126,6 +7264,8 @@
       "atk": 90,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.7,
       "atkInterval": 0.6,
       "atkRange": -1
@@ -6137,6 +7277,8 @@
       "atk": 120,
       "def": 100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.7,
       "atkInterval": 0.6,
       "atkRange": -1
@@ -6148,6 +7290,8 @@
       "atk": 240,
       "def": 220,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.5,
       "atkRange": -1
@@ -6159,6 +7303,8 @@
       "atk": 380,
       "def": 280,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.5,
       "atkRange": -1
@@ -6170,6 +7316,8 @@
       "atk": 1000,
       "def": 600,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 2
@@ -6179,6 +7327,8 @@
       "atk": 1200,
       "def": 600,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 2
@@ -6190,6 +7340,8 @@
       "atk": 450,
       "def": 200,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 3,
       "atkRange": 0
@@ -6201,6 +7353,8 @@
       "atk": 600,
       "def": 250,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 3,
       "atkRange": 0
@@ -6212,6 +7366,8 @@
       "atk": 450,
       "def": 200,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 3,
       "atkRange": 0
@@ -6223,6 +7379,8 @@
       "atk": 450,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 3,
       "atkRange": 0
@@ -6234,6 +7392,8 @@
       "atk": 550,
       "def": 80,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 3,
       "atkRange": 0
@@ -6245,6 +7405,8 @@
       "atk": 450,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 3,
       "atkRange": 0
@@ -6256,6 +7418,8 @@
       "atk": 800,
       "def": 500,
       "res": 5,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 0
@@ -6267,6 +7431,8 @@
       "atk": 900,
       "def": 500,
       "res": 5,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 0
@@ -6278,6 +7444,8 @@
       "atk": 800,
       "def": 500,
       "res": 5,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 0
@@ -6289,6 +7457,8 @@
       "atk": 650,
       "def": 100,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 2,
       "atkRange": 1.1
@@ -6300,6 +7470,8 @@
       "atk": 800,
       "def": 100,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 2,
       "atkRange": 1.1
@@ -6311,6 +7483,8 @@
       "atk": 650,
       "def": 100,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 2,
       "atkRange": 1.1
@@ -6322,6 +7496,8 @@
       "atk": 140,
       "def": 550,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 1,
       "atkRange": 1.6
@@ -6333,6 +7509,8 @@
       "atk": 160,
       "def": 550,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 1,
       "atkRange": 1.6
@@ -6344,6 +7522,8 @@
       "atk": 140,
       "def": 550,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 1,
       "atkRange": 1.6
@@ -6355,6 +7535,8 @@
       "atk": 300,
       "def": 750,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1.5,
       "atkRange": 1.5
@@ -6366,6 +7548,8 @@
       "atk": 400,
       "def": 750,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1.5,
       "atkRange": 1.5
@@ -6377,6 +7561,8 @@
       "atk": 300,
       "def": 750,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1.5,
       "atkRange": 1.5
@@ -6388,6 +7574,8 @@
       "atk": 800,
       "def": 700,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2,
       "atkRange": 1.8
@@ -6397,6 +7585,8 @@
       "atk": 800,
       "def": 700,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2,
       "atkRange": 1.8
@@ -6406,6 +7596,8 @@
       "atk": 900,
       "def": 700,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2,
       "atkRange": 1.8
@@ -6417,6 +7609,8 @@
       "atk": 380,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 2.2,
       "atkRange": 0
@@ -6428,6 +7622,8 @@
       "atk": 520,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 2.2,
       "atkRange": 0
@@ -6439,6 +7635,8 @@
       "atk": 330,
       "def": 80,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3.5,
       "atkRange": 1.9
@@ -6450,6 +7648,8 @@
       "atk": 360,
       "def": 120,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3.5,
       "atkRange": 1.9
@@ -6461,6 +7661,8 @@
       "atk": 650,
       "def": 1200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 4,
       "atkRange": 0
@@ -6472,6 +7674,8 @@
       "atk": 800,
       "def": 1400,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 4,
       "atkRange": 0
@@ -6483,6 +7687,8 @@
       "atk": 600,
       "def": 160,
       "res": 65,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 7,
       "atkRange": 2.2
@@ -6494,6 +7700,8 @@
       "atk": 780,
       "def": 240,
       "res": 65,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 7,
       "atkRange": 2.2
@@ -6505,6 +7713,8 @@
       "atk": 500,
       "def": 450,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 5,
       "atkRange": 2.4
@@ -6516,6 +7726,8 @@
       "atk": 650,
       "def": 550,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 5,
       "atkRange": 2.4
@@ -6527,6 +7739,8 @@
       "atk": 800,
       "def": 650,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4.5,
       "atkRange": 0
@@ -6538,6 +7752,8 @@
       "atk": 1000,
       "def": 700,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4.5,
       "atkRange": 0
@@ -6549,6 +7765,8 @@
       "atk": 0,
       "def": 500,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 13,
       "atkRange": 2.6
@@ -6560,6 +7778,8 @@
       "atk": 0,
       "def": 650,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 13,
       "atkRange": 2.6
@@ -6571,6 +7791,8 @@
       "atk": 280,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.7,
       "atkRange": 0
@@ -6582,6 +7804,8 @@
       "atk": 370,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.7,
       "atkRange": 0
@@ -6593,6 +7817,8 @@
       "atk": 700,
       "def": 450,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 5,
       "atkRange": 2
@@ -6602,6 +7828,8 @@
       "atk": 900,
       "def": 600,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 5,
       "atkRange": 2
@@ -6613,6 +7841,8 @@
       "atk": 800,
       "def": 400,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 5,
       "atkRange": 0
@@ -6622,6 +7852,8 @@
       "atk": 1000,
       "def": 500,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 5,
       "atkRange": 0
@@ -6633,6 +7865,8 @@
       "atk": 0,
       "def": 700,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1,
       "atkRange": 0
@@ -6644,6 +7878,8 @@
       "atk": 400,
       "def": 400,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3,
       "atkRange": 0
@@ -6655,6 +7891,8 @@
       "atk": 150,
       "def": 700,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.85,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -6666,6 +7904,8 @@
       "atk": 1000,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 0
@@ -6677,6 +7917,8 @@
       "atk": 1800,
       "def": 1200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 7,
       "atkRange": 0
@@ -6688,6 +7930,8 @@
       "atk": 0,
       "def": 1000,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 1,
       "atkRange": 0
@@ -6699,6 +7943,8 @@
       "atk": 410,
       "def": 250,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.8,
       "atkRange": 0
@@ -6710,6 +7956,8 @@
       "atk": 485,
       "def": 300,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.8,
       "atkRange": 0
@@ -6721,6 +7969,8 @@
       "atk": 300,
       "def": 100,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.8,
       "atkRange": 2.5
@@ -6732,6 +7982,8 @@
       "atk": 375,
       "def": 100,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.8,
       "atkRange": 2.5
@@ -6743,6 +7995,8 @@
       "atk": 310,
       "def": 0,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 1.8,
       "atkRange": 0
@@ -6754,6 +8008,8 @@
       "atk": 360,
       "def": 50,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 1.8,
       "atkRange": 0
@@ -6765,6 +8021,8 @@
       "atk": 390,
       "def": 0,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3.2,
       "atkRange": 2.2
@@ -6776,6 +8034,8 @@
       "atk": 420,
       "def": 50,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3.2,
       "atkRange": 2.2
@@ -6787,6 +8047,8 @@
       "atk": 500,
       "def": 1000,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 0
@@ -6798,6 +8060,8 @@
       "atk": 600,
       "def": 1200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 0
@@ -6809,6 +8073,8 @@
       "atk": 700,
       "def": 700,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1.3,
       "atkRange": 0
@@ -6820,6 +8086,8 @@
       "atk": 850,
       "def": 800,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1.3,
       "atkRange": 0
@@ -6831,6 +8099,8 @@
       "atk": 1600,
       "def": 1200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 4,
       "atkRange": 0
@@ -6842,6 +8112,8 @@
       "atk": 2000,
       "def": 1500,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 4,
       "atkRange": 0
@@ -6853,6 +8125,8 @@
       "atk": 1200,
       "def": 1200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 5,
       "atkRange": 5
@@ -6864,6 +8138,8 @@
       "atk": 1350,
       "def": 1500,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 5,
       "atkRange": 5
@@ -6875,6 +8151,8 @@
       "atk": 650,
       "def": 600,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3,
       "atkRange": 2
@@ -6884,6 +8162,8 @@
       "atk": 850,
       "def": 700,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3,
       "atkRange": 2
@@ -6895,7 +8175,9 @@
       "atk": 1200,
       "def": 650,
       "res": 50,
-      "mvSpd": 0.5,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.1,
       "atkInterval": 5,
       "atkRange": 0
     },
@@ -6904,7 +8186,9 @@
       "atk": 1350,
       "def": 750,
       "res": 50,
-      "mvSpd": 0.5,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.1,
       "atkInterval": 5,
       "atkRange": 0
     }
@@ -6915,6 +8199,8 @@
       "atk": 300,
       "def": 100,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -6926,6 +8212,8 @@
       "atk": 400,
       "def": 150,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2,
       "atkRange": 0
@@ -6937,6 +8225,8 @@
       "atk": 320,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.95,
       "atkInterval": 0.4,
       "atkRange": 0
@@ -6948,6 +8238,8 @@
       "atk": 420,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.95,
       "atkInterval": 0.4,
       "atkRange": 0
@@ -6959,6 +8251,8 @@
       "atk": 150,
       "def": 300,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1.5,
       "atkRange": 3.5
@@ -6970,6 +8264,8 @@
       "atk": 200,
       "def": 300,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1.5,
       "atkRange": 4
@@ -6981,6 +8277,8 @@
       "atk": 350,
       "def": 400,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.5,
       "atkRange": 2.5
@@ -6992,6 +8290,8 @@
       "atk": 450,
       "def": 400,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.5,
       "atkRange": 2.5
@@ -7003,6 +8303,8 @@
       "atk": 400,
       "def": 800,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3,
       "atkRange": 0
@@ -7014,6 +8316,8 @@
       "atk": 500,
       "def": 1000,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3,
       "atkRange": 0
@@ -7025,6 +8329,8 @@
       "atk": 800,
       "def": 1000,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -7036,6 +8342,8 @@
       "atk": 1000,
       "def": 1000,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -7047,6 +8355,8 @@
       "atk": 1100,
       "def": 1500,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 0
@@ -7058,6 +8368,8 @@
       "atk": 1500,
       "def": 1500,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 0
@@ -7069,6 +8381,8 @@
       "atk": 500,
       "def": 600,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 2.5
@@ -7078,6 +8392,8 @@
       "atk": 700,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 2.5
@@ -7089,6 +8405,8 @@
       "atk": 1000,
       "def": 1500,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 2,
       "atkRange": 0
@@ -7100,6 +8418,8 @@
       "atk": 260,
       "def": 1200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 2,
       "atkRange": 0
@@ -7111,6 +8431,8 @@
       "atk": 250,
       "def": 150,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 2,
       "atkRange": 0
@@ -7122,6 +8444,8 @@
       "atk": 300,
       "def": 200,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.5,
       "atkRange": 2.4
@@ -7133,6 +8457,8 @@
       "atk": 600,
       "def": 600,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 8,
       "atkRange": 4
@@ -7144,6 +8470,8 @@
       "atk": 200,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0,
       "atkInterval": 1.6,
       "atkRange": 0
@@ -7155,6 +8483,8 @@
       "atk": 500,
       "def": 250,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 2.6
@@ -7166,6 +8496,8 @@
       "atk": 1200,
       "def": 400,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4,
       "atkRange": 1.8
@@ -7177,6 +8509,8 @@
       "atk": 2200,
       "def": 400,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4,
       "atkRange": 1.8
@@ -7188,6 +8522,8 @@
       "atk": 600,
       "def": 300,
       "res": 70,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 4.5,
       "atkRange": 3.5
@@ -7199,6 +8535,8 @@
       "atk": 600,
       "def": 800,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 1.7,
       "atkRange": 0
@@ -7210,6 +8548,8 @@
       "atk": 550,
       "def": 800,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 0.7,
       "atkRange": 0
@@ -7221,6 +8561,8 @@
       "atk": 800,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 2.8,
       "atkRange": 0
@@ -7232,6 +8574,8 @@
       "atk": 1000,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 0
@@ -7243,6 +8587,8 @@
       "atk": 600,
       "def": 100,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 3,
       "atkRange": 0
@@ -7254,6 +8600,8 @@
       "atk": 300,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2,
       "atkRange": 0
@@ -7263,6 +8611,8 @@
       "atk": 500,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 1.9,
       "atkRange": 0
@@ -7272,6 +8622,8 @@
       "atk": 600,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 1.8,
       "atkRange": 0
@@ -7283,6 +8635,8 @@
       "atk": 600,
       "def": 500,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1.2,
       "atkRange": 0
@@ -7292,6 +8646,8 @@
       "atk": 800,
       "def": 500,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1.2,
       "atkRange": 0
@@ -7301,6 +8657,8 @@
       "atk": 1200,
       "def": 500,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1.2,
       "atkRange": 0
@@ -7312,6 +8670,8 @@
       "atk": 0,
       "def": 4000,
       "res": 80,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 1,
       "atkRange": 0
@@ -7323,6 +8683,8 @@
       "atk": 500,
       "def": 700,
       "res": 70,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": -1
@@ -7334,6 +8696,8 @@
       "atk": 2000,
       "def": 4000,
       "res": 70,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -7345,6 +8709,8 @@
       "atk": 1600,
       "def": 1200,
       "res": 70,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 6,
       "atkRange": 0
@@ -7356,6 +8722,8 @@
       "atk": 500,
       "def": 1200,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0,
       "atkInterval": 5,
       "atkRange": 0
@@ -7367,6 +8735,8 @@
       "atk": 800,
       "def": 2000,
       "res": 70,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -7378,6 +8748,8 @@
       "atk": 1200,
       "def": 2000,
       "res": 70,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 4,
       "atkRange": 1.5
@@ -7389,6 +8761,8 @@
       "atk": 380,
       "def": 100,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -7400,6 +8774,8 @@
       "atk": 450,
       "def": 100,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -7411,6 +8787,8 @@
       "atk": 550,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.4,
       "atkInterval": 1.8,
       "atkRange": 0
@@ -7422,6 +8800,8 @@
       "atk": 700,
       "def": 200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.4,
       "atkInterval": 1.8,
       "atkRange": 0
@@ -7433,6 +8813,8 @@
       "atk": 2000,
       "def": 1000,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3,
       "atkRange": 0
@@ -7444,6 +8826,8 @@
       "atk": 320,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 2.2
@@ -7455,6 +8839,8 @@
       "atk": 380,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 2.2
@@ -7466,6 +8852,8 @@
       "atk": 750,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 0,
       "atkRange": 2
@@ -7477,6 +8865,8 @@
       "atk": 1250,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 0,
       "atkRange": 2
@@ -7488,6 +8878,8 @@
       "atk": 1050,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -7499,6 +8891,8 @@
       "atk": 1350,
       "def": 0,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -7510,6 +8904,8 @@
       "atk": 650,
       "def": 800,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 0
@@ -7521,6 +8917,8 @@
       "atk": 750,
       "def": 800,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 0
@@ -7532,6 +8930,8 @@
       "atk": 750,
       "def": 750,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4.5,
       "atkRange": 2.2
@@ -7543,6 +8943,8 @@
       "atk": 850,
       "def": 750,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4.5,
       "atkRange": 2.2
@@ -7554,6 +8956,8 @@
       "atk": 450,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -7565,6 +8969,8 @@
       "atk": 500,
       "def": 250,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2.5
@@ -7576,6 +8982,8 @@
       "atk": 0,
       "def": 3000,
       "res": 90,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4,
       "atkRange": 0
@@ -7587,6 +8995,8 @@
       "atk": 600,
       "def": 1500,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 6,
       "atkRange": 3
@@ -7598,6 +9008,8 @@
       "atk": 750,
       "def": 1500,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 6,
       "atkRange": 3
@@ -7609,6 +9021,8 @@
       "atk": 1600,
       "def": 2000,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 0
@@ -7618,6 +9032,8 @@
       "atk": 1800,
       "def": 2400,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 5,
       "atkRange": 0
@@ -7629,6 +9045,8 @@
       "atk": 1050,
       "def": 1050,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.7,
       "atkRange": 0
@@ -7640,6 +9058,8 @@
       "atk": 320,
       "def": 120,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.8,
       "atkRange": 0
@@ -7651,6 +9071,8 @@
       "atk": 375,
       "def": 180,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 1.8,
       "atkRange": 0
@@ -7662,6 +9084,8 @@
       "atk": 300,
       "def": 200,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.8,
       "atkRange": 2
@@ -7673,6 +9097,8 @@
       "atk": 380,
       "def": 200,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2.8,
       "atkRange": 2.5
@@ -7684,6 +9110,8 @@
       "atk": 500,
       "def": 900,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3,
       "atkRange": 0
@@ -7695,6 +9123,8 @@
       "atk": 600,
       "def": 1100,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3,
       "atkRange": 0
@@ -7706,6 +9136,8 @@
       "atk": 320,
       "def": 250,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3.5,
       "atkRange": 2.2
@@ -7717,6 +9149,8 @@
       "atk": 400,
       "def": 250,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3.5,
       "atkRange": 2.5
@@ -7728,6 +9162,8 @@
       "atk": 900,
       "def": 1000,
       "res": 15,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 5,
       "atkRange": 0
@@ -7739,6 +9175,8 @@
       "atk": 1100,
       "def": 1300,
       "res": 15,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 5,
       "atkRange": 0
@@ -7750,6 +9188,8 @@
       "atk": 500,
       "def": 500,
       "res": 25,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -7761,6 +9201,8 @@
       "atk": 600,
       "def": 500,
       "res": 25,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -7772,6 +9214,8 @@
       "atk": 800,
       "def": 800,
       "res": 45,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3,
       "atkRange": 1.8
@@ -7783,6 +9227,8 @@
       "atk": 1050,
       "def": 800,
       "res": 45,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3,
       "atkRange": 1.8
@@ -7794,6 +9240,8 @@
       "atk": 900,
       "def": 500,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 4.5,
       "atkRange": 1.9
@@ -7803,6 +9251,8 @@
       "atk": 1100,
       "def": 650,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 4.5,
       "atkRange": 1.9
@@ -7814,6 +9264,8 @@
       "atk": 800,
       "def": 1000,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 0
@@ -7823,6 +9275,8 @@
       "atk": 1000,
       "def": 1300,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 0
@@ -7834,8 +9288,10 @@
       "atk": 0,
       "def": 200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
-      "atkInterval": 0,
+      "atkInterval": 3,
       "atkRange": 1.5
     },
     {
@@ -7843,8 +9299,10 @@
       "atk": 0,
       "def": 200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
-      "atkInterval": 0,
+      "atkInterval": 3,
       "atkRange": 1.5
     }
   ],
@@ -7854,6 +9312,8 @@
       "atk": 0,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 0,
       "atkRange": 0
@@ -7865,6 +9325,8 @@
       "atk": 330,
       "def": 150,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.2,
       "atkRange": 0
@@ -7876,6 +9338,8 @@
       "atk": 380,
       "def": 200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.2,
       "atkRange": 0
@@ -7887,6 +9351,8 @@
       "atk": 350,
       "def": 400,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -7898,6 +9364,8 @@
       "atk": 420,
       "def": 500,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1,
       "atkInterval": 2,
       "atkRange": 0
@@ -7909,6 +9377,8 @@
       "atk": 150,
       "def": 50,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2,
       "atkRange": 0
@@ -7920,6 +9390,8 @@
       "atk": 180,
       "def": 100,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 2,
       "atkRange": 0
@@ -7931,6 +9403,8 @@
       "atk": 500,
       "def": 300,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 5,
       "atkRange": 10
@@ -7942,6 +9416,8 @@
       "atk": 600,
       "def": 350,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 5,
       "atkRange": 10
@@ -7953,6 +9429,8 @@
       "atk": 300,
       "def": 300,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 2.2
@@ -7964,6 +9442,8 @@
       "atk": 400,
       "def": 350,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3,
       "atkRange": 2.2
@@ -7975,6 +9455,8 @@
       "atk": 600,
       "def": 1300,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 0
@@ -7986,6 +9468,8 @@
       "atk": 800,
       "def": 1500,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 0
@@ -7997,6 +9481,8 @@
       "atk": 350,
       "def": 550,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -8008,6 +9494,8 @@
       "atk": 450,
       "def": 750,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -8019,6 +9507,8 @@
       "atk": 650,
       "def": 500,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -8030,6 +9520,8 @@
       "atk": 750,
       "def": 600,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -8041,6 +9533,8 @@
       "atk": 800,
       "def": 700,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -8052,6 +9546,8 @@
       "atk": 800,
       "def": 750,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4.5,
       "atkRange": 2
@@ -8061,6 +9557,8 @@
       "atk": 1000,
       "def": 800,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4.5,
       "atkRange": 2
@@ -8072,6 +9570,8 @@
       "atk": 1200,
       "def": 1000,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 0
@@ -8083,6 +9583,8 @@
       "atk": 1000,
       "def": 400,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 4,
       "atkRange": 0
@@ -8094,6 +9596,8 @@
       "atk": 350,
       "def": 200,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 1.7,
       "atkRange": 0
@@ -8105,6 +9609,8 @@
       "atk": 600,
       "def": 450,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 5,
       "atkRange": 0
@@ -8114,6 +9620,8 @@
       "atk": 800,
       "def": 550,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 5,
       "atkRange": 0
@@ -8125,6 +9633,8 @@
       "atk": 250,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -8136,6 +9646,8 @@
       "atk": 280,
       "def": 80,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -8147,6 +9659,8 @@
       "atk": 400,
       "def": 200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.5,
       "atkRange": 1.2
@@ -8158,6 +9672,8 @@
       "atk": 480,
       "def": 200,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.5,
       "atkRange": 1.2
@@ -8169,6 +9685,8 @@
       "atk": 350,
       "def": 150,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 3,
       "atkRange": 1.2
@@ -8180,6 +9698,8 @@
       "atk": 420,
       "def": 250,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 3,
       "atkRange": 1.2
@@ -8191,6 +9711,8 @@
       "atk": 600,
       "def": 800,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 1.2
@@ -8202,6 +9724,8 @@
       "atk": 750,
       "def": 1000,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 1.2
@@ -8213,6 +9737,8 @@
       "atk": 800,
       "def": 250,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2.5,
       "atkRange": 1.2
@@ -8224,6 +9750,8 @@
       "atk": 1000,
       "def": 300,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 2.5,
       "atkRange": 1.2
@@ -8235,6 +9763,8 @@
       "atk": 400,
       "def": 200,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.5,
       "atkRange": 2
@@ -8246,6 +9776,8 @@
       "atk": 500,
       "def": 250,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.5,
       "atkRange": 2
@@ -8257,6 +9789,8 @@
       "atk": 1000,
       "def": 1200,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4.5,
       "atkRange": 1.2
@@ -8268,6 +9802,8 @@
       "atk": 1200,
       "def": 1200,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4.5,
       "atkRange": 1.2
@@ -8279,6 +9815,8 @@
       "atk": 800,
       "def": 1200,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 4,
       "atkRange": 1.2
@@ -8290,6 +9828,8 @@
       "atk": 1000,
       "def": 1500,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 4,
       "atkRange": 1.2
@@ -8301,6 +9841,8 @@
       "atk": 100,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2
@@ -8312,6 +9854,8 @@
       "atk": 150,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 4,
       "atkRange": 2
@@ -8323,6 +9867,8 @@
       "atk": 400,
       "def": 300,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 0
@@ -8334,6 +9880,8 @@
       "atk": 500,
       "def": 300,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 4,
       "atkRange": 0
@@ -8345,6 +9893,8 @@
       "atk": 500,
       "def": 400,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 5,
       "atkRange": 3
@@ -8356,6 +9906,8 @@
       "atk": 550,
       "def": 400,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 5,
       "atkRange": 3
@@ -8367,6 +9919,8 @@
       "atk": 0,
       "def": 200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1,
       "atkRange": 0
@@ -8378,6 +9932,8 @@
       "atk": 0,
       "def": 200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1,
       "atkRange": 0
@@ -8389,6 +9945,8 @@
       "atk": 800,
       "def": 200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 3,
       "atkRange": 0
@@ -8400,6 +9958,8 @@
       "atk": 800,
       "def": 200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 3,
       "atkRange": 0
@@ -8411,6 +9971,8 @@
       "atk": 400,
       "def": 800,
       "res": 70,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -8422,6 +9984,8 @@
       "atk": 450,
       "def": 1000,
       "res": 80,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -8433,6 +9997,8 @@
       "atk": 1300,
       "def": 2500,
       "res": 90,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 3,
       "atkRange": 0
@@ -8444,6 +10010,8 @@
       "atk": 4500,
       "def": 1000,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 7,
       "atkRange": 1.5
@@ -8455,6 +10023,8 @@
       "atk": 2000,
       "def": 700,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.5,
       "atkRange": 3
@@ -8466,6 +10036,8 @@
       "atk": 400,
       "def": 120,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.3,
       "atkInterval": 0.5,
       "atkRange": 0
@@ -8477,6 +10049,8 @@
       "atk": 0,
       "def": 400,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 1,
       "atkRange": 0
@@ -8488,6 +10062,8 @@
       "atk": 1100,
       "def": 400,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -8499,6 +10075,8 @@
       "atk": 600,
       "def": 500,
       "res": 70,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3.5,
       "atkRange": 2.5
@@ -8510,6 +10088,8 @@
       "atk": 1000,
       "def": 1200,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.9,
       "atkInterval": 4,
       "atkRange": 0
@@ -8521,6 +10101,8 @@
       "atk": 250,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -8532,6 +10114,8 @@
       "atk": 320,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -8543,6 +10127,8 @@
       "atk": 310,
       "def": 0,
       "res": 5,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 1.8,
       "atkRange": 0
@@ -8554,6 +10140,8 @@
       "atk": 380,
       "def": 0,
       "res": 5,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.5,
       "atkInterval": 1.8,
       "atkRange": 0
@@ -8565,6 +10153,8 @@
       "atk": 50,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2,
       "atkRange": 1.8
@@ -8576,6 +10166,8 @@
       "atk": 80,
       "def": 0,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2,
       "atkRange": 1.8
@@ -8587,6 +10179,8 @@
       "atk": 600,
       "def": 120,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 0
@@ -8598,6 +10192,8 @@
       "atk": 680,
       "def": 130,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 0
@@ -8609,6 +10205,8 @@
       "atk": 600,
       "def": 140,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 0
@@ -8620,6 +10218,8 @@
       "atk": 750,
       "def": 160,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 4,
       "atkRange": 0
@@ -8631,6 +10231,8 @@
       "atk": 450,
       "def": 50,
       "res": 5,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -8642,6 +10244,8 @@
       "atk": 550,
       "def": 80,
       "res": 5,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 2.5,
       "atkRange": 0
@@ -8653,6 +10257,8 @@
       "atk": 600,
       "def": 20,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.35,
       "atkInterval": 4,
       "atkRange": 0
@@ -8664,6 +10270,8 @@
       "atk": 700,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 4,
       "atkRange": 0
@@ -8675,6 +10283,8 @@
       "atk": 580,
       "def": 130,
       "res": 5,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.5,
       "atkRange": 0.5
@@ -8686,6 +10296,8 @@
       "atk": 720,
       "def": 150,
       "res": 8,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 3.5,
       "atkRange": 0.5
@@ -8697,6 +10309,8 @@
       "atk": 1090,
       "def": 480,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 1.8,
       "atkRange": 0
@@ -8708,6 +10322,8 @@
       "atk": 1260,
       "def": 550,
       "res": 1,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 1.8,
       "atkRange": 0
@@ -8719,6 +10335,8 @@
       "atk": 900,
       "def": 200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 2.8,
       "atkRange": 0
@@ -8728,6 +10346,8 @@
       "atk": 1050,
       "def": 205,
       "res": 3,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 2.8,
       "atkRange": 0
@@ -8737,6 +10357,8 @@
       "atk": 1150,
       "def": 210,
       "res": 5,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 2.8,
       "atkRange": 0
@@ -8748,6 +10370,8 @@
       "atk": 800,
       "def": 650,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 3,
       "atkRange": 0
@@ -8759,6 +10383,8 @@
       "atk": 250,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 2.5,
       "atkRange": -1
@@ -8770,6 +10396,8 @@
       "atk": 250,
       "def": 50,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 2.5,
       "atkRange": -1
@@ -8781,6 +10409,8 @@
       "atk": 500,
       "def": 300,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -8792,6 +10422,8 @@
       "atk": 600,
       "def": 350,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 2.3,
       "atkRange": 0
@@ -8803,6 +10435,8 @@
       "atk": 700,
       "def": 150,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 3.3,
       "atkRange": 0
@@ -8814,6 +10448,8 @@
       "atk": 800,
       "def": 200,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.65,
       "atkInterval": 3.3,
       "atkRange": 0
@@ -8825,6 +10461,8 @@
       "atk": 1000,
       "def": 1200,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.35,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -8836,6 +10474,8 @@
       "atk": 1200,
       "def": 1500,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.35,
       "atkInterval": 3.5,
       "atkRange": 0
@@ -8847,9 +10487,11 @@
       "atk": 600,
       "def": 300,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3.5,
-      "atkRange": 0
+      "atkRange": 2
     }
   ],
   "enemy_1317_wdexg_2": [
@@ -8858,9 +10500,11 @@
       "atk": 650,
       "def": 350,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3.5,
-      "atkRange": 0
+      "atkRange": 2
     }
   ],
   "enemy_1318_wdsmgc": [
@@ -8869,6 +10513,8 @@
       "atk": 550,
       "def": 200,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.8,
       "atkRange": 2
@@ -8880,6 +10526,8 @@
       "atk": 650,
       "def": 250,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 3.8,
       "atkRange": 2
@@ -8891,6 +10539,8 @@
       "atk": 250,
       "def": 100,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 5,
       "atkRange": 0
@@ -8902,6 +10552,8 @@
       "atk": 300,
       "def": 150,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.6,
       "atkInterval": 5,
       "atkRange": 0
@@ -8913,6 +10565,8 @@
       "atk": 800,
       "def": 700,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.9,
       "atkRange": 0
@@ -8924,6 +10578,8 @@
       "atk": 1200,
       "def": 800,
       "res": 20,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 2.9,
       "atkRange": 0
@@ -8935,6 +10591,8 @@
       "atk": 500,
       "def": 250,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 5,
       "atkRange": 0
@@ -8946,6 +10604,8 @@
       "atk": 500,
       "def": 300,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 5,
       "atkRange": 0
@@ -8957,6 +10617,8 @@
       "atk": 2250,
       "def": 500,
       "res": 35,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 6,
       "atkRange": 0
@@ -8968,6 +10630,8 @@
       "atk": 1800,
       "def": 375,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.7,
       "atkInterval": 6,
       "atkRange": 0
@@ -8979,6 +10643,8 @@
       "atk": 250,
       "def": 300,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.2,
       "atkInterval": 1.9,
       "atkRange": 0.5
@@ -8988,6 +10654,8 @@
       "atk": 300,
       "def": 300,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.2,
       "atkInterval": 1.9,
       "atkRange": 0.5
@@ -8999,6 +10667,8 @@
       "atk": 550,
       "def": 750,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 2.5,
       "atkRange": -1
@@ -9008,6 +10678,8 @@
       "atk": 750,
       "def": 900,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 2.5,
       "atkRange": -1
@@ -9019,6 +10691,8 @@
       "atk": 1500,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 2.5,
       "atkRange": 2
@@ -9030,6 +10704,8 @@
       "atk": 750,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 3,
       "atkRange": -1
@@ -9041,6 +10717,8 @@
       "atk": 1000,
       "def": 1000,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.5,
       "atkInterval": 4.5,
       "atkRange": -1
@@ -9052,6 +10730,8 @@
       "atk": 0,
       "def": 600,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.3,
       "atkInterval": 1,
       "atkRange": -1
@@ -9063,6 +10743,8 @@
       "atk": 290,
       "def": 0,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.7,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -9074,6 +10756,8 @@
       "atk": 360,
       "def": 0,
       "res": 30,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.7,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -9085,6 +10769,8 @@
       "atk": 400,
       "def": 150,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -9096,6 +10782,8 @@
       "atk": 500,
       "def": 170,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -9107,6 +10795,8 @@
       "atk": 350,
       "def": 170,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 1.4
@@ -9118,6 +10808,8 @@
       "atk": 500,
       "def": 200,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 3,
       "atkRange": 1.4
@@ -9129,6 +10821,8 @@
       "atk": 700,
       "def": 550,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3,
       "atkRange": 0
@@ -9140,6 +10834,8 @@
       "atk": 800,
       "def": 650,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3,
       "atkRange": 0
@@ -9151,6 +10847,8 @@
       "atk": 700,
       "def": 3300,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3,
       "atkRange": 0
@@ -9162,6 +10860,8 @@
       "atk": 900,
       "def": 3500,
       "res": 60,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.75,
       "atkInterval": 3,
       "atkRange": 0
@@ -9173,6 +10873,8 @@
       "atk": 1000,
       "def": 1100,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 5,
       "atkRange": 0
@@ -9184,6 +10886,8 @@
       "atk": 1200,
       "def": 1300,
       "res": 0,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.1,
       "atkInterval": 5,
       "atkRange": 0
@@ -9195,6 +10899,8 @@
       "atk": 190,
       "def": 800,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 0.6,
       "atkRange": 0
@@ -9206,6 +10912,8 @@
       "atk": 250,
       "def": 900,
       "res": 10,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 0.6,
       "atkRange": 0
@@ -9217,6 +10925,8 @@
       "atk": 1200,
       "def": 4500,
       "res": 75,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 5,
       "atkRange": 1.4
@@ -9228,6 +10938,8 @@
       "atk": 1500,
       "def": 4800,
       "res": 90,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.8,
       "atkInterval": 5,
       "atkRange": 1.4
@@ -9239,6 +10951,8 @@
       "atk": 600,
       "def": 300,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -9250,6 +10964,8 @@
       "atk": 600,
       "def": 400,
       "res": 40,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 1.2,
       "atkInterval": 1.5,
       "atkRange": 0
@@ -9261,6 +10977,8 @@
       "atk": 600,
       "def": 600,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 5,
       "atkRange": 2.5
@@ -9270,9 +10988,243 @@
       "atk": 700,
       "def": 800,
       "res": 50,
+      "erst": 0,
+      "irst": 0,
       "mvSpd": 0.4,
       "atkInterval": 5,
       "atkRange": 2.5
+    }
+  ],
+  "enemy_3005_lpeopl": [
+    {
+      "hp": 5000,
+      "atk": 0,
+      "def": 50,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.65,
+      "atkInterval": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1335_bldrat": [
+    {
+      "hp": 2200,
+      "atk": 300,
+      "def": 100,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 1.7,
+      "atkInterval": 1.4,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1335_bldrat_2": [
+    {
+      "hp": 3500,
+      "atk": 350,
+      "def": 120,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 1.7,
+      "atkInterval": 1.4,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1336_bldbat": [
+    {
+      "hp": 3500,
+      "atk": 150,
+      "def": 120,
+      "res": 20,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "atkRange": 1.5
+    }
+  ],
+  "enemy_1336_bldbat_2": [
+    {
+      "hp": 4500,
+      "atk": 200,
+      "def": 150,
+      "res": 20,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "atkRange": 1.5
+    }
+  ],
+  "enemy_1337_bhrknf": [
+    {
+      "hp": 5500,
+      "atk": 350,
+      "def": 400,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 2,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1337_bhrknf_2": [
+    {
+      "hp": 7000,
+      "atk": 450,
+      "def": 450,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 2,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1338_bhrjst": [
+    {
+      "hp": 5300,
+      "atk": 500,
+      "def": 330,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 2,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1338_bhrjst_2": [
+    {
+      "hp": 7300,
+      "atk": 600,
+      "def": 350,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 2,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1339_bhrgrd": [
+    {
+      "hp": 20000,
+      "atk": 500,
+      "def": 800,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1339_bhrgrd_2": [
+    {
+      "hp": 25000,
+      "atk": 500,
+      "def": 1000,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1340_bthtbw": [
+    {
+      "hp": 15000,
+      "atk": 500,
+      "def": 500,
+      "res": 30,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "atkRange": 2.8
+    }
+  ],
+  "enemy_1340_bthtbw_2": [
+    {
+      "hp": 20000,
+      "atk": 600,
+      "def": 600,
+      "res": 30,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "atkRange": 2.8
+    }
+  ],
+  "enemy_1341_bthtms": [
+    {
+      "hp": 15000,
+      "atk": 650,
+      "def": 500,
+      "res": 50,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 2.5,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1341_bthtms_2": [
+    {
+      "hp": 20000,
+      "atk": 750,
+      "def": 600,
+      "res": 50,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 2.5,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1342_frtuna": [
+    {
+      "hp": 35000,
+      "atk": 700,
+      "def": 400,
+      "res": 50,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "atkRange": 1.8
+    }
+  ],
+  "enemy_1544_cledub": [
+    {
+      "hp": 800,
+      "atk": 100,
+      "def": 0,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 800,
+      "atk": 100,
+      "def": 0,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 0,
+      "atkRange": 0
     }
   ]
 }
