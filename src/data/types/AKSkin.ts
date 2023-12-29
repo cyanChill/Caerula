@@ -1,20 +1,24 @@
-import type { BrandIds } from "./typesFrom";
+import type { BrandIds, SkinIds } from "./typesFrom";
+import type { OperatorId } from "./AKCharacter";
 
 export type BrandId = (typeof BrandIds)[number];
+export type SkinId = (typeof SkinIds)[number];
 
 export interface Brand {
   id: BrandId;
   name: string;
-  capitalName: string;
+  altName: string; // Capitalized version of `name` that might include more info
   description: string;
 }
 
-export interface OperatorSkin {
-  id: string;
-  name: string;
-  alt: string;
-  brandId: BrandId;
+export interface Skin {
+  id: SkinId;
+  usedBy: OperatorId;
+  brandId: BrandId | null;
   subBrand: { id: string; name: string };
-  artists: string[] | null;
+  name: string;
+  imgAlt: string;
   description: string | null;
+  artists: string[] | null; // Currently, array contains only 1 artist
+  releasedAt: number;
 }

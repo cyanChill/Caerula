@@ -1,4 +1,4 @@
-import type { OperatorId } from "@/data/types/AKOperator";
+import type { OperatorId } from "@/data/types/AKCharacter";
 
 export const OpSlugTable = {
   "lancet-2": "char_285_medic2",
@@ -125,6 +125,7 @@ export const OpSlugTable = {
   "stormeye": "char_511_asnipe",
   "april": "char_365_aprl",
   "kroos_the_keen_glint": "char_1021_kroos2",
+  "insider": "char_498_inside",
   "meteorite": "char_219_meteo",
   "sesa": "char_379_sesa",
   "jieyun": "char_4078_bdhkgt",
@@ -188,6 +189,7 @@ export const OpSlugTable = {
   "toddifons": "char_363_toddi",
   "erato": "char_4043_erato",
   "greyy_the_lightningbearer": "char_1027_greyy2",
+  "spuria": "char_4015_spuria",
   "cliffheart": "char_173_slchan",
   "snowsant": "char_383_snsant",
   "pramanix": "char_174_slbell",
@@ -283,6 +285,7 @@ export const OpSlugTable = {
   "hellagur": "char_188_helage",
   "pallas": "char_485_pallas",
   "nearl_the_radiant_knight": "char_1014_nearl2",
+  "executor_the_ex_foedere": "char_1032_excu2",
   "mlynar": "char_4064_mlynar",
   "savage": "char_230_savage",
   "catapult": "char_282_catap",

@@ -28,6 +28,9 @@ jobs:
           # Types are stored in the `/data` folder
           sparse-checkout: |
             data
+      - name: Remove old content inside `src/data`
+        run: |
+          rm -r main/src/data/*
       - name: Copy files over to `cyanChill/Caerula`
         run: |
           cp -a caerula-data/data/. main/src/data/

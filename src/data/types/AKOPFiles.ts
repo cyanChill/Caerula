@@ -1,5 +1,7 @@
+import type { UnlockCondition } from "./shared";
+
 /** @description A section of the Operator Files. */
-export interface OpPersonalFile {
+export interface OpFile {
   title: string;
   text: string;
   unlockCond:
@@ -10,15 +12,15 @@ export interface OpPersonalFile {
 
 /** @description An entry of Operator Records. */
 export interface OpRecord {
-  name: string;
-  description: string[];
-  unlockCond: { elite: number; lvl: number };
+  title: string;
+  text: string[];
+  unlockCond: UnlockCondition;
   trustUnlock: number;
 }
 
 /** @description An entry of Operator Paradox Simulators. */
 export interface OpParadox {
-  name: string;
+  title: string;
   text: string;
-  unlockCond: { elite: number; lvl: number };
+  unlockCond: UnlockCondition;
 }

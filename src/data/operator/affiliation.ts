@@ -1,9 +1,5 @@
 import type { FactionId, NationId, TeamId } from "@/data/types/AKAffiliation";
 
-type NonNullNationId = Exclude<NationId, null>;
-type NonNullFactionId = Exclude<FactionId, null>;
-type NonNullTeamId = Exclude<TeamId, null>;
-
 export const NationInfo = {
   bolivar: { id: "bolivar", name: "Bolívar" },
   columbia: { id: "columbia", name: "Columbia" },
@@ -24,7 +20,7 @@ export const NationInfo = {
   ursus: { id: "ursus", name: "Ursus" },
   victoria: { id: "victoria", name: "Victoria" },
   yan: { id: "yan", name: "Yan" },
-} as Record<NonNullNationId, { id: NonNullNationId; name: string }>;
+} as Record<NationId, { id: NationId; name: string }>;
 
 export const FactionInfo = {
   abyssal: { id: "abyssal", nationId: "egir", name: "Abyssal Hunters" },
@@ -46,8 +42,8 @@ export const FactionInfo = {
   sui: { id: "sui", nationId: "yan", name: "Sui" },
   sweep: { id: "sweep", nationId: "rhodes", name: "S.W.E.E.P." },
 } as Record<
-  NonNullFactionId,
-  { id: NonNullFactionId; nationId: NationId; name: string }
+  FactionId,
+  { id: FactionId; nationId: NationId | null; name: string }
 >;
 
 export const TeamInfo = {
@@ -64,7 +60,4 @@ export const TeamInfo = {
     nationId: "ursus",
     name: "Ursus Student Self-Governing Group",
   },
-} as Record<
-  NonNullTeamId,
-  { id: NonNullTeamId; nationId: NationId; name: string }
->;
+} as Record<TeamId, { id: TeamId; nationId: NationId | null; name: string }>;

@@ -8,17 +8,17 @@ export const VoiceLangTable = {
   ITA: "IT",
 } as const;
 
-export type VoiceLangId = keyof typeof VoiceLangTable;
-export type VoiceLang = (typeof VoiceLangTable)[VoiceLangId];
+export type LanguageId = keyof typeof VoiceLangTable;
+export type Language = (typeof VoiceLangTable)[LanguageId];
 
-export interface VoiceLine {
+export interface CharacterVoice {
+  langId: LanguageId;
+  actors: string[];
+}
+
+export interface DialogueLine {
   sortId: number;
   title: string;
   text: string;
   unlockCond: { type: "trust" | "promotion"; val: number } | null;
-}
-
-export interface VoiceActor {
-  langId: VoiceLangId;
-  actor: string[];
 }

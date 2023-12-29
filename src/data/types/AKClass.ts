@@ -1,19 +1,15 @@
-import type { Professions } from "./typesFrom";
-
+import type { ProfessionTable } from "./typesFrom";
+import type { AttackPosition } from "./shared";
 import type { RangeId } from "./AKRange";
-import type { Position } from "./AKOperator";
 
-/** @description The class an operator belongs to. */
-export type Profession = keyof typeof Professions;
-/** @description The subclasses/branches associated with a specific profession. */
-export type SubClass<T extends Profession> = (typeof Professions)[T][number];
+export type ProfessionId = keyof typeof ProfessionTable;
+export type BranchId = (typeof ProfessionTable)[ProfessionId][number];
 
 /** @description Object going in-depth about a specific subclass. */
 export type Branch = {
-  id: SubClass<Profession>;
+  id: BranchId;
   name: string;
-  position: Position;
+  position: AttackPosition;
   range: RangeId[];
   trait: string;
-  costIncrease: [number, number, number];
 };
