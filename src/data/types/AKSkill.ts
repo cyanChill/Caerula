@@ -1,18 +1,13 @@
-import type { SkillIds, SkillIconIds } from "./typesFrom";
+import type { SkillIds } from "./typesFrom";
 
 import type { RangeId } from "./AKRange";
 
 export type SkillId = (typeof SkillIds)[number];
-/**
- * @description Used to identify the icon file for skill if it's not null
- *  (ie: SkillId isn't used as the icon file identifier).
- */
-export type SkillIconId = (typeof SkillIconIds)[number];
 
 /** @description The final object representing an operator skill. */
 export interface Skill {
   id: SkillId;
-  iconId: SkillId | Exclude<SkillIconId, null>;
+  iconId: string;
   name: string;
   // Populated the description with the appropriate template value
   description: string[];

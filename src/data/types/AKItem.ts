@@ -1,6 +1,5 @@
 import type { ItemIds } from "./typesFrom";
-
-import type { Rarity } from "./AKOperator";
+import type { Rarity } from "./shared";
 
 export type ItemId = (typeof ItemIds)[number];
 
