@@ -5,14 +5,22 @@ type TrackedKeyEvents = "keydown" | "keypress" | "keyup";
 
 type Options = {
   /** Keyboard events that we can listen to. */
-  eventTypes: TrackedKeyEvents[];
+  eventTypes?: TrackedKeyEvents[];
+  /** Whether we have `e.preventDefault()` called before our callback. */
+  preventDefault?: boolean;
   /** Defaults to window object as target. */
   target?: RefObject<HTMLElement>;
+  /** Determines when the events will occur. */
+  when?: boolean;
 };
 
 type Callback = (event: KeyboardEvent) => void;
 
-const defaultOptions: Options = { eventTypes: ["keydown"] };
+const defaultOptions = {
+  eventTypes: ["keydown"] as TrackedKeyEvents[],
+  preventDefault: true,
+  when: true,
+};
 
 /** Fires a callback on keyboard events. */
 export function useKey(
@@ -27,7 +35,7 @@ export function useKey(
   const internalOptions = useMemo(() => {
     return { ...defaultOptions, ...options };
   }, [options]);
-  const { eventTypes, target } = internalOptions;
+  const { eventTypes, preventDefault, target, when } = internalOptions;
   const cbRef = useRef<Callback>(callback);
 
   useEffect(() => {
@@ -36,13 +44,16 @@ export function useKey(
 
   const handle = useCallback(
     (e: KeyboardEvent) => {
-      if (keyList.some((key) => key === e.code)) cbRef.current(e);
+      if (keyList.some((key) => key === e.code)) {
+        if (preventDefault) e.preventDefault();
+        cbRef.current(e);
+      }
     },
-    [keyList],
+    [keyList, preventDefault],
   );
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
+    if (when && typeof window !== "undefined") {
       if (target) {
         const targetNode = target.current;
         if (targetNode) {
@@ -66,5 +77,5 @@ export function useKey(
         };
       }
     }
-  }, [eventTypes, keyList, target, callback, handle]);
+  }, [when, eventTypes, keyList, target, callback, handle]);
 }
