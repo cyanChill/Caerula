@@ -6,7 +6,6 @@ import { ArrowTopRight } from "@/assets/svgs/direction";
 import { Pinwheel } from "@/assets/svgs/shapes";
 
 import type { Operator } from "@/data/types/AKCharacter";
-import { ProfessionMap } from "@/data/operator/classes";
 import { useTabListEvents } from "@/hooks/useTabListEvents";
 
 import { cn } from "@/lib/style";
@@ -17,8 +16,8 @@ import Rarity from "@/components/accents/Rarity";
 interface Props {
   operators: (Pick<
     Operator,
-    "id" | "slug" | "name" | "rarity" | "type" | "profession" | "branch"
-  > & { description: string })[];
+    "id" | "slug" | "name" | "rarity" | "type" | "branch"
+  > & { profession: string; description: string })[];
 }
 
 export default function OperatorPreviewTabs({ operators }: Props) {
@@ -36,7 +35,7 @@ export default function OperatorPreviewTabs({ operators }: Props) {
         role="tabpanel"
         aria-labelledby={`op-tt-${currOperator.id}`}
         className={cn(
-          "grid max-w-screen-2xl grid-cols-[minmax(0,1fr)_auto] gap-4 @sm:grid-cols-[auto_auto_minmax(0,1fr)]",
+          "grid grid-cols-[minmax(0,1fr)_auto] gap-4 @sm:grid-cols-[auto_auto_minmax(0,1fr)]",
           "text-[clamp(0.75rem,1.25cqw,1.75rem)]",
         )}
       >
@@ -60,9 +59,7 @@ export default function OperatorPreviewTabs({ operators }: Props) {
             )}
           >
             <Image
-              src={`/operator/class/${ProfessionMap[
-                currOperator.profession
-              ].toLowerCase()}.webp`}
+              src={`/operator/class/${currOperator.profession.toLowerCase()}.webp`}
               alt=""
               width={96}
               height={96}
@@ -124,36 +121,34 @@ export default function OperatorPreviewTabs({ operators }: Props) {
         </div>
       </div>
 
-      <div className="max-w-screen-2xl">
-        <div
-          ref={tabListRef}
-          role="tablist"
-          aria-label="Latest Operator Gallery"
-          aria-orientation="horizontal"
-          className="flex-center mx-auto my-4 max-w-96 gap-2"
-        >
-          {operators.map((op, idx) => {
-            const selected = idx === currIdx;
-            return (
-              <button
-                key={op.id}
-                id={`op-tt-${op.id}`}
-                type="button"
-                role="tab"
-                aria-label={op.name}
-                aria-selected={selected}
-                aria-controls={`op-tp-${op.id}`}
-                tabIndex={selected ? 0 : -1}
-                onClick={() => setIdx(idx)}
-                className={cn(
-                  "aspect-[8/1] h-1.5 rounded-full bg-dust-85",
-                  "transition-[flex,background_color] duration-500",
-                  { "flex-1 bg-white": selected },
-                )}
-              ></button>
-            );
-          })}
-        </div>
+      <div
+        ref={tabListRef}
+        role="tablist"
+        aria-label="Latest Operator Gallery"
+        aria-orientation="horizontal"
+        className="flex-center mx-auto my-4 max-w-96 gap-2"
+      >
+        {operators.map((op, idx) => {
+          const selected = idx === currIdx;
+          return (
+            <button
+              key={op.id}
+              id={`op-tt-${op.id}`}
+              type="button"
+              role="tab"
+              aria-label={op.name}
+              aria-selected={selected}
+              aria-controls={`op-tp-${op.id}`}
+              tabIndex={selected ? 0 : -1}
+              onClick={() => setIdx(idx)}
+              className={cn(
+                "aspect-[8/1] h-1.5 rounded-full bg-dust-85",
+                "transition-[flex,background_color] duration-500",
+                { "flex-1 bg-white": selected },
+              )}
+            ></button>
+          );
+        })}
       </div>
     </>
   );

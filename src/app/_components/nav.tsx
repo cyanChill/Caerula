@@ -109,7 +109,7 @@ export function NavList({ withHome = false }: NavListProps) {
   const items = withHome ? navConfigs : navConfigs.toSpliced(0, 1);
 
   return (
-    <ul className="grid max-w-screen-2xl auto-rows-fr gap-2 @[15.5rem]:grid-cols-2 @md:gap-4 @3xl:grid-cols-3">
+    <ul className="grid auto-rows-fr gap-2 @[15.5rem]:grid-cols-2 @md:gap-4 @3xl:grid-cols-3">
       {items.map(({ external, type, title, href, icon, theme }) => {
         const IndicatorIcon = external ? Rocket : ArrowTopRight;
         const currStyle = navItemStyles[type];

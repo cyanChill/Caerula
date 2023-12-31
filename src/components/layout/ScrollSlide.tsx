@@ -1,5 +1,5 @@
 "use client";
-import { useState, useRef } from "react";
+import { useState, useRef, useMemo } from "react";
 
 import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
 
@@ -20,16 +20,27 @@ interface SectionMeta {
 
 interface ScrollSlideProps {
   sections: SectionMeta[];
+  options?: { widthLimit?: boolean };
 }
 
-export function ScrollSlide({ sections }: ScrollSlideProps) {
+const defaultOptions = {
+  widthLimit: true,
+};
+
+export function ScrollSlide({ sections, options }: ScrollSlideProps) {
   const [currSection, setCurrSection] = useState("");
+
+  const internalOptions = useMemo(() => {
+    return { ...options, ...defaultOptions };
+  }, [options]);
+  const { widthLimit } = internalOptions;
 
   return (
     <main className="grid-cols-10 gap-5 sm:mx-[max(1.5rem,3cqw)] lg:grid xl:grid-cols-12">
       {sections.map((meta) => (
         <SlideSection
           key={meta.id}
+          widthLimit={widthLimit}
           activeId={currSection}
           setActiveId={setCurrSection}
           {...meta}
@@ -55,11 +66,13 @@ export function ScrollSlide({ sections }: ScrollSlideProps) {
 }
 
 interface SlideSectionProps extends SectionMeta {
+  widthLimit: boolean;
   activeId: string;
   setActiveId: (id: string) => void;
 }
 
 function SlideSection({
+  widthLimit,
   activeId,
   setActiveId,
   id,
@@ -124,7 +137,9 @@ function SlideSection({
           "px-[max(1rem,1cqw)] py-[5svh] lg:py-[10svh]",
         )}
       >
-        {sectionMeta.content}
+        <div className={cn({ "max-w-screen-2xl": widthLimit })}>
+          {sectionMeta.content}
+        </div>
         <div
           className={cn(
             "absolute left-1/2 top-0 -z-[1] size-full -translate-x-1/2 bg-gradient-radial to-60% opacity-25",

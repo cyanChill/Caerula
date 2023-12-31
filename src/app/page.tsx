@@ -5,10 +5,12 @@ import ProfileTable from "@/data/operator/profile/profileTable.json";
 import { ScrollSlide } from "@/components/layout/ScrollSlide";
 import { NavList } from "./_components/nav";
 import OperatorPreviewTabs from "./_components/operatorPreviewTabs";
+import { ProfessionMap } from "@/data/operator/classes";
 
 export default function Home() {
   const operators = LatestStore["latest-operator-ids"].map((id) => {
-    const { slug, name, rarity, type, profession, branch } = OperatorTable[id];
+    const { slug, name, rarity, type, branch, ...rest } = OperatorTable[id];
+    const profession = ProfessionMap[rest.profession];
     const description =
       ProfileTable.fileTable[id].find(({ title }) => title === "Profile")
         ?.text ?? "";
