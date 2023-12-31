@@ -34,72 +34,71 @@ export default function OperatorPreviewTabs({ operators }: Props) {
         id={`op-tp-${currOperator.id}`}
         role="tabpanel"
         aria-labelledby={`op-tt-${currOperator.id}`}
-        className={cn(
-          "grid grid-cols-[minmax(0,1fr)_auto] gap-4 @sm:grid-cols-[auto_auto_minmax(0,1fr)]",
-          "text-[clamp(0.75rem,1.25cqw,1.75rem)]",
-        )}
+        className="grid gap-4 @xs:grid-cols-[auto_minmax(0,1fr)]"
       >
-        <div className="drop-shadow-xl @lg:w-60">
+        <div
+          className={cn(
+            "mr-auto flex rounded-2xl drop-shadow-xl backdrop-blur-xl",
+            "bg-gradient-to-b from-[#100f24] to-[#0a091b] to-80%",
+          )}
+        >
           <PsychedelicImg
             src={`/operator/portrait/${currOperator.id}_${
               currOperator.rarity > 3 ? 2 : 1
             }.webp`}
             width={180}
             height={360}
-            classNames={{ wrapper: "h-full", image: "object-cover" }}
+            classNames={{ wrapper: "h-full @lg:w-60", image: "object-cover" }}
           />
-        </div>
 
-        <div className="flex w-[clamp(4rem,25cqw,6rem)] flex-col gap-4">
-          <div
-            className={cn(
-              "flex flex-1 flex-col items-center justify-evenly gap-2 p-[0.75em]",
-              "rounded-2xl drop-shadow-xl backdrop-blur-xl",
-              "bg-gradient-to-b from-[#1E1B4B] to-[#0a091b] to-75%",
-            )}
-          >
+          <div className="flex w-[clamp(2rem,25cqw,4.5rem)] flex-col justify-evenly gap-2">
             <Image
               src={`/operator/class/${currOperator.profession.toLowerCase()}.webp`}
               alt=""
               width={96}
               height={96}
+              className="mt-2 p-1 @xs:p-2"
             />
             <Image
               src={`/operator/subclass/sub_${currOperator.branch}_icon.webp`}
               alt=""
               width={96}
               height={96}
+              className="mb-auto p-1 @xs:p-2"
             />
+            <ELink
+              aria-label={`Go to ${currOperator.name}'s page.`}
+              href={`/operator/${currOperator.slug}`}
+              className={cn(
+                "flex-center aspect-square rounded-2xl p-1 backdrop-blur-xl @xs:p-2",
+                "bg-gradient-to-tr from-[#355E3B]/50 to-[#87A96B]/50 hover:brightness-125",
+              )}
+            >
+              <ArrowTopRight thin />
+            </ELink>
           </div>
-
-          <ELink
-            aria-label={`Go to ${currOperator.name}'s page.`}
-            href={`/operator/${currOperator.slug}`}
-            className={cn(
-              "flex-center aspect-square rounded-2xl p-[0.75em] backdrop-blur-xl",
-              "bg-gradient-to-tr from-[#355E3B]/50 to-[#87A96B]/50 drop-shadow-xl",
-              "hover:brightness-125",
-            )}
-          >
-            <ArrowTopRight thin />
-          </ELink>
         </div>
 
         <div
           className={cn(
-            "col-span-full row-start-2 px-[1.5em] py-[1em] @container @2xl:w-3/4",
+            "col-span-full row-start-2 p-4 @container @xs:px-6 @2xl:w-3/4",
             "flex flex-col gap-2 rounded-2xl drop-shadow-xl backdrop-blur-xl",
             "bg-gradient-to-b from-dust-165 from-10% to-dust-100/50",
           )}
         >
-          <p className="inline-flex h-[1.25em] items-center gap-1 self-end font-semibold text-[#CF9FFF]">
+          <p className="inline-flex h-5 items-center gap-1 self-end font-semibold text-[#CF9FFF]">
             {currOperator.type === "limited" && (
               <>
                 <Pinwheel className="size-full" /> Limited
               </>
             )}
           </p>
-          <p className="inline-flex min-h-[2lh] items-end font-array text-[clamp(1.5rem,7cqw,3rem)] font-bold uppercase leading-none tracking-wider">
+          <p
+            className={cn(
+              "inline-flex min-h-[2lh] items-end text-[clamp(1.5rem,7cqw,3rem)]",
+              "font-array font-bold uppercase leading-none tracking-wider",
+            )}
+          >
             {currOperator.name}
           </p>
           <Rarity
@@ -111,8 +110,9 @@ export default function OperatorPreviewTabs({ operators }: Props) {
         {/* When the container passes a certain width, have it move to a new row */}
         <div
           className={cn(
-            "col-span-full row-start-3 rounded-2xl p-[1em] @xl:col-start-3 @xl:row-start-1",
-            "border border-dust-150/75 bg-dust-150/75 drop-shadow-xl backdrop-blur-xl",
+            "col-span-full row-start-3 p-[1em] @xl:col-start-2 @xl:row-start-1",
+            "rounded-2xl text-[clamp(0.8rem,1.25cqw,1.75rem)] drop-shadow-xl backdrop-blur-xl",
+            "border border-dust-150/75 bg-dust-150/75",
           )}
         >
           <p className="line-clamp-6 @xl:line-clamp-none">
