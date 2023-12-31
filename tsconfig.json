@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    // https://www.typescriptlang.org/tsconfig#allowArbitraryExtensions
+    "allowArbitraryExtensions": true,
     "target": "es2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,

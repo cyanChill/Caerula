@@ -1,5 +1,6 @@
-import { cn } from "@/lib/style";
 import { ChevronDown } from "@/assets/svgs/direction";
+
+import { cn } from "@/lib/style";
 
 interface Props {
   glowRatio?: string;

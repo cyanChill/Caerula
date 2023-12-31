@@ -22,7 +22,7 @@ export default function PsychedelicImg({
       className={cn(
         "rounded-2xl",
         classNames?.wrapper,
-        "relative aspect-square overflow-clip",
+        "relative overflow-clip",
       )}
     >
       <Image

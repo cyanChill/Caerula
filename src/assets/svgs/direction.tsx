@@ -1,11 +1,17 @@
-export function ArrowTopRight({ className }: { className?: string }) {
+export function ArrowTopRight({
+  thin,
+  className,
+}: {
+  thin?: boolean;
+  className?: string;
+}) {
   return (
     <svg
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       fill="none"
-      strokeWidth={1.5}
+      strokeWidth={thin ? 1 : 1.5}
       stroke="currentColor"
       className={className}
     >
