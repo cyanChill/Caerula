@@ -6,6 +6,7 @@ import { ArrowTopRight } from "@/assets/svgs/direction";
 import { Pinwheel } from "@/assets/svgs/shapes";
 
 import type { Operator } from "@/data/types/AKCharacter";
+import { useInterval } from "@/hooks/useInterval";
 import { useTabListEvents } from "@/hooks/useTabListEvents";
 
 import { cn } from "@/lib/style";
@@ -24,6 +25,12 @@ export default function OperatorPreviewTabs({ operators }: Props) {
   const tabListRef = useRef<HTMLDivElement>(null);
   const [currIdx, setIdx] = useState(0);
 
+  // Run interval once a minute
+  useInterval(
+    () => setIdx((prev) => (prev + 1 + operators.length) % operators.length),
+    60000,
+    { resetDependency: currIdx },
+  );
   useTabListEvents(tabListRef, setIdx, { tabCount: operators.length });
 
   const currOperator = operators[currIdx];
