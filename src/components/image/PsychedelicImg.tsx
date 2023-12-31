@@ -30,7 +30,7 @@ export default function PsychedelicImg({
         {...props}
         className={cn(
           classNames?.image,
-          "gradient-psychedelic size-full backdrop-blur-xl",
+          "gradient-psychedelic size-full backdrop-blur-2xl",
         )}
       />
       {/* Background blur image */}
@@ -40,7 +40,7 @@ export default function PsychedelicImg({
         {...props}
         className={cn(
           classNames?.image,
-          "absolute left-1/2 top-0 -z-[1] size-full origin-top -translate-x-1/2 scale-[200%]",
+          "absolute left-1/2 top-0 -z-[1] size-full origin-top -translate-x-1/2 scale-[200%] opacity-20",
         )}
       />
     </div>

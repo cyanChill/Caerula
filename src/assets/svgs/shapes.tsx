@@ -104,3 +104,41 @@ export function SquareBricks({ className }: { className?: string }) {
     </svg>
   );
 }
+
+export function Star({ className }: { className?: string }) {
+  return (
+    <svg
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 350 350"
+      fill="none"
+      className={className}
+    >
+      <path
+        d="M8.43739 341.563C89.9026 245.595 89.9026 104.405 8.43737 8.43737C104.405 89.9026 245.595 89.9026 341.563 8.43739C260.097 104.405 260.097 245.595 341.563 341.563C245.595 260.097 104.405 260.097 8.43739 341.563Z"
+        fill="currentColor"
+        stroke="currentColor"
+        strokeWidth="1.4"
+      />
+    </svg>
+  );
+}
+
+export function Pinwheel({ className }: { className?: string }) {
+  return (
+    <svg
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 400 400"
+      fill="none"
+      className={className}
+    >
+      <path
+        d="M188.64 399.713L140.205 372.631L140.226 372.596L224.777 235.201L264.106 257.225L188.64 399.713ZM136.093 142.778L211.031 0.289751L258.943 27.8911L258.917 27.9327L174.369 165.324L136.093 142.778ZM280.193 172.77L367.796 308.396L319.356 336.828H319.007L241.387 195.844L280.193 172.77ZM21.2092 234.607L182.171 239.357L183.22 283.927L21.2092 290.787V234.921V234.607ZM216.976 116.073L378.994 109.213L379.519 164.87H379.203H379.201L216.976 161.171V116.073ZM118.952 226.701L32.4033 90.546L80.1791 62.1955L157.228 204.155L118.952 226.701Z"
+        fill="currentColor"
+        stroke="currentColor"
+        strokeWidth="0.418333"
+      />
+    </svg>
+  );
+}
