@@ -17,8 +17,8 @@ import Rarity from "@/components/accents/Rarity";
 interface Props {
   operators: (Pick<
     Operator,
-    "id" | "slug" | "name" | "rarity" | "type" | "branch"
-  > & { profession: string; description: string })[];
+    "id" | "slug" | "name" | "rarity" | "type" | "profession" | "branch"
+  > & { description: string })[];
 }
 
 export default function OperatorPreviewTabs({ operators }: Props) {
