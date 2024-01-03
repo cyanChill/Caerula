@@ -40,7 +40,7 @@ const navConfigs: NavConfigItem[] = [
         className="size-full"
       />
     ),
-    theme: { primary: "bg-caerula-80 border-caerula-80/75" },
+    theme: { primary: "bg-[#334C69] border-[#334C69]/75" },
   },
   {
     title: "Operator Network",
@@ -48,7 +48,7 @@ const navConfigs: NavConfigItem[] = [
     type: "large",
     icon: <CircleWaves />,
     theme: {
-      primary: "bg-caerula-100 border-caerula-100/75",
+      primary: "bg-[#001F44] border-[#001F44]/75",
       button: "bg-yellow-500",
     },
   },
@@ -92,7 +92,7 @@ const navItemStyles = {
   large: {
     wrapper: "row-span-5",
     container: "gap-[0.25em] lg:grid-rows-7",
-    icon: "w-[40cqw] text-dust-150",
+    icon: "w-[40cqw] text-[#131313]",
   },
   shared: {
     title:
@@ -125,7 +125,7 @@ export function NavList({ withHome = false }: NavListProps) {
                 "grid h-full rounded-[0.375em] border-[0.075em] p-[0.25em] text-cq-heading-3",
                 "bg-opacity-50 shadow-[0_0.05em_0.1em_#00000040] backdrop-blur-2xl",
                 "transition duration-500 hover:bg-opacity-75",
-                theme?.primary ?? "border-dust-100/75 bg-dust-100",
+                theme?.primary ?? "border-[#262626]/75 bg-[#262626]",
               )}
             >
               <div
@@ -133,8 +133,8 @@ export function NavList({ withHome = false }: NavListProps) {
                   // tailwind-merge doesn't correctly merge `row-span-*` classes
                   type === "large" ? "row-span-4" : "row-span-full",
                   "flex-center rounded-[0.2em] p-[0.25em]",
-                  theme?.primary.split(" ")[0] ?? "bg-dust-100",
-                  { "bg-dust-20": type === "large" || title === "GitHub" },
+                  theme?.primary.split(" ")[0] ?? "bg-[#262626]",
+                  { "bg-[#D9D9D9]": type === "large" || title === "GitHub" },
                 )}
               >
                 <div className={currStyle.icon}>{icon}</div>

@@ -90,7 +90,7 @@ export default function OperatorPreviewTabs({ operators }: Props) {
           className={cn(
             "col-span-full row-start-2 p-4 @container @xs:px-6 @2xl:w-3/4",
             "flex flex-col gap-2 rounded-2xl drop-shadow-xl backdrop-blur-xl",
-            "bg-gradient-to-b from-dust-165 from-10% to-dust-100/50",
+            "bg-gradient-to-b from-[#0E0E0C] from-10% to-[#262626]/50",
           )}
         >
           <p className="inline-flex h-5 items-center gap-1 self-end font-semibold text-[#CF9FFF]">
@@ -119,10 +119,10 @@ export default function OperatorPreviewTabs({ operators }: Props) {
           className={cn(
             "col-span-full row-start-3 p-[1em] @xl:col-start-2 @xl:row-start-1",
             "rounded-2xl text-[clamp(0.8rem,1.25cqw,1.75rem)] drop-shadow-xl backdrop-blur-xl",
-            "border border-dust-150/75 bg-dust-150/75",
+            "border border-[#131313]/75 bg-[#131313]/75",
           )}
         >
-          <p className="line-clamp-6 @xl:line-clamp-none">
+          <p className="line-clamp-6 whitespace-pre-line @xl:line-clamp-none">
             {currOperator.description}
           </p>
         </div>
@@ -149,7 +149,7 @@ export default function OperatorPreviewTabs({ operators }: Props) {
               tabIndex={selected ? 0 : -1}
               onClick={() => setIdx(idx)}
               className={cn(
-                "aspect-[8/1] h-1.5 rounded-full bg-dust-85",
+                "aspect-[8/1] h-1.5 rounded-full bg-[#4D4D4D]",
                 "transition-[flex,background_color] duration-500",
                 { "flex-1 bg-white": selected },
               )}

@@ -123,7 +123,7 @@ function SlideSection({
               "[text-shadow:0_0_4em_#FF00D6]",
             )}
           >
-            <span className="text-caerula-40">{sectionMeta.description}</span>
+            <span className="text-[#99A5B4]">{sectionMeta.description}</span>
           </p>
           {sectionMeta.extraInfo}
         </div>

@@ -34,7 +34,7 @@ export function Navbar() {
           "font-array text-[clamp(0.8rem,0.75vw,4rem)] leading-none tracking-[0.175em]",
           "rounded-r-[0.675em] border-[0.125em] border-l-0 border-white",
           "shadow-[0_0_0.5em_0.1em_#95E6FF] [text-shadow:0_0_0.5em_#95E6FF]",
-          "bg-caerula-180 transition duration-500 hover:brightness-200",
+          "bg-[#00060E] transition duration-500 hover:brightness-200",
         )}
       >
         MENU
@@ -66,7 +66,7 @@ export function Navbar() {
               "rounded-[max(0.25rem,0.5em)] border-[0.125em] border-current",
             )}
           >
-            <span className="inline-flex aspect-square items-center rounded-[0.25em] bg-white/75 p-[0.125em] text-caerula-180">
+            <span className="inline-flex aspect-square items-center rounded-[0.25em] bg-white/75 p-[0.125em] text-black">
               Esc
             </span>{" "}
             or &quot;Click&quot; to close menu.
