@@ -17,7 +17,7 @@ interface Props {
 
 export default function NewArrivals({ skins }: Props) {
   return (
-    <div className="grid gap-2 [--min-col-size:32rem] @xs:grid-cols-2 lg:grid-cols-autoFit lg:gap-4">
+    <div className="grid gap-2 [--min-col-size:32rem] @sm:grid-cols-2 lg:grid-cols-autoFit lg:gap-4">
       {skins.map(({ id, name, imgAlt, description, artists, opName, slug }) => (
         <article key={id} className="mx-auto w-full max-w-[45rem] @container">
           <div

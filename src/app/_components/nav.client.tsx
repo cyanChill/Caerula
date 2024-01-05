@@ -44,7 +44,7 @@ export function Navbar() {
         onClick={() => setNavVisibility(false)}
         className={cn(
           "pointer-events-none fixed inset-0 z-20 overflow-clip",
-          "bg-black/75 opacity-0 backdrop-blur-2xl transition-opacity duration-500",
+          "bg-black/50 opacity-0 backdrop-blur-2xl transition-opacity duration-500",
           { "pointer-events-auto opacity-100": show },
         )}
       >
