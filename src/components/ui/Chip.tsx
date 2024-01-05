@@ -72,11 +72,12 @@ const chipVariants = cva(
 interface Props extends ChipConfig {
   icon: React.ReactNode;
   children: React.ReactNode;
+  className?: string;
 }
 
-export default function Chip({ icon, children, ...config }: Props) {
+export default function Chip({ icon, children, className, ...config }: Props) {
   return (
-    <div className={cn(chipVariants({ ...config }))}>
+    <div className={cn(chipVariants({ ...config }), className)}>
       <span className="flex-center">{icon}</span>
       <span className="pl-[0.325em]">{children}</span>
     </div>
