@@ -50,7 +50,7 @@ export function ScrollSlide({ sections, options }: ScrollSlideProps) {
       {/* Left Cell border */}
       <div
         className={cn(
-          "pointer-events-none sticky top-[5svh] col-span-3 col-start-1 row-span-full mb-[5svh] max-h-[90svh] @container max-lg:hidden",
+          "pointer-events-none sticky top-[5dvh] col-span-3 col-start-1 row-span-full mb-[5dvh] max-h-[90dvh] @container max-lg:hidden",
           // Gradient Border
           "before:border-mask before:absolute before:inset-0 before:z-[1] before:pr-[max(0.0625rem,0.25cqw)]",
           "before:rounded-br-[max(1rem,1cqw)] before:bg-gradient-to-b before:from-white/50 before:to-white/10",
@@ -100,9 +100,9 @@ function SlideSection({
     <>
       <div
         className={cn(
-          "col-span-3 col-start-1 row-span-full @container lg:max-h-[90svh]",
-          "grid grid-rows-[auto_minmax(0,1fr)] lg:sticky lg:top-[5svh]",
-          "px-[max(1rem,1cqw)] pt-[max(2.5rem,15svh)] lg:mb-[5svh]",
+          "col-span-3 col-start-1 row-span-full @container lg:max-h-[90dvh]",
+          "grid grid-rows-[auto_minmax(0,1fr)] lg:sticky lg:top-[5dvh]",
+          "px-[max(1rem,1cqw)] pt-[max(2.5rem,15svh)] lg:mb-[5dvh]",
           "transition-opacity duration-500 ease-in-out lg:pointer-events-none lg:opacity-0",
           { "lg:pointer-events-auto lg:opacity-100": activeId === id },
         )}
@@ -133,7 +133,7 @@ function SlideSection({
         ref={sectionRef}
         aria-labelledby={id}
         className={cn(
-          "relative col-span-9 col-start-4 @container lg:min-h-svh",
+          "relative col-span-9 col-start-4 @container lg:min-h-dvh",
           "px-[max(1rem,1cqw)] py-[5svh] lg:py-[10svh]",
         )}
       >
