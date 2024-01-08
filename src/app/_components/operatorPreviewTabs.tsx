@@ -43,7 +43,7 @@ export default function OperatorPreviewTabs({ operators }: Props) {
         role="tablist"
         aria-label="Latest Operator Carousel"
         aria-orientation="horizontal"
-        className="flex-center row-start-2 mx-auto my-4 w-full max-w-96 gap-2"
+        className="flex-center row-start-2 mx-auto my-4 w-full max-w-96 flex-wrap gap-2"
       >
         {operators.map((op, idx) => {
           const selected = idx === currIdx;
@@ -59,7 +59,7 @@ export default function OperatorPreviewTabs({ operators }: Props) {
               tabIndex={selected ? 0 : -1}
               onClick={() => setIdx(idx)}
               className={cn(
-                "h-1.5 w-8 rounded-full bg-[#4D4D4D]",
+                "h-1.5 min-w-8 rounded-full bg-[#4D4D4D]",
                 "transition-[flex,background_color] duration-700",
                 { "flex-1 bg-white": selected },
               )}
@@ -72,9 +72,9 @@ export default function OperatorPreviewTabs({ operators }: Props) {
         id={`op-tp-${currOperator.id}`}
         role="tabpanel"
         aria-labelledby={`op-tt-${currOperator.id}`}
-        className="grid gap-4 @[40rem]:grid-cols-[auto_minmax(0,1fr)]"
+        className="grid gap-4 @2xl:grid-cols-[auto_minmax(0,1fr)]"
       >
-        <div className="bg-secondary-10 mr-auto flex rounded-2xl drop-shadow-xl">
+        <div className="mr-auto flex rounded-2xl bg-secondary-10 drop-shadow-xl">
           <PsychedelicImg
             src={`/operator/portrait/${currOperator.id}_${
               currOperator.rarity > 3 ? 2 : 1
@@ -90,44 +90,45 @@ export default function OperatorPreviewTabs({ operators }: Props) {
               alt=""
               width={96}
               height={96}
-              className="mt-2 p-1 @[40rem]:p-2"
+              className="mt-2 p-1 @2xl:p-2"
             />
             <Image
               src={`/operator/subclass/sub_${currOperator.branch}_icon.webp`}
               alt=""
               width={96}
               height={96}
-              className="mb-auto p-1 @[40rem]:p-2"
+              className="mb-auto p-1.5 @[15rem]:p-3"
             />
             <ELink
               aria-label={`Go to ${currOperator.name}'s page.`}
               href={`/operator/${currOperator.slug}`}
               className={cn(
-                "flex-center aspect-square rounded-2xl p-1 backdrop-blur-xl @[40rem]:p-2",
-                "scale-[85%] bg-[#EB6A28] transition duration-500 hover:scale-100 hover:bg-[#FF8C57] focus:scale-100",
+                "flex-center aspect-square rounded-2xl p-1 backdrop-blur-xl @2xl:p-2",
+                "scale-[85%] bg-[#EB6A28] transition duration-500",
+                "hover:scale-100 hover:bg-[#FF8C57] focus:scale-100",
               )}
             >
-              <ArrowTopRight thin />
+              <ArrowTopRight thin className="size-full" />
             </ELink>
           </div>
         </div>
 
-        <div className="drop-shadow-xl @container @[40rem]:row-span-2 @[40rem]:mt-48">
-          <div className="bg-neutral-20/50 rounded-2xl p-4 backdrop-blur-2xl @[40rem]:px-6">
-            <p className="mb-2 font-array text-[clamp(1.5rem,7cqw,4rem)] font-bold leading-none tracking-wider">
+        <div className="drop-shadow-xl @container @2xl:row-span-2 @2xl:mt-48 @2xl:@container-normal">
+          <div className="rounded-2xl bg-neutral-20/50 p-4 backdrop-blur-2xl @2xl:px-6">
+            <p className="mb-2 font-array text-[clamp(1.5rem,5cqw,3.5rem)] font-bold leading-none tracking-wider">
               {currOperator.name}
             </p>
             <div className="flex flex-wrap gap-2 text-[clamp(0.75rem,2cqw,1rem)] ">
               <Rarity
                 rarity={currOperator.rarity}
                 size="size-[1em]"
-                className="bg-neutral-20 gap-[0.25em] rounded-md px-[0.5em] py-1"
+                className="gap-[0.25em] rounded-md bg-neutral-20 px-[0.5em] py-1"
               />
               <OperatorTypeChip type={currOperator.type} />
             </div>
           </div>
-          <div className="bg-neutral-10/75 rounded-2xl p-4 backdrop-blur-2xl">
-            <p className="line-clamp-6 whitespace-pre-line text-[clamp(0.8rem,1.75cqw,1.5rem)] @[40rem]:line-clamp-none">
+          <div className="rounded-2xl bg-neutral-10/75 p-4 backdrop-blur-2xl">
+            <p className="line-clamp-6 whitespace-pre-line text-[clamp(0.8rem,1.25cqw,1.5rem)] @2xl:line-clamp-none">
               {currOperator.description}
             </p>
           </div>

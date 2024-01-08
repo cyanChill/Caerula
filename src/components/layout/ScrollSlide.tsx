@@ -36,7 +36,7 @@ export function ScrollSlide({ sections, options }: ScrollSlideProps) {
   const { widthLimit } = internalOptions;
 
   return (
-    <main className="grid-cols-10 gap-5 sm:mx-[max(1.5rem,3cqw)] lg:grid xl:grid-cols-12">
+    <main className="grid-cols-[minmax(20rem,1fr)_3.25fr] sm:mx-[max(1.5rem,3cqw)] lg:grid">
       {sections.map((meta) => (
         <SlideSection
           key={meta.id}
@@ -50,7 +50,7 @@ export function ScrollSlide({ sections, options }: ScrollSlideProps) {
       {/* Left Cell border */}
       <div
         className={cn(
-          "pointer-events-none sticky top-[5dvh] col-span-3 col-start-1 row-span-full mb-[5dvh] max-h-[90dvh] @container max-lg:hidden",
+          "pointer-events-none sticky top-[5dvh] col-start-1 row-span-full mb-[5dvh] max-h-[90dvh] @container max-lg:hidden",
           // Gradient Border
           "before:border-mask before:absolute before:inset-0 before:z-[1] before:pr-[max(0.0625rem,0.25cqw)]",
           "before:rounded-br-[max(1rem,1cqw)] before:bg-gradient-to-b before:from-white/50 before:to-white/10",
@@ -100,10 +100,10 @@ function SlideSection({
     <>
       <div
         className={cn(
-          "col-span-3 col-start-1 row-span-full @container lg:max-h-[90dvh]",
+          "col-start-1 row-span-full @container lg:max-h-[90dvh]",
           "grid grid-rows-[auto_minmax(0,1fr)] lg:sticky lg:top-[5dvh]",
-          "px-[max(1rem,1cqw)] pt-[max(2.5rem,15svh)] lg:mb-[5dvh]",
-          "transition-opacity duration-500 ease-in-out lg:pointer-events-none lg:opacity-0",
+          "px-4 pt-[max(2.5rem,15svh)] lg:mb-[5dvh]",
+          "transition-opacity duration-500 lg:pointer-events-none lg:opacity-0",
           { "lg:pointer-events-auto lg:opacity-100": activeId === id },
         )}
       >
@@ -132,12 +132,9 @@ function SlideSection({
       <section
         ref={sectionRef}
         aria-labelledby={id}
-        className={cn(
-          "relative col-span-9 col-start-4 @container lg:min-h-dvh",
-          "px-[max(1rem,1cqw)] py-[5svh] lg:py-[10svh]",
-        )}
+        className="relative col-start-2 px-4 py-[5svh] lg:min-h-dvh lg:py-[10svh]"
       >
-        <div className={cn({ "max-w-screen-2xl": widthLimit })}>
+        <div className={cn("@container", { "max-w-screen-2xl": widthLimit })}>
           {sectionMeta.content}
         </div>
         <div
