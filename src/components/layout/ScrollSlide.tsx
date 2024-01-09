@@ -10,12 +10,15 @@ import ScrollArrow from "../accents/ScrollArrow";
 interface SectionMeta {
   id: string;
   title: string;
-  description: string;
-  /** Children that goes under the description in the left column. */
-  extraInfo?: React.ReactNode;
+  description?: string;
   content: React.ReactNode;
   /** Glow color for the current section of content. */
   glow: `from-${string}-${number}` | `from-[#${string}]`;
+  options?: {
+    /** Children that goes under the description in the left column. */
+    extraInfo?: React.ReactNode;
+    hideArrows?: boolean;
+  };
 }
 
 interface ScrollSlideProps {
@@ -34,6 +37,8 @@ export function ScrollSlide({ sections, options }: ScrollSlideProps) {
     return { ...options, ...defaultOptions };
   }, [options]);
   const { widthLimit } = internalOptions;
+
+  const activeSectionData = sections.find((x) => x.id === currSection);
 
   return (
     <main className="grid-cols-[minmax(20rem,1fr)_3.25fr] sm:mx-[max(1.5rem,3cqw)] lg:grid">
@@ -58,7 +63,11 @@ export function ScrollSlide({ sections, options }: ScrollSlideProps) {
       >
         <ScrollArrow
           glowRatio="1.25cqw"
-          className="absolute bottom-0 left-1/2 -translate-x-1/2 *:w-[7.5cqw]"
+          className={cn(
+            "absolute bottom-0 left-1/2 -translate-x-1/2 *:w-[7.5cqw]",
+            "transition duration-500",
+            { "opacity-0": activeSectionData?.options?.hideArrows },
+          )}
         />
       </div>
     </main>
@@ -125,7 +134,7 @@ function SlideSection({
           >
             <span className="text-[#99A5B4]">{sectionMeta.description}</span>
           </p>
-          {sectionMeta.extraInfo}
+          {sectionMeta.options?.extraInfo}
         </div>
       </div>
 
@@ -134,7 +143,11 @@ function SlideSection({
         aria-labelledby={id}
         className="relative col-start-2 px-4 py-[5svh] lg:min-h-dvh lg:py-[10svh]"
       >
-        <div className={cn("@container", { "max-w-screen-2xl": widthLimit })}>
+        <div
+          className={cn("h-full @container", {
+            "max-w-screen-2xl": widthLimit,
+          })}
+        >
           {sectionMeta.content}
         </div>
         <div
