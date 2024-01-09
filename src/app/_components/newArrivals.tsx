@@ -19,7 +19,7 @@ export default function NewArrivals({ skins }: Props) {
   return (
     <div className="grid gap-2 [--min-col-size:32rem] @sm:grid-cols-2 lg:grid-cols-autoFit lg:gap-4">
       {skins.map(({ id, name, imgAlt, description, artists, opName, slug }) => (
-        <article key={id} className="mx-auto w-full max-w-[45rem] @container">
+        <article key={id} className="mx-auto w-full @container">
           <div
             className={cn(
               "grid rounded-2xl @lg:grid-cols-[1fr_1.5fr]",

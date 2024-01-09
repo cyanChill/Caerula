@@ -108,7 +108,7 @@ function NavBtn(props: NavBtnProps) {
         href={href}
         className={cn(
           "grid h-full grid-flow-dense grid-cols-[minmax(0,1fr)_auto] text-[clamp(0.8rem,8cqw,5rem)]",
-          "rounded-2xl outline-0 ring-white drop-shadow-xl hover:ring-2 focus:ring-2",
+          "rounded-[0.5em] outline-0 ring-white drop-shadow-xl hover:ring-2 focus:ring-2",
           {
             "grid-cols-[auto_minmax(0,1fr)]": type === "small" && viewExternal,
             "grid-cols-1 grid-rows-[minmax(0,1fr)_auto]": type === "large",
@@ -116,10 +116,13 @@ function NavBtn(props: NavBtnProps) {
         )}
       >
         <div
-          className={cn("flex-center rounded-2xl bg-neutral-20/75 p-[0.25em]", {
-            "col-start-2": type === "small" && !viewExternal,
-            "bg-neutral-90": type === "large" || viewExternal,
-          })}
+          className={cn(
+            "flex-center rounded-[0.5em] bg-neutral-20/75 p-[0.25em]",
+            {
+              "col-start-2": type === "small" && !viewExternal,
+              "bg-neutral-90": type === "large" || viewExternal,
+            },
+          )}
         >
           <div
             className={cn("w-[20cqw] object-contain", {
@@ -131,7 +134,7 @@ function NavBtn(props: NavBtnProps) {
         </div>
 
         <div
-          className={cn("flex rounded-2xl", {
+          className={cn("flex rounded-[0.5em]", {
             "flex-col px-[0.5em] py-[0.25em]": type === "small",
             [theme?.primary ?? "bg-neutral-10/75"]: type === "small",
           })}
@@ -139,7 +142,7 @@ function NavBtn(props: NavBtnProps) {
           <p
             className={cn(
               "line-clamp-2 flex-1 py-[0.15em] font-array font-bold leading-tight [overflow-wrap:anywhere]",
-              { "rounded-2xl px-[0.5em]": type === "large" },
+              { "rounded-[0.5em] px-[0.5em]": type === "large" },
               type === "large" ? theme.primary : "",
             )}
           >
@@ -152,7 +155,7 @@ function NavBtn(props: NavBtnProps) {
                 "w-[22.5cqw] self-end border border-current text-neutral-80":
                   type === "small",
                 "bg-current *:text-black": type === "small" && viewExternal,
-                "flex-center shrink-0 rounded-2xl": type === "large",
+                "flex-center shrink-0 rounded-[0.5em]": type === "large",
               },
               type === "large" ? theme.button : "",
             )}
