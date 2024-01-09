@@ -10,19 +10,18 @@ import {
   Waves,
 } from "@/assets/svgs/shapes";
 
-import type { BgColor, BorderColor } from "@/lib/style";
+import type { BgColor } from "@/lib/style";
 import { cn } from "@/lib/style";
 import ELink from "@/components/link/ELink";
 
-type ThemeColors = `${BgColor} ${BorderColor}/75`;
 type NavConfigItem = {
   title: string;
   icon: React.ReactNode;
   href: string;
   external?: boolean;
 } & (
-  | { type: "small"; theme?: { primary: ThemeColors } }
-  | { type: "large"; theme: { primary: ThemeColors; button: BgColor } }
+  | { type: "small"; theme?: { primary: BgColor } }
+  | { type: "large"; theme: { primary: BgColor; button: BgColor } }
 );
 
 const navConfigs: NavConfigItem[] = [
@@ -40,17 +39,14 @@ const navConfigs: NavConfigItem[] = [
         className="size-full"
       />
     ),
-    theme: { primary: "bg-caerula-80 border-caerula-80/75" },
+    theme: { primary: "bg-[#233852]" },
   },
   {
     title: "Operator Network",
     href: "/operator",
     type: "large",
     icon: <CircleWaves />,
-    theme: {
-      primary: "bg-caerula-100 border-caerula-100/75",
-      button: "bg-yellow-500",
-    },
+    theme: { primary: "bg-[#001F44]", button: "bg-yellow-500" },
   },
   {
     title: "Tokens",
@@ -63,10 +59,7 @@ const navConfigs: NavConfigItem[] = [
     href: "/enemy",
     type: "large",
     icon: <Waves />,
-    theme: {
-      primary: "bg-teal-900 border-teal-900/75",
-      button: "bg-[#5F9EA0]",
-    },
+    theme: { primary: "bg-teal-900", button: "bg-[#5F9EA0]" },
   },
   {
     title: "Terminology",
@@ -82,24 +75,6 @@ const navConfigs: NavConfigItem[] = [
     icon: <GitHub />,
   },
 ];
-const navItemStyles = {
-  small: {
-    wrapper: "row-span-2",
-    container:
-      "grid-cols-[auto_minmax(0,1fr)] grid-rows-[auto_minmax(0,1fr)] gap-x-[0.25em]",
-    icon: "w-[20cqw]",
-  },
-  large: {
-    wrapper: "row-span-5",
-    container: "gap-[0.25em] lg:grid-rows-7",
-    icon: "w-[40cqw] text-dust-150",
-  },
-  shared: {
-    title:
-      "self-end font-array uppercase leading-none [overflow-wrap:anywhere]",
-    linkIcon: "size-[0.75em]",
-  },
-};
 
 interface NavListProps {
   withHome?: boolean;
@@ -107,68 +82,99 @@ interface NavListProps {
 
 export function NavList({ withHome = false }: NavListProps) {
   const items = withHome ? navConfigs : navConfigs.toSpliced(0, 1);
-
   return (
-    <ul className="grid auto-rows-fr gap-2 @[15.5rem]:grid-cols-2 @md:gap-4 @3xl:grid-cols-3">
-      {items.map(({ external, type, title, href, icon, theme }) => {
-        const IndicatorIcon = external ? Rocket : ArrowTopRight;
-        const currStyle = navItemStyles[type];
-        const sharedStyle = navItemStyles.shared;
-
-        return (
-          <li key={title} className={cn(currStyle.wrapper, "@container")}>
-            <ELink
-              external={external ?? false}
-              href={href}
-              className={cn(
-                currStyle.container,
-                "grid h-full rounded-[0.375em] border-[0.075em] p-[0.25em] text-cq-heading-3",
-                "bg-opacity-50 shadow-[0_0.05em_0.1em_#00000040] backdrop-blur-2xl",
-                "transition duration-500 hover:bg-opacity-75",
-                theme?.primary ?? "border-dust-100/75 bg-dust-100",
-              )}
-            >
-              <div
-                className={cn(
-                  // tailwind-merge doesn't correctly merge `row-span-*` classes
-                  type === "large" ? "row-span-4" : "row-span-full",
-                  "flex-center rounded-[0.2em] p-[0.25em]",
-                  theme?.primary.split(" ")[0] ?? "bg-dust-100",
-                  { "bg-dust-20": type === "large" || title === "GitHub" },
-                )}
-              >
-                <div className={currStyle.icon}>{icon}</div>
-              </div>
-
-              {type === "small" ? (
-                <>
-                  <IndicatorIcon
-                    className={cn(
-                      sharedStyle.linkIcon,
-                      "justify-self-end rounded-[0.2em] border-[0.05em] border-white p-[0.1em]",
-                    )}
-                  />
-                  <p className={sharedStyle.title}>{title}</p>
-                </>
-              ) : (
-                <>
-                  <p className={cn(sharedStyle.title, "sm:row-span-2")}>
-                    {title}
-                  </p>
-                  <div
-                    className={cn(
-                      "flex items-center justify-end rounded-[0.2em] px-1 sm:p-[0.1em]",
-                      theme.button,
-                    )}
-                  >
-                    <IndicatorIcon className={sharedStyle.linkIcon} />
-                  </div>
-                </>
-              )}
-            </ELink>
-          </li>
-        );
-      })}
+    <ul className="grid auto-rows-fr gap-2 [--min-col-size:25rem] @md:grid-cols-2 @6xl:grid-cols-autoFit @6xl:gap-4">
+      {items.map((navItem) => (
+        <NavBtn
+          key={navItem.title}
+          {...navItem}
+          viewExternal={navItem.href === "/"}
+        />
+      ))}
     </ul>
   );
+}
+
+type NavBtnProps = NavConfigItem & { viewExternal?: boolean };
+
+function NavBtn(props: NavBtnProps) {
+  const { type, href, external = false, icon, title, theme } = props;
+  const viewExternal = external || !!props.viewExternal;
+
+  return (
+    <li className={cn("@container", { "row-span-2": type === "large" })}>
+      <ELink
+        external={external}
+        href={href}
+        className={cn(
+          "grid h-full grid-flow-dense grid-cols-[minmax(0,1fr)_auto] text-[clamp(0.8rem,8cqw,5rem)]",
+          "rounded-[0.5em] outline-0 ring-white drop-shadow-xl hover:ring-2 focus:ring-2",
+          {
+            "grid-cols-[auto_minmax(0,1fr)]": type === "small" && viewExternal,
+            "grid-cols-1 grid-rows-[minmax(0,1fr)_auto]": type === "large",
+          },
+        )}
+      >
+        <div
+          className={cn(
+            "flex-center rounded-[0.5em] bg-neutral-20/75 p-[0.25em]",
+            {
+              "col-start-2": type === "small" && !viewExternal,
+              "bg-neutral-90": type === "large" || viewExternal,
+            },
+          )}
+        >
+          <div
+            className={cn("w-[20cqw] object-contain", {
+              "w-[45cqw] text-black": type === "large",
+            })}
+          >
+            {icon}
+          </div>
+        </div>
+
+        <div
+          className={cn("flex rounded-[0.5em]", {
+            "flex-col px-[0.5em] py-[0.25em]": type === "small",
+            [theme?.primary ?? "bg-neutral-10/75"]: type === "small",
+          })}
+        >
+          <p
+            className={cn(
+              "line-clamp-2 flex-1 py-[0.15em] font-array font-bold leading-tight [overflow-wrap:anywhere]",
+              { "rounded-[0.5em] px-[0.5em]": type === "large" },
+              type === "large" ? theme.primary : "",
+            )}
+          >
+            <span className="h-[2lh]">{title}</span>
+          </p>
+          <div
+            className={cn(
+              "rounded-full px-[0.15em] py-[0.1em]",
+              {
+                "w-[22.5cqw] self-end border border-current text-neutral-80":
+                  type === "small",
+                "bg-current *:text-black": type === "small" && viewExternal,
+                "flex-center shrink-0 rounded-[0.5em]": type === "large",
+              },
+              type === "large" ? theme.button : "",
+            )}
+          >
+            <LinkIcon type={type} external={external} />
+          </div>
+        </div>
+      </ELink>
+    </li>
+  );
+}
+
+type LinkIconProps = { type: "small" | "large"; external?: boolean };
+
+function LinkIcon({ type, external }: LinkIconProps) {
+  const iconClass = cn({
+    "ml-auto size-[0.5em]": type === "small",
+    "size-[1em]": type === "large",
+  });
+  if (external) return <Rocket className={iconClass} />;
+  return <ArrowTopRight className={iconClass} />;
 }
