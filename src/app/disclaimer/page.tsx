@@ -18,7 +18,7 @@ export default function Disclaimer() {
 
 function DisclaimerText() {
   return (
-    <div className="max-w-[60ch] space-y-4 text-[clamp(0.9rem,1.5cqw,3rem)] lg:pt-[5svh]">
+    <div className="max-w-prose space-y-4 text-[clamp(0.9rem,1.5cqw,3rem)] lg:pt-[5svh]">
       <p>
         Arknights is a mobile game developed & distributed by
         ©Hypergryph/Studio Montagne/Yostar. The in-game assets contained in

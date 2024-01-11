@@ -81,7 +81,10 @@ export default function OperatorPreviewTabs({ operators }: Props) {
             }.webp`}
             width={180}
             height={360}
-            classNames={{ wrapper: "h-full @lg:w-56", image: "object-cover" }}
+            classNames={{
+              wrapper: "h-full rounded-2xl @lg:w-56",
+              image: "object-cover",
+            }}
           />
 
           <div className="flex w-[clamp(2rem,25cqw,4.5rem)] flex-col justify-evenly gap-2">
