@@ -2,11 +2,10 @@ import Image from "next/image";
 
 import type { Skin } from "@/data/types/AKSkin";
 import { ArrowTopRight } from "@/assets/svgs/direction";
-import { PencilSquare } from "@/assets/svgs/shapes";
 
 import { cn } from "@/lib/style";
 import ELink from "@/components/link/ELink";
-import Chip from "@/components/ui/Chip";
+import ArtistChips from "@/features/skins/ArtistChips";
 
 interface Props {
   skins: (Pick<Skin, "id" | "name" | "imgAlt" | "description" | "artists"> & {
@@ -46,7 +45,10 @@ export default function NewArrivals({ skins }: Props) {
                   >
                     {opName}
                   </p>
-                  <ArtistChips artists={artists} />
+                  <ArtistChips
+                    artists={artists}
+                    className="hidden truncate @lg:inline-flex"
+                  />
                 </div>
                 <p className="mt-auto hidden text-[0.4em] text-neutral-80 @lg:line-clamp-5">
                   {description}
@@ -69,20 +71,4 @@ export default function NewArrivals({ skins }: Props) {
       ))}
     </div>
   );
-}
-
-function ArtistChips({ artists }: { artists: string[] | null }) {
-  if (!artists) return null;
-  return artists.map((artist) => (
-    <Chip
-      key={artist}
-      variant="bordered"
-      color="neutral"
-      radius="medium"
-      icon={<PencilSquare className="size-[1em]" />}
-      className="hidden truncate @lg:inline-flex"
-    >
-      {artist}
-    </Chip>
-  ));
 }
