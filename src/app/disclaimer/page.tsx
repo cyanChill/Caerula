@@ -1,4 +1,19 @@
+import type { Metadata, ResolvingMetadata } from "next";
+
+import { constructMetadata } from "@/lib/metadata";
 import { ScrollSlide } from "@/components/layout/ScrollSlide";
+
+export async function generateMetadata(
+  _: unknown,
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  return constructMetadata({
+    parentMetadata: await parent,
+    title: "Disclaimer",
+    description: "Site disclaimer.",
+    route: "/disclaimer",
+  });
+}
 
 export default function Disclaimer() {
   return (

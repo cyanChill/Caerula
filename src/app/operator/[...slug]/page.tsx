@@ -1,13 +1,56 @@
+import type { Metadata, ResolvingMetadata } from "next";
+import { notFound } from "next/navigation";
+
 import OperatorTable from "@/data/operator/operatorTable.json";
+import ProfileTable from "@/data/operator/profile/profileTable.json";
 import SkinTable from "@/data/operator/skinTable.json";
 import { OpSlugTable } from "@/data/operator/slugTable";
 import VoiceTable from "@/data/operator/profile/voiceTable.json";
 
+import { constructMetadata } from "@/lib/metadata";
 import Overview, { OverviewProvider } from "./_components/overview";
 
-export default function Operator({ params }: { params: { slug: string } }) {
-  const opId = OpSlugTable[params.slug];
-  if (!opId) throw new Error("Invalid operator slug.");
+interface Props {
+  params: { slug: string[] };
+}
+
+/** @description Statically generate routes instead of on-demand at request time. */
+export function generateStaticParams() {
+  return Object.values(OperatorTable).map((operator) => ({
+    slug: [...operator.slug.split("/")],
+  }));
+}
+
+export async function generateMetadata(
+  { params }: Props,
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  const slug = decodeURIComponent(params.slug.join("/"));
+  const opId = OpSlugTable[slug];
+
+  if (!opId) {
+    return {
+      title: { absolute: "Operator Not Found!" },
+      description: "Operator not found.",
+    };
+  }
+
+  const operator = OperatorTable[opId];
+
+  return constructMetadata({
+    parentMetadata: await parent,
+    title: operator.displayName,
+    description:
+      ProfileTable.fileTable[opId]?.find(({ title }) => title === "Profile")
+        ?.text ?? "",
+    route: `/operator/${operator.slug}`,
+  });
+}
+
+export default function Operator({ params }: Props) {
+  const slug = decodeURIComponent(params.slug.join("/"));
+  const opId = OpSlugTable[slug];
+  if (!opId) notFound();
 
   const operator = OperatorTable[opId];
   const skins = SkinTable.opSkinMap[opId].map(
