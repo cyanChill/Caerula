@@ -61,7 +61,7 @@ export default function Operator({ params }: Props) {
   );
 
   return (
-    <main className="mx-auto mb-[5svh] max-w-screen-2xl p-2">
+    <main className="mx-auto mb-[5svh] max-w-screen-2xl p-2 @container/main">
       <OverviewProvider id={opId} skins={skins} cvTable={voices}>
         <Overview name={operator.displayName} />
       </OverviewProvider>

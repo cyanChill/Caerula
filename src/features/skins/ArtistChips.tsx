@@ -2,7 +2,7 @@ import { PencilSquare } from "@/assets/svgs/shapes";
 
 import Chip from "@/components/ui/Chip";
 
-/** @description Returns a list of `<Chip />` populated with artist values. */
+/** @description Returns an array of `<Chip />` populated with artist values. */
 export default function ArtistChips({
   artists,
   asList = false,

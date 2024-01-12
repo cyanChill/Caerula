@@ -86,14 +86,14 @@ export default function Overview({ name }: { name: string }) {
       <fieldset
         role="presentation"
         className={cn(
-          "mx-auto -mt-20 max-w-screen-xl py-4 @container lg:py-16",
-          "rounded-3xl border-2 border-white/50",
+          "mx-auto -mt-20 max-w-screen-xl pb-4 @container @sm/main:w-[95cqw] @5xl/main:pb-16",
+          "rounded-2xl border-2 border-white/50 @2xl/main:rounded-3xl",
         )}
       >
         <legend role="presentation" className="mx-auto max-w-[90cqw]">
           <h1
             className={cn(
-              "w-fit px-[1ch] text-[clamp(1rem,12.5cqw,4.5rem)] [overflow-wrap:anywhere]",
+              "w-fit px-[1ch] text-[clamp(1.75rem,12cqw,4.5rem)] [overflow-wrap:anywhere]",
               "text-center font-geist-sans font-bold leading-none",
             )}
           >
@@ -106,7 +106,7 @@ export default function Overview({ name }: { name: string }) {
           id={`overview-tp-${id}`}
           role="tabpanel"
           aria-labelledby={`overview-tt-${id}`}
-          className="px-4 @container lg:px-16"
+          className="px-4 @container @5xl/main:px-16"
         >
           <div className="grid @2xl:grid-cols-[minmax(0,1fr),12.5rem]">
             <SkinInfo />
@@ -124,7 +124,7 @@ function HeroImage() {
   return (
     <div
       aria-hidden="true"
-      className="relative overflow-clip rounded-2xl @container"
+      className="relative overflow-clip rounded-[2rem] @container"
     >
       <Image
         src={`/images/operator/skin/${encodeURIComponent(skin.id)}b.webp`}
@@ -136,7 +136,7 @@ function HeroImage() {
             "linear-gradient(to top, #00060E, #00060E00)," +
             "linear-gradient(to top right, #3B738780, #53528780)",
         }}
-        className="box-content h-[40cqw] min-h-56 w-full object-contain p-1 pb-24 backdrop-blur-xl"
+        className="h-[calc(40cqw+6rem)] min-h-80 w-full object-contain p-1 pb-24 backdrop-blur-xl"
       />
       {/* Background blur image */}
       <Image
@@ -177,9 +177,9 @@ function SkinCarousel({ name }: { name: string }) {
     <div
       className={cn(
         "relative",
-        "before:absolute before:left-0 before:top-0 before:z-[1] before:h-full before:w-2 lg:before:w-14",
+        "before:absolute before:left-0 before:top-0 before:z-[1] before:h-full before:w-2 @5xl/main:before:w-14",
         "before:bg-gradient-to-r before:from-surface before:to-surface/0 before:backdrop-blur-sm",
-        "after:absolute after:right-0 after:top-0 after:z-[1] after:h-full after:w-2 lg:after:w-14",
+        "after:absolute after:right-0 after:top-0 after:z-[1] after:h-full after:w-2 @5xl/main:after:w-14",
         "after:bg-gradient-to-l after:from-surface after:to-surface/0 after:backdrop-blur-sm",
       )}
     >
@@ -188,7 +188,7 @@ function SkinCarousel({ name }: { name: string }) {
         role="tablist"
         aria-label={`${name} Skin List`}
         aria-orientation="horizontal"
-        className="no-scrollbar flex gap-4 overflow-x-scroll px-4 py-4 lg:px-16"
+        className="no-scrollbar flex gap-4 overflow-x-scroll px-4 py-8 @5xl/main:px-16"
       >
         {skins.map((skin, idx) => (
           <button
@@ -202,8 +202,9 @@ function SkinCarousel({ name }: { name: string }) {
             tabIndex={idx === currIdx ? 0 : -1}
             onClick={() => setIdx(idx)}
             className={cn(
-              "block aspect-[3/8] h-32 shrink-0 overflow-clip rounded-3xl transition-[aspect-ratio] duration-500 sm:h-64",
-              "outline-0 ring-white drop-shadow-xl hover:ring-2 focus:ring-2",
+              "aspect-[3/8] h-32 shrink-0 overflow-clip @xl/main:h-64",
+              "rounded-3xl outline-0 ring-white drop-shadow-xl",
+              "transition-[aspect-ratio] duration-500 hover:ring-2 focus:ring-2",
               {
                 "aspect-[3/4]": idx === currIdx - 1,
                 "aspect-[3/2]": idx === currIdx,
@@ -233,12 +234,11 @@ function SkinInfo() {
       className="min-w-0 pb-4 [overflow-wrap:anywhere] @2xl:p-4"
     >
       <h2 className="mb-2 text-2xl @sm:text-3xl">{skin.name}</h2>
-      <ul aria-label="Artists" className="mb-4 flex flex-wrap gap-1.5">
-        <ArtistChips
-          artists={skin.artists}
-          asList
-          className="inline-flex text-sm @2xl:text-base"
-        />
+      <ul
+        aria-label="Artists"
+        className="mb-4 flex flex-wrap gap-1.5 text-sm @2xl:text-base"
+      >
+        <ArtistChips artists={skin.artists} asList />
       </ul>
       <p className="mb-2 text-sm text-neutral-80 @2xl:text-base">
         {skin.description}
