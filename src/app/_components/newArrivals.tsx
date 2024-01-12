@@ -26,7 +26,7 @@ export default function NewArrivals({ skins }: Props) {
             )}
           >
             <Image
-              src={`/operator/skin/${encodeURIComponent(id)}b.webp`}
+              src={`/images/operator/skin/${encodeURIComponent(id)}b.webp`}
               alt={imgAlt}
               width={512}
               height={512}

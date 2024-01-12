@@ -76,7 +76,7 @@ export default function OperatorPreviewTabs({ operators }: Props) {
       >
         <div className="mr-auto flex rounded-2xl bg-secondary-10 drop-shadow-xl">
           <PsychedelicImg
-            src={`/operator/portrait/${currOperator.id}_${
+            src={`/images/operator/portrait/${currOperator.id}_${
               currOperator.rarity > 3 ? 2 : 1
             }.webp`}
             width={180}
@@ -89,14 +89,14 @@ export default function OperatorPreviewTabs({ operators }: Props) {
 
           <div className="flex w-[clamp(2rem,25cqw,4.5rem)] flex-col justify-evenly gap-2">
             <Image
-              src={`/operator/class/${currOperator.profession.toLowerCase()}.webp`}
+              src={`/images/operator/class/${currOperator.profession.toLowerCase()}.webp`}
               alt=""
               width={96}
               height={96}
               className="mt-2 p-1 @2xl:p-2"
             />
             <Image
-              src={`/operator/subclass/sub_${currOperator.branch}_icon.webp`}
+              src={`/images/operator/subclass/sub_${currOperator.branch}_icon.webp`}
               alt=""
               width={96}
               height={96}
@@ -104,7 +104,7 @@ export default function OperatorPreviewTabs({ operators }: Props) {
             />
             <ELink
               aria-label={`Go to ${currOperator.name}'s page.`}
-              href={`/operator/${currOperator.slug}`}
+              href={`/images/operator/${currOperator.slug}`}
               className={cn(
                 "flex-center aspect-square rounded-2xl p-1 backdrop-blur-xl @2xl:p-2",
                 "scale-[85%] bg-[#EB6A28] transition duration-500",
