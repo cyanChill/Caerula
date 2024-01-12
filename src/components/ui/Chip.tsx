@@ -66,14 +66,22 @@ const chipVariants = cva(["inline-flex px-[0.5em] border-[max(1px,0.125em)]"], {
 interface Props extends ChipConfig {
   icon: React.ReactNode;
   children: React.ReactNode;
+  asListItem?: boolean;
   className?: string;
 }
 
-export default function Chip({ icon, children, className, ...config }: Props) {
+export default function Chip({
+  icon,
+  children,
+  asListItem,
+  className,
+  ...config
+}: Props) {
+  const ChipTag = asListItem ? "li" : "div";
   return (
-    <div className={cn(chipVariants({ ...config }), className)}>
+    <ChipTag className={cn(chipVariants({ ...config }), className)}>
       <span className="flex-center">{icon}</span>
       <span className="pl-[0.325em]">{children}</span>
-    </div>
+    </ChipTag>
   );
 }

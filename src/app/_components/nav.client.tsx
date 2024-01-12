@@ -34,7 +34,7 @@ export function Navbar() {
           "font-array text-[clamp(0.8rem,0.75vw,4rem)] leading-none tracking-[0.175em]",
           "rounded-r-[0.675em] border-[0.125em] border-l-0 border-white",
           "shadow-[0_0_0.5em_0.1em_#95E6FF] [text-shadow:0_0_0.5em_#95E6FF]",
-          "bg-[#00060E] transition duration-500 hover:brightness-200",
+          "bg-surface transition duration-500 hover:brightness-200",
         )}
       >
         MENU
