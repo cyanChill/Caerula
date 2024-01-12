@@ -15,7 +15,6 @@ import { type CharacterVoice, VoiceLangTable } from "@/data/types/AKVoice";
 import { useTabListEvents } from "@/hooks/useTabListEvents";
 
 import { cn } from "@/lib/style";
-import ImgWithFallback from "@/components/image/ImgWithFallback";
 import PsychedelicImg from "@/components/image/PsychedelicImg";
 import ArtistChips from "@/features/skins/ArtistChips";
 
@@ -137,7 +136,7 @@ function HeroImage() {
             "linear-gradient(to top, #00060E, #00060E00)," +
             "linear-gradient(to top right, #3B738780, #53528780)",
         }}
-        className="box-content h-[40cqw] min-h-56 w-full object-contain pb-24 backdrop-blur-xl"
+        className="box-content h-[40cqw] min-h-56 w-full object-contain p-1 pb-24 backdrop-blur-xl"
       />
       {/* Background blur image */}
       <Image
@@ -251,16 +250,18 @@ function SkinInfo() {
 
 /** @description Returns the correct brand image for the displayed skin. */
 function SkinBrand({ skin }: { skin: Skin }) {
-  let src = `/images/operator/skingroup/${encodeURIComponent(
-    skin.subBrand.id,
-  )}.webp`;
+  let src = `/images/operator`;
   if (skin.subBrand.id.startsWith("ILLUST_")) {
-    src = `/images/operator/ui/elite/${skin.subBrand.id.at(-1)}.webp`;
+    src += `/ui/elite/${skin.subBrand.id.at(-1)}.webp`;
+  } else if (skin.brandId === "crossover") {
+    src += `/skingroup/collab/${encodeURIComponent(skin.subBrand.id)}.webp`;
+  } else {
+    src += `/skingroup/${skin.brandId}.webp`;
   }
+
   return (
-    <ImgWithFallback
+    <Image
       src={src}
-      fallback={`/images/operator/skingroup/fallback/${skin.brandId}.webp`}
       alt=""
       width={48}
       height={48}
