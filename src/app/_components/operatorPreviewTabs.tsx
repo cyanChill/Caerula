@@ -104,7 +104,7 @@ export default function OperatorPreviewTabs({ operators }: Props) {
             />
             <ELink
               aria-label={`Go to ${currOperator.name}'s page.`}
-              href={`/images/operator/${currOperator.slug}`}
+              href={`/operator/${currOperator.slug}`}
               className={cn(
                 "flex-center aspect-square rounded-2xl p-1 backdrop-blur-xl @2xl:p-2",
                 "scale-[85%] bg-[#EB6A28] transition duration-500",

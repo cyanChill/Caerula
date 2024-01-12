@@ -94,8 +94,8 @@ export default function Overview({ name }: { name: string }) {
         <legend role="presentation" className="mx-auto max-w-[90cqw]">
           <h1
             className={cn(
-              "w-fit px-[1ch] [overflow-wrap:anywhere]",
-              "text-center font-geist-sans text-[clamp(1rem,12.5cqw,4.5rem)] font-bold",
+              "w-fit px-[1ch] text-[clamp(1rem,12.5cqw,4.5rem)] [overflow-wrap:anywhere]",
+              "text-center font-geist-sans font-bold leading-none",
             )}
           >
             {name}
