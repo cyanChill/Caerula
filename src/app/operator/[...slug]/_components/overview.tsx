@@ -15,6 +15,7 @@ import { type CharacterVoice, VoiceLangTable } from "@/data/types/AKVoice";
 import { useTabListEvents } from "@/hooks/useTabListEvents";
 
 import { cn } from "@/lib/style";
+import { capitalize } from "@/utils/typedStrings";
 import PsychedelicImg from "@/components/image/PsychedelicImg";
 import ArtistChips from "@/features/skins/ArtistChips";
 
@@ -77,8 +78,14 @@ function useOverviewContext() {
   return value;
 }
 
+interface Props {
+  name: string;
+  position: string;
+  tags: string[];
+}
+
 /** @description Combines the different portions of the overview together. */
-export default function Overview({ name }: { name: string }) {
+export default function Overview({ name, position, tags }: Props) {
   const { id } = useOverviewContext();
   return (
     <>
@@ -93,14 +100,20 @@ export default function Overview({ name }: { name: string }) {
         <legend role="presentation" className="mx-auto max-w-[90cqw]">
           <h1
             className={cn(
-              "w-fit px-[1ch] text-[clamp(1.75rem,12cqw,4.5rem)] [overflow-wrap:anywhere]",
+              "break-anywhere w-fit px-[1ch] text-[clamp(1.75rem,12cqw,4.5rem)]",
               "text-center font-geist-sans font-bold leading-none",
             )}
           >
             {name}
           </h1>
         </legend>
+
+        <p className="break-anywhere mx-auto max-w-[90cqw] pt-4 text-center text-neutral-60 @5xl/main:text-xl">
+          {[capitalize(position.toLowerCase()), ...tags].join(" • ")}
+        </p>
+
         <SkinCarousel name={name} />
+
         {/* Textual content of the overview section. */}
         <div
           id={`overview-tp-${id}`}
@@ -231,7 +244,7 @@ function SkinInfo() {
   return (
     <section
       aria-label="Skin Info"
-      className="min-w-0 pb-4 [overflow-wrap:anywhere] @2xl:p-4"
+      className="break-anywhere min-w-0 pb-4 @2xl:p-4"
     >
       <h2 className="mb-2 text-2xl @sm:text-3xl">{skin.name}</h2>
       <ul

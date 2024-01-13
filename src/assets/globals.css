@@ -41,6 +41,11 @@
     -webkit-mask-composite: xor;
     mask-composite: exclude;
   }
+
+  /* Let text break when its no longer normally breakable. */
+  .break-anywhere {
+    overflow-wrap: anywhere;
+  }
 }
 
 /* Custom Scrollbar */

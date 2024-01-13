@@ -52,7 +52,7 @@ export default function Operator({ params }: Props) {
   const opId = OpSlugTable[slug];
   if (!opId) notFound();
 
-  const operator = OperatorTable[opId];
+  const { displayName, position, tags } = OperatorTable[opId];
   const skins = SkinTable.opSkinMap[opId].map(
     (skinId) => SkinTable.skinTable[skinId],
   );
@@ -63,7 +63,7 @@ export default function Operator({ params }: Props) {
   return (
     <main className="mx-auto mb-[5svh] max-w-screen-2xl p-2 @container/main">
       <OverviewProvider id={opId} skins={skins} cvTable={voices}>
-        <Overview name={operator.displayName} />
+        <Overview name={displayName} position={position} tags={tags} />
       </OverviewProvider>
     </main>
   );
