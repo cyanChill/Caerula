@@ -17,6 +17,7 @@ import { useTabListEvents } from "@/hooks/useTabListEvents";
 import { cn } from "@/lib/style";
 import { capitalize } from "@/utils/typedStrings";
 import PsychedelicImg from "@/components/image/PsychedelicImg";
+import Rarity from "@/features/characters/Rarity";
 import ArtistChips from "@/features/skins/ArtistChips";
 
 type OverviewContextType = {
@@ -82,10 +83,11 @@ interface Props {
   name: string;
   position: string;
   tags: string[];
+  rarity: number;
 }
 
 /** @description Combines the different portions of the overview together. */
-export default function Overview({ name, position, tags }: Props) {
+export default function Overview({ name, position, tags, rarity }: Props) {
   const { id } = useOverviewContext();
   return (
     <>
@@ -107,6 +109,12 @@ export default function Overview({ name, position, tags }: Props) {
             {name}
           </h1>
         </legend>
+
+        <Rarity
+          rarity={rarity}
+          size="size-4"
+          className="mx-auto w-min gap-1 pt-4"
+        />
 
         <p className="break-anywhere mx-auto max-w-[90cqw] pt-4 text-center text-neutral-60 @5xl/main:text-xl">
           {[capitalize(position.toLowerCase()), ...tags].join(" • ")}

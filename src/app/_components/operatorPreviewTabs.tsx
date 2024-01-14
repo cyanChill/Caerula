@@ -12,8 +12,8 @@ import { useTabListEvents } from "@/hooks/useTabListEvents";
 import { cn } from "@/lib/style";
 import PsychedelicImg from "@/components/image/PsychedelicImg";
 import ELink from "@/components/link/ELink";
-import Rarity from "@/components/accents/Rarity";
 import Chip from "@/components/ui/Chip";
+import Rarity from "@/features/characters/Rarity";
 
 interface Props {
   operators: (Pick<
