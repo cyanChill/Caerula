@@ -14782,6 +14782,338 @@
     "relatedEnemies": []
   },
   {
+    "sort": 665,
+    "id": "enemy_1344_ddlamb",
+    "slug": "hot_spring_'mischievous_rascal'",
+    "code": "FF1",
+    "name": "Hot Spring 'Mischievous Rascal'",
+    "description": "A fluffy critter that has found something nice on the street, and wants to play with whoever it bumps into. Even though you can't make out its expression from its obscured face, you can sense it in its revelry.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Leaves Carmine Steam at its location when defeated",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1346_ynshp", "enemy_1348_rllamb", "enemy_1349_rckshp"]
+  },
+  {
+    "sort": 666,
+    "id": "enemy_1344_ddlamb_2",
+    "slug": "hot_spring_'jolly_rascal'",
+    "code": "FF2",
+    "name": "Hot Spring 'Jolly Rascal'",
+    "description": "A fluffy critter that has found something nice on the street, and wants to play with whoever it bumps into. Even though you can't make out its expression from its obscured face, you can tell it's relishing in its delight—listen! It's laughing!",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Leaves Carmine Steam at its location when defeated",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1346_ynshp_2", "enemy_1348_rllamb_2", "enemy_1349_rckshp_2"]
+  },
+  {
+    "sort": 667,
+    "id": "enemy_1345_tplamb",
+    "slug": "fashion_street_'hearty_heavy'",
+    "code": "FF3",
+    "name": "Fashion Street 'Hearty Heavy'",
+    "description": "A fluffy critter that has found something nice from the sports field. It'll be really happy if you throw its 'treasure' back at it. Thankfully, it only throws frisbees, and not discuses.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Leaves Carmine Steam at its location when defeated",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1347_fyshp", "enemy_1348_rllamb"]
+  },
+  {
+    "sort": 668,
+    "id": "enemy_1345_tplamb_2",
+    "slug": "fashion_street_'robust_heavy'",
+    "code": "FF4",
+    "name": "Fashion Street 'Robust Heavy'",
+    "description": "A fluffy critter that has found something nice from the sports field. It'll be really happy if you throw its 'treasure' back at it. Wait, no! It seem to be holding discuses this time!",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Leaves Carmine Steam at its location when defeated",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1347_fyshp_2", "enemy_1348_rllamb_2"]
+  },
+  {
+    "sort": 669,
+    "id": "enemy_1346_ynshp",
+    "slug": "hot_spring_'wandering_vagrant'",
+    "code": "FF5",
+    "name": "Hot Spring 'Wandering Vagrant'",
+    "description": "A fluffy critter that has found something nice from the surfskate shop, so fast that it comes and goes without a trace! It's practicing its acceleration and turning for the upcoming 'Lava Surfing Championships.'",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Can stack with a Hot Spring 'Mischievous Rascal' and leaves Carmine Steam on tiles it travels over after combining",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1344_ddlamb"]
+  },
+  {
+    "sort": 670,
+    "id": "enemy_1346_ynshp_2",
+    "slug": "hot_spring_'wandering_slider'",
+    "code": "FF6",
+    "name": "Hot Spring 'Wandering Slider'",
+    "description": "A fluffy critter that has found something nice from the surfskate shop, so fast that it comes and goes without a trace! Not even the swirling mud or gravel can hinder its slick skating skills!",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Can stack with a Hot Spring 'Jolly Rascal' and leaves Carmine Steam on tiles it travels over after combining",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1344_ddlamb_2"]
+  },
+  {
+    "sort": 671,
+    "id": "enemy_1347_fyshp",
+    "slug": "fashion_street_'ordinary_aviator'",
+    "code": "FF7",
+    "name": "Fashion Street 'Ordinary Aviator'",
+    "description": "A fluffy critter that has found something nice from the aviation shop. It can fly, but it's not very good at it. Sometimes it can float up real high, but don't mistake it for a pink cloud!",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Cannot be blocked or attacked by melee attacks\" href=\"/terminology#low-altitude_hovering\">Low-Altitude Hovering</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Can stack with a Fashion Street 'Hearty Heavy' and is capable of long-range attacks after combining",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1345_tplamb"]
+  },
+  {
+    "sort": 672,
+    "id": "enemy_1347_fyshp_2",
+    "slug": "fashion_street_'hyperactive_aviator'",
+    "code": "FF8",
+    "name": "Fashion Street 'Hyperactive Aviator'",
+    "description": "A fluffy critter that has found something nice from the aviation shop. It can fly, but it's not very good at it. However, it's learned to float around in a group, filling the sky with soft clouds and interrupting the people's leisurely sunbathing.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Cannot be blocked or attacked by melee attacks\" href=\"/terminology#low-altitude_hovering\">Low-Altitude Hovering</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Can stack with a Fashion Street 'Robust Heavy' and is capable of long-range attacks after combining",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1345_tplamb_2"]
+  },
+  {
+    "sort": 673,
+    "id": "enemy_1348_rllamb",
+    "slug": "urban_'whirlwind_walker'",
+    "code": "FF9",
+    "name": "Urban 'Whirlwind Walker'",
+    "description": "A mass of fluffy critters fighting over cotton candy, and it's a little hard to tell where the fur ends and where the candyfloss begins. The main reason the Candy House grandpa is so angry is because they snatched his wig off too!",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Arts",
+    "abilityList": [
+      {
+        "text": "Explodes on first attack, dealing AoE Arts damage and spawning Carmine Steam",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Summons a Hot Spring 'Mischievous Rascal' and Fashion Street 'Hearty Heavy' upon dying",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 2,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1344_ddlamb", "enemy_1345_tplamb"]
+  },
+  {
+    "sort": 674,
+    "id": "enemy_1348_rllamb_2",
+    "slug": "urban_'tornado_trendsetter'",
+    "code": "FF10",
+    "name": "Urban 'Tornado Trendsetter'",
+    "description": "A mass of fluffy critters fighting over cotton candy, and it's a little hard to tell where the fur ends and where the candyfloss begins. Instead of candyfloss they've only had a mouthful of sand, so now they're itching for a bite.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Arts",
+    "abilityList": [
+      {
+        "text": "Explodes on first attack, dealing AoE Arts damage and spawning Carmine Steam",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Summons a Hot Spring 'Jolly Rascal' and Fashion Street 'Robust Heavy' upon dying",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 2,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1344_ddlamb_2", "enemy_1345_tplamb_2"]
+  },
+  {
+    "sort": 675,
+    "id": "enemy_1349_rckshp",
+    "slug": "big_fella",
+    "code": "FF11",
+    "name": "'Big Fella'",
+    "description": "A humongous and somewhat slow-moving fluffy critter, its sturdiness possibly stems from never picking at its food. Sometimes it will spit out a few 'Little Fellas'—they might have been eaten by accident earlier.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Throws a Hot Spring 'Mischievous Rascal' on first attack",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 1,
+    "weight": 5,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1344_ddlamb"]
+  },
+  {
+    "sort": 676,
+    "id": "enemy_1349_rckshp_2",
+    "slug": "big_man",
+    "code": "FF12",
+    "name": "'Big Man'",
+    "description": "A humongous and somewhat slow-moving fluffy critter, its sturdiness possibly stems from never picking at its food. Some 'Little Fellas' will willingly be eaten, for this lets them ponder their thoughts—just what exactly is the difference between them and the volcano?",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Throws a Hot Spring 'Jolly Rascal' on first attack",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 1,
+    "weight": 5,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1344_ddlamb_2"]
+  },
+  {
+    "sort": 677,
+    "id": "enemy_1350_mgcshp",
+    "slug": "fashion_street_'stellar_caster'",
+    "code": "FF13",
+    "name": "Fashion Street 'Stellar Caster'",
+    "description": "A fluffy critter that has found something nice from a mysterious divination shop that will make anyone who notices it 'see stars'! It's very clever, and knows that the next most important thing after a wand is the magic hat on its head!",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Attacks 3 units simultaneously when in contact with Carmine Steam",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 678,
+    "id": "enemy_1350_mgcshp_2",
+    "slug": "fashion_street_'supernova_caster'",
+    "code": "FF14",
+    "name": "Fashion Street 'Supernova Caster'",
+    "description": "A fluffy critter that has found something nice from a mysterious divination shop that will make people who notice it 'see stars'! It has become even stronger due to the latest limited-edition magic hat on its head.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Attacks 3 units simultaneously when in contact with Carmine Steam",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
     "sort": 680,
     "id": "enemy_2001_duckmi",
     "slug": "duck_lord",
@@ -17001,6 +17333,66 @@
     "weight": 6,
     "isFlying": false,
     "relatedEnemies": ["enemy_3005_lpeopl"]
+  },
+  {
+    "sort": 754,
+    "id": "enemy_1545_shpkg",
+    "slug": "dolly,_sovereign_of_sheep",
+    "code": "DLY",
+    "name": "Dolly, Sovereign of Sheep",
+    "description": "Sovereign of Sheep, traveling through the barrenlands and enjoying lava surfing. He sees everyone as equals, and is happy to leave their 'mark' on this great land. Now, it's time to have some fun with him!",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Cannot be blocked or attacked by melee attacks\" href=\"/terminology#low-altitude_hovering\">Low-Altitude Hovering</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Wool Shield] Takes greatly reduced Physical and Arts damage when shield is active. When the shield value reaches 0, Dolly will lose his shield and make landfall, losing <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Cannot be blocked or attacked by melee attacks\" href=\"/terminology#low-altitude_hovering\">Low-Altitude Hovering</a> and becoming unable to attack",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Shield value can be reduced by Steam Soda Bottle explosions",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Shield value can be reduced by taking damage from Operators standing around a Decorative Geyser",
+        "textFormat": "NORMAL"
+      },
+      { "text": "Airy Dolly", "textFormat": "TITLE" },
+      {
+        "text": "Prioritizes attacking ground units, and applies Carmine Steam on tiles the targets are on",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Elated Firebreathing] Locks onto a unit, and afterwards lets loose a vertical line of fire on that target's location from top to bottom, dealing Arts damage to all units on tiles in that column and generating Carmine Steam on the tiles",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Unintentional Explosion] Stops attacking to charge energy. After a period of time, ignites all Carmine Steam from right to left, dealing Arts and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"After Burn Damage reaches 1000, the affected unit has its RES reduced by 20 for 10 seconds and takes 1200 Arts damage\" href=\"/terminology#burn_damage\">Burn damage</a> to all targets in range",
+        "textFormat": "NORMAL"
+      },
+      { "text": "Frantic Dolly", "textFormat": "TITLE" },
+      {
+        "text": "Cannot attack, leaves Carmine Steam on tiles it travels over",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Deals Arts damage and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"After Burn Damage reaches 1000, the affected unit has its RES reduced by 20 for 10 seconds and takes 1200 Arts damage\" href=\"/terminology#burn_damage\">Burn damage</a> to units he bumps into",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Dolly no longer uses [Elated Firebreathing], and will only use [Unintentional Explosion] upon making landfall",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 2,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
   },
   {
     "sort": 755,

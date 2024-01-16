@@ -1,7 +1,5 @@
 name: Update Data
 on:
-  schedule:
-    - cron: "35 17 * * 2" # Runs "12:35PM EST on Tuesday" (30min after scheduled run in `cyanChill/Caerula-Data`)
   workflow_dispatch:
 
 jobs:
