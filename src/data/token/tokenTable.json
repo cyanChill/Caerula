@@ -3987,6 +3987,101 @@
     "type": "reinforcement",
     "usedBy": "char_249_mlyss"
   },
+  "token_10031_swire2_gdtrap": {
+    "id": "token_10031_swire2_gdtrap",
+    "iconId": "token_10031_swire2_gdtrap",
+    "slug": "champagne_bomb",
+    "name": "Champagne Bomb",
+    "displayName": "Champagne Bomb",
+    "rarity": 6,
+    "position": "MELEE",
+    "range": ["0-1", "0-1", "0-1"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 1000,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "cost": 0,
+            "blockCnt": 0,
+            "atkInterval": 1,
+            "respawnTime": 0
+          },
+          {
+            "hp": 1000,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "cost": 0,
+            "blockCnt": 0,
+            "atkInterval": 1,
+            "respawnTime": 0
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 1000,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "cost": 0,
+            "blockCnt": 0,
+            "atkInterval": 1,
+            "respawnTime": 0
+          },
+          {
+            "hp": 1000,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "cost": 0,
+            "blockCnt": 0,
+            "atkInterval": 1,
+            "respawnTime": 0
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 90,
+        "stats": [
+          {
+            "hp": 1000,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "cost": 0,
+            "blockCnt": 0,
+            "atkInterval": 1,
+            "respawnTime": 0
+          },
+          {
+            "hp": 1000,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "cost": 0,
+            "blockCnt": 0,
+            "atkInterval": 1,
+            "respawnTime": 0
+          }
+        ],
+        "evolveCost": []
+      }
+    ],
+    "talents": {},
+    "trait": null,
+    "skillIds": [null, "sktok_swire2_gdtrap", null],
+    "type": "summon",
+    "usedBy": "char_1033_swire2"
+  },
   "trap_079_allydonq": {
     "id": "trap_079_allydonq",
     "iconId": "trap_079_allydonq",

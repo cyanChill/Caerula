@@ -2648,6 +2648,29 @@
     "initSp": [25, 26, 27, 28, 29, 30, 31, 32, 33, 35],
     "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
   },
+  "skchr_buildr_2": {
+    "id": "skchr_buildr_2",
+    "iconId": "skchr_buildr_2",
+    "name": "Engineer's Wish",
+    "description": [
+      "Immediately generates <span style=\"color:#0098DC;\">9</span> DP; ATK <span style=\"color:#0098DC;\">+10%</span> and DEF <span style=\"color:#0098DC;\">+30%</span> for the duration\n<span style=\"color:#F49800;\">From second activation and on: generates 1 DP every 5 seconds, and has unlimited duration</span>",
+      "Immediately generates <span style=\"color:#0098DC;\">9</span> DP; ATK <span style=\"color:#0098DC;\">+10%</span> and DEF <span style=\"color:#0098DC;\">+35%</span> for the duration\n<span style=\"color:#F49800;\">From second activation and on: generates 1 DP every 5 seconds, and has unlimited duration</span>",
+      "Immediately generates <span style=\"color:#0098DC;\">9</span> DP; ATK <span style=\"color:#0098DC;\">+10%</span> and DEF <span style=\"color:#0098DC;\">+40%</span> for the duration\n<span style=\"color:#F49800;\">From second activation and on: generates 1 DP every 5 seconds, and has unlimited duration</span>",
+      "Immediately generates <span style=\"color:#0098DC;\">10</span> DP; ATK <span style=\"color:#0098DC;\">+10%</span> and DEF <span style=\"color:#0098DC;\">+40%</span> for the duration\n<span style=\"color:#F49800;\">From second activation and on: generates 1 DP every 4.5 seconds, and has unlimited duration</span>",
+      "Immediately generates <span style=\"color:#0098DC;\">10</span> DP; ATK <span style=\"color:#0098DC;\">+15%</span> and DEF <span style=\"color:#0098DC;\">+45%</span> for the duration\n<span style=\"color:#F49800;\">From second activation and on: generates 1 DP every 4.5 seconds, and has unlimited duration</span>",
+      "Immediately generates <span style=\"color:#0098DC;\">10</span> DP; ATK <span style=\"color:#0098DC;\">+20%</span> and DEF <span style=\"color:#0098DC;\">+50%</span> for the duration\n<span style=\"color:#F49800;\">From second activation and on: generates 1 DP every 4.5 seconds, and has unlimited duration</span>",
+      "Immediately generates <span style=\"color:#0098DC;\">11</span> DP; ATK <span style=\"color:#0098DC;\">+20%</span> and DEF <span style=\"color:#0098DC;\">+50%</span> for the duration\n<span style=\"color:#F49800;\">From second activation and on: generates 1 DP every 4 seconds, and has unlimited duration</span>",
+      "Immediately generates <span style=\"color:#0098DC;\">11</span> DP; ATK <span style=\"color:#0098DC;\">+25%</span> and DEF <span style=\"color:#0098DC;\">+55%</span> for the duration\n<span style=\"color:#F49800;\">From second activation and on: generates 1 DP every 4 seconds, and has unlimited duration</span>",
+      "Immediately generates <span style=\"color:#0098DC;\">11</span> DP; ATK <span style=\"color:#0098DC;\">+30%</span> and DEF <span style=\"color:#0098DC;\">+60%</span> for the duration\n<span style=\"color:#F49800;\">From second activation and on: generates 1 DP every 4 seconds, and has unlimited duration</span>",
+      "Immediately generates <span style=\"color:#0098DC;\">12</span> DP; ATK <span style=\"color:#0098DC;\">+35%</span> and DEF <span style=\"color:#0098DC;\">+65%</span> for the duration\n<span style=\"color:#F49800;\">From second activation and on: generates 1 DP every 4 seconds, and has unlimited duration</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [50, 49, 48, 47, 46, 45, 44, 43, 42, 40],
+    "initSp": [25, 25, 25, 25, 25, 25, 25, 25, 25, 25],
+    "duration": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15]
+  },
   "skchr_apionr_1": {
     "id": "skchr_apionr_1",
     "iconId": "skchr_apionr_1",
@@ -3043,6 +3066,52 @@
     "spCost": [70, 69, 68, 67, 66, 65, 64, 63, 62, 60],
     "initSp": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
     "duration": [20, 20, 20, 21, 21, 21, 22, 23, 24, 25]
+  },
+  "skchr_bryota_1": {
+    "id": "skchr_bryota_1",
+    "iconId": "skcom_powerstrike[2]",
+    "name": "Power Strike β",
+    "description": [
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">170%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">175%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">180%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">185%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">190%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">195%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">200%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">210%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">220%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">230%</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Offensive",
+    "spCost": [5, 5, 5, 4, 4, 4, 4, 4, 4, 3],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "skchr_bryota_2": {
+    "id": "skchr_bryota_2",
+    "iconId": "skchr_bryota_2",
+    "name": "Earthen Tenacity",
+    "description": [
+      "ATK <span style=\"color:#0098DC;\">+30%</span>, and grants DEF <span style=\"color:#0098DC;\">+30%</span> to the melee Operator in the surrounding 8 tiles with the highest Block (if no applicable Operators, effect is granted to self)\n<span style=\"color:#F49800;\">After skill ends, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> self for 8s</span>",
+      "ATK <span style=\"color:#0098DC;\">+35%</span>, and grants DEF <span style=\"color:#0098DC;\">+35%</span> to the melee Operator in the surrounding 8 tiles with the highest Block (if no applicable Operators, effect is granted to self)\n<span style=\"color:#F49800;\">After skill ends, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> self for 8s</span>",
+      "ATK <span style=\"color:#0098DC;\">+40%</span>, and grants DEF <span style=\"color:#0098DC;\">+40%</span> to the melee Operator in the surrounding 8 tiles with the highest Block (if no applicable Operators, effect is granted to self)\n<span style=\"color:#F49800;\">After skill ends, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> self for 8s</span>",
+      "ATK <span style=\"color:#0098DC;\">+45%</span>, and grants DEF <span style=\"color:#0098DC;\">+45%</span> to the melee Operator in the surrounding 8 tiles with the highest Block (if no applicable Operators, effect is granted to self)\n<span style=\"color:#F49800;\">After skill ends, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> self for 7s</span>",
+      "ATK <span style=\"color:#0098DC;\">+50%</span>, and grants DEF <span style=\"color:#0098DC;\">+50%</span> to the melee Operator in the surrounding 8 tiles with the highest Block (if no applicable Operators, effect is granted to self)\n<span style=\"color:#F49800;\">After skill ends, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> self for 7s</span>",
+      "ATK <span style=\"color:#0098DC;\">+55%</span>, and grants DEF <span style=\"color:#0098DC;\">+55%</span> to the melee Operator in the surrounding 8 tiles with the highest Block (if no applicable Operators, effect is granted to self)\n<span style=\"color:#F49800;\">After skill ends, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> self for 7s</span>",
+      "ATK <span style=\"color:#0098DC;\">+60%</span>, and grants DEF <span style=\"color:#0098DC;\">+60%</span> to the melee Operator in the surrounding 8 tiles with the highest Block (if no applicable Operators, effect is granted to self)\n<span style=\"color:#F49800;\">After skill ends, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> self for 6s</span>",
+      "ATK <span style=\"color:#0098DC;\">+65%</span>, and grants DEF <span style=\"color:#0098DC;\">+65%</span> to the melee Operator in the surrounding 8 tiles with the highest Block (if no applicable Operators, effect is granted to self)\n<span style=\"color:#F49800;\">After skill ends, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> self for 6s</span>",
+      "ATK <span style=\"color:#0098DC;\">+70%</span>, and grants DEF <span style=\"color:#0098DC;\">+70%</span> to the melee Operator in the surrounding 8 tiles with the highest Block (if no applicable Operators, effect is granted to self)\n<span style=\"color:#F49800;\">After skill ends, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> self for 6s</span>",
+      "ATK <span style=\"color:#0098DC;\">+80%</span>, and grants DEF <span style=\"color:#0098DC;\">+80%</span> to the melee Operator in the surrounding 8 tiles with the highest Block (if no applicable Operators, effect is granted to self)\n<span style=\"color:#F49800;\">After skill ends, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> self for 5s</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [60, 60, 60, 55, 55, 55, 50, 50, 50, 50],
+    "initSp": [20, 20, 20, 25, 25, 25, 30, 30, 35, 35],
+    "duration": [30, 30, 30, 30, 30, 30, 30, 30, 30, 30]
   },
   "skchr_franka_2": {
     "id": "skchr_franka_2",
@@ -11504,6 +11573,98 @@
     "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
   },
+  "skchr_swire2_1": {
+    "id": "skchr_swire2_1",
+    "iconId": "skchr_swire2_1",
+    "name": "Loyalty and Generosity",
+    "description": [
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin: the next attack restores HP equal to <span style=\"color:#0098DC;\">25%</span> of ATK to a friendly unit within the surrounding 8 tiles with less than 70% HP\n<span style=\"color:#F49800;\">A maximum of 1 Coin may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin: the next attack restores HP equal to <span style=\"color:#0098DC;\">30%</span> of ATK to a friendly unit within the surrounding 8 tiles with less than 70% HP\n<span style=\"color:#F49800;\">A maximum of 1 Coin may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin: the next attack restores HP equal to <span style=\"color:#0098DC;\">35%</span> of ATK to a friendly unit within the surrounding 8 tiles with less than 70% HP\n<span style=\"color:#F49800;\">A maximum of 1 Coin may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin: the next attack restores HP equal to <span style=\"color:#0098DC;\">40%</span> of ATK to a friendly unit within the surrounding 8 tiles with less than 70% HP\n<span style=\"color:#F49800;\">A maximum of 2 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin: the next attack restores HP equal to <span style=\"color:#0098DC;\">45%</span> of ATK to a friendly unit within the surrounding 8 tiles with less than 70% HP\n<span style=\"color:#F49800;\">A maximum of 2 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin: the next attack restores HP equal to <span style=\"color:#0098DC;\">50%</span> of ATK to a friendly unit within the surrounding 8 tiles with less than 70% HP\n<span style=\"color:#F49800;\">A maximum of 2 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin: the next attack restores HP equal to <span style=\"color:#0098DC;\">55%</span> of ATK to a friendly unit within the surrounding 8 tiles with less than 70% HP\n<span style=\"color:#F49800;\">A maximum of 2 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin: the next attack restores HP equal to <span style=\"color:#0098DC;\">60%</span> of ATK to a friendly unit within the surrounding 8 tiles with less than 70% HP\n<span style=\"color:#F49800;\">A maximum of 3 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin: the next attack restores HP equal to <span style=\"color:#0098DC;\">70%</span> of ATK to a friendly unit within the surrounding 8 tiles with less than 70% HP\n<span style=\"color:#F49800;\">A maximum of 3 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin: the next attack restores HP equal to <span style=\"color:#0098DC;\">80%</span> of ATK to a friendly unit within the surrounding 8 tiles with less than 70% HP\n<span style=\"color:#F49800;\">A maximum of 3 Coins may be held while this Skill is equipped</span>"
+    ],
+    "rangeId": "1-1",
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_swire2_2": {
+    "id": "skchr_swire2_2",
+    "iconId": "skchr_swire2_2",
+    "name": "'Courtesy Gift'",
+    "description": [
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin to place a Champagne Bomb on a ground tile within range that is passable and can be deployed upon; the Champagne Bomb deals <span style=\"color:#0098DC;\">140%</span> of ATK as Physical damage to the first target it comes in contact with, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> for <span style=\"color:#0098DC;\">2</span> seconds\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds; a maximum of 3 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin to place a Champagne Bomb on a ground tile within range that is passable and can be deployed upon; the Champagne Bomb deals <span style=\"color:#0098DC;\">145%</span> of ATK as Physical damage to the first target it comes in contact with, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> for <span style=\"color:#0098DC;\">2</span> seconds\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds; a maximum of 3 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin to place a Champagne Bomb on a ground tile within range that is passable and can be deployed upon; the Champagne Bomb deals <span style=\"color:#0098DC;\">150%</span> of ATK as Physical damage to the first target it comes in contact with, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> for <span style=\"color:#0098DC;\">2</span> seconds\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds; a maximum of 3 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin to place a Champagne Bomb on a ground tile within range that is passable and can be deployed upon; the Champagne Bomb deals <span style=\"color:#0098DC;\">155%</span> of ATK as Physical damage to the first target it comes in contact with, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> for <span style=\"color:#0098DC;\">2</span> seconds\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds; a maximum of 3 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin to place a Champagne Bomb on a ground tile within range that is passable and can be deployed upon; the Champagne Bomb deals <span style=\"color:#0098DC;\">160%</span> of ATK as Physical damage to the first target it comes in contact with, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> for <span style=\"color:#0098DC;\">2</span> seconds\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds; a maximum of 3 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin to place a Champagne Bomb on a ground tile within range that is passable and can be deployed upon; the Champagne Bomb deals <span style=\"color:#0098DC;\">165%</span> of ATK as Physical damage to the first target it comes in contact with, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> for <span style=\"color:#0098DC;\">2</span> seconds\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds; a maximum of 3 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin to place a Champagne Bomb on a ground tile within range that is passable and can be deployed upon; the Champagne Bomb deals <span style=\"color:#0098DC;\">170%</span> of ATK as Physical damage to the first target it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> for <span style=\"color:#0098DC;\">2</span> seconds\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds; a maximum of 4 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin to place a Champagne Bomb on a ground tile within range that is passable and can be deployed upon; the Champagne Bomb deals <span style=\"color:#0098DC;\">180%</span> of ATK as Physical damage to the first target it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> for <span style=\"color:#0098DC;\">2</span> seconds\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds; a maximum of 4 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin to place a Champagne Bomb on a ground tile within range that is passable and can be deployed upon; the Champagne Bomb deals <span style=\"color:#0098DC;\">190%</span> of ATK as Physical damage to the first target it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> for <span style=\"color:#0098DC;\">2</span> seconds\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds; a maximum of 5 Coins may be held while this Skill is equipped</span>",
+      "Spends <span style=\"color:#0098DC;\">1</span> Coin to place a Champagne Bomb on a ground tile within range that is passable and can be deployed upon; the Champagne Bomb deals <span style=\"color:#0098DC;\">200%</span> of ATK as Physical damage to the first target it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> for <span style=\"color:#0098DC;\">2</span> seconds\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds; a maximum of 5 Coins may be held while this Skill is equipped</span>"
+    ],
+    "rangeId": "1-1",
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "sktok_swire2_gdtrap": {
+    "id": "sktok_swire2_gdtrap",
+    "iconId": "sktok_swire2_gdtrap",
+    "name": "'Courtesy Gift'",
+    "description": [
+      "Deals Physical damage to the first enemy it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a>\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds</span>",
+      "Deals Physical damage to the first enemy it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a>\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds</span>",
+      "Deals Physical damage to the first enemy it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a>\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds</span>",
+      "Deals Physical damage to the first enemy it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a>\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds</span>",
+      "Deals Physical damage to the first enemy it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a>\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds</span>",
+      "Deals Physical damage to the first enemy it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a>\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds</span>",
+      "Deals Physical damage to the first enemy it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a>\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds</span>",
+      "Deals Physical damage to the first enemy it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a>\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds</span>",
+      "Deals Physical damage to the first enemy it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a>\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds</span>",
+      "Deals Physical damage to the first enemy it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a>\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "skchr_swire2_3": {
+    "id": "skchr_swire2_3",
+    "iconId": "skchr_swire2_3",
+    "name": "Lavish and Prodigal",
+    "description": [
+      "Attacks hit twice, and gain 1 Coin upon defeating an enemy; when skill is manually deactivated, <span style=\"color:#0098DC;\">all</span> Coins will be spent to randomly attack enemies in a frontal area. Each Coin spent in this manner hits once for <span style=\"color:#0098DC;\">80%</span> of ATK as Physical damage and knocks the target back <span style=\"color:#0098DC;\">slightly</span>\n<span style=\"color:#F49800;\">Unlimited duration, can be manually deactivated at any time; a maximum of 10 Coins may be held while this Skill is equipped</span>",
+      "Attacks hit twice, and gain 1 Coin upon defeating an enemy; when skill is manually deactivated, <span style=\"color:#0098DC;\">all</span> Coins will be spent to randomly attack enemies in a frontal area. Each Coin spent in this manner hits once for <span style=\"color:#0098DC;\">85%</span> of ATK as Physical damage and knocks the target back <span style=\"color:#0098DC;\">slightly</span>\n<span style=\"color:#F49800;\">Unlimited duration, can be manually deactivated at any time; a maximum of 10 Coins may be held while this Skill is equipped</span>",
+      "Attacks hit twice, and gain 1 Coin upon defeating an enemy; when skill is manually deactivated, <span style=\"color:#0098DC;\">all</span> Coins will be spent to randomly attack enemies in a frontal area. Each Coin spent in this manner hits once for <span style=\"color:#0098DC;\">90%</span> of ATK as Physical damage and knocks the target back <span style=\"color:#0098DC;\">slightly</span>\n<span style=\"color:#F49800;\">Unlimited duration, can be manually deactivated at any time; a maximum of 10 Coins may be held while this Skill is equipped</span>",
+      "Attacks hit twice, and gain 1 Coin upon defeating an enemy; when skill is manually deactivated, <span style=\"color:#0098DC;\">all</span> Coins will be spent to randomly attack enemies in a frontal area. Each Coin spent in this manner hits once for <span style=\"color:#0098DC;\">100%</span> of ATK as Physical damage and knocks the target back <span style=\"color:#0098DC;\">slightly</span>\n<span style=\"color:#F49800;\">Unlimited duration, can be manually deactivated at any time; a maximum of 10 Coins may be held while this Skill is equipped</span>",
+      "Attacks hit twice, and gain 1 Coin upon defeating an enemy; when skill is manually deactivated, <span style=\"color:#0098DC;\">all</span> Coins will be spent to randomly attack enemies in a frontal area. Each Coin spent in this manner hits once for <span style=\"color:#0098DC;\">105%</span> of ATK as Physical damage and knocks the target back <span style=\"color:#0098DC;\">slightly</span>\n<span style=\"color:#F49800;\">Unlimited duration, can be manually deactivated at any time; a maximum of 10 Coins may be held while this Skill is equipped</span>",
+      "Attacks hit twice, and gain 1 Coin upon defeating an enemy; when skill is manually deactivated, <span style=\"color:#0098DC;\">all</span> Coins will be spent to randomly attack enemies in a frontal area. Each Coin spent in this manner hits once for <span style=\"color:#0098DC;\">110%</span> of ATK as Physical damage and knocks the target back <span style=\"color:#0098DC;\">slightly</span>\n<span style=\"color:#F49800;\">Unlimited duration, can be manually deactivated at any time; a maximum of 10 Coins may be held while this Skill is equipped</span>",
+      "Attacks hit twice, and gain 1 Coin upon defeating an enemy; when skill is manually deactivated, <span style=\"color:#0098DC;\">all</span> Coins will be spent to randomly attack enemies in a frontal area. Each Coin spent in this manner hits once for <span style=\"color:#0098DC;\">120%</span> of ATK as Physical damage and knocks the target back <span style=\"color:#0098DC;\">slightly</span>\n<span style=\"color:#F49800;\">Unlimited duration, can be manually deactivated at any time; a maximum of 10 Coins may be held while this Skill is equipped</span>",
+      "Attacks hit twice, and gain 1 Coin upon defeating an enemy; when skill is manually deactivated, <span style=\"color:#0098DC;\">all</span> Coins will be spent to randomly attack enemies in a frontal area. Each Coin spent in this manner hits once for <span style=\"color:#0098DC;\">130%</span> of ATK as Physical damage and knocks the target back <span style=\"color:#0098DC;\">slightly</span>\n<span style=\"color:#F49800;\">Unlimited duration, can be manually deactivated at any time; a maximum of 10 Coins may be held while this Skill is equipped</span>",
+      "Attacks hit twice, and gain 1 Coin upon defeating an enemy; when skill is manually deactivated, <span style=\"color:#0098DC;\">all</span> Coins will be spent to randomly attack enemies in a frontal area. Each Coin spent in this manner hits once for <span style=\"color:#0098DC;\">140%</span> of ATK as Physical damage and knocks the target back <span style=\"color:#0098DC;\">slightly</span>\n<span style=\"color:#F49800;\">Unlimited duration, can be manually deactivated at any time; a maximum of 10 Coins may be held while this Skill is equipped</span>",
+      "Attacks hit twice, and gain 1 Coin upon defeating an enemy; when skill is manually deactivated, <span style=\"color:#0098DC;\">all</span> Coins will be spent to randomly attack enemies in a frontal area. Each Coin spent in this manner hits once for <span style=\"color:#0098DC;\">150%</span> of ATK as Physical damage and knocks the target back <span style=\"color:#0098DC;\">moderately</span>\n<span style=\"color:#F49800;\">Unlimited duration, can be manually deactivated at any time; a maximum of 10 Coins may be held while this Skill is equipped</span>"
+    ],
+    "rangeId": "1-1",
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
   "skchr_weedy_1": {
     "id": "skchr_weedy_1",
     "iconId": "skchr_weedy_1",
@@ -12262,6 +12423,75 @@
     "spCost": [65, 64, 63, 61, 60, 59, 57, 55, 53, 50],
     "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_agoat2_1": {
+    "id": "skchr_agoat2_1",
+    "iconId": "skchr_agoat2_1",
+    "name": "Soundless Sustenance",
+    "description": [
+      "ATK <span style=\"color:#0098DC;\">+10%</span>, each heal can affect one additional target, and all friendly units within range will recover <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> equal to <span style=\"color:#0098DC;\">2%</span> of Eyjafjalla the Hvít Aska's ATK\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+10%</span>, each heal can affect one additional target, and all friendly units within range will recover <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> equal to <span style=\"color:#0098DC;\">3%</span> of Eyjafjalla the Hvít Aska's ATK\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+10%</span>, each heal can affect one additional target, and all friendly units within range will recover <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> equal to <span style=\"color:#0098DC;\">4%</span> of Eyjafjalla the Hvít Aska's ATK\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+20%</span>, each heal can affect one additional target, and all friendly units within range will recover <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> equal to <span style=\"color:#0098DC;\">4%</span> of Eyjafjalla the Hvít Aska's ATK\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+20%</span>, each heal can affect one additional target, and all friendly units within range will recover <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> equal to <span style=\"color:#0098DC;\">5%</span> of Eyjafjalla the Hvít Aska's ATK\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+20%</span>, each heal can affect one additional target, and all friendly units within range will recover <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> equal to <span style=\"color:#0098DC;\">6%</span> of Eyjafjalla the Hvít Aska's ATK\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+30%</span>, each heal can affect one additional target, and all friendly units within range will recover <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> equal to <span style=\"color:#0098DC;\">6%</span> of Eyjafjalla the Hvít Aska's ATK\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+30%</span>, each heal can affect one additional target, and all friendly units within range will recover <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> equal to <span style=\"color:#0098DC;\">7%</span> of Eyjafjalla the Hvít Aska's ATK\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+30%</span>, each heal can affect one additional target, and all friendly units within range will recover <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> equal to <span style=\"color:#0098DC;\">8%</span> of Eyjafjalla the Hvít Aska's ATK\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+40%</span>, each heal can affect one additional target, and all friendly units within range will recover <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> equal to <span style=\"color:#0098DC;\">8%</span> of Eyjafjalla the Hvít Aska's ATK\n<span style=\"color:#F49800;\">Unlimited duration</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [80, 78, 76, 74, 72, 70, 68, 64, 62, 60],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_agoat2_2": {
+    "id": "skchr_agoat2_2",
+    "iconId": "skchr_agoat2_2",
+    "name": "Cloudmist Shelter",
+    "description": [
+      "Immediately heals all friendly units within range and creates a<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of Elemental Damage.\" href=\"/terminology#protective_barrier\"> Protective Barrier</a> for them that lasts <span style=\"color:#0098DC;\">10</span> seconds; Protective Barrier absorbs <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> for all friendly units equal to <span style=\"color:#0098DC;\">350%</span> of ATK",
+      "Immediately heals all friendly units within range and creates a<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of Elemental Damage.\" href=\"/terminology#protective_barrier\"> Protective Barrier</a> for them that lasts <span style=\"color:#0098DC;\">10</span> seconds; Protective Barrier absorbs <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> for all friendly units equal to <span style=\"color:#0098DC;\">400%</span> of ATK",
+      "Immediately heals all friendly units within range and creates a<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of Elemental Damage.\" href=\"/terminology#protective_barrier\"> Protective Barrier</a> for them that lasts <span style=\"color:#0098DC;\">10</span> seconds; Protective Barrier absorbs <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> for all friendly units equal to <span style=\"color:#0098DC;\">450%</span> of ATK",
+      "Immediately heals all friendly units within range and creates a<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of Elemental Damage.\" href=\"/terminology#protective_barrier\"> Protective Barrier</a> for them that lasts <span style=\"color:#0098DC;\">12</span> seconds; Protective Barrier absorbs <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> for all friendly units equal to <span style=\"color:#0098DC;\">500%</span> of ATK",
+      "Immediately heals all friendly units within range and creates a<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of Elemental Damage.\" href=\"/terminology#protective_barrier\"> Protective Barrier</a> for them that lasts <span style=\"color:#0098DC;\">12</span> seconds; Protective Barrier absorbs <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> for all friendly units equal to <span style=\"color:#0098DC;\">550%</span> of ATK",
+      "Immediately heals all friendly units within range and creates a<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of Elemental Damage.\" href=\"/terminology#protective_barrier\"> Protective Barrier</a> for them that lasts <span style=\"color:#0098DC;\">12</span> seconds; Protective Barrier absorbs <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> for all friendly units equal to <span style=\"color:#0098DC;\">600%</span> of ATK",
+      "Immediately heals all friendly units within range and creates a<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of Elemental Damage.\" href=\"/terminology#protective_barrier\"> Protective Barrier</a> for them that lasts <span style=\"color:#0098DC;\">14</span> seconds; Protective Barrier absorbs <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> for all friendly units equal to <span style=\"color:#0098DC;\">650%</span> of ATK",
+      "Immediately heals all friendly units within range and creates a<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of Elemental Damage.\" href=\"/terminology#protective_barrier\"> Protective Barrier</a> for them that lasts <span style=\"color:#0098DC;\">16</span> seconds; Protective Barrier absorbs <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> for all friendly units equal to <span style=\"color:#0098DC;\">750%</span> of ATK",
+      "Immediately heals all friendly units within range and creates a<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of Elemental Damage.\" href=\"/terminology#protective_barrier\"> Protective Barrier</a> for them that lasts <span style=\"color:#0098DC;\">18</span> seconds; Protective Barrier absorbs <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> for all friendly units equal to <span style=\"color:#0098DC;\">800%</span> of ATK",
+      "Immediately heals all friendly units within range and creates a<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of Elemental Damage.\" href=\"/terminology#protective_barrier\"> Protective Barrier</a> for them that lasts <span style=\"color:#0098DC;\">20</span> seconds; Protective Barrier absorbs <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> for all friendly units equal to <span style=\"color:#0098DC;\">900%</span> of ATK"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [30, 29, 28, 27, 26, 25, 24, 22, 21, 20],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_agoat2_3": {
+    "id": "skchr_agoat2_3",
+    "iconId": "skchr_agoat2_3",
+    "name": "Volcanic Echoes",
+    "description": [
+      "Attack Range becomes global, and each heal is converted to a <span style=\"color:#0098DC;\">5</span>- heal sequence that prioritizes different targets, each with <span style=\"color:#0098DC;\">25%</span> healing effectiveness and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> recovery; the effect of the Second Talent is increased to <span style=\"color:#0098DC;\">2</span> times",
+      "Attack Range becomes global, and each heal is converted to a <span style=\"color:#0098DC;\">5</span>- heal sequence that prioritizes different targets, each with <span style=\"color:#0098DC;\">25%</span> healing effectiveness and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> recovery; the effect of the Second Talent is increased to <span style=\"color:#0098DC;\">2.3</span> times",
+      "Attack Range becomes global, and each heal is converted to a <span style=\"color:#0098DC;\">5</span>- heal sequence that prioritizes different targets, each with <span style=\"color:#0098DC;\">25%</span> healing effectiveness and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> recovery; the effect of the Second Talent is increased to <span style=\"color:#0098DC;\">2.6</span> times",
+      "Attack Range becomes global, and each heal is converted to a <span style=\"color:#0098DC;\">5</span>- heal sequence that prioritizes different targets, each with <span style=\"color:#0098DC;\">35%</span> healing effectiveness and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> recovery; the effect of the Second Talent is increased to <span style=\"color:#0098DC;\">2.9</span> times",
+      "Attack Range becomes global, and each heal is converted to a <span style=\"color:#0098DC;\">5</span>- heal sequence that prioritizes different targets, each with <span style=\"color:#0098DC;\">35%</span> healing effectiveness and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> recovery; the effect of the Second Talent is increased to <span style=\"color:#0098DC;\">3.2</span> times",
+      "Attack Range becomes global, and each heal is converted to a <span style=\"color:#0098DC;\">5</span>- heal sequence that prioritizes different targets, each with <span style=\"color:#0098DC;\">35%</span> healing effectiveness and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> recovery; the effect of the Second Talent is increased to <span style=\"color:#0098DC;\">3.5</span> times",
+      "Attack Range becomes global, and each heal is converted to a <span style=\"color:#0098DC;\">5</span>- heal sequence that prioritizes different targets, each with <span style=\"color:#0098DC;\">45%</span> healing effectiveness and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> recovery; the effect of the Second Talent is increased to <span style=\"color:#0098DC;\">3.8</span> times",
+      "Attack Range becomes global, and each heal is converted to a <span style=\"color:#0098DC;\">5</span>- heal sequence that prioritizes different targets, each with <span style=\"color:#0098DC;\">50%</span> healing effectiveness and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> recovery; the effect of the Second Talent is increased to <span style=\"color:#0098DC;\">4.2</span> times",
+      "Attack Range becomes global, and each heal is converted to a <span style=\"color:#0098DC;\">5</span>- heal sequence that prioritizes different targets, each with <span style=\"color:#0098DC;\">55%</span> healing effectiveness and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> recovery; the effect of the Second Talent is increased to <span style=\"color:#0098DC;\">4.6</span> times",
+      "Attack Range becomes global, and each heal is converted to a <span style=\"color:#0098DC;\">5</span>- heal sequence that prioritizes different targets, each with <span style=\"color:#0098DC;\">60%</span> healing effectiveness and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> recovery; the effect of the Second Talent is increased to <span style=\"color:#0098DC;\">5</span> times"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [80, 79, 78, 75, 74, 73, 70, 66, 63, 60],
+    "initSp": [20, 20, 20, 30, 30, 30, 40, 40, 40, 40],
+    "duration": [50, 50, 50, 50, 50, 50, 50, 50, 50, 50]
   },
   "skchr_reed2_2": {
     "id": "skchr_reed2_2",
@@ -16243,5 +16473,31 @@
     "spCost": [10],
     "initSp": [0],
     "duration": [0]
+  },
+  "sktok_stmpq": {
+    "id": "sktok_stmpq",
+    "iconId": "sktok_stmpq",
+    "name": "Decorative Geyser",
+    "description": [
+      "When adjacent friendly Operators attack ground targets, Pure White Steam will be generated at that location"
+    ],
+    "rangeId": "x-5",
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_stmbot": {
+    "id": "sktok_stmbot",
+    "iconId": "sktok_stmbot",
+    "name": "Steam Soda Bottle",
+    "description": ["When defeated, creates Pure White Steam in the surrounding area"],
+    "rangeId": "x-5",
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
   }
 }
