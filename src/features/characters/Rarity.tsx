@@ -8,6 +8,7 @@ interface Props {
   className?: string;
 }
 
+/** @description Displays the number of stars corresponding to the specified rarity. */
 export default function Rarity({ rarity, size, className }: Props) {
   return (
     <div className={cn("flex items-center gap-0.5 text-yellow-500", className)}>
