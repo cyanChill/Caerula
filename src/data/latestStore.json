@@ -1,9 +1,13 @@
 {
-  "latest-operator-ids": ["char_498_inside", "char_4015_spuria", "char_1032_excu2"],
+  "latest-operator-ids": [
+    "char_488_buildr",
+    "char_4106_bryota",
+    "char_1033_swire2",
+    "char_1016_agoat2"
+  ],
   "latest-skin-ids": [
-    "char_362_saga_sale#9",
-    "char_430_fartth_whirlwind#5",
-    "char_4025_aprot2_whirlwind#5",
-    "char_4071_peper_whirlwind#5"
+    "char_1026_gvial2_summer#12",
+    "char_377_gdglow_summer#12",
+    "char_151_myrtle_summer#12"
   ]
 }

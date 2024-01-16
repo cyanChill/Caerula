@@ -1600,6 +1600,31 @@
       { "langId": "JP", "actors": ["Yuuri Miyamoto"] },
       { "langId": "KR", "actors": ["Park Yi-seo"] }
     ],
+    "char_4106_bryota": [
+      { "langId": "CN_MANDARIN", "actors": ["Pei Zhang"] },
+      { "langId": "EN", "actors": ["John Patneaude"] },
+      { "langId": "JP", "actors": ["Daisuke Sakaguchi"] },
+      { "langId": "KR", "actors": ["Lim Hyeok"] }
+    ],
+    "char_1033_swire2": [
+      { "langId": "CN_MANDARIN", "actors": ["Ying Xie"] },
+      { "langId": "CN_TOPOLECT", "actors": ["Qiantong Wu"] },
+      { "langId": "EN", "actors": ["Emma Ballantine"] },
+      { "langId": "JP", "actors": ["Sora Tokui"] },
+      { "langId": "KR", "actors": ["Kim Yul"] }
+    ],
+    "char_488_buildr": [
+      { "langId": "CN_MANDARIN", "actors": ["Yanqi Sun"] },
+      { "langId": "EN", "actors": ["Jeannie Tirado"] },
+      { "langId": "JP", "actors": ["Kanna Nakamura"] },
+      { "langId": "KR", "actors": ["Lee Eun-jo"] }
+    ],
+    "char_1016_agoat2": [
+      { "langId": "CN_MANDARIN", "actors": ["Juniper Berry"] },
+      { "langId": "EN", "actors": ["Hollie Taylor"] },
+      { "langId": "JP", "actors": ["Risa Taneda"] },
+      { "langId": "KR", "actors": ["Kim Ha-ru"] }
+    ],
     "char_311_mudrok#1": [
       { "langId": "CN_MANDARIN", "actors": ["Duduru"] },
       { "langId": "JP", "actors": ["Maaya Uchida"] },
@@ -60798,6 +60823,854 @@
         "unlockCond": null
       }
     ],
+    "char_1016_agoat2": [
+      {
+        "sortId": 1,
+        "title": "Appointed as Assistant",
+        "text": "Were you looking for these documents, Professor? Here you are. I personally believe that some of these theories aren't explained in enough detail. If you wanted a springboard for your ideas, I suggest referencing these two papers. I've added some of my own commentary, so feel free to look it over.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 2,
+        "title": "Talk 1",
+        "text": "The little lamb didn't go away even after the volcano erupted. It's actually been staying with me the whole time, and sometimes gets into trouble. H-Hey, you can't go standing on the Doctor's head! That's terribly rude! Sorry, Professor. Um, Can you see the little lamb? It's right here, hand to the right, and then down a little. Yeah, you're petting it right now.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 3,
+        "title": "Talk 2",
+        "text": "This coat was Mom's old protective gear. Professor Keller once told me, this mark came from a sudden burst of magma. It almost left a scar on her, but Mom just laughed, saying she had good luck. If I were to go on an expedition with her, I'd probably need to be the one to lead.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 4,
+        "title": "Talk 3",
+        "text": "Shh. Here, Professor, I snuck these over! I saw it all — you were muttering about how badly you wanted some snacks earlier, right? I've actually gotten pretty good at reading lips. Not to brag, but I might be better than Rhodes Island's intelligence agents by now. But, just maybe.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 5,
+        "title": "Talk after Promotion 1",
+        "text": "I'm getting ready to head out, Professor. Another volcano is about to become active. While luck is still on my side, I need to go a bit farther, a bit deeper. I want to wear the brightly-colored ornaments, and get to the truth in the hot magma, just like Mom and Dad did.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "sortId": 6,
+        "title": "Talk after Promotion 2",
+        "text": "Professor, in a few days, I'll be going to Leithanien to attend a press conference and the premiere of my documentary. Our research is too obscure for the ordinary people who want to learn about volcanoes. But I still hope that one day, I can use this method to show everyone the beauty of volcanoes.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "sortId": 7,
+        "title": "Talk after Trust Increase 1",
+        "text": "Frostleaf has been going to Mousse's book club a lot these days. Earthspirit and Provence have been trekking far and wide. I've been exploring more volcanoes... Professor, I still remember those early days, when Mousse was so nervous she couldn't even talk, and Frostleaf was always alone. But look at them now... they're getting better.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "sortId": 8,
+        "title": "Talk after Trust Increase 2",
+        "text": "Hehe, Mr. Kahn's letter just arrived. He says he's really mad that Professor Keller and I went rowing on a sulfuric acid lake without protective gear. Mom and Dad did crazy things just like that before they had me, and they didn't bring Professor Keller along. So this time, so I took her with me!",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "sortId": 9,
+        "title": "Talk after Trust Increase 3",
+        "text": "One moment, Professor, I'm changing out my hearing aid battery. Hmm? You're... Did you forget, Professor? I can read lips now. Besides, the sign you want should be like this, then this. What you just did was 'I have been suppressed by the volcano.'",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "sortId": 10,
+        "title": "Idle",
+        "text": "Phew... Even without my hearing aid, I can still pick up the little sounds of Professor's breathing…",
+        "unlockCond": null
+      },
+      {
+        "sortId": 11,
+        "title": "Onboard",
+        "text": "Professor, I'm back, and I brought some souvenirs for you. I'll send them over to Dr. Kal'tsit and Amiya in a bit. I also managed to get a good amount of new data and specimens from Siesta's volcanic eruption. Would you like to come and take a look with me?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 12,
+        "title": "Watching Battle Record",
+        "text": "A volcano's every change and movement is fleeting. Only by capturing them on camera are we able to preserve every last detail.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 13,
+        "title": "Promotion 1",
+        "text": "Our documentaries are being taken seriously? That's great! During my inspections in recent years, I've seen a lot of governments that don't trust our judgment and won't allocate resources to evacuate the residents. I hope I'll be able to make a difference.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "sortId": 14,
+        "title": "Promotion 2",
+        "text": "I know what you want to say, Professor, but I've never made my expeditions hard for myself. Starting from the smallest example, I bet you've never fried a fowlbeast egg over lava before, but I have!",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "sortId": 17,
+        "title": "Added to Squad",
+        "text": "How about a slice of lava cake before we head out? It was one of Mom's traditions.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 18,
+        "title": "Appointed as Squad Leader",
+        "text": "Volcano field investigations are extremely dangerous. Everyone, please follow my instructions.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 19,
+        "title": "Depart",
+        "text": "Please double check your protective gear. Also, remember to keep a safe distance from the lava, and give regular status reports.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 20,
+        "title": "Begin Operation",
+        "text": "Relax, volcano. We're just here to collect a few precious samples. Please don't get mad.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 21,
+        "title": "Selecting Operator 1",
+        "text": "This time, we can make up for the missing data in the last report.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 22,
+        "title": "Selecting Operator 2",
+        "text": "Don't worry about me, Professor. I've scaled a lot more volcanoes than you can imagine.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 23,
+        "title": "Deployment 1",
+        "text": "Volcanic soot contains lots of Originium particles. Let's not stay too long.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 24,
+        "title": "Deployment 2",
+        "text": "Magma will dredge up Originium veins. Keep your distance.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 25,
+        "title": "In Battle 1",
+        "text": "Melt away, life-depriving stone...",
+        "unlockCond": null
+      },
+      {
+        "sortId": 26,
+        "title": "In Battle 2",
+        "text": "Ashes from vocalnoes, they consume and erase, then nourish and propagate.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 27,
+        "title": "In Battle 3",
+        "text": "Those particles have no place here. I'll send them away.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 28,
+        "title": "In Battle 4",
+        "text": "Oh, flowing magma, please slow your steps.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 29,
+        "title": "4-star Result",
+        "text": "We are one step closer to the truth of this land, Professor.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 30,
+        "title": "3-star Result",
+        "text": "Perhaps there will still be people gazing across this volcano a century from now. Their footprints will cover ours, and the seeds buried beneath the ash will bloom into even more beautiful flowers...",
+        "unlockCond": null
+      },
+      {
+        "sortId": 31,
+        "title": "Sub 3-star Result",
+        "text": "Why…? I'm not seeing any errors in the formula or the data... Um? I think I see something surfing through the lava...?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 32,
+        "title": "Operation Failure",
+        "text": "Phew... Thankfully, the volcano didn't want to keep me that badly.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 33,
+        "title": "Assigned to Facility",
+        "text": "Professor, I brought the documents you asked me about.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 34,
+        "title": "Tap",
+        "text": "I heard you coming, Professor. I recognized your footsteps.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 36,
+        "title": "Trust Tap",
+        "text": "Professor, I know how good you are at learning. I can tell you're doing the wrong sign on purpose just to make me laugh!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 37,
+        "title": "Title",
+        "text": "Arknights.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 42,
+        "title": "Greeting",
+        "text": "Professor, the fault lines of mountain ranges and trenches are quietly moving beneath our feet. Little by little, they inch us closer to the volcanoes we hope to visit.",
+        "unlockCond": null
+      }
+    ],
+    "char_1033_swire2": [
+      {
+        "sortId": 1,
+        "title": "Appointed as Assistant",
+        "text": "Alright, chop chop. Finish your work during your coffee break so the rest of your day is all coffee break!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 2,
+        "title": "Talk 1",
+        "text": "It's a holiday, so of course I gotta dress a little more casual. I may not have taken as many field missions these past few years, but I still passed the L.G.D.'s physical exams, in high heels.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 3,
+        "title": "Talk 2",
+        "text": "If Rhodes Island's looking for business partners, you can definitely trust these companies. Hey! Why are you looking at me like that? I'm just genuinely listing off my recommendations. You're making it look like I'm plotting a hostile takeover of Rhodes Island. If I'm actually planning an M&A... I just need to talk you round, right?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 4,
+        "title": "Talk 3",
+        "text": "Ahem... I've taken a glance at our recent mission records. Looks like Rhodes Island's tactics have got more professional over the past few years. Not bad, not bad... Excuse me?! What's wrong with your former training consultant checking your operators' records? I absolutely have not been looking at Ch'en's files!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 5,
+        "title": "Talk after Promotion 1",
+        "text": "It's not really a big deal, being L.G.D. chief. I've got a little more on my shoulders, a little more to worry about, and I can put myself in Ch'en's shoes a little more now... Oh, let me reiterate: I'm taking over the L.G.D., not taking over for Ch'en! If that stupid Lung came back right now, she'd have to call me 'Chief.'",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "sortId": 6,
+        "title": "Talk after Promotion 2",
+        "text": "I may have left my family's company, but I still deal in business every now and then. It's a way to build Lungmen, so there's no need to avoid the subject. And now that I've figured out what I need to do, I don't find my grandfather so scary anymore. Hmhm, Once you've made use of your fears, that's when you've truly conquered them, right?",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "sortId": 7,
+        "title": "Talk after Trust Increase 1",
+        "text": "The new Siesta's an interesting place. Even without its beaches and volcano, it's still worth a visit for its sky pools and natural springs. My investment there has resulted in pretty decent returns too. Doctor, if you find the time, you should go and see for yourself. Heading back to a place you haven't been in a while... might be just like a reunion with an old friend.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "sortId": 8,
+        "title": "Talk after Trust Increase 2",
+        "text": "Things are looking up for the trading company I'm running with Bison. Transporting one country's goods to another, sharing the cultures of places afar, these are the charms of commerce. Many are afraid of breaking barriers, but, Doctor, I'm sure we can find common ground.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "sortId": 9,
+        "title": "Talk after Trust Increase 3",
+        "text": "Is this the last document you have? Alright! You really kept me waiting this time, but finally, time for supper! I know this new place that's not so bad. It's on me tonigh—Oh, You don't want me spending money?  Umm... alright, then it's on you. I know some other places.",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "sortId": 10,
+        "title": "Idle",
+        "text": "Rawr... Ahem... You finished your work?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 11,
+        "title": "Onboard",
+        "text": "Long time no see, Doctor. Ahem, let me introduce myself again. Beatrix Schwire, soon-to-be Chief Commissioner of the Lungmen Guard Department—I really am the chief! Whoever said the L.G.D. chief can't take holidays?!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 12,
+        "title": "Watching Battle Record",
+        "text": "It's been a while, but that's quite the improvement—Excuse me!? Why must you emphasize that this happened <i>when</i> I wasn't working here as an instructor?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 13,
+        "title": "Promotion 1",
+        "text": "Exceptional talents earn exceptional rewards. That's how things should be.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "sortId": 14,
+        "title": "Promotion 2",
+        "text": "Alright, alright. I get that you can't do without me anymore. No sense beating around the bush like that. If you need my help, just say the word. I'll always be here for you, as your friend.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "sortId": 17,
+        "title": "Added to Squad",
+        "text": "Really? Not making me captain?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 18,
+        "title": "Appointed as Squad Leader",
+        "text": "Just follow my command and it'll all be fine.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 19,
+        "title": "Depart",
+        "text": "Let's try to take up as little of our holiday time as possible.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 20,
+        "title": "Begin Operation",
+        "text": "I don't really want my holiday mood ruined, so hurry up and stop resisting arrest.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 21,
+        "title": "Selecting Operator 1",
+        "text": "I haven't taken orders in a long time… feels kinda weird.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 22,
+        "title": "Selecting Operator 2",
+        "text": "Follow your orders…? <i>Fine.</i>",
+        "unlockCond": null
+      },
+      {
+        "sortId": 23,
+        "title": "Deployment 1",
+        "text": "Wait for my orders.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 24,
+        "title": "Deployment 2",
+        "text": "Start the operation.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 25,
+        "title": "In Battle 1",
+        "text": "The moment you break the law, your back's against the wall.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 26,
+        "title": "In Battle 2",
+        "text": "Where are you trying to run?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 27,
+        "title": "In Battle 3",
+        "text": "Be good, be cuffed, I'll hear your motive after taking you in.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 28,
+        "title": "In Battle 4",
+        "text": "Freeze! Hands in the air!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 29,
+        "title": "4-star Result",
+        "text": "That's all the men and wares accounted for. Let's call it a day here.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 30,
+        "title": "3-star Result",
+        "text": "Don't get cocky. This is just barely a pass mark by L.G.D. standards, but if you manage to keep this up, I guess I could still commend you.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 31,
+        "title": "Sub 3-star Result",
+        "text": "If you can take care of something in one go, it's best not to do it twice. Keep your costs under control.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 32,
+        "title": "Operation Failure",
+        "text": "Let's wrap it up here. I'll take care of the mission report.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 33,
+        "title": "Assigned to Facility",
+        "text": "This place hasn't been redecorated even once this whole time? You serious?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 34,
+        "title": "Tap",
+        "text": "Doctor, do you know the consequences for attacking a cop in Lungmen? Don't worry. I'm just teaching you about the laws there.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 36,
+        "title": "Trust Tap",
+        "text": "Oh, you like this fashion brand? I can pick out an outfit for you.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 37,
+        "title": "Title",
+        "text": "Arknights.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 42,
+        "title": "Greeting",
+        "text": "Good morning... Hm? Just saying hello. What were you expecting? Rawr?",
+        "unlockCond": null
+      }
+    ],
+    "char_488_buildr": [
+      {
+        "sortId": 1,
+        "title": "Appointed as Assistant",
+        "text": "The wind blew the documents all over the place… This can't be because of my luck, can it…?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 2,
+        "title": "Talk 1",
+        "text": "When I was a kid, Grandpa told me stories of how they built Siesta, but before he could see it to completion, he moved to Columbia with my parents. I went back to Siesta hoping to see what it had become in his place, only to find that it's all volcanic ash now.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 3,
+        "title": "Talk 2",
+        "text": "This is my grandpa's hammer. It's been with me all the way, from when I was a civil engineering student to my demolition work, and finally to what I always wanted to be——a builder. If Rhodes Island ever needs any demolition work done, just say the word! Uh, by that, I mean construction work! Anyway, for some reason, I find hammers more wieldy...",
+        "unlockCond": null
+      },
+      {
+        "sortId": 4,
+        "title": "Talk 3",
+        "text": "Everybody knows making bets with Rope is a good way to lose your stuff. And I know Glaucus's cocktails are a little different from the ones everyone else gets. And anything Savage's hammer touches is bound to blow up—Oh, um! I know all that, but not because I've got rotten luck!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 5,
+        "title": "Talk after Promotion 1",
+        "text": "New Siesta has some unfinished city plates where you can see the volcano. Old workers like to gather there and chat about what the old Siesta looked like. I've heard most of their stories, but I still stay and listen, the same way I listened to Grandpa's stories... I still wonder what it was really like...",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "sortId": 6,
+        "title": "Talk after Promotion 2",
+        "text": "Back in school, my classmates always told me that Siesta is a tourist destination. It doesn't have its own architectural style. People just build whatever attracts the tourists. Look at Siesta today, though. <i>We</i> are her style.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "sortId": 7,
+        "title": "Talk after Trust Increase 1",
+        "text": "Want some walnut jam? Freshly made. Uh, I didn't mean to make it. It just, you know, happened. What's that on my hammer, you ask? Oh, um... it's walnut husks... Okay, okay, I admit it. Vulcan said it's a good way to train my strength control, but I didn't get a single one right. So, do you want the walnut jam or not?",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "sortId": 8,
+        "title": "Talk after Trust Increase 2",
+        "text": "Look, the last time I came to the landship, the incomplete city plate was still empty, but now there are rows o f houses there, and the lights of the high-tech district reach even the beaches nearby. I'm building our new homeland bit by bit, alongside many others. It's, how do you say, an interesting feeling, right?",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "sortId": 9,
+        "title": "Talk after Trust Increase 3",
+        "text": "After I graduated, I could only find demolition work in Columbia, and I even caught Oripathy. I wanted to go back to Siesta to make a living, only find a pile of volcanic ash waiting for me. It took a lot of work to find the new Siesta, so I was real happy that day. I even yelled out loud: Hey hey hey—That's it for my rotten luck! Everything's going to work out just fine from here on out!",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "sortId": 10,
+        "title": "Idle",
+        "text": "I've got classmates still with the demolition teams, another who's a contractor, and yet another who's a Pioneer... I'm the only one who, after that roundabout path, came back to Siesta to work on what I actually studied... I guess it worked out pretty well for me?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 11,
+        "title": "Onboard",
+        "text": "You're the Doctor that Ceylon talked about, right? I'm Poncirus. Thanks for agreeing to provide medical assistance to us workers. My codename? It's a kind of fruit that's very close to my hair in color. The workers like to squeeze its juices into wine.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 12,
+        "title": "Watching Battle Record",
+        "text": "Finding the structural support core in an instant and destroying it right away...  Alright, with a little practice, I'm sure I can do this, too.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 13,
+        "title": "Promotion 1",
+        "text": "A promotional medal... I'll take it. Thanks for your acknowledgment, Doctor. I'll work hard to make sure I'm worth it.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "sortId": 14,
+        "title": "Promotion 2",
+        "text": "Senior Engineering Operator? Does that mean my pay goes up, too? That's great! I can send more money back home to my parents now, and I gotta write a letter to Grandpa, too. Yeah, everything's working out just fine!",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "sortId": 17,
+        "title": "Added to Squad",
+        "text": "I'll check out our surroundings.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 18,
+        "title": "Appointed as Squad Leader",
+        "text": "What did those stubborn professors do back in college again... Hold a seminar first? Pff... Everyone would hate me so much...",
+        "unlockCond": null
+      },
+      {
+        "sortId": 19,
+        "title": "Depart",
+        "text": "Bring your site plans, everyone. Watch out for accident-prone areas.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 20,
+        "title": "Begin Operation",
+        "text": "Arrived at the most optimal combat location. Ready to move.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 21,
+        "title": "Selecting Operator 1",
+        "text": "Request acknowledged.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 22,
+        "title": "Selecting Operator 2",
+        "text": "I'll give you the best plan possible.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 23,
+        "title": "Deployment 1",
+        "text": "If you need me to, I'll wreck this place without hesitation.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 24,
+        "title": "Deployment 2",
+        "text": "My hammer's not so weak!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 25,
+        "title": "In Battle 1",
+        "text": "Load capacity calculations complete!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 26,
+        "title": "In Battle 2",
+        "text": "Stress concentration point measured!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 27,
+        "title": "In Battle 3",
+        "text": "Enemy cover demolished.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 28,
+        "title": "In Battle 4",
+        "text": "The structure's stable and sound. Nothing to worry about!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 29,
+        "title": "4-star Result",
+        "text": "Like a building that'll never be destroyed.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 30,
+        "title": "3-star Result",
+        "text": "Looks like luck's on my side instead of theirs this time!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 31,
+        "title": "Sub 3-star Result",
+        "text": "It's okay, Doctor. A city covered in volcanic ash is always pale, but beautiful flowers will eventually sprout on it.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 32,
+        "title": "Operation Failure",
+        "text": "The road's been demolished. Enemy pursuit vehicles intercepted.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 33,
+        "title": "Assigned to Facility",
+        "text": "What a sophisticated design... I gotta find time to really look at it.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 34,
+        "title": "Tap",
+        "text": "Got a new mission, Doctor?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 36,
+        "title": "Trust Tap",
+        "text": "Ah! Doctor, remember to stay clear of my hammer the next time you talk to me. It's dangerous!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 37,
+        "title": "Title",
+        "text": "Arknights.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 42,
+        "title": "Greeting",
+        "text": "Why don't we head outside together for some fresh air, Doctor? Staying in one place can really slow your thinking.",
+        "unlockCond": null
+      }
+    ],
+    "char_4106_bryota": [
+      {
+        "sortId": 1,
+        "title": "Appointed as Assistant",
+        "text": "Doctor, if you need me for anything, just say the word! You want me to file the documents? Oof, I'm no good with paperwork... How about this, we set work aside and I take you for a spin?  Wink.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 2,
+        "title": "Talk 1",
+        "text": "Doctor, I got the ceiling light fixed. Is it bright enough for you? If you don't need me for anything else, I'll go take care of other stuff. You think all this work is hard on me? I get to make some money, meet new friends, and seize the life I want to live with my own two hands. There's nothing better than this.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 3,
+        "title": "Talk 2",
+        "text": "Ugh, I hit the wrong note again. Come on, don't laugh at me. Not all Siestans are natural-born musicians. Besides, the kalimba is harder than it looks! You wanna try? Here you go. Alright, Hold it a little further down, and gently pluck it with your thumb... You want me to teach you more later? Oh no, I'm no good at teaching either.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 4,
+        "title": "Talk 3",
+        "text": "Doctor, I found the perfect spot for sunbathing on the deck. It's got a great view. We can set up a parasol there, grab some ice-cold sodas, lounge on some beach chairs, and watch the clouds. When I was a kid, I used to take naps after I was done helping out at the store. Fell asleep listening to the waves like this.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 5,
+        "title": "Talk after Promotion 1",
+        "text": "A police officer taught me these combat techniques. She said that when you run a business, you gotta have a few tricks up your sleeve. Most important is self-defense. Oh, right, she also gave me a membership card. She said it lets me sightsee all around Lungmen. What, You have one, too? What?! And there's no expiration date?!",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "sortId": 6,
+        "title": "Talk after Promotion 2",
+        "text": "Doctor, look! I marked all the sightseeing destinations on the map. There's the volcano Miss Naumann talked about, and the underground forest on Chuck's postcard. When Rhodes Island passes by these places, I'll be sure to apply for... Aw, darn it, my nose is bleeding again...",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "sortId": 7,
+        "title": "Talk after Trust Increase 1",
+        "text": "Oh, I'm writing Harley back, telling her all about the places I've visited. Can't let'em think I traveled less than Chuck, you know. I used to think about the future very little, and I never thought I'd one day leave the 'White Volcano.' That said, when I made up my mind and said goodbye to the past, the future was already there before my eyes.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "sortId": 8,
+        "title": "Talk after Trust Increase 2",
+        "text": "This round little thing isn't a fowlbeast egg. It's a cobble found on the old Siestan beaches. My sister really treasured it, but she gave it to me right before I left. You know, Doctor, ties between people are like the beach. After the tides recede, you find only treasure. My life here at Rhodes Island has made me believe that even more.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "sortId": 9,
+        "title": "Talk after Trust Increase 3",
+        "text": "I promised Lut and Liv that I'd keep track of all my 'journey experiences' with Rhodes Island. Our adventure team may have disbanded for now, but when I become more mature and when they grow up, I'll definitely take them on this journey of mine.",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "sortId": 10,
+        "title": "Idle",
+        "text": "One yawn, two yawns... Doctor, why don't I make you a glass of 'Cotton Sunset?' Trust me. You'll find yourself drifting in a fluffy, pillowy dream.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 11,
+        "title": "Onboard",
+        "text": "Hello, Doctor. I'm Enis, and I'm formally joining Rhodes Island today. What, a codename? Umm, let me think... How about 'Bryophyta?' I hope I'll get to leave my mark on the mountain rocks and reefs, just like the moss.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 12,
+        "title": "Watching Battle Record",
+        "text": "I didn't know you could work together in battle like that! Uh, I'm getting a little hungry. I'll go make some popcorn. You want some?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 13,
+        "title": "Promotion 1",
+        "text": "This counts as a promotion, right?  Nice~ I'll write a postcard back to 'White Volcano', and brag all about this to my siblings, heheh. Yeah, I'll have to use a postcard with a picture of Rhodes Island.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "sortId": 14,
+        "title": "Promotion 2",
+        "text": "Elite instructor? You aren't trying to get me to become a kindergarten teacher or a boy scout leader, right? Haha, just kidding. But I've gotten pretty used to life here at Rhodes Island now. Let me keep following you guys to even more distant lands, Doctor.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "sortId": 17,
+        "title": "Added to Squad",
+        "text": "Huh? I-I'm heading to the battlefield, too?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 18,
+        "title": "Appointed as Squad Leader",
+        "text": "My gosh, you want me to lead the team? It's not the pay I'm worried about. I'm worried I could mess it up!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 19,
+        "title": "Depart",
+        "text": "It's okay... Relax…",
+        "unlockCond": null
+      },
+      {
+        "sortId": 20,
+        "title": "Begin Operation",
+        "text": "Gotta give it 200%, better take a coffee mint…",
+        "unlockCond": null
+      },
+      {
+        "sortId": 21,
+        "title": "Selecting Operator 1",
+        "text": "A capable helping hand? Me?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 22,
+        "title": "Selecting Operator 2",
+        "text": "Alright! I'll guard this place well.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 23,
+        "title": "Deployment 1",
+        "text": "Fasten your seatbelts, everyone. I'm starting the meter now.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 24,
+        "title": "Deployment 2",
+        "text": "You want me out of the way? Don't be silly. You can't get inside without tickets.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 25,
+        "title": "In Battle 1",
+        "text": "Fierce winds won't push me back.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 26,
+        "title": "In Battle 2",
+        "text": "Rough seas won't pull me under.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 27,
+        "title": "In Battle 3",
+        "text": "Wildfire won't burn me down.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 28,
+        "title": "In Battle 4",
+        "text": "Who says a logistics operator... can't fight?!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 29,
+        "title": "4-star Result",
+        "text": "I really thought I wouldn't make it... But looks like we can overcome even the biggest waves when we're working together.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 30,
+        "title": "3-star Result",
+        "text": "Doctor, I did well, right? I'm gonna get some ice cream. You want some, too? Alright, I can give you an extra scoop. Okay, okay, I'll give you <i>two</i> extra scoops.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 31,
+        "title": "Sub 3-star Result",
+        "text": "Uh, I got careless... Hm? I did well enough already...?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 32,
+        "title": "Operation Failure",
+        "text": "Go. Don't worry about me... I've got a lifesaver license, you know.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 33,
+        "title": "Assigned to Facility",
+        "text": "If only we had a surfboard here, oof…",
+        "unlockCond": null
+      },
+      {
+        "sortId": 34,
+        "title": "Tap",
+        "text": "Watch out! Phew, that was close... I almost spilled it.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 36,
+        "title": "Trust Tap",
+        "text": "H-Hold on! Don't look! I'm not done with the lyrics yet! You... want to hear it?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 37,
+        "title": "Title",
+        "text": "Arknights.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 42,
+        "title": "Greeting",
+        "text": "Doctor, want to try some Siestan coffee? You can add some tonic water, too.",
+        "unlockCond": null
+      }
+    ],
     "char_113_cqbw_epoque#7": [
       {
         "sortId": 1,
@@ -65418,6 +66291,218 @@
         "unlockCond": null
       }
     ],
+    "char_1033_swire2_CN_TOPOLECT": [
+      {
+        "sortId": 1,
+        "title": "Appointed as Assistant",
+        "text": "Alright, chop chop. Take care of all your work during your coffee break, and you'll get to relax during the rest of your work hours.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 2,
+        "title": "Talk 1",
+        "text": "It's a holiday, so of course I gotta dress a little more casual. It's true I haven't been on as many missions the last couple years, but I could earn passing marks on the L.G.D.'s physical exams wearing heels, I'll have you know.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 3,
+        "title": "Talk 2",
+        "text": "If Rhodes Island's looking for business partners, you can definitely trust these companies—Why are you looking at me like that? I'm just listing off my recommendations. You're making it look like I'm plotting to take over Rhodes Island. If I were actually planning to do that... I just have to talk you over, right?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 4,
+        "title": "Talk 3",
+        "text": "Ahem... I've taken a glance at our recent operational records. Looks like Rhodes Island's tactics have got more professional over the past few years. Not bad, not bad. Hah? As your former training consultant, what's wrong with me checking your records? I definitely have not been looking at Ch'en's files!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 5,
+        "title": "Talk after Promotion 1",
+        "text": "It's not really a big deal, being the L.G.D.'s chief. I've got a little more on my shoulders, a little more to worry about, and I can put myself in Ch'en's shoes a little more now... Oh, let me reiterate: I may have taken over the L.G.D., but I didn't take over for Ch'en! If that stupid dragon were to come back now, she'd have to call me 'Chief.'",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "sortId": 6,
+        "title": "Talk after Promotion 2",
+        "text": "I may have left my family's company, but I still deal in business every now and then. I can build Lungmen this way; there's no need to run away. And now that I've figured out what it is that I need to do, my grandfather doesn't seem nearly that scary anymore. It's only when you put your past fears to good use that you've truly triumphed over fear, right?",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "sortId": 7,
+        "title": "Talk after Trust Increase 1",
+        "text": "The new Siesta's an interesting place. Even without its beaches and volcano, it's still worth a visit for its sky pools and natural springs. My investment there has resulted in pretty decent returns too~ Doctor, whenever you have the time, we should go and have a look. When you visit a place you haven't been to for some time, it might just feel like meeting an old friend.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "sortId": 8,
+        "title": "Talk after Trust Increase 2",
+        "text": "Things are looking up for the trading company I'm running with Bison. Transporting one country's goods to another and showing people the sights and cultures of places afar is one of the charms of business. Many are afraid of breaking barriers, but, Doctor, I'm sure we can find common ground.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "sortId": 9,
+        "title": "Talk after Trust Increase 3",
+        "text": "Is this the last document you have? Alright! You really kept me waiting this time, but finally! Time for supper! I know this new place that's not so bad. It's on me toni—Hm? You don't want me spending money? Hm... Well, you can take me out, too. I know some other places.",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "sortId": 10,
+        "title": "Idle",
+        "text": "Rawr... Ahem... Doctor, are you finished with work already?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 11,
+        "title": "Onboard",
+        "text": "Long time no see, Doctor. Ahem, let me introduce myself again. Beatrix Schwire, soon-to-be Chief Commissioner of the Lungmen Guard Department—I really am the chief! Whoever said the L.G.D. chief can't take holidays?!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 12,
+        "title": "Watching Battle Record",
+        "text": "It's been a while, but that's quite the improvement—Hey, why must you emphasize that happened <i>while</i> I wasn't working here as an instructor?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 13,
+        "title": "Promotion 1",
+        "text": "Exceptional talents earn exceptional rewards. That's how things should be.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "sortId": 14,
+        "title": "Promotion 2",
+        "text": "Alright, alright. I get that you can't do without me anymore. No need to beat around the bush like that. If you need my help, just say the word. I'll always be here for you as your friend.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "sortId": 17,
+        "title": "Added to Squad",
+        "text": "Hm? Not making me the captain?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 18,
+        "title": "Appointed as Squad Leader",
+        "text": "Just follow my command and it'll all be fine.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 19,
+        "title": "Depart",
+        "text": "Let's try to take up as little of our holiday time as possible.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 20,
+        "title": "Begin Operation",
+        "text": "I don't really want my holiday mood ruined, so hurry up and let yourselves get arrested.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 21,
+        "title": "Selecting Operator 1",
+        "text": "It's been a while since I've taken orders from anyone... Feels kinda weird.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 22,
+        "title": "Selecting Operator 2",
+        "text": "Take orders from you...? I <i>could.</i>",
+        "unlockCond": null
+      },
+      {
+        "sortId": 23,
+        "title": "Deployment 1",
+        "text": "Wait for my orders.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 24,
+        "title": "Deployment 2",
+        "text": "Commencing operation.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 25,
+        "title": "In Battle 1",
+        "text": "You've had nowhere to run since the moment you violated the law.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 26,
+        "title": "In Battle 2",
+        "text": "Where are you trying to run?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 27,
+        "title": "In Battle 3",
+        "text": "Be good and let yourself be cuffed. I'll hear all about your motive in the interrogation room.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 28,
+        "title": "In Battle 4",
+        "text": "Put your hands up and don't move!",
+        "unlockCond": null
+      },
+      {
+        "sortId": 29,
+        "title": "4-star Result",
+        "text": "That's all the men and wares accounted for. Let's call it a day here~",
+        "unlockCond": null
+      },
+      {
+        "sortId": 30,
+        "title": "3-star Result",
+        "text": "Don't get cocky. This is just barely a pass mark by L.G.D. standards, but if you manage to keep this up, I guess I could still commend you.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 31,
+        "title": "Sub 3-star Result",
+        "text": "If you can take care of something in one go, it's best not to do it twice. Keep your costs under control.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 32,
+        "title": "Operation Failure",
+        "text": "Let's wrap it up here. I'll take care of the mission report.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 33,
+        "title": "Assigned to Facility",
+        "text": "This place hasn't been redecorated even once this whole time? You serious?",
+        "unlockCond": null
+      },
+      {
+        "sortId": 34,
+        "title": "Tap",
+        "text": "Doctor, do you know what are the consequences of attacking a cop in Lungmen? Don't worry. I'm just teaching you about the laws there.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 36,
+        "title": "Trust Tap",
+        "text": "Oh, you like this fashion brand? I can pick out an outfit for you.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 37,
+        "title": "Title",
+        "text": "Arknights.",
+        "unlockCond": null
+      },
+      {
+        "sortId": 42,
+        "title": "Greeting",
+        "text": "Good morning... Hm? Just saying hello. What were you expecting? Rawr?",
+        "unlockCond": null
+      }
+    ],
     "char_427_vigil_ITA": [
       {
         "sortId": 1,
@@ -66916,6 +68001,7 @@
     "char_115_headbr": ["char_115_headbr"],
     "char_102_texas": ["char_102_texas", "char_102_texas_ITA"],
     "char_349_chiave": ["char_349_chiave"],
+    "char_488_buildr": ["char_488_buildr"],
     "char_513_apionr": ["char_513_apionr"],
     "char_261_sddrag": ["char_261_sddrag"],
     "char_496_wildmn": ["char_496_wildmn"],
@@ -66925,6 +68011,7 @@
     "char_4017_puzzle": ["char_4017_puzzle"],
     "char_308_swire": ["char_308_swire", "char_308_swire_CN_TOPOLECT"],
     "char_265_sophia": ["char_265_sophia"],
+    "char_4106_bryota": ["char_4106_bryota"],
     "char_106_franka": ["char_106_franka"],
     "char_131_flameb": ["char_131_flameb"],
     "char_154_morgan": ["char_154_morgan"],
@@ -67080,6 +68167,7 @@
     "char_1028_texas2": ["char_1028_texas2", "char_1028_texas2_ITA"],
     "char_1029_yato2": ["char_1029_yato2"],
     "char_322_lmlee": ["char_322_lmlee", "char_322_lmlee_CN_TOPOLECT"],
+    "char_1033_swire2": ["char_1033_swire2", "char_1033_swire2_CN_TOPOLECT"],
     "char_400_weedy": ["char_400_weedy"],
     "char_225_haak": ["char_225_haak", "char_225_haak_CN_TOPOLECT"],
     "char_474_glady": ["char_474_glady"],
@@ -67090,6 +68178,7 @@
     "char_179_cgbird": ["char_179_cgbird"],
     "char_003_kalts": ["char_003_kalts", "char_003_kalts_boc#6"],
     "char_4042_lumen": ["char_4042_lumen"],
+    "char_1016_agoat2": ["char_1016_agoat2"],
     "char_1020_reed2": ["char_1020_reed2"],
     "char_136_hsguma": ["char_136_hsguma", "char_136_hsguma_CN_TOPOLECT"],
     "char_202_demkni": ["char_202_demkni"],

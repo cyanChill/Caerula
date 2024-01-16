@@ -959,6 +959,14 @@
     "usage": "A time-limited currency arranged for a new type of headhunting contract; Collect enough to recruit an operator from a designated pool for a limited time",
     "rarity": 5
   },
+  "LMTGS_COIN_4101": {
+    "id": "LMTGS_COIN_4101",
+    "iconId": "LMTGS_COIN_4101",
+    "name": "Headhunting Data Contract",
+    "description": "A long-term, stable relationship with the headhunting agency can effectively control our expenditures. However, we hope that this method will not be required every time.",
+    "usage": "A time-limited currency arranged for a new type of headhunting contract; Collect enough to recruit an operator from a designated pool for a limited time",
+    "rarity": 5
+  },
   "EPGS_COIN": {
     "id": "EPGS_COIN",
     "iconId": "EPGS_COIN",
@@ -1359,6 +1367,14 @@
     "usage": "A batch headhunting permit issued by the Rhodes Island HR Department; Can be used at a certain time to recruit talented Operators, 10 rolls at once.",
     "rarity": 5
   },
+  "LIMITED_TKT_GACHA_10_4101": {
+    "id": "LIMITED_TKT_GACHA_10_4101",
+    "iconId": "LIMITED_TKT_GACHA_10_4101",
+    "name": "Footprints of the Clouds Headhunting Permit",
+    "description": "In order to ensure the available talent pool can be scaled upwards to satisfy the Doctor's emergency preparation request, this batch of headhunting items carries specificity, time-sensitivity, and of course, a degree of risk.",
+    "usage": "A batch headhunting permit issued by the Rhodes Island HR Department; Can be used at a certain time to recruit talented Operators, 10 rolls at once.",
+    "rarity": 5
+  },
   "voucher_item_4pick1": {
     "id": "voucher_item_4pick1",
     "iconId": "voucher_item_4pick1",
@@ -1639,6 +1655,14 @@
     "usage": "A disposable chip pack etching apparatus, storing large quantities of training records and data. Can etch any job's chip packs hassle-free, in accordance with Operators' various needs.",
     "rarity": 5
   },
+  "voucher_5chipPackage": {
+    "id": "voucher_5chipPackage",
+    "iconId": "voucher_5chipPackage",
+    "name": "Automatic Chip Etcher",
+    "description": "Faced with the issue of insufficient training data, the Engineering Department has produced an all-new chip etching apparatus to provide Operators with a self-printing service.",
+    "usage": "A disposable chip pack etching apparatus, storing some quantity of training records and data. Can etch any job's chips hassle-free, in accordance with Operators' various needs.",
+    "rarity": 5
+  },
   "itempack_mod_7": {
     "id": "itempack_mod_7",
     "iconId": "itempack_mod_7",
@@ -1893,6 +1917,14 @@
     "name": "Celebratory Box",
     "description": "Nobody knows who ended up footing the bill. What we do know is the hope they have for Rhodes Island.",
     "usage": "Gift boxes distributed to all members of Rhodes Island, random in amount, and full of the joy that comes with celebration.",
+    "rarity": 5
+  },
+  "randomMaterial_siesta2": {
+    "id": "randomMaterial_siesta2",
+    "iconId": "randomMaterial_siesta2",
+    "name": "Mountaincomm Trade Supplies",
+    "description": "A material resupply box from Mountaincomm Trade. We the vendor are delighted to work with such a major client, and offer these complimentary gifts to you courtesy of our partner logistics firm.",
+    "usage": "Filled with an assortment of supplies and materials.",
     "rarity": 5
   },
   "mod_unlock_token": {
@@ -3935,6 +3967,22 @@
     "usage": "Used to improve the Potential of Spuria.",
     "rarity": 5
   },
+  "p_char_4106_bryota": {
+    "id": "p_char_4106_bryota",
+    "iconId": "p_char_4106_bryota",
+    "name": "Bryophyta's Token",
+    "description": "A thumb-sized surfboard, printed with the 'White Volcano' logo. It's a decoration he dresses cocktails with. May this prompt you to look back fondly on your unforgettable vacation to Siesta's sands.",
+    "usage": "Used to improve the Potential of Bryophyta.",
+    "rarity": 5
+  },
+  "p_char_488_buildr": {
+    "id": "p_char_488_buildr",
+    "iconId": "p_char_488_buildr",
+    "name": "Poncirus's Token",
+    "description": "The littlest, most verdant citrus, its peel not enough to fully hide its tart fragrance. She tells you you can plant it in a pot, and with some luck it'll bear sweet, decadent fruits—probably.",
+    "usage": "Used to improve the Potential of Poncirus.",
+    "rarity": 5
+  },
   "p_char_103_angel": {
     "id": "p_char_103_angel",
     "iconId": "p_char_103_angel",
@@ -4541,6 +4589,22 @@
     "name": "Executor the Ex Foedere's Token",
     "description": "A wireless earpiece. The latest of the Lateran Curia's tech products, and the same model that Executor himself currently uses. Is he giving this to you so you can stay in contact with him at any time, perhaps?",
     "usage": "Used to improve the Potential of Executor the Ex Foedere.",
+    "rarity": 6
+  },
+  "p_char_1033_swire2": {
+    "id": "p_char_1033_swire2",
+    "iconId": "p_char_1033_swire2",
+    "name": "Swire the Elegant Wit's Token",
+    "description": "A glinting, glittering gold coin. Heavy, oppressively lustrous, fabulously pure. Put it in your palm to admire, and out falls... a secret fluorescent flashbang! A self-defense gift from her to you.",
+    "usage": "Used to improve the Potential of Swire the Elegant Wit.",
+    "rarity": 6
+  },
+  "p_char_1016_agoat2": {
+    "id": "p_char_1016_agoat2",
+    "iconId": "p_char_1016_agoat2",
+    "name": "Eyjafjalla the Hvít Aska's Token",
+    "description": "A small and light piece of volcanic rock that tumbles about floating and sinking once dropped in water, gently fizzing away without end. This is the very song of Life.",
+    "usage": "Used to improve the Potential of Eyjafjalla the Hvít Aska.",
     "rarity": 6
   },
   "class_p_char_123_fang": {
@@ -5687,6 +5751,14 @@
     "usage": "A personal letter sent to the Doctor, used to improve Gladiia to Max Potential.",
     "rarity": 6
   },
+  "voucher_full_takila": {
+    "id": "voucher_full_takila",
+    "iconId": "voucher_full_takila",
+    "name": "Tequila's Personal Letter",
+    "description": "The letter writes of a number of ordinary happenings on his return to Dossoles, as well as of the few bottles of vintage he'll be bringing back aboard.",
+    "usage": "A personal letter sent to the Doctor, used to improve Tequila to Max Potential.",
+    "rarity": 5
+  },
   "uni_set_guitar": {
     "id": "uni_set_guitar",
     "iconId": "uni_set_guitar",
@@ -6623,6 +6695,14 @@
     "usage": "An emblem of special authentication distributed internally within Rhodes Island. Collect a certain amount to obtain partial usage rights to Rhodes Island's supplies.",
     "rarity": 5
   },
+  "return_credit_token2": {
+    "id": "return_credit_token2",
+    "iconId": "return_credit_token2",
+    "name": "Second Authentication Emblem",
+    "description": "An emblem specially prepared for those returning to major posts. Granted progressively throughout the course of their familiarization with work.",
+    "usage": "An emblem of special authentication distributed internally within Rhodes Island. Collect a certain amount to obtain partial usage rights to Rhodes Island's supplies.",
+    "rarity": 5
+  },
   "act16side_token_bolt": {
     "id": "act16side_token_bolt",
     "iconId": "act16side_token_bolt",
@@ -6983,6 +7063,14 @@
     "usage": "Obtain all furniture exclusive to the Under Tides event not yet acquired.",
     "rarity": 5
   },
+  "uni_set_westCoast": {
+    "id": "uni_set_westCoast",
+    "iconId": "uni_set_westCoast",
+    "name": "Dossoles Holiday Furniture Pack",
+    "description": "The Procurement Department's reconnected with its suppliers, and replenished stocks of initially limited pieces of furniture! Give your thanks to Closure!",
+    "usage": "Obtain all furniture exclusive to the Dossoles Holiday event not yet acquired.",
+    "rarity": 5
+  },
   "act23side_token_spirit": {
     "id": "act23side_token_spirit",
     "iconId": "act23side_token_spirit",
@@ -7165,6 +7253,70 @@
     "name": "Sheet Music",
     "description": "The notes scribbled on the staff are jumbled and disorderly. Only the composer himself can, at a glance, make out the soul hidden therein.",
     "usage": "Musicians often misplace their drafts during outbursts of emotion. If you straighten it out and return it to its owner, perhaps you will receive a new piece in return.",
+    "rarity": 5
+  },
+  "return_progress": {
+    "id": "return_progress",
+    "iconId": "return_progress_1",
+    "name": "Returnee Cumulative Login Ticket",
+    "description": null,
+    "usage": null,
+    "rarity": 5
+  },
+  "new_progress": {
+    "id": "new_progress",
+    "iconId": "new_progress_1",
+    "name": "Startup Cumulative Login Ticket",
+    "description": null,
+    "usage": null,
+    "rarity": 5
+  },
+  "mcardVoucher": {
+    "id": "mcardVoucher",
+    "iconId": "mcardVoucher",
+    "name": "Monthly Card",
+    "description": null,
+    "usage": null,
+    "rarity": 5
+  },
+  "premium_material_issue_voucher": {
+    "id": "premium_material_issue_voucher",
+    "iconId": "premium_material_issue_voucher",
+    "name": "Premium Material Voucher",
+    "description": "In order to address scarcities of certain materials during processing, the Procurement Department has issued exchange vouchers for operators' discretionary use, granting access to the materials needed.",
+    "usage": "A special exchange voucher issued by the Rhodes Island Procurement Department. Can be used within a limited time to obtain premium elite materials.",
+    "rarity": 5
+  },
+  "advanced_material_issue_voucher": {
+    "id": "advanced_material_issue_voucher",
+    "iconId": "advanced_material_issue_voucher",
+    "name": "Advanced Material Voucher",
+    "description": "In order to address scarcities of certain materials during processing, the Procurement Department has issued exchange vouchers for operators' discretionary use, granting access to the materials needed.",
+    "usage": "A special exchange voucher issued by the Rhodes Island Procurement Department. Can be used within a limited time to obtain advanced elite materials.",
+    "rarity": 5
+  },
+  "classic_fes_pick_tier_5_4101": {
+    "id": "classic_fes_pick_tier_5_4101",
+    "iconId": "classic_fes_pick_tier_5",
+    "name": "Kernel Locating 5* Operator",
+    "description": "Boosts the pull rate of one chosen 5-star operator",
+    "usage": "Boosts the pull rate of one chosen 5-star operator",
+    "rarity": 6
+  },
+  "classic_fes_pick_tier_6_4101": {
+    "id": "classic_fes_pick_tier_6_4101",
+    "iconId": "classic_fes_pick_tier_6",
+    "name": "Kernel Locating 6* Operator",
+    "description": "Boosts the pull rate of one chosen 6-star operator",
+    "usage": "Boosts the pull rate of one chosen 6-star operator",
+    "rarity": 6
+  },
+  "act27side_token_fur": {
+    "id": "act27side_token_fur",
+    "iconId": "act27side_token_fur",
+    "name": "Fluffy Critter Wool",
+    "description": "Soft, insulating, and highly absorptive, it might look extremely delicious, but please don't start eating it like cotton candy.",
+    "usage": "Looks good for padding outdoors thermal equipment, but seems to have little use in the current season. The young girl at 'White Volcano' has an inexplicable love for bizarre wool like this, and will surreptitiously trade you goods from the shop for it. N.B.: DO NOT let her big brother know!",
     "rarity": 5
   }
 }

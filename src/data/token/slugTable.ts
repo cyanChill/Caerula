@@ -39,5 +39,6 @@ export const TokSlugTable = {
   "wolfpack": "token_10028_vigil_wolf",
   "night_banisher": "token_10029_slent2_protrb",
   "flowing_shape": "token_10030_mlyss_wtrman",
+  "champagne_bomb": "token_10031_swire2_gdtrap",
   "tide-hunt_knight": "trap_079_allydonq"
 } as Record<string, TokenId>;
