@@ -93,6 +93,9 @@ const config: Config = {
           99: "#FDFBFF",
         },
       },
+      boxShadow: {
+        lift: "0 1px 2px 1px rgba(0, 0, 0, 0.25)",
+      },
       /* Grid */
       gridTemplateColumns: {
         autoFill:

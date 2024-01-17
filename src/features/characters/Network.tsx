@@ -42,8 +42,7 @@ function NetworkEntry({ data, theme }: NetworkEntryProps) {
   return (
     <div
       className={cn(
-        "grid grid-rows-[minmax(0,1fr),auto] gap-2 p-2 @container sm:p-4",
-        "aspect-square rounded-2xl backdrop-blur-2xl",
+        "card grid aspect-square grid-rows-[minmax(0,1fr),auto] gap-2 p-2 @container sm:p-4",
         theme,
       )}
     >

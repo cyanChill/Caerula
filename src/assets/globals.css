@@ -16,6 +16,11 @@
   .gradient-psychedelic-dim {
     @apply bg-gradient-to-tr from-[#3B7387]/50 to-[#535287]/50;
   }
+
+  /* Style bases */
+  .card {
+    @apply rounded-2xl drop-shadow-xl backdrop-blur-2xl;
+  }
 }
 
 @layer utilities {

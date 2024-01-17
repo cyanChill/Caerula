@@ -74,7 +74,7 @@ export default function OperatorPreviewTabs({ operators }: Props) {
         aria-labelledby={`op-tt-${currOperator.id}`}
         className="grid gap-4 @2xl:grid-cols-[auto_minmax(0,1fr)]"
       >
-        <div className="mr-auto flex rounded-2xl bg-secondary-10 drop-shadow-xl">
+        <div className="card mr-auto flex bg-secondary-10">
           <PsychedelicImg
             src={`/images/operator/portrait/${currOperator.id}_${
               currOperator.rarity > 3 ? 2 : 1
