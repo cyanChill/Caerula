@@ -33,7 +33,7 @@ export default function Trait({ profession, branchId }: Props) {
 
         <p
           className={cn(
-            "col-span-2 my-1 text-[1.15em] font-bold text-[#EB6A28]",
+            "col-span-2 my-1 text-[1.15em] font-bold text-carrot-60",
             "before:mr-1.5 before:inline-block before:size-[0.4em] before:bg-current",
           )}
         >

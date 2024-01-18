@@ -107,8 +107,8 @@ export default function OperatorPreviewTabs({ operators }: Props) {
               href={`/operator/${currOperator.slug}`}
               className={cn(
                 "flex-center aspect-square rounded-2xl p-1 backdrop-blur-xl @2xl:p-2",
-                "scale-[85%] bg-[#EB6A28] transition duration-500",
-                "hover:scale-100 hover:bg-[#FF8C57] focus:scale-100",
+                "scale-[85%] bg-carrot-60 transition duration-500",
+                "hover:scale-100 hover:bg-carrot-70 focus:scale-100",
               )}
             >
               <ArrowTopRight thin className="size-full" />

@@ -92,6 +92,11 @@ const config: Config = {
           95: "#EEF0FA",
           99: "#FDFBFF",
         },
+        carrot: {
+          55: "#FF5D1F",
+          60: "#EB6A28",
+          70: "#FF8C57",
+        },
       },
       boxShadow: {
         lift: "0 1px 2px 1px rgba(0, 0, 0, 0.25)",
