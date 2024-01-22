@@ -93,8 +93,8 @@ export default function Overview({ name, position, tags, rarity }: Props) {
       <fieldset
         role="presentation"
         className={cn(
-          "mx-auto -mt-20 max-w-screen-xl pb-4 @container @sm/main:w-[95cqw] @5xl/main:pb-16",
-          "rounded-2xl border-2 border-white/50 @2xl/main:rounded-3xl",
+          "mx-auto -mt-20 max-w-screen-xl pb-4 @container sm:w-[95cqw] lg:pb-16",
+          "rounded-2xl border-2 border-white/50 sm:rounded-3xl",
         )}
       >
         <legend role="presentation" className="mx-auto max-w-[90cqw]">
@@ -114,7 +114,7 @@ export default function Overview({ name, position, tags, rarity }: Props) {
           className="mx-auto w-min gap-1 pt-4"
         />
 
-        <p className="break-anywhere mx-auto max-w-[90cqw] pt-4 text-center text-neutral-60 @5xl/main:text-xl">
+        <p className="break-anywhere mx-auto max-w-[90cqw] pt-4 text-center text-neutral-60 lg:text-xl">
           {[capitalize(position.toLowerCase()), ...tags].join(" • ")}
         </p>
 
@@ -125,7 +125,7 @@ export default function Overview({ name, position, tags, rarity }: Props) {
           id={`overview-tp-${id}`}
           role="tabpanel"
           aria-labelledby={`overview-tt-${id}`}
-          className="px-4 @container @5xl/main:px-16"
+          className="px-4 @container lg:px-16"
         >
           <div className="grid @2xl:grid-cols-[minmax(0,1fr),12.5rem]">
             <SkinInfo />
@@ -195,11 +195,11 @@ function SkinCarousel({ name }: { name: string }) {
   return (
     <div
       className={cn(
-        "relative",
-        "before:absolute before:left-0 before:top-0 before:z-[1] before:h-full before:w-2 @5xl/main:before:w-14",
-        "before:bg-gradient-to-r before:from-surface before:to-surface/0 before:backdrop-blur-sm",
-        "after:absolute after:right-0 after:top-0 after:z-[1] after:h-full after:w-2 @5xl/main:after:w-14",
-        "after:bg-gradient-to-l after:from-surface after:to-surface/0 after:backdrop-blur-sm",
+        "relative before:pointer-events-none after:pointer-events-none",
+        "before:absolute before:left-0 before:top-0 before:z-[1] before:h-full before:w-8 lg:before:w-16",
+        "before:bg-gradient-to-r before:from-surface before:to-surface/0",
+        "after:absolute after:right-0 after:top-0 after:z-[1] after:h-full after:w-8 lg:after:w-16",
+        "after:bg-gradient-to-l after:from-surface after:to-surface/0",
       )}
     >
       <div
@@ -207,7 +207,7 @@ function SkinCarousel({ name }: { name: string }) {
         role="tablist"
         aria-label={`${name} Outfit List`}
         aria-orientation="horizontal"
-        className="no-scrollbar flex gap-4 overflow-x-scroll px-4 py-8 @5xl/main:px-16"
+        className="no-scrollbar flex gap-4 overflow-x-scroll px-4 py-8 lg:px-16"
       >
         {skins.map((skin, idx) => (
           <button
@@ -221,7 +221,7 @@ function SkinCarousel({ name }: { name: string }) {
             tabIndex={idx === currIdx ? 0 : -1}
             onClick={() => setIdx(idx)}
             className={cn(
-              "aspect-[3/8] h-32 shrink-0 overflow-clip @xl/main:h-64",
+              "aspect-[3/8] h-32 shrink-0 overflow-clip sm:h-64",
               "rounded-3xl outline-0 ring-white drop-shadow-xl",
               "transition-[aspect-ratio] duration-500 hover:ring-2 focus:ring-2",
               {
