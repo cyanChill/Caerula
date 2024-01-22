@@ -50,14 +50,12 @@ export default function Slider({ label, propagateVal, options, theme }: Props) {
       const thumbEl = thumbRef.current as HTMLElement;
       const containerEl = containerRef.current as HTMLElement;
 
-      const thumbRadius = thumbEl.clientWidth / 2;
       const usableHeight = containerEl.clientHeight - thumbEl.clientHeight;
 
       // "current pointer position" - "initial pointer start position"
       const yWalk = e.pageY - containerEl.offsetTop - startPos.pointer;
       const newProgress =
-        clamp(0, startPos.thumb - yWalk - thumbRadius, usableHeight) /
-        usableHeight;
+        clamp(0, startPos.thumb - yWalk, usableHeight) / usableHeight;
 
       setProgress(newProgress);
       propagateVal(Math.floor(min + newProgress * (max - min)));

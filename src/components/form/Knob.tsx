@@ -64,7 +64,7 @@ export default function Knob({ label, propagateVal, options, theme }: Props) {
       // Get degree moved from start position and fix offset from having 0°
       // physically start at 90° along w/ making sure denominator isn't 0
       const opp = startPos.thumb.y - yWalk - thumbR;
-      const adj = startPos.thumb.x + xWalk + thumbR;
+      const adj = startPos.thumb.x + xWalk;
       const mvdDeg =
         90 -
         radianToDegree(
