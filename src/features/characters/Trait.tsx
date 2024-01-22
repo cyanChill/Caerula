@@ -14,7 +14,10 @@ interface Props {
 export default function Trait({ profession, branchId }: Props) {
   const { name, trait } = BranchTable[branchId];
   return (
-    <section className="card relative col-span-2 bg-neutralAlt-10/75 p-4 @container">
+    <section
+      aria-label="Branch Trait"
+      className="card relative col-span-2 bg-neutralAlt-10/75 p-4 @container"
+    >
       <div className="grid grid-cols-[2lh_minmax(0,1fr)] text-[clamp(0.7rem,3cqw,1rem)]">
         <Image
           src={`/images/operator/subclass/sub_${branchId}_icon.webp`}

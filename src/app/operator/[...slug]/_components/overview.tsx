@@ -20,16 +20,14 @@ import PsychedelicImg from "@/components/image/PsychedelicImg";
 import Rarity from "@/features/characters/Rarity";
 import ArtistChips from "@/features/skins/ArtistChips";
 
-type OverviewContextType = {
+const OverviewContext = createContext<{
   displaySkin: (id: SkinId) => void;
   skins: Skin[];
   // List of the "active" values
   id: SkinId;
   skin: Skin;
   cv: CharacterVoice[] | undefined;
-};
-
-const OverviewContext = createContext<OverviewContextType | null>(null);
+} | null>(null);
 
 /**
  * @description Keeps track of the current displayed skin along with its
@@ -207,7 +205,7 @@ function SkinCarousel({ name }: { name: string }) {
       <div
         ref={tabListRef}
         role="tablist"
-        aria-label={`${name} Skin List`}
+        aria-label={`${name} Outfit List`}
         aria-orientation="horizontal"
         className="no-scrollbar flex gap-4 overflow-x-scroll px-4 py-8 @5xl/main:px-16"
       >

@@ -15,9 +15,21 @@ interface Props {
 export default function Network({ network: { nation, faction, team } }: Props) {
   return (
     <>
-      <NetworkEntry data={getNetworkData(nation)} theme="bg-neutralAlt-20/75" />
-      <NetworkEntry data={getNetworkData(faction)} theme="bg-neutral-20/75" />
-      <NetworkEntry data={getNetworkData(team)} theme="bg-neutral-30/75" />
+      <NetworkEntry
+        data={getNetworkData(nation)}
+        type="Nation"
+        theme="bg-neutralAlt-20/75"
+      />
+      <NetworkEntry
+        data={getNetworkData(faction)}
+        type="Faction"
+        theme="bg-neutral-20/75"
+      />
+      <NetworkEntry
+        data={getNetworkData(team)}
+        type="Team"
+        theme="bg-neutral-30/75"
+      />
     </>
   );
 }
@@ -34,10 +46,11 @@ function getNetworkData(
 
 interface NetworkEntryProps {
   data: ReturnType<typeof getNetworkData>;
+  type: "Nation" | "Faction" | "Team";
   theme: `${BgColor}/75`;
 }
 
-function NetworkEntry({ data, theme }: NetworkEntryProps) {
+function NetworkEntry({ data, type, theme }: NetworkEntryProps) {
   if (!data) return null;
   return (
     <div
@@ -48,12 +61,15 @@ function NetworkEntry({ data, theme }: NetworkEntryProps) {
     >
       <Image
         src={`/images/operator/affiliation/logo_${data.id}.webp`}
-        alt={`${data.name} logo`}
+        alt={`${type} - ${data.name}`}
         width={128}
         height={128}
         className="size-full object-contain"
       />
-      <p className="line-clamp-2 h-[2lh] text-center text-[clamp(0.6rem,7cqw,1.1rem)] text-neutral-60">
+      <p
+        aria-hidden="true"
+        className="line-clamp-2 h-[2lh] text-center text-[clamp(0.6rem,7cqw,1.1rem)] text-neutral-60"
+      >
         {data.name}
       </p>
     </div>

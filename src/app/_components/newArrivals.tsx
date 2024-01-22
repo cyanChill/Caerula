@@ -51,7 +51,7 @@ export default function NewArrivals({ skins }: Props) {
               </div>
 
               <ELink
-                aria-label={`Go to ${opName}'s page.`}
+                aria-label={`View more of ${opName}'s outfits.`}
                 href={`/operator/${slug}`}
                 className={cn(
                   "ml-auto size-[3.5em] rounded-2xl p-2 @lg:size-[2em]",
