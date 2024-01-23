@@ -8,7 +8,7 @@ import { OpSlugTable } from "@/data/operator/slugTable";
 import VoiceTable from "@/data/operator/profile/voiceTable.json";
 
 import { constructMetadata } from "@/lib/metadata";
-import Overview, { OverviewProvider } from "./_components/overview";
+import Overview from "./_components/overview";
 
 interface Props {
   params: { slug: string[] };
@@ -52,7 +52,7 @@ export default function Operator({ params }: Props) {
   const opId = OpSlugTable[slug];
   if (!opId) notFound();
 
-  const { displayName, position, tags, rarity } = OperatorTable[opId];
+  const operator = OperatorTable[opId];
   const skins = SkinTable.opSkinMap[opId].map(
     (skinId) => SkinTable.skinTable[skinId],
   );
@@ -62,14 +62,17 @@ export default function Operator({ params }: Props) {
 
   return (
     <main className="mx-auto mb-[5svh] max-w-screen-2xl p-2 @container">
-      <OverviewProvider id={opId} skins={skins} cvTable={voices}>
-        <Overview
-          name={displayName}
-          position={position}
-          tags={tags}
-          rarity={rarity}
-        />
-      </OverviewProvider>
+      <Overview
+        id={operator.id}
+        operator={{
+          name: operator.displayName,
+          position: operator.position,
+          tags: operator.tags,
+          rarity: operator.rarity,
+        }}
+        skins={skins}
+        cvTable={voices}
+      />
     </main>
   );
 }

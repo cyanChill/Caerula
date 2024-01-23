@@ -1,94 +1,31 @@
 "use client";
-import {
-  createContext,
-  useContext,
-  useState,
-  useCallback,
-  useRef,
-} from "react";
 import Image from "next/image";
 
 import type { OperatorId } from "@/data/types/AKCharacter";
-import type { Skin, SkinId } from "@/data/types/AKSkin";
+import type { Skin } from "@/data/types/AKSkin";
 import { type CharacterVoice, VoiceLangTable } from "@/data/types/AKVoice";
-
-import { useTabListEvents } from "@/hooks/useTabListEvents";
 
 import { cn } from "@/lib/style";
 import { capitalize } from "@/utils/typedStrings";
 import PsychedelicImg from "@/components/image/PsychedelicImg";
+import Tabs, { useTabAsIdx, useTabData } from "@/components/layout/Tabs";
+import ScrollShadow from "@/components/layout/ScrollShadow";
 import Rarity from "@/features/characters/Rarity";
 import ArtistChips from "@/features/skins/ArtistChips";
 
-const OverviewContext = createContext<{
-  displaySkin: (id: SkinId) => void;
-  skins: Skin[];
-  // List of the "active" values
-  id: SkinId;
-  skin: Skin;
-  cv: CharacterVoice[] | undefined;
-} | null>(null);
+interface Props extends OutfitInfoProps {
+  operator: {
+    name: string;
+    position: string;
+    tags: string[];
+    rarity: number;
+  };
+}
 
-/**
- * @description Keeps track of the current displayed skin along with its
- *  relationship with the character voice.
- */
-export function OverviewProvider({
-  id,
-  skins,
-  cvTable,
-  children,
-}: {
-  id: OperatorId;
-  skins: Skin[];
-  cvTable: Record<string, CharacterVoice[]>;
-  children: React.ReactNode;
-}) {
-  const [currSkinId, setCurrSkinId] = useState(skins[0].id);
-
-  /** Wrapper to make sure we can display the specified skin. */
-  const displaySkin = useCallback(
-    (id: SkinId) => {
-      if (!skins.find((skin) => skin.id === id)) return;
-      setCurrSkinId(id);
-    },
-    [skins],
-  );
-
+/** @description Give an overview of the operator's outfits. */
+export default function Overview({ id, operator, skins, cvTable }: Props) {
   return (
-    <OverviewContext.Provider
-      value={{
-        id: currSkinId,
-        skin: skins.find((skin) => skin.id === currSkinId)!,
-        cv: cvTable[currSkinId] ? cvTable[currSkinId] : cvTable[id],
-        displaySkin,
-        skins,
-      }}
-    >
-      {children}
-    </OverviewContext.Provider>
-  );
-}
-
-/** @description Hook to interface with our "Overview Context". */
-function useOverviewContext() {
-  const value = useContext(OverviewContext);
-  if (value === null) throw new Error("Can't use outside of OverviewProvder.");
-  return value;
-}
-
-interface Props {
-  name: string;
-  position: string;
-  tags: string[];
-  rarity: number;
-}
-
-/** @description Combines the different portions of the overview together. */
-export default function Overview({ name, position, tags, rarity }: Props) {
-  const { id } = useOverviewContext();
-  return (
-    <>
+    <Tabs storeId="overview" dataStore={skins.map(({ id }) => ({ id }))}>
       <HeroImage />
       <fieldset
         role="presentation"
@@ -104,52 +41,43 @@ export default function Overview({ name, position, tags, rarity }: Props) {
               "text-center font-geist-sans font-bold leading-none",
             )}
           >
-            {name}
+            {operator.name}
           </h1>
         </legend>
-
         <Rarity
-          rarity={rarity}
+          rarity={operator.rarity}
           size="size-4"
           className="mx-auto w-min gap-1 pt-4"
         />
-
         <p className="break-anywhere mx-auto max-w-[90cqw] pt-4 text-center text-neutral-60 lg:text-xl">
-          {[capitalize(position.toLowerCase()), ...tags].join(" • ")}
+          {[capitalize(operator.position.toLowerCase()), ...operator.tags].join(
+            " • ",
+          )}
         </p>
 
-        <SkinCarousel name={name} />
-
-        {/* Textual content of the overview section. */}
-        <div
-          id={`overview-tp-${id}`}
-          role="tabpanel"
-          aria-labelledby={`overview-tt-${id}`}
-          className="px-4 @container lg:px-16"
-        >
-          <div className="grid @2xl:grid-cols-[minmax(0,1fr),12.5rem]">
-            <SkinInfo />
-            <CVList />
-          </div>
-        </div>
+        <OutfitCarousel name={operator.name} skins={skins} />
+        <OutfitInfo id={id} skins={skins} cvTable={cvTable} />
       </fieldset>
-    </>
+    </Tabs>
   );
 }
 
 /** @description A more customized version of `<PsychedelicImg />`. */
 function HeroImage() {
-  const { skin } = useOverviewContext();
+  const { id } = useTabData();
+  const baseAttributes = {
+    src: `/images/operator/skin/${encodeURIComponent(id)}b.webp`,
+    width: 512,
+    height: 512,
+  };
   return (
     <div
       aria-hidden="true"
       className="relative overflow-clip rounded-[2rem] @container"
     >
       <Image
-        src={`/images/operator/skin/${encodeURIComponent(skin.id)}b.webp`}
+        {...baseAttributes}
         alt=""
-        width={512}
-        height={512}
         style={{
           backgroundImage:
             "linear-gradient(to top, #00060E, #00060E00)," +
@@ -159,10 +87,8 @@ function HeroImage() {
       />
       {/* Background blur image */}
       <Image
-        src={`/images/operator/skin/${encodeURIComponent(skin.id)}b.webp`}
+        {...baseAttributes}
         alt=""
-        width={512}
-        height={512}
         className={cn(
           "pointer-events-none absolute left-1/2 top-0 -z-[1]",
           "origin-top -translate-x-1/2 scale-[250%]",
@@ -172,61 +98,31 @@ function HeroImage() {
   );
 }
 
-/** @description List of skins the operator has. */
-function SkinCarousel({ name }: { name: string }) {
-  const tabListRef = useRef<HTMLDivElement>(null);
-  const [currIdx, _setIdx] = useState(0);
-  const { skins, displaySkin } = useOverviewContext();
-
-  /**
-   * Allows us to use `useTabListEvents()` where we determine the
-   * selected value by an "id" instead of index value.
-   */
-  const setIdx = useCallback(
-    (idx: number | ((prev: number) => number)) => {
-      _setIdx(idx);
-      if (typeof idx === "number") displaySkin(skins[idx].id);
-      else displaySkin(skins[idx(currIdx)].id);
-    },
-    [displaySkin, skins, currIdx],
-  );
-  useTabListEvents(tabListRef, setIdx, { tabCount: skins.length });
+/**
+ * @description Tablist displaying information about the outfits the
+ *  operator has.
+ */
+function OutfitCarousel({ name, skins }: { name: string; skins: Skin[] }) {
+  const activeIdx = useTabAsIdx();
 
   return (
-    <div
-      className={cn(
-        "relative before:pointer-events-none after:pointer-events-none",
-        "before:absolute before:left-0 before:top-0 before:z-[1] before:h-full before:w-8 lg:before:w-16",
-        "before:bg-gradient-to-r before:from-surface before:to-surface/0",
-        "after:absolute after:right-0 after:top-0 after:z-[1] after:h-full after:w-8 lg:after:w-16",
-        "after:bg-gradient-to-l after:from-surface after:to-surface/0",
-      )}
-    >
-      <div
-        ref={tabListRef}
-        role="tablist"
-        aria-label={`${name} Outfit List`}
-        aria-orientation="horizontal"
+    <ScrollShadow>
+      <Tabs.TabList
+        label={`${name} Outfit List`}
         className="no-scrollbar flex gap-4 overflow-x-scroll px-4 py-8 lg:px-16"
       >
         {skins.map((skin, idx) => (
-          <button
+          <Tabs.Tab
             key={skin.id}
-            id={`overview-tt-${skin.id}`}
-            type="button"
-            role="tab"
-            aria-label={skin.name}
-            aria-selected={idx === currIdx}
-            aria-controls={`overview-tp-${skin.id}`}
-            tabIndex={idx === currIdx ? 0 : -1}
-            onClick={() => setIdx(idx)}
+            id={skin.id}
+            label={skin.name}
             className={cn(
               "aspect-[3/8] h-32 shrink-0 overflow-clip sm:h-64",
               "rounded-3xl outline-0 ring-white drop-shadow-xl",
               "transition-[aspect-ratio] duration-500 hover:ring-2 focus:ring-2",
               {
-                "aspect-[3/4]": idx === currIdx - 1,
-                "aspect-[3/2]": idx === currIdx,
+                "aspect-[3/4]": idx === activeIdx - 1,
+                "aspect-[3/2]": idx === activeIdx,
               },
             )}
           >
@@ -237,16 +133,42 @@ function SkinCarousel({ name }: { name: string }) {
               dim
               classNames={{ wrapper: "size-full", image: "object-cover" }}
             />
-          </button>
+          </Tabs.Tab>
         ))}
-      </div>
+      </Tabs.TabList>
+    </ScrollShadow>
+  );
+}
+
+interface OutfitInfoProps {
+  id: OperatorId;
+  skins: Skin[];
+  cvTable: Record<string, CharacterVoice[]>;
+}
+
+/**
+ * @description Display information about the current outfit along with
+ *  the operator's voice actors (only 1 tabpanel will be rendered).
+ */
+function OutfitInfo({ id, skins, cvTable }: OutfitInfoProps) {
+  return (
+    <div className="px-4 @container lg:px-16">
+      {skins.map((skin) => (
+        <Tabs.TabPanel
+          key={skin.id}
+          id={skin.id}
+          className="grid @2xl:grid-cols-[minmax(0,1fr),12.5rem]"
+        >
+          <SkinInfo skin={skin} />
+          <CVList cv={cvTable[skin.id] ? cvTable[skin.id] : cvTable[id]} />
+        </Tabs.TabPanel>
+      ))}
     </div>
   );
 }
 
 /** @description Displays information about the displayed skin. */
-function SkinInfo() {
-  const { skin } = useOverviewContext();
+function SkinInfo({ skin }: { skin: Skin }) {
   return (
     <section
       aria-label="Skin Info"
@@ -262,20 +184,20 @@ function SkinInfo() {
       <p className="mb-2 text-sm text-neutral-80 @2xl:text-base">
         {skin.description}
       </p>
-      <SkinBrand skin={skin} />
+      <SkinBrand brand={skin.brandId} subBrand={skin.subBrand.id} />
     </section>
   );
 }
 
 /** @description Returns the correct brand image for the displayed skin. */
-function SkinBrand({ skin }: { skin: Skin }) {
+function SkinBrand(props: { brand: string | null; subBrand: string }) {
   let src = `/images/operator`;
-  if (skin.subBrand.id.startsWith("ILLUST_")) {
-    src += `/ui/elite/${skin.subBrand.id.at(-1)}.webp`;
-  } else if (skin.brandId === "crossover") {
-    src += `/skingroup/collab/${encodeURIComponent(skin.subBrand.id)}.webp`;
+  if (props.subBrand.startsWith("ILLUST_")) {
+    src += `/ui/elite/${props.subBrand.at(-1)}.webp`;
+  } else if (props.brand === "crossover") {
+    src += `/skingroup/collab/${encodeURIComponent(props.subBrand)}.webp`;
   } else {
-    src += `/skingroup/${skin.brandId}.webp`;
+    src += `/skingroup/${props.brand}.webp`;
   }
 
   return (
@@ -290,8 +212,7 @@ function SkinBrand({ skin }: { skin: Skin }) {
 }
 
 /** @description Lists the character voices based on the displayed skin. */
-function CVList() {
-  const { cv } = useOverviewContext();
+function CVList({ cv }: { cv: CharacterVoice[] | undefined }) {
   return (
     <div className="border-t border-neutral-20 @2xl:border-l @2xl:border-t-0">
       <ul
