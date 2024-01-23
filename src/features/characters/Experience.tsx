@@ -1,11 +1,9 @@
 "use client";
-import { useState, useRef, useCallback } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 import { SpeakerGrill } from "@/assets/svgs/shapes";
 
-import { useTabListEvents } from "@/hooks/useTabListEvents";
 import {
   type Recipient,
   useLevel,
@@ -22,6 +20,7 @@ import {
 
 import { cn } from "@/lib/style";
 import TransformArrow from "@/components/accents/TransformArrow";
+import Tabs from "@/components/layout/Tabs";
 import Knob from "@/components/form/Knob";
 import Slider from "@/components/form/Slider";
 import StatList from "@/features/characters/StatList";
@@ -126,25 +125,8 @@ function PromotionSelector() {
  *  at the current level & promotion.
  */
 function StatDisplay() {
-  const selectedRecipient = useSelectedRecipient();
   const recipients = useRecipients();
-  const stat = useStat();
-  const range = useRange();
-  const bonus = useBonus();
   const { selectRecipient } = useExperienceActions();
-
-  const tabListRef = useRef<HTMLDivElement>(null);
-  const [_currIdx, _setIdx] = useState(0);
-
-  const setIdx = useCallback(
-    (idx: number | ((prev: number) => number)) => {
-      _setIdx(idx);
-      if (typeof idx === "number") selectRecipient(recipients[idx].id);
-      else selectRecipient(recipients[idx(_currIdx)].id);
-    },
-    [selectRecipient, recipients, _currIdx],
-  );
-  useTabListEvents(tabListRef, setIdx, { tabCount: recipients.length });
 
   return (
     <section
@@ -153,27 +135,49 @@ function StatDisplay() {
         "card grid grid-rows-[auto_minmax(0,1fr)] gap-4 bg-neutral-20/75 p-2 sm:p-4",
       )}
     >
+      <Tabs
+        storeId="char-stat"
+        dataStore={recipients.map(({ id }) => ({ id }))}
+        onChange={(id: string) => selectRecipient(id)}
+      >
+        <StatDisplayContent />
+      </Tabs>
+    </section>
+  );
+}
+
+/** @description Content of `<StatDisplay />` to reduce rerendering of `<Tabs />`. */
+function StatDisplayContent() {
+  const selectedRecipient = useSelectedRecipient();
+  const recipients = useRecipients();
+  const stat = useStat();
+  const range = useRange();
+  const bonus = useBonus();
+
+  return (
+    <>
       <div className="row-start-2 grid items-center gap-4 @xl:grid-cols-[auto_minmax(0,1fr)]">
         <SpeakerGrill className="hidden size-[20cqw] text-[#C6BEAC] @xl:block" />
-        <div
-          ref={tabListRef}
-          role="tablist"
+        <Tabs.TabList
+          label="Available Stat Recipients"
           className="grid grid-cols-autoFill gap-2 sm:grid-cols-3"
         >
           {recipients.map((recipient, idx) => (
             <RecipientTab
               key={idx}
               isSelected={recipient.id === selectedRecipient}
-              onClick={() => setIdx(idx)}
               recipient={recipient}
             />
           ))}
-        </div>
+        </Tabs.TabList>
       </div>
-      <div
-        id={`stat-tp-${selectedRecipient}`}
-        role="tabpanel"
-        aria-labelledby={`stat-tt-${selectedRecipient}`}
+      {/*
+        Different way of rendering `<Tab.TabPanel />` if we know what
+        the current panel is externally (ie: when integrating with a
+        different context).
+      */}
+      <Tabs.TabPanel
+        id={selectedRecipient}
         className="grid gap-4 md:grid-cols-[1.75fr_1fr]"
       >
         <StatList
@@ -190,34 +194,21 @@ function StatDisplay() {
             size="size-[clamp(0.75rem,min(10cqw,10cqh),1.25rem)]"
           />
         </div>
-      </div>
-    </section>
+      </Tabs.TabPanel>
+    </>
   );
 }
 
 /** @description Styled tab for a recipient in `<StatDisplay />`. */
 function RecipientTab({
   isSelected,
-  onClick,
-  recipient,
+  recipient: { id, name, href, iconId },
 }: {
   isSelected: boolean;
-  onClick: () => void;
   recipient: Recipient;
 }) {
   return (
-    <button
-      key={recipient.id}
-      id={`stat-tt-${recipient.id}`}
-      type="button"
-      role="tab"
-      aria-label={recipient.name}
-      aria-selected={isSelected}
-      aria-controls={`stat-tp-${recipient.id}`}
-      tabIndex={isSelected ? 0 : -1}
-      onClick={onClick}
-      className="@container"
-    >
+    <Tabs.Tab id={id} label={name} className="@container">
       <div
         className={cn(
           "grid grid-cols-[2lh_minmax(0,1fr)_2lh] gap-2 p-1 lg:p-1.5",
@@ -226,20 +217,18 @@ function RecipientTab({
         )}
       >
         <Image
-          src={`/images/operator/avatar/${recipient.iconId}.webp`}
+          src={`/images/operator/avatar/${iconId}.webp`}
           alt=""
           width={48}
           height={48}
           className="size-full rounded-md shadow-lift"
         />
-        <span className="break-anywhere line-clamp-2 text-start">
-          {recipient.name}
-        </span>
+        <span className="break-anywhere line-clamp-2 text-start">{name}</span>
         <Link
           aria-hidden={!isSelected}
-          aria-label={`View more information about ${recipient.name}.`}
+          aria-label={`View more information about ${name}.`}
           tabIndex={isSelected ? 0 : -1}
-          href={recipient.href}
+          href={href}
           className={cn("size-full rounded-full shadow-lift", {
             "bg-carrot-60": isSelected,
             "pointer-events-none": !isSelected,
@@ -248,6 +237,6 @@ function RecipientTab({
           <TransformArrow active={isSelected} className="p-3" />
         </Link>
       </div>
-    </button>
+    </Tabs.Tab>
   );
 }

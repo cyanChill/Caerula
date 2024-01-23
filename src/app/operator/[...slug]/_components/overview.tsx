@@ -99,8 +99,8 @@ function HeroImage() {
 }
 
 /**
- * @description Tablist displaying information about the outfits the
- *  operator has.
+ * @description Tablist to switch between what outfit information should
+ *  be displayed.
  */
 function OutfitCarousel({ name, skins }: { name: string; skins: Skin[] }) {
   const activeIdx = useTabAsIdx();

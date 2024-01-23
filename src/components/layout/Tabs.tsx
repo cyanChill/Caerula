@@ -13,6 +13,11 @@ interface TabsProps {
   storeId: string;
   /** Data we want to expose that can be used by other components under the provider. */
   dataStore: TabData[];
+  /**
+   * Callback function that triggers when we switch tabs. Useful when we're
+   * integrating with a different store/context.
+   */
+  onChange?: (id: string) => void;
 }
 
 interface TabsState extends TabsProps {
@@ -45,22 +50,25 @@ const createTabStore = (initProps: TabsProps) => {
     ...initInferredVals,
     actions: {
       nextTab: () =>
-        set(({ dataStore, tabAsIdx }) => {
+        set(({ dataStore, tabAsIdx, onChange }) => {
           const newIdx = tabAsIdx === dataStore.length - 1 ? 0 : tabAsIdx + 1;
           const newTabData = dataStore[newIdx];
+          if (onChange) onChange(newTabData.id);
           return { tab: newTabData.id, tabAsIdx: newIdx, tabData: newTabData };
         }),
       prevTab: () =>
-        set(({ dataStore, tabAsIdx }) => {
+        set(({ dataStore, tabAsIdx, onChange }) => {
           const newIdx = tabAsIdx === 0 ? dataStore.length - 1 : tabAsIdx - 1;
           const newTabData = dataStore[newIdx];
+          if (onChange) onChange(newTabData.id);
           return { tab: newTabData.id, tabAsIdx: newIdx, tabData: newTabData };
         }),
       selectTab: (newTabId: string) =>
-        set(({ dataStore, tab }) => {
+        set(({ dataStore, tab, onChange }) => {
           const newTabData = dataStore.find(({ id }) => id === newTabId);
           if (!newTabData || newTabId === tab) return {};
           const newIdx = dataStore.findIndex(({ id }) => id === newTabId);
+          if (onChange) onChange(newTabId);
           return { tab: newTabData.id, tabAsIdx: newIdx, tabData: newTabData };
         }),
     },
