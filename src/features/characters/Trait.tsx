@@ -29,10 +29,10 @@ export default function Trait({ profession, branchId }: Props) {
             "rounded-md bg-neutralAlt-10/75 shadow-lift",
           )}
         />
-        <div className="ml-[1ch]">
-          <p className="text-[1.25em] text-neutral-80">{name}</p>
+        <hgroup className="ml-[1ch]">
+          <h2 className="text-[1.25em] text-neutral-80">{name}</h2>
           <p className="text-neutral-60">{profession}</p>
-        </div>
+        </hgroup>
 
         <p
           className={cn(

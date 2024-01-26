@@ -68,7 +68,7 @@ function NetworkEntry({ data, type, theme }: NetworkEntryProps) {
       />
       <p
         aria-hidden="true"
-        className="line-clamp-2 h-[2lh] text-center text-[clamp(0.6rem,7cqw,1.1rem)] text-neutral-60"
+        className="line-clamp-2 h-[2lh] text-center text-[clamp(0.6rem,7cqw,1.1rem)] text-neutral-80"
       >
         {data.name}
       </p>
