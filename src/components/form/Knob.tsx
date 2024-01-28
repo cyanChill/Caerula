@@ -181,15 +181,13 @@ export default function Knob({ label, propagateVal, options, theme }: Props) {
       />
       {/* Track */}
       <div
-        style={
-          {
-            // Outer track
-            backgroundImage: `conic-gradient(${internalTheme.track.active} ${currDeg}deg, ${internalTheme.track.inactive} ${currDeg}deg 360deg)`,
-            // Transparent center
-            maskImage: `radial-gradient(farthest-side, transparent calc(100% - var(--trackWidth)),#fff 0)`,
-            WebkitMaskImage: `radial-gradient(farthest-side, transparent calc(100% - var(--trackWidth)),#fff 0)`,
-          } as React.CSSProperties
-        }
+        style={{
+          // Outer track
+          backgroundImage: `conic-gradient(${internalTheme.track.active} ${currDeg}deg, ${internalTheme.track.inactive} ${currDeg}deg 360deg)`,
+          // Transparent center
+          maskImage: `radial-gradient(farthest-side, transparent calc(100% - var(--trackWidth)),#fff 0)`,
+          WebkitMaskImage: `radial-gradient(farthest-side, transparent calc(100% - var(--trackWidth)),#fff 0)`,
+        }}
         className="size-full rounded-full"
       />
     </div>

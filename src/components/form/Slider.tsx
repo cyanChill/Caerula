@@ -159,14 +159,12 @@ export default function Slider({ label, propagateVal, options, theme }: Props) {
       />
       {/* Track */}
       <div
-        style={
-          {
-            backgroundImage:
-              "linear-gradient(to top," +
-              `${internalTheme.track.active} 0 ${progessAsPercent}%,` +
-              `${internalTheme.track.inactive} ${progessAsPercent}% 100%)`,
-          } as React.CSSProperties
-        }
+        style={{
+          backgroundImage:
+            "linear-gradient(to top," +
+            `${internalTheme.track.active} 0 ${progessAsPercent}%,` +
+            `${internalTheme.track.inactive} ${progessAsPercent}% 100%)`,
+        }}
         className="mx-[calc(0.25*var(--trackWidth))] h-full w-[var(--trackWidth)] rounded-full shadow-lift"
       />
     </div>
