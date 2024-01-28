@@ -1,4 +1,19 @@
+import type { Metadata, ResolvingMetadata } from "next";
+
+import { constructMetadata } from "@/lib/metadata";
 import { ScrollSlide } from "@/components/layout/ScrollSlide";
+
+export async function generateMetadata(
+  _: unknown,
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  return constructMetadata({
+    parentMetadata: await parent,
+    title: "Disclaimer",
+    description: "Site disclaimer.",
+    route: "/disclaimer",
+  });
+}
 
 export default function Disclaimer() {
   return (
@@ -18,7 +33,7 @@ export default function Disclaimer() {
 
 function DisclaimerText() {
   return (
-    <div className="max-w-[60ch] space-y-4 text-[clamp(0.9rem,1.5cqw,3rem)] lg:pt-[5svh]">
+    <div className="max-w-prose space-y-4 text-[clamp(0.9rem,1.5cqw,3rem)] lg:pt-[5svh]">
       <p>
         Arknights is a mobile game developed & distributed by
         ©Hypergryph/Studio Montagne/Yostar. The in-game assets contained in

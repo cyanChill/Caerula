@@ -5,6 +5,7 @@ import { cn } from "@/lib/style";
 
 interface Props extends Omit<ImageProps, "alt" | "className"> {
   alt?: string;
+  dim?: boolean;
   classNames?: { wrapper?: string; image?: string };
 }
 
@@ -14,23 +15,19 @@ interface Props extends Omit<ImageProps, "alt" | "className"> {
  */
 export default function PsychedelicImg({
   alt = "",
+  dim = false,
   classNames,
   ...props
 }: Props) {
   return (
-    <div
-      className={cn(
-        "rounded-2xl",
-        classNames?.wrapper,
-        "relative overflow-clip",
-      )}
-    >
+    <div className={cn(classNames?.wrapper, "relative overflow-clip")}>
       <Image
         alt={alt}
         {...props}
         className={cn(
           classNames?.image,
-          "gradient-psychedelic size-full backdrop-blur-xl",
+          dim ? "gradient-psychedelic-dim" : "gradient-psychedelic",
+          "size-full backdrop-blur-xl",
         )}
       />
       {/* Background blur image */}

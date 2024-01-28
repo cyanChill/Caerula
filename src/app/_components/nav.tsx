@@ -141,7 +141,7 @@ function NavBtn(props: NavBtnProps) {
         >
           <p
             className={cn(
-              "line-clamp-2 flex-1 py-[0.15em] font-array font-bold leading-tight [overflow-wrap:anywhere]",
+              "break-anywhere line-clamp-2 flex-1 py-[0.15em] font-array font-bold leading-tight",
               { "rounded-[0.5em] px-[0.5em]": type === "large" },
               type === "large" ? theme.primary : "",
             )}

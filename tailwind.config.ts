@@ -3,8 +3,9 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/features/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -26,6 +27,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
+        surface: "#00060E",
         primary: {
           10: "#001C3B",
           20: "#00315F",
@@ -90,6 +92,14 @@ const config: Config = {
           95: "#EEF0FA",
           99: "#FDFBFF",
         },
+        carrot: {
+          55: "#FF5D1F",
+          60: "#EB6A28",
+          70: "#FF8C57",
+        },
+      },
+      boxShadow: {
+        lift: "0 1px 2px 1px rgba(0, 0, 0, 0.25)",
       },
       /* Grid */
       gridTemplateColumns: {

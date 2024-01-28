@@ -12,6 +12,15 @@
   .gradient-psychedelic {
     @apply bg-gradient-to-tr from-[#74D8FC]/50 to-[#9C99FE]/50;
   }
+
+  .gradient-psychedelic-dim {
+    @apply bg-gradient-to-tr from-[#3B7387]/50 to-[#535287]/50;
+  }
+
+  /* Style bases */
+  .card {
+    @apply rounded-2xl drop-shadow-xl backdrop-blur-2xl;
+  }
 }
 
 @layer utilities {
@@ -36,6 +45,30 @@
       linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
+  }
+
+  /* Let text break when its no longer normally breakable. */
+  .break-anywhere {
+    overflow-wrap: anywhere;
+  }
+
+  /* Custom Dashed Border w/ Larger Interval */
+  .dashed-border {
+    --border-color: black;
+    /* https://kovart.github.io/dashed-border-generator/ */
+    --border-svg: url('data:image/svg+xml,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="none" rx="16" ry="16" stroke="black" stroke-width="1" stroke-dasharray="10" stroke-dashoffset="0" stroke-linecap="round" /></svg>');
+    position: relative;
+  }
+
+  .dashed-border::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--border-color);
+    border-radius: 16px;
+    -webkit-mask: var(--border-svg);
+    mask: var(--border-svg);
   }
 }
 
