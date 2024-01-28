@@ -49,12 +49,7 @@ function LevelSelector() {
 
   return (
     <section className="card relative aspect-square bg-neutral-10/75 p-2 @container sm:p-4">
-      <div
-        className={cn(
-          "absolute left-1/2 top-1/2 grid w-min",
-          "-translate-x-1/2 -translate-y-1/2 text-center",
-        )}
-      >
+      <div className="absolute-center grid w-min text-center">
         <span className="text-[7cqw] font-bold leading-none text-neutral-80">
           LEVEL
         </span>
@@ -71,10 +66,6 @@ function LevelSelector() {
           trackWidth: `clamp(0.4rem, 7.75cqw, 1.25rem)`,
         }}
         propagateVal={setLevel}
-        theme={{
-          track: { inactive: "#C6BEAC", active: "#FF5D1F" },
-          thumb: "#FFFFFF",
-        }}
       />
     </section>
   );
@@ -112,10 +103,7 @@ function PromotionSelector() {
           trackWidth: `clamp(0.4rem, 7.75cqw, 1.25rem)`,
         }}
         propagateVal={setPromotion}
-        theme={{
-          track: { inactive: "#C6BEAC", active: "#E5A530" },
-          thumb: "#FFFFFF",
-        }}
+        theme={{ track: { active: "#E5A530" } }}
       />
     </section>
   );

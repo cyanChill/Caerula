@@ -82,10 +82,7 @@ function Actions({ skills, skillLvl, setSkillLvl }: ActionsProps) {
             trackWidth: `clamp(0.25rem, 12.5cqw, 0.4rem)`,
           }}
           propagateVal={setSkillLvl}
-          theme={{
-            track: { inactive: "#C6BEAC", active: "#FF5449" },
-            thumb: "#FFFFFF",
-          }}
+          theme={{ track: { active: "#FF5449" } }}
         />
         <SkillLvlIcon lvl={skillLvl} />
       </div>
@@ -103,7 +100,7 @@ function SkillLvlIcon({ lvl }: { lvl: number }) {
       alt={`Skill ${alt}`}
       width={32}
       height={32}
-      className="absolute left-1/2 top-1/2 size-[55cqw] -translate-x-1/2 -translate-y-1/2"
+      className="absolute-center size-[55cqw]"
     />
   );
 }

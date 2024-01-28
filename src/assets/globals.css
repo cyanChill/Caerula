@@ -21,6 +21,11 @@
   .card {
     @apply rounded-2xl drop-shadow-xl backdrop-blur-2xl;
   }
+
+  /* Positioning Shorthands */
+  .absolute-center {
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
 }
 
 @layer utilities {

@@ -80,17 +80,14 @@ export default function Potentials({ potentials }: { potentials: string[] }) {
             trackWidth: `clamp(0.4rem, 7.75cqw, 1.25rem)`,
           }}
           propagateVal={setPotential}
-          theme={{
-            track: { inactive: "#C6BEAC", active: "#A6C8FF" },
-            thumb: "#FFFFFF",
-          }}
+          theme={{ track: { active: "#A6C8FF" } }}
         />
         <Image
           src={`/images/operator/ui/potential/${potential}.webp`}
           alt={`Potential ${potential}`}
           width={64}
           height={64}
-          className="absolute left-1/2 top-1/2 size-[70cqw] -translate-x-1/2 -translate-y-1/2"
+          className="absolute-center size-[70cqw]"
         />
       </div>
       <div className="card bg-neutral-10/75 p-4 @container">
