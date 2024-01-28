@@ -106,7 +106,7 @@ function OutfitCarousel({ name, skins }: { name: string; skins: Skin[] }) {
   const activeIdx = useTabAsIdx();
 
   return (
-    <ScrollShadow>
+    <ScrollShadow color="#00060E">
       <Tabs.TabList
         label={`${name} Outfit List`}
         className="no-scrollbar flex gap-4 overflow-x-scroll px-4 py-8 lg:px-16"

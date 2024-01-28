@@ -6,7 +6,13 @@ export type ChipConfig = VariantProps<typeof chipVariants>;
 const chipVariants = cva(["inline-flex px-[0.5em] border-[max(1px,0.125em)]"], {
   variants: {
     variant: { solid: "", bordered: "" },
-    color: { primary: "", secondary: "", tertiary: "", neutral: "" },
+    color: {
+      primary: "",
+      secondary: "",
+      tertiary: "",
+      neutral: "",
+      custom: "",
+    },
     radius: {
       default: "rounded",
       medium: "rounded-md",
@@ -64,7 +70,7 @@ const chipVariants = cva(["inline-flex px-[0.5em] border-[max(1px,0.125em)]"], {
 });
 
 interface Props extends ChipConfig {
-  icon: React.ReactNode;
+  icon?: React.ReactNode;
   children: React.ReactNode;
   asListItem?: boolean;
   className?: string;
@@ -80,8 +86,8 @@ export default function Chip({
   const ChipTag = asListItem ? "li" : "div";
   return (
     <ChipTag className={cn(chipVariants({ ...config }), className)}>
-      <span className="flex-center">{icon}</span>
-      <span className="pl-[0.325em]">{children}</span>
+      {icon && <span className="flex-center">{icon}</span>}
+      <span className={cn({ "pl-[0.325em]": !!icon })}>{children}</span>
     </ChipTag>
   );
 }

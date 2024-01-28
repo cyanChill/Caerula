@@ -36,7 +36,8 @@ export default function Talent({ talents }: Props) {
         alt=""
         width={256}
         height={256}
-        className="absolute left-0 top-0 z-[-1] size-full object-cover opacity-15"
+        draggable={false}
+        className="absolute left-0 top-0 z-[-1] size-full select-none object-cover opacity-15"
       />
     </section>
   );
@@ -123,7 +124,7 @@ function Message(props: {
   }
 
   if (!message) return null;
-  return <p className="text-[0.9em] text-neutral-60">{message}</p>;
+  return <p className="text-[0.9em] text-neutral-80">{message}</p>;
 }
 
 /** @description Displays information about the talent. */
@@ -149,7 +150,7 @@ function TalentContent(props: {
       </div>
       <p
         dangerouslySetInnerHTML={{ __html: props.data.description }}
-        className="whitespace-pre-line text-neutral-80"
+        className="whitespace-pre-line"
       />
     </div>
   );

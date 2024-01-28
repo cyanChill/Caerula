@@ -14,7 +14,6 @@ interface Props {
 export default function RangePattern({ rangeId, size, className }: Props) {
   const rangeArea = RangeTable[rangeId];
   if (!rangeArea) return null;
-
   return (
     <div
       role="img"
@@ -41,6 +40,32 @@ export default function RangePattern({ rangeId, size, className }: Props) {
           })}
         />
       ))}
+    </div>
+  );
+}
+
+type ContainedRangeProps =
+  | { rangeId: RangeId; optional?: false }
+  | { rangeId: RangeId | null; optional: true };
+
+/**
+ * @description Displays a <RangePattern /> inside a custom dashed-border
+ *  container.
+ */
+export function ContainedRange({
+  rangeId,
+  optional = false,
+}: ContainedRangeProps) {
+  if (optional && !rangeId) return null;
+  return (
+    <div
+      style={{ "--border-color": "#909094" } as React.CSSProperties}
+      className="dashed-border grid place-items-center rounded-2xl p-4 @container"
+    >
+      <RangePattern
+        rangeId={rangeId!} // `rangeId` should be defined & not `null`.
+        size="size-[clamp(0.75rem,min(10cqw,10cqh),1.25rem)]"
+      />
     </div>
   );
 }

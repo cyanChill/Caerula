@@ -66,7 +66,6 @@ export default function Potentials({ potentials }: { potentials: string[] }) {
   const setPotential = useSetPotential();
 
   if (potentials.length === 0) return null;
-
   return (
     <section
       aria-label="Potentials"

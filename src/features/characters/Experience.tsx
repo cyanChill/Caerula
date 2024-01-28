@@ -24,7 +24,7 @@ import Tabs from "@/components/layout/Tabs";
 import Knob from "@/components/form/Knob";
 import Slider from "@/components/form/Slider";
 import StatList from "@/features/characters/StatList";
-import RangePattern from "@/features/characters/RangePattern";
+import { ContainedRange } from "@/features/characters/RangePattern";
 
 /** @description Returns the widgets representing our Experience store. */
 export default function Experience() {
@@ -92,7 +92,8 @@ function PromotionSelector() {
   return (
     <section
       className={cn(
-        "card grid grid-cols-[minmax(0,1fr)_auto] gap-2 p-2 @container sm:p-4",
+        "@container md:row-start-2 lg:row-start-auto",
+        "card grid grid-cols-[minmax(0,1fr)_auto] gap-2 p-2 sm:p-4",
         "aspect-square bg-[#364232]/75",
       )}
     >
@@ -185,15 +186,7 @@ function StatDisplayContent() {
           stats={stat}
           trust={bonus}
         />
-        <div
-          style={{ "--border-color": "#909094" } as React.CSSProperties}
-          className="dashed-border grid place-items-center rounded-2xl p-4 @container"
-        >
-          <RangePattern
-            rangeId={range}
-            size="size-[clamp(0.75rem,min(10cqw,10cqh),1.25rem)]"
-          />
-        </div>
+        <ContainedRange rangeId={range} />
       </Tabs.TabPanel>
     </>
   );
