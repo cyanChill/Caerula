@@ -5,7 +5,7 @@ import { useStoreWithEqualityFn as useStore } from "zustand/traditional";
 
 import { useKey } from "@/hooks/useKey";
 
-import type { WithCSS } from "@/lib/style";
+import { type WithCSS, cn } from "@/lib/style";
 
 type TabData = { id: string } & Record<string, unknown>;
 
@@ -180,8 +180,10 @@ function TabList({
   );
 }
 
+type SingleTabProps = BaseTabProps & { label?: string; activeClass?: string };
+
 /** @description Unstyled `<button />` to select the current tab. */
-function Tab({ id, children, ...props }: BaseTabProps & { label?: string }) {
+function Tab({ id, children, ...props }: SingleTabProps) {
   const storeId = useStoreId();
   const tab = useTab();
   const { selectTab } = useTabsActions();
@@ -196,7 +198,7 @@ function Tab({ id, children, ...props }: BaseTabProps & { label?: string }) {
       tabIndex={id === tab ? 0 : -1}
       onClick={() => selectTab(id)}
       style={props.style}
-      className={props.className}
+      className={cn(props.className, { [props.activeClass ?? ""]: id === tab })}
     >
       {children}
     </button>
@@ -204,7 +206,7 @@ function Tab({ id, children, ...props }: BaseTabProps & { label?: string }) {
 }
 
 /** @description Unstyled `<div />` containing content of the current tab. */
-function TabPanel({ id, children, ...props }: WithCSS<BaseTabProps>) {
+function TabPanel({ id, children, ...props }: BaseTabProps) {
   const storeId = useStoreId();
   const tab = useTab();
   if (id !== tab) return null;

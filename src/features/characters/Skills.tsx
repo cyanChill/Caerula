@@ -5,7 +5,7 @@ import Image from "next/image";
 import type { Skill } from "@/data/types/AKSkill";
 
 import { cn } from "@/lib/style";
-import Tabs, { useTabAsIdx } from "@/components/layout/Tabs";
+import Tabs from "@/components/layout/Tabs";
 import Knob from "@/components/form/Knob";
 import Chip from "@/components/ui/Chip";
 import { ContainedRange } from "./RangePattern";
@@ -42,7 +42,6 @@ interface ActionsProps extends SkillInfoProps {
 
 /** @description Contains buttons to switch the current skill & skill level. */
 function Actions({ skills, skillLvl, setSkillLvl }: ActionsProps) {
-  const activeIdx = useTabAsIdx();
   return (
     <Tabs.TabList
       label="Skill List"
@@ -57,10 +56,10 @@ function Actions({ skills, skillLvl, setSkillLvl }: ActionsProps) {
           key={idx}
           id={id}
           label={name}
+          activeClass="ring-4 ring-secondary-60"
           className={cn(
             "overflow-clip rounded-md shadow-lift outline-0",
             "focus:ring-4 focus:ring-primary-60",
-            { "ring-4 ring-secondary-60": activeIdx === idx },
           )}
         >
           <Image
