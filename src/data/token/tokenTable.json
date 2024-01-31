@@ -17,20 +17,20 @@
             "atk": 30,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 0.5,
-            "respawnTime": 5
+            "atkInterval": 0.5
           },
           {
             "hp": 1000,
             "atk": 55,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 0.5,
-            "respawnTime": 5
+            "atkInterval": 0.5
           }
         ],
         "evolveCost": []
@@ -43,20 +43,20 @@
             "atk": 55,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 0.5,
-            "respawnTime": 5
+            "atkInterval": 0.5
           },
           {
             "hp": 1000,
             "atk": 90,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 0.5,
-            "respawnTime": 5
+            "atkInterval": 0.5
           }
         ],
         "evolveCost": []
@@ -69,20 +69,20 @@
             "atk": 90,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 0.5,
-            "respawnTime": 5
+            "atkInterval": 0.5
           },
           {
             "hp": 1000,
             "atk": 125,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 0.5,
-            "respawnTime": 5
+            "atkInterval": 0.5
           }
         ],
         "evolveCost": []
@@ -112,20 +112,20 @@
             "atk": 218,
             "def": 128,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 1170,
             "atk": 295,
             "def": 220,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -138,20 +138,20 @@
             "atk": 308,
             "def": 236,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 1480,
             "atk": 348,
             "def": 275,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -164,20 +164,20 @@
             "atk": 393,
             "def": 280,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 2016,
             "atk": 462,
             "def": 335,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -207,20 +207,20 @@
             "atk": 545,
             "def": 201,
             "res": 0,
+            "respawnTime": 35,
             "cost": 10,
             "blockCnt": 3,
-            "atkInterval": 2,
-            "respawnTime": 35
+            "atkInterval": 2
           },
           {
             "hp": 3347,
             "atk": 827,
             "def": 272,
             "res": 0,
+            "respawnTime": 35,
             "cost": 10,
             "blockCnt": 3,
-            "atkInterval": 2,
-            "respawnTime": 35
+            "atkInterval": 2
           }
         ],
         "evolveCost": []
@@ -233,20 +233,20 @@
             "atk": 827,
             "def": 272,
             "res": 0,
+            "respawnTime": 30,
             "cost": 10,
             "blockCnt": 3,
-            "atkInterval": 2,
-            "respawnTime": 30
+            "atkInterval": 2
           },
           {
             "hp": 4292,
             "atk": 1149,
             "def": 336,
             "res": 0,
+            "respawnTime": 30,
             "cost": 10,
             "blockCnt": 3,
-            "atkInterval": 2,
-            "respawnTime": 30
+            "atkInterval": 2
           }
         ],
         "evolveCost": []
@@ -259,20 +259,20 @@
             "atk": 1149,
             "def": 336,
             "res": 0,
+            "respawnTime": 25,
             "cost": 10,
             "blockCnt": 3,
-            "atkInterval": 2,
-            "respawnTime": 25
+            "atkInterval": 2
           },
           {
             "hp": 5433,
             "atk": 1402,
             "def": 405,
             "res": 0,
+            "respawnTime": 25,
             "cost": 10,
             "blockCnt": 3,
-            "atkInterval": 2,
-            "respawnTime": 25
+            "atkInterval": 2
           }
         ],
         "evolveCost": []
@@ -325,20 +325,20 @@
             "atk": 0,
             "def": 0,
             "res": 75,
+            "respawnTime": 20,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 20
+            "atkInterval": 1
           },
           {
             "hp": 100,
             "atk": 0,
             "def": 0,
             "res": 75,
+            "respawnTime": 20,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 20
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -351,20 +351,20 @@
             "atk": 0,
             "def": 0,
             "res": 75,
+            "respawnTime": 20,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 20
+            "atkInterval": 1
           },
           {
             "hp": 100,
             "atk": 0,
             "def": 0,
             "res": 75,
+            "respawnTime": 20,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 20
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -377,20 +377,20 @@
             "atk": 0,
             "def": 0,
             "res": 75,
+            "respawnTime": 20,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 20
+            "atkInterval": 1
           },
           {
             "hp": 6000,
             "atk": 0,
             "def": 0,
             "res": 75,
+            "respawnTime": 20,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 20
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -429,20 +429,20 @@
             "atk": 185,
             "def": 175,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 1150,
             "atk": 263,
             "def": 280,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -455,20 +455,20 @@
             "atk": 280,
             "def": 290,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 1480,
             "atk": 350,
             "def": 350,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -481,20 +481,20 @@
             "atk": 370,
             "def": 360,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 1950,
             "atk": 444,
             "def": 415,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -545,20 +545,20 @@
             "atk": 0,
             "def": 100,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 0,
             "def": 100,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -571,20 +571,20 @@
             "atk": 0,
             "def": 150,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           },
           {
             "hp": 1500,
             "atk": 0,
             "def": 150,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -597,20 +597,20 @@
             "atk": 0,
             "def": 200,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           },
           {
             "hp": 2000,
             "atk": 0,
             "def": 200,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -667,20 +667,20 @@
             "atk": 0,
             "def": 100,
             "res": 0,
+            "respawnTime": 10,
             "cost": 7,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 0,
             "def": 100,
             "res": 0,
+            "respawnTime": 10,
             "cost": 7,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -693,20 +693,20 @@
             "atk": 295,
             "def": 150,
             "res": 0,
+            "respawnTime": 10,
             "cost": 7,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           },
           {
             "hp": 1500,
             "atk": 379,
             "def": 150,
             "res": 0,
+            "respawnTime": 10,
             "cost": 7,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -719,20 +719,20 @@
             "atk": 408,
             "def": 200,
             "res": 0,
+            "respawnTime": 10,
             "cost": 7,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           },
           {
             "hp": 2000,
             "atk": 509,
             "def": 200,
             "res": 0,
+            "respawnTime": 10,
             "cost": 7,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -789,20 +789,20 @@
             "atk": 0,
             "def": 100,
             "res": 0,
+            "respawnTime": 10,
             "cost": 8,
             "blockCnt": 0,
-            "atkInterval": 2.3,
-            "respawnTime": 10
+            "atkInterval": 2.3
           },
           {
             "hp": 1000,
             "atk": 0,
             "def": 100,
             "res": 0,
+            "respawnTime": 10,
             "cost": 8,
             "blockCnt": 0,
-            "atkInterval": 2.3,
-            "respawnTime": 10
+            "atkInterval": 2.3
           }
         ],
         "evolveCost": []
@@ -815,20 +815,20 @@
             "atk": 0,
             "def": 150,
             "res": 0,
+            "respawnTime": 10,
             "cost": 8,
             "blockCnt": 0,
-            "atkInterval": 2.3,
-            "respawnTime": 10
+            "atkInterval": 2.3
           },
           {
             "hp": 1500,
             "atk": 0,
             "def": 150,
             "res": 0,
+            "respawnTime": 10,
             "cost": 8,
             "blockCnt": 0,
-            "atkInterval": 2.3,
-            "respawnTime": 10
+            "atkInterval": 2.3
           }
         ],
         "evolveCost": []
@@ -841,20 +841,20 @@
             "atk": 593,
             "def": 200,
             "res": 0,
+            "respawnTime": 10,
             "cost": 8,
             "blockCnt": 0,
-            "atkInterval": 2.3,
-            "respawnTime": 10
+            "atkInterval": 2.3
           },
           {
             "hp": 2000,
             "atk": 753,
             "def": 200,
             "res": 0,
+            "respawnTime": 10,
             "cost": 8,
             "blockCnt": 0,
-            "atkInterval": 2.3,
-            "respawnTime": 10
+            "atkInterval": 2.3
           }
         ],
         "evolveCost": []
@@ -911,20 +911,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -937,20 +937,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -963,20 +963,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1006,20 +1006,20 @@
             "atk": 207,
             "def": 116,
             "res": 0,
+            "respawnTime": 45,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 0.93,
-            "respawnTime": 45
+            "atkInterval": 0.93
           },
           {
             "hp": 820,
             "atk": 305,
             "def": 166,
             "res": 0,
+            "respawnTime": 45,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 0.93,
-            "respawnTime": 45
+            "atkInterval": 0.93
           }
         ],
         "evolveCost": []
@@ -1032,20 +1032,20 @@
             "atk": 305,
             "def": 166,
             "res": 0,
+            "respawnTime": 45,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 0.93,
-            "respawnTime": 45
+            "atkInterval": 0.93
           },
           {
             "hp": 1026,
             "atk": 419,
             "def": 216,
             "res": 0,
+            "respawnTime": 45,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 0.93,
-            "respawnTime": 45
+            "atkInterval": 0.93
           }
         ],
         "evolveCost": []
@@ -1058,20 +1058,20 @@
             "atk": 429,
             "def": 226,
             "res": 0,
+            "respawnTime": 45,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 0.93,
-            "respawnTime": 45
+            "atkInterval": 0.93
           },
           {
             "hp": 1416,
             "atk": 548,
             "def": 268,
             "res": 0,
+            "respawnTime": 45,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 0.93,
-            "respawnTime": 45
+            "atkInterval": 0.93
           }
         ],
         "evolveCost": []
@@ -1110,20 +1110,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1136,20 +1136,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1162,20 +1162,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1205,20 +1205,20 @@
             "atk": 264,
             "def": 100,
             "res": 0,
+            "respawnTime": 35,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 2.4,
-            "respawnTime": 35
+            "atkInterval": 2.4
           },
           {
             "hp": 100,
             "atk": 373,
             "def": 100,
             "res": 0,
+            "respawnTime": 35,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 2.4,
-            "respawnTime": 35
+            "atkInterval": 2.4
           }
         ],
         "evolveCost": []
@@ -1231,20 +1231,20 @@
             "atk": 373,
             "def": 100,
             "res": 0,
+            "respawnTime": 35,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 2.4,
-            "respawnTime": 35
+            "atkInterval": 2.4
           },
           {
             "hp": 100,
             "atk": 479,
             "def": 100,
             "res": 0,
+            "respawnTime": 35,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 2.4,
-            "respawnTime": 35
+            "atkInterval": 2.4
           }
         ],
         "evolveCost": []
@@ -1257,20 +1257,20 @@
             "atk": 479,
             "def": 100,
             "res": 0,
+            "respawnTime": 35,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 2.4,
-            "respawnTime": 35
+            "atkInterval": 2.4
           },
           {
             "hp": 100,
             "atk": 585,
             "def": 100,
             "res": 0,
+            "respawnTime": 35,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 2.4,
-            "respawnTime": 35
+            "atkInterval": 2.4
           }
         ],
         "evolveCost": []
@@ -1323,20 +1323,20 @@
             "atk": 203,
             "def": 160,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 1254,
             "atk": 286,
             "def": 226,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -1349,20 +1349,20 @@
             "atk": 295,
             "def": 233,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 1592,
             "atk": 379,
             "def": 299,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -1375,20 +1375,20 @@
             "atk": 391,
             "def": 309,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 2020,
             "atk": 477,
             "def": 377,
             "res": 0,
+            "respawnTime": 10,
             "cost": 5,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -1418,20 +1418,20 @@
             "atk": 44,
             "def": 394,
             "res": 10,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 3,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 4000,
             "atk": 63,
             "def": 394,
             "res": 10,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 3,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1444,20 +1444,20 @@
             "atk": 63,
             "def": 394,
             "res": 10,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 3,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 4000,
             "atk": 82,
             "def": 448,
             "res": 10,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 3,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1470,20 +1470,20 @@
             "atk": 82,
             "def": 504,
             "res": 10,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 3,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 5000,
             "atk": 100,
             "def": 560,
             "res": 10,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 3,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1513,20 +1513,20 @@
             "atk": 44,
             "def": 366,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 5000,
             "atk": 63,
             "def": 366,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1539,20 +1539,20 @@
             "atk": 63,
             "def": 366,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 5000,
             "atk": 82,
             "def": 416,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1565,20 +1565,20 @@
             "atk": 82,
             "def": 468,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 5000,
             "atk": 100,
             "def": 520,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1608,20 +1608,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1634,20 +1634,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1660,20 +1660,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1703,20 +1703,20 @@
             "atk": 162,
             "def": 187,
             "res": 0,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 1121,
             "atk": 232,
             "def": 250,
             "res": 0,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -1729,20 +1729,20 @@
             "atk": 240,
             "def": 258,
             "res": 0,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 1440,
             "atk": 321,
             "def": 323,
             "res": 0,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -1755,20 +1755,20 @@
             "atk": 331,
             "def": 334,
             "res": 0,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 1895,
             "atk": 404,
             "def": 408,
             "res": 0,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -1819,20 +1819,20 @@
             "atk": 398,
             "def": 302,
             "res": 50,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1.9,
-            "respawnTime": 10
+            "atkInterval": 1.9
           },
           {
             "hp": 1997,
             "atk": 398,
             "def": 302,
             "res": 50,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1.9,
-            "respawnTime": 10
+            "atkInterval": 1.9
           }
         ],
         "evolveCost": []
@@ -1845,20 +1845,20 @@
             "atk": 398,
             "def": 302,
             "res": 50,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1.9,
-            "respawnTime": 10
+            "atkInterval": 1.9
           },
           {
             "hp": 1997,
             "atk": 398,
             "def": 302,
             "res": 50,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1.9,
-            "respawnTime": 10
+            "atkInterval": 1.9
           }
         ],
         "evolveCost": []
@@ -1871,20 +1871,20 @@
             "atk": 398,
             "def": 302,
             "res": 50,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1.9,
-            "respawnTime": 10
+            "atkInterval": 1.9
           },
           {
             "hp": 1997,
             "atk": 398,
             "def": 302,
             "res": 50,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1.9,
-            "respawnTime": 10
+            "atkInterval": 1.9
           }
         ],
         "evolveCost": []
@@ -1914,20 +1914,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1940,20 +1940,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -1966,20 +1966,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -2009,20 +2009,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 30,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 30
+            "atkInterval": 1
           },
           {
             "hp": 100,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 30,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 30
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -2035,20 +2035,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 30,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 30
+            "atkInterval": 1
           },
           {
             "hp": 100,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 30,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 30
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -2061,20 +2061,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 30,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 30
+            "atkInterval": 1
           },
           {
             "hp": 100,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 30,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 30
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -2119,20 +2119,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 15,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 15
+            "atkInterval": 1
           },
           {
             "hp": 100,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 15,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 15
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -2145,20 +2145,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 15,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 15
+            "atkInterval": 1
           },
           {
             "hp": 100,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 15,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 15
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -2171,20 +2171,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 15,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 15
+            "atkInterval": 1
           },
           {
             "hp": 100,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 15,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 15
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -2253,20 +2253,20 @@
             "atk": 10,
             "def": 422,
             "res": 20,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 6000,
             "atk": 10,
             "def": 422,
             "res": 20,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -2279,20 +2279,20 @@
             "atk": 10,
             "def": 422,
             "res": 20,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 6000,
             "atk": 10,
             "def": 480,
             "res": 20,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -2305,20 +2305,20 @@
             "atk": 10,
             "def": 540,
             "res": 20,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 6000,
             "atk": 10,
             "def": 600,
             "res": 20,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 2,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -2348,20 +2348,20 @@
             "atk": 366,
             "def": 233,
             "res": 0,
+            "respawnTime": 10,
             "cost": 12,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 1936,
             "atk": 425,
             "def": 271,
             "res": 0,
+            "respawnTime": 10,
             "cost": 12,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -2374,20 +2374,20 @@
             "atk": 425,
             "def": 271,
             "res": 0,
+            "respawnTime": 10,
             "cost": 12,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 2225,
             "atk": 489,
             "def": 312,
             "res": 0,
+            "respawnTime": 10,
             "cost": 12,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -2400,20 +2400,20 @@
             "atk": 489,
             "def": 312,
             "res": 0,
+            "respawnTime": 10,
             "cost": 12,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 2500,
             "atk": 549,
             "def": 351,
             "res": 0,
+            "respawnTime": 10,
             "cost": 12,
             "blockCnt": 1,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -2443,20 +2443,20 @@
             "atk": 270,
             "def": 83,
             "res": 15,
+            "respawnTime": 10,
             "cost": 9,
             "blockCnt": 1,
-            "atkInterval": 1.6,
-            "respawnTime": 10
+            "atkInterval": 1.6
           },
           {
             "hp": 942,
             "atk": 314,
             "def": 96,
             "res": 15,
+            "respawnTime": 10,
             "cost": 9,
             "blockCnt": 1,
-            "atkInterval": 1.6,
-            "respawnTime": 10
+            "atkInterval": 1.6
           }
         ],
         "evolveCost": []
@@ -2469,20 +2469,20 @@
             "atk": 314,
             "def": 96,
             "res": 20,
+            "respawnTime": 10,
             "cost": 9,
             "blockCnt": 1,
-            "atkInterval": 1.6,
-            "respawnTime": 10
+            "atkInterval": 1.6
           },
           {
             "hp": 1083,
             "atk": 361,
             "def": 110,
             "res": 20,
+            "respawnTime": 10,
             "cost": 9,
             "blockCnt": 1,
-            "atkInterval": 1.6,
-            "respawnTime": 10
+            "atkInterval": 1.6
           }
         ],
         "evolveCost": []
@@ -2495,20 +2495,20 @@
             "atk": 361,
             "def": 110,
             "res": 20,
+            "respawnTime": 10,
             "cost": 9,
             "blockCnt": 1,
-            "atkInterval": 1.6,
-            "respawnTime": 10
+            "atkInterval": 1.6
           },
           {
             "hp": 1217,
             "atk": 406,
             "def": 124,
             "res": 20,
+            "respawnTime": 10,
             "cost": 9,
             "blockCnt": 1,
-            "atkInterval": 1.6,
-            "respawnTime": 10
+            "atkInterval": 1.6
           }
         ],
         "evolveCost": []
@@ -2538,20 +2538,20 @@
             "atk": 548,
             "def": 281,
             "res": 10,
+            "respawnTime": 20,
             "cost": 23,
             "blockCnt": 2,
-            "atkInterval": 1.5,
-            "respawnTime": 20
+            "atkInterval": 1.5
           },
           {
             "hp": 2793,
             "atk": 637,
             "def": 327,
             "res": 10,
+            "respawnTime": 20,
             "cost": 23,
             "blockCnt": 2,
-            "atkInterval": 1.5,
-            "respawnTime": 20
+            "atkInterval": 1.5
           }
         ],
         "evolveCost": []
@@ -2564,20 +2564,20 @@
             "atk": 637,
             "def": 327,
             "res": 10,
+            "respawnTime": 20,
             "cost": 23,
             "blockCnt": 2,
-            "atkInterval": 1.5,
-            "respawnTime": 20
+            "atkInterval": 1.5
           },
           {
             "hp": 3210,
             "atk": 732,
             "def": 376,
             "res": 10,
+            "respawnTime": 20,
             "cost": 23,
             "blockCnt": 2,
-            "atkInterval": 1.5,
-            "respawnTime": 20
+            "atkInterval": 1.5
           }
         ],
         "evolveCost": []
@@ -2590,20 +2590,20 @@
             "atk": 732,
             "def": 376,
             "res": 10,
+            "respawnTime": 20,
             "cost": 23,
             "blockCnt": 2,
-            "atkInterval": 1.5,
-            "respawnTime": 20
+            "atkInterval": 1.5
           },
           {
             "hp": 3607,
             "atk": 823,
             "def": 423,
             "res": 10,
+            "respawnTime": 20,
             "cost": 23,
             "blockCnt": 2,
-            "atkInterval": 1.5,
-            "respawnTime": 20
+            "atkInterval": 1.5
           }
         ],
         "evolveCost": []
@@ -2633,20 +2633,20 @@
             "atk": 986,
             "def": 506,
             "res": 20,
+            "respawnTime": 20,
             "cost": 23,
             "blockCnt": 4,
-            "atkInterval": 2.3,
-            "respawnTime": 20
+            "atkInterval": 2.3
           },
           {
             "hp": 5586,
             "atk": 1147,
             "def": 589,
             "res": 20,
+            "respawnTime": 20,
             "cost": 23,
             "blockCnt": 4,
-            "atkInterval": 2.3,
-            "respawnTime": 20
+            "atkInterval": 2.3
           }
         ],
         "evolveCost": []
@@ -2659,20 +2659,20 @@
             "atk": 1147,
             "def": 589,
             "res": 20,
+            "respawnTime": 20,
             "cost": 23,
             "blockCnt": 4,
-            "atkInterval": 2.3,
-            "respawnTime": 20
+            "atkInterval": 2.3
           },
           {
             "hp": 6420,
             "atk": 1318,
             "def": 677,
             "res": 20,
+            "respawnTime": 20,
             "cost": 23,
             "blockCnt": 4,
-            "atkInterval": 2.3,
-            "respawnTime": 20
+            "atkInterval": 2.3
           }
         ],
         "evolveCost": []
@@ -2685,20 +2685,20 @@
             "atk": 1318,
             "def": 677,
             "res": 20,
+            "respawnTime": 20,
             "cost": 23,
             "blockCnt": 4,
-            "atkInterval": 2.3,
-            "respawnTime": 20
+            "atkInterval": 2.3
           },
           {
             "hp": 7214,
             "atk": 1481,
             "def": 761,
             "res": 20,
+            "respawnTime": 20,
             "cost": 23,
             "blockCnt": 4,
-            "atkInterval": 2.3,
-            "respawnTime": 20
+            "atkInterval": 2.3
           }
         ],
         "evolveCost": []
@@ -2728,20 +2728,20 @@
             "atk": 191,
             "def": 141,
             "res": 20,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 1527,
             "atk": 273,
             "def": 189,
             "res": 20,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -2754,20 +2754,20 @@
             "atk": 282,
             "def": 195,
             "res": 20,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 1961,
             "atk": 376,
             "def": 244,
             "res": 20,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -2780,20 +2780,20 @@
             "atk": 388,
             "def": 252,
             "res": 20,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 2582,
             "atk": 474,
             "def": 308,
             "res": 20,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -2844,20 +2844,20 @@
             "atk": 351,
             "def": 131,
             "res": 0,
+            "respawnTime": 20,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.2,
-            "respawnTime": 20
+            "atkInterval": 1.2
           },
           {
             "hp": 1479,
             "atk": 481,
             "def": 202,
             "res": 0,
+            "respawnTime": 20,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.2,
-            "respawnTime": 20
+            "atkInterval": 1.2
           }
         ],
         "evolveCost": []
@@ -2870,20 +2870,20 @@
             "atk": 481,
             "def": 202,
             "res": 0,
+            "respawnTime": 20,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.2,
-            "respawnTime": 20
+            "atkInterval": 1.2
           },
           {
             "hp": 1873,
             "atk": 633,
             "def": 263,
             "res": 0,
+            "respawnTime": 20,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.2,
-            "respawnTime": 20
+            "atkInterval": 1.2
           }
         ],
         "evolveCost": []
@@ -2896,20 +2896,20 @@
             "atk": 633,
             "def": 263,
             "res": 0,
+            "respawnTime": 20,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.2,
-            "respawnTime": 20
+            "atkInterval": 1.2
           },
           {
             "hp": 2372,
             "atk": 772,
             "def": 318,
             "res": 0,
+            "respawnTime": 20,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.2,
-            "respawnTime": 20
+            "atkInterval": 1.2
           }
         ],
         "evolveCost": []
@@ -2939,20 +2939,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 15,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 15
+            "atkInterval": 1
           },
           {
             "hp": 100,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 15,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 15
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -2965,20 +2965,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 15,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 15
+            "atkInterval": 1
           },
           {
             "hp": 100,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 15,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 15
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -2991,20 +2991,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 15,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 15
+            "atkInterval": 1
           },
           {
             "hp": 100,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 15,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 15
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3073,20 +3073,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3099,20 +3099,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3125,20 +3125,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3168,20 +3168,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3194,20 +3194,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3220,20 +3220,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3263,20 +3263,20 @@
             "atk": 369,
             "def": 0,
             "res": 0,
+            "respawnTime": 40,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1.6,
-            "respawnTime": 40
+            "atkInterval": 1.6
           },
           {
             "hp": 500,
             "atk": 506,
             "def": 0,
             "res": 0,
+            "respawnTime": 40,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1.6,
-            "respawnTime": 40
+            "atkInterval": 1.6
           }
         ],
         "evolveCost": []
@@ -3289,20 +3289,20 @@
             "atk": 506,
             "def": 0,
             "res": 0,
+            "respawnTime": 40,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1.6,
-            "respawnTime": 40
+            "atkInterval": 1.6
           },
           {
             "hp": 500,
             "atk": 666,
             "def": 0,
             "res": 0,
+            "respawnTime": 40,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1.6,
-            "respawnTime": 40
+            "atkInterval": 1.6
           }
         ],
         "evolveCost": []
@@ -3315,20 +3315,20 @@
             "atk": 666,
             "def": 0,
             "res": 0,
+            "respawnTime": 40,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1.6,
-            "respawnTime": 40
+            "atkInterval": 1.6
           },
           {
             "hp": 500,
             "atk": 866,
             "def": 0,
             "res": 0,
+            "respawnTime": 40,
             "cost": 5,
             "blockCnt": 0,
-            "atkInterval": 1.6,
-            "respawnTime": 40
+            "atkInterval": 1.6
           }
         ],
         "evolveCost": []
@@ -3373,20 +3373,20 @@
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           },
           {
             "hp": 100,
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3399,20 +3399,20 @@
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           },
           {
             "hp": 100,
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3425,20 +3425,20 @@
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           },
           {
             "hp": 100,
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3477,20 +3477,20 @@
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           },
           {
             "hp": 2000,
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3503,20 +3503,20 @@
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           },
           {
             "hp": 2000,
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3529,20 +3529,20 @@
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           },
           {
             "hp": 2000,
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 10,
             "cost": 3,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 10
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3581,20 +3581,20 @@
             "atk": 100,
             "def": 2000,
             "res": 0,
+            "respawnTime": 20,
             "cost": 10,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 20
+            "atkInterval": 1
           },
           {
             "hp": 6000,
             "atk": 100,
             "def": 2000,
             "res": 0,
+            "respawnTime": 20,
             "cost": 10,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 20
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3607,20 +3607,20 @@
             "atk": 100,
             "def": 2000,
             "res": 0,
+            "respawnTime": 20,
             "cost": 10,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 20
+            "atkInterval": 1
           },
           {
             "hp": 6000,
             "atk": 100,
             "def": 2000,
             "res": 0,
+            "respawnTime": 20,
             "cost": 10,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 20
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3633,20 +3633,20 @@
             "atk": 100,
             "def": 2000,
             "res": 0,
+            "respawnTime": 20,
             "cost": 10,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 20
+            "atkInterval": 1
           },
           {
             "hp": 6000,
             "atk": 100,
             "def": 2000,
             "res": 0,
+            "respawnTime": 20,
             "cost": 10,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 20
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3685,20 +3685,20 @@
             "atk": 149,
             "def": 145,
             "res": 20,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 650,
             "atk": 213,
             "def": 194,
             "res": 20,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -3711,20 +3711,20 @@
             "atk": 220,
             "def": 200,
             "res": 20,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 836,
             "atk": 294,
             "def": 251,
             "res": 20,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -3737,20 +3737,20 @@
             "atk": 304,
             "def": 259,
             "res": 20,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           },
           {
             "hp": 1100,
             "atk": 371,
             "def": 317,
             "res": 20,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.25,
-            "respawnTime": 10
+            "atkInterval": 1.25
           }
         ],
         "evolveCost": []
@@ -3815,20 +3815,20 @@
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3841,20 +3841,20 @@
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3867,20 +3867,20 @@
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 0,
             "def": 0,
             "res": 0,
+            "respawnTime": 5,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 5
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -3910,20 +3910,20 @@
             "atk": 121,
             "def": 117,
             "res": 0,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.5,
-            "respawnTime": 10
+            "atkInterval": 1.5
           },
           {
             "hp": 1183,
             "atk": 173,
             "def": 157,
             "res": 0,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.5,
-            "respawnTime": 10
+            "atkInterval": 1.5
           }
         ],
         "evolveCost": []
@@ -3936,20 +3936,20 @@
             "atk": 179,
             "def": 162,
             "res": 0,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.5,
-            "respawnTime": 10
+            "atkInterval": 1.5
           },
           {
             "hp": 1520,
             "atk": 239,
             "def": 203,
             "res": 0,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.5,
-            "respawnTime": 10
+            "atkInterval": 1.5
           }
         ],
         "evolveCost": []
@@ -3962,20 +3962,20 @@
             "atk": 247,
             "def": 210,
             "res": 0,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.5,
-            "respawnTime": 10
+            "atkInterval": 1.5
           },
           {
             "hp": 2000,
             "atk": 302,
             "def": 257,
             "res": 0,
+            "respawnTime": 10,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1.5,
-            "respawnTime": 10
+            "atkInterval": 1.5
           }
         ],
         "evolveCost": []
@@ -4005,20 +4005,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -4031,20 +4031,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -4057,20 +4057,20 @@
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           },
           {
             "hp": 1000,
             "atk": 100,
             "def": 0,
             "res": 0,
+            "respawnTime": 0,
             "cost": 0,
             "blockCnt": 0,
-            "atkInterval": 1,
-            "respawnTime": 0
+            "atkInterval": 1
           }
         ],
         "evolveCost": []
@@ -4100,20 +4100,20 @@
             "atk": 400,
             "def": 1000,
             "res": 50,
+            "respawnTime": 70,
             "cost": 5,
             "blockCnt": 2,
-            "atkInterval": 2,
-            "respawnTime": 70
+            "atkInterval": 2
           },
           {
             "hp": 3000,
             "atk": 400,
             "def": 1000,
             "res": 50,
+            "respawnTime": 70,
             "cost": 5,
             "blockCnt": 2,
-            "atkInterval": 2,
-            "respawnTime": 70
+            "atkInterval": 2
           }
         ],
         "evolveCost": []

@@ -1,5 +1,5 @@
 import type { BrandIds, SkinIds } from "./typesFrom";
-import type { OperatorId } from "./AKCharacter";
+import type { OperatorId, TokenId } from "./AKCharacter";
 
 export type BrandId = (typeof BrandIds)[number];
 export type SkinId = (typeof SkinIds)[number];
@@ -13,7 +13,7 @@ export interface Brand {
 
 export interface Skin {
   id: SkinId;
-  usedBy: OperatorId;
+  usedBy: OperatorId | TokenId;
   brandId: BrandId | null;
   subBrand: { id: string; name: string };
   name: string;

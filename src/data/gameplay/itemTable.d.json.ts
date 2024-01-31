@@ -1,5 +1,5 @@
 import type { ItemId, AKItem } from "@/data/types/AKItem";
 
-declare const itemTable: Record<ItemId, AKItem>;
+declare const ItemTable: Record<ItemId, AKItem>;
 
-export default itemTable;
+export default ItemTable;
