@@ -1,9 +1,9 @@
 import type { OperatorId } from "@/data/types/AKCharacter";
 import type { SkinId } from "@/data/types/AKSkin";
 
-declare const latestStore: {
+declare const LatestStore: {
   "latest-operator-ids": OperatorId[];
   "latest-skin-ids": SkinId[];
 };
 
-export default latestStore;
+export default LatestStore;

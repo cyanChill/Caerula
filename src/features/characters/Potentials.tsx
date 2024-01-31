@@ -86,7 +86,7 @@ export default function Potentials({ potentials }: { potentials: string[] }) {
           }}
         />
         <Image
-          src={`/images/operator/ui/potential/${potential}.webp`}
+          src={`/images/character/ui/potential/${potential}.webp`}
           alt={`Potential ${potential}`}
           width={64}
           height={64}

@@ -1,5 +1,5 @@
 import type { RangeId } from "@/data/types/AKRange";
-import RangeTable from "@/data/gameplay/rangeTable.json";
+import RangeTable from "@/data/character/rangeTable.json";
 
 import { cn } from "@/lib/style";
 

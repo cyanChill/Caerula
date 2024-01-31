@@ -1,5 +1,5 @@
 import type { Enemy } from "@/data/types/AKEnemy";
 
-declare const enemyList: Enemy[];
+declare const EnemyList: Enemy[];
 
-export default enemyList;
+export default EnemyList;
