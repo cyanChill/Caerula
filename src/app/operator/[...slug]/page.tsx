@@ -3,8 +3,8 @@ import { notFound } from "next/navigation";
 
 import OperatorTable from "@/data/operator/operatorTable.json";
 import ProfileTable from "@/data/operator/profile/profileTable.json";
-import SkillTable from "@/data/gameplay/skillTable.json";
-import SkinTable from "@/data/operator/skinTable.json";
+import SkillTable from "@/data/character/skillTable.json";
+import SkinTable from "@/data/character/skinTable.json";
 import TokenTable from "@/data/token/tokenTable.json";
 import { OpSlugTable } from "@/data/operator/slugTable";
 import VoiceTable from "@/data/operator/profile/voiceTable.json";
@@ -69,7 +69,7 @@ export default function Operator({ params }: Props) {
   if (!opId) notFound();
 
   const operator = OperatorTable[opId];
-  const skins = SkinTable.opSkinMap[opId].map(
+  const skins = SkinTable.charSkinMap[opId].map(
     (skinId) => SkinTable.skinTable[skinId],
   );
   const voices = Object.fromEntries(
