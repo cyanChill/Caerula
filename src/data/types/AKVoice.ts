@@ -17,7 +17,6 @@ export interface CharacterVoice {
 }
 
 export interface DialogueLine {
-  sortId: number;
   title: string;
   text: string;
   unlockCond: { type: "trust" | "promotion"; val: number } | null;

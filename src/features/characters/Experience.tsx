@@ -89,7 +89,7 @@ function PromotionSelector() {
       )}
     >
       <Image
-        src={`/images/operator/ui/elite/${promotion}.webp`}
+        src={`/images/character/ui/elite/${promotion}.webp`}
         alt={`Elite ${promotion}`}
         width={64}
         height={64}
@@ -198,7 +198,7 @@ function RecipientTab({
         )}
       >
         <Image
-          src={`/images/operator/avatar/${iconId}.webp`}
+          src={`/images/character/avatar/${iconId}.webp`}
           alt=""
           width={48}
           height={48}

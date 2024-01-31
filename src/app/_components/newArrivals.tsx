@@ -21,7 +21,7 @@ export default function NewArrivals({ skins }: Props) {
         <article key={id} className="mx-auto w-full @container">
           <div className="card grid bg-neutralAlt-10/75 @lg:grid-cols-[1fr_1.5fr]">
             <Image
-              src={`/images/operator/skin/${encodeURIComponent(id)}b.webp`}
+              src={`/images/character/skin/${encodeURIComponent(id)}b.webp`}
               alt={imgAlt}
               width={512}
               height={512}

@@ -52,7 +52,7 @@ function Variant({ talent }: { talent: CharacterTalent[] }) {
       <div className="flex w-fit items-center gap-2 rounded-lg bg-secondary-20 px-2.5 py-1">
         <h2 className="break-anywhere">{data.name}</h2>
         <Image
-          src={`/images/operator/ui/elite/${data.unlockCond.elite}-s.webp`}
+          src={`/images/character/ui/elite/${data.unlockCond.elite}-s.webp`}
           alt=""
           width={16}
           height={16}
@@ -138,7 +138,7 @@ function TalentContent(props: {
     <div className="grid grid-cols-[auto_minmax(0,1fr)] gap-2 text-[0.9em]">
       <div>
         <Image
-          src={`/images/operator/ui/potential/${props.data.potential}.webp`}
+          src={`/images/character/ui/potential/${props.data.potential}.webp`}
           alt={`At Potential ${props.data.potential}`}
           width={32}
           height={32}

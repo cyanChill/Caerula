@@ -66,7 +66,7 @@ export default function Overview({ id, operator, skins, cvTable }: Props) {
 function HeroImage() {
   const { id } = useTabData();
   const baseAttributes = {
-    src: `/images/operator/skin/${encodeURIComponent(id)}b.webp`,
+    src: `/images/character/skin/${encodeURIComponent(id)}b.webp`,
     width: 512,
     height: 512,
   };
@@ -125,7 +125,7 @@ function OutfitCarousel({ name, skins }: { name: string; skins: Skin[] }) {
             )}
           >
             <PsychedelicImg
-              src={`/images/operator/skin/${encodeURIComponent(skin.id)}b.webp`}
+              src={`/images/character/skin/${encodeURIComponent(skin.id)}b.webp`}
               width={128}
               height={128}
               dim
@@ -189,13 +189,13 @@ function SkinInfo({ skin }: { skin: Skin }) {
 
 /** @description Returns the correct brand image for the displayed skin. */
 function SkinBrand(props: { brand: string | null; subBrand: string }) {
-  let src = `/images/operator`;
+  let src = `/images/character/skingroup`;
   if (props.subBrand.startsWith("ILLUST_")) {
-    src += `/ui/elite/${props.subBrand.at(-1)}.webp`;
+    src += `/${props.subBrand}.webp`;
   } else if (props.brand === "crossover") {
-    src += `/skingroup/collab/${encodeURIComponent(props.subBrand)}.webp`;
+    src += `/collab/${encodeURIComponent(props.subBrand)}.webp`;
   } else {
-    src += `/skingroup/${props.brand}.webp`;
+    src += `/${props.brand}.webp`;
   }
 
   return (

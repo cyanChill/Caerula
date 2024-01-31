@@ -83,7 +83,7 @@ export default function Potentials({ potentials }: { potentials: string[] }) {
           theme={{ track: { active: "#A6C8FF" } }}
         />
         <Image
-          src={`/images/operator/ui/potential/${potential}.webp`}
+          src={`/images/character/ui/potential/${potential}.webp`}
           alt={`Potential ${potential}`}
           width={64}
           height={64}

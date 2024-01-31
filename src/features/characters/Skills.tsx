@@ -63,7 +63,7 @@ function Actions({ skills, skillLvl, setSkillLvl }: ActionsProps) {
           )}
         >
           <Image
-            src={`/images/operator/skill/skill_icon_${iconId}.webp`}
+            src={`/images/character/skill/skill_icon_${iconId}.webp`}
             alt=""
             width={32}
             height={32}
@@ -95,7 +95,7 @@ function SkillLvlIcon({ lvl }: { lvl: number }) {
   const alt = lvl < 8 ? `Level ${lvl}` : `Mastery ${lvl - 7}`;
   return (
     <Image
-      src={`/images/operator/ui/skill/${iconId}.webp`}
+      src={`/images/character/ui/skill/${iconId}.webp`}
       alt={`Skill ${alt}`}
       width={32}
       height={32}
@@ -180,7 +180,7 @@ type EChipProps = {
 function EChip({ iconId, children, ...props }: EChipProps) {
   const icon = iconId ? (
     <Image
-      src={`/images/operator/ui/skill/${iconId}.webp`}
+      src={`/images/character/ui/skill/${iconId}.webp`}
       alt=""
       width={16}
       height={16}

@@ -1,7 +1,8 @@
+import type { OperatorId } from "@/data/types/AKCharacter";
 import LatestStore from "@/data/latestStore.json";
 import OperatorTable from "@/data/operator/operatorTable.json";
 import ProfileTable from "@/data/operator/profile/profileTable.json";
-import SkinTable from "@/data/operator/skinTable.json";
+import SkinTable from "@/data/character/skinTable.json";
 
 import { ScrollSlide } from "@/components/layout/ScrollSlide";
 import { NavList } from "./_components/nav";
@@ -20,7 +21,7 @@ export default function Home() {
   const skins = LatestStore["latest-skin-ids"].map((id) => {
     const { usedBy, name, imgAlt, description, artists } =
       SkinTable.skinTable[id];
-    const { name: opName, slug } = OperatorTable[usedBy];
+    const { name: opName, slug } = OperatorTable[usedBy as OperatorId];
     return { id, name, imgAlt, description, artists, opName, slug };
   });
 

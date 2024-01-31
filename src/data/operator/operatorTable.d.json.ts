@@ -1,5 +1,5 @@
 import type { Operator, OperatorId } from "@/data/types/AKCharacter";
 
-declare const operatorTable: Record<OperatorId, Operator>;
+declare const OperatorTable: Record<OperatorId, Operator>;
 
-export default operatorTable;
+export default OperatorTable;
