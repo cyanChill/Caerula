@@ -23,6 +23,7 @@ import TransformArrow from "@/components/accents/TransformArrow";
 import Tabs from "@/components/layout/Tabs";
 import Knob from "@/components/form/Knob";
 import Slider from "@/components/form/Slider";
+import Card from "@/components/ui/Card";
 import StatList from "@/features/characters/StatList";
 import { ContainedRange } from "@/features/characters/RangePattern";
 
@@ -48,7 +49,11 @@ function LevelSelector() {
   const { setLevel } = useExperienceActions();
 
   return (
-    <section className="card relative aspect-square bg-neutral-10/75 p-2 @container sm:p-4">
+    <Card
+      as="section"
+      defaultPadding
+      className="relative aspect-square bg-neutral-10/75 @container"
+    >
       <div className="absolute-center grid w-min text-center">
         <span className="text-[7cqw] font-bold leading-none text-neutral-80">
           LEVEL
@@ -67,7 +72,7 @@ function LevelSelector() {
         }}
         propagateVal={setLevel}
       />
-    </section>
+    </Card>
   );
 }
 
@@ -81,11 +86,12 @@ function PromotionSelector() {
   const { setPromotion } = useExperienceActions();
 
   return (
-    <section
+    <Card
+      as="section"
+      defaultPadding
       className={cn(
         "@container md:row-start-2 lg:row-start-auto",
-        "card grid grid-cols-[minmax(0,1fr)_auto] gap-2 p-2 sm:p-4",
-        "aspect-square bg-[#364232]/75",
+        "grid aspect-square grid-cols-[minmax(0,1fr)_auto] gap-2 bg-[#364232]/75",
       )}
     >
       <Image
@@ -105,7 +111,7 @@ function PromotionSelector() {
         propagateVal={setPromotion}
         theme={{ track: { active: "#E5A530" } }}
       />
-    </section>
+    </Card>
   );
 }
 
@@ -118,10 +124,12 @@ function StatDisplay() {
   const { selectRecipient } = useExperienceActions();
 
   return (
-    <section
+    <Card
+      as="section"
+      defaultPadding
       className={cn(
         "col-span-2 row-span-2 @container md:col-span-3",
-        "card grid grid-rows-[auto_minmax(0,1fr)] gap-4 bg-neutral-20/75 p-2 sm:p-4",
+        "grid grid-rows-[auto_minmax(0,1fr)] gap-4 bg-neutral-20/75",
       )}
     >
       <Tabs
@@ -131,7 +139,7 @@ function StatDisplay() {
       >
         <StatDisplayContent />
       </Tabs>
-    </section>
+    </Card>
   );
 }
 

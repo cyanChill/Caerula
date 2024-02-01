@@ -4,6 +4,7 @@ import type { BranchId, Profession } from "@/data/types/AKClass";
 import { BranchTable } from "@/data/types/AKClass";
 
 import { cn } from "@/lib/style";
+import Card from "@/components/ui/Card";
 
 interface Props {
   profession: Profession;
@@ -14,9 +15,10 @@ interface Props {
 export default function Trait({ profession, branchId }: Props) {
   const { name, trait } = BranchTable[branchId];
   return (
-    <section
+    <Card
+      as="section"
       aria-label="Branch Trait"
-      className="card relative col-span-2 bg-neutralAlt-10/75 p-4 @container"
+      className="relative col-span-2 bg-neutralAlt-10/75 p-4 @container"
     >
       <div className="grid grid-cols-[2lh_minmax(0,1fr)] text-[clamp(0.7rem,3cqw,1rem)]">
         <Image
@@ -56,6 +58,6 @@ export default function Trait({ profession, branchId }: Props) {
           className="absolute bottom-0 right-0 z-[-1] aspect-square size-full object-contain object-right-bottom opacity-5"
         />
       </div>
-    </section>
+    </Card>
   );
 }

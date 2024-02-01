@@ -15,6 +15,7 @@ import Tabs, {
   useTabsActions,
 } from "@/components/layout/Tabs";
 import ELink from "@/components/link/ELink";
+import Card from "@/components/ui/Card";
 import Chip from "@/components/ui/Chip";
 import Rarity from "@/features/characters/Rarity";
 
@@ -102,7 +103,7 @@ function OperatorInfo({ operators }: Props) {
  */
 function RedirectCard(props: Omit<OperatorExcerpt, "type">) {
   return (
-    <div className="card mr-auto flex bg-secondary-10">
+    <Card className="mr-auto flex bg-secondary-10">
       <PsychedelicImg
         src={`/images/operator/portrait/${props.id}_${props.rarity > 3 ? 2 : 1}.webp`}
         width={180}
@@ -139,7 +140,7 @@ function RedirectCard(props: Omit<OperatorExcerpt, "type">) {
           <ArrowTopRight thin className="size-full" />
         </ELink>
       </div>
-    </div>
+    </Card>
   );
 }
 

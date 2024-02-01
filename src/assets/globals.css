@@ -17,11 +17,6 @@
     @apply bg-gradient-to-tr from-[#3B7387]/50 to-[#535287]/50;
   }
 
-  /* Style bases */
-  .card {
-    @apply rounded-2xl drop-shadow-xl backdrop-blur-2xl;
-  }
-
   /* Positioning Shorthands */
   .absolute-center {
     @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;

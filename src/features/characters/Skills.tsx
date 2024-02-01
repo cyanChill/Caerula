@@ -7,6 +7,7 @@ import type { Skill } from "@/data/types/AKSkill";
 import { cn } from "@/lib/style";
 import Tabs from "@/components/layout/Tabs";
 import Knob from "@/components/form/Knob";
+import Card from "@/components/ui/Card";
 import Chip from "@/components/ui/Chip";
 import { ContainedRange } from "./RangePattern";
 
@@ -23,15 +24,16 @@ export default function Skills({ skills }: Props) {
   if (skills.length === 0) return null;
   return (
     <Tabs storeId="char-skill" dataStore={skills.map(({ id }) => ({ id }))}>
-      <section
+      <Card
+        as="section"
         className={cn(
           "relative col-span-2 row-span-2 @container md:col-span-3 md:aspect-[3/2]",
-          "card grid grid-flow-dense grid-cols-[minmax(0,1fr)_min(100px,25%)] bg-secondary-20/75",
+          "grid grid-flow-dense grid-cols-[minmax(0,1fr)_min(100px,25%)] bg-secondary-20/75",
         )}
       >
         <Actions {...{ skills, skillLvl, setSkillLvl }} />
         <SkillInfo {...{ skills, skillLvl }} />
-      </section>
+      </Card>
     </Tabs>
   );
 }

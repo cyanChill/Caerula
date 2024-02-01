@@ -6,6 +6,7 @@ import Image from "next/image";
 
 import { cn } from "@/lib/style";
 import Knob from "@/components/form/Knob";
+import Card from "@/components/ui/Card";
 
 interface PotentialProps {
   numPotentials: number;
@@ -71,7 +72,10 @@ export default function Potentials({ potentials }: { potentials: string[] }) {
       aria-label="Potentials"
       className="col-span-2 grid grid-cols-[1fr_1.75fr]"
     >
-      <div className="card relative grid place-items-center bg-neutral-20/75 p-2 @container sm:p-4">
+      <Card
+        defaultPadding
+        className="relative grid place-items-center bg-neutral-20/75 @container"
+      >
         <Knob
           label="Potential Selector"
           options={{
@@ -89,8 +93,8 @@ export default function Potentials({ potentials }: { potentials: string[] }) {
           height={64}
           className="absolute-center size-[70cqw]"
         />
-      </div>
-      <div className="card bg-neutral-10/75 p-4 @container">
+      </Card>
+      <Card className="bg-neutral-10/75 p-4 @container">
         <ul
           aria-label="Available Potentials"
           className="grid gap-2 text-[max(0.75rem,6cqw)]"
@@ -107,7 +111,7 @@ export default function Potentials({ potentials }: { potentials: string[] }) {
             </li>
           ))}
         </ul>
-      </div>
+      </Card>
     </section>
   );
 }

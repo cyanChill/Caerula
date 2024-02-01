@@ -5,6 +5,7 @@ import { ArrowTopRight } from "@/assets/svgs/direction";
 
 import { cn } from "@/lib/style";
 import ELink from "@/components/link/ELink";
+import Card from "@/components/ui/Card";
 import ArtistChips from "@/features/skins/ArtistChips";
 
 interface Props {
@@ -19,7 +20,7 @@ export default function NewArrivals({ skins }: Props) {
     <div className="grid gap-2 [--min-col-size:32rem] @sm:grid-cols-2 lg:grid-cols-autoFit lg:gap-4">
       {skins.map(({ id, name, imgAlt, description, artists, opName, slug }) => (
         <article key={id} className="mx-auto w-full @container">
-          <div className="card grid bg-neutralAlt-10/75 @lg:grid-cols-[1fr_1.5fr]">
+          <Card className="grid bg-neutralAlt-10/75 @lg:grid-cols-[1fr_1.5fr]">
             <Image
               src={`/images/character/skin/${encodeURIComponent(id)}b.webp`}
               alt={imgAlt}
@@ -61,7 +62,7 @@ export default function NewArrivals({ skins }: Props) {
                 <ArrowTopRight thin />
               </ELink>
             </div>
-          </div>
+          </Card>
         </article>
       ))}
     </div>

@@ -9,6 +9,7 @@ import { useLevel, usePromotion } from "./Experience.store";
 import { usePotential } from "./Potentials";
 
 import { cn } from "@/lib/style";
+import Card from "@/components/ui/Card";
 
 interface Props {
   talents: Record<number, CharacterTalent[]>;
@@ -21,11 +22,13 @@ interface Props {
 export default function Talent({ talents }: Props) {
   if (Object.keys(talents).length === 0) return null;
   return (
-    <section
+    <Card
+      as="section"
       aria-label="Talent"
+      defaultPadding
       className={cn(
         "col-span-2 row-span-2 overflow-clip @container",
-        "card relative flex flex-col gap-4 bg-secondary-10/75 p-2 sm:p-4 md:gap-8",
+        "relative flex flex-col gap-4 bg-secondary-10/75 md:gap-8",
       )}
     >
       {Object.values(talents).map((talent, idx) => (
@@ -39,7 +42,7 @@ export default function Talent({ talents }: Props) {
         draggable={false}
         className="absolute left-0 top-0 z-[-1] size-full select-none object-cover opacity-15"
       />
-    </section>
+    </Card>
   );
 }
 
