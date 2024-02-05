@@ -121,11 +121,6 @@ const config: Config = {
         "geist-sans": ["var(--font-geist-sans)"],
         khand: ["var(--font-khand)"],
       },
-      fontSize: {
-        "cq-title": ["clamp(2rem, min(7.5vw, 15cqw), 15rem)", "1.15"],
-        "cq-heading-3": ["clamp(1rem, 11.25cqw, 12.5rem)", "1.15"],
-        "cq-paragraph": "clamp(1rem, min(2.5vw, 6cqw), 5rem)",
-      },
     },
   },
   plugins: [require("@tailwindcss/container-queries")],
