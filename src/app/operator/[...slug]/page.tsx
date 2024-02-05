@@ -1,6 +1,8 @@
 import type { Metadata, ResolvingMetadata } from "next";
 import { notFound } from "next/navigation";
 
+import type { OperatorId } from "@/data/types/AKCharacter";
+import type { DialogueLine } from "@/data/types/AKVoice";
 import OperatorTable from "@/data/operator/operatorTable.json";
 import ProfileTable from "@/data/operator/profile/profileTable.json";
 import SkillTable from "@/data/character/skillTable.json";
@@ -12,6 +14,8 @@ import VoiceTable from "@/data/operator/profile/voiceTable.json";
 import { cn } from "@/lib/style";
 import { constructMetadata } from "@/lib/metadata";
 import Overview from "./_components/overview";
+import { OverviewProvider } from "./_components/overview.client";
+import FilesTab from "./_components/filesTab";
 
 import {
   type Recipient,
@@ -104,37 +108,55 @@ export default function Operator({ params }: Props) {
 
   return (
     <main className="mx-auto mb-[5svh] max-w-screen-2xl p-2 @container">
-      <Overview
-        id={operator.id}
-        operator={{
-          name: operator.displayName,
-          position: operator.position,
-          tags: operator.tags,
-          rarity: operator.rarity,
-        }}
-        skins={skins}
-        cvTable={voices}
-      />
-      <ExperienceProvider recipients={statRecipients}>
-        <PotentialProvider numPotentials={operator.potentials.length}>
-          <div
-            className={cn(
-              "grid grid-flow-dense grid-cols-2 gap-2 py-8 min-[350px]:gap-4 sm:px-4",
-              "md:auto-rows-fr md:grid-cols-4 lg:grid-cols-5",
-            )}
-          >
-            <Experience />
-            <Talent talents={operator.talents} />
-            <Skills skills={skills} />
-            <Potentials potentials={operator.potentials} />
-            <Trait
-              profession={operator.profession}
-              branchId={operator.branch}
-            />
-            <Network network={operator.affiliation} />
-          </div>
-        </PotentialProvider>
-      </ExperienceProvider>
+      <OverviewProvider skinIds={skins.map(({ id }) => id)}>
+        <Overview
+          id={opId}
+          operator={{
+            name: operator.displayName,
+            position: operator.position,
+            tags: operator.tags,
+            rarity: operator.rarity,
+          }}
+          skins={skins}
+          cvTable={voices}
+        />
+
+        {/* FIXME: Temporary location */}
+        <FilesTab opId={opId} {...getFilesTabContent(opId)} />
+
+        <ExperienceProvider recipients={statRecipients}>
+          <PotentialProvider numPotentials={operator.potentials.length}>
+            <div
+              className={cn(
+                "grid grid-flow-dense grid-cols-2 gap-2 py-8 min-[350px]:gap-4 sm:px-4",
+                "md:auto-rows-fr md:grid-cols-4 lg:grid-cols-5",
+              )}
+            >
+              <Experience />
+              <Talent talents={operator.talents} />
+              <Skills skills={skills} />
+              <Potentials potentials={operator.potentials} />
+              <Trait
+                profession={operator.profession}
+                branchId={operator.branch}
+              />
+              <Network network={operator.affiliation} />
+            </div>
+          </PotentialProvider>
+        </ExperienceProvider>
+      </OverviewProvider>
     </main>
   );
+}
+
+/** @description Fetches data for our "Files" tab. */
+function getFilesTabContent(id: OperatorId) {
+  return {
+    files: ProfileTable.fileTable[id],
+    dialogues: VoiceTable.opVoiceMap[id].map(
+      (dId) => [dId, VoiceTable.dialogueTable[dId]] as [string, DialogueLine[]],
+    ),
+    records: ProfileTable.recordTable[id],
+    paradox: ProfileTable.paradoxTable[id],
+  };
 }

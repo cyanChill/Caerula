@@ -3,7 +3,7 @@ import Image from "next/image";
 import { cn } from "@/lib/style";
 
 interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
-  as?: "div" | "section";
+  as?: "div" | "section" | "article";
   defaultPadding?: boolean;
   children: React.ReactNode;
 }

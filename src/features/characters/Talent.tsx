@@ -121,9 +121,9 @@ function Message(props: {
 
   let message: string | null = null;
   if (!props.unlocked) {
-    message = `Unlocked at Elite ${props.unlockCond.elite} Level ${props.unlockCond.level}.`;
+    message = `Unlocked at Elite ${props.unlockCond.elite} Lv. ${props.unlockCond.level}.`;
   } else if (props.improveCond && level < props.improveCond.level) {
-    message = `Improved at Elite ${props.improveCond.elite} Level ${props.improveCond.level}`;
+    message = `Improved at Elite ${props.improveCond.elite} Lv. ${props.improveCond.level}`;
   }
 
   if (!message) return null;
