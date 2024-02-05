@@ -20,7 +20,7 @@ import {
 
 import { cn } from "@/lib/style";
 import TransformArrow from "@/components/accents/TransformArrow";
-import Tabs from "@/components/layout/Tabs";
+import Tabs, { Tab, TabList, TabPanel } from "@/components/layout/Tabs";
 import Knob from "@/components/form/Knob";
 import Slider from "@/components/form/Slider";
 import Card from "@/components/ui/Card";
@@ -155,7 +155,7 @@ function StatDisplayContent() {
     <>
       <div className="row-start-2 grid items-center gap-4 @xl:grid-cols-[auto_minmax(0,1fr)]">
         <SpeakerGrill className="hidden size-[20cqw] text-[#C6BEAC] @xl:block" />
-        <Tabs.TabList
+        <TabList
           label="Available Stat Recipients"
           className="grid grid-cols-autoFill gap-2 sm:grid-cols-3"
         >
@@ -166,14 +166,14 @@ function StatDisplayContent() {
               recipient={recipient}
             />
           ))}
-        </Tabs.TabList>
+        </TabList>
       </div>
       {/*
         Different way of rendering `<Tab.TabPanel />` if we know what
         the current panel is externally (ie: when integrating with a
         different context).
       */}
-      <Tabs.TabPanel
+      <TabPanel
         id={selectedRecipient}
         className="grid gap-4 md:grid-cols-[1.75fr_1fr]"
       >
@@ -183,7 +183,7 @@ function StatDisplayContent() {
           trust={bonus}
         />
         <ContainedRange rangeId={range} />
-      </Tabs.TabPanel>
+      </TabPanel>
     </>
   );
 }
@@ -197,7 +197,7 @@ function RecipientTab({
   recipient: Recipient;
 }) {
   return (
-    <Tabs.Tab id={id} label={name} className="@container">
+    <Tab id={id} label={name} className="@container">
       <div
         className={cn(
           "grid grid-cols-[2lh_minmax(0,1fr)_2lh] gap-2 p-1 lg:p-1.5",
@@ -226,6 +226,6 @@ function RecipientTab({
           <TransformArrow active={isSelected} className="p-3" />
         </Link>
       </div>
-    </Tabs.Tab>
+    </Tab>
   );
 }

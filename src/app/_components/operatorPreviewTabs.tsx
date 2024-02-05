@@ -10,6 +10,9 @@ import { useInterval } from "@/hooks/useInterval";
 import { cn } from "@/lib/style";
 import PsychedelicImg from "@/components/image/PsychedelicImg";
 import Tabs, {
+  Tab,
+  TabList,
+  TabPanel,
   useDataStore,
   useTabAsIdx,
   useTabsActions,
@@ -59,12 +62,12 @@ function CarouselIndicator() {
   useInterval(nextTab, 60000, { resetDependency: activeIdx });
 
   return (
-    <Tabs.TabList
+    <TabList
       label="Latest Operator Carousel"
       className="flex-center row-start-2 mx-auto my-4 w-full max-w-96 flex-wrap gap-2"
     >
       {dataStore.map(({ id, name }) => (
-        <Tabs.Tab
+        <Tab
           key={id}
           id={id}
           label={name as string}
@@ -75,7 +78,7 @@ function CarouselIndicator() {
           )}
         />
       ))}
-    </Tabs.TabList>
+    </TabList>
   );
 }
 
@@ -85,14 +88,14 @@ function CarouselIndicator() {
  */
 function OperatorInfo({ operators }: Props) {
   return operators.map(({ id, name, rarity, description, type, ...rest }) => (
-    <Tabs.TabPanel
+    <TabPanel
       key={id}
       id={id}
       className="grid gap-4 @2xl:grid-cols-[auto_minmax(0,1fr)]"
     >
       <RedirectCard id={id} name={name} rarity={rarity} {...rest} />
       <Overview {...{ name, description, rarity, type }} />
-    </Tabs.TabPanel>
+    </TabPanel>
   ));
 }
 

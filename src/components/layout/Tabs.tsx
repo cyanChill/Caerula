@@ -81,7 +81,10 @@ const TabsContext = createContext<TabsStore | null>(null);
  * @description The context provider of this namespace component. All
  *  tab-related components must be under this.
  */
-function Tabs({ children, ...props }: React.PropsWithChildren<TabsProps>) {
+export default function Tabs({
+  children,
+  ...props
+}: React.PropsWithChildren<TabsProps>) {
   const storeRef = useRef<TabsStore>();
   if (!storeRef.current) storeRef.current = createTabStore(props);
   return (
@@ -116,7 +119,7 @@ type BaseTabProps = WithCSS<React.PropsWithChildren<{ id: string }>>;
  * @description An unstyled `<div />` that provides the keyboard navigation
  *  of a tablist. Its children should only be `<Tabs.Tab />` components.
  */
-function TabList({
+export function TabList({
   orientation = "horizontal",
   children,
   ...props
@@ -183,7 +186,7 @@ function TabList({
 type SingleTabProps = BaseTabProps & { label?: string; activeClass?: string };
 
 /** @description Unstyled `<button />` to select the current tab. */
-function Tab({ id, children, ...props }: SingleTabProps) {
+export function Tab({ id, children, ...props }: SingleTabProps) {
   const storeId = useStoreId();
   const tab = useTab();
   const { selectTab } = useTabsActions();
@@ -206,7 +209,7 @@ function Tab({ id, children, ...props }: SingleTabProps) {
 }
 
 /** @description Unstyled `<div />` containing content of the current tab. */
-function TabPanel({ id, children, ...props }: BaseTabProps) {
+export function TabPanel({ id, children, ...props }: BaseTabProps) {
   const storeId = useStoreId();
   const tab = useTab();
   if (id !== tab) return null;
@@ -222,9 +225,3 @@ function TabPanel({ id, children, ...props }: BaseTabProps) {
     </div>
   );
 }
-
-Tabs.TabList = TabList;
-Tabs.Tab = Tab;
-Tabs.TabPanel = TabPanel;
-
-export default Tabs;

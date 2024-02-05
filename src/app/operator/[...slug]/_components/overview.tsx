@@ -8,7 +8,13 @@ import { type CharacterVoice, VoiceLangTable } from "@/data/types/AKVoice";
 import { cn } from "@/lib/style";
 import { capitalize } from "@/utils/typedStrings";
 import PsychedelicImg from "@/components/image/PsychedelicImg";
-import Tabs, { useTabAsIdx, useTabData } from "@/components/layout/Tabs";
+import Tabs, {
+  Tab,
+  TabList,
+  TabPanel,
+  useTabAsIdx,
+  useTabData,
+} from "@/components/layout/Tabs";
 import ScrollShadow from "@/components/layout/ScrollShadow";
 import Rarity from "@/features/characters/Rarity";
 import ArtistChips from "@/features/skins/ArtistChips";
@@ -107,12 +113,12 @@ function OutfitCarousel({ name, skins }: { name: string; skins: Skin[] }) {
 
   return (
     <ScrollShadow color="#00060E">
-      <Tabs.TabList
+      <TabList
         label={`${name} Outfit List`}
         className="no-scrollbar flex gap-4 overflow-x-scroll px-4 py-8 lg:px-16"
       >
         {skins.map((skin, idx) => (
-          <Tabs.Tab
+          <Tab
             key={skin.id}
             id={skin.id}
             label={skin.name}
@@ -131,9 +137,9 @@ function OutfitCarousel({ name, skins }: { name: string; skins: Skin[] }) {
               dim
               classNames={{ wrapper: "size-full", image: "object-cover" }}
             />
-          </Tabs.Tab>
+          </Tab>
         ))}
-      </Tabs.TabList>
+      </TabList>
     </ScrollShadow>
   );
 }
@@ -152,14 +158,14 @@ function OutfitInfo({ id, skins, cvTable }: OutfitInfoProps) {
   return (
     <div className="px-4 @container lg:px-16">
       {skins.map((skin) => (
-        <Tabs.TabPanel
+        <TabPanel
           key={skin.id}
           id={skin.id}
           className="grid @2xl:grid-cols-[minmax(0,1fr),12.5rem]"
         >
           <SkinInfo skin={skin} />
           <CVList cv={cvTable[skin.id] ? cvTable[skin.id] : cvTable[id]} />
-        </Tabs.TabPanel>
+        </TabPanel>
       ))}
     </div>
   );

@@ -5,7 +5,7 @@ import Image from "next/image";
 import type { Skill } from "@/data/types/AKSkill";
 
 import { cn } from "@/lib/style";
-import Tabs from "@/components/layout/Tabs";
+import Tabs, { Tab, TabList, TabPanel } from "@/components/layout/Tabs";
 import Knob from "@/components/form/Knob";
 import Card from "@/components/ui/Card";
 import Chip from "@/components/ui/Chip";
@@ -45,7 +45,7 @@ interface ActionsProps extends SkillInfoProps {
 /** @description Contains buttons to switch the current skill & skill level. */
 function Actions({ skills, skillLvl, setSkillLvl }: ActionsProps) {
   return (
-    <Tabs.TabList
+    <TabList
       label="Skill List"
       orientation="vertical"
       className={cn(
@@ -54,7 +54,7 @@ function Actions({ skills, skillLvl, setSkillLvl }: ActionsProps) {
       )}
     >
       {skills.map(({ id, iconId, name }, idx) => (
-        <Tabs.Tab
+        <Tab
           key={idx}
           id={id}
           label={name}
@@ -71,7 +71,7 @@ function Actions({ skills, skillLvl, setSkillLvl }: ActionsProps) {
             height={32}
             className="size-full"
           />
-        </Tabs.Tab>
+        </Tab>
       ))}
 
       <div className="relative mt-8 @container md:mt-auto">
@@ -87,7 +87,7 @@ function Actions({ skills, skillLvl, setSkillLvl }: ActionsProps) {
         />
         <SkillLvlIcon lvl={skillLvl} />
       </div>
-    </Tabs.TabList>
+    </TabList>
   );
 }
 
@@ -118,7 +118,7 @@ interface SkillInfoProps {
 function SkillInfo({ skills, skillLvl }: SkillInfoProps) {
   const lvl = skillLvl - 1; // Offset by 1 to match array index.
   return skills.map(({ spRecovery, activationType, ...skill }) => (
-    <Tabs.TabPanel
+    <TabPanel
       key={skill.id}
       id={skill.id}
       className={cn(
@@ -168,7 +168,7 @@ function SkillInfo({ skills, skillLvl }: SkillInfoProps) {
       />
       <TokenNote name={skill.tokenName} />
       <ContainedRange rangeId={skill.rangeId} optional />
-    </Tabs.TabPanel>
+    </TabPanel>
   ));
 }
 
