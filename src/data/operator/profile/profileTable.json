@@ -13147,6 +13147,16 @@
         "trustUnlock": 200
       }
     ],
+    "char_120_hibisc": [
+      {
+        "title": "The Best Cure",
+        "text": [
+          "Only so much is in her power, but she'll try hard to carry on just a little longer."
+        ],
+        "unlockCond": { "elite": 1, "level": 55 },
+        "trustUnlock": 50
+      }
+    ],
     "char_208_melan": [
       {
         "title": "Team Captain",
@@ -13809,6 +13819,16 @@
         "title": "Ending Bell",
         "text": [
           "A match closes out to its ring, but the bell just signals the start of the next."
+        ],
+        "unlockCond": { "elite": 2, "level": 1 },
+        "trustUnlock": 50
+      }
+    ],
+    "char_220_grani": [
+      {
+        "title": "Once Rock Bottom...",
+        "text": [
+          "'First it's the Mount. Then it's the ones you fight with, the ones you work with... At this rate, you'll lose everything you ever held dear.'"
         ],
         "unlockCond": { "elite": 2, "level": 1 },
         "trustUnlock": 50
@@ -14798,6 +14818,14 @@
         "trustUnlock": 50
       }
     ],
+    "char_4041_chnut": [
+      {
+        "title": "Black Rocks",
+        "text": ["Is withstanding the stress the only way to prove a true 'gem'?"],
+        "unlockCond": { "elite": 2, "level": 1 },
+        "trustUnlock": 50
+      }
+    ],
     "char_1023_ghost2": [
       {
         "title": "Selfhood",
@@ -14903,6 +14931,16 @@
         "title": "A Fowl Through the Window",
         "text": [
           "The fowlbeast pulls out a grain of rice and places it in front of Cantabile, turning its eyes up at her."
+        ],
+        "unlockCond": { "elite": 2, "level": 1 },
+        "trustUnlock": 50
+      }
+    ],
+    "char_4054_malist": [
+      {
+        "title": "In the Endless Summer",
+        "text": [
+          "'After all, throwing professionals for a loop with the problems they have is just what newcomers do, right, Stitch?'"
         ],
         "unlockCond": { "elite": 2, "level": 1 },
         "trustUnlock": 50
@@ -15883,6 +15921,31 @@
       "title": "'Stern as Steel'",
       "text": "Benefitting from years of combat experience and his body's sturdy build, Humus always hits the field with a promise to hold key passages and keep enemy reinforcements at bay. When you add in the will driving him, stern as steel, it more than guarantees he'll be fighting to the very last moment.",
       "unlockCond": { "elite": 2, "level": 1 }
+    },
+    "char_1026_gvial2": {
+      "title": "'Invincible'",
+      "text": "'Gavial's standing out there all alone, but it's like SHE'S the one with the advantage.\n'They charge her while she's just frowning at her own weapons, like—what's today, the chainsaw, the axe, or the staff? So then she shrugs and goes with all of them.\n'And then a moment later, she's the last one standing on the battlefield, and it's just her and her chainsaw roaring. I could feel that sound as hard as I felt my own heart pounding.'\n—Extract from a thick-tailed Archosauria's notes",
+      "unlockCond": { "elite": 2, "level": 1 }
+    },
+    "char_4054_malist": {
+      "title": "'A Trip Down Memory Lane'",
+      "text": "After a training session simulating Zeruertza, Minimalist adamantly denied how happy it made him, but soon hurried to ask if a few more such sessions couldn't be scheduled.",
+      "unlockCond": { "elite": 2, "level": 1 }
+    },
+    "char_220_grani": {
+      "title": "'Sally Lone, Child of Sleipnir'",
+      "text": "Fighting in this simulated training reproduction of Dewville couldn't be more familiar for Grani. Pike sharpened, armor polished, and always ready to struggle until it's done, she braves the fray once more.",
+      "unlockCond": { "elite": 2, "level": 1 }
+    },
+    "char_4041_chnut": {
+      "title": "'Concentrate'",
+      "text": "Gemstones may gleam prettily, but their beauty's no shallow thing. Blossom them with brilliance, and they become stars to light up the dark; bring their rays together as one, and they'll startle you with an energy to rival the sun, one that drives away all coldness, vexation, and confusion!",
+      "unlockCond": { "elite": 2, "level": 1 }
+    },
+    "char_120_hibisc": {
+      "title": "'Continued Attention'",
+      "text": "'I heard they'd be holding some kind of extreme-environment combat drill at the Training Grounds, so I went to go take a peek, and it was horrible! People standing on burning floors for the longest time, without even flinching! The instructors repeatedly assured me that they could guarantee everyone's safety and I didn't need to be there healing them all from the rear... but ohhhh, I just couldn't help but worry!'\n—From Operator Hibiscus's application for authorization to participate in the training exercise",
+      "unlockCond": { "elite": 1, "level": 55 }
     }
   }
 }
