@@ -24,6 +24,12 @@
       "altName": "0011 TEMPEST-SERIES",
       "description": "New Year, New Trends.\n0011's sub-brand, 'Tempest,' focuses on capturing the sights and sounds of the streets. This series is rooted in the inspired and constantly-shifting styles of the streets, transforming the latest and trendiest ideas into a revolutionary new look."
     },
+    "yun": {
+      "id": "yun",
+      "name": "0011/Yun",
+      "altName": "0011 YUN-SERIES",
+      "description": "Lingering Essence\n0011 Yun Series looks back on the city's past, drawing upon the beauty of old times. The Yun series reshapes fashion with classic essence, sterling craftsmanship, and unique innovation, expanding the frontiers of the future through the past."
+    },
     "summer": {
       "id": "summer",
       "name": "Coral Coast",
@@ -8218,6 +8224,28 @@
       "artists": ["树豚"],
       "releasedAt": 1706007600
     },
+    "char_348_ceylon_summer#13": {
+      "id": "char_348_ceylon_summer#13",
+      "usedBy": "char_348_ceylon",
+      "brandId": "summer",
+      "subBrand": { "id": "2023#summer#3", "name": "Coral Coast/XIII" },
+      "name": "Holiday HD49",
+      "imgAlt": "Ceylon's \"Holiday HD49\" skin",
+      "description": "MARTHE [Coral Coast] Casual Vacation Series HD49. Comfortable, relaxed, breathable, and lightweight. Allows you to enjoy a perfect beach experience in absolute relaxation.",
+      "artists": ["Horin"],
+      "releasedAt": 1707757200
+    },
+    "char_4054_malist_summer#14": {
+      "id": "char_4054_malist_summer#14",
+      "usedBy": "char_4054_malist",
+      "brandId": "summer",
+      "subBrand": { "id": "2023#summer#4", "name": "Coral Coast/XIV" },
+      "name": "Holiday HDm74",
+      "imgAlt": "Minimalist's \"Holiday HDm74\" skin",
+      "description": "MARTHE [Coral Coast] Casual Vacation Series HDm74. Comfortable, relaxed, breathable, and lightweight. Allows you to enjoy a perfect beach experience in absolute relaxation.",
+      "artists": ["〇亻"],
+      "releasedAt": 1707238800
+    },
     "char_241_panda_marthe#1": {
       "id": "char_241_panda_marthe#1",
       "usedBy": "char_241_panda",
@@ -9769,6 +9797,17 @@
       "artists": ["我妻洛酱"],
       "releasedAt": 1672142400
     },
+    "char_4014_lunacu_yun#1": {
+      "id": "char_4014_lunacu_yun#1",
+      "usedBy": "char_4014_lunacu",
+      "brandId": "yun",
+      "subBrand": { "id": "2023#yun", "name": "0011/Yun/I" },
+      "name": "Clouds Float Like Ideas of Art",
+      "imgAlt": "Lunacub's \"Clouds Float Like Ideas of Art\" skin",
+      "description": "0011 Yun Series/Clouds Float Like Ideas of Art. Presented by the finest Yanese artisans, combining classic style with trendy spirit.",
+      "artists": ["IRIS_呓"],
+      "releasedAt": 1707908400
+    },
     "char_1001_amiya2_2": {
       "id": "char_1001_amiya2_2",
       "usedBy": "char_1001_amiya2",
@@ -10018,7 +10057,7 @@
     "char_489_serum": ["char_489_serum_1", "char_489_serum_2"],
     "char_4013_kjera": ["char_4013_kjera_1", "char_4013_kjera_2", "char_4013_kjera_epoque#18"],
     "char_4040_rockr": ["char_4040_rockr_1", "char_4040_rockr_2", "char_4040_rockr_lxh#1"],
-    "char_4054_malist": ["char_4054_malist_1", "char_4054_malist_2"],
+    "char_4054_malist": ["char_4054_malist_1", "char_4054_malist_2", "char_4054_malist_summer#14"],
     "char_242_otter": ["char_242_otter_1", "char_242_otter_2", "char_242_otter_ghost#1"],
     "char_336_folivo": ["char_336_folivo_1", "char_336_folivo_2", "char_336_folivo_epoque#22"],
     "char_108_silent": [
@@ -10035,7 +10074,7 @@
     ],
     "char_345_folnic": ["char_345_folnic_1", "char_345_folnic_2", "char_345_folnic_wild#4"],
     "char_510_amedic": ["char_510_amedic_1"],
-    "char_348_ceylon": ["char_348_ceylon_1", "char_348_ceylon_2"],
+    "char_348_ceylon": ["char_348_ceylon_1", "char_348_ceylon_2", "char_348_ceylon_summer#13"],
     "char_436_whispr": ["char_436_whispr_1", "char_436_whispr_2", "char_436_whispr_nian#4"],
     "char_402_tuye": ["char_402_tuye_1", "char_402_tuye_2", "char_402_tuye_epoque#14"],
     "char_473_mberry": [
@@ -10085,7 +10124,7 @@
       "char_158_milu_snow#2"
     ],
     "char_218_cuttle": ["char_218_cuttle_1", "char_218_cuttle_2", "char_218_cuttle_epoque#12"],
-    "char_4014_lunacu": ["char_4014_lunacu_1", "char_4014_lunacu_2"],
+    "char_4014_lunacu": ["char_4014_lunacu_1", "char_4014_lunacu_2", "char_4014_lunacu_yun#1"],
     "char_363_toddi": ["char_363_toddi_1", "char_363_toddi_2"],
     "char_4043_erato": ["char_4043_erato_1", "char_4043_erato_2", "char_4043_erato_snow#5"],
     "char_1027_greyy2": ["char_1027_greyy2_1", "char_1027_greyy2_2", "char_1027_greyy2_snow#5"],

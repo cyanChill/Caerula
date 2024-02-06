@@ -2195,6 +2195,7 @@ export const BrandIds = [
   "epoque",
   "nian",
   "whirlwind",
+  "yun",
   "summer",
   "marthe",
   "witch",
@@ -2950,6 +2951,8 @@ export const SkinIds = [
   "char_377_gdglow_summer#12",
   "char_151_myrtle_summer#12",
   "char_4041_chnut_summer#12",
+  "char_348_ceylon_summer#13",
+  "char_4054_malist_summer#14",
   "char_241_panda_marthe#1",
   "char_115_headbr_marthe#2",
   "char_129_bluep_marthe#3",
@@ -3091,6 +3094,7 @@ export const SkinIds = [
   "char_420_flamtl_game#2",
   "char_346_aosta_game#2",
   "char_478_kirara_game#2",
+  "char_4014_lunacu_yun#1",
   "char_1001_amiya2_2"
 ] as const;
 
@@ -4009,5 +4013,12 @@ export const ItemIds = [
   "advanced_material_issue_voucher",
   "classic_fes_pick_tier_5_4101",
   "classic_fes_pick_tier_6_4101",
-  "act27side_token_fur"
+  "act27side_token_fur",
+  "act3bossrush_milestone_point",
+  "act3bossrush_token_relic",
+  "act3bossrush_relic_01",
+  "act3bossrush_relic_02",
+  "act3bossrush_relic_03",
+  "act3bossrush_relic_04",
+  "act20side_token_book_rep_1"
 ] as const;
