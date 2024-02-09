@@ -20,13 +20,12 @@ import FilesTab from "./_components/filesTab";
 import {
   type Recipient,
   ExperienceProvider,
-} from "@/features/characters/Experience.store";
+} from "@/features/characters/Experience/store";
 import Experience from "@/features/characters/Experience";
-import Talent from "@/features/characters/Talent";
+import Talents from "@/features/characters/Talents";
 import Skills from "@/features/characters/Skills";
-import Potentials, {
-  PotentialProvider,
-} from "@/features/characters/Potentials";
+import { PotentialProvider } from "@/features/characters/Potentials/store";
+import Potentials from "@/features/characters/Potentials";
 import Trait from "@/features/characters/Trait";
 import Network from "@/features/characters/Network";
 
@@ -132,8 +131,8 @@ export default function Operator({ params }: Props) {
                 "md:auto-rows-fr md:grid-cols-4 lg:grid-cols-5",
               )}
             >
-              <Experience />
-              <Talent talents={operator.talents} />
+              <Experience recipients={statRecipients} />
+              <Talents talents={operator.talents} />
               <Skills skills={skills} />
               <Potentials potentials={operator.potentials} />
               <Trait
