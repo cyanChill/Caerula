@@ -13,8 +13,7 @@ import VoiceTable from "@/data/operator/profile/voiceTable.json";
 
 import { cn } from "@/lib/style";
 import { constructMetadata } from "@/lib/metadata";
-import Overview from "./_components/overview";
-import { OverviewProvider } from "./_components/overview.client";
+import Overview, { OverviewProvider } from "./_components/overview";
 import FilesTab from "./_components/filesTab";
 
 import {

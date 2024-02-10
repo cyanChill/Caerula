@@ -11,7 +11,7 @@ import { cn } from "@/lib/style";
 import { objIsType } from "@/utils/typeNarrow";
 import ScrollShadow from "@/components/layout/ScrollShadow";
 import Card, { CardTitle } from "@/components/ui/Card";
-import { CurrentDialogue } from "./filesTab.client";
+import { CurrentDialogue } from "./client";
 
 export interface FilesTabProps {
   opId: OperatorId;
@@ -124,7 +124,7 @@ function File({ title, icon, files, theme }: FileProps) {
         blurSize="[--blurSize:1rem]"
         className="mx-1 font-geist-sans text-[clamp(0.8rem,2.5cqw,1.15rem)]"
       >
-        <div className="no-scrollbar max-h-[25rem] overflow-y-auto py-4">
+        <div className="no-scrollbar max-h-[32rem] overflow-y-auto py-4">
           {files.map(({ title, text, unlockCond, trustUnlock }, idx) => (
             <article key={idx} className="mb-2 last:mb-0">
               <div className="mb-2 overflow-clip rounded rounded-br-xl rounded-tl-xl *:px-2.5">

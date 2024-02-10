@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import type { Skin } from "@/data/types/AKSkin";
 import { ArrowTopRight } from "@/assets/svgs/direction";
+import type { Skin } from "@/data/types/AKSkin";
 
 import { cn } from "@/lib/style";
 import ELink from "@/components/link/ELink";
@@ -17,7 +17,7 @@ interface Props {
 
 export default function NewArrivals({ skins }: Props) {
   return (
-    <div className="grid gap-2 [--min-col-size:32rem] @sm:grid-cols-2 lg:grid-cols-autoFit lg:gap-4">
+    <div className="grid gap-2 [--min-col-size:32rem] @sm:grid-cols-2 lg:grid-cols-autoFill lg:gap-4">
       {skins.map(({ id, name, imgAlt, description, artists, opName, slug }) => (
         <article key={id} className="mx-auto w-full @container">
           <Card className="grid bg-neutralAlt-10/75 @lg:grid-cols-[1fr_1.5fr]">

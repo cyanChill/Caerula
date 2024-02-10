@@ -3,7 +3,6 @@ import Image from "next/image";
 
 import { ArrowTopRight } from "@/assets/svgs/direction";
 import { Pinwheel } from "@/assets/svgs/shapes";
-
 import type { Operator } from "@/data/types/AKCharacter";
 import { useInterval } from "@/hooks/useInterval";
 

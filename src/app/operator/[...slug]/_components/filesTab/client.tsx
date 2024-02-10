@@ -1,5 +1,5 @@
 "use client";
-import { useSkinId } from "./overview.client";
+import { useSkinId } from "../overview/store";
 
 export function CurrentDialogue<
   TObj extends Record<PropertyKey, React.ReactNode>,

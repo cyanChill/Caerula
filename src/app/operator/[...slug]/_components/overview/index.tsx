@@ -6,10 +6,26 @@ import { type CharacterVoice, VoiceLangTable } from "@/data/types/AKVoice";
 
 import { cn } from "@/lib/style";
 import { capitalize } from "@/utils/typedStrings";
-import { TabPanel } from "@/components/layout/Tabs";
+import PsychedelicImg from "@/components/image/PsychedelicImg";
+import ScrollShadow from "@/components/layout/ScrollShadow";
+import { TabList, TabPanel } from "@/components/layout/Tabs";
 import Rarity from "@/features/characters/Rarity";
 import ArtistChips from "@/features/skins/ArtistChips";
-import { HeroImage, OutfitCarousel } from "./overview.client";
+import { SkinProvider } from "./store";
+import * as Client from "./client";
+
+type OverviewProviderProps = { skinIds: string[]; children: React.ReactNode };
+
+/** @description Context provider for current skin. */
+export function OverviewProvider({ skinIds, children }: OverviewProviderProps) {
+  return (
+    <SkinProvider initId={skinIds[0]}>
+      <Client.SkinTabsProvider skinIds={skinIds}>
+        {children}
+      </Client.SkinTabsProvider>
+    </SkinProvider>
+  );
+}
 
 interface Props extends OutfitInfoProps {
   operator: {
@@ -24,7 +40,11 @@ interface Props extends OutfitInfoProps {
 export default function Overview({ id, operator, skins, cvTable }: Props) {
   return (
     <>
-      <HeroImage />
+      <Client.CurrentSkinHeroImage
+        imgs={Object.fromEntries(
+          skins.map(({ id }) => [id, <HeroImage key={id} id={id} />]),
+        )}
+      />
       <fieldset
         role="presentation"
         className={cn(
@@ -57,6 +77,68 @@ export default function Overview({ id, operator, skins, cvTable }: Props) {
         <OutfitInfo id={id} skins={skins} cvTable={cvTable} />
       </fieldset>
     </>
+  );
+}
+
+/** @description A more customized version of `<PsychedelicImg />`. */
+function HeroImage({ id }: { id: string }) {
+  const baseAttributes = {
+    src: `/images/character/skin/${encodeURIComponent(id)}b.webp`,
+    width: 512,
+    height: 512,
+  };
+  return (
+    <div
+      aria-hidden="true"
+      className="relative overflow-clip rounded-[2rem] @container"
+    >
+      <Image
+        {...baseAttributes}
+        alt=""
+        style={{
+          backgroundImage:
+            "linear-gradient(to top, #00060E, #00060E00)," +
+            "linear-gradient(to top right, #3B738780, #53528780)",
+        }}
+        className="h-[calc(40cqw+6rem)] min-h-80 w-full object-contain p-1 pb-24 backdrop-blur-xl"
+      />
+      {/* Background blur image */}
+      <Image
+        {...baseAttributes}
+        alt=""
+        className={cn(
+          "pointer-events-none absolute left-1/2 top-0 -z-[1]",
+          "origin-top -translate-x-1/2 scale-[250%]",
+        )}
+      />
+    </div>
+  );
+}
+
+/**
+ * @description Tablist to switch between what outfit information should
+ *  be displayed.
+ */
+function OutfitCarousel({ name, skins }: { name: string; skins: Skin[] }) {
+  return (
+    <ScrollShadow color="#00060E">
+      <TabList
+        label={`${name} Outfit List`}
+        className="no-scrollbar flex gap-4 overflow-x-scroll px-4 py-8 lg:px-16"
+      >
+        {skins.map((skin) => (
+          <Client.SkinTab key={skin.id} id={skin.id} name={skin.name}>
+            <PsychedelicImg
+              src={`/images/character/skin/${encodeURIComponent(skin.id)}b.webp`}
+              width={128}
+              height={128}
+              dim
+              classNames={{ wrapper: "size-full", image: "object-cover" }}
+            />
+          </Client.SkinTab>
+        ))}
+      </TabList>
+    </ScrollShadow>
   );
 }
 
