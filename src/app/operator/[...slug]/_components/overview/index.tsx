@@ -100,7 +100,7 @@ function HeroImage({ id }: { id: string }) {
             "linear-gradient(to top, #00060E, #00060E00)," +
             "linear-gradient(to top right, #3B738780, #53528780)",
         }}
-        className="h-[calc(40cqw+6rem)] min-h-80 w-full object-contain p-1 pb-24 backdrop-blur-xl"
+        className="max-h-[47.5rem] min-h-80 w-full object-contain p-1 pb-24 backdrop-blur-xl"
       />
       {/* Background blur image */}
       <Image
@@ -159,7 +159,7 @@ function OutfitInfo({ id, skins, cvTable }: OutfitInfoProps) {
         <TabPanel
           key={skin.id}
           id={skin.id}
-          className="grid @2xl:grid-cols-[minmax(0,1fr),12.5rem]"
+          className="grid @2xl:grid-cols-[minmax(0,1fr),13.5rem]"
         >
           <SkinInfo skin={skin} />
           <CVList cv={cvTable[skin.id] ? cvTable[skin.id] : cvTable[id]} />

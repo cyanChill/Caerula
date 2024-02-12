@@ -1,6 +1,5 @@
-import Image from "next/image";
-
 import { cn } from "@/lib/style";
+import Icon from "@/components/image/Icon";
 
 interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
   as?: "div" | "section" | "article";
@@ -57,14 +56,11 @@ export function CardTitle({
 
 function TitleIcon({ icon }: { icon?: string | React.ReactNode }) {
   if (!icon) return null;
-  if (typeof icon !== "string") return icon;
   return (
-    <Image
-      src={icon}
-      alt=""
-      width={16}
-      height={16}
-      className="mr-2 size-[1em] object-contain"
+    <Icon
+      {...(typeof icon === "string"
+        ? { as: "string", icon, className: "mr-2 size-[1em] object-contain" }
+        : { as: "node", icon })}
     />
   );
 }

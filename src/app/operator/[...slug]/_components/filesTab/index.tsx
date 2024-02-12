@@ -13,7 +13,7 @@ import ScrollShadow from "@/components/layout/ScrollShadow";
 import Card, { CardTitle } from "@/components/ui/Card";
 import { CurrentDialogue } from "./client";
 
-export interface FilesTabProps {
+interface FilesTabProps {
   opId: OperatorId;
   files?: OpFile[];
   dialogues?: [string, DialogueLine[]][];
@@ -24,7 +24,7 @@ export interface FilesTabProps {
 /** @description Displays files about the current operator. */
 export default function FilesTab({ opId, ...props }: FilesTabProps) {
   return (
-    <div className="grid gap-4 py-8 sm:grid-cols-2 sm:px-4">
+    <div className="grid gap-4 py-8 sm:px-4 md:grid-cols-2">
       <File
         title="File"
         icon="/images/operator/ui/profile/painter.webp"
