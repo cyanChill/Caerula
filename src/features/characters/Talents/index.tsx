@@ -23,7 +23,7 @@ export default function Talents({ talents }: TalentsProps) {
       aria-label="Talent"
       defaultPadding
       className={cn(
-        "col-span-2 row-span-2 overflow-clip @container",
+        "col-span-2 row-span-2 overflow-clip @container md:aspect-square",
         "relative flex flex-col gap-4 bg-secondary-10/75 md:gap-8",
       )}
     >

@@ -11,7 +11,7 @@ import { ContainedRange } from "@/features/characters/RangePattern";
 import { SkillProvider } from "./store";
 import * as Client from "./client";
 
-type CharSkill = Skill & { tokenName?: string };
+export type CharSkill = Skill & { tokenName?: string };
 
 type SkillsProps = { skills: CharSkill[] };
 
@@ -24,7 +24,7 @@ export default function Skills({ skills }: SkillsProps) {
         <Card
           as="section"
           className={cn(
-            "relative col-span-2 row-span-2 @container md:col-span-3 md:aspect-[3/2]",
+            "relative col-span-2 row-span-2 @container md:col-span-3",
             "grid grid-flow-dense grid-cols-[minmax(0,1fr)_min(95px,25%)] bg-secondary-20/75",
           )}
         >
@@ -93,7 +93,8 @@ function SkillInfo({ skills }: SkillsProps) {
       key={skill.id}
       id={skill.id}
       className={cn(
-        "h-[32rem] max-h-[32rem] p-4 pr-2 @container md:h-auto md:max-h-none md:pr-4",
+        "h-[32rem] max-h-[32rem] p-4 pr-2 @container md:h-auto md:pr-4",
+        "md:max-h-[calc((2*(100cqw-2rem)/3)+1rem)]",
         "no-scrollbar overflow-y-auto text-[clamp(0.7rem,2.25cqw,1rem)]",
       )}
     >
@@ -117,7 +118,7 @@ function SkillInfo({ skills }: SkillsProps) {
 
         {spRecovery !== "Passive" && (
           <EChip
-            className={cn({
+            className={cn("text-black", {
               "border-[#8EC31D] bg-[#8EC31D]": spRecovery === "Auto",
               "border-[#FD793B] bg-[#FD793B]": spRecovery === "Offensive",
               "border-[#FFB401] bg-[#FFB401]": spRecovery === "Defensive",
@@ -126,13 +127,13 @@ function SkillInfo({ skills }: SkillsProps) {
             {spRecovery} Recovery
           </EChip>
         )}
-        <EChip className="border-zinc-500 bg-zinc-500">
+        <EChip className="border-zinc-600 bg-zinc-600">
           {activationType} {activationType !== "Passive" && "Trigger"}
         </EChip>
 
         {/* Skill Duration */}
         <Client.SkillAttrRenderer data={skill.duration}>
-          <EChip iconId="duration" className="border-zinc-600 bg-zinc-600">
+          <EChip iconId="duration" className="border-zinc-700 bg-zinc-700">
             <Client.SkillAttrValue data={skill.duration} />s Duration
           </EChip>
         </Client.SkillAttrRenderer>

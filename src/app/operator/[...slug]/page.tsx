@@ -13,23 +13,12 @@ import TokenTable from "@/data/token/tokenTable.json";
 import { OpSlugTable } from "@/data/operator/slugTable";
 import VoiceTable from "@/data/operator/profile/voiceTable.json";
 
-import { cn } from "@/lib/style";
 import { constructMetadata } from "@/lib/metadata";
+import type { Recipient } from "@/features/characters/Experience/store";
 import Overview, { OverviewProvider } from "./_components/overview";
+import AnalysisTab from "./_components/analysisTab";
 import FilesTab from "./_components/filesTab";
 import CostsTab from "./_components/costsTab";
-
-import {
-  type Recipient,
-  ExperienceProvider,
-} from "@/features/characters/Experience/store";
-import Experience from "@/features/characters/Experience";
-import Talents from "@/features/characters/Talents";
-import Skills from "@/features/characters/Skills";
-import { PotentialProvider } from "@/features/characters/Potentials/store";
-import Potentials from "@/features/characters/Potentials";
-import Trait from "@/features/characters/Trait";
-import Network from "@/features/characters/Network";
 
 interface Props {
   params: { slug: string[] };
@@ -73,6 +62,7 @@ export default function Operator({ params }: Props) {
   const opId = OpSlugTable[slug];
   if (!opId) notFound();
 
+  // Get values for the "Overview" section.
   const operator = OperatorTable[opId];
   const skins = SkinTable.charSkinMap[opId].map(
     (skinId) => SkinTable.skinTable[skinId],
@@ -80,32 +70,6 @@ export default function Operator({ params }: Props) {
   const voices = Object.fromEntries(
     VoiceTable.opVoiceMap[opId].map((cvId) => [cvId, VoiceTable.cvTable[cvId]]),
   );
-
-  const statRecipients: Recipient[] = [
-    {
-      id: operator.id,
-      href: `/operator/${operator.slug}`,
-      name: operator.displayName,
-      range: operator.range,
-      stats: operator.stats,
-      bonus: operator.trustBonus,
-      iconId: operator.id,
-    },
-    ...(operator.tokensUsed ?? []).map((tokenId) => {
-      const { id, slug, displayName, range, stats, iconId } =
-        TokenTable[tokenId];
-      return {
-        ...{ id, range, stats, iconId },
-        href: `/token/${slug}`,
-        name: displayName,
-      };
-    }),
-  ];
-
-  const skills = operator.skills.map(({ id, tokenUsed }) => ({
-    ...SkillTable[id],
-    ...(tokenUsed ? { tokenName: TokenTable[tokenUsed].displayName } : {}),
-  }));
 
   return (
     <main className="mx-auto mb-[5svh] max-w-screen-2xl p-2 @container">
@@ -126,26 +90,7 @@ export default function Operator({ params }: Props) {
         <FilesTab opId={opId} {...getFilesTabContent(opId)} />
         <CostsTab {...getCostsTabContent(opId)} />
 
-        <ExperienceProvider recipients={statRecipients}>
-          <PotentialProvider numPotentials={operator.potentials.length}>
-            <div
-              className={cn(
-                "grid grid-flow-dense grid-cols-2 gap-2 py-8 min-[350px]:gap-4 sm:px-4",
-                "md:auto-rows-fr md:grid-cols-4 lg:grid-cols-5",
-              )}
-            >
-              <Experience recipients={statRecipients} />
-              <Talents talents={operator.talents} />
-              <Skills skills={skills} />
-              <Potentials potentials={operator.potentials} />
-              <Trait
-                profession={operator.profession}
-                branchId={operator.branch}
-              />
-              <Network network={operator.affiliation} />
-            </div>
-          </PotentialProvider>
-        </ExperienceProvider>
+        <AnalysisTab {...getAnalysisTabContent(opId)} />
       </OverviewProvider>
     </main>
   );
@@ -154,6 +99,42 @@ export default function Operator({ params }: Props) {
 /** @description Returns boolean if array is defined & not empty. */
 function notEmpty(arr: unknown[] | undefined) {
   return !!arr && arr.length > 0;
+}
+
+/** @description Fetches data for our "Analysis" tab. */
+function getAnalysisTabContent(id: OperatorId) {
+  const operator = OperatorTable[id];
+  return {
+    affiliation: operator.affiliation,
+    profession: operator.profession,
+    branch: operator.branch,
+    potentials: operator.potentials,
+    talents: operator.talents,
+    statRecipients: [
+      {
+        id: operator.id,
+        href: `/operator/${operator.slug}`,
+        name: operator.displayName,
+        range: operator.range,
+        stats: operator.stats,
+        bonus: operator.trustBonus,
+        iconId: operator.id,
+      },
+      ...(operator.tokensUsed ?? []).map((tokenId) => {
+        const { id, slug, displayName, range, stats, iconId } =
+          TokenTable[tokenId];
+        return {
+          ...{ id, range, stats, iconId },
+          href: `/token/${slug}`,
+          name: displayName,
+        };
+      }),
+    ] as Recipient[],
+    skills: operator.skills.map(({ id, tokenUsed }) => ({
+      ...SkillTable[id],
+      ...(tokenUsed ? { tokenName: TokenTable[tokenUsed].displayName } : {}),
+    })),
+  };
 }
 
 /** @description Fetches data for our "Files" tab. */
