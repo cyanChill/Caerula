@@ -2,24 +2,22 @@ import { Fragment } from "react";
 import Image from "next/image";
 
 import type { OperatorId } from "@/data/types/AKCharacter";
-import type { OpFile, OpParadox, OpRecord } from "@/data/types/AKOPFiles";
-import type { UnlockCondition } from "@/data/types/shared";
 import type { DialogueLine } from "@/data/types/AKVoice";
+import type { UnlockCondition } from "@/data/types/shared";
+import ProfileTable from "@/data/operator/profile/profileTable.json";
+import VoiceTable from "@/data/operator/profile/voiceTable.json";
 
 import type { BgColor, BorderColor, HexColor } from "@/lib/style";
 import { cn } from "@/lib/style";
+import { notEmpty } from "@/utils/array";
 import { objIsType } from "@/utils/typeNarrow";
 import ScrollShadow from "@/components/layout/ScrollShadow";
 import Card, { CardTitle } from "@/components/ui/Card";
 import { CurrentDialogue } from "./client";
 
-interface FilesTabProps {
+type FilesTabProps = ReturnType<typeof getFilesTabContent> & {
   opId: OperatorId;
-  files?: OpFile[];
-  dialogues?: [string, DialogueLine[]][];
-  records?: OpRecord[];
-  paradox?: OpParadox;
-}
+};
 
 /** @description Displays files about the current operator. */
 export default function FilesTab({ opId, ...props }: FilesTabProps) {
@@ -203,4 +201,21 @@ function TextSegment({ text, breakColor }: TextSegmentProps) {
       </Fragment>
     );
   });
+}
+
+/** @description Fetches data for this component. */
+export function getFilesTabContent(id: OperatorId) {
+  const filesContent = ProfileTable.fileTable[id];
+  const dialoguesContent = VoiceTable.opVoiceMap[id].map(
+    (dId) => [dId, VoiceTable.dialogueTable[dId]] as [string, DialogueLine[]],
+  );
+  const recordsContent = ProfileTable.recordTable[id];
+  const paradoxContent = ProfileTable.paradoxTable[id];
+
+  return {
+    ...(notEmpty(filesContent) ? { files: filesContent } : {}),
+    ...(notEmpty(dialoguesContent) ? { dialogues: dialoguesContent } : {}),
+    ...(notEmpty(recordsContent) ? { records: recordsContent } : {}),
+    ...(!!paradoxContent ? { paradox: paradoxContent } : {}),
+  };
 }

@@ -1,4 +1,7 @@
-import type { Operator } from "@/data/types/AKCharacter";
+import type { OperatorId } from "@/data/types/AKCharacter";
+import OperatorTable from "@/data/operator/operatorTable.json";
+import SkillTable from "@/data/character/skillTable.json";
+import TokenTable from "@/data/token/tokenTable.json";
 
 import { cn } from "@/lib/style";
 import {
@@ -9,18 +12,11 @@ import Experience from "@/features/characters/Experience";
 import { PotentialProvider } from "@/features/characters/Potentials/store";
 import Potentials from "@/features/characters/Potentials";
 import Network from "@/features/characters/Network";
-import Skills, { type CharSkill } from "@/features/characters/Skills";
+import Skills from "@/features/characters/Skills";
 import Talents from "@/features/characters/Talents";
 import Trait from "@/features/characters/Trait";
 
-interface AnalysisTabProps
-  extends Pick<
-    Operator,
-    "affiliation" | "branch" | "potentials" | "profession" | "talents"
-  > {
-  skills: CharSkill[];
-  statRecipients: Recipient[];
-}
+type AnalysisTabProps = ReturnType<typeof getAnalysisTabContent>;
 
 /** @description Displays statistical information about the operator. */
 export default function AnalysisTab(props: AnalysisTabProps) {
@@ -43,4 +39,40 @@ export default function AnalysisTab(props: AnalysisTabProps) {
       </PotentialProvider>
     </ExperienceProvider>
   );
+}
+
+/** @description Fetches data for this component. */
+export function getAnalysisTabContent(id: OperatorId) {
+  const operator = OperatorTable[id];
+  return {
+    affiliation: operator.affiliation,
+    profession: operator.profession,
+    branch: operator.branch,
+    potentials: operator.potentials,
+    talents: operator.talents,
+    statRecipients: [
+      {
+        id: operator.id,
+        href: `/operator/${operator.slug}`,
+        name: operator.displayName,
+        range: operator.range,
+        stats: operator.stats,
+        bonus: operator.trustBonus,
+        iconId: operator.id,
+      },
+      ...(operator.tokensUsed ?? []).map((tokenId) => {
+        const { id, slug, displayName, range, stats, iconId } =
+          TokenTable[tokenId];
+        return {
+          ...{ id, range, stats, iconId },
+          href: `/token/${slug}`,
+          name: displayName,
+        };
+      }),
+    ] as Recipient[],
+    skills: operator.skills.map(({ id, tokenUsed }) => ({
+      ...SkillTable[id],
+      ...(tokenUsed ? { tokenName: TokenTable[tokenUsed].displayName } : {}),
+    })),
+  };
 }

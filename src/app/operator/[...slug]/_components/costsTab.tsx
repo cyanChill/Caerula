@@ -1,19 +1,19 @@
 import { Fragment } from "react";
 import Image from "next/image";
 
+import type { OperatorId } from "@/data/types/AKCharacter";
 import type { ItemId, ItemCount } from "@/data/types/AKItem";
+import type { Rarity } from "@/data/types/shared";
+import OperatorTable from "@/data/operator/operatorTable.json";
 
 import type { BgColor, BorderColor } from "@/lib/style";
 import { cn } from "@/lib/style";
+import { notEmpty } from "@/utils/array";
 import Icon from "@/components/image/Icon";
 import Card, { CardTitle } from "@/components/ui/Card";
 import { ItemList } from "@/features/items/DepotItem";
 
-interface CostsTabProps {
-  promotion?: ItemCount[][];
-  skillLevel?: ItemCount[][];
-  skillMastery?: ItemCount[][][];
-}
+type CostsTabProps = ReturnType<typeof getCostsTabContent>;
 
 /** @description Displays the costs for the current operator. */
 export default function CostsTab({
@@ -209,4 +209,57 @@ function MasteryIcon({ mastery }: { mastery: number }) {
       </div>
     </div>
   );
+}
+
+/** @description Fetches data for this component. */
+export function getCostsTabContent(id: OperatorId) {
+  const { stats, skills, skillLevel, rarity, type } = OperatorTable[id];
+
+  const promotionCost = stats
+    .map(({ evolveCost }, idx) => {
+      if (idx === 0) return evolveCost; // 1st value is always an empty array
+      // Add LMD cost to promotion cost since it's currently not included
+      const LMDCost: ItemCount = {
+        id: "4001",
+        count: getLMDCost(rarity, "promo", idx),
+      };
+      return [...(type !== "is" ? [LMDCost] : []), ...evolveCost];
+    })
+    .filter((arr) => !!arr && arr.length > 0);
+  const skillLevelCost = skillLevel
+    .map(({ cost }) => cost)
+    .filter((arr) => !!arr && arr.length > 0);
+  const skillMasteryCost = skills
+    .map(({ masteryCost }) => masteryCost)
+    // Sometimes an empty array (ie: 3-star operators)
+    .filter((arr) => !!arr && arr.length > 0)
+    .map((item) =>
+      item
+        .map(({ ingredients }) => ingredients)
+        // Sometimes an empty array (ie: Integrated Strategies operators)
+        .filter((arr) => !!arr && arr.length > 0),
+    )
+    .filter((arr) => !!arr && arr.length > 0);
+
+  return {
+    ...(notEmpty(promotionCost) ? { promotion: promotionCost } : {}),
+    ...(notEmpty(skillLevelCost) ? { skillLevel: skillLevelCost } : {}),
+    ...(notEmpty(skillMasteryCost) ? { skillMastery: skillMasteryCost } : {}),
+  };
+}
+
+/** @description Returns the LMD cost given specific parameter values. */
+function getLMDCost(rarity: Rarity, type: "promo" | "module", stage?: number) {
+  if (type === "promo") {
+    if (rarity < 3) return 0;
+    if (rarity === 3) return 10000;
+    if (stage === 1) return 10000 + 2 ** (rarity - 4) * 5000;
+    else return 60000 * (rarity - 3) * (stage! - 1);
+  } else if (type === "module") {
+    if (rarity < 4 || !stage || stage < 1) return 0;
+    const baseCost = 2 ** (rarity - 3) * 10000;
+    const additCost = 2 ** (rarity - 4) * 5000 * (stage - 1);
+    return baseCost + additCost;
+  }
+  return 0;
 }
