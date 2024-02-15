@@ -18,6 +18,8 @@ interface TabsProps {
    * integrating with a different store/context.
    */
   onChange?: (id: string) => void;
+  /** If we want to preserve the state inside `<TabPanel />` when we switch tabs. */
+  preserveContext?: boolean;
 }
 
 interface TabsState extends TabsProps {
@@ -43,6 +45,7 @@ const createTabStore = (initProps: TabsProps) => {
     tab: initTab.id,
     tabAsIdx: 0,
     tabData: initTab,
+    preserveContext: !!initProps.preserveContext,
   };
 
   return createStore<TabsState>()((set) => ({
@@ -105,6 +108,7 @@ function useTabsStore<T>(selector: (state: TabsState) => T): T {
 export const useStoreId = () => useTabsStore((s) => s.storeId);
 export const useDataStore = () => useTabsStore((s) => s.dataStore);
 export const useTabKeys = () => useTabsStore((s) => s.tabKeys);
+export const usePreserveContext = () => useTabsStore((s) => s.preserveContext);
 
 export const useTab = () => useTabsStore((s) => s.tab);
 export const useTabAsIdx = () => useTabsStore((s) => s.tabAsIdx);
@@ -113,7 +117,8 @@ export const useTabData = () => useTabsStore((s) => s.tabData);
 export const useTabsActions = () => useTabsStore((s) => s.actions);
 
 /* Components that utilize our Tabs Store. */
-type BaseTabProps = WithCSS<React.PropsWithChildren<{ id: string }>>;
+type BaseStyleProps = WithCSS<{ children?: React.ReactNode }>;
+type BaseTabProps = BaseStyleProps & { id: string };
 
 /**
  * @description An unstyled `<div />` that provides the keyboard navigation
@@ -195,7 +200,9 @@ export function Tab({ id, children, ...props }: SingleTabProps) {
       id={`${storeId}-tt-${id}`}
       type="button"
       role="tab"
-      {...(props.label ? { "aria-label": props.label } : {})}
+      {...(props.label
+        ? { "aria-label": props.label, title: props.label }
+        : {})}
       aria-selected={id === tab}
       aria-controls={`${storeId}-tp-${id}`}
       tabIndex={id === tab ? 0 : -1}
@@ -208,18 +215,32 @@ export function Tab({ id, children, ...props }: SingleTabProps) {
   );
 }
 
+/** @description Allows stacking of `<TabPanel />` inside a single container. */
+export function TabPanelGroup({ style, className, children }: BaseStyleProps) {
+  return (
+    <div style={style} className={cn(className, "grid-stack")}>
+      {children}
+    </div>
+  );
+}
+
 /** @description Unstyled `<div />` containing content of the current tab. */
 export function TabPanel({ id, children, ...props }: BaseTabProps) {
   const storeId = useStoreId();
   const tab = useTab();
-  if (id !== tab) return null;
+  const preserveContext = usePreserveContext();
+  const isSelected = id === tab;
+  if (!isSelected && !preserveContext) return null;
   return (
     <div
       id={`${storeId}-tp-${tab}`}
+      {...(preserveContext && !isSelected
+        ? { "aria-hidden": true, hidden: true }
+        : {})}
       role="tabpanel"
       aria-labelledby={`${storeId}-tt-${tab}`}
       style={props.style}
-      className={props.className}
+      className={cn(props.className, { hidden: !isSelected })}
     >
       {children}
     </div>

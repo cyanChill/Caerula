@@ -8,6 +8,11 @@
     @apply flex items-center justify-center;
   }
 
+  /* Places all grid children in a single cell. */
+  .grid-stack {
+    @apply grid grid-cols-1 *:col-start-1 *:row-start-1;
+  }
+
   /* Gradient shorthands */
   .gradient-psychedelic {
     @apply bg-gradient-to-tr from-[#74D8FC]/50 to-[#9C99FE]/50;
