@@ -3,18 +3,21 @@ import Image from "next/image";
 
 import { ArrowTopRight } from "@/assets/svgs/direction";
 import { Pinwheel } from "@/assets/svgs/shapes";
-
 import type { Operator } from "@/data/types/AKCharacter";
 import { useInterval } from "@/hooks/useInterval";
 
 import { cn } from "@/lib/style";
 import PsychedelicImg from "@/components/image/PsychedelicImg";
 import Tabs, {
+  Tab,
+  TabList,
+  TabPanel,
   useDataStore,
   useTabAsIdx,
   useTabsActions,
 } from "@/components/layout/Tabs";
 import ELink from "@/components/link/ELink";
+import Card from "@/components/ui/Card";
 import Chip from "@/components/ui/Chip";
 import Rarity from "@/features/characters/Rarity";
 
@@ -58,23 +61,23 @@ function CarouselIndicator() {
   useInterval(nextTab, 60000, { resetDependency: activeIdx });
 
   return (
-    <Tabs.TabList
+    <TabList
       label="Latest Operator Carousel"
       className="flex-center row-start-2 mx-auto my-4 w-full max-w-96 flex-wrap gap-2"
     >
-      {dataStore.map(({ id, name }, idx) => (
-        <Tabs.Tab
+      {dataStore.map(({ id, name }) => (
+        <Tab
           key={id}
           id={id}
           label={name as string}
+          activeClass="flex-1 bg-white"
           className={cn(
             "h-1.5 min-w-8 rounded-full bg-[#4D4D4D]",
             "transition-[flex,background_color] duration-700",
-            { "flex-1 bg-white": idx === activeIdx },
           )}
         />
       ))}
-    </Tabs.TabList>
+    </TabList>
   );
 }
 
@@ -84,14 +87,14 @@ function CarouselIndicator() {
  */
 function OperatorInfo({ operators }: Props) {
   return operators.map(({ id, name, rarity, description, type, ...rest }) => (
-    <Tabs.TabPanel
+    <TabPanel
       key={id}
       id={id}
       className="grid gap-4 @2xl:grid-cols-[auto_minmax(0,1fr)]"
     >
       <RedirectCard id={id} name={name} rarity={rarity} {...rest} />
       <Overview {...{ name, description, rarity, type }} />
-    </Tabs.TabPanel>
+    </TabPanel>
   ));
 }
 
@@ -102,7 +105,7 @@ function OperatorInfo({ operators }: Props) {
  */
 function RedirectCard(props: Omit<OperatorExcerpt, "type">) {
   return (
-    <div className="card mr-auto flex bg-secondary-10">
+    <Card className="mr-auto flex bg-secondary-10">
       <PsychedelicImg
         src={`/images/operator/portrait/${props.id}_${props.rarity > 3 ? 2 : 1}.webp`}
         width={180}
@@ -139,7 +142,7 @@ function RedirectCard(props: Omit<OperatorExcerpt, "type">) {
           <ArrowTopRight thin className="size-full" />
         </ELink>
       </div>
-    </div>
+    </Card>
   );
 }
 

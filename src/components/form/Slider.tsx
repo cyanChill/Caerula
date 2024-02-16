@@ -10,14 +10,19 @@ interface Props {
   label: string;
   options: { min: number; max: number; trackWidth?: string };
   propagateVal: (val: number) => void;
-  theme: {
-    track: { inactive: string; active: string };
-    thumb: string;
+  theme?: {
+    track?: { inactive?: string; active?: string };
+    thumb?: string;
   };
 }
 
 const defaultOptions = {
   trackWidth: "8px",
+};
+
+const defaultTheme = {
+  track: { inactive: "#C6BEAC", active: "#FF5D1F" },
+  thumb: "#FFFFFF",
 };
 
 /** @description Accessible vertical range component. */
@@ -26,6 +31,12 @@ export default function Slider({ label, propagateVal, options, theme }: Props) {
     return { ...defaultOptions, ...options };
   }, [options]);
   const { min, max, trackWidth } = internalOptions;
+  const internalTheme = useMemo(() => {
+    return {
+      track: { ...defaultTheme.track, ...theme?.track },
+      thumb: theme?.thumb ?? defaultTheme.thumb,
+    };
+  }, [theme]);
 
   const thumbRef = useRef<HTMLSpanElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -138,7 +149,7 @@ export default function Slider({ label, propagateVal, options, theme }: Props) {
               (thumbRef.current?.clientHeight ?? 0) /
                 (containerRef.current?.clientHeight ?? 0),
             bottom: `calc(${progessAsPercent}% * var(--useableHeight))`,
-            backgroundColor: theme.thumb,
+            backgroundColor: internalTheme.thumb,
           } as React.CSSProperties
         }
         className={cn(
@@ -148,14 +159,12 @@ export default function Slider({ label, propagateVal, options, theme }: Props) {
       />
       {/* Track */}
       <div
-        style={
-          {
-            backgroundImage:
-              "linear-gradient(to top," +
-              `${theme.track.active} 0 ${progessAsPercent}%,` +
-              `${theme.track.inactive} ${progessAsPercent}% 100%)`,
-          } as React.CSSProperties
-        }
+        style={{
+          backgroundImage:
+            "linear-gradient(to top," +
+            `${internalTheme.track.active} 0 ${progessAsPercent}%,` +
+            `${internalTheme.track.inactive} ${progessAsPercent}% 100%)`,
+        }}
         className="mx-[calc(0.25*var(--trackWidth))] h-full w-[var(--trackWidth)] rounded-full shadow-lift"
       />
     </div>

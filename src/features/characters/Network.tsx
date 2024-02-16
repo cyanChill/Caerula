@@ -6,6 +6,7 @@ import { NationInfo, FactionInfo, TeamInfo } from "@/data/types/AKAffiliation";
 import type { BgColor } from "@/lib/style";
 import { cn } from "@/lib/style";
 import { isKeyOf } from "@/utils/typeNarrow";
+import Card from "@/components/ui/Card";
 
 interface Props {
   network: Affiliations;
@@ -53,9 +54,10 @@ interface NetworkEntryProps {
 function NetworkEntry({ data, type, theme }: NetworkEntryProps) {
   if (!data) return null;
   return (
-    <div
+    <Card
+      defaultPadding
       className={cn(
-        "card grid aspect-square grid-rows-[minmax(0,1fr),auto] gap-2 p-2 @container sm:p-4",
+        "grid aspect-square grid-rows-[minmax(0,1fr),auto] gap-2 @container",
         theme,
       )}
     >
@@ -72,6 +74,6 @@ function NetworkEntry({ data, type, theme }: NetworkEntryProps) {
       >
         {data.name}
       </p>
-    </div>
+    </Card>
   );
 }

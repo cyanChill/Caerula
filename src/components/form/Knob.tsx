@@ -10,14 +10,19 @@ interface Props {
   label: string;
   options: { min: number; max: number; trackWidth?: string };
   propagateVal: (val: number) => void;
-  theme: {
-    track: { inactive: string; active: string };
-    thumb: string;
+  theme?: {
+    track?: { inactive?: string; active?: string };
+    thumb?: string;
   };
 }
 
 const defaultOptions = {
   trackWidth: "8px",
+};
+
+const defaultTheme = {
+  track: { inactive: "#C6BEAC", active: "#FF5D1F" },
+  thumb: "#FFFFFF",
 };
 
 /** @description Accessible circular range component. */
@@ -26,6 +31,12 @@ export default function Knob({ label, propagateVal, options, theme }: Props) {
     return { ...defaultOptions, ...options };
   }, [options]);
   const { min, max, trackWidth } = internalOptions;
+  const internalTheme = useMemo(() => {
+    return {
+      track: { ...defaultTheme.track, ...theme?.track },
+      thumb: theme?.thumb ?? defaultTheme.thumb,
+    };
+  }, [theme]);
 
   const thumbRef = useRef<HTMLSpanElement>(null);
   const containerRef = useRef<HTMLDivElement>(null); // The "Cartesian Coordinate System"
@@ -160,7 +171,7 @@ export default function Knob({ label, propagateVal, options, theme }: Props) {
             "--currDeg": `${currDeg - 90}deg`,
             top: `calc(var(--diff) + var(--radius) * sin(var(--currDeg)))`,
             left: `calc(var(--diff) + var(--radius) * cos(var(--currDeg)))`,
-            backgroundColor: theme.thumb,
+            backgroundColor: internalTheme.thumb,
           } as React.CSSProperties
         }
         className={cn(
@@ -170,15 +181,13 @@ export default function Knob({ label, propagateVal, options, theme }: Props) {
       />
       {/* Track */}
       <div
-        style={
-          {
-            // Outer track
-            backgroundImage: `conic-gradient(${theme.track.active} ${currDeg}deg, ${theme.track.inactive} ${currDeg}deg 360deg)`,
-            // Transparent center
-            maskImage: `radial-gradient(farthest-side, transparent calc(100% - var(--trackWidth)),#fff 0)`,
-            WebkitMaskImage: `radial-gradient(farthest-side, transparent calc(100% - var(--trackWidth)),#fff 0)`,
-          } as React.CSSProperties
-        }
+        style={{
+          // Outer track
+          backgroundImage: `conic-gradient(${internalTheme.track.active} ${currDeg}deg, ${internalTheme.track.inactive} ${currDeg}deg 360deg)`,
+          // Transparent center
+          maskImage: `radial-gradient(farthest-side, transparent calc(100% - var(--trackWidth)),#fff 0)`,
+          WebkitMaskImage: `radial-gradient(farthest-side, transparent calc(100% - var(--trackWidth)),#fff 0)`,
+        }}
         className="size-full rounded-full"
       />
     </div>

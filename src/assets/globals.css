@@ -8,6 +8,11 @@
     @apply flex items-center justify-center;
   }
 
+  /* Places all grid children in a single cell. */
+  .grid-stack {
+    @apply grid grid-cols-1 *:col-start-1 *:row-start-1;
+  }
+
   /* Gradient shorthands */
   .gradient-psychedelic {
     @apply bg-gradient-to-tr from-[#74D8FC]/50 to-[#9C99FE]/50;
@@ -17,9 +22,9 @@
     @apply bg-gradient-to-tr from-[#3B7387]/50 to-[#535287]/50;
   }
 
-  /* Style bases */
-  .card {
-    @apply rounded-2xl drop-shadow-xl backdrop-blur-2xl;
+  /* Positioning Shorthands */
+  .absolute-center {
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
   }
 }
 

@@ -119,8 +119,8 @@ function SlideSection({
         <h1
           id={id}
           className={cn(
-            "mb-4 font-array text-cq-title font-bold uppercase",
-            "[text-shadow:0_0_3.5em_#9C99FE]",
+            "mb-4 font-array text-[clamp(2rem,min(7.5vw,15cqw),15rem)]",
+            "font-bold uppercase leading-tight [text-shadow:0_0_3.5em_#9C99FE]",
           )}
         >
           {sectionMeta.title}
@@ -128,7 +128,7 @@ function SlideSection({
         <div className="no-scrollbar lg:overflow-y-auto lg:py-8">
           <p
             className={cn(
-              "mb-4 max-w-[85cqw] font-khand text-cq-paragraph",
+              "mb-4 max-w-[85cqw] font-khand text-[clamp(1rem,min(2.5vw,6cqw),5rem)]",
               "[text-shadow:0_0_4em_#FF00D6]",
             )}
           >

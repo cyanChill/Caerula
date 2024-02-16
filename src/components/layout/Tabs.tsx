@@ -5,7 +5,7 @@ import { useStoreWithEqualityFn as useStore } from "zustand/traditional";
 
 import { useKey } from "@/hooks/useKey";
 
-import type { WithCSS } from "@/lib/style";
+import { type WithCSS, cn } from "@/lib/style";
 
 type TabData = { id: string } & Record<string, unknown>;
 
@@ -18,6 +18,8 @@ interface TabsProps {
    * integrating with a different store/context.
    */
   onChange?: (id: string) => void;
+  /** If we want to preserve the state inside `<TabPanel />` when we switch tabs. */
+  preserveContext?: boolean;
 }
 
 interface TabsState extends TabsProps {
@@ -43,6 +45,7 @@ const createTabStore = (initProps: TabsProps) => {
     tab: initTab.id,
     tabAsIdx: 0,
     tabData: initTab,
+    preserveContext: !!initProps.preserveContext,
   };
 
   return createStore<TabsState>()((set) => ({
@@ -81,7 +84,10 @@ const TabsContext = createContext<TabsStore | null>(null);
  * @description The context provider of this namespace component. All
  *  tab-related components must be under this.
  */
-function Tabs({ children, ...props }: React.PropsWithChildren<TabsProps>) {
+export default function Tabs({
+  children,
+  ...props
+}: React.PropsWithChildren<TabsProps>) {
   const storeRef = useRef<TabsStore>();
   if (!storeRef.current) storeRef.current = createTabStore(props);
   return (
@@ -102,6 +108,7 @@ function useTabsStore<T>(selector: (state: TabsState) => T): T {
 export const useStoreId = () => useTabsStore((s) => s.storeId);
 export const useDataStore = () => useTabsStore((s) => s.dataStore);
 export const useTabKeys = () => useTabsStore((s) => s.tabKeys);
+export const usePreserveContext = () => useTabsStore((s) => s.preserveContext);
 
 export const useTab = () => useTabsStore((s) => s.tab);
 export const useTabAsIdx = () => useTabsStore((s) => s.tabAsIdx);
@@ -110,13 +117,14 @@ export const useTabData = () => useTabsStore((s) => s.tabData);
 export const useTabsActions = () => useTabsStore((s) => s.actions);
 
 /* Components that utilize our Tabs Store. */
-type BaseTabProps = WithCSS<React.PropsWithChildren<{ id: string }>>;
+type BaseStyleProps = WithCSS<{ children?: React.ReactNode }>;
+type BaseTabProps = BaseStyleProps & { id: string };
 
 /**
  * @description An unstyled `<div />` that provides the keyboard navigation
  *  of a tablist. Its children should only be `<Tabs.Tab />` components.
  */
-function TabList({
+export function TabList({
   orientation = "horizontal",
   children,
   ...props
@@ -180,8 +188,10 @@ function TabList({
   );
 }
 
+type SingleTabProps = BaseTabProps & { label?: string; activeClass?: string };
+
 /** @description Unstyled `<button />` to select the current tab. */
-function Tab({ id, children, ...props }: BaseTabProps & { label?: string }) {
+export function Tab({ id, children, ...props }: SingleTabProps) {
   const storeId = useStoreId();
   const tab = useTab();
   const { selectTab } = useTabsActions();
@@ -190,39 +200,49 @@ function Tab({ id, children, ...props }: BaseTabProps & { label?: string }) {
       id={`${storeId}-tt-${id}`}
       type="button"
       role="tab"
-      {...(props.label ? { "aria-label": props.label } : {})}
+      {...(props.label
+        ? { "aria-label": props.label, title: props.label }
+        : {})}
       aria-selected={id === tab}
       aria-controls={`${storeId}-tp-${id}`}
       tabIndex={id === tab ? 0 : -1}
       onClick={() => selectTab(id)}
       style={props.style}
-      className={props.className}
+      className={cn(props.className, { [props.activeClass ?? ""]: id === tab })}
     >
       {children}
     </button>
   );
 }
 
-/** @description Unstyled `<div />` containing content of the current tab. */
-function TabPanel({ id, children, ...props }: WithCSS<BaseTabProps>) {
-  const storeId = useStoreId();
-  const tab = useTab();
-  if (id !== tab) return null;
+/** @description Allows stacking of `<TabPanel />` inside a single container. */
+export function TabPanelGroup({ style, className, children }: BaseStyleProps) {
   return (
-    <div
-      id={`${storeId}-tp-${tab}`}
-      role="tabpanel"
-      aria-labelledby={`${storeId}-tt-${tab}`}
-      style={props.style}
-      className={props.className}
-    >
+    <div style={style} className={cn(className, "grid-stack")}>
       {children}
     </div>
   );
 }
 
-Tabs.TabList = TabList;
-Tabs.Tab = Tab;
-Tabs.TabPanel = TabPanel;
-
-export default Tabs;
+/** @description Unstyled `<div />` containing content of the current tab. */
+export function TabPanel({ id, children, ...props }: BaseTabProps) {
+  const storeId = useStoreId();
+  const tab = useTab();
+  const preserveContext = usePreserveContext();
+  const isSelected = id === tab;
+  if (!isSelected && !preserveContext) return null;
+  return (
+    <div
+      id={`${storeId}-tp-${tab}`}
+      {...(preserveContext && !isSelected
+        ? { "aria-hidden": true, hidden: true }
+        : {})}
+      role="tabpanel"
+      aria-labelledby={`${storeId}-tt-${tab}`}
+      style={props.style}
+      className={cn(props.className, { hidden: !isSelected })}
+    >
+      {children}
+    </div>
+  );
+}
