@@ -129,7 +129,7 @@ export default function Operator({ params }: Props) {
               label="Operator Information"
               className={cn(
                 "no-scrollbar flex max-w-[25rem] gap-2 overflow-x-auto p-2",
-                "rounded-full border-2 border-primary-50 backdrop-blur-2xl",
+                "rounded-full border-2 border-primary-30 backdrop-blur-2xl",
               )}
             >
               {EnabledTabs.map(({ id, title, iconSrc }) => (
@@ -137,10 +137,10 @@ export default function Operator({ params }: Props) {
                   key={id}
                   id={id}
                   label={title}
-                  activeClass="bg-primary-50"
+                  activeClass="bg-primary-30"
                   className={cn(
                     "flex shrink-0 items-center gap-2 px-2 py-1",
-                    "rounded-full transition duration-500 hover:bg-primary-50",
+                    "rounded-full transition duration-500 hover:bg-primary-30",
                   )}
                 >
                   <Image

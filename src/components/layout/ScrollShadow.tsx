@@ -1,7 +1,7 @@
-import { cn } from "@/lib/style";
+import { type HexColor, cn } from "@/lib/style";
 
 interface Props {
-  color: `#${string}`;
+  color: HexColor;
   isVertical?: boolean;
   /** ie: `[--blurSize:2rem] lg:[--blurSize:4rem]` */
   blurSize?: string;
@@ -26,8 +26,8 @@ export default function ScrollShadow({
         {
           "--shdwGrad":
             `to ${isVertical ? "bottom" : "right"},` +
-            `${color} 0%, ${color}00 var(--blurSize),` +
-            `${color}00 calc(100% - var(--blurSize)), ${color} 100%`,
+            `${color}E6 0%, ${color}00 var(--blurSize),` +
+            `${color}00 calc(100% - var(--blurSize)), ${color}E6 100%`,
         } as React.CSSProperties
       }
       className={cn(
