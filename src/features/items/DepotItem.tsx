@@ -31,7 +31,7 @@ export default function DepotItem({
         height={32}
         className="size-full"
       />
-      <span className="absolute bottom-0 right-0 bg-neutralAlt-20 px-[1.25ch] text-[20cqw]">
+      <span className="absolute bottom-0 right-0 rounded bg-neutralAlt-20 px-[1.25ch] text-[20cqw]">
         {abbrvNum(quantity)}
       </span>
     </DepotItemTag>
