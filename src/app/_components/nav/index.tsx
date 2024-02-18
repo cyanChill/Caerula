@@ -24,6 +24,7 @@ type NavConfigItem = {
   | { type: "large"; theme: { primary: BgColor; button: BgColor } }
 );
 
+/** List of routes that we list in our navigation. */
 const navConfigs: NavConfigItem[] = [
   {
     title: "Home",

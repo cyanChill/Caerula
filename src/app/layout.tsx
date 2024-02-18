@@ -6,7 +6,8 @@ import { GeistSans } from "geist/font/sans";
 
 import "@/assets/globals.css";
 import { cn } from "@/lib/style";
-import { Navbar } from "./_components/nav.client";
+import { NavList } from "./_components/nav";
+import { Navbar } from "./_components/nav/client";
 import Footer from "./_components/footer";
 
 const array = localFont({
@@ -61,7 +62,7 @@ export default function RootLayout({
       className={`${array.variable} ${GeistMono.variable} ${GeistSans.variable} ${khand.variable}`}
     >
       <body className={cn("bg-surface text-white", GeistMono.className)}>
-        <Navbar />
+        <Navbar navList={<NavList withHome />} />
         {children}
         <Footer />
         <Analytics />

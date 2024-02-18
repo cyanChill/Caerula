@@ -4,9 +4,16 @@ import { useState, useRef } from "react";
 import { useKey } from "@/hooks/useKey";
 
 import { cn } from "@/lib/style";
-import { NavList } from "./nav";
 
-export function Navbar() {
+interface NavbarProps {
+  navList: React.ReactNode; // Pass down `<NavList withHome />`
+}
+
+/**
+ * @description Primary navigation of application — requires passing down
+ *  `<NavList withHome />` to reduce "First Load JS" & "Size".
+ */
+export function Navbar({ navList }: NavbarProps) {
   const openBtnRef = useRef<HTMLButtonElement>(null);
   const menuContainerRef = useRef<HTMLDivElement>(null);
   const messageRef = useRef<HTMLParagraphElement>(null);
@@ -71,7 +78,7 @@ export function Navbar() {
             </span>{" "}
             or &quot;Click&quot; to close menu.
           </p>
-          <NavList withHome />
+          {navList}
           <div tabIndex={0} onFocus={() => messageRef.current!.focus()} />
         </div>
       </div>
