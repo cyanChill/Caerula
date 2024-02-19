@@ -3,6 +3,7 @@ import Image from "next/image";
 import { cn } from "@/lib/style";
 import ELink from "@/components/link/ELink";
 
+/** @description Footer of application which also links to a disclaimer page. */
 export default function Footer() {
   return (
     <footer className="mx-[max(1.5rem,3cqw)]">

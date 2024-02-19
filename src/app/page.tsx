@@ -6,8 +6,8 @@ import SkinTable from "@/data/character/skinTable.json";
 
 import { ScrollSlide } from "@/components/layout/ScrollSlide";
 import { NavList } from "./_components/nav";
-import OperatorPreviewTabs from "./_components/operatorPreviewTabs";
 import NewArrivals from "./_components/newArrivals";
+import NewOperators from "./_components/newOperators";
 
 export default function Home() {
   const operators = LatestStore["latest-operator-ids"].map((id) => {
@@ -33,7 +33,7 @@ export default function Home() {
           title: "Latest Operators",
           description:
             "View the latest operators to add to your collection and expand your strategies.",
-          content: <OperatorPreviewTabs operators={operators} />,
+          content: <NewOperators operators={operators} />,
           glow: `from-[#2F8E94]`,
         },
         {

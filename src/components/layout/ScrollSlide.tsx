@@ -30,6 +30,11 @@ const defaultOptions = {
   widthLimit: true,
 };
 
+/**
+ * @description Displays section heading "fixed/stickied" to the left
+ *  side and displays the actual content on the right, with the heading
+ *  switching when we scroll into a new section.
+ */
 export function ScrollSlide({ sections, options }: ScrollSlideProps) {
   const [currSection, setCurrSection] = useState("");
 
@@ -41,7 +46,7 @@ export function ScrollSlide({ sections, options }: ScrollSlideProps) {
   const activeSectionData = sections.find((x) => x.id === currSection);
 
   return (
-    <main className="grid-cols-[minmax(20rem,1fr)_3.25fr] sm:mx-[max(1.5rem,3cqw)] lg:grid">
+    <main className="min-h-[95dvh] grid-cols-[minmax(20rem,1fr)_3.25fr] sm:mx-[max(1.5rem,3cqw)] lg:grid">
       {sections.map((meta) => (
         <SlideSection
           key={meta.id}
