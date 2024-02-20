@@ -1,9 +1,10 @@
 "use client";
 import { createContext, useContext } from "react";
+import { useAtomValue } from "jotai";
 
 import type { CharacterTalent } from "@/data/types/shared";
-import { useLevel, usePromotion } from "../Experience/store";
-import { usePotential } from "../Potentials/store";
+import { levelAtom, promotionAtom } from "../Experience/store";
+import { potentialAtom } from "../Potentials/store";
 
 const TalentContext = createContext<{
   data: CharacterTalent;
@@ -20,9 +21,9 @@ export function TalentProvider(props: {
   talent: CharacterTalent[];
   children: React.ReactNode;
 }) {
-  const level = useLevel();
-  const promotion = usePromotion();
-  const potential = usePotential();
+  const level = useAtomValue(levelAtom);
+  const promotion = useAtomValue(promotionAtom);
+  const potential = useAtomValue(potentialAtom);
 
   const filteredPromo = props.talent
     .toReversed()

@@ -1,14 +1,15 @@
 import Image from "next/image";
 
 import type { Skill } from "@/data/types/AKSkill";
+import { maxSkillLevelAtom } from "./store";
 
 import { cn } from "@/lib/style";
+import { HydrateAtoms } from "@/lib/jotai";
 import Tabs, { Tab, TabList, TabPanel } from "@/components/layout/Tabs";
 import Card from "@/components/ui/Card";
 import Chip from "@/components/ui/Chip";
 import { getSkillLevelIcons } from "@/components/ui/IconList";
 import { ContainedRange } from "@/features/characters/RangePattern";
-import { SkillProvider } from "./store";
 import * as Client from "./client";
 
 export type CharSkill = Skill & { tokenName?: string };
@@ -19,7 +20,7 @@ type SkillsProps = { skills: CharSkill[] };
 export default function Skills({ skills }: SkillsProps) {
   if (skills.length === 0) return null;
   return (
-    <SkillProvider hasMasteries={skills[0].initSp.length > 7}>
+    <HydrateAtoms atomValues={[[maxSkillLevelAtom, skills[0].initSp.length]]}>
       <Tabs storeId="char-skill" dataStore={skills.map(({ id }) => ({ id }))}>
         <Card
           as="section"
@@ -32,7 +33,7 @@ export default function Skills({ skills }: SkillsProps) {
           <SkillInfo skills={skills} />
         </Card>
       </Tabs>
-    </SkillProvider>
+    </HydrateAtoms>
   );
 }
 

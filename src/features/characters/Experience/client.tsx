@@ -1,16 +1,19 @@
 "use client";
+import { useAtomValue, useSetAtom } from "jotai";
 import Link from "next/link";
 
 import {
-  useLevel,
-  useMaxLevel,
-  usePromotion,
-  useMaxPromotion,
-  useSelectedRecipient,
-  useStat,
-  useRange,
-  useBonus,
-  useExperienceActions,
+  levelAtom,
+  maxLevelAtom,
+  promotionAtom,
+  maxPromotionAtom,
+  recipientIdAtom,
+  statAtom,
+  rangeAtom,
+  bonusAtom,
+  setLevelAtom,
+  setPromotionAtom,
+  setRecipientAtom,
 } from "./store";
 
 import { cn } from "@/lib/style";
@@ -23,15 +26,15 @@ import StatList from "@/features/characters/StatList";
 
 /** @description Returns the current level as a component. */
 export function CurrentLevel(): React.ReactNode {
-  const level = useLevel();
+  const level = useAtomValue(levelAtom);
   return level;
 }
 
 /** @description Allows us to modify the current level in our Experience store. */
 export function LevelKnob() {
-  const maxLevel = useMaxLevel();
-  const promotion = usePromotion();
-  const { setLevel } = useExperienceActions();
+  const maxLevel = useAtomValue(maxLevelAtom);
+  const promotion = useAtomValue(promotionAtom);
+  const setLevel = useSetAtom(setLevelAtom);
   return (
     <Knob
       key={promotion} // Refreshes internal state without useEffect
@@ -48,14 +51,14 @@ export function LevelKnob() {
 
 /** @description Icon representing the current promotion. */
 export function PromotionIcon({ icons }: { icons: React.ReactNode[] }) {
-  const promotion = usePromotion();
+  const promotion = useAtomValue(promotionAtom);
   return icons[promotion];
 }
 
 /** @description Allows modification of the current promotion in our Experience store. */
 export function PromotionSlider() {
-  const maxPromotion = useMaxPromotion();
-  const { setPromotion } = useExperienceActions();
+  const maxPromotion = useAtomValue(maxPromotionAtom);
+  const setPromotion = useSetAtom(setPromotionAtom);
   return (
     <Slider
       label="Promotion Selector"
@@ -78,9 +81,9 @@ export function StatsTabsProvider({
   dataStore: { id: string }[];
   StatsTabList: React.ReactNode;
 }) {
-  const { selectRecipient } = useExperienceActions();
+  const setRecipient = useSetAtom(setRecipientAtom);
   return (
-    <Tabs storeId="char-stat" dataStore={dataStore} onChange={selectRecipient}>
+    <Tabs storeId="char-stat" dataStore={dataStore} onChange={setRecipient}>
       {StatsTabList}
       <StatsTabPanel />
     </Tabs>
@@ -89,17 +92,14 @@ export function StatsTabsProvider({
 
 /** @description Tab panel displaying the stat & range for the current recipient. */
 function StatsTabPanel() {
-  const selectedRecipient = useSelectedRecipient();
+  const recipientId = useAtomValue(recipientIdAtom);
   /*
     Different way of using `<Tab.TabPanel />` if we know what
     the current panel is externally (ie: when integrating with a
     different context).
   */
   return (
-    <TabPanel
-      id={selectedRecipient}
-      className="grid gap-4 md:grid-cols-[1.75fr_1fr]"
-    >
+    <TabPanel id={recipientId} className="grid gap-4 md:grid-cols-[1.75fr_1fr]">
       <CurrentStats />
       <CurrentRange />
     </TabPanel>
@@ -108,8 +108,8 @@ function StatsTabPanel() {
 
 /** @description Displays the stats of the current recipient. */
 function CurrentStats() {
-  const stat = useStat();
-  const bonus = useBonus();
+  const stat = useAtomValue(statAtom);
+  const bonus = useAtomValue(bonusAtom);
   return (
     <StatList
       stats={stat}
@@ -121,7 +121,7 @@ function CurrentStats() {
 
 /** @description Displays the range of the current recipient. */
 function CurrentRange() {
-  const range = useRange();
+  const range = useAtomValue(rangeAtom);
   return <ContainedRange rangeId={range} />;
 }
 
@@ -132,8 +132,8 @@ type RecipientLinkProps = { id: string; name: string; href: string };
  *  current tab is selected.
  */
 export function RecipientLink({ id, name, href }: RecipientLinkProps) {
-  const selectedRecipient = useSelectedRecipient();
-  const isSelected = selectedRecipient === id;
+  const recipientId = useAtomValue(recipientIdAtom);
+  const isSelected = recipientId === id;
   return (
     <Link
       aria-hidden={!isSelected}

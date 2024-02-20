@@ -42,7 +42,7 @@ export function getPotentialIcons(props: IconListProps) {
 
 export function getSkillLevelIcons(props: Omit<IconListProps, "altBuilder">) {
   const { size, className } = { ...defaultProps, ...props };
-  return [1, 2, 3, 4, 5, 6, 7, 8, 8, 10].map((lvl) => {
+  return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((lvl) => {
     const iconId = lvl < 8 ? lvl : `m-${lvl - 7}`;
     const alt = lvl < 8 ? `Level ${lvl}` : `Mastery ${lvl - 7}`;
     return (

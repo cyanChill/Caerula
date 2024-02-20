@@ -1,13 +1,15 @@
 "use client";
-import { usePotential, useMaxPotential, useSetPotential } from "./store";
+import { useAtomValue, useSetAtom } from "jotai";
+
+import { potentialAtom, maxPotentialAtom, setPotentialAtom } from "./store";
 
 import { cn } from "@/lib/style";
 import Knob from "@/components/form/Knob";
 
 /** @description Allows us to modify the current potential in our Potential store. */
 export function PotentialKnob() {
-  const maxPotential = useMaxPotential();
-  const setPotential = useSetPotential();
+  const maxPotential = useAtomValue(maxPotentialAtom);
+  const setPotential = useSetAtom(setPotentialAtom);
   return (
     <Knob
       label="Potential Selector"
@@ -24,13 +26,13 @@ export function PotentialKnob() {
 
 /** @description Icon representing the current potential. */
 export function PotentialIcon({ icons }: { icons: React.ReactNode[] }) {
-  const potential = usePotential();
+  const potential = useAtomValue(potentialAtom);
   return icons[potential - 1];
 }
 
 /** @description Interactive way of displaying available potentials. */
 export function PotentialValues({ potentials }: { potentials: string[] }) {
-  const potential = usePotential();
+  const potential = useAtomValue(potentialAtom);
   return potentials.map((pot, idx) => (
     <li
       key={idx}

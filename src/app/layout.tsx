@@ -6,6 +6,7 @@ import { GeistSans } from "geist/font/sans";
 
 import "@/assets/globals.css";
 import { cn } from "@/lib/style";
+import { JotaiProvider } from "@/lib/jotai";
 import { NavList } from "./_components/nav";
 import { Navbar } from "./_components/nav/client";
 import Footer from "./_components/footer";
@@ -63,7 +64,7 @@ export default function RootLayout({
     >
       <body className={cn("bg-surface text-white", GeistMono.className)}>
         <Navbar navList={<NavList withHome />} />
-        {children}
+        <JotaiProvider>{children}</JotaiProvider>
         <Footer />
         <Analytics />
       </body>
