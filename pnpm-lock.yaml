@@ -20,6 +20,9 @@ dependencies:
   jotai:
     specifier: ^2.6.4
     version: 2.6.4(@types/react@18.2.55)(react@18.2.0)
+  jotai-scope:
+    specifier: ^0.5.1
+    version: 0.5.1(jotai@2.6.4)(react@18.2.0)
   next:
     specifier: 14.1.0
     version: 14.1.0(react-dom@18.2.0)(react@18.2.0)
@@ -1974,6 +1977,16 @@ packages:
     resolution: {integrity: sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==}
     hasBin: true
     dev: true
+
+  /jotai-scope@0.5.1(jotai@2.6.4)(react@18.2.0):
+    resolution: {integrity: sha512-GKaqtCj1Hv36nyl63PVm+s5jo+hQqz+wAb81iqA8VuUXp5ot4eXGOZt4Hc66lFZMP0N/yEOISMlazprmDI6kFA==}
+    peerDependencies:
+      jotai: '>=2.5.0'
+      react: '>=17.0.0'
+    dependencies:
+      jotai: 2.6.4(@types/react@18.2.55)(react@18.2.0)
+      react: 18.2.0
+    dev: false
 
   /jotai@2.6.4(@types/react@18.2.55)(react@18.2.0):
     resolution: {integrity: sha512-RniwQPX4893YlNR1muOtyUGHYaTD1fhEN4qnOuZJSrDHj6xdEMrqlRSN/hCm2fshwk78ruecB/P2l+NCVWe6TQ==}
