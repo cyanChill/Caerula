@@ -3,15 +3,16 @@ import Image from "next/image";
 import type { OperatorId } from "@/data/types/AKCharacter";
 import type { Skin } from "@/data/types/AKSkin";
 import { type CharacterVoice, VoiceLangTable } from "@/data/types/AKVoice";
+import { selectedSkinIdAtom } from "./store";
 
 import { cn } from "@/lib/style";
+import { HydrateAtoms } from "@/lib/jotai";
 import { capitalize } from "@/utils/typedStrings";
 import PsychedelicImg from "@/components/image/PsychedelicImg";
 import ScrollShadow from "@/components/layout/ScrollShadow";
 import { TabList, TabPanel } from "@/components/layout/Tabs";
 import Rarity from "@/features/characters/Rarity";
 import ArtistChips from "@/features/skins/ArtistChips";
-import { SkinProvider } from "./store";
 import * as Client from "./client";
 
 type OverviewProviderProps = { skinIds: string[]; children: React.ReactNode };
@@ -19,11 +20,11 @@ type OverviewProviderProps = { skinIds: string[]; children: React.ReactNode };
 /** @description Context provider for current skin. */
 export function OverviewProvider({ skinIds, children }: OverviewProviderProps) {
   return (
-    <SkinProvider initId={skinIds[0]}>
+    <HydrateAtoms atomValues={[[selectedSkinIdAtom, skinIds[0]]]}>
       <Client.SkinTabsProvider skinIds={skinIds}>
         {children}
       </Client.SkinTabsProvider>
-    </SkinProvider>
+    </HydrateAtoms>
   );
 }
 

@@ -1,5 +1,7 @@
 "use client";
-import { useSkinId, useSetSkinId } from "./store";
+import { useAtomValue, useSetAtom } from "jotai";
+
+import { selectedSkinIdAtom } from "./store";
 
 import { cn } from "@/lib/style";
 import Tabs, { Tab, useTabKeys } from "@/components/layout/Tabs";
@@ -8,7 +10,7 @@ type SkinTabsProviderProps = { skinIds: string[]; children: React.ReactNode };
 
 /** @description Link up the SkinProvider w/ our Tabs store. */
 export function SkinTabsProvider({ skinIds, children }: SkinTabsProviderProps) {
-  const setSkinId = useSetSkinId();
+  const setSkinId = useSetAtom(selectedSkinIdAtom);
   const storeData = skinIds.map((id) => ({ id }));
   return (
     <Tabs storeId="overview" dataStore={storeData} onChange={setSkinId}>
@@ -21,7 +23,7 @@ type CurrentSkinHeroImageProps = { imgs: Record<string, React.ReactNode> };
 
 /** @description Renders a hero version of the selected skin. */
 export function CurrentSkinHeroImage({ imgs }: CurrentSkinHeroImageProps) {
-  const id = useSkinId();
+  const id = useAtomValue(selectedSkinIdAtom);
   if (!imgs[id]) throw new Error(`No hero image for skin id: "${id}"`);
   return imgs[id];
 }
@@ -31,7 +33,7 @@ type SkinTabProps = { id: string; name: string; children: React.ReactNode };
 /** @description Tab in our `<OutfitCarousel />`. */
 export function SkinTab({ id, name, children }: SkinTabProps) {
   const skinIds = useTabKeys();
-  const activeId = useSkinId();
+  const activeId = useAtomValue(selectedSkinIdAtom);
 
   const activeIdx = skinIds.findIndex((i) => i === activeId);
   const currIdx = skinIds.findIndex((i) => i === id);
