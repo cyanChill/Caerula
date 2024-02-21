@@ -4,16 +4,15 @@ import { useAtomValue, useSetAtom } from "jotai";
 import { selectedSkinIdAtom } from "./store";
 
 import { cn } from "@/lib/style";
-import Tabs, { Tab, useTabKeys } from "@/components/layout/Tabs";
+import Tabs, { Tab, tabsKeysAtom } from "@/components/layout/Tabs";
 
 type SkinTabsProviderProps = { skinIds: string[]; children: React.ReactNode };
 
 /** @description Link up the SkinProvider w/ our Tabs store. */
 export function SkinTabsProvider({ skinIds, children }: SkinTabsProviderProps) {
   const setSkinId = useSetAtom(selectedSkinIdAtom);
-  const storeData = skinIds.map((id) => ({ id }));
   return (
-    <Tabs storeId="overview" dataStore={storeData} onChange={setSkinId}>
+    <Tabs storeId="overview" tabKeys={skinIds} onChange={setSkinId}>
       {children}
     </Tabs>
   );
@@ -32,7 +31,7 @@ type SkinTabProps = { id: string; name: string; children: React.ReactNode };
 
 /** @description Tab in our `<OutfitCarousel />`. */
 export function SkinTab({ id, name, children }: SkinTabProps) {
-  const skinIds = useTabKeys();
+  const skinIds = useAtomValue(tabsKeysAtom);
   const activeId = useAtomValue(selectedSkinIdAtom);
 
   const activeIdx = skinIds.findIndex((i) => i === activeId);

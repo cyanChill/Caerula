@@ -75,15 +75,15 @@ export function PromotionSlider() {
 
 /** @description Tabs provider that connects to our Experience store. */
 export function StatsTabsProvider({
-  dataStore,
+  tabKeys,
   StatsTabList,
 }: {
-  dataStore: { id: string }[];
+  tabKeys: string[];
   StatsTabList: React.ReactNode;
 }) {
   const setRecipient = useSetAtom(setRecipientAtom);
   return (
-    <Tabs storeId="char-stat" dataStore={dataStore} onChange={setRecipient}>
+    <Tabs storeId="char-stat" tabKeys={tabKeys} onChange={setRecipient}>
       {StatsTabList}
       <StatsTabPanel />
     </Tabs>

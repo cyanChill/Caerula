@@ -21,7 +21,7 @@ export default function Skills({ skills }: SkillsProps) {
   if (skills.length === 0) return null;
   return (
     <HydrateAtoms atomValues={[[maxSkillLevelAtom, skills[0].initSp.length]]}>
-      <Tabs storeId="char-skill" dataStore={skills.map(({ id }) => ({ id }))}>
+      <Tabs storeId="char-skill" tabKeys={skills.map(({ id }) => id)}>
         <Card
           as="section"
           className={cn(

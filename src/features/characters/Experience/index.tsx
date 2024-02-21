@@ -97,7 +97,6 @@ function PromotionSelector() {
  *  at the current level & promotion.
  */
 function StatsWidget(props: ExperienceProps) {
-  const dataStore = props.recipients.map(({ id }) => ({ id }));
   return (
     <Card
       as="section"
@@ -108,7 +107,7 @@ function StatsWidget(props: ExperienceProps) {
       )}
     >
       <Client.StatsTabsProvider
-        dataStore={dataStore}
+        tabKeys={props.recipients.map(({ id }) => id)}
         StatsTabList={<RecipientList {...props} />}
       />
     </Card>

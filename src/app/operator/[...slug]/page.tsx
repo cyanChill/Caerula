@@ -123,7 +123,7 @@ export default function Operator({ params }: Props) {
 
           <Tabs
             storeId="operator"
-            dataStore={EnabledTabs.map(({ id }) => ({ id }))}
+            tabKeys={EnabledTabs.map(({ id }) => id)}
             preserveContext
           >
             <div className="pointer-events-none sticky left-0 top-4 z-[1] mt-8 flex justify-center *:pointer-events-auto">

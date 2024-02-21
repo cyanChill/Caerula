@@ -64,6 +64,12 @@ export default function RootLayout({
     >
       <body className={cn("bg-surface text-white", GeistMono.className)}>
         <Navbar navList={<NavList withHome />} />
+        {/* 
+          Making sure that if we forget to include a `<JotaiProvider />`
+          on the individual `page.tsx`, we have a fallback provider to
+          prevent global store from being shared between multiple requests
+            - https://jotai.org/docs/guides/nextjs#provider
+        */}
         <JotaiProvider>{children}</JotaiProvider>
         <Footer />
         <Analytics />

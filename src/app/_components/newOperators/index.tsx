@@ -28,7 +28,7 @@ interface Props {
  */
 export default function NewOperators({ operators }: Props) {
   return (
-    <Tabs storeId="latest-op" dataStore={operators.map(({ id }) => ({ id }))}>
+    <Tabs storeId="latest-op" tabKeys={operators.map(({ id }) => id)}>
       <div className="grid">
         <CarouselIndicator
           labels={operators.map(({ id, name }) => ({ id, name }))}
