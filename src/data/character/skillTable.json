@@ -4946,7 +4946,7 @@
       "Summons an Obelisk upon a melee tile within this unit's Attack Range. When the Obelisk appears, it deals <span style=\"color:#0098DC;\">270%</span> ATK as Arts damage to nearby enemies and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> them for <span style=\"color:#0098DC;\">2.5</span> seconds",
       "Summons an Obelisk upon a melee tile within this unit's Attack Range. When the Obelisk appears, it deals <span style=\"color:#0098DC;\">300%</span> ATK as Arts damage to nearby enemies and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> them for <span style=\"color:#0098DC;\">3</span> seconds"
     ],
-    "rangeId": null,
+    "rangeId": "x-4",
     "activationType": "Manual",
     "spRecovery": "Auto",
     "spCost": [30, 30, 30, 28, 28, 28, 26, 24, 22, 20],
@@ -5383,7 +5383,7 @@
       "Immediately obtains 1 Buggy Cam and grants all deployed Buggy Cams <span style=\"color:#0098DC;\">increased</span> Detection Range, ATK <span style=\"color:#0098DC;\">+110%</span>, DEF <span style=\"color:#0098DC;\">+110%</span>, and RES <span style=\"color:#0098DC;\">+15</span>\n<span style=\"color:#F49800;\">After the skill ends, all Buggy Cams are <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stunned</a> for 5 seconds</span>",
       "Immediately obtains 1 Buggy Cam and grants all deployed Buggy Cams <span style=\"color:#0098DC;\">increased</span> Detection Range, ATK <span style=\"color:#0098DC;\">+130%</span>, DEF <span style=\"color:#0098DC;\">+130%</span>, and RES <span style=\"color:#0098DC;\">+20</span>\n<span style=\"color:#F49800;\">After the skill ends, all Buggy Cams are <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stunned</a> for 5 seconds</span>"
     ],
-    "rangeId": null,
+    "rangeId": "x-2",
     "activationType": "Manual",
     "spRecovery": "Auto",
     "spCost": [30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
@@ -11589,7 +11589,7 @@
       "Spends <span style=\"color:#0098DC;\">1</span> Coin: the next attack restores HP equal to <span style=\"color:#0098DC;\">70%</span> of ATK to a friendly unit within the surrounding 8 tiles with less than 70% HP\n<span style=\"color:#F49800;\">A maximum of 3 Coins may be held while this Skill is equipped</span>",
       "Spends <span style=\"color:#0098DC;\">1</span> Coin: the next attack restores HP equal to <span style=\"color:#0098DC;\">80%</span> of ATK to a friendly unit within the surrounding 8 tiles with less than 70% HP\n<span style=\"color:#F49800;\">A maximum of 3 Coins may be held while this Skill is equipped</span>"
     ],
-    "rangeId": "1-1",
+    "rangeId": "x-4",
     "activationType": "Passive",
     "spRecovery": "Passive",
     "spCost": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -11612,7 +11612,7 @@
       "Spends <span style=\"color:#0098DC;\">1</span> Coin to place a Champagne Bomb on a ground tile within range that is passable and can be deployed upon; the Champagne Bomb deals <span style=\"color:#0098DC;\">190%</span> of ATK as Physical damage to the first target it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> for <span style=\"color:#0098DC;\">2</span> seconds\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds; a maximum of 5 Coins may be held while this Skill is equipped</span>",
       "Spends <span style=\"color:#0098DC;\">1</span> Coin to place a Champagne Bomb on a ground tile within range that is passable and can be deployed upon; the Champagne Bomb deals <span style=\"color:#0098DC;\">200%</span> of ATK as Physical damage to the first target it comes in contact with and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> for <span style=\"color:#0098DC;\">2</span> seconds\n<span style=\"color:#F49800;\">The Champagne Bomb deals additional damage after having been deployed for 3 seconds; a maximum of 5 Coins may be held while this Skill is equipped</span>"
     ],
-    "rangeId": "1-1",
+    "rangeId": "x-6",
     "activationType": "Passive",
     "spRecovery": "Passive",
     "spCost": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -11658,7 +11658,7 @@
       "Attacks hit twice, and gain 1 Coin upon defeating an enemy; when skill is manually deactivated, <span style=\"color:#0098DC;\">all</span> Coins will be spent to randomly attack enemies in a frontal area. Each Coin spent in this manner hits once for <span style=\"color:#0098DC;\">140%</span> of ATK as Physical damage and knocks the target back <span style=\"color:#0098DC;\">slightly</span>\n<span style=\"color:#F49800;\">Unlimited duration, can be manually deactivated at any time; a maximum of 10 Coins may be held while this Skill is equipped</span>",
       "Attacks hit twice, and gain 1 Coin upon defeating an enemy; when skill is manually deactivated, <span style=\"color:#0098DC;\">all</span> Coins will be spent to randomly attack enemies in a frontal area. Each Coin spent in this manner hits once for <span style=\"color:#0098DC;\">150%</span> of ATK as Physical damage and knocks the target back <span style=\"color:#0098DC;\">moderately</span>\n<span style=\"color:#F49800;\">Unlimited duration, can be manually deactivated at any time; a maximum of 10 Coins may be held while this Skill is equipped</span>"
     ],
-    "rangeId": "1-1",
+    "rangeId": "2-4",
     "activationType": "Auto",
     "spRecovery": "Auto",
     "spCost": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
@@ -12141,7 +12141,7 @@
       "Passive Effect: When a trap is triggered, deals <span style=\"color:#0098DC;\">320%</span> ATK as Arts damage to all enemies in range and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> them for <span style=\"color:#0098DC;\">4.5</span> seconds. After a delay, trigger other Resonators within range\nActive Effect: Immediately gain 1 trap",
       "Passive Effect: When a trap is triggered, deals <span style=\"color:#0098DC;\">350%</span> ATK as Arts damage to all enemies in range and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> them for <span style=\"color:#0098DC;\">5</span> seconds. After a delay, trigger other Resonators within range\nActive Effect: Immediately gain 1 trap"
     ],
-    "rangeId": null,
+    "rangeId": "x-6",
     "activationType": "Auto",
     "spRecovery": "Auto",
     "spCost": [22, 21, 20, 19, 18, 17, 16, 15, 14, 12],
