@@ -10,7 +10,7 @@ import { HydrateAtoms } from "@/lib/jotai";
 import { capitalize } from "@/utils/typedStrings";
 import PsychedelicImg from "@/components/image/PsychedelicImg";
 import ScrollShadow from "@/components/layout/ScrollShadow";
-import { TabList, TabPanel } from "@/components/layout/Tabs";
+import { Tab, TabList, TabPanel } from "@/components/layout/Tabs";
 import Rarity from "@/features/characters/Rarity";
 import ArtistChips from "@/features/skins/ArtistChips";
 import * as Client from "./client";
@@ -127,16 +127,28 @@ function OutfitCarousel({ name, skins }: { name: string; skins: Skin[] }) {
         label={`${name} Outfit List`}
         className="no-scrollbar flex gap-4 overflow-x-scroll px-4 py-8 lg:px-16"
       >
-        {skins.map((skin) => (
-          <Client.SkinTab key={skin.id} id={skin.id} name={skin.name}>
+        {skins.map(({ id, name }) => (
+          <Tab
+            key={id}
+            id={id}
+            label={name}
+            activeClass="aspect-[3/2]"
+            className={cn(
+              "aspect-[3/8] h-32 shrink-0 overflow-clip sm:h-64",
+              "rounded-3xl outline-0 ring-white drop-shadow-xl",
+              "transition-[aspect-ratio] duration-500 hover:ring-2 focus:ring-2",
+              "has-[[data-prevtab]]:aspect-[3/4]",
+            )}
+          >
             <PsychedelicImg
-              src={`/images/character/skin/${encodeURIComponent(skin.id)}b.webp`}
+              src={`/images/character/skin/${encodeURIComponent(id)}b.webp`}
               width={128}
               height={128}
               dim
               classNames={{ wrapper: "size-full", image: "object-cover" }}
             />
-          </Client.SkinTab>
+            <Client.IsBeforeActiveSkin id={id} />
+          </Tab>
         ))}
       </TabList>
     </ScrollShadow>

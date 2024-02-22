@@ -46,20 +46,19 @@ function CarouselIndicator(props: { labels: { id: string; name: string }[] }) {
       label="Latest Operator Carousel"
       className="flex-center row-start-2 mx-auto my-4 w-full max-w-96 flex-wrap gap-2"
     >
-      <AutoNext>
-        {props.labels.map(({ id, name }) => (
-          <Tab
-            key={id}
-            id={id}
-            label={name}
-            activeClass="flex-1 bg-white"
-            className={cn(
-              "h-1.5 min-w-8 rounded-full bg-[#4D4D4D]",
-              "transition-[flex,background_color] duration-700",
-            )}
-          />
-        ))}
-      </AutoNext>
+      <AutoNext />
+      {props.labels.map(({ id, name }) => (
+        <Tab
+          key={id}
+          id={id}
+          label={name}
+          activeClass="flex-1 bg-white"
+          className={cn(
+            "h-1.5 min-w-8 rounded-full bg-[#4D4D4D]",
+            "transition-[flex,background_color] duration-700",
+          )}
+        />
+      ))}
     </TabList>
   );
 }

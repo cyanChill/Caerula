@@ -3,8 +3,7 @@ import { useAtomValue, useSetAtom } from "jotai";
 
 import { selectedSkinIdAtom } from "./store";
 
-import { cn } from "@/lib/style";
-import Tabs, { Tab, tabsKeysAtom } from "@/components/layout/Tabs";
+import Tabs, { activeTabIdxAtom, tabsKeysAtom } from "@/components/layout/Tabs";
 
 type SkinTabsProviderProps = { skinIds: string[]; children: React.ReactNode };
 
@@ -27,31 +26,15 @@ export function CurrentSkinHeroImage({ imgs }: CurrentSkinHeroImageProps) {
   return imgs[id];
 }
 
-type SkinTabProps = { id: string; name: string; children: React.ReactNode };
-
-/** @description Tab in our `<OutfitCarousel />`. */
-export function SkinTab({ id, name, children }: SkinTabProps) {
+/** @description Helps us indicate if a tab is before the selected tab. */
+export function IsBeforeActiveSkin({ id }: { id: string }) {
   const skinIds = useAtomValue(tabsKeysAtom);
-  const activeId = useAtomValue(selectedSkinIdAtom);
+  const activeIdx = useAtomValue(activeTabIdxAtom);
 
-  const activeIdx = skinIds.findIndex((i) => i === activeId);
   const currIdx = skinIds.findIndex((i) => i === id);
-  if (currIdx === -1 || activeIdx === -1) throw new Error("Invalid skin ids.");
+  if (currIdx === -1) throw new Error("Invalid skin id.");
   const isBeforeActive = currIdx - activeIdx === -1;
 
-  return (
-    <Tab
-      id={id}
-      label={name}
-      activeClass="aspect-[3/2]"
-      className={cn(
-        "aspect-[3/8] h-32 shrink-0 overflow-clip sm:h-64",
-        "rounded-3xl outline-0 ring-white drop-shadow-xl",
-        "transition-[aspect-ratio] duration-500 hover:ring-2 focus:ring-2",
-        { "aspect-[3/4]": isBeforeActive },
-      )}
-    >
-      {children}
-    </Tab>
-  );
+  if (!isBeforeActive) return null;
+  return <span aria-hidden="true" data-prevTab className="hidden" />;
 }
