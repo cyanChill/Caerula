@@ -33,7 +33,11 @@ export default function AnalysisTab(props: AnalysisTabProps) {
           <Talents talents={props.talents} />
           <Skills skills={props.skills} />
           <Potentials potentials={props.potentials} />
-          <Trait profession={props.profession} branchId={props.branch} />
+          <Trait
+            profession={props.profession}
+            branchId={props.branch}
+            is1Star={props.is1Star}
+          />
           <Network network={props.affiliation} />
         </div>
       </PotentialProvider>
@@ -50,6 +54,7 @@ export function getAnalysisTabContent(id: OperatorId) {
     branch: operator.branch,
     potentials: operator.potentials,
     talents: operator.talents,
+    is1Star: operator.rarity === 1,
     statRecipients: [
       {
         id: operator.id,
