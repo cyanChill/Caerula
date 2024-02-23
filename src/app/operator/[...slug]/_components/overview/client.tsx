@@ -36,5 +36,5 @@ export function IsBeforeActiveSkin({ id }: { id: string }) {
   const isBeforeActive = currIdx - activeIdx === -1;
 
   if (!isBeforeActive) return null;
-  return <span aria-hidden="true" data-prevTab className="hidden" />;
+  return <div aria-hidden="true" data-prevTab className="hidden" />;
 }
