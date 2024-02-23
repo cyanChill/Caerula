@@ -1,25 +1,17 @@
-"use client";
 import Image from "next/image";
 
 import { ArrowTopRight } from "@/assets/svgs/direction";
 import { Pinwheel } from "@/assets/svgs/shapes";
 import type { Operator } from "@/data/types/AKCharacter";
-import { useInterval } from "@/hooks/useInterval";
 
 import { cn } from "@/lib/style";
 import PsychedelicImg from "@/components/image/PsychedelicImg";
-import Tabs, {
-  Tab,
-  TabList,
-  TabPanel,
-  useDataStore,
-  useTabAsIdx,
-  useTabsActions,
-} from "@/components/layout/Tabs";
+import Tabs, { Tab, TabList, TabPanel } from "@/components/layout/Tabs";
 import ELink from "@/components/link/ELink";
 import Card from "@/components/ui/Card";
 import Chip from "@/components/ui/Chip";
 import Rarity from "@/features/characters/Rarity";
+import { AutoNext } from "./client";
 
 type OperatorExcerpt = Pick<
   Operator,
@@ -34,42 +26,32 @@ interface Props {
  * @description Gives a brief overview of each of the latest operators
  *  to be added to the game.
  */
-export default function OperatorPreviewTabs({ operators }: Props) {
+export default function NewOperators({ operators }: Props) {
   return (
-    <Tabs
-      storeId="latest-op"
-      dataStore={operators.map(({ id, name }) => ({ id, name }))}
-    >
+    <Tabs storeId="latest-op" tabKeys={operators.map(({ id }) => id)}>
       <div className="grid">
-        <CarouselIndicator />
+        <CarouselIndicator
+          labels={operators.map(({ id, name }) => ({ id, name }))}
+        />
         <OperatorInfo operators={operators} />
       </div>
     </Tabs>
   );
 }
 
-/**
- * @description Tablist to switch between the latest operators displayed.
- *  Automatically displays the next operator after 1 minute.
- */
-function CarouselIndicator() {
-  const dataStore = useDataStore();
-  const activeIdx = useTabAsIdx();
-  const { nextTab } = useTabsActions();
-
-  // Run interval once a minute
-  useInterval(nextTab, 60000, { resetDependency: activeIdx });
-
+/** @description Tablist to switch between the latest operators displayed. */
+function CarouselIndicator(props: { labels: { id: string; name: string }[] }) {
   return (
     <TabList
       label="Latest Operator Carousel"
       className="flex-center row-start-2 mx-auto my-4 w-full max-w-96 flex-wrap gap-2"
     >
-      {dataStore.map(({ id, name }) => (
+      <AutoNext />
+      {props.labels.map(({ id, name }) => (
         <Tab
           key={id}
           id={id}
-          label={name as string}
+          label={name}
           activeClass="flex-1 bg-white"
           className={cn(
             "h-1.5 min-w-8 rounded-full bg-[#4D4D4D]",

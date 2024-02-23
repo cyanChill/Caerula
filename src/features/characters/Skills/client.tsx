@@ -1,12 +1,14 @@
 "use client";
-import { useSkillLevel, useMaxSkillLevel, useSetSkillLevel } from "./store";
+import { useAtomValue, useSetAtom } from "jotai";
+
+import { skillLevelAtom, maxSkillLevelAtom, setSkillLevelAtom } from "./store";
 
 import Knob from "@/components/form/Knob";
 
 /** @description Allows us to modify the current skill level in our Skills store. */
 export function SkillLevelKnob() {
-  const maxSkillLevel = useMaxSkillLevel();
-  const setSkillLevel = useSetSkillLevel();
+  const maxSkillLevel = useAtomValue(maxSkillLevelAtom);
+  const setSkillLevel = useSetAtom(setSkillLevelAtom);
   return (
     <Knob
       label="Skill Level Selector"
@@ -23,7 +25,7 @@ export function SkillLevelKnob() {
 
 /** @description Icon representing the current skill level. */
 export function SkillLevelIcon({ icons }: { icons: React.ReactNode[] }) {
-  const skillLevel = useSkillLevel();
+  const skillLevel = useAtomValue(skillLevelAtom);
   return icons[skillLevel - 1];
 }
 
@@ -35,20 +37,20 @@ export function SkillAttrRenderer(props: {
   data: number[];
   children: React.ReactNode;
 }) {
-  const skillLevel = useSkillLevel();
+  const skillLevel = useAtomValue(skillLevelAtom);
   if (props.data[skillLevel - 1] <= 0) return null;
   return props.children;
 }
 
 /** @description Returns the skill attribute value at current skill level. */
 export function SkillAttrValue({ data }: { data: number[] }): React.ReactNode {
-  const skillLevel = useSkillLevel();
+  const skillLevel = useAtomValue(skillLevelAtom);
   return data[skillLevel - 1];
 }
 
 /** @description Returns the skill description based on the current skill level. */
 export function SkillDescription({ descriptions }: { descriptions: string[] }) {
-  const skillLevel = useSkillLevel();
+  const skillLevel = useAtomValue(skillLevelAtom);
   return (
     <p
       dangerouslySetInnerHTML={{ __html: descriptions[skillLevel - 1] }}

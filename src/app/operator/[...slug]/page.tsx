@@ -10,6 +10,7 @@ import VoiceTable from "@/data/operator/profile/voiceTable.json";
 
 import { cn } from "@/lib/style";
 import { constructMetadata } from "@/lib/metadata";
+import { JotaiProvider } from "@/lib/jotai";
 import Tabs, {
   Tab,
   TabList,
@@ -106,84 +107,86 @@ export default function Operator({ params }: Props) {
 
   return (
     <main className="mx-auto mb-[5svh] max-w-screen-2xl p-2 @container">
-      <OverviewProvider skinIds={skins.map(({ id }) => id)}>
-        <Overview
-          id={opId}
-          operator={{
-            name: operator.displayName,
-            position: operator.position,
-            tags: operator.tags,
-            rarity: operator.rarity,
-          }}
-          skins={skins}
-          cvTable={voices}
-        />
+      <JotaiProvider>
+        <OverviewProvider skinIds={skins.map(({ id }) => id)}>
+          <Overview
+            id={opId}
+            operator={{
+              name: operator.displayName,
+              position: operator.position,
+              tags: operator.tags,
+              rarity: operator.rarity,
+            }}
+            skins={skins}
+            cvTable={voices}
+          />
 
-        <Tabs
-          storeId="operator"
-          dataStore={EnabledTabs.map(({ id }) => ({ id }))}
-          preserveContext
-        >
-          <div className="pointer-events-none sticky left-0 top-4 z-[1] mt-8 flex justify-center *:pointer-events-auto">
-            <TabList
-              label="Operator Information"
-              className={cn(
-                "no-scrollbar flex max-w-[25rem] gap-2 overflow-x-auto p-2",
-                "rounded-full border-2 border-primary-30 backdrop-blur-2xl",
-              )}
-            >
-              {EnabledTabs.map(({ id, title, iconSrc }) => (
-                <Tab
-                  key={id}
-                  id={id}
-                  label={title}
-                  activeClass="bg-primary-30"
-                  className={cn(
-                    "flex shrink-0 items-center gap-2 px-2 py-1",
-                    "rounded-full transition duration-500 hover:bg-primary-30",
-                  )}
-                >
-                  <Image
-                    src={iconSrc}
-                    alt=""
-                    width={16}
-                    height={16}
-                    className="size-[1.5em]"
-                  />
-                  {title}
-                </Tab>
-              ))}
-              {DisabledTabs.map(({ id, title, iconSrc }) => (
-                <div
-                  key={id}
-                  aria-hidden="true"
-                  className="flex shrink-0 items-center gap-2 rounded-full px-2 py-1 opacity-50"
-                >
-                  <Image
-                    src={iconSrc}
-                    alt=""
-                    width={16}
-                    height={16}
-                    className="size-[1.5em]"
-                  />
-                  {title}
-                </div>
-              ))}
-            </TabList>
-          </div>
-          <TabPanelGroup>
-            <TabPanel id="analysis">
-              <AnalysisTab {...getAnalysisTabContent(opId)} />
-            </TabPanel>
-            <TabPanel id="files">
-              <FilesTab opId={opId} {...filesTabContent} />
-            </TabPanel>
-            <TabPanel id="costs">
-              <CostsTab {...costsTabContent} />
-            </TabPanel>
-          </TabPanelGroup>
-        </Tabs>
-      </OverviewProvider>
+          <Tabs
+            storeId="operator"
+            tabKeys={EnabledTabs.map(({ id }) => id)}
+            preserveContext
+          >
+            <div className="pointer-events-none sticky left-0 top-4 z-[1] mt-8 flex justify-center *:pointer-events-auto">
+              <TabList
+                label="Operator Information"
+                className={cn(
+                  "no-scrollbar flex max-w-[25rem] gap-2 overflow-x-auto p-2",
+                  "rounded-full border-2 border-primary-30 backdrop-blur-2xl",
+                )}
+              >
+                {EnabledTabs.map(({ id, title, iconSrc }) => (
+                  <Tab
+                    key={id}
+                    id={id}
+                    label={title}
+                    activeClass="bg-primary-30"
+                    className={cn(
+                      "flex shrink-0 items-center gap-2 px-2 py-1",
+                      "rounded-full transition duration-500 hover:bg-primary-30",
+                    )}
+                  >
+                    <Image
+                      src={iconSrc}
+                      alt=""
+                      width={16}
+                      height={16}
+                      className="size-[1.5em]"
+                    />
+                    {title}
+                  </Tab>
+                ))}
+                {DisabledTabs.map(({ id, title, iconSrc }) => (
+                  <div
+                    key={id}
+                    aria-hidden="true"
+                    className="flex shrink-0 items-center gap-2 rounded-full px-2 py-1 opacity-50"
+                  >
+                    <Image
+                      src={iconSrc}
+                      alt=""
+                      width={16}
+                      height={16}
+                      className="size-[1.5em]"
+                    />
+                    {title}
+                  </div>
+                ))}
+              </TabList>
+            </div>
+            <TabPanelGroup>
+              <TabPanel id="analysis">
+                <AnalysisTab {...getAnalysisTabContent(opId)} />
+              </TabPanel>
+              <TabPanel id="files">
+                <FilesTab opId={opId} {...filesTabContent} />
+              </TabPanel>
+              <TabPanel id="costs">
+                <CostsTab {...costsTabContent} />
+              </TabPanel>
+            </TabPanelGroup>
+          </Tabs>
+        </OverviewProvider>
+      </JotaiProvider>
     </main>
   );
 }

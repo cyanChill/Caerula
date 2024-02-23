@@ -24,6 +24,7 @@ type NavConfigItem = {
   | { type: "large"; theme: { primary: BgColor; button: BgColor } }
 );
 
+/** List of routes that we list in our navigation. */
 const navConfigs: NavConfigItem[] = [
   {
     title: "Home",
@@ -80,6 +81,7 @@ interface NavListProps {
   withHome?: boolean;
 }
 
+/** @description Lists out buttons to routes in our application. */
 export function NavList({ withHome = false }: NavListProps) {
   const items = withHome ? navConfigs : navConfigs.toSpliced(0, 1);
   return (
@@ -97,6 +99,7 @@ export function NavList({ withHome = false }: NavListProps) {
 
 type NavBtnProps = NavConfigItem & { viewExternal?: boolean };
 
+/** @description Stylized link component w/ 2 variants. */
 function NavBtn(props: NavBtnProps) {
   const { type, href, external = false, icon, title, theme } = props;
   const viewExternal = external || !!props.viewExternal;
@@ -170,6 +173,7 @@ function NavBtn(props: NavBtnProps) {
 
 type LinkIconProps = { type: "small" | "large"; external?: boolean };
 
+/** @description Helps indicate if a link goes to an external page. */
 function LinkIcon({ type, external }: LinkIconProps) {
   const iconClass = cn({
     "ml-auto size-[0.5em]": type === "small",

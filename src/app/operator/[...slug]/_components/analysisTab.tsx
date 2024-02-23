@@ -4,13 +4,13 @@ import SkillTable from "@/data/character/skillTable.json";
 import TokenTable from "@/data/token/tokenTable.json";
 
 import { cn } from "@/lib/style";
-import {
-  type Recipient,
+import type { Recipient } from "@/features/characters/Experience/store";
+import Experience, {
   ExperienceProvider,
-} from "@/features/characters/Experience/store";
-import Experience from "@/features/characters/Experience";
-import { PotentialProvider } from "@/features/characters/Potentials/store";
-import Potentials from "@/features/characters/Potentials";
+} from "@/features/characters/Experience";
+import Potentials, {
+  PotentialProvider,
+} from "@/features/characters/Potentials";
 import Network from "@/features/characters/Network";
 import Skills from "@/features/characters/Skills";
 import Talents from "@/features/characters/Talents";

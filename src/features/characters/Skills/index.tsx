@@ -1,14 +1,15 @@
 import Image from "next/image";
 
 import type { Skill } from "@/data/types/AKSkill";
+import { maxSkillLevelAtom } from "./store";
 
 import { cn } from "@/lib/style";
+import { HydrateAtoms } from "@/lib/jotai";
 import Tabs, { Tab, TabList, TabPanel } from "@/components/layout/Tabs";
 import Card from "@/components/ui/Card";
 import Chip from "@/components/ui/Chip";
 import { getSkillLevelIcons } from "@/components/ui/IconList";
 import { ContainedRange } from "@/features/characters/RangePattern";
-import { SkillProvider } from "./store";
 import * as Client from "./client";
 
 export type CharSkill = Skill & { tokenName?: string };
@@ -19,8 +20,8 @@ type SkillsProps = { skills: CharSkill[] };
 export default function Skills({ skills }: SkillsProps) {
   if (skills.length === 0) return null;
   return (
-    <SkillProvider hasMasteries={skills[0].initSp.length > 7}>
-      <Tabs storeId="char-skill" dataStore={skills.map(({ id }) => ({ id }))}>
+    <HydrateAtoms atomValues={[[maxSkillLevelAtom, skills[0].initSp.length]]}>
+      <Tabs storeId="char-skill" tabKeys={skills.map(({ id }) => id)}>
         <Card
           as="section"
           className={cn(
@@ -32,7 +33,7 @@ export default function Skills({ skills }: SkillsProps) {
           <SkillInfo skills={skills} />
         </Card>
       </Tabs>
-    </SkillProvider>
+    </HydrateAtoms>
   );
 }
 
@@ -55,10 +56,10 @@ function Actions({ skills }: SkillsProps) {
             key={id}
             id={id}
             label={name}
-            activeClass="ring-4 ring-secondary-60"
+            activeClass="ring-4"
             className={cn(
               "overflow-clip rounded-md shadow-lift outline-0",
-              "focus:ring-4 focus:ring-primary-60",
+              "ring-secondary-60 hover:ring-4 focus:ring-4 focus:ring-primary-60",
             )}
           >
             <Image

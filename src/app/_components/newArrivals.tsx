@@ -15,6 +15,7 @@ interface Props {
   })[];
 }
 
+/** @description Displays the list of the newest outfits for operators. */
 export default function NewArrivals({ skins }: Props) {
   return (
     <div className="grid gap-2 [--min-col-size:32rem] @sm:grid-cols-2 lg:grid-cols-autoFill lg:gap-4">

@@ -1,13 +1,32 @@
 import Image from "next/image";
 
 import { SpeakerGrill } from "@/assets/svgs/shapes";
-import type { Recipient } from "./store";
+import { type Recipient, recipientIdAtom, recipientsAtom } from "./store";
 
 import { cn } from "@/lib/style";
+import { HydrateAtoms } from "@/lib/jotai";
 import Card from "@/components/ui/Card";
 import { getPromotionIcons } from "@/components/ui/IconList";
 import { Tab, TabList } from "@/components/layout/Tabs";
 import * as Client from "./client"; // Fine since we're using everything
+
+interface ExperienceProviderProps extends ExperienceProps {
+  children: React.ReactNode;
+}
+
+/** @description Helps initialize our Experience store. */
+export function ExperienceProvider(props: ExperienceProviderProps) {
+  return (
+    <HydrateAtoms
+      atomValues={[
+        [recipientIdAtom, props.recipients[0].id],
+        [recipientsAtom, props.recipients],
+      ]}
+    >
+      {props.children}
+    </HydrateAtoms>
+  );
+}
 
 type ExperienceProps = { recipients: Recipient[] };
 
@@ -78,7 +97,6 @@ function PromotionSelector() {
  *  at the current level & promotion.
  */
 function StatsWidget(props: ExperienceProps) {
-  const dataStore = props.recipients.map(({ id }) => ({ id }));
   return (
     <Card
       as="section"
@@ -89,7 +107,7 @@ function StatsWidget(props: ExperienceProps) {
       )}
     >
       <Client.StatsTabsProvider
-        dataStore={dataStore}
+        tabKeys={props.recipients.map(({ id }) => id)}
         StatsTabList={<RecipientList {...props} />}
       />
     </Card>

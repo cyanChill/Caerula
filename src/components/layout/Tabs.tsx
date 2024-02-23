@@ -1,18 +1,59 @@
 "use client";
-import { createContext, useContext, useRef, useCallback } from "react";
-import { createStore } from "zustand";
-import { useStoreWithEqualityFn as useStore } from "zustand/traditional";
+import { useRef, useCallback } from "react";
+import { atom, useAtomValue, useSetAtom } from "jotai";
+import { ScopeProvider } from "jotai-scope";
 
 import { useKey } from "@/hooks/useKey";
 
 import { type WithCSS, cn } from "@/lib/style";
+import { HydrateAtoms } from "@/lib/jotai";
 
-type TabData = { id: string } & Record<string, unknown>;
+const tabsStoreIdAtom = atom("");
+export const tabsKeysAtom = atom<string[]>([]);
 
-interface TabsProps {
+const _activeTabAtom = atom("");
+export const activeTabAtom = atom(
+  (get) => get(_activeTabAtom),
+  (get, set, tabKey: string) => {
+    // Run `onChange` if it exists when this value changes
+    if (get(tabsOnChangeAtom).fn) get(tabsOnChangeAtom).fn!(tabKey);
+    set(_activeTabAtom, tabKey);
+  },
+);
+export const activeTabIdxAtom = atom((get) =>
+  get(tabsKeysAtom).findIndex((tabKey) => tabKey === get(activeTabAtom)),
+);
+
+export const nextTabAtom = atom(null, (get, set) => {
+  const tabKeys = get(tabsKeysAtom);
+  const tabAsIdx = get(activeTabIdxAtom);
+  set(
+    activeTabAtom,
+    tabKeys[tabAsIdx === tabKeys.length - 1 ? 0 : tabAsIdx + 1],
+  );
+});
+export const prevTabAtom = atom(null, (get, set) => {
+  const tabKeys = get(tabsKeysAtom);
+  const tabAsIdx = get(activeTabIdxAtom);
+  set(
+    activeTabAtom,
+    tabKeys[tabAsIdx === 0 ? tabKeys.length - 1 : tabAsIdx - 1],
+  );
+});
+export const selectTabAtom = atom(null, (get, set, tabKey: string) => {
+  const isKeyValid = get(tabsKeysAtom).includes(tabKey);
+  if (isKeyValid) set(activeTabAtom, tabKey);
+});
+
+// Tabs config atoms
+const tabsOnChangeAtom = atom<{ fn?: (id: string) => void }>({
+  fn: undefined,
+});
+const preserveContextAtom = atom(false);
+
+type TabsProps = {
   storeId: string;
-  /** Data we want to expose that can be used by other components under the provider. */
-  dataStore: TabData[];
+  tabKeys: string[];
   /**
    * Callback function that triggers when we switch tabs. Useful when we're
    * integrating with a different store/context.
@@ -20,101 +61,37 @@ interface TabsProps {
   onChange?: (id: string) => void;
   /** If we want to preserve the state inside `<TabPanel />` when we switch tabs. */
   preserveContext?: boolean;
-}
-
-interface TabsState extends TabsProps {
-  tabKeys: string[];
-
-  tab: string;
-  tabAsIdx: number;
-  tabData: TabData;
-
-  actions: {
-    nextTab: () => void;
-    prevTab: () => void;
-    selectTab: (id: string) => void;
-  };
-}
-
-type TabsStore = ReturnType<typeof createTabStore>;
-
-const createTabStore = (initProps: TabsProps) => {
-  const initTab = initProps.dataStore[0];
-  const initInferredVals = {
-    tabKeys: initProps.dataStore.map(({ id }) => id),
-    tab: initTab.id,
-    tabAsIdx: 0,
-    tabData: initTab,
-    preserveContext: !!initProps.preserveContext,
-  };
-
-  return createStore<TabsState>()((set) => ({
-    ...initProps,
-    ...initInferredVals,
-    actions: {
-      nextTab: () =>
-        set(({ dataStore, tabAsIdx, onChange }) => {
-          const newIdx = tabAsIdx === dataStore.length - 1 ? 0 : tabAsIdx + 1;
-          const newTabData = dataStore[newIdx];
-          if (onChange) onChange(newTabData.id);
-          return { tab: newTabData.id, tabAsIdx: newIdx, tabData: newTabData };
-        }),
-      prevTab: () =>
-        set(({ dataStore, tabAsIdx, onChange }) => {
-          const newIdx = tabAsIdx === 0 ? dataStore.length - 1 : tabAsIdx - 1;
-          const newTabData = dataStore[newIdx];
-          if (onChange) onChange(newTabData.id);
-          return { tab: newTabData.id, tabAsIdx: newIdx, tabData: newTabData };
-        }),
-      selectTab: (newTabId: string) =>
-        set(({ dataStore, tab, onChange }) => {
-          const newTabData = dataStore.find(({ id }) => id === newTabId);
-          if (!newTabData || newTabId === tab) return {};
-          const newIdx = dataStore.findIndex(({ id }) => id === newTabId);
-          if (onChange) onChange(newTabId);
-          return { tab: newTabData.id, tabAsIdx: newIdx, tabData: newTabData };
-        }),
-    },
-  }));
 };
-
-const TabsContext = createContext<TabsStore | null>(null);
 
 /**
  * @description The context provider of this namespace component. All
  *  tab-related components must be under this.
  */
-export default function Tabs({
-  children,
-  ...props
-}: React.PropsWithChildren<TabsProps>) {
-  const storeRef = useRef<TabsStore>();
-  if (!storeRef.current) storeRef.current = createTabStore(props);
+export default function Tabs(props: React.PropsWithChildren<TabsProps>) {
   return (
-    <TabsContext.Provider value={storeRef.current}>
-      {children}
-    </TabsContext.Provider>
+    <ScopeProvider
+      atoms={[
+        tabsStoreIdAtom,
+        tabsKeysAtom,
+        tabsOnChangeAtom,
+        preserveContextAtom,
+        _activeTabAtom,
+      ]}
+    >
+      <HydrateAtoms
+        atomValues={[
+          [tabsStoreIdAtom, props.storeId],
+          [tabsKeysAtom, props.tabKeys],
+          [_activeTabAtom, props.tabKeys[0]],
+          [tabsOnChangeAtom, { fn: props.onChange }],
+          [preserveContextAtom, !!props.preserveContext],
+        ]}
+      >
+        {props.children}
+      </HydrateAtoms>
+    </ScopeProvider>
   );
 }
-
-/** @description Internal hook for accessing context. */
-function useTabsStore<T>(selector: (state: TabsState) => T): T {
-  const store = useContext(TabsContext);
-  if (!store) throw new Error("Cannot use outside of TabsProvider.");
-  return useStore(store, selector);
-}
-
-/* Export selectors manually to prevent subscribing to the entire store. */
-export const useStoreId = () => useTabsStore((s) => s.storeId);
-export const useDataStore = () => useTabsStore((s) => s.dataStore);
-export const useTabKeys = () => useTabsStore((s) => s.tabKeys);
-export const usePreserveContext = () => useTabsStore((s) => s.preserveContext);
-
-export const useTab = () => useTabsStore((s) => s.tab);
-export const useTabAsIdx = () => useTabsStore((s) => s.tabAsIdx);
-export const useTabData = () => useTabsStore((s) => s.tabData);
-
-export const useTabsActions = () => useTabsStore((s) => s.actions);
 
 /* Components that utilize our Tabs Store. */
 type BaseStyleProps = WithCSS<{ children?: React.ReactNode }>;
@@ -135,9 +112,11 @@ export function TabList({
 }>) {
   const tabListRef = useRef<HTMLDivElement>(null);
 
-  const tabKeys = useTabKeys();
-  const activeIdx = useTabAsIdx();
-  const { nextTab, prevTab, selectTab } = useTabsActions();
+  const tabKeys = useAtomValue(tabsKeysAtom);
+  const activeIdx = useAtomValue(activeTabIdxAtom);
+  const nextTab = useSetAtom(nextTabAtom);
+  const prevTab = useSetAtom(prevTabAtom);
+  const selectTab = useSetAtom(selectTabAtom);
 
   const isVertical = orientation === "vertical";
 
@@ -192,9 +171,9 @@ type SingleTabProps = BaseTabProps & { label?: string; activeClass?: string };
 
 /** @description Unstyled `<button />` to select the current tab. */
 export function Tab({ id, children, ...props }: SingleTabProps) {
-  const storeId = useStoreId();
-  const tab = useTab();
-  const { selectTab } = useTabsActions();
+  const storeId = useAtomValue(tabsStoreIdAtom);
+  const tab = useAtomValue(activeTabAtom);
+  const selectTab = useSetAtom(selectTabAtom);
   return (
     <button
       id={`${storeId}-tt-${id}`}
@@ -226,9 +205,9 @@ export function TabPanelGroup({ style, className, children }: BaseStyleProps) {
 
 /** @description Unstyled `<div />` containing content of the current tab. */
 export function TabPanel({ id, children, ...props }: BaseTabProps) {
-  const storeId = useStoreId();
-  const tab = useTab();
-  const preserveContext = usePreserveContext();
+  const storeId = useAtomValue(tabsStoreIdAtom);
+  const tab = useAtomValue(activeTabAtom);
+  const preserveContext = useAtomValue(preserveContextAtom);
   const isSelected = id === tab;
   if (!isSelected && !preserveContext) return null;
   return (

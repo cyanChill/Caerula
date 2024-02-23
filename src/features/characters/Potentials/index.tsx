@@ -1,6 +1,23 @@
+import { maxPotentialAtom } from "./store";
+
+import { HydrateAtoms } from "@/lib/jotai";
 import Card from "@/components/ui/Card";
 import { getPotentialIcons } from "@/components/ui/IconList";
 import * as Client from "./client"; // Fine since we're using everything
+
+type PotentialProviderProps = {
+  numPotentials: number;
+  children: React.ReactNode;
+};
+
+/** @description Helps set the max potential value. */
+export function PotentialProvider(props: PotentialProviderProps) {
+  return (
+    <HydrateAtoms atomValues={[[maxPotentialAtom, props.numPotentials + 1]]}>
+      {props.children}
+    </HydrateAtoms>
+  );
+}
 
 /** @description Interactive way of displaying the potentials of an operator. */
 export default function Potentials({ potentials }: { potentials: string[] }) {

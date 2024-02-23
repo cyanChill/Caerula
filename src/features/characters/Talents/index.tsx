@@ -2,11 +2,13 @@ import Image from "next/image";
 
 import type { CharacterTalent } from "@/data/types/shared";
 import { CircleArrow } from "@/assets/svgs/direction";
+import { talentsAtom } from "./store";
 
 import { cn } from "@/lib/style";
+import { HydrateAtoms } from "@/lib/jotai";
+import { ScopeProvider } from "@/lib/jotai/scope";
 import Card from "@/components/ui/Card";
 import { getPotentialIcons, getPromotionIcons } from "@/components/ui/IconList";
-import { TalentProvider } from "./store";
 import * as Client from "./client";
 
 type TalentsProps = { talents: Record<number, CharacterTalent[]> };
@@ -28,9 +30,11 @@ export default function Talents({ talents }: TalentsProps) {
       )}
     >
       {Object.values(talents).map((talent, idx) => (
-        <TalentProvider key={idx} talent={talent}>
-          <Talent />
-        </TalentProvider>
+        <ScopeProvider key={idx} atoms={[talentsAtom]}>
+          <HydrateAtoms atomValues={[[talentsAtom, talent]]}>
+            <Talent />
+          </HydrateAtoms>
+        </ScopeProvider>
       ))}
       <Image
         src={`/patterns/crystal.webp`}
