@@ -97,6 +97,14 @@ const config: Config = {
           60: "#EB6A28",
           70: "#FF8C57",
         },
+        rarity: {
+          1: "#A0A0A0",
+          2: "#DAE33E",
+          3: "#00B3FD",
+          4: "#D6C5D6",
+          5: "#FFC802",
+          6: "#DC7621",
+        },
       },
       boxShadow: {
         lift: "0 1px 2px 1px rgba(0, 0, 0, 0.25)",
