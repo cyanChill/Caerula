@@ -10,6 +10,8 @@ export type OperatorId = (typeof OperatorIds)[number];
 export type RoleTag = (typeof RoleTags)[number];
 export type TokenId = (typeof TokenIds)[number];
 
+export type CharacterDamage = "NONE" | "PHYSICAL" | "MAGICAL" | "HEAL";
+
 /** @description Specification of skill mastery cost. */
 export type OpSkill = {
   id: SkillId;
