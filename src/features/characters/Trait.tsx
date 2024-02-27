@@ -1,19 +1,14 @@
 import Image from "next/image";
 
-import type { BranchId, Profession } from "@/data/types/AKClass";
+import type { BranchId } from "@/data/types/AKClass";
 import { BranchTable } from "@/data/types/AKClass";
 
 import { cn } from "@/lib/style";
 import Card from "@/components/ui/Card";
 
-interface Props {
-  profession: Profession;
-  branchId: BranchId;
-}
-
 /** @description Displays the trait of an operator's branch. */
-export default function Trait({ profession, branchId }: Props) {
-  const { name, trait } = BranchTable[branchId];
+export default function Trait({ branchId }: { branchId: BranchId }) {
+  const { name, profession, trait } = BranchTable[branchId];
   return (
     <Card
       as="section"

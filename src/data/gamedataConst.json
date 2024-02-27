@@ -510,6 +510,12 @@
       "description": "Includes the following Operators:\nSilence, Ifrit, Saria, Ptilopsis, Mayer, Magallan, Dorothy, Astgenne, Muelsyse",
       "slug": "rhine_lab"
     },
+    "cc.g.sm": {
+      "id": "cc.g.sm",
+      "name": "Sami",
+      "description": "Includes the following Operators:\nGitano, Bibeak, Qanipalaat, Typhon, Santalla, Valarqvin",
+      "slug": "sami"
+    },
     "cc.c.abyssal2_1": {
       "id": "cc.c.abyssal2_1",
       "name": "Special Bonus",
@@ -543,7 +549,7 @@
     "cc.c.skill": {
       "id": "cc.c.skill",
       "name": "Certain Skills",
-      "description": "Includes the following skills: \nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed",
+      "description": "Includes the following skills: \nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed, Million Dollar Smile",
       "slug": "certain_skills"
     },
     "cc.t.strong2": {
