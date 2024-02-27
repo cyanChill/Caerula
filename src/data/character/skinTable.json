@@ -2889,6 +2889,28 @@
       "artists": ["野崎つばた"],
       "releasedAt": 0
     },
+    "char_341_sntlla_1": {
+      "id": "char_341_sntlla_1",
+      "usedBy": "char_341_sntlla",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Santalla's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["Studio Montagne"],
+      "releasedAt": 0
+    },
+    "char_341_sntlla_2": {
+      "id": "char_341_sntlla_2",
+      "usedBy": "char_341_sntlla",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Santalla's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["Studio Montagne"],
+      "releasedAt": 0
+    },
     "char_388_mint_1": {
       "id": "char_388_mint_1",
       "usedBy": "char_388_mint",
@@ -4242,6 +4264,28 @@
       "artists": ["YUJI"],
       "releasedAt": 0
     },
+    "char_4102_threye_1": {
+      "id": "char_4102_threye_1",
+      "usedBy": "char_4102_threye",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Valarqvin's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["伍秋秋秋秋"],
+      "releasedAt": 0
+    },
+    "char_4102_threye_2": {
+      "id": "char_4102_threye_2",
+      "usedBy": "char_4102_threye",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Valarqvin's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["伍秋秋秋秋"],
+      "releasedAt": 0
+    },
     "char_215_mantic_1": {
       "id": "char_215_mantic_1",
       "usedBy": "char_215_mantic",
@@ -4614,6 +4658,28 @@
       "imgAlt": "Rosa's \"Elite 2\" skin",
       "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
       "artists": ["Skade"],
+      "releasedAt": 0
+    },
+    "char_2012_typhon_1": {
+      "id": "char_2012_typhon_1",
+      "usedBy": "char_2012_typhon",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Typhon's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["LM7"],
+      "releasedAt": 0
+    },
+    "char_2012_typhon_2": {
+      "id": "char_2012_typhon_2",
+      "usedBy": "char_2012_typhon",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Typhon's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["LM7"],
       "releasedAt": 0
     },
     "char_391_rosmon_1": {
@@ -6759,7 +6825,7 @@
       "imgAlt": "Amiya's \"Seedsower\" skin",
       "description": "Test Collection Series/Seedsower. A loose yet comfortable outdoors fit. Comes with an exclusive miniature mountain-grade rucksack and an agricultural nursery kit. The designer has one small wish of her own, and hopes that we can all help to realize it.",
       "artists": ["唯@W"],
-      "releasedAt": 1701795600
+      "releasedAt": 1701777600
     },
     "char_202_demkni_test#1": {
       "id": "char_202_demkni_test#1",
@@ -6848,6 +6914,17 @@
       "description": "Test Collection Series/There They Be. Saga's attire when she left P'o-shan Village, with Biteys for pockets and straw sandals. What is in the scrolls cannot be removed, but after so much time spent with oneselves, what was drawn in ink is now etched in the heart.",
       "artists": ["多元菌"],
       "releasedAt": 1703160000
+    },
+    "char_010_chen_sale#10": {
+      "id": "char_010_chen_sale#10",
+      "usedBy": "char_010_chen",
+      "brandId": "sale",
+      "subBrand": { "id": "2024#sale", "name": "Test Collection/XI" },
+      "name": "After Storm",
+      "imgAlt": "Ch'en's \"After Storm\" skin",
+      "description": "Test Collection Series/After Storm. Frost inevitably gives way to a clear day. Ch'en Hui-chieh patrols the city in her first L.G.D. uniform, re-inspecting the metropolis both familiar and foreign to her.",
+      "artists": ["伍秋秋秋秋"],
+      "releasedAt": 1709089200
     },
     "char_208_melan_epoque#1": {
       "id": "char_208_melan_epoque#1",
@@ -7420,6 +7497,17 @@
       "description": "EPOQUE Collection New Arrivals/Invitation. A set of formalwear Harmonie wears while enjoying the afternoon in her study. The smart tailoring makes her skirt move in a beautiful curve, and the fabrics are specially chosen to hide any stray fur stuck on her clothes.",
       "artists": ["STAR影法师"],
       "releasedAt": 1698148800
+    },
+    "char_135_halo_epoque#25": {
+      "id": "char_135_halo_epoque#25",
+      "usedBy": "char_135_halo",
+      "brandId": "epoque",
+      "subBrand": { "id": "2023#epoque#7", "name": "EPOQUE/XXV" },
+      "name": "Her Aspiration",
+      "imgAlt": "Astgenne's \"Her Aspiration\" skin",
+      "description": "EPOQUE Collection New Arrivals/Her Aspiration. The clothes Astgenne wore in her rented home. A lab coat thrown over an elegant and close fit, for she must always be ready for a whimsical stroke of inspiration for her experiments.",
+      "artists": ["YUJI"],
+      "releasedAt": 1709658000
     },
     "char_120_hibisc_nian#1": {
       "id": "char_120_hibisc_nian#1",
@@ -8179,6 +8267,94 @@
       "description": "MARTHE [Coral Coast] Summer Flowers Series FA374. Brings out a girl's figure and physique using all-natural materials. Pursue this summer's hottest trend.",
       "artists": ["IRIS_呓"],
       "releasedAt": 1673611200
+    },
+    "char_479_sleach_summer#11": {
+      "id": "char_479_sleach_summer#11",
+      "usedBy": "char_479_sleach",
+      "brandId": "summer",
+      "subBrand": { "id": "2023#summer", "name": "Coral Coast/XI" },
+      "name": "Summer Flowers FA317",
+      "imgAlt": "Saileach's \"Summer Flowers FA317\" skin",
+      "description": "MARTHE [Coral Coast] Summer Flowers Series FA317. Brings out a girl's figure and physique using all-natural materials. Pursue this summer's hottest trend.",
+      "artists": ["下野宏铭"],
+      "releasedAt": 1709035200
+    },
+    "token_10027_ironmn_pile1_summer#11": {
+      "id": "token_10027_ironmn_pile1_summer#11",
+      "usedBy": "token_10027_ironmn_pile1",
+      "brandId": "summer",
+      "subBrand": { "id": "2023#summer", "name": "Coral Coast/XI" },
+      "name": "Beach Guard GT003",
+      "imgAlt": "Stainless™ Multifunctional Platform's \"Beach Guard GT003\" skin",
+      "description": null,
+      "artists": null,
+      "releasedAt": 1709035200
+    },
+    "token_10027_ironmn_pile2_summer#11": {
+      "id": "token_10027_ironmn_pile2_summer#11",
+      "usedBy": "token_10027_ironmn_pile2",
+      "brandId": "summer",
+      "subBrand": { "id": "2023#summer", "name": "Coral Coast/XI" },
+      "name": "Beach Guard GT003",
+      "imgAlt": "Stainless™ Multifunctional Platform's \"Beach Guard GT003\" skin",
+      "description": null,
+      "artists": null,
+      "releasedAt": 1709035200
+    },
+    "token_10027_ironmn_pile3_summer#11": {
+      "id": "token_10027_ironmn_pile3_summer#11",
+      "usedBy": "token_10027_ironmn_pile3",
+      "brandId": "summer",
+      "subBrand": { "id": "2023#summer", "name": "Coral Coast/XI" },
+      "name": "Beach Guard GT003",
+      "imgAlt": "Prototype of Feist's Metal Crab's \"Beach Guard GT003\" skin",
+      "description": null,
+      "artists": null,
+      "releasedAt": 1709035200
+    },
+    "char_4072_ironmn_summer#11": {
+      "id": "char_4072_ironmn_summer#11",
+      "usedBy": "char_4072_ironmn",
+      "brandId": "summer",
+      "subBrand": { "id": "2023#summer", "name": "Coral Coast/XI" },
+      "name": "Beach Guard GT003",
+      "imgAlt": "Stainless's \"Beach Guard GT003\" skin",
+      "description": "MARTHE [Coral Coast] Beach Guard Series GT003. Made with materials that are both durable and comfortable, this outfit ensures high performance in a variety of different conditions.",
+      "artists": ["一千"],
+      "releasedAt": 1709035200
+    },
+    "token_10011_beewax_oblisk_summer#11": {
+      "id": "token_10011_beewax_oblisk_summer#11",
+      "usedBy": "token_10011_beewax_oblisk",
+      "brandId": "summer",
+      "subBrand": { "id": "2023#summer", "name": "Coral Coast/XI" },
+      "name": "Holiday HD61",
+      "imgAlt": "Sand Obelisk's \"Holiday HD61\" skin",
+      "description": null,
+      "artists": null,
+      "releasedAt": 1709035200
+    },
+    "char_344_beewax_summer#11": {
+      "id": "char_344_beewax_summer#11",
+      "usedBy": "char_344_beewax",
+      "brandId": "summer",
+      "subBrand": { "id": "2023#summer", "name": "Coral Coast/XI" },
+      "name": "Holiday HD61",
+      "imgAlt": "Beeswax's \"Holiday HD61\" skin",
+      "description": "MARTHE [Coral Coast] Holiday Series HD61. Comfortable, relaxed, breathable, and lightweight. Allows you to enjoy a perfect beach experience in absolute relaxation.",
+      "artists": ["カワグチ"],
+      "releasedAt": 1709035200
+    },
+    "char_302_glaze_summer#11": {
+      "id": "char_302_glaze_summer#11",
+      "usedBy": "char_302_glaze",
+      "brandId": "summer",
+      "subBrand": { "id": "2023#summer", "name": "Coral Coast/XI" },
+      "name": "Holiday HD29",
+      "imgAlt": "Ambriel's \"Holiday HD29\" skin",
+      "description": "MARTHE [Coral Coast] Holiday Series HD29. Comfortable, relaxed, breathable, and lightweight. Allows you to enjoy a perfect beach experience in absolute relaxation.",
+      "artists": ["水滴鱼"],
+      "releasedAt": 1709035200
     },
     "char_1026_gvial2_summer#12": {
       "id": "char_1026_gvial2_summer#12",
@@ -9797,6 +9973,17 @@
       "artists": ["我妻洛酱"],
       "releasedAt": 1672142400
     },
+    "char_4019_ncdeer_ncdeer#1": {
+      "id": "char_4019_ncdeer_ncdeer#1",
+      "usedBy": "char_4019_ncdeer",
+      "brandId": "crossover",
+      "subBrand": { "id": "2023#ncdeer", "name": "Nine-Colored Deer" },
+      "name": "A Silvern Caress On the Flow of Time",
+      "imgAlt": "Nine-Colored Deer's \"A Silvern Caress On the Flow of Time\" skin",
+      "description": "'Nine-Colored Deer' Collaborative Series/A Silvern Caress On the Flow of Time. Crossing the golden sands yet leaving nary a trace, time passes quietly along with the moon's shadow. Nine-Colored Deer meticulously counts the tracks left behind by the passing years, and thus the full moon pauses, seeking one to converse with.",
+      "artists": ["IRIS_呓"],
+      "releasedAt": 1710759600
+    },
     "char_4014_lunacu_yun#1": {
       "id": "char_4014_lunacu_yun#1",
       "usedBy": "char_4014_lunacu",
@@ -9870,7 +10057,7 @@
     "char_133_mm": ["char_133_mm_1", "char_133_mm_2"],
     "char_118_yuki": ["char_118_yuki_1", "char_118_yuki_2", "char_118_yuki_boc#2"],
     "char_440_pinecn": ["char_440_pinecn_1", "char_440_pinecn_2", "char_440_pinecn_shining#1"],
-    "char_302_glaze": ["char_302_glaze_1", "char_302_glaze_2"],
+    "char_302_glaze": ["char_302_glaze_1", "char_302_glaze_2", "char_302_glaze_summer#11"],
     "char_366_acdrop": ["char_366_acdrop_1", "char_366_acdrop_2", "char_366_acdrop_whirlwind#4"],
     "char_4062_totter": ["char_4062_totter_1", "char_4062_totter_2"],
     "char_198_blackd": [
@@ -10042,14 +10229,20 @@
     "char_166_skfire": ["char_166_skfire_1", "char_166_skfire_2", "char_166_skfire_summer#1"],
     "char_509_acast": ["char_509_acast_1"],
     "char_306_leizi": ["char_306_leizi_1", "char_306_leizi_2"],
-    "char_135_halo": ["char_135_halo_1", "char_135_halo_2"],
-    "char_344_beewax": ["char_344_beewax_1", "char_344_beewax_2", "char_344_beewax_epoque#9"],
+    "char_135_halo": ["char_135_halo_1", "char_135_halo_2", "char_135_halo_epoque#25"],
+    "char_344_beewax": [
+      "char_344_beewax_1",
+      "char_344_beewax_2",
+      "char_344_beewax_epoque#9",
+      "char_344_beewax_summer#11"
+    ],
     "char_373_lionhd": [
       "char_373_lionhd_1",
       "char_373_lionhd_2",
       "char_373_lionhd_wild#3",
       "char_373_lionhd_snow#3"
     ],
+    "char_341_sntlla": ["char_341_sntlla_1", "char_341_sntlla_2"],
     "char_388_mint": ["char_388_mint_1", "char_388_mint_2", "char_388_mint_epoque#22"],
     "char_338_iris": ["char_338_iris_1", "char_338_iris_2", "char_338_iris_witch#3"],
     "char_297_hamoni": ["char_297_hamoni_1", "char_297_hamoni_2", "char_297_hamoni_epoque#24"],
@@ -10150,8 +10343,9 @@
     ],
     "char_4045_heidi": ["char_4045_heidi_1", "char_4045_heidi_2", "char_4045_heidi_epoque#24"],
     "char_343_tknogi": ["char_343_tknogi_1", "char_343_tknogi_2", "char_343_tknogi_epoque#9"],
-    "char_4019_ncdeer": ["char_4019_ncdeer_1", "char_4019_ncdeer_2"],
+    "char_4019_ncdeer": ["char_4019_ncdeer_1", "char_4019_ncdeer_2", "char_4019_ncdeer_ncdeer#1"],
     "char_492_quercu": ["char_492_quercu_1", "char_492_quercu_2", "char_492_quercu_epoque#17"],
+    "char_4102_threye": ["char_4102_threye_1", "char_4102_threye_2"],
     "char_215_mantic": [
       "char_215_mantic_1",
       "char_215_mantic_2",
@@ -10189,6 +10383,7 @@
     "char_113_cqbw": ["char_113_cqbw_1", "char_113_cqbw_2", "char_113_cqbw_epoque#7"],
     "char_300_phenxi": ["char_300_phenxi_1", "char_300_phenxi_2"],
     "char_197_poca": ["char_197_poca_1", "char_197_poca_2", "char_197_poca_epoque#12"],
+    "char_2012_typhon": ["char_2012_typhon_1", "char_2012_typhon_2"],
     "char_391_rosmon": ["char_391_rosmon_1", "char_391_rosmon_2", "char_391_rosmon_epoque#17"],
     "char_1013_chen2": ["char_1013_chen2_1", "char_1013_chen2_2", "char_1013_chen2_boc#6"],
     "char_112_siege": [
@@ -10199,7 +10394,12 @@
     ],
     "char_222_bpipe": ["char_222_bpipe_1", "char_222_bpipe_2", "char_222_bpipe_race#1"],
     "char_362_saga": ["char_362_saga_1", "char_362_saga_2", "char_362_saga_sale#9"],
-    "char_479_sleach": ["char_479_sleach_1", "char_479_sleach_2", "char_479_sleach_epoque#14"],
+    "char_479_sleach": [
+      "char_479_sleach_1",
+      "char_479_sleach_2",
+      "char_479_sleach_epoque#14",
+      "char_479_sleach_summer#11"
+    ],
     "char_420_flamtl": ["char_420_flamtl_1", "char_420_flamtl_2", "char_420_flamtl_game#2"],
     "char_427_vigil": ["char_427_vigil_1", "char_427_vigil_2"],
     "char_249_mlyss": ["char_249_mlyss_1", "char_249_mlyss_2"],
@@ -10248,7 +10448,7 @@
     "char_1012_skadi2": ["char_1012_skadi2_1", "char_1012_skadi2_2", "char_1012_skadi2_boc#4"],
     "char_1031_slent2": ["char_1031_slent2_1", "char_1031_slent2_2"],
     "char_2023_ling": ["char_2023_ling_1", "char_2023_ling_2", "char_2023_ling_nian#9"],
-    "char_4072_ironmn": ["char_4072_ironmn_1", "char_4072_ironmn_2"],
+    "char_4072_ironmn": ["char_4072_ironmn_1", "char_4072_ironmn_2", "char_4072_ironmn_summer#11"],
     "char_250_phatom": [
       "char_250_phatom_1",
       "char_250_phatom_2",
@@ -10313,7 +10513,12 @@
     ],
     "char_293_thorns": ["char_293_thorns_1", "char_293_thorns_2", "char_293_thorns_it#1"],
     "char_4082_qiubai": ["char_4082_qiubai_1", "char_4082_qiubai_2"],
-    "char_010_chen": ["char_010_chen_1", "char_010_chen_2", "char_010_chen_nian#2"],
+    "char_010_chen": [
+      "char_010_chen_1",
+      "char_010_chen_2",
+      "char_010_chen_nian#2",
+      "char_010_chen_sale#10"
+    ],
     "char_4009_irene": [
       "char_4009_irene_1",
       "char_4009_irene_2",
@@ -10372,7 +10577,7 @@
     "token_10008_cqbw_box": ["token_10008_cqbw_box"],
     "token_10009_weedy_cannon": ["token_10009_weedy_cannon", "token_10009_weedy_cannon_snow#2"],
     "token_10010_folivo_car": ["token_10010_folivo_car", "token_10010_folivo_car_epoque#22"],
-    "token_10011_beewax_oblisk": ["token_10011_beewax_oblisk"],
+    "token_10011_beewax_oblisk": ["token_10011_beewax_oblisk", "token_10011_beewax_oblisk_summer#11"],
     "token_10012_rosmon_shield": ["token_10012_rosmon_shield", "token_10012_rosmon_shield_epoque#17"],
     "token_10013_robin_mine": ["token_10013_robin_mine", "token_10013_robin_mine_epoque#13"],
     "token_10014_bstalk_crab": ["token_10014_bstalk_crab", "token_10014_bstalk_crab_snow#4"],
@@ -10399,9 +10604,9 @@
     "token_10024_ebnhlz_rcube": ["token_10024_ebnhlz_rcube"],
     "token_10025_doroth_recttp": ["token_10025_doroth_recttp"],
     "token_10026_bgsnow_subbow": ["token_10026_bgsnow_subbow", "token_10026_bgsnow_subbow_wild#7"],
-    "token_10027_ironmn_pile1": ["token_10027_ironmn_pile1"],
-    "token_10027_ironmn_pile2": ["token_10027_ironmn_pile2"],
-    "token_10027_ironmn_pile3": ["token_10027_ironmn_pile3"],
+    "token_10027_ironmn_pile1": ["token_10027_ironmn_pile1", "token_10027_ironmn_pile1_summer#11"],
+    "token_10027_ironmn_pile2": ["token_10027_ironmn_pile2", "token_10027_ironmn_pile2_summer#11"],
+    "token_10027_ironmn_pile3": ["token_10027_ironmn_pile3", "token_10027_ironmn_pile3_summer#11"],
     "token_10028_vigil_wolf": ["token_10028_vigil_wolf"],
     "token_10029_slent2_protrb": ["token_10029_slent2_protrb"],
     "token_10030_mlyss_wtrman": ["token_10030_mlyss_wtrman"],

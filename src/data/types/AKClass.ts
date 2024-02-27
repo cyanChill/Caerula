@@ -40,8 +40,7 @@ export const BranchTable = {
     profession: "Vanguard",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Has <span style="color:#00B0FF;">reduced</span> Redeployment Time, can use ranged attacks',
+    trait: "Has <span style=\"color:#00B0FF;\">reduced</span> Redeployment Time, can use ranged attacks"
   },
   aoesniper: {
     id: "aoesniper",
@@ -49,7 +48,7 @@ export const BranchTable = {
     profession: "Sniper",
     position: "RANGED",
     damageType: "PHYSICAL",
-    trait: 'Deals <span style="color:#00B0FF;">AOE Physical damage</span>',
+    trait: "Deals <span style=\"color:#00B0FF;\">AOE Physical damage</span>"
   },
   artsfghter: {
     id: "artsfghter",
@@ -57,7 +56,7 @@ export const BranchTable = {
     profession: "Guard",
     position: "MELEE",
     damageType: "MAGICAL",
-    trait: 'Deals <span style="color:#00B0FF;">Arts damage</span>',
+    trait: "Deals <span style=\"color:#00B0FF;\">Arts damage</span>"
   },
   artsprotector: {
     id: "artsprotector",
@@ -65,7 +64,7 @@ export const BranchTable = {
     profession: "Defender",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait: "Normal attacks deal Arts damage while the skill is active",
+    trait: "Normal attacks deal Arts damage while the skill is active"
   },
   bard: {
     id: "bard",
@@ -73,8 +72,7 @@ export const BranchTable = {
     profession: "Supporter",
     position: "RANGED",
     damageType: "NONE",
-    trait:
-      'Does not attack but continuously restores the <span style="color:#00B0FF;">HP</span> of all allies within range (the HP restored per second is equal to 10% of self ATK). Self is unaffected by <a style="border-bottom:1px dotted currentcolor;cursor:help;" title="Increases base stats (only the strongest effect of this type applies for each stat)" href="/terminology#inspiration">Inspiration</a>',
+    trait: "Does not attack but continuously restores the <span style=\"color:#00B0FF;\">HP</span> of all allies within range (the HP restored per second is equal to 10% of self ATK). Self is unaffected by <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Increases base stats (only the strongest effect of this type applies for each stat)\" href=\"/terminology#inspiration\">Inspiration</a>"
   },
   bearer: {
     id: "bearer",
@@ -82,7 +80,7 @@ export const BranchTable = {
     profession: "Vanguard",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait: "Cannot block enemies during the skill duration",
+    trait: "Cannot block enemies during the skill duration"
   },
   blastcaster: {
     id: "blastcaster",
@@ -90,8 +88,7 @@ export const BranchTable = {
     profession: "Caster",
     position: "RANGED",
     damageType: "MAGICAL",
-    trait:
-      'Deals <span style="color:#00B0FF;">AOE Arts damage in a long line</span>',
+    trait: "Deals <span style=\"color:#00B0FF;\">AOE Arts damage in a long line</span>"
   },
   blessing: {
     id: "blessing",
@@ -99,8 +96,7 @@ export const BranchTable = {
     profession: "Supporter",
     position: "RANGED",
     damageType: "MAGICAL",
-    trait:
-      'Deals <span style="color:#00B0FF;">Arts damage</span>; When skill is active, attacks instead restore the HP of allies (heal amount is equal to 75% of ATK)',
+    trait: "Deals <span style=\"color:#00B0FF;\">Arts damage</span>; When skill is active, attacks instead restore the HP of allies (heal amount is equal to 75% of ATK)"
   },
   bombarder: {
     id: "bombarder",
@@ -108,8 +104,7 @@ export const BranchTable = {
     profession: "Sniper",
     position: "RANGED",
     damageType: "PHYSICAL",
-    trait:
-      'Attacks deal <span style="color:#00B0FF;">two instances</span> of Physical damage to <span style="color:#00B0FF;">ground</span> enemies in a small area (The second instance is a shockwave that has half the normal ATK)',
+    trait: "Attacks deal <span style=\"color:#00B0FF;\">two instances</span> of Physical damage to <span style=\"color:#00B0FF;\">ground</span> enemies in a small area (The second instance is a shockwave that has half the normal ATK)"
   },
   centurion: {
     id: "centurion",
@@ -117,8 +112,7 @@ export const BranchTable = {
     profession: "Guard",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Attacks <span style="color:#00B0FF;">multiple targets equal to block count</span>',
+    trait: "Attacks <span style=\"color:#00B0FF;\">multiple targets equal to block count</span>"
   },
   chain: {
     id: "chain",
@@ -126,8 +120,7 @@ export const BranchTable = {
     profession: "Caster",
     position: "RANGED",
     damageType: "MAGICAL",
-    trait:
-      'Attacks deal <span style="color:#00B0FF;">Arts</span> damage and jump between <span style="color:#00B0FF;">3/4 (Elite 2)</span> enemies. Each jump deals 15% less damage and inflicts a brief <a style="border-bottom:1px dotted currentcolor;cursor:help;" title="-80% Movement Speed" href="/terminology#slow">Slow</a>',
+    trait: "Attacks deal <span style=\"color:#00B0FF;\">Arts</span> damage and jump between <span style=\"color:#00B0FF;\">3/4 (Elite 2)</span> enemies. Each jump deals 15% less damage and inflicts a brief <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slow</a>"
   },
   chainhealer: {
     id: "chainhealer",
@@ -135,8 +128,7 @@ export const BranchTable = {
     profession: "Medic",
     position: "RANGED",
     damageType: "HEAL",
-    trait:
-      'Restores HP of allies, bouncing between <span style="color:#00B0FF;">3</span> allies. Healing reduced by 25% per bounce.',
+    trait: "Restores HP of allies, bouncing between <span style=\"color:#00B0FF;\">3</span> allies. Healing reduced by 25% per bounce."
   },
   charger: {
     id: "charger",
@@ -144,8 +136,7 @@ export const BranchTable = {
     profession: "Vanguard",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      "Obtain 1 DP after this unit defeats an enemy; Refunds the original DP Cost when retreated",
+    trait: "Obtain 1 DP after this unit defeats an enemy; Refunds the original DP Cost when retreated"
   },
   closerange: {
     id: "closerange",
@@ -153,7 +144,7 @@ export const BranchTable = {
     profession: "Sniper",
     position: "RANGED",
     damageType: "PHYSICAL",
-    trait: "High accuracy point-blank shot",
+    trait: "High accuracy point-blank shot"
   },
   corecaster: {
     id: "corecaster",
@@ -161,7 +152,7 @@ export const BranchTable = {
     profession: "Caster",
     position: "RANGED",
     damageType: "MAGICAL",
-    trait: 'Deals <span style="color:#00B0FF;">Arts damage</span>',
+    trait: "Deals <span style=\"color:#00B0FF;\">Arts damage</span>"
   },
   craftsman: {
     id: "craftsman",
@@ -169,8 +160,7 @@ export const BranchTable = {
     profession: "Supporter",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Blocks 2 enemies; Can use <span style="color:#00B0FF;">&lt;Support Devices&gt;</span> in battles',
+    trait: "Blocks 2 enemies; Can use <span style=\"color:#00B0FF;\">&lt;Support Devices&gt;</span> in battles"
   },
   crusher: {
     id: "crusher",
@@ -178,8 +168,7 @@ export const BranchTable = {
     profession: "Guard",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Attacks <span style="color:#00B0FF;">multiple targets equal to block count</span>',
+    trait: "Attacks <span style=\"color:#00B0FF;\">multiple targets equal to block count</span>"
   },
   dollkeeper: {
     id: "dollkeeper",
@@ -187,8 +176,7 @@ export const BranchTable = {
     profession: "Specialist",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Does not retreat upon receiving lethal damage, instead swaps to a <span style="color:#00B0FF;">&lt;Substitute&gt;</span> (Substitute has 0 Block). Swaps back to the original after 20 seconds',
+    trait: "Does not retreat upon receiving lethal damage, instead swaps to a <span style=\"color:#00B0FF;\">&lt;Substitute&gt;</span> (Substitute has 0 Block). Swaps back to the original after 20 seconds"
   },
   duelist: {
     id: "duelist",
@@ -196,7 +184,7 @@ export const BranchTable = {
     profession: "Defender",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait: "Only restores SP when blocking enemies",
+    trait: "Only restores SP when blocking enemies"
   },
   executor: {
     id: "executor",
@@ -204,8 +192,7 @@ export const BranchTable = {
     profession: "Specialist",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Significantly <span style="color:#00B0FF;">reduced</span> Redeployment Time',
+    trait: "Significantly <span style=\"color:#00B0FF;\">reduced</span> Redeployment Time"
   },
   fastshot: {
     id: "fastshot",
@@ -213,7 +200,7 @@ export const BranchTable = {
     profession: "Sniper",
     position: "RANGED",
     damageType: "PHYSICAL",
-    trait: "Attacks aerial enemies first",
+    trait: "Attacks aerial enemies first"
   },
   fearless: {
     id: "fearless",
@@ -221,7 +208,7 @@ export const BranchTable = {
     profession: "Guard",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait: "Blocks 1 enemy",
+    trait: "Blocks 1 enemy"
   },
   fighter: {
     id: "fighter",
@@ -229,7 +216,7 @@ export const BranchTable = {
     profession: "Guard",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait: "Blocks 1 enemy",
+    trait: "Blocks 1 enemy"
   },
   fortress: {
     id: "fortress",
@@ -237,8 +224,7 @@ export const BranchTable = {
     profession: "Defender",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'When not blocking enemies, prioritizes dealing <span style="color:#00B0FF;">ranged AoE</span> Physical damage',
+    trait: "When not blocking enemies, prioritizes dealing <span style=\"color:#00B0FF;\">ranged AoE</span> Physical damage"
   },
   funnel: {
     id: "funnel",
@@ -246,8 +232,7 @@ export const BranchTable = {
     profession: "Caster",
     position: "RANGED",
     damageType: "MAGICAL",
-    trait:
-      'Controls a <span style="color:#00B0FF;">Drone</span> to deal <span style="color:#00B0FF;">Arts</span> damage to an enemy; When the Drone continuously attacks the same enemy, its damage will increase (up to 110% of the operator\'s ATK)',
+    trait: "Controls a <span style=\"color:#00B0FF;\">Drone</span> to deal <span style=\"color:#00B0FF;\">Arts</span> damage to an enemy; When the Drone continuously attacks the same enemy, its damage will increase (up to 110% of the operator's ATK)"
   },
   geek: {
     id: "geek",
@@ -255,7 +240,7 @@ export const BranchTable = {
     profession: "Specialist",
     position: "RANGED",
     damageType: "PHYSICAL",
-    trait: "Continually loses HP over time",
+    trait: "Continually loses HP over time"
   },
   guardian: {
     id: "guardian",
@@ -263,7 +248,7 @@ export const BranchTable = {
     profession: "Defender",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait: "Can heal allies by using skill(s)",
+    trait: "Can heal allies by using skill(s)"
   },
   healer: {
     id: "healer",
@@ -271,8 +256,7 @@ export const BranchTable = {
     profession: "Medic",
     position: "RANGED",
     damageType: "HEAL",
-    trait:
-      'Has a large healing range, but the healing amount on farther targets is reduced to <span style="color:#00B0FF;">80%</span>',
+    trait: "Has a large healing range, but the healing amount on farther targets is reduced to <span style=\"color:#00B0FF;\">80%</span>"
   },
   hookmaster: {
     id: "hookmaster",
@@ -280,8 +264,7 @@ export const BranchTable = {
     profession: "Specialist",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Can <span style="color:#00B0FF;">Shift</span> enemies by using skills\nCan be deployed on Ranged Tiles',
+    trait: "Can <span style=\"color:#00B0FF;\">Shift</span> enemies by using skills\nCan be deployed on Ranged Tiles"
   },
   incantationmedic: {
     id: "incantationmedic",
@@ -289,8 +272,7 @@ export const BranchTable = {
     profession: "Medic",
     position: "RANGED",
     damageType: "MAGICAL",
-    trait:
-      "Attacks deal Arts damage and heal the HP of an ally within Attack Range for 50% of the damage dealt",
+    trait: "Attacks deal Arts damage and heal the HP of an ally within Attack Range for 50% of the damage dealt"
   },
   instructor: {
     id: "instructor",
@@ -298,8 +280,7 @@ export const BranchTable = {
     profession: "Guard",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Can attack enemies <span style="color:#00B0FF;">from range</span>; When attacking enemies not blocked by self, increase ATK to 120%',
+    trait: "Can attack enemies <span style=\"color:#00B0FF;\">from range</span>; When attacking enemies not blocked by self, increase ATK to 120%"
   },
   librator: {
     id: "librator",
@@ -307,8 +288,7 @@ export const BranchTable = {
     profession: "Guard",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Normally does not attack and has 0 Block; When skill is inactive, ATK gradually increases up to <span style="color:#00B0FF;">+200%</span> over <span style="color:#00B0FF;">40</span> seconds. ATK is reset when the skill ends',
+    trait: "Normally does not attack and has 0 Block; When skill is inactive, ATK gradually increases up to <span style=\"color:#00B0FF;\">+200%</span> over <span style=\"color:#00B0FF;\">40</span> seconds. ATK is reset when the skill ends"
   },
   longrange: {
     id: "longrange",
@@ -316,8 +296,7 @@ export const BranchTable = {
     profession: "Sniper",
     position: "RANGED",
     damageType: "PHYSICAL",
-    trait:
-      'Prioritizes attacking the enemy with <span style="color:#00B0FF;">lowest DEF</span> within range first',
+    trait: "Prioritizes attacking the enemy with <span style=\"color:#00B0FF;\">lowest DEF</span> within range first"
   },
   lord: {
     id: "lord",
@@ -325,8 +304,7 @@ export const BranchTable = {
     profession: "Guard",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Can launch <span style="color:#00B0FF;">Ranged Attacks</span> that deal 80% of normal ATK',
+    trait: "Can launch <span style=\"color:#00B0FF;\">Ranged Attacks</span> that deal 80% of normal ATK"
   },
   merchant: {
     id: "merchant",
@@ -334,8 +312,7 @@ export const BranchTable = {
     profession: "Specialist",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Has <span style="color:#00B0FF;">reduced</span> Redeployment Time, but <span style="color:#00B0FF;">DP Cost</span> is not refunded upon retreating; While deployed, <span style="color:#00B0FF;">3 DP</span> are consumed every 3 seconds (automatically retreats without sufficient DP)',
+    trait: "Has <span style=\"color:#00B0FF;\">reduced</span> Redeployment Time, but <span style=\"color:#00B0FF;\">DP Cost</span> is not refunded upon retreating; While deployed, <span style=\"color:#00B0FF;\">3 DP</span> are consumed every 3 seconds (automatically retreats without sufficient DP)"
   },
   musha: {
     id: "musha",
@@ -343,8 +320,7 @@ export const BranchTable = {
     profession: "Guard",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Can\'t be healed by other units. Recovers <span style="color:#00B0FF;">30/50/70 (Elite 0/1/2)</span> self HP every time this operator attacks an enemy',
+    trait: "Can't be healed by other units. Recovers <span style=\"color:#00B0FF;\">30/50/70 (Elite 0/1/2)</span> self HP every time this operator attacks an enemy"
   },
   mystic: {
     id: "mystic",
@@ -352,8 +328,7 @@ export const BranchTable = {
     profession: "Caster",
     position: "RANGED",
     damageType: "MAGICAL",
-    trait:
-      'Attacks deal <span style="color:#00B0FF;">Arts damage</span>; When unable to find a target, attacks can be <span style="color:#00B0FF;">stored up</span> and fired all at once (Up to 3 charges)',
+    trait: "Attacks deal <span style=\"color:#00B0FF;\">Arts damage</span>; When unable to find a target, attacks can be <span style=\"color:#00B0FF;\">stored up</span> and fired all at once (Up to 3 charges)"
   },
   phalanx: {
     id: "phalanx",
@@ -361,8 +336,7 @@ export const BranchTable = {
     profession: "Caster",
     position: "RANGED",
     damageType: "NONE",
-    trait:
-      'Normally <span style="color:#00B0FF;">does not attack</span>, but has <span style="color:#00B0FF;">greatly increased</span> DEF and RES; When skill is active, attacks deal <span style="color:#00B0FF;">AoE Arts damage</span>',
+    trait: "Normally <span style=\"color:#00B0FF;\">does not attack</span>, but has <span style=\"color:#00B0FF;\">greatly increased</span> DEF and RES; When skill is active, attacks deal <span style=\"color:#00B0FF;\">AoE Arts damage</span>"
   },
   physician: {
     id: "physician",
@@ -370,7 +344,7 @@ export const BranchTable = {
     profession: "Medic",
     position: "RANGED",
     damageType: "HEAL",
-    trait: "Restores the HP of allies",
+    trait: "Restores the HP of allies"
   },
   pioneer: {
     id: "pioneer",
@@ -378,7 +352,7 @@ export const BranchTable = {
     profession: "Vanguard",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait: "Blocks 2 enemies",
+    trait: "Blocks 2 enemies"
   },
   protector: {
     id: "protector",
@@ -386,7 +360,7 @@ export const BranchTable = {
     profession: "Defender",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait: "Blocks 3 enemies",
+    trait: "Blocks 3 enemies"
   },
   pusher: {
     id: "pusher",
@@ -394,8 +368,7 @@ export const BranchTable = {
     profession: "Specialist",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Can attack <span style="color:#00B0FF;">multiple targets equal to block count</span>\nCan be deployed on Ranged Tiles',
+    trait: "Can attack <span style=\"color:#00B0FF;\">multiple targets equal to block count</span>\nCan be deployed on Ranged Tiles"
   },
   reaper: {
     id: "reaper",
@@ -403,8 +376,7 @@ export const BranchTable = {
     profession: "Guard",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Cannot be healed by allies; Attacks deal <span style="color:#00B0FF;">AOE Damage</span>; Recovers <span style="color:#00B0FF;">50</span> HP for every enemy hit during attacks, up to Block count',
+    trait: "Cannot be healed by allies; Attacks deal <span style=\"color:#00B0FF;\">AOE Damage</span>; Recovers <span style=\"color:#00B0FF;\">50</span> HP for every enemy hit during attacks, up to Block count"
   },
   reaperrange: {
     id: "reaperrange",
@@ -412,8 +384,7 @@ export const BranchTable = {
     profession: "Sniper",
     position: "RANGED",
     damageType: "PHYSICAL",
-    trait:
-      'Attacks <span style="color:#00B0FF;">all enemies</span> within range, and deals 150% damage to enemies in the row directly in front of this unit.',
+    trait: "Attacks <span style=\"color:#00B0FF;\">all enemies</span> within range, and deals 150% damage to enemies in the row directly in front of this unit."
   },
   ringhealer: {
     id: "ringhealer",
@@ -421,7 +392,15 @@ export const BranchTable = {
     profession: "Medic",
     position: "RANGED",
     damageType: "HEAL",
-    trait: "Restores the HP of 3 allies simultaneously",
+    trait: "Restores the HP of 3 allies simultaneously"
+  },
+  ritualist: {
+    id: "ritualist",
+    name: "Ritualist",
+    profession: "Supporter",
+    position: "RANGED",
+    damageType: "MAGICAL",
+    trait: "Attacks deal <span style=\"color:#00B0FF;\">Arts damage</span>, and can inflict <span style=\"color:#00B0FF;\">Elemental Damage</span>"
   },
   shotprotector: {
     id: "shotprotector",
@@ -429,7 +408,7 @@ export const BranchTable = {
     profession: "Defender",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait: "Blocks 3 enemies and attacks from long range.",
+    trait: "Blocks 3 enemies and attacks from long range."
   },
   siegesniper: {
     id: "siegesniper",
@@ -437,7 +416,7 @@ export const BranchTable = {
     profession: "Sniper",
     position: "RANGED",
     damageType: "PHYSICAL",
-    trait: "Attacks the heaviest enemy first",
+    trait: "Attacks the heaviest enemy first"
   },
   slower: {
     id: "slower",
@@ -445,8 +424,7 @@ export const BranchTable = {
     profession: "Supporter",
     position: "RANGED",
     damageType: "MAGICAL",
-    trait:
-      'Deals <span style="color:#00B0FF;">Arts damage</span> and <a style="border-bottom:1px dotted currentcolor;cursor:help;" title="-80% Movement Speed" href="/terminology#slow">Slows</a> the target for a short time',
+    trait: "Deals <span style=\"color:#00B0FF;\">Arts damage</span> and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slows</a> the target for a short time"
   },
   splashcaster: {
     id: "splashcaster",
@@ -454,7 +432,7 @@ export const BranchTable = {
     profession: "Caster",
     position: "RANGED",
     damageType: "MAGICAL",
-    trait: 'Deals <span style="color:#00B0FF;">AOE Arts damage</span>',
+    trait: "Deals <span style=\"color:#00B0FF;\">AOE Arts damage</span>"
   },
   stalker: {
     id: "stalker",
@@ -462,8 +440,7 @@ export const BranchTable = {
     profession: "Specialist",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Deals Damage to <span style="color:#00B0FF;">all targets</span> within range\n50% chance to dodge Physical and Arts attacks and is less likely to be <span style="color:#00B0FF;">targeted</span> by enemies',
+    trait: "Deals Damage to <span style=\"color:#00B0FF;\">all targets</span> within range\n50% chance to dodge Physical and Arts attacks and is less likely to be <span style=\"color:#00B0FF;\">targeted</span> by enemies"
   },
   summoner: {
     id: "summoner",
@@ -471,8 +448,7 @@ export const BranchTable = {
     profession: "Supporter",
     position: "RANGED",
     damageType: "MAGICAL",
-    trait:
-      'Deals <span style="color:#00B0FF;">Arts damage</span>\nCan use <span style="color:#00B0FF;">Summons</span> in battles',
+    trait: "Deals <span style=\"color:#00B0FF;\">Arts damage</span>\nCan use <span style=\"color:#00B0FF;\">Summons</span> in battles"
   },
   sword: {
     id: "sword",
@@ -480,8 +456,7 @@ export const BranchTable = {
     profession: "Guard",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait:
-      'Normal attacks deal damage <span style="color:#00B0FF;">twice</span>',
+    trait: "Normal attacks deal damage <span style=\"color:#00B0FF;\">twice</span>"
   },
   tactician: {
     id: "tactician",
@@ -489,8 +464,7 @@ export const BranchTable = {
     profession: "Vanguard",
     position: "RANGED",
     damageType: "PHYSICAL",
-    trait:
-      'This unit can designate one <span style="color:#00B0FF;">Tactical Point</span> within attack range to call Reinforcements; ATK is increased to 150% when attacking enemies blocked by Reinforcements',
+    trait: "This unit can designate one <span style=\"color:#00B0FF;\">Tactical Point</span> within attack range to call Reinforcements; ATK is increased to 150% when attacking enemies blocked by Reinforcements"
   },
   traper: {
     id: "traper",
@@ -498,8 +472,7 @@ export const BranchTable = {
     profession: "Specialist",
     position: "RANGED",
     damageType: "PHYSICAL",
-    trait:
-      'Can use traps to assist in combat, but traps cannot be placed <span style="color:#00B0FF;">on tiles already occupied by an enemy</span>',
+    trait: "Can use traps to assist in combat, but traps cannot be placed <span style=\"color:#00B0FF;\">on tiles already occupied by an enemy</span>"
   },
   underminer: {
     id: "underminer",
@@ -507,7 +480,7 @@ export const BranchTable = {
     profession: "Supporter",
     position: "RANGED",
     damageType: "MAGICAL",
-    trait: 'Deals <span style="color:#00B0FF;">Arts damage</span>',
+    trait: "Deals <span style=\"color:#00B0FF;\">Arts damage</span>"
   },
   unyield: {
     id: "unyield",
@@ -515,7 +488,7 @@ export const BranchTable = {
     profession: "Defender",
     position: "MELEE",
     damageType: "PHYSICAL",
-    trait: '<span style="color:#00B0FF;">Cannot</span> be healed by allies',
+    trait: "<span style=\"color:#00B0FF;\">Cannot</span> be healed by allies"
   },
   wandermedic: {
     id: "wandermedic",
@@ -523,7 +496,6 @@ export const BranchTable = {
     profession: "Medic",
     position: "RANGED",
     damageType: "HEAL",
-    trait:
-      "Restores the HP of allied units and recovers <span>Elemental Damage</span> by 50% of ATK (can recover <span>Elemental Damage</span> of unhurt allied units)",
-  },
+    trait: "Restores the HP of allied units and recovers <span>Elemental Damage</span> by 50% of ATK (can recover <span>Elemental Damage</span> of unhurt allied units)"
+  }
 } as Record<BranchId, Branch>;

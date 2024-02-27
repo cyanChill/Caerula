@@ -9407,7 +9407,7 @@
     "lifePointReduction": 0,
     "weight": 0,
     "isFlying": false,
-    "relatedEnemies": ["enemy_1222_dpvt", "enemy_1223_dmech"]
+    "relatedEnemies": ["enemy_1222_dpvt", "enemy_1223_dmech", "enemy_1361_dthrow"]
   },
   {
     "sort": 433,
@@ -9433,7 +9433,7 @@
     "lifePointReduction": 0,
     "weight": 0,
     "isFlying": false,
-    "relatedEnemies": ["enemy_1222_dpvt_2", "enemy_1223_dmech_2"]
+    "relatedEnemies": ["enemy_1222_dpvt_2", "enemy_1223_dmech_2", "enemy_1361_dthrow_2"]
   },
   {
     "sort": 434,
@@ -9459,7 +9459,7 @@
     "lifePointReduction": 0,
     "weight": 3,
     "isFlying": false,
-    "relatedEnemies": ["enemy_1225_dkmage", "enemy_1226_dklord"]
+    "relatedEnemies": ["enemy_1225_dkmage", "enemy_1226_dklord", "enemy_1362_dfat"]
   },
   {
     "sort": 435,
@@ -9485,7 +9485,7 @@
     "lifePointReduction": 0,
     "weight": 3,
     "isFlying": false,
-    "relatedEnemies": ["enemy_1225_dkmage_2", "enemy_1226_dklord_2"]
+    "relatedEnemies": ["enemy_1225_dkmage_2", "enemy_1226_dklord_2", "enemy_1362_dfat_2"]
   },
   {
     "sort": 436,
@@ -15114,7 +15114,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 680,
+    "sort": 712,
     "id": "enemy_2001_duckmi",
     "slug": "duck_lord",
     "code": "DLD",
@@ -15137,7 +15137,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 681,
+    "sort": 713,
     "id": "enemy_2002_bearmi",
     "slug": "gopnik",
     "code": "GPN",
@@ -15154,7 +15154,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 682,
+    "sort": 714,
     "id": "enemy_2034_sythef",
     "slug": "crying_thief",
     "code": "THF",
@@ -15180,7 +15180,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 683,
+    "sort": 715,
     "id": "enemy_2009_csaudc",
     "slug": "derisive_audience",
     "code": "CS1",
@@ -15202,7 +15202,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 684,
+    "sort": 716,
     "id": "enemy_2010_csdcr",
     "slug": "scarlet_singer",
     "code": "CS2",
@@ -15228,7 +15228,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 685,
+    "sort": 717,
     "id": "enemy_2011_csppt",
     "slug": "theater_golem",
     "code": "CS3",
@@ -15254,7 +15254,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 686,
+    "sort": 718,
     "id": "enemy_2012_csbln",
     "slug": "small_surprise",
     "code": "CS4",
@@ -15277,7 +15277,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 687,
+    "sort": 719,
     "id": "enemy_2017_csphts",
     "slug": "ominous_apparition",
     "code": "PTS",
@@ -15307,7 +15307,7 @@
     "relatedEnemies": ["enemy_2016_csphtm"]
   },
   {
-    "sort": 688,
+    "sort": 720,
     "id": "enemy_2021_syfish",
     "slug": "bone_sea_drifter",
     "code": "SY1",
@@ -15329,7 +15329,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 689,
+    "sort": 721,
     "id": "enemy_2022_syzeni",
     "slug": "ocean_stonecutter",
     "code": "SY2",
@@ -15351,7 +15351,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 690,
+    "sort": 722,
     "id": "enemy_2023_sypult",
     "slug": "retching_broodmother",
     "code": "SY3",
@@ -15374,7 +15374,7 @@
     "relatedEnemies": ["enemy_2024_synut"]
   },
   {
-    "sort": 691,
+    "sort": 723,
     "id": "enemy_2024_synut",
     "slug": "baleful_broodling",
     "code": "SY4",
@@ -15398,7 +15398,7 @@
     "relatedEnemies": ["enemy_2023_sypult"]
   },
   {
-    "sort": 692,
+    "sort": 724,
     "id": "enemy_2025_syufo",
     "slug": "skimming_sea_drifter",
     "code": "SY5",
@@ -15424,7 +15424,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 693,
+    "sort": 725,
     "id": "enemy_2033_syboys",
     "slug": "pathshaper_fractal",
     "code": "SY6",
@@ -15447,7 +15447,7 @@
     "relatedEnemies": ["enemy_2031_syboy", "enemy_2032_syboy2"]
   },
   {
-    "sort": 694,
+    "sort": 726,
     "id": "enemy_2040_syrott",
     "slug": "ishar'mla's_tears",
     "code": "SY7",
@@ -15474,7 +15474,7 @@
     "relatedEnemies": ["enemy_2039_syskad"]
   },
   {
-    "sort": 695,
+    "sort": 727,
     "id": "enemy_2041_syjely",
     "slug": "izumik's_offspring",
     "code": "SY8",
@@ -15491,7 +15491,7 @@
     "relatedEnemies": ["enemy_2042_syboss"]
   },
   {
-    "sort": 696,
+    "sort": 728,
     "id": "enemy_2035_sybox",
     "slug": "chest_seaborn",
     "code": "SY9",
@@ -15508,7 +15508,102 @@
     "relatedEnemies": []
   },
   {
-    "sort": 703,
+    "sort": 729,
+    "id": "enemy_2043_smsbr",
+    "slug": "tainted_carcass",
+    "code": "EJ1",
+    "name": "Tainted Carcass",
+    "description": "A Sami warrior irreversibly corrupted by demons. He once went to the snow fields with a clear purpose, but is now completely bereft.",
+    "race": "Collapsal",
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Movement Speed significantly increases for a short time after taking damage",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 730,
+    "id": "enemy_2044_smwiz",
+    "slug": "distorted_caster",
+    "code": "EJ2",
+    "name": "Distorted Caster",
+    "description": "A Sami shaman possessed by demons. Everything they understood about nature has been reconstructed into pure nothingness.",
+    "race": "Collapsal",
+    "type": "NORMAL",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Movement Speed significantly increases after not attacking for a period of time, resets on attack",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 731,
+    "id": "enemy_2045_smdrn",
+    "slug": "collapsed_construct",
+    "code": "EJ3",
+    "name": "Collapsed Construct",
+    "description": "A drone corrupted by demonic power, now acting like a real lifeform.",
+    "race": "Collapsal",
+    "type": "NORMAL",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [{ "text": "Flying unit.", "textFormat": "NORMAL" }],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": true,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 732,
+    "id": "enemy_2046_smwar",
+    "slug": "shattered_champion",
+    "code": "EJ4",
+    "name": "Shattered Champion",
+    "description": "Once an honorable warrior of the Treescar tribe, now a part of the demons' vanguard, together with their fallen chief.",
+    "race": "Collapsal",
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 733,
+    "id": "enemy_2059_smbox",
+    "slug": "testaceous_vinecreeps",
+    "code": "EJ5",
+    "name": "Testaceous Vinecreeps",
+    "description": "A seed falls into a box abandoned in the wild, and soon becomes a hunter preying on curiosity.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [],
+    "immunities": [],
+    "lifePointReduction": 2,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 735,
     "id": "enemy_4001_toxcar",
     "slug": "retrofitted_gastruck",
     "code": "MU1",
@@ -15530,7 +15625,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 704,
+    "sort": 736,
     "id": "enemy_4001_toxcar_2",
     "slug": "supercharged_gastruck",
     "code": "MU2",
@@ -15552,7 +15647,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 705,
+    "sort": 737,
     "id": "enemy_4002_syokai",
     "slug": "cheap_second-hand_drone",
     "code": "MU3",
@@ -15579,7 +15674,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 706,
+    "sort": 738,
     "id": "enemy_4002_syokai_2",
     "slug": "remodeled_second-hand_drone",
     "code": "MU4",
@@ -15606,7 +15701,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 707,
+    "sort": 739,
     "id": "enemy_4003_pbank",
     "slug": "mobile_power_source",
     "code": "MU5",
@@ -15633,7 +15728,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 708,
+    "sort": 740,
     "id": "enemy_1050_lslime",
     "slug": "pompeii",
     "code": "UM1",
@@ -15663,7 +15758,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 709,
+    "sort": 741,
     "id": "enemy_1500_skulsr",
     "slug": "skullshatterer",
     "code": "SS",
@@ -15689,7 +15784,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 710,
+    "sort": 742,
     "id": "enemy_1502_crowns",
     "slug": "crownslayer",
     "code": "CS",
@@ -15711,7 +15806,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 711,
+    "sort": 743,
     "id": "enemy_1503_talula",
     "slug": "talulah",
     "code": "TA",
@@ -15742,7 +15837,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 712,
+    "sort": 744,
     "id": "enemy_1504_cqbw",
     "slug": "w",
     "code": "W",
@@ -15768,7 +15863,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 713,
+    "sort": 745,
     "id": "enemy_1505_frstar",
     "slug": "frostnova",
     "code": "FN",
@@ -15798,7 +15893,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 714,
+    "sort": 746,
     "id": "enemy_1507_mephi",
     "slug": "mephisto",
     "code": "MP",
@@ -15824,7 +15919,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 715,
+    "sort": 747,
     "id": "enemy_1508_faust",
     "slug": "faust",
     "code": "FA",
@@ -15854,7 +15949,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 716,
+    "sort": 748,
     "id": "enemy_1509_mousek",
     "slug": "rat_king",
     "code": "MK",
@@ -15888,7 +15983,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 717,
+    "sort": 749,
     "id": "enemy_1510_frstar2",
     "slug": "frostnova,_'winter's_scar'",
     "code": "FNF",
@@ -15918,7 +16013,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 718,
+    "sort": 750,
     "id": "enemy_1506_patrt",
     "slug": "patriot",
     "code": "PT",
@@ -15963,7 +16058,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 719,
+    "sort": 751,
     "id": "enemy_1511_mdrock",
     "slug": "mudrock",
     "code": "MR",
@@ -15994,7 +16089,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 720,
+    "sort": 752,
     "id": "enemy_1512_mcmstr",
     "slug": "the_big_ugly_thing",
     "code": "BU",
@@ -16030,7 +16125,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 721,
+    "sort": 753,
     "id": "enemy_1513_dekght",
     "slug": "corrupted_knight",
     "code": "DK1",
@@ -16060,7 +16155,7 @@
     "relatedEnemies": ["enemy_1513_dekght_2"]
   },
   {
-    "sort": 722,
+    "sort": 754,
     "id": "enemy_1513_dekght_2",
     "slug": "withered_knight",
     "code": "DK2",
@@ -16087,7 +16182,7 @@
     "relatedEnemies": ["enemy_1513_dekght"]
   },
   {
-    "sort": 723,
+    "sort": 755,
     "id": "enemy_1514_smephi",
     "slug": "mephisto,_'the_singer'",
     "code": "SMP",
@@ -16123,7 +16218,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 724,
+    "sort": 756,
     "id": "enemy_1515_bsnake",
     "slug": "deathless_black_snake",
     "code": "BSN",
@@ -16167,7 +16262,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 725,
+    "sort": 757,
     "id": "enemy_1516_jakill",
     "slug": "jesselton_williams",
     "code": "JAK",
@@ -16209,7 +16304,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 726,
+    "sort": 758,
     "id": "enemy_1517_xi",
     "slug": "free",
     "code": "DSK",
@@ -16250,7 +16345,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 727,
+    "sort": 759,
     "id": "enemy_1519_bgball",
     "slug": "essence_of_evolution",
     "code": "BB",
@@ -16296,7 +16391,7 @@
     "relatedEnemies": ["enemy_1137_plasm", "enemy_1138_tumor"]
   },
   {
-    "sort": 728,
+    "sort": 760,
     "id": "enemy_1520_empgrd",
     "slug": "'emperor's_blade',_pursuer",
     "code": "EMG",
@@ -16336,7 +16431,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 729,
+    "sort": 761,
     "id": "enemy_1521_dslily",
     "slug": "sal_viento_bishop_quintus",
     "code": "SVK",
@@ -16374,7 +16469,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 730,
+    "sort": 762,
     "id": "enemy_1522_captan",
     "slug": "pancho_salas",
     "code": "CPS",
@@ -16418,7 +16513,7 @@
     "relatedEnemies": ["enemy_1164_bmbmot_3"]
   },
   {
-    "sort": 731,
+    "sort": 763,
     "id": "enemy_1523_mandra",
     "slug": "mandragora",
     "code": "MD",
@@ -16458,7 +16553,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 732,
+    "sort": 764,
     "id": "enemy_1524_bldkgt",
     "slug": "the_blood_knight_dikaiopolis",
     "code": "BK",
@@ -16503,7 +16598,7 @@
     "relatedEnemies": ["enemy_1186_bldbld"]
   },
   {
-    "sort": 733,
+    "sort": 765,
     "id": "enemy_1525_blkswb",
     "slug": "degenbrecher",
     "code": "BJ",
@@ -16555,7 +16650,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 734,
+    "sort": 766,
     "id": "enemy_1526_sfsui",
     "slug": "sui-xiang",
     "code": "SUI",
@@ -16608,7 +16703,7 @@
     "relatedEnemies": ["enemy_1211_msfsui"]
   },
   {
-    "sort": 735,
+    "sort": 767,
     "id": "enemy_1527_martyr",
     "slug": "andoain,_the_'martyr'",
     "code": "AND",
@@ -16653,7 +16748,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 736,
+    "sort": 768,
     "id": "enemy_1528_manfri",
     "slug": "manfred",
     "code": "MAN",
@@ -16693,7 +16788,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 737,
+    "sort": 769,
     "id": "enemy_1529_dsdevr",
     "slug": "the_endspeaker,_will_of_we_many",
     "code": "AMA",
@@ -16730,7 +16825,7 @@
     ]
   },
   {
-    "sort": 738,
+    "sort": 770,
     "id": "enemy_1530_white",
     "slug": "kreide,_'worldly_remains'",
     "code": "KRE",
@@ -16770,7 +16865,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 739,
+    "sort": 771,
     "id": "enemy_1531_bbrain",
     "slug": "awaken",
     "code": "BBR",
@@ -16816,7 +16911,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 740,
+    "sort": 772,
     "id": "enemy_1532_minima",
     "slug": "materialist_antagonizer",
     "code": "CST",
@@ -16869,7 +16964,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 741,
+    "sort": 773,
     "id": "enemy_1533_stmkgt",
     "slug": "the_last_steam_knight",
     "code": "LYN",
@@ -16915,7 +17010,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 742,
+    "sort": 774,
     "id": "enemy_1535_wlfmster",
     "slug": "zaaro,_signore_dei_lupi",
     "code": "ZA",
@@ -16960,7 +17055,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 743,
+    "sort": 775,
     "id": "enemy_1536_ncrmcr",
     "slug": "the_leader",
     "code": "EB",
@@ -17005,7 +17100,7 @@
     "relatedEnemies": ["enemy_1288_duskls", "enemy_1288_duskls_2"]
   },
   {
-    "sort": 744,
+    "sort": 776,
     "id": "enemy_1538_ymmons",
     "slug": "ya",
     "code": "YA01",
@@ -17053,7 +17148,7 @@
     "relatedEnemies": ["enemy_1312_ymillu", "enemy_1538_ymmons_2", "enemy_1538_ymmons_3"]
   },
   {
-    "sort": 747,
+    "sort": 779,
     "id": "enemy_1537_mhrors",
     "slug": "rathalos",
     "code": "6935",
@@ -17118,7 +17213,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 748,
+    "sort": 780,
     "id": "enemy_1539_reid",
     "slug": "hateful_avenger/boss",
     "code": "A15",
@@ -17148,7 +17243,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 749,
+    "sort": 781,
     "id": "enemy_1540_wdncr",
     "slug": "eblana",
     "code": "EB",
@@ -17165,7 +17260,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 750,
+    "sort": 782,
     "id": "enemy_1541_wdslms",
     "slug": "damazti_cluster/clone",
     "code": "DC3",
@@ -17182,7 +17277,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 751,
+    "sort": 783,
     "id": "enemy_1542_wdslm",
     "slug": "damazti_cluster",
     "code": "DC1",
@@ -17235,7 +17330,7 @@
     "relatedEnemies": ["enemy_1323_wdbshd"]
   },
   {
-    "sort": 752,
+    "sort": 784,
     "id": "enemy_1543_cstlrs",
     "slug": "kristen",
     "code": "KW",
@@ -17287,7 +17382,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 753,
+    "sort": 785,
     "id": "enemy_1544_cledub",
     "slug": "the_gardener",
     "code": "CD",
@@ -17335,7 +17430,7 @@
     "relatedEnemies": ["enemy_3005_lpeopl"]
   },
   {
-    "sort": 754,
+    "sort": 786,
     "id": "enemy_1545_shpkg",
     "slug": "dolly,_sovereign_of_sheep",
     "code": "DLY",
@@ -17395,7 +17490,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 755,
+    "sort": 789,
     "id": "enemy_2003_rockman",
     "slug": "lost_colossus",
     "code": "WDG",
@@ -17417,7 +17512,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 756,
+    "sort": 790,
     "id": "enemy_2004_balloon",
     "slug": "jetman",
     "code": "JTM",
@@ -17439,7 +17534,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 757,
+    "sort": 791,
     "id": "enemy_2005_axetro",
     "slug": "forsaken_one",
     "code": "FSK",
@@ -17461,7 +17556,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 758,
+    "sort": 792,
     "id": "enemy_2006_flsnip",
     "slug": "rusthammer_warrior",
     "code": "RSH",
@@ -17487,7 +17582,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 759,
+    "sort": 793,
     "id": "enemy_2007_flwitch",
     "slug": "frozen_monstrosity",
     "code": "FZM",
@@ -17517,7 +17612,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 760,
+    "sort": 794,
     "id": "enemy_2008_flking",
     "slug": "gravestone",
     "code": "GST",
@@ -17543,7 +17638,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 761,
+    "sort": 795,
     "id": "enemy_2013_csbot",
     "slug": "wandering_puppet",
     "code": "MSC",
@@ -17565,7 +17660,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 762,
+    "sort": 796,
     "id": "enemy_2014_csicer",
     "slug": "snow_doe",
     "code": "ICR",
@@ -17591,7 +17686,7 @@
     "relatedEnemies": ["enemy_2015_csicem"]
   },
   {
-    "sort": 763,
+    "sort": 797,
     "id": "enemy_2015_csicem",
     "slug": "frost_buck",
     "code": "ICM",
@@ -17617,7 +17712,7 @@
     "relatedEnemies": ["enemy_2014_csicer"]
   },
   {
-    "sort": 764,
+    "sort": 798,
     "id": "enemy_2016_csphtm",
     "slug": "lucian,_'blood_diamond'",
     "code": "PTM",
@@ -17643,7 +17738,7 @@
     "relatedEnemies": ["enemy_2017_csphts"]
   },
   {
-    "sort": 765,
+    "sort": 799,
     "id": "enemy_2018_csdoll",
     "slug": "big_sad_lock",
     "code": "DOL",
@@ -17678,7 +17773,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 766,
+    "sort": 800,
     "id": "enemy_2019_cshost",
     "slug": "troupe_mouthpiece",
     "code": "HST",
@@ -17709,7 +17804,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 767,
+    "sort": 801,
     "id": "enemy_2020_cswrtr",
     "slug": "playwright",
     "code": "WRT",
@@ -17743,7 +17838,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 768,
+    "sort": 802,
     "id": "enemy_2026_syudg",
     "slug": "saint_carmen",
     "code": "UGF",
@@ -17769,7 +17864,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 769,
+    "sort": 803,
     "id": "enemy_2027_syudg2",
     "slug": "saint_iberia",
     "code": "UGS",
@@ -17796,7 +17891,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 770,
+    "sort": 804,
     "id": "enemy_2028_syevil",
     "slug": "tidelinked_bishop",
     "code": "SEV",
@@ -17818,7 +17913,7 @@
     "relatedEnemies": ["enemy_2029_symon", "enemy_2030_symon2"]
   },
   {
-    "sort": 771,
+    "sort": 805,
     "id": "enemy_2029_symon",
     "slug": "tidelinked_archon",
     "code": "SMF",
@@ -17844,7 +17939,7 @@
     "relatedEnemies": ["enemy_2028_syevil"]
   },
   {
-    "sort": 772,
+    "sort": 806,
     "id": "enemy_2030_symon2",
     "slug": "tidelinked_immortal",
     "code": "SMS",
@@ -17874,7 +17969,7 @@
     "relatedEnemies": ["enemy_2028_syevil"]
   },
   {
-    "sort": 773,
+    "sort": 807,
     "id": "enemy_2031_syboy",
     "slug": "pathshaper",
     "code": "SRF",
@@ -17900,7 +17995,7 @@
     "relatedEnemies": ["enemy_2033_syboys"]
   },
   {
-    "sort": 774,
+    "sort": 808,
     "id": "enemy_2032_syboy2",
     "slug": "lingering_pathshaper",
     "code": "SRS",
@@ -17927,7 +18022,7 @@
     "relatedEnemies": ["enemy_2033_syboys"]
   },
   {
-    "sort": 775,
+    "sort": 809,
     "id": "enemy_2037_sygirl",
     "slug": "paranoia_illusion",
     "code": "GIR",
@@ -17963,7 +18058,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 776,
+    "sort": 810,
     "id": "enemy_2038_sydonq",
     "slug": "the_last_knight",
     "code": "DOQ",
@@ -17996,7 +18091,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 777,
+    "sort": 811,
     "id": "enemy_2039_syskad",
     "slug": "ishar'mla,_heart_of_corruption",
     "code": "SKA",
@@ -18032,7 +18127,7 @@
     "relatedEnemies": ["enemy_2040_syrott"]
   },
   {
-    "sort": 778,
+    "sort": 812,
     "id": "enemy_2042_syboss",
     "slug": "izumik,_source_of_ecology",
     "code": "MZK",
@@ -18065,7 +18160,7 @@
     "relatedEnemies": ["enemy_2041_syjely"]
   },
   {
-    "sort": 779,
+    "sort": 813,
     "id": "enemy_2036_syshop",
     "slug": "cannot",
     "code": "KNT",
@@ -18091,7 +18186,277 @@
     "relatedEnemies": []
   },
   {
-    "sort": 792,
+    "sort": 814,
+    "id": "enemy_2048_smgrd",
+    "slug": "demon's_blade",
+    "code": "DB",
+    "name": "'Demon's Blade'",
+    "description": "An out-of-control 'Emperor's Blade' is simply not allowed to exist in this world, neither as a living person nor as a dominion. It will be hunted down by its comrades until it is completely wiped from this land.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Deals heavy Physical damage to allied units on tiles affected by [Dominion]",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Continuously generates [Dominion] on the surrounding 8 tiles, significantly reducing the ASPD of allied units",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Frozen"],
+    "lifePointReduction": 5,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 815,
+    "id": "enemy_2049_smgrd2",
+    "slug": "'demon's_blade,'_the_vagabond",
+    "code": "DBV",
+    "name": "'Demon's Blade,' the Vagabond",
+    "description": "Ursus's deepest secrets must not be seen by others, so any 'Emperor's Blade' unable to take charge of their own conduct and movements ought to be completely erased.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Deals heavy Physical damage to allied units on tiles affected by [Dominion]",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Continuously generates [Dominion] in a large radius around self, significantly reducing the ASPD of allied units",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Frozen"],
+    "lifePointReduction": 5,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 816,
+    "id": "enemy_2050_smsha",
+    "slug": "fallen_snowpriest",
+    "code": "FSP",
+    "name": "Fallen Snowpriest",
+    "description": "A Sami tribal chief separated from humanity, their flesh physically transformed. Will turn into a 'Frozen Monstrosity' if left alone to continue wandering the icefields.",
+    "race": "Collapsal",
+    "type": "BOSS",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Attacks inflict <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> and jump between 3 targets, with each jump dealing reduced damage",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Unnatural Gift] Attacks can hit and jump between 3 other enemies, increasing their Movement Speed and ASPD",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": ["Stun"],
+    "lifePointReduction": 5,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 817,
+    "id": "enemy_2051_smsha2",
+    "slug": "hollow_snowpriest",
+    "code": "HSP",
+    "name": "Hollow Snowpriest",
+    "description": "A Sami chief long alienated from their tribe, their fervent expectations for their clan have become a signpost to nothingness. If no one stops them, they will spread the demons' influence all over Sami.",
+    "race": "Collapsal",
+    "type": "BOSS",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Attacks inflict <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> and jump over a long distance between 4 targets, with each jump dealing reduced damage",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Unnatural Gift] Attacks can hit and jump long-distance between 4 other enemies, increasing their Movement Speed and ASPD",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": ["Stun"],
+    "lifePointReduction": 5,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 818,
+    "id": "enemy_2052_smgia",
+    "slug": "weaving_vinecreeps",
+    "code": "WVC",
+    "name": "Weaving Vinecreeps",
+    "description": "A puppet made of plants brought to life by the call of nature. It reacts violently to any non-Sami entity, but the rickety vine formation makes it susceptible to fire.",
+    "race": "Arts Creation",
+    "type": "BOSS",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Gains a large <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Amplifies all Physical, Arts, and True damage taken by the corresponding amount (only the strongest effect of this type applies)\" href=\"/terminology#fragile\">Fragile</a> effect after taking damage from environmental effects",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> allied units after several attacks",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 5,
+    "weight": 5,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 819,
+    "id": "enemy_2053_smgia2",
+    "slug": "elder_vinecreeps",
+    "code": "EVC",
+    "name": "Elder Vinecreeps",
+    "description": "A plant puppet that has awakened from the depths of the woodland, bearing the blessings of nature to fend off any unexpected guests to Sami. The low concentration of Originium in the environment it was born in makes it highly susceptible to high-purity Originium.",
+    "race": "Arts Creation",
+    "type": "BOSS",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Gains a large <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Amplifies all Physical, Arts, and True damage taken by the corresponding amount (only the strongest effect of this type applies)\" href=\"/terminology#fragile\">Fragile</a> effect after taking damage from environmental effects",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> allied units after several attacks",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 5,
+    "weight": 5,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 820,
+    "id": "enemy_2054_smdeer",
+    "slug": "'samivilinn,'_the_resolution_of_the_very_north",
+    "code": "SAM",
+    "name": "'Samivilinn,' the Resolution of the Very North",
+    "description": "Born from a memory of the soil, stone, ice, and snow, it stands tall, blocking the path of every living being until satisfied.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Ranged Physical Arts",
+    "abilityList": [
+      {
+        "text": "[Icicle Fall] Attacks deal Physical damage to allied units in a column",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Surge of Nature] Inflicts <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a> on an allied unit and causes the target to take Arts damage over time",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "After falling below half HP, takes reduced Physical and Arts damage and [Icicle Fall] and [Surge of Nature] both target an additional unit",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "After a long time has passed in the battle, deals Arts damage to all allied units on the field and drains 30 Life Points",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 1,
+    "weight": 10,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 821,
+    "id": "enemy_2055_smlead",
+    "slug": "'eikthyrnir,'_the_scar_of_the_shattered",
+    "code": "EIK",
+    "name": "'Eikthyrnir,' the Scar of the Shattered",
+    "description": "Chief of the Treescar tribe, and a folk hero in the hearts of the Sami people. The most sincere of desires deep in his heart has dragged all of Sami into the abyss, himself included.",
+    "race": "Collapsal",
+    "type": "BOSS",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Attacks inflict <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Periodically inflicts <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> to all surrounding allied Operators",
+        "textFormat": "NORMAL"
+      },
+      { "text": "Self-Destruction", "textFormat": "TITLE" },
+      {
+        "text": "Goes into [Self-Destruction] whenever a certain percentage of HP is lost",
+        "textFormat": "NORMAL"
+      },
+      { "text": "Stops attacking", "textFormat": "NORMAL" },
+      {
+        "text": "Movement Speed is greatly increased, becomes immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move\" href=\"/terminology#bind\">Bind</a> and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slow</a>",
+        "textFormat": "NORMAL"
+      },
+      { "text": "Cannot be blocked", "textFormat": "NORMAL" },
+      {
+        "text": "Takes greatly reduced Physical and Arts damage",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Whenever he goes into or out of [Self-Destruction], inflicts <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> to all surrounding allied Operators",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen"],
+    "lifePointReduction": 30,
+    "weight": 7,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 822,
+    "id": "enemy_2056_smedzi",
+    "slug": "crazelyseon,_the_ascendant_of_cosmoi",
+    "code": "CES",
+    "name": "Crazelyseon, the Ascendant of Cosmoi",
+    "description": "An instinct as chaotic as thought itself.",
+    "race": "Collapsal",
+    "type": "BOSS",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      { "text": "Invulnerable", "textFormat": "NORMAL" },
+      {
+        "text": "Attacks 2 targets simultaneously; deals heavy Arts damage to allied units on [Seedbeds]",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Whenever it moves itself, turns 2 deployable spots into [Seedbeds] that deal continuous Arts damage to allied units on the affected tiles and greatly reduce their ASPD",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Gains increased ATK after being defeated for the first time",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "After a long time has passed in the battle, turns all deployable spots on the field into [Seedbeds] and drains 30 Life Points",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 1,
+    "weight": 0,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 827,
     "id": "enemy_6001_trsgst",
     "slug": "fleet-footed_thief",
     "code": "DL1",
@@ -18114,7 +18479,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 793,
+    "sort": 828,
     "id": "enemy_6002_trswlf",
     "slug": "teary_detective",
     "code": "DL2",
@@ -18144,7 +18509,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 794,
+    "sort": 829,
     "id": "enemy_6003_trsslm",
     "slug": "shiny_pooloo",
     "code": "DL3",
@@ -18170,7 +18535,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 795,
+    "sort": 830,
     "id": "enemy_6004_pleslm",
     "slug": "milan",
     "code": "DL4",
@@ -18200,7 +18565,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 796,
+    "sort": 831,
     "id": "enemy_6005_llstone",
     "slug": "spherical_colossus",
     "code": "DL5",
@@ -18230,7 +18595,7 @@
     "relatedEnemies": ["enemy_6006_fystone"]
   },
   {
-    "sort": 797,
+    "sort": 832,
     "id": "enemy_6006_fystone",
     "slug": "crude_sphere",
     "code": "DL6",
@@ -18253,7 +18618,7 @@
     "relatedEnemies": ["enemy_6005_llstone"]
   },
   {
-    "sort": 798,
+    "sort": 833,
     "id": "enemy_6007_mtslm",
     "slug": "drifting_cabin",
     "code": "DL7",
@@ -18279,7 +18644,7 @@
     "relatedEnemies": ["enemy_6008_mtslms"]
   },
   {
-    "sort": 799,
+    "sort": 834,
     "id": "enemy_6008_mtslms",
     "slug": "fluorescent_originium_slug",
     "code": "DL8",
@@ -18296,7 +18661,7 @@
     "relatedEnemies": ["enemy_6007_mtslm"]
   },
   {
-    "sort": 800,
+    "sort": 835,
     "id": "enemy_6009_nlkgtbs",
     "slug": "fruit_of_gluttony",
     "code": "DL9",
@@ -18326,7 +18691,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 801,
+    "sort": 836,
     "id": "enemy_6010_boxing",
     "slug": "'boy_wonder'_sandel",
     "code": "DL10",
@@ -18352,7 +18717,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 802,
+    "sort": 837,
     "id": "enemy_6011_planty",
     "slug": "nature's_compromise",
     "code": "DL11",
@@ -18382,7 +18747,7 @@
     "relatedEnemies": ["enemy_6012_plants"]
   },
   {
-    "sort": 803,
+    "sort": 838,
     "id": "enemy_6012_plants",
     "slug": "small_symbiont",
     "code": "DL12",
@@ -18399,7 +18764,7 @@
     "relatedEnemies": ["enemy_6011_planty"]
   },
   {
-    "sort": 804,
+    "sort": 839,
     "id": "enemy_6013_smith",
     "slug": "mama's_'rebel_girl'",
     "code": "DL13",
@@ -18429,7 +18794,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 805,
+    "sort": 840,
     "id": "enemy_6014_crzgas",
     "slug": "tumor",
     "code": "DL14",
@@ -18456,7 +18821,106 @@
     "relatedEnemies": []
   },
   {
-    "sort": 809,
+    "sort": 841,
+    "id": "enemy_6015_ictruck",
+    "slug": "supersweetie_smiley",
+    "code": "DL15",
+    "name": "'Supersweetie Smiley'",
+    "description": "A fully automatic ice cream truck made to ensure a steady supply of ice cream. It lost control after a worker accidentally poured syrup into its fuel tank, overriding the core control platform and spraying ice cream everywhere. It is always stirring the milk slurry within itself, and is ready to flash a smile at any customer who comes into view.",
+    "race": "Machina",
+    "type": "BOSS",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Can only be blocked by Operators with 3 or more Block",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Periodically dispatches a &lt;Supersweetie Delivery Drone&gt; towards a target, prioritizing Operators on high ground",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "After being on the field for a period of time, periodically increases the Movement Speed and ASPD of all enemies on the field when not blocked",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Periodically enters Speeding Mode. Can no longer be blocked, and deals Physical damage by colliding with allied units",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Exits Speeding Mode only after colliding 5 times with an Operator with a Block count of 4 and higher; will stop and be inflicted with <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Amplifies all Physical, Arts, and True damage taken by the corresponding amount (only the strongest effect of this type applies)\" href=\"/terminology#fragile\">Fragile</a> for a short period, and Stuns all enemies on the field",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 2,
+    "weight": 5,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_6017_icdrone"]
+  },
+  {
+    "sort": 842,
+    "id": "enemy_6016_splash",
+    "slug": "thirster",
+    "code": "DL16",
+    "name": "Thirster",
+    "description": "It once bore an Iberian name, until it tossed that name into the sea and disappeared into the abyss. However, embracing the seawater was not enough to moisten its parched throat, and the clear red liquid flowing within its veins is equally enticing, so it has returned to dry land once more, thirstier than ever.",
+    "race": "Sea Monster",
+    "type": "BOSS",
+    "attackPattern": "Melee Arts",
+    "abilityList": [
+      {
+        "text": "Attacks inflict additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"After Nervous Impairment reaches 1000, the affected unit takes 1000 True damage and is Stunned for 10s\" href=\"/terminology#nervous_impairment\">Nervous Impairment</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Has high DEF and RES, but those can be reduced by healing &lt;Absorbers&gt; to full HP",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Spits out filth at set intervals, placing an &lt;Absorber&gt; in the Deployment Waiting Zone and attacking several operators on the field; number of operators attacked increases according to Danger Level",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "After losing a certain percentage of HP, immediately Stuns multiple Operators on the field and creates a Barrier equal to the HP lost; if the Barrier is not destroyed before it expires, the Barrier shatters and inflicts a large amount of Nervous Impairment to all Operators on the field",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When it creates a Barrier for the second time and thereafter, it will stun more Operators if the previous Barrier was not destroyed; this effect can stack up to a number of times, and resets when a Barrier is destroyed",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 2,
+    "weight": 5,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 843,
+    "id": "enemy_6017_icdrone",
+    "slug": "supersweetie_delivery_drone",
+    "code": "DL17",
+    "name": "Supersweetie Delivery Drone",
+    "description": "A drone originally used to deliver ice cream to remote regions, but after going rogue it now sells to the masses. It has embraced its desire to deliver sweetness everywhere, and insists on submerging everyone in sugar.",
+    "race": "Drone",
+    "type": "NORMAL",
+    "attackPattern": "None",
+    "abilityList": [
+      { "text": "Flying unit.", "textFormat": "NORMAL" },
+      {
+        "text": "Sends a &lt;Supersweetie Superblend&gt; to the Deployment Waiting Zone upon death",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Levitate"],
+    "lifePointReduction": 0,
+    "weight": 1,
+    "isFlying": true,
+    "relatedEnemies": ["enemy_6015_ictruck"]
+  },
+  {
+    "sort": 844,
     "id": "enemy_7001_blwzad",
     "slug": "tribal_shaman",
     "code": "SD1",
@@ -18478,7 +18942,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 810,
+    "sort": 845,
     "id": "enemy_7001_blwzad_2",
     "slug": "lord_ameer_shaman",
     "code": "SD2",
@@ -18500,7 +18964,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 811,
+    "sort": 846,
     "id": "enemy_7002_veingd",
     "slug": "vein_guardian",
     "code": "SD3",
@@ -18522,7 +18986,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 812,
+    "sort": 847,
     "id": "enemy_7002_veingd_2",
     "slug": "maddened_vein_guardian",
     "code": "SD4",
@@ -18544,7 +19008,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 813,
+    "sort": 848,
     "id": "enemy_7003_catapt",
     "slug": "anything_can_be_broken",
     "code": "SD5",
@@ -18566,7 +19030,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 814,
+    "sort": 849,
     "id": "enemy_7003_catapt_2",
     "slug": "everything_should_be_smashed",
     "code": "SD6",
@@ -18588,7 +19052,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 815,
+    "sort": 850,
     "id": "enemy_7004_xbdeer",
     "slug": "leporibeast_shorthorn",
     "code": "SD7",
@@ -18610,7 +19074,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 816,
+    "sort": 851,
     "id": "enemy_7004_xbdeer_2",
     "slug": "leporibeast_longhorn",
     "code": "SD8",
@@ -18632,7 +19096,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 817,
+    "sort": 852,
     "id": "enemy_7005_xbbull",
     "slug": "mossback_beast",
     "code": "SD9",
@@ -18655,7 +19119,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 818,
+    "sort": 853,
     "id": "enemy_7005_xbbull_2",
     "slug": "lush_mossback_beast",
     "code": "SD10",
@@ -18678,7 +19142,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 819,
+    "sort": 854,
     "id": "enemy_7006_xbcrab",
     "slug": "cragpincer",
     "code": "SD11",
@@ -18700,7 +19164,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 820,
+    "sort": 855,
     "id": "enemy_7006_xbcrab_2",
     "slug": "crystalline_cragpincer",
     "code": "SD12",
@@ -18722,7 +19186,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 821,
+    "sort": 856,
     "id": "enemy_7015_xbcrab2",
     "slug": "consortium_of_pincers",
     "code": "SD13",
@@ -18744,7 +19208,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 822,
+    "sort": 857,
     "id": "enemy_7007_xbbird",
     "slug": "sandfall_crystalhoof",
     "code": "SD14",
@@ -18767,7 +19231,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 824,
+    "sort": 859,
     "id": "enemy_7009_mtmoun",
     "slug": "the_immortal",
     "code": "SD16",
@@ -18793,7 +19257,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 825,
+    "sort": 860,
     "id": "enemy_7010_bldrgn",
     "slug": "great_wingbeast",
     "code": "SD17",
@@ -18823,7 +19287,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 826,
+    "sort": 861,
     "id": "enemy_7011_paki",
     "slug": "sargonian_contract_assassin",
     "code": "SD18",
@@ -18845,7 +19309,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 827,
+    "sort": 862,
     "id": "enemy_7012_wilder",
     "slug": "dauntless_linebreaker",
     "code": "SD19",
@@ -18873,7 +19337,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 828,
+    "sort": 863,
     "id": "enemy_7013_slwazd",
     "slug": "the_ruinbringer",
     "code": "SD20",
@@ -18902,7 +19366,7 @@
     "relatedEnemies": ["enemy_1021_bslime", "enemy_1021_bslime_2"]
   },
   {
-    "sort": 829,
+    "sort": 864,
     "id": "enemy_7014_dva",
     "slug": "al-rafiq",
     "code": "SD21",
