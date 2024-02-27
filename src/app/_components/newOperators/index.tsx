@@ -110,7 +110,7 @@ function RedirectCard(props: Omit<OperatorExcerpt, "type">) {
           alt=""
           width={96}
           height={96}
-          className="mb-auto p-1.5 @[15rem]:p-3"
+          className="mb-auto aspect-square object-contain p-1.5 @[15rem]:p-3"
         />
         <ELink
           aria-label={`View more information about ${props.name}.`}
