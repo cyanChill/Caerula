@@ -5252,6 +5252,29 @@
     "initSp": [30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
     "duration": [30, 31, 32, 33, 34, 35, 36, 37, 38, 40]
   },
+  "skchr_sntlla_2": {
+    "id": "skchr_sntlla_2",
+    "iconId": "skchr_sntlla_2",
+    "name": "'Witch's Tears'",
+    "description": [
+      "Attack Range <span style=\"color:#0098DC;\">expands</span>, Attack Interval <span style=\"color:#0098DC;\">shortens massively</span>, and attacks now summon icicles over random areas within range. When the icicles fall, all enemies in the area are inflicted with <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> for <span style=\"color:#0098DC;\">1</span> seconds and dealt <span style=\"color:#0098DC;\">55%</span> of Santalla's ATK as Arts damage",
+      "Attack Range <span style=\"color:#0098DC;\">expands</span>, Attack Interval <span style=\"color:#0098DC;\">shortens massively</span>, and attacks now summon icicles over random areas within range. When the icicles fall, all enemies in the area are inflicted with <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> for <span style=\"color:#0098DC;\">1</span> seconds and dealt <span style=\"color:#0098DC;\">58%</span> of Santalla's ATK as Arts damage",
+      "Attack Range <span style=\"color:#0098DC;\">expands</span>, Attack Interval <span style=\"color:#0098DC;\">shortens massively</span>, and attacks now summon icicles over random areas within range. When the icicles fall, all enemies in the area are inflicted with <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> for <span style=\"color:#0098DC;\">1</span> seconds and dealt <span style=\"color:#0098DC;\">61%</span> of Santalla's ATK as Arts damage",
+      "Attack Range <span style=\"color:#0098DC;\">expands</span>, Attack Interval <span style=\"color:#0098DC;\">shortens massively</span>, and attacks now summon icicles over random areas within range. When the icicles fall, all enemies in the area are inflicted with <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> for <span style=\"color:#0098DC;\">1</span> seconds and dealt <span style=\"color:#0098DC;\">65%</span> of Santalla's ATK as Arts damage",
+      "Attack Range <span style=\"color:#0098DC;\">expands</span>, Attack Interval <span style=\"color:#0098DC;\">shortens massively</span>, and attacks now summon icicles over random areas within range. When the icicles fall, all enemies in the area are inflicted with <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> for <span style=\"color:#0098DC;\">1</span> seconds and dealt <span style=\"color:#0098DC;\">68%</span> of Santalla's ATK as Arts damage",
+      "Attack Range <span style=\"color:#0098DC;\">expands</span>, Attack Interval <span style=\"color:#0098DC;\">shortens massively</span>, and attacks now summon icicles over random areas within range. When the icicles fall, all enemies in the area are inflicted with <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> for <span style=\"color:#0098DC;\">1</span> seconds and dealt <span style=\"color:#0098DC;\">71%</span> of Santalla's ATK as Arts damage",
+      "Attack Range <span style=\"color:#0098DC;\">expands</span>, Attack Interval <span style=\"color:#0098DC;\">shortens massively</span>, and attacks now summon icicles over random areas within range. When the icicles fall, all enemies in the area are inflicted with <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> for <span style=\"color:#0098DC;\">1</span> seconds and dealt <span style=\"color:#0098DC;\">75%</span> of Santalla's ATK as Arts damage",
+      "Attack Range <span style=\"color:#0098DC;\">expands</span>, Attack Interval <span style=\"color:#0098DC;\">shortens massively</span>, and attacks now summon icicles over random areas within range. When the icicles fall, all enemies in the area are inflicted with <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> for <span style=\"color:#0098DC;\">1</span> seconds and dealt <span style=\"color:#0098DC;\">80%</span> of Santalla's ATK as Arts damage",
+      "Attack Range <span style=\"color:#0098DC;\">expands</span>, Attack Interval <span style=\"color:#0098DC;\">shortens massively</span>, and attacks now summon icicles over random areas within range. When the icicles fall, all enemies in the area are inflicted with <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> for <span style=\"color:#0098DC;\">1</span> seconds and dealt <span style=\"color:#0098DC;\">85%</span> of Santalla's ATK as Arts damage",
+      "Attack Range <span style=\"color:#0098DC;\">expands</span>, Attack Interval <span style=\"color:#0098DC;\">shortens massively</span>, and attacks now summon icicles over random areas within range. When the icicles fall, all enemies in the area are inflicted with <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> for <span style=\"color:#0098DC;\">1</span> seconds and dealt <span style=\"color:#0098DC;\">90%</span> of Santalla's ATK as Arts damage"
+    ],
+    "rangeId": "3-3",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [50, 49, 48, 47, 46, 45, 44, 43, 42, 40],
+    "initSp": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+    "duration": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15]
+  },
   "skchr_otter_1": {
     "id": "skchr_otter_1",
     "iconId": "skchr_otter_1",
@@ -7920,6 +7943,52 @@
     "initSp": [9, 9, 9, 11, 11, 11, 13, 13, 13, 15],
     "duration": [13, 13, 13, 13, 13, 13, 15, 15, 15, 17]
   },
+  "skchr_threye_1": {
+    "id": "skchr_threye_1",
+    "iconId": "skchr_threye_1",
+    "name": "Before All I See Collapses",
+    "description": [
+      "The next attack deals <span style=\"color:#0098DC;\">40%</span> of ATK as Arts damage and <span style=\"color:#0098DC;\">30%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>\n<span style=\"color:#F49800;\">Can store 1 charges</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">50%</span> of ATK as Arts damage and <span style=\"color:#0098DC;\">30%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>\n<span style=\"color:#F49800;\">Can store 1 charges</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">60%</span> of ATK as Arts damage and <span style=\"color:#0098DC;\">30%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>\n<span style=\"color:#F49800;\">Can store 1 charges</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">70%</span> of ATK as Arts damage and <span style=\"color:#0098DC;\">40%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">80%</span> of ATK as Arts damage and <span style=\"color:#0098DC;\">40%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">90%</span> of ATK as Arts damage and <span style=\"color:#0098DC;\">40%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">100%</span> of ATK as Arts damage and <span style=\"color:#0098DC;\">50%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">110%</span> of ATK as Arts damage and <span style=\"color:#0098DC;\">60%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">120%</span> of ATK as Arts damage and <span style=\"color:#0098DC;\">70%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">130%</span> of ATK as Arts damage and <span style=\"color:#0098DC;\">80%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>\n<span style=\"color:#F49800;\">Can store 2 charges</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [17, 16, 15, 14, 13, 12, 10, 9, 8, 7],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_threye_2": {
+    "id": "skchr_threye_2",
+    "iconId": "skchr_threye_2",
+    "name": "After All I See Has Withered",
+    "description": [
+      "ASPD <span style=\"color:#0098DC;\">+10</span>, attacks hit 1 additional target, and each attack additionally deals <span style=\"color:#0098DC;\">15%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+14</span>, attacks hit 1 additional target, and each attack additionally deals <span style=\"color:#0098DC;\">15%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+18</span>, attacks hit 1 additional target, and each attack additionally deals <span style=\"color:#0098DC;\">15%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+22</span>, attacks hit 1 additional target, and each attack additionally deals <span style=\"color:#0098DC;\">20%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+26</span>, attacks hit 1 additional target, and each attack additionally deals <span style=\"color:#0098DC;\">20%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+30</span>, attacks hit 1 additional target, and each attack additionally deals <span style=\"color:#0098DC;\">20%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+35</span>, attacks hit 1 additional target, and each attack additionally deals <span style=\"color:#0098DC;\">25%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+40</span>, attacks hit 1 additional target, and each attack additionally deals <span style=\"color:#0098DC;\">30%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+45</span>, attacks hit 1 additional target, and each attack additionally deals <span style=\"color:#0098DC;\">30%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+50</span>, attacks hit 1 additional target, and each attack additionally deals <span style=\"color:#0098DC;\">35%</span> of ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [40, 40, 40, 37, 37, 37, 34, 33, 32, 30],
+    "initSp": [5, 5, 5, 10, 10, 10, 15, 15, 15, 15],
+    "duration": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
+  },
   "skchr_mantic_1": {
     "id": "skchr_mantic_1",
     "iconId": "skchr_mantic_1",
@@ -8316,16 +8385,16 @@
     "iconId": "skchr_bena_2",
     "name": "Rapid Trimming",
     "description": [
-      "ATK <span style=\"color:#0098DC;\">+30%</span>, ASPD <span style=\"color:#0098DC;\">+20</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every attack",
-      "ATK <span style=\"color:#0098DC;\">+35%</span>, ASPD <span style=\"color:#0098DC;\">+25</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every attack",
-      "ATK <span style=\"color:#0098DC;\">+40%</span>, ASPD <span style=\"color:#0098DC;\">+30</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every attack",
-      "ATK <span style=\"color:#0098DC;\">+45%</span>, ASPD <span style=\"color:#0098DC;\">+35</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every attack",
-      "ATK <span style=\"color:#0098DC;\">+50%</span>, ASPD <span style=\"color:#0098DC;\">+40</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every attack",
-      "ATK <span style=\"color:#0098DC;\">+55%</span>, ASPD <span style=\"color:#0098DC;\">+45</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every attack",
-      "ATK <span style=\"color:#0098DC;\">+60%</span>, ASPD <span style=\"color:#0098DC;\">+50</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every attack",
-      "ATK <span style=\"color:#0098DC;\">+70%</span>, ASPD <span style=\"color:#0098DC;\">+60</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every attack",
-      "ATK <span style=\"color:#0098DC;\">+80%</span>, ASPD <span style=\"color:#0098DC;\">+70</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every attack",
-      "ATK <span style=\"color:#0098DC;\">+90%</span>, ASPD <span style=\"color:#0098DC;\">+80</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every attack"
+      "ATK <span style=\"color:#0098DC;\">+30%</span>, ASPD <span style=\"color:#0098DC;\">+20</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "ATK <span style=\"color:#0098DC;\">+35%</span>, ASPD <span style=\"color:#0098DC;\">+25</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "ATK <span style=\"color:#0098DC;\">+40%</span>, ASPD <span style=\"color:#0098DC;\">+30</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "ATK <span style=\"color:#0098DC;\">+45%</span>, ASPD <span style=\"color:#0098DC;\">+35</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "ATK <span style=\"color:#0098DC;\">+50%</span>, ASPD <span style=\"color:#0098DC;\">+40</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "ATK <span style=\"color:#0098DC;\">+55%</span>, ASPD <span style=\"color:#0098DC;\">+45</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "ATK <span style=\"color:#0098DC;\">+60%</span>, ASPD <span style=\"color:#0098DC;\">+50</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "ATK <span style=\"color:#0098DC;\">+70%</span>, ASPD <span style=\"color:#0098DC;\">+60</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "ATK <span style=\"color:#0098DC;\">+80%</span>, ASPD <span style=\"color:#0098DC;\">+70</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "ATK <span style=\"color:#0098DC;\">+90%</span>, ASPD <span style=\"color:#0098DC;\">+80</span> and lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy"
     ],
     "rangeId": null,
     "activationType": "Manual",
@@ -8977,6 +9046,52 @@
     "spCost": [40, 39, 38, 37, 36, 35, 34, 33, 32, 30],
     "initSp": [10, 10, 10, 11, 11, 11, 12, 13, 14, 15],
     "duration": [6, 6, 6, 6, 6, 6, 7, 7, 7, 8]
+  },
+  "skchr_typhon_2": {
+    "id": "skchr_typhon_2",
+    "iconId": "skchr_typhon_2",
+    "name": "Order of the Icefield",
+    "description": [
+      "ATK <span style=\"color:#0098DC;\">+17%</span>, each attack fires off <span style=\"color:#0098DC;\">2</span> arrows (prioritizing different targets), and has a <span style=\"color:#0098DC;\">40%</span> chance of stunning targets for <span style=\"color:#0098DC;\">1</span> seconds\n<span style=\"color:#F49800;\">From second activation and on, this skill has unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+20%</span>, each attack fires off <span style=\"color:#0098DC;\">2</span> arrows (prioritizing different targets), and has a <span style=\"color:#0098DC;\">40%</span> chance of stunning targets for <span style=\"color:#0098DC;\">1</span> seconds\n<span style=\"color:#F49800;\">From second activation and on, this skill has unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+23%</span>, each attack fires off <span style=\"color:#0098DC;\">2</span> arrows (prioritizing different targets), and has a <span style=\"color:#0098DC;\">40%</span> chance of stunning targets for <span style=\"color:#0098DC;\">1</span> seconds\n<span style=\"color:#F49800;\">From second activation and on, this skill has unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+26%</span>, each attack fires off <span style=\"color:#0098DC;\">2</span> arrows (prioritizing different targets), and has a <span style=\"color:#0098DC;\">40%</span> chance of stunning targets for <span style=\"color:#0098DC;\">1</span> seconds\n<span style=\"color:#F49800;\">From second activation and on, this skill has unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+29%</span>, each attack fires off <span style=\"color:#0098DC;\">2</span> arrows (prioritizing different targets), and has a <span style=\"color:#0098DC;\">40%</span> chance of stunning targets for <span style=\"color:#0098DC;\">1</span> seconds\n<span style=\"color:#F49800;\">From second activation and on, this skill has unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+32%</span>, each attack fires off <span style=\"color:#0098DC;\">2</span> arrows (prioritizing different targets), and has a <span style=\"color:#0098DC;\">40%</span> chance of stunning targets for <span style=\"color:#0098DC;\">1</span> seconds\n<span style=\"color:#F49800;\">From second activation and on, this skill has unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+35%</span>, each attack fires off <span style=\"color:#0098DC;\">2</span> arrows (prioritizing different targets), and has a <span style=\"color:#0098DC;\">40%</span> chance of stunning targets for <span style=\"color:#0098DC;\">1</span> seconds\n<span style=\"color:#F49800;\">From second activation and on, this skill has unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+40%</span>, each attack fires off <span style=\"color:#0098DC;\">2</span> arrows (prioritizing different targets), and has a <span style=\"color:#0098DC;\">40%</span> chance of stunning targets for <span style=\"color:#0098DC;\">1</span> seconds\n<span style=\"color:#F49800;\">From second activation and on, this skill has unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+45%</span>, each attack fires off <span style=\"color:#0098DC;\">2</span> arrows (prioritizing different targets), and has a <span style=\"color:#0098DC;\">40%</span> chance of stunning targets for <span style=\"color:#0098DC;\">1</span> seconds\n<span style=\"color:#F49800;\">From second activation and on, this skill has unlimited duration</span>",
+      "ATK <span style=\"color:#0098DC;\">+50%</span>, each attack fires off <span style=\"color:#0098DC;\">2</span> arrows (prioritizing different targets), and has a <span style=\"color:#0098DC;\">40%</span> chance of stunning targets for <span style=\"color:#0098DC;\">1</span> seconds\n<span style=\"color:#F49800;\">From second activation and on, this skill has unlimited duration</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [55, 55, 55, 53, 53, 53, 51, 51, 51, 50],
+    "initSp": [34, 35, 36, 37, 38, 39, 40, 41, 41, 42],
+    "duration": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
+  },
+  "skchr_typhon_3": {
+    "id": "skchr_typhon_3",
+    "iconId": "skchr_typhon_3",
+    "name": "'Eternal Hunt'",
+    "description": [
+      "Immediately marks a target within range, Attack Interval <span style=\"color:#FF6237;\">lengthens significantly</span>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <span style=\"color:#0098DC;\">4</span> hits of <span style=\"color:#0098DC;\">130%</span> ATK as Physical damage and stunning targets hit for <span style=\"color:#0098DC;\">0.4</span> seconds\n<span style=\"color:#F49800;\">Skill activation grants 6 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</span>",
+      "Immediately marks a target within range, Attack Interval <span style=\"color:#FF6237;\">lengthens significantly</span>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <span style=\"color:#0098DC;\">4</span> hits of <span style=\"color:#0098DC;\">135%</span> ATK as Physical damage and stunning targets hit for <span style=\"color:#0098DC;\">0.4</span> seconds\n<span style=\"color:#F49800;\">Skill activation grants 6 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</span>",
+      "Immediately marks a target within range, Attack Interval <span style=\"color:#FF6237;\">lengthens significantly</span>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <span style=\"color:#0098DC;\">4</span> hits of <span style=\"color:#0098DC;\">140%</span> ATK as Physical damage and stunning targets hit for <span style=\"color:#0098DC;\">0.4</span> seconds\n<span style=\"color:#F49800;\">Skill activation grants 6 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</span>",
+      "Immediately marks a target within range, Attack Interval <span style=\"color:#FF6237;\">lengthens significantly</span>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <span style=\"color:#0098DC;\">4</span> hits of <span style=\"color:#0098DC;\">145%</span> ATK as Physical damage and stunning targets hit for <span style=\"color:#0098DC;\">0.4</span> seconds\n<span style=\"color:#F49800;\">Skill activation grants 7 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</span>",
+      "Immediately marks a target within range, Attack Interval <span style=\"color:#FF6237;\">lengthens significantly</span>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <span style=\"color:#0098DC;\">4</span> hits of <span style=\"color:#0098DC;\">150%</span> ATK as Physical damage and stunning targets hit for <span style=\"color:#0098DC;\">0.4</span> seconds\n<span style=\"color:#F49800;\">Skill activation grants 7 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</span>",
+      "Immediately marks a target within range, Attack Interval <span style=\"color:#FF6237;\">lengthens significantly</span>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <span style=\"color:#0098DC;\">4</span> hits of <span style=\"color:#0098DC;\">155%</span> ATK as Physical damage and stunning targets hit for <span style=\"color:#0098DC;\">0.4</span> seconds\n<span style=\"color:#F49800;\">Skill activation grants 7 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</span>",
+      "Immediately marks a target within range, Attack Interval <span style=\"color:#FF6237;\">lengthens significantly</span>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <span style=\"color:#0098DC;\">4</span> hits of <span style=\"color:#0098DC;\">160%</span> ATK as Physical damage and stunning targets hit for <span style=\"color:#0098DC;\">0.4</span> seconds\n<span style=\"color:#F49800;\">Skill activation grants 8 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</span>",
+      "Immediately marks a target within range, Attack Interval <span style=\"color:#FF6237;\">lengthens significantly</span>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <span style=\"color:#0098DC;\">5</span> hits of <span style=\"color:#0098DC;\">165%</span> ATK as Physical damage and stunning targets hit for <span style=\"color:#0098DC;\">0.4</span> seconds\n<span style=\"color:#F49800;\">Skill activation grants 8 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</span>",
+      "Immediately marks a target within range, Attack Interval <span style=\"color:#FF6237;\">lengthens significantly</span>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <span style=\"color:#0098DC;\">5</span> hits of <span style=\"color:#0098DC;\">170%</span> ATK as Physical damage and stunning targets hit for <span style=\"color:#0098DC;\">0.4</span> seconds\n<span style=\"color:#F49800;\">Skill activation grants 9 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</span>",
+      "Immediately marks a target within range, Attack Interval <span style=\"color:#FF6237;\">lengthens significantly</span>, and attacks become a hail of arrows aimed at the marked target; the hail of arrows will randomly strike enemies around the marked target, dealing <span style=\"color:#0098DC;\">5</span> hits of <span style=\"color:#0098DC;\">175%</span> ATK as Physical damage and stunning targets hit for <span style=\"color:#0098DC;\">0.4</span> seconds\n<span style=\"color:#F49800;\">Skill activation grants 10 ammo and the skill ends when all ammo is used (Can manually deactivate skill)</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [50, 49, 48, 47, 46, 45, 43, 42, 41, 40],
+    "initSp": [25, 25, 25, 25, 25, 25, 25, 25, 25, 25],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
   },
   "skchr_rosmon_1": {
     "id": "skchr_rosmon_1",
@@ -15200,7 +15315,7 @@
     "iconId": "sktok_garage",
     "name": "Self-Driving Cart, Forward!",
     "description": [
-      "Consumes <span style=\"color:#0098DC;\">3</span> DP to launch a <span style=\"color:#0098DC;\">Self-Driving Cart</span> in the direction this unit is deployed\n<span style=\"color:#F49800;\">After launching, the Self-Driving Cart moves in a straight line until it runs into an impassable area. When passing a Self-Driver One-Way Road or a friendly unit, it will change its direction according to that unit's deployment direction (Once per unit)</span>"
+      "Consumes <span style=\"color:#0098DC;\">3</span> DP to launch a <span style=\"color:#0098DC;\">Self-Driving Cart</span> in the direction this unit is deployed\n<span style=\"color:#F49800;\">After launching, the Self-Driving Cart moves in a straight line until it runs into impassable area. When passing a Self-Driver One-Way Road or a friendly unit, it will change its direction according to that unit's deployment direction (Once per unit)</span>"
     ],
     "rangeId": null,
     "activationType": "Manual",
@@ -15214,7 +15329,7 @@
     "iconId": "sktok_garage",
     "name": "Self-Driving Cart, Forward!",
     "description": [
-      "When active, automatically launches a <span style=\"color:#0098DC;\">Self-Driving Cart</span> in the direction this unit is deployed, and every Cart consumes <span style=\"color:#0098DC;\">3</span> DP; this skill can be toggled off to disable the automatic launching\n<span style=\"color:#F49800;\">After launching, the Self-Driving Cart moves in a straight line until it runs into an impassable area. When passing a Self-Driver One-Way Road or a friendly unit, it will change its direction according to that unit's deployment direction (Once per unit)</span>"
+      "When active, automatically launches a <span style=\"color:#0098DC;\">Self-Driving Cart</span> in the direction this unit is deployed, and every Cart consumes <span style=\"color:#0098DC;\">3</span> DP; this skill can be toggled off to disable the automatic launching\n<span style=\"color:#F49800;\">After launching, the Self-Driving Cart moves in a straight line until it runs into impassable area. When passing a Self-Driver One-Way Road or a friendly unit, it will change its direction according to that unit's deployment direction (Once per unit)</span>"
     ],
     "rangeId": null,
     "activationType": "Manual",
@@ -16256,6 +16371,56 @@
     "initSp": [0],
     "duration": [-1]
   },
+  "sktok_smpow": {
+    "id": "sktok_smpow",
+    "iconId": "sktok_smpow",
+    "name": "Activate",
+    "description": [
+      "Removes the invulnerability of [Crazelyseon, the Ascendant of Cosmoi] for <span style=\"color:#0098DC;\">5</span> seconds;\n<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a> Effect: Extends the invulnerability removal effect to <span style=\"color:#0098DC;\">10</span> seconds, and additionally clears all [Seedbeds]"
+    ],
+    "rangeId": "x-2",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [40],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_smbox": {
+    "id": "sktok_smbox",
+    "iconId": "sktok_smbox",
+    "name": "Alluring Treasures",
+    "description": ["Gives +2 Originium Ingots when defeated"],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_smrbox": {
+    "id": "sktok_smrbox",
+    "iconId": "sktok_smrbox",
+    "name": "Spiky Treasures",
+    "description": ["Reflect some damage taken, gives +4 Originium Ingots when defeated"],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_smbbox": {
+    "id": "sktok_smbbox",
+    "iconId": "sktok_smbbox",
+    "name": "Alluring Treasures?",
+    "description": ["Gives +10 Originium Ingots when defeated"],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
   "sktok_crsbow": {
     "id": "sktok_crsbow",
     "iconId": "sktok_crsbow",
@@ -16446,6 +16611,23 @@
     "initSp": [0, 0],
     "duration": [0, 0]
   },
+  "sktok_eradio": {
+    "id": "sktok_eradio",
+    "iconId": "sktok_eradio",
+    "name": "Jet Cooling",
+    "description": [
+      "Passive: Restores <span style=\"color:#0098DC;\">2</span> SP upon being attacked\nActivation Effect: Deals <span style=\"color:#FF6237;\">200</span> Arts damage per second to all friendly and ground enemy units in range for <span style=\"color:#0098DC;\">10</span> seconds, and additionally slows the Movement Speed of enemies by <span style=\"color:#0098DC;\">-70%</span> and causes them to gain <span style=\"color:#FF6237;\">1</span> Energy",
+      "Passive: Restores <span style=\"color:#0098DC;\">2</span> SP upon being attacked\nActivation Effect: Deals <span style=\"color:#FF6237;\">200</span> Arts damage per second to all friendly and ground enemy units in range for <span style=\"color:#0098DC;\">10</span> seconds, and additionally slows the Movement Speed of enemies by <span style=\"color:#0098DC;\">-70%</span> and causes them to gain <span style=\"color:#FF6237;\">1</span> Energy",
+      "Passive: Restores <span style=\"color:#0098DC;\">2</span> SP upon being attacked\nActivation Effect: Deals <span style=\"color:#FF6237;\">200</span> Arts damage per second to all friendly and ground enemy units in range for <span style=\"color:#0098DC;\">10</span> seconds, and additionally slows the Movement Speed of enemies by <span style=\"color:#0098DC;\">-70%</span> and causes them to gain <span style=\"color:#FF6237;\">1</span> Energy",
+      "Passive: Restores <span style=\"color:#0098DC;\">1</span> SP upon being attacked\nActivation Effect: Deals <span style=\"color:#FF6237;\">200</span> Arts damage per second to all friendly and ground enemy units in range for <span style=\"color:#0098DC;\">10</span> seconds, and additionally slows the Movement Speed of enemies by <span style=\"color:#0098DC;\">-70%</span> and causes them to gain <span style=\"color:#FF6237;\">1</span> Energy"
+    ],
+    "rangeId": "5-1",
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [50, 50, 50, 50],
+    "initSp": [25, 0, 50, 0],
+    "duration": [10, 10, 10, 10]
+  },
   "sktok_ltstat": {
     "id": "sktok_ltstat",
     "iconId": "sktok_ltstat",
@@ -16494,6 +16676,90 @@
     "name": "Steam Soda Bottle",
     "description": ["When defeated, creates Pure White Steam in the surrounding area"],
     "rangeId": "x-5",
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_cdcvrt": {
+    "id": "sktok_cdcvrt",
+    "iconId": "sktok_cdcvrt",
+    "name": "Energy Overflow Recovery",
+    "description": [
+      "Immediately obtain Transfer Permits equal to <span style=\"color:#0098DC;\">4</span> times the sum of all deployed Operators' Block count"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_cdcvrta": {
+    "id": "sktok_cdcvrta",
+    "iconId": "sktok_cdcvrt",
+    "name": "Energy Overflow Recovery",
+    "description": [
+      "Immediately obtain Transfer Permits equal to <span style=\"color:#0098DC;\">7</span> times the sum of all deployed Operators' Block count"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_cdrone": {
+    "id": "sktok_cdrone",
+    "iconId": "sktok_cdrone",
+    "name": "Field Support",
+    "description": [
+      "Periodically loses <span style=\"color:#FF6237;\">8%</span> of Max HP (but will not retreat as a result of this effect) to evenly restore HP and Elemental Damage to all units within range; the total healing amount is equal to <span style=\"color:#0098DC;\">1.5</span> times missing HP"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_cdkzmr": {
+    "id": "sktok_cdkzmr",
+    "iconId": "sktok_cdkzmr",
+    "name": "Competition Records Analysis",
+    "description": [
+      "All Kazimierz Operators in the Deployment Waiting Zone have <span style=\"color:#0098DC;\">-5</span> Deployment Cost"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_truamr": {
+    "id": "sktok_truamr",
+    "iconId": "sktok_truamr",
+    "name": "'Supersweetie Superblend'",
+    "description": [
+      "After deployment, increases the Block of the ground Operator in front by <span style=\"color:#0098DC;\">2</span>; this effect is removed after the 'Supersweetie Smiley' collides into that Operator"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_ltnova": {
+    "id": "sktok_ltnova",
+    "iconId": "sktok_ltnova",
+    "name": "Neuronal Revival",
+    "description": [
+      "Restores <span style=\"color:#0098DC;\">1000</span> points of Nervous Impairment to nearby units and dispels Stun"
+    ],
+    "rangeId": null,
     "activationType": "Passive",
     "spRecovery": "Passive",
     "spCost": [0],

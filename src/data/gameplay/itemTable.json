@@ -1247,6 +1247,38 @@
     "usage": "A portion of meat pies with ingredients added to personal taste. Can be used to restore Sanity.",
     "rarity": 5
   },
+  "ap_supply_lt_120_2023_1": {
+    "id": "ap_supply_lt_120_2023_1",
+    "iconId": "ap_supply_lt_120_2023_1",
+    "name": "'Radiant Courtyard'",
+    "description": "A tasty and refreshing snowskin mooncake. Remember to properly refrigerate!",
+    "usage": "A snowskin mooncake filled with mango and shredded coconut. Can be used to restore Sanity.",
+    "rarity": 5
+  },
+  "ap_supply_lt_120_2023_2": {
+    "id": "ap_supply_lt_120_2023_2",
+    "iconId": "ap_supply_lt_120_2023_2",
+    "name": "'Clear Nights'",
+    "description": "A tasty and refreshing snowskin mooncake. Remember to properly refrigerate!",
+    "usage": "A snowskin mooncake filled with meat floss. Can be used to restore Sanity.",
+    "rarity": 5
+  },
+  "ap_supply_lt_120_2023_3": {
+    "id": "ap_supply_lt_120_2023_3",
+    "iconId": "ap_supply_lt_120_2023_3",
+    "name": "'Fragrant Osmanthus'",
+    "description": "A sweet and crisp glazed mooncake. Remember to heat prior to consumption!",
+    "usage": "A glazed mooncake filled with bean paste and sweet osmanthus. Can be used to restore Sanity.",
+    "rarity": 5
+  },
+  "ap_supply_lt_120_2023_4": {
+    "id": "ap_supply_lt_120_2023_4",
+    "iconId": "ap_supply_lt_120_2023_4",
+    "name": "'Shrouded Golden Waves'",
+    "description": "A sweet and crisp glazed mooncake. Remember to heat prior to consumption!",
+    "usage": "A glazed mooncake filled with salted egg yolk. Can be used to restore Sanity.",
+    "rarity": 5
+  },
   "EXTERMINATION_AGENT": {
     "id": "EXTERMINATION_AGENT",
     "iconId": "EXTERMINATION_AGENT",
@@ -3967,6 +3999,22 @@
     "usage": "Used to improve the Potential of Spuria.",
     "rarity": 5
   },
+  "p_char_341_sntlla": {
+    "id": "p_char_341_sntlla",
+    "iconId": "p_char_341_sntlla",
+    "name": "Santalla's Token",
+    "description": "A curiously carved marker of wood. You recall Santalla once telling you how it signifies 'warmth.'",
+    "usage": "Used to improve the Potential of Santalla.",
+    "rarity": 5
+  },
+  "p_char_4102_threye": {
+    "id": "p_char_4102_threye",
+    "iconId": "p_char_4102_threye",
+    "name": "Valarqvin's Token",
+    "description": "An eternal flame, its lighting element of the same material as her staff. She may be able to see in the dark, but she's not sure about you.",
+    "usage": "Used to improve the Potential of Valarqvin.",
+    "rarity": 5
+  },
   "p_char_4106_bryota": {
     "id": "p_char_4106_bryota",
     "iconId": "p_char_4106_bryota",
@@ -4589,6 +4637,14 @@
     "name": "Executor the Ex Foedere's Token",
     "description": "A wireless earpiece. The latest of the Lateran Curia's tech products, and the same model that Executor himself currently uses. Is he giving this to you so you can stay in contact with him at any time, perhaps?",
     "usage": "Used to improve the Potential of Executor the Ex Foedere.",
+    "rarity": 6
+  },
+  "p_char_2012_typhon": {
+    "id": "p_char_2012_typhon",
+    "iconId": "p_char_2012_typhon",
+    "name": "Typhon's Token",
+    "description": "A bottle of pungently aromatic plant extract. A scent to smother civilization. Blend into the wilds; become the hunter, and become her companion.",
+    "usage": "Used to improve the Potential of Typhon.",
     "rarity": 6
   },
   "p_char_1033_swire2": {
@@ -7172,7 +7228,7 @@
     "iconId": "classic_gacha",
     "name": "Kernel Headhunting Permit",
     "description": "Rhodes Island's expansion is inseparable from the help and support it has received from kernel personnel. This headhunting item will assist the Doctor in recruiting talent within specified bounds.",
-    "usage": "A certificate that attests an operator possesses core abilities. Can be exchanged for rare materials.",
+    "usage": "A special permit from Rhodes Island's HR distribution for recruiting a single kernel talent.",
     "rarity": 5
   },
   "classic_gacha_10": {
@@ -7255,6 +7311,30 @@
     "usage": "Musicians often misplace their drafts during outbursts of emotion. If you straighten it out and return it to its owner, perhaps you will receive a new piece in return.",
     "rarity": 5
   },
+  "act15mini_token_figurine": {
+    "id": "act15mini_token_figurine",
+    "iconId": "act15mini_token_figurine",
+    "name": "Guiding Figurines",
+    "description": "So that others may more easily find supplies hidden in the forest, the hunters have made simple waymarkers. Be sure to restock some too after you avail of them, for the trees know all.",
+    "usage": "A crude carving left behind by the hunters. Wooden figures with indistinct features reach forth an arm, pointing to caves stockpiled with food, remedies, and tools.",
+    "rarity": 5
+  },
+  "rogue_3_token_bp": {
+    "id": "rogue_3_token_bp",
+    "iconId": "rogue_3_token_bp",
+    "name": "Ecological Specimens",
+    "description": null,
+    "usage": null,
+    "rarity": 5
+  },
+  "rogue_3_token_grow": {
+    "id": "rogue_3_token_grow",
+    "iconId": "rogue_3_token_grow",
+    "name": "Lucid Acuity",
+    "description": null,
+    "usage": null,
+    "rarity": 5
+  },
   "return_progress": {
     "id": "return_progress",
     "iconId": "return_progress_1",
@@ -7277,6 +7357,14 @@
     "name": "Monthly Card",
     "description": null,
     "usage": null,
+    "rarity": 5
+  },
+  "act19side_token_reagents_rep_1": {
+    "id": "act19side_token_reagents_rep_1",
+    "iconId": "act19side_token_reagents",
+    "name": "Mysterious Reagent",
+    "description": "Very sensitive to neural activity, and can replace some of the functions of traditional Arts Units. In the Rhine Lab Defense Section's laboratory supplies management handbook, this test reagent's hazard and confidentiality levels are both listed at maximum.",
+    "usage": "The latest innovation of Rhine Lab's Energy Section. Collect enough and exchange with the Laboratory Recycling Depot for goods.",
     "rarity": 5
   },
   "premium_material_issue_voucher": {
@@ -7373,6 +7461,14 @@
     "name": "Photocopies of 'Stranger Things'",
     "description": "The pages retain handwriting of all shapes and sizes, the amount even serving to tell you how often the magazine's changed hands. Most of it is meaningless scrawls, but flashes of wisdom are scattered throughout.",
     "usage": "Photocopies of a gaudy magazine, the contents preposterous, yet well-loved by Durin far and wide. Can be used at the Leaping Gloompincer Market to trade with the Durin for supplies.",
+    "rarity": 5
+  },
+  "uni_set_samiRoom_1": {
+    "id": "uni_set_samiRoom_1",
+    "iconId": "uni_set_samiRoom_1",
+    "name": "Sami Impressions Furniture Pack I",
+    "description": "A Sami forest cabin recreated based on Magallan's notes and the supplementary reports from other operators who participated in the expedition. Quiet and simple, as things have always been.",
+    "usage": "Obtain the furniture belonging to the two sets 'Dreamland Signposts' and 'Words of Nature' in the 'Sami Impressions' furniture series.",
     "rarity": 5
   }
 }
