@@ -96,7 +96,7 @@ function ProfessionSection({ profession }: { profession: Profession }) {
       </div>
 
       <div className="space-y-8">
-        <p className="text-sm sm:mt-8 sm:text-base">
+        <p className="font-geist-sans text-sm sm:mt-8 sm:text-base">
           {ProfessionMetaTable[profession].description}
         </p>
         {branchIds.map((bId) => (
@@ -133,7 +133,7 @@ function BranchInformation({ branchId }: { branchId: BranchId }) {
       </div>
       <p
         dangerouslySetInnerHTML={{ __html: branchData.trait }}
-        className="whitespace-pre-line text-sm text-neutral-60"
+        className="whitespace-pre-line font-geist-sans text-sm text-neutral-60"
       />
 
       <ul
