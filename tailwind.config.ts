@@ -129,6 +129,9 @@ const config: Config = {
         "geist-sans": ["var(--font-geist-sans)"],
         khand: ["var(--font-khand)"],
       },
+      fontSize: {
+        xs: "12px",
+      },
     },
   },
   plugins: [require("@tailwindcss/container-queries")],

@@ -1,7 +1,7 @@
 import type { Metadata, ResolvingMetadata } from "next";
 
 import { constructMetadata } from "@/lib/metadata";
-import OperatorBreakdown from "./_components/operatorBreakdown";
+import OperatorList from "./_components/operatorList";
 
 export async function generateMetadata(
   _: unknown,
@@ -19,7 +19,7 @@ export default function Operators() {
   return (
     <main className="mx-auto mb-[5svh] max-w-screen-2xl p-2 @container sm:px-8">
       <Header />
-      <OperatorBreakdown />
+      <OperatorList />
     </main>
   );
 }
