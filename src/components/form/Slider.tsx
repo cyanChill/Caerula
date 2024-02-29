@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 
 import { useKey } from "@/hooks/useKey";
 
-import { cn } from "@/lib/style";
+import { type HexColor, cn } from "@/lib/style";
 import { clamp } from "@/utils/math";
 
 interface Props {
@@ -11,8 +11,8 @@ interface Props {
   options: { min: number; max: number; trackWidth?: string };
   propagateVal: (val: number) => void;
   theme?: {
-    track?: { inactive?: string; active?: string };
-    thumb?: string;
+    track?: { inactive?: HexColor; active?: HexColor };
+    thumb?: HexColor;
   };
 }
 
