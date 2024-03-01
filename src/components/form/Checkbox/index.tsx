@@ -1,10 +1,8 @@
-import { groupNameAtom } from "./store";
-
 import type { HexColor, WithCSS } from "@/lib/style";
 import { cn } from "@/lib/style";
 import { HydrateAtoms } from "@/lib/jotai";
 import { ScopeProvider } from "@/lib/jotai/scope";
-import { INTERNAL_CheckboxInput } from "./client";
+import { groupNameAtom, INTERNAL_CheckboxInput } from "./client";
 
 interface CheckboxProps
   extends Omit<
@@ -38,7 +36,8 @@ export default function Checkbox({
         } as React.CSSProperties
       }
       className={cn(
-        "flex-center rounded-md border border-current p-1 text-center text-[var(--clr-IA)]",
+        "flex-center min-h-[calc(2lh+0.375rem)] rounded-md border border-current p-1",
+        "text-center text-sm leading-tight text-[var(--clr-IA)]",
         "shadow-[0_0_2px_1px_var(--clr-shdw-IA)] transition duration-300 ease-in-out",
         "has-[:enabled:hover]:cursor-pointer has-[:enabled:hover]:bg-white/5",
         "ring-white has-[:disabled]:opacity-50 has-[:focus]:ring-1 has-[:disabled]:grayscale",
