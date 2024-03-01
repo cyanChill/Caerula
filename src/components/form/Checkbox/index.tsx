@@ -38,9 +38,10 @@ export default function Checkbox({
         } as React.CSSProperties
       }
       className={cn(
-        "flex-center rounded-lg border border-current p-1 text-center text-[var(--clr-IA)]",
+        "flex-center rounded-md border border-current p-1 text-center text-[var(--clr-IA)]",
         "shadow-[0_0_2px_1px_var(--clr-shdw-IA)] transition duration-300 ease-in-out",
-        "ring-white/50 hover:cursor-pointer hover:bg-white/5 has-[:focus]:ring-1",
+        "has-[:enabled:hover]:cursor-pointer has-[:enabled:hover]:bg-white/5",
+        "ring-white has-[:disabled]:opacity-50 has-[:focus]:ring-1 has-[:disabled]:grayscale",
         "has-[:checked]:text-[var(--clr-A)] has-[:checked]:shadow-[0_0_2px_1px_var(--clr-shdw-A)]",
         className,
       )}
