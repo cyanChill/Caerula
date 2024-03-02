@@ -29,7 +29,7 @@ const chipVariants = cva(["inline-flex px-[0.5em] border-[max(1px,0.125em)]"], {
     {
       variant: "bordered",
       color: "primary",
-      class: "border-primary-60 text-primary-60",
+      class: "border-primary-50 text-primary-50",
     },
     {
       variant: "solid",
@@ -44,7 +44,7 @@ const chipVariants = cva(["inline-flex px-[0.5em] border-[max(1px,0.125em)]"], {
     {
       variant: "solid",
       color: "tertiary",
-      class: "bg-tertiary-70 border-tertiary-70 text-black",
+      class: "bg-tertiary-30 border-tertiary-30 text-white",
     },
     {
       variant: "bordered",
@@ -86,8 +86,8 @@ export default function Chip({
   const ChipTag = asListItem ? "li" : "div";
   return (
     <ChipTag className={cn(chipVariants({ ...config }), className)}>
-      {icon && <span className="flex-center">{icon}</span>}
-      <span className={cn({ "pl-[0.325em]": !!icon })}>{children}</span>
+      {icon && <span className="flex-center pr-[0.325em]">{icon}</span>}
+      <span>{children}</span>
     </ChipTag>
   );
 }
