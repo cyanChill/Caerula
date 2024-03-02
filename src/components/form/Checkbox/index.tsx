@@ -16,7 +16,7 @@ interface CheckboxProps
 const defaultTheme = { inactive: "#ABABAE", active: "#78ADF9" };
 
 /** @description Stylized checkbox component built off the default checkbox input. */
-export default function Checkbox({
+export function Checkbox({
   label,
   theme,
   className,
@@ -29,19 +29,20 @@ export default function Checkbox({
       style={
         {
           "--clr-IA": internalTheme.inactive,
-          "--clr-shdw-IA": `${internalTheme.inactive}40`, // At 25% opacity
+          "--clr-IA-O": `${internalTheme.inactive}40`, // At 25% opacity
           "--clr-A": internalTheme.active,
-          "--clr-shdw-A": `${internalTheme.active}40`,
+          "--clr-A-O": `${internalTheme.active}40`,
           ...style,
         } as React.CSSProperties
       }
       className={cn(
         "flex-center min-h-[calc(2lh+0.375rem)] rounded-md border border-current p-1",
         "text-center text-sm leading-tight text-[var(--clr-IA)]",
-        "shadow-[0_0_2px_1px_var(--clr-shdw-IA)] transition duration-300 ease-in-out",
+        "shadow-[0_0_2px_1px_var(--clr-shdw)] [--clr-shdw:var(--clr-IA-O)]",
+        "ring-white transition duration-300 ease-in-out has-[:focus]:ring-2",
         "has-[:enabled:hover]:cursor-pointer has-[:enabled:hover]:bg-white/5",
-        "ring-white has-[:disabled]:opacity-50 has-[:focus]:ring-1 has-[:disabled]:grayscale",
-        "has-[:checked]:text-[var(--clr-A)] has-[:checked]:shadow-[0_0_2px_1px_var(--clr-shdw-A)]",
+        "has-[:disabled]:opacity-50 has-[:disabled]:grayscale",
+        "has-[:checked]:text-[var(--clr-A)] has-[:checked]:[--clr-shdw:var(--clr-A-O)]",
         className,
       )}
     >
@@ -56,7 +57,7 @@ type CheckboxGroupProps = WithCSS<{
   children: React.ReactNode;
 }>;
 
-/** @description Allows for easier grouping of atoms of the same category. */
+/** @description Groups checkboxes of the same category. */
 export function CheckboxGroup(props: CheckboxGroupProps) {
   return (
     <ScopeProvider atoms={[groupNameAtom]}>
@@ -64,7 +65,7 @@ export function CheckboxGroup(props: CheckboxGroupProps) {
         <div
           style={props.style}
           className={cn(
-            "grid grid-cols-autoFit gap-1.5 [--min-col-size:125px]",
+            "grid grid-cols-autoFit gap-1.5 [--min-col-size:7.5rem]",
             props.className,
           )}
         >

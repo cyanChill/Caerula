@@ -22,9 +22,15 @@ export default function ScrollArrow({
         "flex flex-col",
       )}
     >
-      <ChevronDown className="animate-[slide-in-out_4s_infinite]" />
-      <ChevronDown className="animate-[slide-in-out_4s_infinite] [animation-delay:-0.4s]" />
-      <ChevronDown className="animate-[slide-in-out_4s_infinite] [animation-delay:-0.8s]" />
+      <ChevronDown compressed className="animate-[slide-in-out_4s_infinite]" />
+      <ChevronDown
+        compressed
+        className="animate-[slide-in-out_4s_infinite] [animation-delay:-0.4s]"
+      />
+      <ChevronDown
+        compressed
+        className="animate-[slide-in-out_4s_infinite] [animation-delay:-0.8s]"
+      />
     </div>
   );
 }
