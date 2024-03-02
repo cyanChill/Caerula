@@ -1,18 +1,24 @@
 import { type WithCSS, cn } from "@/lib/style";
 
-type FieldProps = WithCSS<{ children: React.ReactNode }>;
+type FieldProps = LegendProps & { disabled?: boolean };
 
 /** @description Stylized `<fieldset>`. */
-export function Fieldset({ children, className, style }: FieldProps) {
+export function Fieldset({ disabled, children, className, style }: FieldProps) {
   return (
-    <fieldset style={style} className={cn("flex flex-col", className)}>
+    <fieldset
+      {...{ disabled }}
+      style={style}
+      className={cn("flex flex-col", className)}
+    >
       {children}
     </fieldset>
   );
 }
 
+type LegendProps = WithCSS<{ children: React.ReactNode }>;
+
 /** @description Stylized `<legend>` (positioned like a normal element). */
-export function Legend({ children, className, style }: FieldProps) {
+export function Legend({ children, className, style }: LegendProps) {
   return (
     <legend
       style={style}

@@ -65,7 +65,7 @@ export function CheckboxGroup(props: CheckboxGroupProps) {
         <div
           style={props.style}
           className={cn(
-            "grid grid-cols-autoFit gap-1.5 [--min-col-size:7.5rem]",
+            "grid grid-cols-autoFit gap-1.5 [--min-col-size:7.25rem]",
             props.className,
           )}
         >
