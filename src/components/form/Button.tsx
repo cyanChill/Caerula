@@ -101,7 +101,7 @@ const buttonVariants = cva(
   },
 );
 
-type Props = ButtonConfig & React.HTMLAttributes<HTMLButtonElement>;
+type Props = ButtonConfig & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 export const Button = forwardRef(function Button(
   { children, className, style, variant, color, radius, ...props }: Props,

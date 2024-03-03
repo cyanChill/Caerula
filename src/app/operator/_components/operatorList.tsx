@@ -55,10 +55,12 @@ const ProfessionMetaTable = {
 /** @description Organize operators by their profession & branch. */
 export default function OperatorList() {
   return (
-    <section aria-label="Operator List" className="mt-20 space-y-12">
-      {Object.values(ProfessionMap).map((prof) => (
-        <ProfessionSection key={prof} profession={prof} />
-      ))}
+    <section aria-label="Operator List" className="z-0 space-y-12">
+      {Object.values(ProfessionMap)
+        .toSorted((a, b) => a.localeCompare(b))
+        .map((prof) => (
+          <ProfessionSection key={prof} profession={prof} />
+        ))}
     </section>
   );
 }
