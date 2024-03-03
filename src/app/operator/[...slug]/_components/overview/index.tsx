@@ -135,7 +135,7 @@ function OutfitCarousel({ name, skins }: { name: string; skins: Skin[] }) {
             activeClass="aspect-[3/2]"
             className={cn(
               "aspect-[3/8] h-32 shrink-0 overflow-clip sm:h-64",
-              "rounded-3xl outline-0 ring-white drop-shadow-xl",
+              "rounded-3xl outline-none ring-white drop-shadow-xl",
               "transition-[aspect-ratio] duration-500 hover:ring-2 focus:ring-2",
               "has-[[data-prevtab]]:aspect-[3/4]",
             )}

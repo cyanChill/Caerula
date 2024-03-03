@@ -111,7 +111,7 @@ function NavBtn(props: NavBtnProps) {
         href={href}
         className={cn(
           "grid h-full grid-flow-dense grid-cols-[minmax(0,1fr)_auto] text-[clamp(0.8rem,8cqw,5rem)]",
-          "rounded-[0.5em] outline-0 ring-white drop-shadow-xl hover:ring-2 focus:ring-2",
+          "rounded-[0.5em] outline-none ring-white drop-shadow-xl hover:ring-2 focus:ring-2",
           {
             "grid-cols-[auto_minmax(0,1fr)]": type === "small" && viewExternal,
             "grid-cols-1 grid-rows-[minmax(0,1fr)_auto]": type === "large",
