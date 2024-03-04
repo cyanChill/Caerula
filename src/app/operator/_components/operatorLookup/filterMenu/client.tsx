@@ -8,6 +8,7 @@ import { operatorLookupFilterAtom } from "../store";
 
 import { cn } from "@/lib/style";
 import { Button } from "@/components/form/Button";
+import ModalBackdrop from "@/components/layout/ModalBackdrop";
 
 /** @description Logic that opens/closes the filter menu. */
 export function INTERNAL_Menu(props: {
@@ -107,16 +108,11 @@ export function INTERNAL_Menu(props: {
         </div>
       </div>
 
-      {/* Backdrop */}
-      <div
+      <ModalBackdrop
+        isVisible={show}
         tabIndex={show ? 0 : -1}
         onClick={triggerFormSubmit}
         onFocus={() => menuContainerRef.current!.focus()}
-        className={cn(
-          "pointer-events-none fixed inset-0 z-[1] overflow-clip backdrop-blur-2xl",
-          "bg-black/50 opacity-0 transition-opacity duration-500",
-          { "pointer-events-auto opacity-100": show },
-        )}
       />
     </>
   );
