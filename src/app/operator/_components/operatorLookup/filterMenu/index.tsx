@@ -37,10 +37,11 @@ function LookupForm() {
 
       <Fieldset className="mb-4">
         <Legend>Rarity</Legend>
-        <CheckboxGroup name="rarity[]">
+        <CheckboxGroup>
           {[1, 2, 3, 4, 5, 6].map((rarity) => (
             <Checkbox
               key={rarity}
+              name="rarity[]"
               label={<Rarity size="size-[12.5cqw]" rarity={rarity} />}
               value={rarity}
               className="p-2 @container"
@@ -56,11 +57,16 @@ function LookupForm() {
             id: "profession",
             label: "Profession",
             formEl: (
-              <CheckboxGroup name="profession[]">
+              <CheckboxGroup>
                 {Object.values(ProfessionMap)
                   .toSorted((a, b) => a.localeCompare(b))
                   .map((prof) => (
-                    <Checkbox key={prof} label={prof} value={prof} />
+                    <Checkbox
+                      key={prof}
+                      name="profession[]"
+                      label={prof}
+                      value={prof}
+                    />
                   ))}
               </CheckboxGroup>
             ),
@@ -69,9 +75,9 @@ function LookupForm() {
             id: "branch",
             label: "Branch",
             formEl: (
-              <CheckboxGroup name="branch[]">
+              <CheckboxGroup>
                 {Object.values(BranchTable).map(({ id, name }) => (
-                  <Checkbox key={id} label={name} value={id} />
+                  <Checkbox key={id} name="branch[]" label={name} value={id} />
                 ))}
               </CheckboxGroup>
             ),
@@ -110,18 +116,18 @@ function LookupForm() {
 
       <Fieldset className="mb-4">
         <Legend>Type</Legend>
-        <CheckboxGroup name="type[]">
-          <Checkbox label="Non-Limited" value="regular" />
-          <Checkbox label="Limited" value="limited" />
-          <Checkbox label="Integrated Strategies" value="is" />
+        <CheckboxGroup>
+          <Checkbox name="type[]" label="Non-Limited" value="regular" />
+          <Checkbox name="type[]" label="Limited" value="limited" />
+          <Checkbox name="type[]" label="Integrated Strategies" value="is" />
         </CheckboxGroup>
       </Fieldset>
 
       <Fieldset>
         <Legend>Position</Legend>
-        <CheckboxGroup name="position[]">
-          <Checkbox label="Melee" value="MELEE" />
-          <Checkbox label="Ranged" value="RANGED" />
+        <CheckboxGroup>
+          <Checkbox name="position[]" label="Melee" value="MELEE" />
+          <Checkbox name="position[]" label="Ranged" value="RANGED" />
         </CheckboxGroup>
       </Fieldset>
     </>

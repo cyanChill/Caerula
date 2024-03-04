@@ -1,8 +1,5 @@
 import type { HexColor, WithCSS } from "@/lib/style";
 import { cn } from "@/lib/style";
-import { HydrateAtoms } from "@/lib/jotai";
-import { ScopeProvider } from "@/lib/jotai/scope";
-import { groupNameAtom, INTERNAL_CheckboxInput } from "./client";
 
 interface CheckboxProps
   extends Omit<
@@ -47,31 +44,22 @@ export function Checkbox({
       )}
     >
       {label}
-      <INTERNAL_CheckboxInput {...props} />
+      <input type="checkbox" {...props} className="size-0 outline-none" />
     </label>
   );
 }
 
-type CheckboxGroupProps = WithCSS<{
-  name: `${string}[]`;
-  children: React.ReactNode;
-}>;
-
 /** @description Groups checkboxes of the same category. */
-export function CheckboxGroup(props: CheckboxGroupProps) {
+export function CheckboxGroup(props: WithCSS<{ children: React.ReactNode }>) {
   return (
-    <ScopeProvider atoms={[groupNameAtom]}>
-      <HydrateAtoms atomValues={[[groupNameAtom, props.name]]}>
-        <div
-          style={props.style}
-          className={cn(
-            "grid grid-cols-autoFit gap-1.5 [--min-col-size:7.25rem]",
-            props.className,
-          )}
-        >
-          {props.children}
-        </div>
-      </HydrateAtoms>
-    </ScopeProvider>
+    <div
+      style={props.style}
+      className={cn(
+        "grid grid-cols-autoFit gap-1.5 [--min-col-size:7.25rem]",
+        props.className,
+      )}
+    >
+      {props.children}
+    </div>
   );
 }
