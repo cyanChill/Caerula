@@ -8,23 +8,21 @@ import { DynamicFieldset } from "@/components/form/DynamicFieldset";
 import { Fieldset, Legend } from "@/components/form/Fieldset";
 import { Select } from "@/components/form/Select";
 import Rarity from "@/features/characters/Rarity";
-import { INTERNAL_Menu } from "./client";
+import { LookupControls } from "./client";
 
 /** @description Button that opens the filter menu. */
 export function FilterMenu() {
   return (
-    <>
-      <INTERNAL_Menu
-        menuBtnChild={
-          <>
-            <Filter className="size-[1lh]" />
-            <span>Filters</span>
-          </>
-        }
-        formContent={<LookupForm />}
-        formSubmitBtn={<LookupSubmitBtn />}
-      />
-    </>
+    <LookupControls
+      menuBtnContent={
+        <>
+          <Filter className="size-[1lh]" />
+          <span>Filters</span>
+        </>
+      }
+      formContent={<LookupForm />}
+      formSubmitBtn={<LookupSubmitBtn />}
+    />
   );
 }
 

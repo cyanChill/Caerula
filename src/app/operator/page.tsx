@@ -1,6 +1,7 @@
 import type { Metadata, ResolvingMetadata } from "next";
 
 import { constructMetadata } from "@/lib/metadata";
+import { JotaiProvider } from "@/lib/jotai";
 import OperatorList from "./_components/operatorList";
 import OperatorLookup from "./_components/operatorLookup";
 
@@ -21,7 +22,9 @@ export default function Operators() {
     <main className="mx-auto mb-[5svh] max-w-screen-2xl p-2 sm:px-8">
       <Header />
       <div className="mt-20 grid gap-8 lg:grid-cols-[minmax(0,1fr)_400px]">
-        <OperatorLookup />
+        <JotaiProvider>
+          <OperatorLookup />
+        </JotaiProvider>
         <OperatorList />
       </div>
     </main>

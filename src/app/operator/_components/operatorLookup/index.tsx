@@ -3,6 +3,7 @@ import { operatorsAtom } from "./store";
 
 import { cn } from "@/lib/style";
 import { HydrateAtoms } from "@/lib/jotai";
+import { pickKeys } from "@/utils/object";
 import { FilterMenu } from "./filterMenu";
 import { FilteredOperatorList } from "./filteredList";
 
@@ -13,17 +14,12 @@ export default function OperatorLookup() {
       atomValues={[
         [
           operatorsAtom,
-          Object.values(OperatorTable).map((op) => ({
-            id: op.id,
-            slug: op.slug,
-            displayName: op.displayName,
-            rarity: op.rarity,
-            profession: op.profession,
-            branch: op.branch,
-            affiliation: op.affiliation,
-            type: op.type,
-            position: op.position,
-          })),
+          Object.values(OperatorTable).map((op) =>
+            pickKeys({ ...op }, [
+              ...["id", "slug", "displayName", "rarity", "position"],
+              ...["profession", "branch", "affiliation", "type"],
+            ] as const),
+          ),
         ],
       ]}
     >
@@ -34,10 +30,10 @@ export default function OperatorLookup() {
           "rounded-xl border border-white/50",
         )}
       >
-        <div>
-          <h2 className="mb-2 px-2 text-3xl sm:text-4xl">Operator Lookup</h2>
+        <div className="px-2">
+          <h2 className="mb-2 text-2xl sm:text-4xl">Operator Lookup</h2>
           <FilterMenu />
-          <hr className="mx-1.5 mb-4 mt-2 border-white/50" />
+          <hr className="-mx-0.5 mb-4 mt-2 border-white/50" />
         </div>
         <FilteredOperatorList />
       </section>
