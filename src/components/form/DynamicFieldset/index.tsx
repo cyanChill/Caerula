@@ -5,16 +5,16 @@ import * as Client from "./client";
 
 type DynamicFieldsetProps = WithCSS<{
   id: string;
+  formId: string;
   fields: { id: string; label: string; formEl: React.ReactNode }[];
-  onChange?: React.ChangeEventHandler<HTMLSelectElement>;
   disabled?: boolean;
 }>;
 
 /** @description Renders form field based on selected option. */
 export function DynamicFieldset({
   id,
+  formId,
   fields,
-  onChange,
   disabled,
   className,
   style,
@@ -24,11 +24,11 @@ export function DynamicFieldset({
   });
 
   return (
-    <ScopeProvider atoms={[Client.fieldsetId, Client.selectedFieldId]}>
+    <ScopeProvider atoms={[Client.fieldsetIdAtom, Client.selectedFieldIdAtom]}>
       <HydrateAtoms
         atomValues={[
-          [Client.fieldsetId, id],
-          [Client.selectedFieldId, fields[0].id],
+          [Client.fieldsetIdAtom, id],
+          [Client.selectedFieldIdAtom, fields[0].id],
         ]}
       >
         <fieldset
@@ -37,7 +37,10 @@ export function DynamicFieldset({
           style={style}
           className={cn("space-y-2", className)}
         >
-          <Client.INTERNAL_FieldSelector {...{ options, onChange }} />
+          <Client.INTERNAL_FieldSelector
+            defaultVal={fields[0].id}
+            {...{ formId, options }}
+          />
           {Object.values(fields).map(({ id, formEl }) => (
             <Client.INTERNAL_SelectedField key={id} id={id}>
               {formEl}

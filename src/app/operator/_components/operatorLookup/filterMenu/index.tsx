@@ -1,7 +1,8 @@
-import { Filter } from "@/assets/svgs/shapes";
+import { Filter, Refresh } from "@/assets/svgs/shapes";
 import { NationInfo, FactionInfo, TeamInfo } from "@/data/types/AKAffiliation";
 import { BranchTable, ProfessionMap } from "@/data/types/AKClass";
 
+import { cn } from "@/lib/style";
 import { Button } from "@/components/form/Button";
 import { Checkbox, CheckboxGroup } from "@/components/form/Checkbox";
 import { DynamicFieldset } from "@/components/form/DynamicFieldset";
@@ -21,7 +22,7 @@ export function FilterMenu() {
         </>
       }
       formContent={<LookupForm />}
-      formSubmitBtn={<LookupSubmitBtn />}
+      formAction={<LookupActions />}
     />
   );
 }
@@ -52,6 +53,7 @@ function LookupForm() {
 
       <DynamicFieldset
         id="class-filter"
+        formId="op-lookup-form"
         fields={[
           {
             id: "profession",
@@ -134,20 +136,38 @@ function LookupForm() {
   );
 }
 
-/** @description Submit button for lookup form. */
-function LookupSubmitBtn() {
+/** @description Submit & reset buttons for lookup form. */
+function LookupActions() {
   return (
     <div className="p-2 !pt-0 sm:p-4">
       <hr className="mb-4 border-white/50" />
-      <Button
-        type="submit"
-        form="op-filter-form"
-        color="tertiary"
-        radius="large"
-        className="w-full py-0.5 font-geist-mono font-medium sm:py-1 sm:text-lg"
+      <div
+        className={cn(
+          "grid grid-cols-[auto_minmax(0,1fr)] gap-1 sm:gap-2",
+          "font-geist-mono font-medium sm:text-lg",
+        )}
       >
-        View Changes
-      </Button>
+        <Button
+          title="Reset Filters"
+          type="reset"
+          form="op-lookup-form"
+          variant="bordered"
+          color="neutral"
+          radius="large"
+          className="p-2"
+        >
+          <Refresh className="size-[1lh]" />
+        </Button>
+        <Button
+          type="submit"
+          form="op-lookup-form"
+          color="tertiary"
+          radius="large"
+          className="p-2"
+        >
+          View Changes
+        </Button>
+      </div>
     </div>
   );
 }

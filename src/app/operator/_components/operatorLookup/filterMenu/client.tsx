@@ -13,7 +13,7 @@ import ModalBackdrop from "@/components/layout/ModalBackdrop";
 export function LookupControls(props: {
   menuBtnContent: React.ReactNode;
   formContent: React.ReactNode;
-  formSubmitBtn: React.ReactNode;
+  formAction: React.ReactNode;
 }) {
   const openBtnRef = useRef<HTMLButtonElement>(null);
   const menuContainerRef = useRef<HTMLDivElement>(null);
@@ -79,13 +79,13 @@ export function LookupControls(props: {
       >
         <form
           ref={formRef}
-          id="op-filter-form"
+          id="op-lookup-form"
           onSubmit={updateFilters}
           className="overflow-y-auto p-2 sm:p-4"
         >
           {props.formContent}
         </form>
-        {props.formSubmitBtn}
+        {props.formAction}
       </div>
 
       <ModalBackdrop
