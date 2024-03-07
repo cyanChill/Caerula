@@ -5,6 +5,7 @@ import ProfileTable from "@/data/operator/profile/profileTable.json";
 import SkinTable from "@/data/character/skinTable.json";
 
 import { JotaiProvider } from "@/lib/jotai";
+import { pickKeys } from "@/utils/object";
 import { ScrollSlide } from "@/components/layout/ScrollSlide";
 import { NavList } from "./_components/nav";
 import NewArrivals from "./_components/newArrivals";
@@ -12,18 +13,23 @@ import NewOperators from "./_components/newOperators";
 
 export default function Home() {
   const operators = LatestStore["latest-operator-ids"].map((id) => {
-    const { slug, name, rarity, type, profession, branch } = OperatorTable[id];
-    const description =
-      ProfileTable.fileTable[id].find(({ title }) => title === "Profile")
-        ?.text ?? "";
-    return { id, slug, name, rarity, type, profession, branch, description };
+    return {
+      ...pickKeys(OperatorTable[id], [
+        ...["id", "slug", "name", "rarity", "type", "profession", "branch"],
+      ] as const),
+      description:
+        ProfileTable.fileTable[id].find(({ title }) => title === "Profile")
+          ?.text ?? "",
+    };
   });
 
   const skins = LatestStore["latest-skin-ids"].map((id) => {
-    const { usedBy, name, imgAlt, description, artists } =
-      SkinTable.skinTable[id];
-    const { name: opName, slug } = OperatorTable[usedBy as OperatorId];
-    return { id, name, imgAlt, description, artists, opName, slug };
+    const skin = SkinTable.skinTable[id];
+    const operator = OperatorTable[skin.usedBy as OperatorId];
+    return {
+      ...pickKeys(skin, ["id", "name", "imgAlt", "description", "artists"]),
+      ...{ opName: operator.name, slug: operator.slug },
+    };
   });
 
   return (

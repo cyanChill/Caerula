@@ -11,6 +11,7 @@ import VoiceTable from "@/data/operator/profile/voiceTable.json";
 import { cn } from "@/lib/style";
 import { constructMetadata } from "@/lib/metadata";
 import { JotaiProvider } from "@/lib/jotai";
+import { pickKeys } from "@/utils/object";
 import Tabs, {
   Tab,
   TabList,
@@ -113,9 +114,7 @@ export default function Operator({ params }: Props) {
             id={opId}
             operator={{
               name: operator.displayName,
-              position: operator.position,
-              tags: operator.tags,
-              rarity: operator.rarity,
+              ...pickKeys(operator, ["position", "tags", "rarity"]),
             }}
             skins={skins}
             cvTable={voices}

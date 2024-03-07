@@ -15,7 +15,7 @@ export default function OperatorLookup() {
         [
           operatorsAtom,
           Object.values(OperatorTable).map((op) =>
-            pickKeys({ ...op }, [
+            pickKeys(op, [
               ...["id", "slug", "displayName", "rarity", "position"],
               ...["profession", "branch", "affiliation", "type"],
             ] as const),
