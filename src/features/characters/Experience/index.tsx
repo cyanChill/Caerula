@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import { SpeakerGrill } from "@/assets/svgs/shapes";
 import { type Recipient, recipientIdAtom, recipientsAtom } from "./store";
 
 import { cn } from "@/lib/style";
@@ -118,7 +117,7 @@ function StatsWidget(props: ExperienceProps) {
 function RecipientList({ recipients }: ExperienceProps) {
   return (
     <div className="row-start-2 grid items-center gap-4 @xl:grid-cols-[auto_minmax(0,1fr)]">
-      <SpeakerGrill className="hidden size-[20cqw] text-[#C6BEAC] @xl:block" />
+      <SpeakerGrill />
       <TabList
         label="Available Stat Recipients"
         className="grid grid-cols-autoFill gap-2 @container sm:grid-cols-3"
@@ -149,5 +148,55 @@ function RecipientList({ recipients }: ExperienceProps) {
         ))}
       </TabList>
     </div>
+  );
+}
+
+function SpeakerGrill() {
+  return (
+    <svg
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 190 190"
+      fill="none"
+      className="hidden size-[20cqw] text-[#C6BEAC] @xl:block"
+    >
+      <defs>
+        <g id="short-row" stroke="currentColor" strokeWidth="1.5">
+          <circle cx="50" cy="5" r="4.25" />
+          <circle cx="65" cy="5" r="4.25" />
+          <circle cx="80" cy="5" r="4.25" />
+          <circle cx="95" cy="5" r="4.25" />
+          <circle cx="110" cy="5" r="4.25" />
+          <circle cx="125" cy="5" r="4.25" />
+          <circle cx="140" cy="5" r="4.25" />
+        </g>
+        <g id="mid-row" stroke="currentColor" strokeWidth="1.5">
+          <circle cx="20" cy="5" r="4.25" />
+          <circle cx="35" cy="5" r="4.25" />
+          <use xlinkHref="#short-row" />
+          <circle cx="155" cy="5" r="4.25" />
+          <circle cx="170" cy="5" r="4.25" />
+        </g>
+        <g id="full-row" stroke="currentColor" strokeWidth="1.5">
+          <circle cx="5" cy="5" r="4.25" />
+          <use xlinkHref="#mid-row" />
+          <circle cx="185" cy="5" r="4.25" />
+        </g>
+      </defs>
+
+      <use xlinkHref="#short-row" y="0" />
+      <use xlinkHref="#mid-row" y="15" />
+      <use xlinkHref="#mid-row" y="30" />
+      <use xlinkHref="#full-row" y="45" />
+      <use xlinkHref="#full-row" y="60" />
+      <use xlinkHref="#full-row" y="75" />
+      <use xlinkHref="#full-row" y="90" />
+      <use xlinkHref="#full-row" y="105" />
+      <use xlinkHref="#full-row" y="120" />
+      <use xlinkHref="#full-row" y="135" />
+      <use xlinkHref="#mid-row" y="150" />
+      <use xlinkHref="#mid-row" y="165" />
+      <use xlinkHref="#short-row" y="180" />
+    </svg>
   );
 }

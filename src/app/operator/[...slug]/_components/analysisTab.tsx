@@ -4,6 +4,7 @@ import SkillTable from "@/data/character/skillTable.json";
 import TokenTable from "@/data/token/tokenTable.json";
 
 import { cn } from "@/lib/style";
+import { pickKeys } from "@/utils/object";
 import type { Recipient } from "@/features/characters/Experience/store";
 import Experience, {
   ExperienceProvider,
@@ -33,7 +34,7 @@ export default function AnalysisTab(props: AnalysisTabProps) {
           <Talents talents={props.talents} />
           <Skills skills={props.skills} />
           <Potentials potentials={props.potentials} />
-          <Trait branchId={props.branch} />
+          <Trait branchId={props.branch} is1Star={props.is1Star} />
           <Network network={props.affiliation} />
         </div>
       </PotentialProvider>
@@ -45,27 +46,22 @@ export default function AnalysisTab(props: AnalysisTabProps) {
 export function getAnalysisTabContent(id: OperatorId) {
   const operator = OperatorTable[id];
   return {
-    affiliation: operator.affiliation,
-    branch: operator.branch,
-    potentials: operator.potentials,
-    talents: operator.talents,
+    ...pickKeys(operator, ["affiliation", "branch", "potentials", "talents"]),
+    is1Star: operator.rarity === 1,
     statRecipients: [
       {
-        id: operator.id,
+        ...pickKeys(operator, ["id", "range", "stats"]),
         href: `/operator/${operator.slug}`,
         name: operator.displayName,
-        range: operator.range,
-        stats: operator.stats,
         bonus: operator.trustBonus,
         iconId: operator.id,
       },
       ...(operator.tokensUsed ?? []).map((tokenId) => {
-        const { id, slug, displayName, range, stats, iconId } =
-          TokenTable[tokenId];
+        const token = TokenTable[tokenId];
         return {
-          ...{ id, range, stats, iconId },
-          href: `/token/${slug}`,
-          name: displayName,
+          ...pickKeys(token, ["id", "range", "stats", "iconId"]),
+          href: `/token/${token.slug}`,
+          name: token.displayName,
         };
       }),
     ] as Recipient[],

@@ -24,12 +24,18 @@ export function ArrowTopRight({
   );
 }
 
-export function ChevronDown({ className }: { className?: string }) {
+export function ChevronDown({
+  compressed,
+  className,
+}: {
+  compressed?: boolean;
+  className?: string;
+}) {
   return (
     <svg
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 18"
+      viewBox={compressed ? "0 0 24 18" : "0 0 24 24"}
       fill="none"
       strokeWidth={2}
       stroke="currentColor"

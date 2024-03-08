@@ -58,7 +58,7 @@ function Actions({ skills }: SkillsProps) {
             label={name}
             activeClass="ring-4"
             className={cn(
-              "overflow-clip rounded-md shadow-lift outline-0",
+              "overflow-clip rounded-md shadow-lift outline-none",
               "ring-secondary-60 hover:ring-4 focus:ring-4 focus:ring-primary-60",
             )}
           >

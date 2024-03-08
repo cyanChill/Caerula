@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 import { ArrowTopRight } from "@/assets/svgs/direction";
-import { Pinwheel } from "@/assets/svgs/shapes";
 import type { Operator } from "@/data/types/AKCharacter";
 
 import { cn } from "@/lib/style";
@@ -9,8 +8,8 @@ import PsychedelicImg from "@/components/image/PsychedelicImg";
 import Tabs, { Tab, TabList, TabPanel } from "@/components/layout/Tabs";
 import ELink from "@/components/link/ELink";
 import Card from "@/components/ui/Card";
-import Chip from "@/components/ui/Chip";
 import Rarity from "@/features/characters/Rarity";
+import { OperatorTypeChip } from "@/features/characters/TypeTag";
 import { AutoNext } from "./client";
 
 type OperatorExcerpt = Pick<
@@ -155,20 +154,5 @@ function Overview(
         </p>
       </div>
     </div>
-  );
-}
-
-/** @description Renders a chip if the operator is limited. */
-function OperatorTypeChip({ type }: { type: Operator["type"] }) {
-  if (type !== "limited") return null;
-  return (
-    <Chip
-      variant="bordered"
-      color="tertiary"
-      radius="medium"
-      icon={<Pinwheel className="size-[1em]" />}
-    >
-      Limited
-    </Chip>
   );
 }

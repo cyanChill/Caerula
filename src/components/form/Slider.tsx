@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 
 import { useKey } from "@/hooks/useKey";
 
-import { cn } from "@/lib/style";
+import { type HexColor, cn } from "@/lib/style";
 import { clamp } from "@/utils/math";
 
 interface Props {
@@ -11,8 +11,8 @@ interface Props {
   options: { min: number; max: number; trackWidth?: string };
   propagateVal: (val: number) => void;
   theme?: {
-    track?: { inactive?: string; active?: string };
-    thumb?: string;
+    track?: { inactive?: HexColor; active?: HexColor };
+    thumb?: HexColor;
   };
 }
 
@@ -153,7 +153,7 @@ export default function Slider({ label, propagateVal, options, theme }: Props) {
           } as React.CSSProperties
         }
         className={cn(
-          "absolute left-0 z-[1] size-[var(--thumbWidth)] rounded-full shadow-lift",
+          "absolute left-0 z-[1] size-[--thumbWidth] rounded-full shadow-lift",
           "outline-2 outline-primary-60 hover:cursor-grab focus:outline",
         )}
       />
@@ -165,7 +165,7 @@ export default function Slider({ label, propagateVal, options, theme }: Props) {
             `${internalTheme.track.active} 0 ${progessAsPercent}%,` +
             `${internalTheme.track.inactive} ${progessAsPercent}% 100%)`,
         }}
-        className="mx-[calc(0.25*var(--trackWidth))] h-full w-[var(--trackWidth)] rounded-full shadow-lift"
+        className="mx-[calc(0.25*var(--trackWidth))] h-full w-[--trackWidth] rounded-full shadow-lift"
       />
     </div>
   );
