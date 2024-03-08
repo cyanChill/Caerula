@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import type { OperatorId } from "@/data/types/AKCharacter";
+import type { OperatorId, Operator } from "@/data/types/AKCharacter";
 import type { Skin } from "@/data/types/AKSkin";
 import { type CharacterVoice, VoiceLangTable } from "@/data/types/AKVoice";
 import { selectedSkinIdAtom } from "./store";
@@ -13,6 +13,7 @@ import ScrollShadow from "@/components/layout/ScrollShadow";
 import { Tab, TabList, TabPanel } from "@/components/layout/Tabs";
 import Rarity from "@/features/characters/Rarity";
 import ArtistChips from "@/features/skins/ArtistChips";
+import { OperatorTypeChip } from "@/features/characters/TypeTag";
 import * as Client from "./client";
 
 type OverviewProviderProps = { skinIds: string[]; children: React.ReactNode };
@@ -34,6 +35,7 @@ interface Props extends OutfitInfoProps {
     position: string;
     tags: string[];
     rarity: number;
+    type: Operator["type"];
   };
 }
 
@@ -66,9 +68,12 @@ export default function Overview({ id, operator, skins, cvTable }: Props) {
         <Rarity
           rarity={operator.rarity}
           size="size-4"
-          className="mx-auto w-min gap-1 pt-4"
+          className="mx-auto mt-4 w-min gap-1"
         />
-        <p className="break-anywhere mx-auto max-w-[90cqw] pt-4 text-center text-neutral-60 lg:text-xl">
+        <div className="mx-2 mt-4 grid place-items-center">
+          <OperatorTypeChip type={operator.type} />
+        </div>
+        <p className="break-anywhere mx-auto mt-4 max-w-[90cqw] text-center text-neutral-60 lg:text-xl">
           {[capitalize(operator.position.toLowerCase()), ...operator.tags].join(
             " • ",
           )}

@@ -114,7 +114,7 @@ export default function Operator({ params }: Props) {
             id={opId}
             operator={{
               name: operator.displayName,
-              ...pickKeys(operator, ["position", "tags", "rarity"]),
+              ...pickKeys(operator, ["position", "tags", "rarity", "type"]),
             }}
             skins={skins}
             cvTable={voices}
