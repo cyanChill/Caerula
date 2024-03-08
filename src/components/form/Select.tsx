@@ -48,7 +48,7 @@ export function Select({
         } as React.CSSProperties
       }
       className={cn(
-        "grid-stack text-[var(--clr-sel-txt)]",
+        "grid-stack text-[--clr-sel-txt]",
         "has-[>:disabled]:opacity-50 has-[>:disabled]:grayscale",
       )}
     >
@@ -57,10 +57,10 @@ export function Select({
         {...props}
         className={cn(
           "appearance-none truncate rounded-md p-1 pr-[1lh] outline-none",
-          "border border-[var(--clr-main)] bg-transparent text-lg",
+          "border border-[--clr-main] bg-transparent text-lg",
           "ring-white transition duration-300 ease-in-out focus:ring-2",
           "enabled:hover:cursor-pointer enabled:hover:bg-white/5",
-          "*:bg-[var(--clr-bg)] *:text-sm *:text-[var(--clr-main)]",
+          "*:bg-[--clr-bg] *:text-sm *:text-[--clr-main]",
           className,
         )}
       >
@@ -103,7 +103,7 @@ function Option({ value, children }: OptionProps) {
   return (
     <option
       value={value}
-      className="checked:bg-[var(--clr-sel-bg)] checked:text-[var(--clr-sel-txt)]"
+      className="checked:bg-[--clr-sel-bg] checked:text-[--clr-sel-txt]"
     >
       {children}
     </option>

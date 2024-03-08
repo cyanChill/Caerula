@@ -175,7 +175,7 @@ export default function Knob({ label, propagateVal, options, theme }: Props) {
           } as React.CSSProperties
         }
         className={cn(
-          "absolute z-[1] size-[var(--thumbWidth)] rounded-full shadow-lift",
+          "absolute z-[1] size-[--thumbWidth] rounded-full shadow-lift",
           "outline-2 outline-primary-60 hover:cursor-grab focus:outline",
         )}
       />

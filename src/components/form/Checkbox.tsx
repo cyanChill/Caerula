@@ -34,12 +34,12 @@ export function Checkbox({
       }
       className={cn(
         "flex-center min-h-[calc(2lh+0.375rem)] rounded-md border border-current p-1",
-        "text-center text-sm leading-tight text-[var(--clr-IA)]",
-        "shadow-[0_0_2px_1px_var(--clr-shdw)] [--clr-shdw:var(--clr-IA-O)]",
+        "text-center text-sm leading-tight text-[--clr-IA]",
+        "shadow-[0_0_2px_1px_var(--clr-shdw)] [--clr-shdw:--clr-IA-O]",
         "ring-white transition duration-300 ease-in-out has-[:focus]:ring-2",
         "has-[:enabled:hover]:cursor-pointer has-[:enabled:hover]:bg-white/5",
         "has-[:disabled]:opacity-50 has-[:disabled]:grayscale",
-        "has-[:checked]:text-[var(--clr-A)] has-[:checked]:[--clr-shdw:var(--clr-A-O)]",
+        "has-[:checked]:text-[--clr-A] has-[:checked]:[--clr-shdw:--clr-A-O]",
         className,
       )}
     >
