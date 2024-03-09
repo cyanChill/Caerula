@@ -39,9 +39,9 @@ function getNetworkData(
   key: string | undefined | null,
 ): { id: string; name: string } | undefined {
   if (!key) return undefined;
-  else if (isKeyOf(key, NationInfo)) return NationInfo[key];
-  else if (isKeyOf(key, FactionInfo)) return FactionInfo[key];
-  else if (isKeyOf(key, TeamInfo)) return TeamInfo[key];
+  else if (isKeyOf(key, NationInfo)) return { id: key, name: NationInfo[key] };
+  else if (isKeyOf(key, FactionInfo)) return { id: key, ...FactionInfo[key] };
+  else if (isKeyOf(key, TeamInfo)) return { id: key, ...TeamInfo[key] };
   throw new Error(`Unexpected type for input value: ${key}`);
 }
 

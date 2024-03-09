@@ -96,19 +96,19 @@ function LookupForm() {
           options={[
             {
               groupLabel: "Nation",
-              options: Object.values(NationInfo).map(({ id, name }) => {
+              options: Object.entries(NationInfo).map(([id, name]) => {
                 return { label: name, value: id };
               }),
             },
             {
               groupLabel: "Faction",
-              options: Object.values(FactionInfo).map(({ id, name }) => {
+              options: Object.entries(FactionInfo).map(([id, { name }]) => {
                 return { label: name, value: id };
               }),
             },
             {
               groupLabel: "Team",
-              options: Object.values(TeamInfo).map(({ id, name }) => {
+              options: Object.entries(TeamInfo).map(([id, { name }]) => {
                 return { label: name, value: id };
               }),
             },
