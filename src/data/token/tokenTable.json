@@ -283,6 +283,7 @@
         {
           "name": "Mon3tr",
           "description": "Can be healed by Kal'tsit; has 0 DEF when not within Kal'tsit's Attack Range",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 0, "level": 1 }
         }
@@ -291,12 +292,14 @@
         {
           "name": "Non-Damaging Restructuring",
           "description": "When defeated (excluding retreat), all enemies in the surrounding 8 tiles are Stunned for 3 seconds and receive 1200 True Damage",
+          "range": "x-4",
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         },
         {
           "name": "Non-Damaging Restructuring",
           "description": "When defeated (excluding retreat), all enemies in the surrounding 8 tiles are <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stunned</a> for 3.5 <span style=\"color:#0098DC;\">(+0.5)</span> seconds and receive 1400 <span style=\"color:#0098DC;\">(+200)</span> True damage",
+          "range": "x-4",
           "potential": 5,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -401,6 +404,7 @@
         {
           "name": "Fleeting Phantom",
           "description": "Has 75 RES, 30% Physical Dodge, and is more likely to be targeted by enemies, but loses 3% Max HP per second",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -505,18 +509,21 @@
         {
           "name": "Robotter",
           "description": "Reduces the ASPD of enemies blocked by this unit by -10",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 0, "level": 1 }
         },
         {
           "name": "Robotter",
           "description": "Reduces the ASPD of enemies blocked by this unit by -25",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Robotter",
           "description": "Reduces the ASPD of enemies blocked by this unit by -25",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -621,24 +628,28 @@
         {
           "name": "Optical Refraction Accessories",
           "description": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> for 12 seconds after deployment",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Optical Refraction Accessories",
           "description": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> for 14 <span style=\"color:#0098DC;\">(+2)</span> seconds after deployment",
+          "range": null,
           "potential": 5,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Optical Refraction Accessories",
           "description": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> for 20 seconds after deployment",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         },
         {
           "name": "Optical Refraction Accessories",
           "description": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> for 22 <span style=\"color:#0098DC;\">(+2)</span> seconds after deployment",
+          "range": null,
           "potential": 5,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -743,24 +754,28 @@
         {
           "name": "Optical Refraction Accessories",
           "description": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> for 12 seconds after deployment",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Optical Refraction Accessories",
           "description": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> for 14 <span style=\"color:#0098DC;\">(+2)</span> seconds after deployment",
+          "range": null,
           "potential": 5,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Optical Refraction Accessories",
           "description": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> for 20 seconds after deployment",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         },
         {
           "name": "Optical Refraction Accessories",
           "description": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> for 22 <span style=\"color:#0098DC;\">(+2)</span> seconds after deployment",
+          "range": null,
           "potential": 5,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -865,24 +880,28 @@
         {
           "name": "Optical Refraction Accessories",
           "description": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> for 12 seconds after deployment",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Optical Refraction Accessories",
           "description": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> for 14 <span style=\"color:#0098DC;\">(+2)</span> seconds after deployment",
+          "range": null,
           "potential": 5,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Optical Refraction Accessories",
           "description": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> for 20 seconds after deployment",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         },
         {
           "name": "Optical Refraction Accessories",
           "description": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> for 22 <span style=\"color:#0098DC;\">(+2)</span> seconds after deployment",
+          "range": null,
           "potential": 5,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -1082,6 +1101,7 @@
         {
           "name": "Phantom Mastery",
           "description": "Redeployment Time -10 sec",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -1281,12 +1301,14 @@
         {
           "name": "Industrial Water Cannon",
           "description": "Attacks push the target back slightly; lasts 15 seconds after deployment",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Industrial Water Cannon",
           "description": "Attacks push the target back slightly; lasts 20 seconds after deployment",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -1295,6 +1317,7 @@
         {
           "name": "Upgraded Water Cannon",
           "description": "Normal attacks and skills have +1 shift level; restores 1 SP per 3 seconds to Weedy if located within 4 tiles of her",
+          "range": "x-5",
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -1779,18 +1802,21 @@
         {
           "name": "Professional Breeder",
           "description": "Automatically respawns 20 seconds after being defeated",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 0, "level": 1 }
         },
         {
           "name": "Professional Breeder",
           "description": "Automatically respawns 17 seconds after being defeated",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Professional Breeder",
           "description": "Automatically respawns 15 seconds after being defeated",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -2085,12 +2111,14 @@
         {
           "name": "Ancient Kin",
           "description": "Lasts 15 seconds after deployment",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Ancient Kin",
           "description": "Lasts 25 seconds after deployment",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -2195,36 +2223,42 @@
         {
           "name": "Modeler Debugging",
           "description": "Grants +10% DEF and 1 <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Blocks 1 instance of damage per layer of Shield\" href=\"/terminology#shield\">Shield</a> to a unit on a melee tile (lasts 15 seconds, DEF increase does not stack)",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 0, "level": 1 }
         },
         {
           "name": "Modeler Debugging",
           "description": "Grants +13% DEF <span style=\"color:#0098DC;\">(+3%)</span> and 1 <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Blocks 1 instance of damage per layer of Shield\" href=\"/terminology#shield\">Shield</a> to a unit on a melee tile (lasts 15 seconds, DEF increase does not stack)",
+          "range": null,
           "potential": 5,
           "unlockCond": { "elite": 0, "level": 1 }
         },
         {
           "name": "Modeler Debugging",
           "description": "Grants +20% DEF and 1 <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Blocks 1 instance of damage per layer of Shield\" href=\"/terminology#shield\">Shield</a> to a unit on a melee tile (lasts 25 seconds, DEF increase does not stack)",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Modeler Debugging",
           "description": "Grants +23% DEF <span style=\"color:#0098DC;\">(+3%)</span> and 1 <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Blocks 1 instance of damage per layer of Shield\" href=\"/terminology#shield\">Shield</a> to a unit on a melee tile (lasts 25 seconds, DEF increase does not stack)",
+          "range": null,
           "potential": 5,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Modeler Debugging",
           "description": "Grants +30% DEF and 2 <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Blocks 1 instance of damage per layer of Shield\" href=\"/terminology#shield\">Shields</a> to a unit on a melee tile (lasts 25 seconds, DEF increase does not stack)",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         },
         {
           "name": "Modeler Debugging",
           "description": "Grants +33% DEF <span style=\"color:#0098DC;\">(+3%)</span> and 2 <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Blocks 1 instance of damage per layer of Shield\" href=\"/terminology#shield\">Shields</a> to a unit on a melee tile (lasts 25 seconds, DEF increase does not stack)",
+          "range": null,
           "potential": 5,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -2804,18 +2838,21 @@
         {
           "name": "Nightwalker",
           "description": "Automatically respawns 20 seconds after being defeated",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 0, "level": 1 }
         },
         {
           "name": "Nightwalker",
           "description": "Automatically respawns 17 seconds after being defeated",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Nightwalker",
           "description": "Automatically respawns 15 seconds after being defeated",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -3015,36 +3052,42 @@
         {
           "name": "Forward Together",
           "description": "Can only be equipped to Caster and Supporter Operators; equipped units gain +5% ATK (lasts 20 seconds)",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 0, "level": 1 }
         },
         {
           "name": "Forward Together",
           "description": "Can only be equipped to Caster and Supporter Operators; equipped units gain +7% <span style=\"color:#0098DC;\">(+2%)</span> ATK (lasts 20 seconds)",
+          "range": null,
           "potential": 5,
           "unlockCond": { "elite": 0, "level": 1 }
         },
         {
           "name": "Forward Together",
           "description": "Can only be equipped to Caster and Supporter Operators; equipped units gain +10% ATK (lasts 30 seconds)",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Forward Together",
           "description": "Can only be equipped to Caster and Supporter Operators; equipped units gain +12% <span style=\"color:#0098DC;\">(+2%)</span> ATK (lasts 30 seconds)",
+          "range": null,
           "potential": 5,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Forward Together",
           "description": "Can only be equipped to Caster and Supporter Operators; equipped units gain +15% ATK (lasts 30 seconds)",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         },
         {
           "name": "Forward Together",
           "description": "Can only be equipped to Caster and Supporter Operators; equipped units gain +17% <span style=\"color:#0098DC;\">(+2%)</span> ATK (lasts 30 seconds)",
+          "range": null,
           "potential": 5,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -3339,12 +3382,14 @@
         {
           "name": "Stenographer of Weaknesses",
           "description": "Attacks from the 'Typewriter' reduce the target's DEF by 18% for 4 seconds; if the 'Typewriter' is placed within the 4 tiles adjacent to Pozëmka, this effect increases to 23%",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         },
         {
           "name": "Stenographer of Weaknesses",
           "description": "Attacks from the 'Typewriter' reduce the target's DEF by 20% <span style=\"color:#0098DC;\">(+2%)</span> for 5 <span style=\"color:#0098DC;\">(+1)</span> seconds; if the 'Typewriter' is placed within the 4 tiles adjacent to Pozëmka, this effect increases to <span style=\"color:#0098DC;\">25% (+2%)</span>",
+          "range": null,
           "potential": 5,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -3449,6 +3494,7 @@
         {
           "name": "Fire Support",
           "description": "Give an allied Operator within range +12% ATK, unlimited duration",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 0, "level": 1 }
         }
@@ -3553,6 +3599,7 @@
         {
           "name": "Battle Resupply",
           "description": "Give an allied Operator within range 1 SP every 3.5s but cause them to lose 0.4% HP/sec, unlimited duration",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 0, "level": 1 }
         }
@@ -3657,6 +3704,7 @@
         {
           "name": "Power of Unity",
           "description": "Cause an allied Operator in the tile behind to take 20% less Physical damage, unlimited duration",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 0, "level": 1 }
         }
@@ -3761,18 +3809,21 @@
         {
           "name": "Leader of the Wolfpack",
           "description": "Gains 1 'Wolf Shadow' every 30s (up to a maximum of 3). For each 'Wolf Shadow' present, the Wolfpack gains +1 Block, and each attack inflicts an additional instance of damage; when more than 1 'Wolf Shadow' is present, upon taking lethal damage 1 'Wolf Shadow' will be lost to fully restore HP.",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 0, "level": 1 }
         },
         {
           "name": "Leader of the Wolfpack",
           "description": "Gains 1 'Wolf Shadow' every 27s (up to a maximum of 3). For each 'Wolf Shadow' present, the Wolfpack gains +1 Block, and each attack inflicts an additional instance of damage; when more than 1 'Wolf Shadow' is present, upon taking lethal damage 1 'Wolf Shadow' will be lost to fully restore HP.",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 1, "level": 1 }
         },
         {
           "name": "Leader of the Wolfpack",
           "description": "Gains 1 'Wolf Shadow' every 25s (up to a maximum of 3). For each 'Wolf Shadow' present, the Wolfpack gains +1 Block, and each attack inflicts an additional instance of damage; when more than 1 'Wolf Shadow' is present, upon taking lethal damage 1 'Wolf Shadow' will be lost to fully restore HP.",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         }
@@ -3781,12 +3832,14 @@
         {
           "name": "Wolven Nature",
           "description": "Ignores 175 DEF when attacking a blocked target",
+          "range": null,
           "potential": 1,
           "unlockCond": { "elite": 2, "level": 1 }
         },
         {
           "name": "Wolven Nature",
           "description": "Ignores 200 <span style=\"color:#0098DC;\">(+25)</span> DEF when attacking a blocked target",
+          "range": null,
           "potential": 5,
           "unlockCond": { "elite": 2, "level": 1 }
         }

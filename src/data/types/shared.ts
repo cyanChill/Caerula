@@ -48,6 +48,7 @@ export type CharacterStat = StatTable & {
 export type CharacterTalent = {
   name: string;
   description: string;
+  range: RangeId | null;
   potential: Rarity;
   unlockCond: UnlockCondition;
 };
