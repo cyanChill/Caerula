@@ -78,9 +78,16 @@ function LookupForm() {
             label: "Branch",
             formEl: (
               <CheckboxGroup>
-                {Object.values(BranchTable).map(({ id, name }) => (
-                  <Checkbox key={id} name="branch[]" label={name} value={id} />
-                ))}
+                {Object.values(BranchTable)
+                  .toSorted((a, b) => a.name.localeCompare(b.name))
+                  .map(({ id, name }) => (
+                    <Checkbox
+                      key={id}
+                      name="branch[]"
+                      label={name}
+                      value={id}
+                    />
+                  ))}
               </CheckboxGroup>
             ),
           },
