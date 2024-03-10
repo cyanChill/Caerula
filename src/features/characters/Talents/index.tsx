@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import type { CharacterTalent } from "@/data/types/shared";
 import { CircleArrow } from "@/assets/svgs/direction";
 import { talentsAtom } from "./store";
@@ -24,9 +22,13 @@ export default function Talents({ talents }: TalentsProps) {
       as="section"
       aria-label="Talent"
       defaultPadding
+      style={{
+        background:
+          "no-repeat 0 0 / cover url('/patterns/crystal_opac.webp'), #121C2BBF",
+      }}
       className={cn(
-        "col-span-2 row-span-2 overflow-clip @container md:aspect-square",
-        "relative flex flex-col gap-4 bg-secondary-10/75 md:gap-8",
+        "no-scrollbar col-span-2 row-span-2 @container md:aspect-square md:overflow-y-auto",
+        "relative flex flex-col gap-4 md:gap-8",
       )}
     >
       {Object.values(talents).map((talent, idx) => (
@@ -36,14 +38,6 @@ export default function Talents({ talents }: TalentsProps) {
           </HydrateAtoms>
         </ScopeProvider>
       ))}
-      <Image
-        src={`/patterns/crystal.webp`}
-        alt=""
-        width={256}
-        height={256}
-        draggable={false}
-        className="absolute left-0 top-0 z-[-1] size-full select-none object-cover opacity-15"
-      />
     </Card>
   );
 }
@@ -52,13 +46,9 @@ export default function Talents({ talents }: TalentsProps) {
 function Talent() {
   return (
     <article className="grid gap-2 text-[clamp(0.8rem,3cqw,1.15rem)]">
-      <div className="flex w-fit items-center gap-2 rounded-lg bg-secondary-20 px-2.5 py-1">
-        <Client.TalentName />
-        <Client.PromotionIcon
-          icons={getPromotionIcons({ size: 16, className: "size-[1lh]" })}
-        />
-        <Client.LevelVariantIndicator />
-      </div>
+      <Client.TalentHeading
+        icons={getPromotionIcons({ size: 16, className: "size-[1lh]" })}
+      />
       <Client.ConditionMessage />
 
       <Client.ContentRenderer>
@@ -77,6 +67,7 @@ function Talent() {
             />
           </div>
           <Client.TalentDescription />
+          <Client.TalentRange />
         </div>
       </Client.ContentRenderer>
     </article>

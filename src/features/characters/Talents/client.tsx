@@ -8,24 +8,25 @@ import {
   levelImproveAtom,
 } from "./store";
 
-/** @description Returns the talent's current name. */
-export function TalentName() {
-  const { name } = useAtomValue(talentAtom);
-  return <h2 className="break-anywhere">{name}</h2>;
-}
+import { ContainedRange } from "@/features/characters/RangePattern";
 
-/** @description Icon representing the promotion to use the talent. */
-export function PromotionIcon(props: { icons: React.ReactNode[] }) {
-  const { unlockCond } = useAtomValue(talentAtom);
-  return props.icons[unlockCond.elite];
-}
-
-/** @description Indicates if the talent changes based on level. */
-export function LevelVariantIndicator() {
-  const { unlockCond } = useAtomValue(talentAtom);
+/** @description Heading for displaying a talent. */
+export function TalentHeading(props: { icons: React.ReactNode[] }) {
+  const { name, unlockCond } = useAtomValue(talentAtom);
   const levelImprove = useAtomValue(levelImproveAtom);
-  if (!levelImprove || unlockCond.level !== levelImprove.level) return null;
-  return <span className="text-neutral-60">Lv. {unlockCond.level}</span>;
+
+  const talentLevel =
+    !levelImprove || unlockCond.level !== levelImprove.level ? null : (
+      <span className="text-neutral-60">Lv. {unlockCond.level}</span>
+    );
+
+  return (
+    <div className="flex w-fit items-center gap-2 rounded-lg bg-secondary-20 px-2.5 py-1">
+      <h2 className="break-anywhere">{name}</h2>
+      {props.icons[unlockCond.elite]}
+      {talentLevel}
+    </div>
+  );
 }
 
 /** @description Displays an unlock/improvement condition for the talent. */
@@ -78,4 +79,10 @@ export function TalentDescription() {
       className="whitespace-pre-line"
     />
   );
+}
+
+/** @description Displays the range of the talent if provided. */
+export function TalentRange() {
+  const { range } = useAtomValue(talentAtom);
+  return <ContainedRange rangeId={range} optional className="col-span-2" />;
 }

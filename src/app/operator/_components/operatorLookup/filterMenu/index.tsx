@@ -78,9 +78,16 @@ function LookupForm() {
             label: "Branch",
             formEl: (
               <CheckboxGroup>
-                {Object.values(BranchTable).map(({ id, name }) => (
-                  <Checkbox key={id} name="branch[]" label={name} value={id} />
-                ))}
+                {Object.values(BranchTable)
+                  .toSorted((a, b) => a.name.localeCompare(b.name))
+                  .map(({ id, name }) => (
+                    <Checkbox
+                      key={id}
+                      name="branch[]"
+                      label={name}
+                      value={id}
+                    />
+                  ))}
               </CheckboxGroup>
             ),
           },
@@ -96,19 +103,19 @@ function LookupForm() {
           options={[
             {
               groupLabel: "Nation",
-              options: Object.values(NationInfo).map(({ id, name }) => {
+              options: Object.entries(NationInfo).map(([id, name]) => {
                 return { label: name, value: id };
               }),
             },
             {
               groupLabel: "Faction",
-              options: Object.values(FactionInfo).map(({ id, name }) => {
+              options: Object.entries(FactionInfo).map(([id, { name }]) => {
                 return { label: name, value: id };
               }),
             },
             {
               groupLabel: "Team",
-              options: Object.values(TeamInfo).map(({ id, name }) => {
+              options: Object.entries(TeamInfo).map(([id, { name }]) => {
                 return { label: name, value: id };
               }),
             },

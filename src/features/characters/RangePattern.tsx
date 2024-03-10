@@ -1,7 +1,7 @@
 import type { RangeId } from "@/data/types/AKRange";
 import RangeTable from "@/data/character/rangeTable.json";
 
-import { cn } from "@/lib/style";
+import { type WithCSS, cn } from "@/lib/style";
 
 interface Props {
   rangeId: RangeId;
@@ -44,9 +44,10 @@ export default function RangePattern({ rangeId, size, className }: Props) {
   );
 }
 
-type ContainedRangeProps =
+type ContainedRangeProps = WithCSS<
   | { rangeId: RangeId; optional?: false }
-  | { rangeId: RangeId | null; optional: true };
+  | { rangeId: RangeId | null; optional: true }
+>;
 
 /**
  * @description Displays a <RangePattern /> inside a custom dashed-border
@@ -55,12 +56,17 @@ type ContainedRangeProps =
 export function ContainedRange({
   rangeId,
   optional = false,
+  className,
+  style,
 }: ContainedRangeProps) {
   if (optional && !rangeId) return null;
   return (
     <div
-      style={{ "--border-color": "#909094" } as React.CSSProperties}
-      className="dashed-border grid place-items-center rounded-2xl p-4 @container"
+      style={{ "--border-color": "#909094", ...style } as React.CSSProperties}
+      className={cn(
+        "dashed-border grid place-items-center rounded-2xl p-4 @container",
+        className,
+      )}
     >
       <RangePattern
         rangeId={rangeId!} // `rangeId` should be defined & not `null`.
