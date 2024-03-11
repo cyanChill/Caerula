@@ -19,18 +19,19 @@ import {
 import Skills from "@/features/characters/Skills";
 import Talents from "@/features/characters/Talents";
 
-type TokenAnalysisProps = ReturnType<typeof getTokenAnalysisContent>;
+/** @description Displays statistical information about the token. */
+export default function TokenAnalysis({ tokId }: { tokId: TokenId }) {
+  const { skills, statRecipients, talents, trait } =
+    getTokenAnalysisContent(tokId);
 
-/** @description Displays statistical information about the operator. */
-export default function TokenAnalysis(props: TokenAnalysisProps) {
   const talentUsesPotential =
-    Object.keys(props.talents).length > 0 &&
-    Object.values(props.talents).some((talentVar) =>
+    Object.keys(talents).length > 0 &&
+    Object.values(talents).some((talentVar) =>
       talentVar.some((tal) => tal.potential > 1),
     );
 
   return (
-    <ExperienceProvider recipients={props.statRecipients}>
+    <ExperienceProvider recipients={statRecipients}>
       <PotentialProvider numPotentials={5}>
         <div
           className={cn(
@@ -38,11 +39,11 @@ export default function TokenAnalysis(props: TokenAnalysisProps) {
             "md:auto-rows-fr md:grid-cols-4 lg:grid-cols-5",
           )}
         >
-          <Experience recipients={props.statRecipients} />
-          <Talents talents={props.talents} short />
+          <Experience recipients={statRecipients} />
+          <Talents talents={talents} short />
           <PotentialSelector render={talentUsesPotential} />
-          <TokenTrait id={props.id} trait={props.trait} />
-          <Skills skills={props.skills} />
+          <TokenTrait id={tokId} trait={trait} />
+          <Skills skills={skills} />
         </div>
       </PotentialProvider>
     </ExperienceProvider>
@@ -54,6 +55,7 @@ function PotentialSelector({ render }: { render: boolean }) {
   if (!render) return null;
   return (
     <Card
+      as="section"
       defaultPadding
       className="relative grid place-items-center bg-neutral-20/75 @container"
     >
@@ -89,6 +91,7 @@ function TokenTrait({ id, trait }: TokenTraitProps) {
 
   return (
     <Card
+      as="section"
       defaultPadding
       className={cn(
         "no-scrollbar col-span-2 overflow-y-auto @container md:col-span-1",
@@ -114,11 +117,11 @@ function TokenTrait({ id, trait }: TokenTraitProps) {
 }
 
 /** @description Fetches data for this component. */
-export function getTokenAnalysisContent(id: TokenId) {
+function getTokenAnalysisContent(id: TokenId) {
   const token = TokenTable[id];
   const operator = !!token.usedBy ? OperatorTable[token.usedBy] : null;
   return {
-    ...pickKeys(token, ["id", "trait", "talents"]),
+    ...pickKeys(token, ["trait", "talents"]),
     statRecipients: [
       {
         ...pickKeys(token, ["id", "range", "stats", "iconId"]),

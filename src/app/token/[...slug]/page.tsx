@@ -6,7 +6,8 @@ import { TokSlugTable } from "@/data/token/slugTable";
 
 import { constructMetadata } from "@/lib/metadata";
 import { JotaiProvider } from "@/lib/jotai";
-import TokenAnalysis, { getTokenAnalysisContent } from "./_components/analysis";
+import TokenAnalysis from "./_components/analysis";
+import TokenOverview from "./_components/overview";
 
 interface Props {
   params: { slug: string[] };
@@ -50,8 +51,9 @@ export default function Token({ params }: Props) {
 
   return (
     <main className="mx-auto mb-[5svh] min-h-[90dvh] max-w-screen-2xl p-2 @container">
+      <TokenOverview tokId={tokId} />
       <JotaiProvider>
-        <TokenAnalysis {...getTokenAnalysisContent(tokId)} />
+        <TokenAnalysis tokId={tokId} />
       </JotaiProvider>
     </main>
   );
