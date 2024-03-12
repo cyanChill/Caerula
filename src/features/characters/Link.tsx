@@ -4,7 +4,7 @@ import Link from "next/link";
 import { type BgColor, cn } from "@/lib/style";
 
 type CharacterLinkProps = {
-  avatar: { id: string; bg: BgColor };
+  avatar: { id: string; bg: BgColor; className?: string };
   href: string;
   name: string;
 };
@@ -25,7 +25,11 @@ export function CharacterLink({ avatar, href, name }: CharacterLinkProps) {
         alt=""
         width={32}
         height={32}
-        className={cn(avatar.bg, "mx-auto aspect-square size-auto rounded")}
+        className={cn(
+          avatar.bg,
+          "mx-auto aspect-square size-auto rounded",
+          avatar.className,
+        )}
       />
       <p className="break-anywhere text-center">{name}</p>
     </Link>
