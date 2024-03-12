@@ -4132,7 +4132,7 @@
     "talents": {},
     "trait": null,
     "skillIds": [null, "sktok_swire2_gdtrap", null],
-    "type": "summon",
+    "type": "trap",
     "usedBy": "char_1033_swire2"
   },
   "trap_079_allydonq": {

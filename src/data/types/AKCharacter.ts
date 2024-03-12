@@ -52,7 +52,7 @@ export type TokenClassification =
 export interface Token extends CharacterBase {
   id: TokenId;
   iconId: string; // Will be different from `id` on `'Thunderer' (Advanced)`
-  trait: string;
+  trait: string | null;
   skillIds: (SkillId | null)[];
   type: TokenClassification;
   usedBy: OperatorId | null;
