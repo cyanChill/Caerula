@@ -21,7 +21,7 @@ export default function CostsTab({
   skillMastery,
 }: CostsTabProps) {
   return (
-    <div className="grid gap-4 py-8 sm:px-4 lg:grid-cols-2">
+    <div className="gap-4 py-8 *:mb-4 *:break-inside-avoid-column sm:px-4 lg:columns-2">
       {!!promotion && promotion.length > 0 && (
         <CostCard
           title="Promotion"
@@ -111,7 +111,7 @@ interface CostCardProps {
 function CostCard({ title, icon, theme, children }: CostCardProps) {
   const { surfaceBg, onSurfaceBorder } = theme;
   return (
-    <Card as="section" className={cn("h-min p-4 @container", surfaceBg)}>
+    <Card as="section" className={cn("p-4 @container", surfaceBg)}>
       <CardTitle
         icon={icon}
         breakColor={onSurfaceBorder}
