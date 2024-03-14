@@ -1,6 +1,6 @@
 import type { TokenId } from "@/data/types/AKCharacter";
 
-export const TokSlugTable = {
+export const TokSlugTable: Record<string, TokenId> = {
   "medic_drone": "token_10000_silent_healrb",
   "tentacle": "token_10001_deepcl_tentac",
   "mon3tr": "token_10002_kalts_mon3tr",
@@ -41,4 +41,4 @@ export const TokSlugTable = {
   "flowing_shape": "token_10030_mlyss_wtrman",
   "champagne_bomb": "token_10031_swire2_gdtrap",
   "tide-hunt_knight": "trap_079_allydonq"
-} as Record<string, TokenId>;
+};

@@ -11613,6 +11613,19 @@
       "atkRange": 3.5
     }
   ],
+  "enemy_1351_yhhshp": [
+    {
+      "hp": 500,
+      "atk": 500,
+      "def": 50,
+      "res": 50,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 5,
+      "atkRange": -1
+    }
+  ],
   "enemy_1545_shpkg": [
     {
       "hp": 60000,

@@ -33,7 +33,7 @@ export type Branch = {
  * @description Table containing more information about a specified BranchId.
  * @see Note: Robots contain some exceptions to the branch.
  */
-export const BranchTable = {
+export const BranchTable: Record<BranchId, Branch> = {
   agent: {
     id: "agent",
     name: "Agent",
@@ -498,4 +498,4 @@ export const BranchTable = {
     damageType: "HEAL",
     trait: "Restores the HP of allied units and recovers <span>Elemental Damage</span> by 50% of ATK (can recover <span>Elemental Damage</span> of unhurt allied units)"
   }
-} as Record<BranchId, Branch>;
+};
