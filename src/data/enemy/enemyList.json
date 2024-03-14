@@ -15114,6 +15114,36 @@
     "relatedEnemies": []
   },
   {
+    "sort": 679,
+    "id": "enemy_1351_yhhshp",
+    "slug": "fluffy_buddy",
+    "code": "FF15",
+    "name": "'Fluffy Buddy'",
+    "description": "If these gentle and difficult-to-perceive fluffy critters suddenly appear in front of you, don't be frightened! In the hot springs, atop the white clouds, and in your memories... Will you still think of them years down the line?",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Arts Healing",
+    "abilityList": [
+      {
+        "text": "Hidden in map, can be revealed by Carmine Steam or Pure White Steam",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When in contact with Carmine Steam, its explosion produces more Carmine Steam on surrounding tiles and dealing Arts damage to nearby allied units",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When in contact with Pure White Steam, its explosion produces more Pure White Steam on surrounding tiles and healing surrounding allied units",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 0,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
     "sort": 712,
     "id": "enemy_2001_duckmi",
     "slug": "duck_lord",

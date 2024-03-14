@@ -1,6 +1,6 @@
 import type { OperatorId } from "@/data/types/AKCharacter";
 
-export const OpSlugTable = {
+export const OpSlugTable: Record<string, OperatorId> = {
   "lancet-2": "char_285_medic2",
   "castle-3": "char_286_cast3",
   "thrm-ex": "char_376_therex",
@@ -303,4 +303,4 @@ export const OpSlugTable = {
   "grani": "char_220_grani",
   "skadi": "char_263_skadi",
   "amiya/guard": "char_1001_amiya2"
-} as Record<string, OperatorId>;
+};
