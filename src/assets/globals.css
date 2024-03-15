@@ -74,6 +74,7 @@
     border-radius: 16px;
     -webkit-mask: var(--border-svg);
     mask: var(--border-svg);
+    pointer-events: none;
   }
 }
 
@@ -98,7 +99,19 @@
 }
 
 /* Screen Lock Class */
+body[data-enemyPgLock="true"] {
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
 body[data-lock="true"] {
   overflow: hidden !important;
   overscroll-behavior: none !important;
+}
+
+@media (min-width: 1024px) {
+  body[data-enemyPgLock="true"] {
+    overflow: initial;
+    overscroll-behavior: initial;
+  }
 }
