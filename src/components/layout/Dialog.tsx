@@ -22,12 +22,15 @@ const closeDialogAtom = atom((get) => () => {
   const dialogRef = get(dialogRefAtom);
   const animation = get(animationAtom);
   if (!dialogRef) return;
-  // Trigger closing animation
-  dialogRef.classList.add(animation.out);
-  setTimeout(() => {
-    dialogRef.classList.remove(animation.out);
-    dialogRef.close();
-  }, animation.durationMS);
+
+  if (!!animation.out) {
+    // Trigger closing animation
+    dialogRef.classList.add(animation.out);
+    setTimeout(() => {
+      dialogRef.classList.remove(animation.out);
+      dialogRef.close();
+    }, animation.durationMS);
+  } else dialogRef.close();
 });
 
 type Animation = `animate-[${string}]`;
