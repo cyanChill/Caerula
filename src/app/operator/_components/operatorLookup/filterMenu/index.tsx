@@ -1,9 +1,6 @@
-import { Filter, Refresh } from "@/assets/svgs/shapes";
 import { NationInfo, FactionInfo, TeamInfo } from "@/data/types/AKAffiliation";
 import { BranchTable, ProfessionMap } from "@/data/types/AKClass";
 
-import { cn } from "@/lib/style";
-import { Button } from "@/components/form/Button";
 import { Checkbox, CheckboxGroup } from "@/components/form/Checkbox";
 import { DynamicFieldset } from "@/components/form/DynamicFieldset";
 import { Fieldset, Legend } from "@/components/form/Fieldset";
@@ -11,20 +8,9 @@ import { Select } from "@/components/form/Select";
 import Rarity from "@/features/characters/Rarity";
 import { LookupControls } from "./client";
 
-/** @description Button that opens the filter menu. */
-export function FilterMenu() {
-  return (
-    <LookupControls
-      menuBtnContent={
-        <>
-          <Filter className="size-[1lh]" />
-          <span>Filters</span>
-        </>
-      }
-      formContent={<LookupForm />}
-      formAction={<LookupActions />}
-    />
-  );
+/** @description Utilizes our reusable `<FilterMenu />`. */
+export function OperatorFilterMenu() {
+  return <LookupControls formContent={<LookupForm />} />;
 }
 
 /** @description List of filters used to search through operators. */
@@ -140,41 +126,5 @@ function LookupForm() {
         </CheckboxGroup>
       </Fieldset>
     </>
-  );
-}
-
-/** @description Submit & reset buttons for lookup form. */
-function LookupActions() {
-  return (
-    <div className="p-2 !pt-0 sm:p-4">
-      <hr className="mb-4 border-white/50" />
-      <div
-        className={cn(
-          "grid grid-cols-[auto_minmax(0,1fr)] gap-1 sm:gap-2",
-          "font-geist-mono font-medium sm:text-lg",
-        )}
-      >
-        <Button
-          title="Reset Filters"
-          type="reset"
-          form="op-lookup-form"
-          variant="bordered"
-          color="neutral"
-          radius="large"
-          className="p-2"
-        >
-          <Refresh className="size-[1lh]" />
-        </Button>
-        <Button
-          type="submit"
-          form="op-lookup-form"
-          color="tertiary"
-          radius="large"
-          className="p-2"
-        >
-          View Changes
-        </Button>
-      </div>
-    </div>
   );
 }

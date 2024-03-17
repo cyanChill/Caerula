@@ -3,7 +3,7 @@ import { enemiesAtom } from "./store";
 
 import { HydrateAtoms } from "@/lib/jotai";
 import { pickKeys } from "@/utils/object";
-import { FilterMenu } from "./filterMenu";
+import { EnemyFilterMenu } from "./filterMenu";
 import { FilteredEnemyList } from "./filteredList";
 
 /** @description Allows for quick lookup of enemies based on various filters. */
@@ -22,8 +22,8 @@ export default function EnemyLookup() {
         ],
       ]}
     >
-      <section className="relative min-h-dvh">
-        <FilterMenu />
+      <section className="min-h-dvh">
+        <EnemyFilterMenu />
         <FilteredEnemyList />
       </section>
     </HydrateAtoms>
