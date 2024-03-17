@@ -3,13 +3,14 @@ import { useSetAtom } from "jotai";
 
 import { operatorLookupFilterAtom } from "../store";
 
-import { FilterMenu } from "@/components/form/FilterMenu";
+import { FilterMenuProvider } from "@/components/form/FilterMenu/client";
 
-/** @description Lookup filter button & form. */
-export function LookupControls({
-  formContent,
-}: {
-  formContent: React.ReactNode;
+/**
+ * @description Wrapper for `<FilterMenu />`, providing the `onSubmit`
+ *  function for our "Operator Lookup" feature.
+ */
+export function INTERNAL_ONSUBMIT_PROVIDER(props: {
+  children: React.ReactNode;
 }) {
   const setOperatorLookupFilter = useSetAtom(operatorLookupFilterAtom);
 
@@ -26,5 +27,9 @@ export function LookupControls({
     });
   }
 
-  return <FilterMenu formControls={formContent} onSubmit={updateFilters} />;
+  return (
+    <FilterMenuProvider onSubmit={updateFilters}>
+      {props.children}
+    </FilterMenuProvider>
+  );
 }

@@ -5,12 +5,17 @@ import { Checkbox, CheckboxGroup } from "@/components/form/Checkbox";
 import { DynamicFieldset } from "@/components/form/DynamicFieldset";
 import { Fieldset, Legend } from "@/components/form/Fieldset";
 import { Select } from "@/components/form/Select";
+import { FilterMenu } from "@/components/form/FilterMenu";
 import Rarity from "@/features/characters/Rarity";
-import { LookupControls } from "./client";
+import { INTERNAL_ONSUBMIT_PROVIDER } from "./client";
 
 /** @description Utilizes our reusable `<FilterMenu />`. */
 export function OperatorFilterMenu() {
-  return <LookupControls formContent={<LookupForm />} />;
+  return (
+    <INTERNAL_ONSUBMIT_PROVIDER>
+      <FilterMenu formControls={<LookupForm />} />
+    </INTERNAL_ONSUBMIT_PROVIDER>
+  );
 }
 
 /** @description List of filters used to search through operators. */

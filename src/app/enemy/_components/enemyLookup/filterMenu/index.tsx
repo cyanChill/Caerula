@@ -5,11 +5,19 @@ import { AttackPatterns, EnemyRaceTable } from "@/data/types/typesFrom";
 import { Checkbox, CheckboxGroup } from "@/components/form/Checkbox";
 import { Fieldset, Legend } from "@/components/form/Fieldset";
 import { Select } from "@/components/form/Select";
-import { LookupControls } from "./client";
+import { FilterMenu } from "@/components/form/FilterMenu";
+import { INTERNAL_ONSUBMIT_PROVIDER } from "./client";
 
 /** @description Utilizes our reusable `<FilterMenu />`. */
 export function EnemyFilterMenu() {
-  return <LookupControls formContent={<LookupForm />} />;
+  return (
+    <INTERNAL_ONSUBMIT_PROVIDER>
+      <FilterMenu
+        menuBtnClassName="sticky top-[5svh] mb-4"
+        formControls={<LookupForm />}
+      />
+    </INTERNAL_ONSUBMIT_PROVIDER>
+  );
 }
 
 /** @description List of filters used to search through enemies. */
