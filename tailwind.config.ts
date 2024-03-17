@@ -16,6 +16,15 @@ const config: Config = {
           "50%": { opacity: "1" },
           "80%, 100%": { opacity: "0", transform: "translateY(0px)" },
         },
+        /* Modal Animations */
+        "slide-in-right": {
+          "0%": { opacity: "0", transform: "translateX(100%)" },
+          "100%": { opacity: "1", transform: "translateX(0)" },
+        },
+        "slide-out-right": {
+          "0%": { opacity: "1", transform: "translateX(0)" },
+          "100%": { opacity: "0", transform: "translateX(100%)" },
+        },
       },
       transitionProperty: {
         visibility: "opacity, visibility",
