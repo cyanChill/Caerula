@@ -3,14 +3,11 @@ import { useSetAtom } from "jotai";
 
 import { enemyLookupFilterAtom } from "../store";
 
-import { FilterMenuProvider } from "@/components/form/FilterMenu/client";
+import { FilterMenu } from "@/components/form/FilterMenu";
 
-/** 
- * @description Wrapper for `<FilterMenu />`, providing the `onSubmit`
- *  function for our "Enemy Lookup" feature. 
-*/
-export function INTERNAL_ONSUBMIT_PROVIDER(props: {
-  children: React.ReactNode;
+/** @description Filter through enemies on `/enemy` route. */
+export function INTERNAL_EnemyFilterMenu(props: {
+  formControls: React.ReactNode;
 }) {
   const setEnemyLookupFilter = useSetAtom(enemyLookupFilterAtom);
 
@@ -30,8 +27,10 @@ export function INTERNAL_ONSUBMIT_PROVIDER(props: {
   }
 
   return (
-    <FilterMenuProvider onSubmit={updateFilters}>
-      {props.children}
-    </FilterMenuProvider>
+    <FilterMenu
+      menuBtnClassName="sticky top-[5svh] mb-4"
+      formControls={props.formControls}
+      onSubmit={updateFilters}
+    />
   );
 }

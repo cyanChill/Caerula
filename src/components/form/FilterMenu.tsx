@@ -1,3 +1,4 @@
+"use client";
 import { cn } from "@/lib/style";
 import { Button } from "@/components/form/Button";
 import {
@@ -6,11 +7,11 @@ import {
   DialogContent,
   DialogTrigger,
 } from "@/components/layout/Dialog";
-import { INTERNAL_FORM } from "./client";
 
 /** @description Filter menu button w/ pop-out modal form. */
 export function FilterMenu(props: {
   formControls: React.ReactNode;
+  onSubmit: (e: React.FormEvent) => void;
   menuBtnClassName?: string;
 }) {
   return (
@@ -35,7 +36,13 @@ export function FilterMenu(props: {
         )}
       >
         <div className="grid h-full grid-rows-[minmax(0,1fr)_auto]">
-          <INTERNAL_FORM>{props.formControls}</INTERNAL_FORM>
+          <form
+            id="filter-form"
+            onSubmit={props.onSubmit}
+            className="overflow-y-auto p-2 sm:p-4"
+          >
+            {props.formControls}
+          </form>
           <div className="p-2 !pt-0 sm:p-4">
             <hr className="mb-4 border-white/50" />
             <div
