@@ -25,6 +25,10 @@ export function INTERNAL_OperatorFilterMenu(props: {
   }
 
   return (
-    <FilterMenu formControls={props.formControls} onSubmit={updateFilters} />
+    <FilterMenu
+      id="op-lookup-form"
+      formControls={props.formControls}
+      onSubmit={updateFilters}
+    />
   );
 }

@@ -10,6 +10,7 @@ import {
 
 /** @description Filter menu button w/ pop-out modal form. */
 export function FilterMenu(props: {
+  id: string; // Form id
   formControls: React.ReactNode;
   onSubmit: (e: React.FormEvent) => void;
   menuBtnClassName?: string;
@@ -37,7 +38,7 @@ export function FilterMenu(props: {
       >
         <div className="grid h-full grid-rows-[minmax(0,1fr)_auto]">
           <form
-            id="filter-form"
+            id={props.id}
             onSubmit={props.onSubmit}
             className="overflow-y-auto p-2 sm:p-4"
           >
@@ -54,7 +55,7 @@ export function FilterMenu(props: {
               <Button
                 title="Reset Filters"
                 type="reset"
-                form="filter-form"
+                form={props.id}
                 variant="bordered"
                 color="neutral"
                 radius="large"
@@ -64,7 +65,7 @@ export function FilterMenu(props: {
               </Button>
               <DialogClose
                 type="submit"
-                form="filter-form"
+                form={props.id}
                 color="tertiary"
                 radius="large"
                 className="p-2"

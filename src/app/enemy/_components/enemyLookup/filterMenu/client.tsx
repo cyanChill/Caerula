@@ -28,9 +28,10 @@ export function INTERNAL_EnemyFilterMenu(props: {
 
   return (
     <FilterMenu
-      menuBtnClassName="sticky top-[5svh] mb-4"
+      id="enemy-lookup-form"
       formControls={props.formControls}
       onSubmit={updateFilters}
+      menuBtnClassName="sticky top-[5svh] mb-4"
     />
   );
 }
