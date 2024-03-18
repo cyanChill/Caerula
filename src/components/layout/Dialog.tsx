@@ -6,10 +6,8 @@ import { ScopeProvider } from "jotai-scope";
 import { useKey } from "@/hooks/useKey";
 
 import { cn } from "@/lib/style";
-import { HydrateAtoms } from "@/lib/jotai";
 import { Button } from "../form/Button";
 
-const animationAtom = atom({ in: "", out: "", durationMS: 0 });
 const dialogRefAtom = atom<HTMLDialogElement | null>(null);
 
 const openDialogAtom = atom((get) => () => {
@@ -18,44 +16,20 @@ const openDialogAtom = atom((get) => () => {
   dialogRef.showModal();
   document.body.setAttribute("data-lock", "true");
 });
+
 const closeDialogAtom = atom((get) => () => {
   const dialogRef = get(dialogRefAtom);
-  const animation = get(animationAtom);
   if (!dialogRef) return;
-
-  if (!!animation.out) {
-    // Trigger closing animation
-    dialogRef.classList.add(animation.out);
-    setTimeout(() => {
-      dialogRef.classList.remove(animation.out);
-      dialogRef.close();
-    }, animation.durationMS);
-  } else dialogRef.close();
+  dialogRef.setAttribute("data-close", "true"); // Triggers closing animation
+  document.body.removeAttribute("data-lock");
 });
-
-type Animation = `animate-[${string}]`;
-
-type DialogProps = {
-  animation?: { in: Animation; out: Animation; durationMS: number };
-  children: React.ReactNode;
-};
 
 /**
  * @description The context provider for this component. All dialog-related
  *  components must be under this.
  */
-export function Dialog({ animation, children }: DialogProps) {
-  return (
-    <ScopeProvider atoms={[dialogRefAtom, animationAtom]}>
-      <HydrateAtoms
-        atomValues={[
-          [animationAtom, animation ?? { in: "", out: "", durationMS: 0 }],
-        ]}
-      >
-        {children}
-      </HydrateAtoms>
-    </ScopeProvider>
-  );
+export function Dialog({ children }: { children: React.ReactNode }) {
+  return <ScopeProvider atoms={[dialogRefAtom]}>{children}</ScopeProvider>;
 }
 
 type ButtonProps = React.ComponentProps<typeof Button>;
@@ -101,6 +75,10 @@ export function DialogClose({ onClick, children, ...props }: ButtonProps) {
   );
 }
 
+type DialogContentProps = React.DialogHTMLAttributes<HTMLDialogElement> & {
+  animation?: `animate-[${string}] data-[close]:animate-[${string}]`;
+};
+
 /**
  * @description A HTML `<dialog>` element which automatically applies the
  *  opening & closing animations.
@@ -110,13 +88,12 @@ export function DialogClose({ onClick, children, ...props }: ButtonProps) {
  *  we implemented the "close on backdrop click" behavior.❗
  */
 export function DialogContent({
+  animation,
   onClick,
-  onClose,
   children,
   className,
   ...props
-}: React.DialogHTMLAttributes<HTMLDialogElement>) {
-  const animation = useAtomValue(animationAtom);
+}: DialogContentProps) {
   const closeDialog = useAtomValue(closeDialogAtom);
 
   // Set atom value on mount
@@ -128,14 +105,22 @@ export function DialogContent({
       (_, set, arg: HTMLDialogElement | null) => set(dialogRefAtom, arg),
     );
     a.onMount = (set) => {
-      set(ref.current);
-      trapFocus(ref.current as HTMLElement);
+      const el = ref.current!;
+      set(el);
+      // Add event listener to trap focus when tabbing within dialog
+      trapFocus(el);
+      // Add closing animation event listener
+      el.addEventListener("animationend", (e) => {
+        if (e.target !== el || !el.hasAttribute("data-close")) return;
+        el.removeAttribute("data-close");
+        el.close();
+      });
     };
     return a;
   }, []);
   useAtom(mountingAtom);
 
-  useKey("Escape", closeDialog);
+  useKey("Escape", closeDialog, { target: ref });
 
   return (
     <dialog
@@ -147,14 +132,11 @@ export function DialogContent({
         // when we click on the backdrop
         if (e.target === e.currentTarget) closeDialog();
       }}
-      onClose={(e) => {
-        if (onClose) onClose(e);
-        document.body.removeAttribute("data-lock");
-      }}
       className={cn(
         "backdrop:bg-black/50 backdrop:backdrop-blur-2xl",
+        "open:backdrop:animate-[fade-in_0.5s] data-[close]:backdrop:opacity-0",
         className,
-        animation.in,
+        animation,
       )}
     >
       {children}
