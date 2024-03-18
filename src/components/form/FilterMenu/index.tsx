@@ -28,9 +28,9 @@ export function FilterMenu(props: {
       </DialogTrigger>
 
       <DialogContent
-        animation="animate-[slide-in-right_0.5s] data-[close]:animate-[slide-out-right_0.5s]"
+        origin="right"
         className={cn(
-          "ml-auto mr-2 h-[95dvh] w-full max-w-[calc(100%-1rem)] sm:mr-4 sm:max-w-[450px]",
+          "h-[95dvh] w-full max-w-[calc(100%-1rem)] sm:max-w-[450px]",
           "rounded-xl bg-neutral-10 font-geist-sans text-white",
         )}
       >

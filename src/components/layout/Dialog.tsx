@@ -2,11 +2,31 @@
 import { useRef, useMemo } from "react";
 import { atom, useAtom, useAtomValue } from "jotai";
 import { ScopeProvider } from "jotai-scope";
+import { type VariantProps, cva } from "class-variance-authority";
 
 import { useKey } from "@/hooks/useKey";
 
 import { cn } from "@/lib/style";
 import { Button } from "../form/Button";
+
+type DialogConfig = VariantProps<typeof dialogVariants>;
+const dialogVariants = cva(
+  [
+    "mx-2 sm:mx-4 backdrop:bg-black/50 backdrop:backdrop-blur-2xl",
+    "animate-[slide-in_0.5s] data-[close]:animate-[slide-out_0.5s]",
+    "open:backdrop:animate-[fade-in_0.5s] data-[close]:backdrop:opacity-0",
+  ],
+  {
+    variants: {
+      origin: {
+        left: "[--translateX:-100%] sm:mr-auto",
+        center: "[--translateY:25%] sm:mx-auto",
+        right: "[--translateX:100%] sm:ml-auto",
+      },
+    },
+    defaultVariants: { origin: "center" },
+  },
+);
 
 const dialogRefAtom = atom<HTMLDialogElement | null>(null);
 
@@ -75,9 +95,8 @@ export function DialogClose({ onClick, children, ...props }: ButtonProps) {
   );
 }
 
-type DialogContentProps = React.DialogHTMLAttributes<HTMLDialogElement> & {
-  animation?: `animate-[${string}] data-[close]:animate-[${string}]`;
-};
+type DialogContentProps = React.DialogHTMLAttributes<HTMLDialogElement> &
+  DialogConfig;
 
 /**
  * @description A HTML `<dialog>` element which automatically applies the
@@ -88,7 +107,7 @@ type DialogContentProps = React.DialogHTMLAttributes<HTMLDialogElement> & {
  *  we implemented the "close on backdrop click" behavior.❗
  */
 export function DialogContent({
-  animation,
+  origin,
   onClick,
   children,
   className,
@@ -132,12 +151,7 @@ export function DialogContent({
         // when we click on the backdrop
         if (e.target === e.currentTarget) closeDialog();
       }}
-      className={cn(
-        "backdrop:bg-black/50 backdrop:backdrop-blur-2xl",
-        "open:backdrop:animate-[fade-in_0.5s] data-[close]:backdrop:opacity-0",
-        className,
-        animation,
-      )}
+      className={cn(dialogVariants({ origin }), className)}
     >
       {children}
     </dialog>

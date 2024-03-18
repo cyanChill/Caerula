@@ -18,13 +18,19 @@ const config: Config = {
         },
         "fade-in": { "0%": { opacity: "0" }, "100%": { opacity: "1" } },
         /* Modal Animations */
-        "slide-in-right": {
-          "0%": { opacity: "0", transform: "translateX(100%)" },
-          "100%": { opacity: "1", transform: "translateX(0)" },
+        "slide-in": {
+          "0%": {
+            opacity: "0",
+            transform: "translate(var(--translateX, 0), var(--translateY, 0))",
+          },
+          "100%": { opacity: "1", transform: "translate(0, 0)" },
         },
-        "slide-out-right": {
-          "0%": { opacity: "1", transform: "translateX(0)" },
-          "100%": { opacity: "0", transform: "translateX(100%)" },
+        "slide-out": {
+          "0%": { opacity: "1", transform: "translate(0, 0)" },
+          "100%": {
+            opacity: "0",
+            transform: "translate(var(--translateX, 0), var(--translateY, 0))",
+          },
         },
       },
       transitionProperty: {
