@@ -183,6 +183,17 @@
       "artists": ["Peachy Miruku"],
       "releasedAt": 0
     },
+    "char_4091_ulika_1": {
+      "id": "char_4091_ulika_1",
+      "usedBy": "char_4091_ulika",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "U-Official's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["折射镜"],
+      "releasedAt": 0
+    },
     "char_4093_frston_1": {
       "id": "char_4093_frston_1",
       "usedBy": "char_4093_frston",
@@ -3956,6 +3967,28 @@
       "artists": ["我妻洛酱"],
       "releasedAt": 0
     },
+    "char_4104_coldst_1": {
+      "id": "char_4104_coldst_1",
+      "usedBy": "char_4104_coldst",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Coldshot's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["Mag42"],
+      "releasedAt": 0
+    },
+    "char_4104_coldst_2": {
+      "id": "char_4104_coldst_2",
+      "usedBy": "char_4104_coldst",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Coldshot's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["Mag42"],
+      "releasedAt": 0
+    },
     "char_4015_spuria_1": {
       "id": "char_4015_spuria_1",
       "usedBy": "char_4015_spuria",
@@ -4020,6 +4053,28 @@
       "imgAlt": "Snowsant's \"Elite 2\" skin",
       "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
       "artists": ["NoriZC"],
+      "releasedAt": 0
+    },
+    "char_4105_almond_1": {
+      "id": "char_4105_almond_1",
+      "usedBy": "char_4105_almond",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Almond's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["直立行走"],
+      "releasedAt": 0
+    },
+    "char_4105_almond_2": {
+      "id": "char_4105_almond_2",
+      "usedBy": "char_4105_almond",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Almond's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["直立行走"],
       "releasedAt": 0
     },
     "char_174_slbell_1": {
@@ -5870,6 +5925,28 @@
       "artists": ["m9nokuro"],
       "releasedAt": 0
     },
+    "char_1034_jesca2_1": {
+      "id": "char_1034_jesca2_1",
+      "usedBy": "char_1034_jesca2",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Jessica the Liberated's \"Elite 0\" skin",
+      "description": "Jessica's combat outfit when she's out on missions. \nThere's always a new hidden pocket to find somewhere unexpected, a true test of the wearer's memory.",
+      "artists": ["Cenm0"],
+      "releasedAt": 0
+    },
+    "char_1034_jesca2_2": {
+      "id": "char_1034_jesca2_2",
+      "usedBy": "char_1034_jesca2",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Jessica the Liberated's \"Elite 2\" skin",
+      "description": "The pockets of her combat outfit are stuffed with all kinds of miscellaneous bits and bobs. An additional yet unnecessary burden to bear. \n She shoulders heavy responsibilities, and thus leaves clear and distinct footprints.",
+      "artists": ["Cenm0"],
+      "releasedAt": 0
+    },
     "char_264_f12yin_1": {
       "id": "char_264_f12yin_1",
       "usedBy": "char_264_f12yin",
@@ -6614,6 +6691,17 @@
       "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
       "name": "Default",
       "imgAlt": "Champagne Bomb's \"Default\" skin",
+      "description": null,
+      "artists": null,
+      "releasedAt": 0
+    },
+    "token_10032_jesca2_jckshd": {
+      "id": "token_10032_jesca2_jckshd",
+      "usedBy": "token_10032_jesca2_jckshd",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Default",
+      "imgAlt": "Mobile Riot Shield's \"Default\" skin",
       "description": null,
       "artists": null,
       "releasedAt": 0
@@ -9973,6 +10061,72 @@
       "artists": ["我妻洛酱"],
       "releasedAt": 1672142400
     },
+    "token_10020_ling_soul1_ncg#1": {
+      "id": "token_10020_ling_soul1_ncg#1",
+      "usedBy": "token_10020_ling_soul1",
+      "brandId": "crossover",
+      "subBrand": { "id": "2023#ncg", "name": "Chinese National Geography" },
+      "name": "Towering is Cliff of Nostalgia",
+      "imgAlt": "'Tranquility''s \"Towering is Cliff of Nostalgia\" skin",
+      "description": null,
+      "artists": null,
+      "releasedAt": 1710867600
+    },
+    "token_10020_ling_soul2_ncg#1": {
+      "id": "token_10020_ling_soul2_ncg#1",
+      "usedBy": "token_10020_ling_soul2",
+      "brandId": "crossover",
+      "subBrand": { "id": "2023#ncg", "name": "Chinese National Geography" },
+      "name": "Towering is Cliff of Nostalgia",
+      "imgAlt": "'Peripateticism''s \"Towering is Cliff of Nostalgia\" skin",
+      "description": null,
+      "artists": null,
+      "releasedAt": 1710867600
+    },
+    "token_10020_ling_soul3_ncg#1": {
+      "id": "token_10020_ling_soul3_ncg#1",
+      "usedBy": "token_10020_ling_soul3",
+      "brandId": "crossover",
+      "subBrand": { "id": "2023#ncg", "name": "Chinese National Geography" },
+      "name": "Towering is Cliff of Nostalgia",
+      "imgAlt": "'Thunderer''s \"Towering is Cliff of Nostalgia\" skin",
+      "description": null,
+      "artists": null,
+      "releasedAt": 1710867600
+    },
+    "char_2023_ling_ncg#1": {
+      "id": "char_2023_ling_ncg#1",
+      "usedBy": "char_2023_ling",
+      "brandId": "crossover",
+      "subBrand": { "id": "2023#ncg", "name": "Chinese National Geography" },
+      "name": "Towering is Cliff of Nostalgia",
+      "imgAlt": "Ling's \"Towering is Cliff of Nostalgia\" skin",
+      "description": "Brand Collaborative Series/Towering is Cliff of Nostalgia. Stylish and classic. The wind brushes the cliffs for a thousand years, a thousand li, brushing against the wanderer's robes, brushing into dream.",
+      "artists": ["下野宏铭"],
+      "releasedAt": 1710867600
+    },
+    "char_4082_qiubai_ncg#1": {
+      "id": "char_4082_qiubai_ncg#1",
+      "usedBy": "char_4082_qiubai",
+      "brandId": "crossover",
+      "subBrand": { "id": "2023#ncg", "name": "Chinese National Geography" },
+      "name": "Wine-flushed is Woods of Rime",
+      "imgAlt": "Qiubai's \"Wine-flushed is Woods of Rime\" skin",
+      "description": "Brand Collaborative Series/Wine-flushed is Woods of Rime. Wind-proof and wear-resistant with a clean, slim fit that's easy to move in. Inspired by the northwest poplar forests.",
+      "artists": ["温泉瓜"],
+      "releasedAt": 1710867600
+    },
+    "char_106_franka_ncg#1": {
+      "id": "char_106_franka_ncg#1",
+      "usedBy": "char_106_franka",
+      "brandId": "crossover",
+      "subBrand": { "id": "2023#ncg", "name": "Chinese National Geography" },
+      "name": "Rainforest, Me, Rainbow",
+      "imgAlt": "Franka's \"Rainforest, Me, Rainbow\" skin",
+      "description": "Brand Collaborative Series/Rainforest, Me, Rainbow. The waterproof, breathable fabric comes in handy for rainforest work. Lightweight, wear-resistant, and protects from the sun. Tail attachment optional.",
+      "artists": ["臼"],
+      "releasedAt": 1710867600
+    },
     "char_4019_ncdeer_ncdeer#1": {
       "id": "char_4019_ncdeer_ncdeer#1",
       "usedBy": "char_4019_ncdeer",
@@ -10013,6 +10167,7 @@
     "char_376_therex": ["char_376_therex_1"],
     "char_4000_jnight": ["char_4000_jnight_1", "char_4000_jnight_boc#7"],
     "char_4077_palico": ["char_4077_palico_1", "char_4077_palico_mh#1"],
+    "char_4091_ulika": ["char_4091_ulika_1"],
     "char_4093_frston": ["char_4093_frston_1"],
     "char_502_nblade": ["char_502_nblade_1"],
     "char_500_noirc": ["char_500_noirc_1"],
@@ -10172,7 +10327,7 @@
     "char_308_swire": ["char_308_swire_1", "char_308_swire_2", "char_308_swire_nian#2"],
     "char_265_sophia": ["char_265_sophia_1", "char_265_sophia_2", "char_265_sophia_epoque#11"],
     "char_4106_bryota": ["char_4106_bryota_1", "char_4106_bryota_2"],
-    "char_106_franka": ["char_106_franka_1", "char_106_franka_2"],
+    "char_106_franka": ["char_106_franka_1", "char_106_franka_2", "char_106_franka_ncg#1"],
     "char_131_flameb": ["char_131_flameb_1", "char_131_flameb_2", "char_131_flameb_summer#8"],
     "char_154_morgan": ["char_154_morgan_1", "char_154_morgan_2"],
     "char_508_aguard": ["char_508_aguard_1"],
@@ -10321,6 +10476,7 @@
     "char_363_toddi": ["char_363_toddi_1", "char_363_toddi_2"],
     "char_4043_erato": ["char_4043_erato_1", "char_4043_erato_2", "char_4043_erato_snow#5"],
     "char_1027_greyy2": ["char_1027_greyy2_1", "char_1027_greyy2_2", "char_1027_greyy2_snow#5"],
+    "char_4104_coldst": ["char_4104_coldst_1", "char_4104_coldst_2"],
     "char_4015_spuria": ["char_4015_spuria_1", "char_4015_spuria_2"],
     "char_173_slchan": [
       "char_173_slchan_1",
@@ -10329,6 +10485,7 @@
       "char_173_slchan_wwf#1"
     ],
     "char_383_snsant": ["char_383_snsant_1", "char_383_snsant_2", "char_383_snsant_witch#2"],
+    "char_4105_almond": ["char_4105_almond_1", "char_4105_almond_2"],
     "char_174_slbell": ["char_174_slbell_1", "char_174_slbell_2", "char_174_slbell_snow#1"],
     "char_254_vodfox": ["char_254_vodfox_1", "char_254_vodfox_2", "char_254_vodfox_witch#2"],
     "char_195_glassb": ["char_195_glassb_1", "char_195_glassb_2", "char_195_glassb_kitchen#1"],
@@ -10447,7 +10604,12 @@
     "char_248_mgllan": ["char_248_mgllan_1", "char_248_mgllan_2", "char_248_mgllan_kitchen#1"],
     "char_1012_skadi2": ["char_1012_skadi2_1", "char_1012_skadi2_2", "char_1012_skadi2_boc#4"],
     "char_1031_slent2": ["char_1031_slent2_1", "char_1031_slent2_2"],
-    "char_2023_ling": ["char_2023_ling_1", "char_2023_ling_2", "char_2023_ling_nian#9"],
+    "char_2023_ling": [
+      "char_2023_ling_1",
+      "char_2023_ling_2",
+      "char_2023_ling_nian#9",
+      "char_2023_ling_ncg#1"
+    ],
     "char_4072_ironmn": ["char_4072_ironmn_1", "char_4072_ironmn_2", "char_4072_ironmn_summer#11"],
     "char_250_phatom": [
       "char_250_phatom_1",
@@ -10498,6 +10660,7 @@
     "char_4065_judge": ["char_4065_judge_1", "char_4065_judge_2"],
     "char_416_zumama": ["char_416_zumama_1", "char_416_zumama_2", "char_416_zumama_boc#3"],
     "char_4039_horn": ["char_4039_horn_1", "char_4039_horn_2", "char_4039_horn_epoque#24"],
+    "char_1034_jesca2": ["char_1034_jesca2_1", "char_1034_jesca2_2"],
     "char_264_f12yin": [
       "char_264_f12yin_1",
       "char_264_f12yin_2",
@@ -10512,7 +10675,7 @@
       "char_172_svrash_summer#4"
     ],
     "char_293_thorns": ["char_293_thorns_1", "char_293_thorns_2", "char_293_thorns_it#1"],
-    "char_4082_qiubai": ["char_4082_qiubai_1", "char_4082_qiubai_2"],
+    "char_4082_qiubai": ["char_4082_qiubai_1", "char_4082_qiubai_2", "char_4082_qiubai_ncg#1"],
     "char_010_chen": [
       "char_010_chen_1",
       "char_010_chen_2",
@@ -10590,10 +10753,26 @@
       "token_10018_robrta_mach_ambienceSynesthesia#3"
     ],
     "token_10019_nearl2_sword": ["token_10019_nearl2_sword"],
-    "token_10020_ling_soul1": ["token_10020_ling_soul1", "token_10020_ling_soul1_nian#9"],
-    "token_10020_ling_soul2": ["token_10020_ling_soul2", "token_10020_ling_soul2_nian#9"],
-    "token_10020_ling_soul3": ["token_10020_ling_soul3", "token_10020_ling_soul3_nian#9"],
-    "token_10020_ling_soul3a": ["token_10020_ling_soul3", "token_10020_ling_soul3_nian#9"],
+    "token_10020_ling_soul1": [
+      "token_10020_ling_soul1",
+      "token_10020_ling_soul1_nian#9",
+      "token_10020_ling_soul1_ncg#1"
+    ],
+    "token_10020_ling_soul2": [
+      "token_10020_ling_soul2",
+      "token_10020_ling_soul2_nian#9",
+      "token_10020_ling_soul2_ncg#1"
+    ],
+    "token_10020_ling_soul3": [
+      "token_10020_ling_soul3",
+      "token_10020_ling_soul3_nian#9",
+      "token_10020_ling_soul3_ncg#1"
+    ],
+    "token_10020_ling_soul3a": [
+      "token_10020_ling_soul3",
+      "token_10020_ling_soul3_nian#9",
+      "token_10020_ling_soul3_ncg#1"
+    ],
     "token_10021_blkngt_hypnos": [
       "token_10021_blkngt_hypnos",
       "token_10021_blkngt_hypnos_summer#8",
@@ -10611,6 +10790,7 @@
     "token_10029_slent2_protrb": ["token_10029_slent2_protrb"],
     "token_10030_mlyss_wtrman": ["token_10030_mlyss_wtrman"],
     "token_10031_swire2_gdtrap": ["token_10031_swire2_gdtrap"],
+    "token_10032_jesca2_jckshd": ["token_10032_jesca2_jckshd"],
     "trap_079_allydonq": ["trap_079_allydonq"]
   }
 }

@@ -1,4 +1,14 @@
 {
-  "latest-operator-ids": ["char_341_sntlla", "char_4102_threye", "char_2012_typhon"],
-  "latest-skin-ids": ["char_135_halo_epoque#25"]
+  "latest-operator-ids": [
+    "char_4091_ulika",
+    "char_4104_coldst",
+    "char_4105_almond",
+    "char_1034_jesca2"
+  ],
+  "latest-skin-ids": [
+    "char_2023_ling_ncg#1",
+    "char_4082_qiubai_ncg#1",
+    "char_106_franka_ncg#1",
+    "char_4019_ncdeer_ncdeer#1"
+  ]
 }
