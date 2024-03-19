@@ -257,6 +257,7 @@
     ],
     "char_159_peacok": [
       { "langId": "CN_MANDARIN", "actors": ["Ying Xie"] },
+      { "langId": "EN", "actors": ["Jad Saxton"] },
       { "langId": "JP", "actors": ["Yuri Yamaoka"] },
       { "langId": "KR", "actors": ["Kim Hyeon-sim"] }
     ],
@@ -1540,6 +1541,12 @@
       { "langId": "JP", "actors": ["Kengo Kawanishi"] },
       { "langId": "KR", "actors": ["Ryu Seung-gon"] }
     ],
+    "char_4091_ulika": [
+      { "langId": "CN_MANDARIN", "actors": ["ZZ"] },
+      { "langId": "EN", "actors": ["LilyPichu"] },
+      { "langId": "JP", "actors": ["Yuuki Takada"] },
+      { "langId": "KR", "actors": ["Bang Si-u"] }
+    ],
     "char_4087_ines": [
       { "langId": "CN_MANDARIN", "actors": ["Ruoyu Zhang"] },
       { "langId": "EN", "actors": ["Erica Lindbeck"] },
@@ -1654,6 +1661,24 @@
       { "langId": "EN", "actors": ["Hollie Taylor"] },
       { "langId": "JP", "actors": ["Risa Taneda"] },
       { "langId": "KR", "actors": ["Kim Ha-ru"] }
+    ],
+    "char_1034_jesca2": [
+      { "langId": "CN_MANDARIN", "actors": ["Fifi"] },
+      { "langId": "EN", "actors": ["Yuuki Luna"] },
+      { "langId": "JP", "actors": ["Ryo Hirohashi"] },
+      { "langId": "KR", "actors": ["Kim Ha-young"] }
+    ],
+    "char_4105_almond": [
+      { "langId": "CN_MANDARIN", "actors": ["Er Jiao"] },
+      { "langId": "EN", "actors": ["Eden Riegel"] },
+      { "langId": "JP", "actors": ["Yu Serizawa"] },
+      { "langId": "KR", "actors": ["Kim Yea-lim"] }
+    ],
+    "char_4104_coldst": [
+      { "langId": "CN_MANDARIN", "actors": ["Xiangtong Wu"] },
+      { "langId": "EN", "actors": ["Stephanie Southerland"] },
+      { "langId": "JP", "actors": ["Fuyuka Ono"] },
+      { "langId": "KR", "actors": ["Cho Hyun-jung"] }
     ],
     "char_311_mudrok#1": [
       { "langId": "CN_MANDARIN", "actors": ["Duduru"] },
@@ -45217,6 +45242,159 @@
         "unlockCond": null
       }
     ],
+    "char_4091_ulika": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "Can I go live in here? I'm not really comfortable having a whole crowd standing around watching me stream, so I'd feel way more at ease in your office... Besides, I'm your assistant now anyway, heehee.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "Doctor, I got to thinking that the stream incident might not have been a totally bad thing. After all, I got to know so many nice people ready to lend a helping hand, and you too... Shoot! I forgot to turn off my mic—— Yes, and all of you as well! With your support, I'll break out of this funk!",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "I need to decompress after that stream... Games? Doctor, were you even watching my stream? Chat wouldn't stop making fun of how much I suck. I don't wanna play another game this whole week... And that's why I need to practice every day? Uhh... I guess you have a point there?",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "Awwgh, it's so frustrating! How come a clip of me tripping over my words gets so many more views than all my VODs combined? I really don't understand viewers these days... Look, Doctor, what's so funny about this compilation of my brain-far—you just laughed, right? You totally laughed just now!",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "I won an award the first time I did a solo show. Pretty lucky, huh? What, don't believe me? Look right here, 'Awarded to the employee who stayed put until the end of the show during an earthquake'! Getting hit by an earthquake hit during your debut sounds unlucky? Ah-Ahaha...",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "I used to work my butt off every day so I could make more money, then shop more and shop better. But you know, when I use fancy concealer to hide my eye bags, I sometimes wanna cry... Oh, uh, s-speaking of crying, getting fired from the TV station made me want to cry a lot more. ",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "When I get up there to face my audience, the only advantage I have is the angle of my camera. But you, Doctor... You're the only one who watches my stream in person. You're my most special, and most unique audience. Ahem, it would be even nicer if you tossed a little dono my way~",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "Hello. You looking for the Doctor? What? No, no bother at all. The Doctor's fast asleep, and I'm just eating some dry instant noodles. Want a chunk?",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "Hello everyone, this is your omnipotent streamer, Eure—Errrr, sorry, scratch that. Rhodes Island operator, U-official! Reporting in, Doctor!",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "Doctor, I'm not gonna sugarcoat it. No matter how many vids like this I watch, I won't learn how to fight.",
+        "unlockCond": null
+      },
+      {
+        "title": "Added to Squad",
+        "text": "Go to war? Me?! This <i>has</i> to be a dream…",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "And you're giving me command of the squad to boot? This dream sure is funny, haha...",
+        "unlockCond": null
+      },
+      {
+        "title": "Depart",
+        "text": "Well, since this is a dream anyway, I will mop up all the enemies for you!",
+        "unlockCond": null
+      },
+      {
+        "title": "Begin Operation",
+        "text": "Bow down before the true master! Wooooo-wata! Scared now?",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "Heehee, mind sending me the instructions... in a superchat?",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "Your streamer is in perfect condition and ready to go live!",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "Deep breaths... stay calm…",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 2",
+        "text": "Just treat it like a regular stream? I'll try!",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 1",
+        "text": "Ah, ah, mic check! Can everyone hear me?",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 2",
+        "text": "Let me know what you think in chat!",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 3",
+        "text": "Next up, time to read the comments!",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 4",
+        "text": "Dear viewer, for your aggressive behavior, you've been permabaned from the channel! Oh no!",
+        "unlockCond": null
+      },
+      {
+        "title": "4-star Result",
+        "text": "The battle's over, so why haven't I woken up from my dream yet... What? This isn't a dream? Then, how come I'm not hurt at all?!",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "Phew, it's finally over... Time to get a good night's sleep. I hope I don't have any more weird dreams about war.",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "Hey you guys running off there, don't forget to tell your friends and family about me. Thank you!",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "Waahhh… this is the worst ending to a stream I could've imagined…",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "Can I use this place as the backdrop for my next stream? No? Fine, I'll try someplace else then.",
+        "unlockCond": null
+      },
+      {
+        "title": "Tap",
+        "text": "Don't jumpscare me like that! A monster just pushed me into the pit, now I have to do a 'no death run'…",
+        "unlockCond": null
+      },
+      {
+        "title": "Trust Tap",
+        "text": "I'm done streaming, Doctor. Wanna take a walk around the deck?",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      {
+        "title": "Greeting",
+        "text": "Thanks for letting me stream from your office, Doctor.",
+        "unlockCond": null
+      }
+    ],
     "char_491_humus": [
       {
         "title": "Appointed as Assistant",
@@ -48421,6 +48599,513 @@
       {
         "title": "Greeting",
         "text": "Doctor, want to try some Siestan coffee? You can add some tonic water, too.",
+        "unlockCond": null
+      }
+    ],
+    "char_1034_jesca2": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "While you were out, I tried to sort the documents on your desk for you... It shames me to admit it, but... I haven't made much progress when it comes to desk work.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "I ran into Franka and Liskarm on my way to the dorms. Even though I hadn't seen them in so long, we talked like we were never apart... Um, Doctor, do you think, maybe, I c-could apply to serve on missions with them?",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "I don't have as much money on hand these days. I argued with my father a lot about pioneering in the barrenlands. And so... I stopped drawing from the family trust fund. But I can still earn some money out there pioneering, at least enough to maintain my equipment.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "When I was little, everyone always had so much on their plates. Only my retired grandfather could stay at home with me. He would tell me stories about his time in the army, so that he can cheer me up this way. Even though his past never stopped tormenting him, he was still willing to fluff it into tidy little stories, just to make me smile.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "There was a soirée a while ago where someone brought up the war in Victoria. I chimed in with my own experiences. Only a few words, but enough to ruin everyone's time. You know, Doctor, that was the moment I finally realized why Blacksteel mercenaries rarely talk about themselves.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "I'm nominally still employed by Blacksteel, but it's been a while since I've done any mercenary work. No, it's not that I regret the decision I made back then; I'm just tired of responding to disaster, always one step behind. This time, I want to be there to protect something from the beginning.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "Doctor... Would you mind coming to the training room with me? I don't need a spotter, it's just... new operators keep coming to me for advice, and facing them alone makes me feel a— a little nervous.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "Oh... You want to know about the flower on my chest? Actually... it wasn't an accessory to begin with. It was a shard of metal that got lodged in my leg. After it was surgically removed, I... decided to turn it into a buttonhole flower instead of throwing it away. Y-Yeah, I guess it is kinda weird. I'm not sure what I was thinking.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "I know now that there's no shame in crying... or having a soft heart. If you're sad about something you can't put into words, why not express your feelings with tears? It's part of being human, so there's nothing to be ashamed of.  Um... Am I right, Doctor?",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "You look a little worse for wear every time I see you... Are you doing alright these days, Doctor?",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "It's been a while since we last met, Doctor. I'm glad there's still something I can do for you. That's right, I have changed a lot. If you could find the time, I'd love to sit down with you and catch up...",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "I just dug up my old combat records, which proved to be pretty useful. Comparing my before-and-after, I at least know what mistakes I shouldn't be making again. Ugh, I really looked like a... bumbling idiot back then.",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "I'm just glad to receive your acknowledgement, Doctor. The rewards are secondary.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "Doctor, are you giving me a promotion? Then, can I... make a teensy tiny extra request? It's nothing big, just... Can I... have a hug?",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "Come in, Commander, this is Jessica. On the line and ready to roll.",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "Rally on me.",
+        "unlockCond": null
+      },
+      { "title": "Depart", "text": "ETA six mikes.", "unlockCond": null },
+      {
+        "title": "Begin Operation",
+        "text": "Hostiles sighted, over.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "In position.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "Roger, wilco.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "I'm headed into the thick of it.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 2",
+        "text": "With all of you behind me, I won't take a single step back.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 1",
+        "text": "Drawing a bead on the target.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 2",
+        "text": "Don't come any closer…",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 3",
+        "text": "Requesting permission to fire.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 4",
+        "text": "Be adviced. Target… eliminated.",
+        "unlockCond": null
+      },
+      {
+        "title": "4-star Result",
+        "text": "No resting on your laurels now... We've got more fighting ahead of us.",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "That was close, I almost... A-Anyway, good thing I managed to pull through in the end... Sorry, Doctor. Please, give me a minute. I need to get my emotions under control.",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "I think... a minor setback is no big deal. It's already enough that none of our people got hurt.",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "Doctor, an apology doesn't even begin to cut it... I'll try to make up for this failure on subsequent operations.",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "How I miss the time I spent on this landship... If only I could've stayed longer...",
+        "unlockCond": null
+      },
+      { "title": "Tap", "text": "Go ahead, Doctor.", "unlockCond": null },
+      {
+        "title": "Trust Tap",
+        "text": "You looked a little surprised shaking my hand just now... D-Did my calluses scare you, Doctor?",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      {
+        "title": "Greeting",
+        "text": "Glad to see you again, Doctor.",
+        "unlockCond": null
+      }
+    ],
+    "char_4105_almond": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "Eh, how come work at the Engineering Department here is even more exhausting than Blacksteel? Good thing I've got some easy paperwork for a change of pace. Lemme start with this one. Umm... Hehe, sorry I bothered you, Doctor. I've got work to do, so I'm heading back to Engineering.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "Doctor, you should've told me you dropped something behind this shelf. Look at you, wriggling around on the floor all day. Alright, get up. I've got specialized tools I use to carry bulky, heavy engineering equipment. We'll move it aside and grab your stuff. Do you have earplugs, though? It's probably gonna hurt your ears when I tow around this heavy-ass metal shelf...",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "Be brave, Laura. If you want your work to go smoothly and advance your career, you gotta take the plunge. Think about your future... Think about your dreams... Ah! What are you doing behind me?! I, I'm fine, it's just... I gotta get an injection tomorrow. I'm... I'm trying to get myself ready.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "If you ask me, the most annoying part of engineering projects and experiments is the funding! Even when you get your hands on it, you still have lots to worry about. Everything I do costs money, and every monthly account statement is red as hell, and my budget's always like toilet paper! Speaking of, how much funding can you give me next month? I gotta start planning early.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "My whole family lived in a single basement room when we first moved from Bolívar to Columbia. The space under my mother's bed was my first 'engineering lab.' I made lots of weird trinkets there. But I also got smacked just as much, heheh.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "The power plant is like the heart of a nomadic plate. During my years in the field with my team, I've basically been its primary physician. Either I'm giving it all I got to recover its pulse, or... I'm pronouncing it dead when there's nothing more I can do.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "Hey, hey, Doctor! Down here! Look at me! I've got good news. Our engineering project just had a major breakthrough. Don't stand there like a bump on a log. Come, let's sit down, I'll show you... Oh my gosh, I'm sorry, I forgot to wash my hands. I got a handprint on your coat....",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "Nah, don't worry. My kneecap's not hurt. I just have a small crystal there, so I hide it with a band-aid. I know there's no need to hide it here, but I'm used to it. You know, Doctor, sometimes I wonder, If I'd met you guys before Blacksteel... Never mind. We don't have time for what-ifs.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "Doctor, you give everything you've got, even when there's nothing in it for you, just like Jessica. I'm not nearly as selfless as you guys, but I know when to be grateful. I won't let you down or squander the money and trust you two invested in me. I promise.",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "Falling asleep right on your desk... and your hair blocking your eyes like that. Hmm, guess I'll leave you this bone-shaped hairpin.",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "Pleasure to meet ya! I'm the engineer Blacksteel sent here on exchange. Just call me Almond. Are you the Doctor Jessica's always talking about? Let me get a good look at you. Hmm... You seem fine and... Normal, I guess?",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "Now this is interesting. I never thought you could use engineering machinery like that.",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "Oh, you shouldn't have. It's all a part of our contract. I'm just doing my job so… Hold on! What did you just say...? Invest · ment?",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "Aw, come on. you can drop the act. I've worked on so many projects with Rhodes Island's Engineering Department. You're not here just to nitpick, are you?",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "You need my tech on the battlefield too? No problem!",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "I used to lead an engineering team, but now a combat team…? Alright, let's do this. Everyone, listen for the whistle!",
+        "unlockCond": null
+      },
+      {
+        "title": "Depart",
+        "text": "Woo! I just got a new idea. Better write it down as soon as the fight's over.",
+        "unlockCond": null
+      },
+      {
+        "title": "Begin Operation",
+        "text": "Careful now, 'cause you won't escape once my little friends catch you!",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "Need me for something?",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "You need anything, I'm your girl!",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "It's all just like the blueprints. Peerrfect!",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 2",
+        "text": "Even without a blueprint, I'm adaptable enough to work it out.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 1",
+        "text": "All parameters set. Fire!",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 2",
+        "text": "Sheesh, why are you so heavy?",
+        "unlockCond": null
+      },
+      { "title": "In Battle 3", "text": "Get over here!", "unlockCond": null },
+      {
+        "title": "In Battle 4",
+        "text": "Oh shoot, my grappling hook's stuck! Sorry for tripping you!",
+        "unlockCond": null
+      },
+      {
+        "title": "4-star Result",
+        "text": "Doctor! Once we're back, be sure to check my blueprints! I can't just let you go when you've got such a great mind!",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "Good work, Doctor! Want a cookie? Too tough to chew...? Hmm… I think it's fine…",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "I would've liked a more perfect finish, but these results aren't so bad.",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "Laying down smoke! Doctor, we'd better fall back while the enemy can't see us!",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "The wiring in this room's terrible. Who did this? I'm gonna sort everything out here line by line.",
+        "unlockCond": null
+      },
+      {
+        "title": "Tap",
+        "text": "Wai-wai-wait! Don't push! You'll mess up all the cables in my backpack!",
+        "unlockCond": null
+      },
+      {
+        "title": "Trust Tap",
+        "text": "No · touching · my head!",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      {
+        "title": "Greeting",
+        "text": "I'm all set, Doctor. Ready to start working whenever!",
+        "unlockCond": null
+      }
+    ],
+    "char_4104_coldst": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "You have to clear all these documents on your desk? Gosh, that's a lot. How about a short break, honey? Tired as you are, a refreshing drink ought to help.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "What would you like to order tonight? Some ribs, maybe fried fowlbeast? I recommend the ribs with red wine, or the fowl with a glass of sparkling water Hm? You want both? Only if you can finish it all, darlin'. I wouldn't want any to go to waste.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "I met an interesting guy in Tkaronto who claimed to be the president of the Columbian Chiromancy Association. He was all about palm reading, and insisted on teaching me a thing or two. Unfortunately, I'm not a believer —Why not? Heh. Because for all the nonsense that came out of his mouth, his furry paws didn't have a single crease on them!",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "Davistown is a mining platform. It gets really cold in winter, but the warmth of its residents kept my diner open for more than a decade. Unfortunately, social ties alone couldn't save the iron mine, and it eventually became a Blacksteel training platform. Well, nothing I can do but wish them well. Hope they don't tip the whole thing into a ditch.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "It's in great condition, but I haven't actually used this weapon much in the past few years. A steak knife is enough to settle a dispute. How? Simple, if it's sharp enough to cut a steak, it's sharp enough to cut other things... Wanna see it in action?",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "I've seen automated mining platforms. I know it's just a matter of time until those industrial monsters phase out Davistown. But I still can't forgive the profiteers. They never give it a second thought how they're selling more than just the platform, it comes with the lives of everyone on it.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "Something bothering you? Need a drink? I learned what I know out in the Columbian wilds, so my drinks aren't exactly stylish, but they pack a punch... Don't look at me like that, hon. We can just chat if you don't want to drink.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "Jessica was so gloomy out on the frontier, but she still worked her hardest, day and night. Poor girl wouldn't even admit she was tired when anybody asked... I'm glad to see she looks so much better now that she's here at Rhodes Island with you by her side—Oh, hold still, hon! Your neck and shoulders are stiff as a board. Of course it's gonna hurt when I press down on them like this.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "I made a bet that I could drive us from the frontier to Tkaronto in one night. Wanna come along? You ride shotgun, I'll drive. Either I win, or we'll just park the car somewhere and watch the sunrise, play it like we spent the night chasing the dawn.",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "Doctor, wake up. You'll get a stiff neck if you sleep at your desk. Lay down on the sofa, I already put out a blanket.",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "Hello, Doctor. Jessica and I are here to get medical help for our infected Pioneers. She talks about you all the time, so I think we'll be good working together.",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "Hmm… This looks like more trouble than breaking up a fight in the diner...",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "A company promotion is a wholly new experience for me... thank you, Doctor.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "I'm not trying to protect anything, I just want to experience as much goodness as I can, leaving no regrets behind. But, if someone were here to do badness, I wouldn't hesitate to empty my magazine.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "I still prefer the conflicts you can settle with a steak knife.",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "I'll assign jobs like I would in the kitchen. Everybody okay with that?",
+        "unlockCond": null
+      },
+      {
+        "title": "Depart",
+        "text": "If you feel nervous, think about what song you want to sing at the party afterwards.",
+        "unlockCond": null
+      },
+      {
+        "title": "Begin Operation",
+        "text": "I smell something unpleasant burning.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "What kind of 'drink' can I fix you?",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "Who do you want me to target?",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "Got a clear view here. Hope they don't got the same.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 2",
+        "text": "Relax, I'm almost done reloading.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 1",
+        "text": "Want a drink? It's on me.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 2",
+        "text": "Too bad, I've got you now.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 3",
+        "text": "Ready to surrender? No? Sorry about this, then.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 4",
+        "text": "Ever stick a hot knife in butter?",
+        "unlockCond": null
+      },
+      {
+        "title": "4-star Result",
+        "text": "Well done, Doctor. This drink is to you.",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "Mission complete, easy peasy.",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "They're no threat anymore. Just let them wander off into the wilderness.",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "Don't worry about me, I'm just covering your retreat. I've seen worse.",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "Sometimes I miss the days I spent riding a burdenbeast out into the wilds.",
+        "unlockCond": null
+      },
+      {
+        "title": "Tap",
+        "text": "Careful, you almost spilled the drink.",
+        "unlockCond": null
+      },
+      {
+        "title": "Trust Tap",
+        "text": "Want a slice of this freshly baked meat pie?",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      {
+        "title": "Greeting",
+        "text": "Hello, Doctor. What can I get you today?",
         "unlockCond": null
       }
     ],
@@ -53275,6 +53960,7 @@
     "char_376_therex": ["char_376_therex"],
     "char_4000_jnight": ["char_4000_jnight"],
     "char_4077_palico": ["char_4077_palico"],
+    "char_4091_ulika": ["char_4091_ulika"],
     "char_4093_frston": ["char_4093_frston"],
     "char_502_nblade": ["char_502_nblade"],
     "char_500_noirc": ["char_500_noirc"],
@@ -53461,9 +54147,11 @@
     "char_363_toddi": ["char_363_toddi"],
     "char_4043_erato": ["char_4043_erato"],
     "char_1027_greyy2": ["char_1027_greyy2"],
+    "char_4104_coldst": ["char_4104_coldst"],
     "char_4015_spuria": ["char_4015_spuria"],
     "char_173_slchan": ["char_173_slchan"],
     "char_383_snsant": ["char_383_snsant", "char_383_snsant_CN_TOPOLECT"],
+    "char_4105_almond": ["char_4105_almond"],
     "char_174_slbell": ["char_174_slbell"],
     "char_254_vodfox": ["char_254_vodfox"],
     "char_195_glassb": ["char_195_glassb"],
@@ -53548,6 +54236,7 @@
     "char_4065_judge": ["char_4065_judge", "char_4065_judge_ITA"],
     "char_416_zumama": ["char_416_zumama"],
     "char_4039_horn": ["char_4039_horn"],
+    "char_1034_jesca2": ["char_1034_jesca2"],
     "char_264_f12yin": ["char_264_f12yin"],
     "char_2024_chyue": ["char_2024_chyue", "char_2024_chyue_CN_TOPOLECT"],
     "char_172_svrash": ["char_172_svrash"],

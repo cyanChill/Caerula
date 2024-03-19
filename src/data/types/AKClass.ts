@@ -266,6 +266,14 @@ export const BranchTable: Record<BranchId, Branch> = {
     damageType: "PHYSICAL",
     trait: "Can <span style=\"color:#00B0FF;\">Shift</span> enemies by using skills\nCan be deployed on Ranged Tiles"
   },
+  hunter: {
+    id: "hunter",
+    name: "Hunter",
+    profession: "Sniper",
+    position: "RANGED",
+    damageType: "PHYSICAL",
+    trait: "Attacks consume Ammo to increase ATK to <span style=\"color:#00B0FF;\">120%</span>; While not attacking, Ammo will be slowly reloaded (max capacity 4/6/8 (Elite 0/1/2))."
+  },
   incantationmedic: {
     id: "incantationmedic",
     name: "Incantation Medic",

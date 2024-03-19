@@ -11688,5 +11688,237 @@
       "atkInterval": 1,
       "atkRange": -1
     }
+  ],
+  "enemy_1352_eslime": [
+    {
+      "hp": 2000,
+      "atk": 90,
+      "def": 50,
+      "res": 10,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 1,
+      "atkInterval": 1.7,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1352_eslime_2": [
+    {
+      "hp": 3500,
+      "atk": 150,
+      "def": 50,
+      "res": 15,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 1,
+      "atkInterval": 1.7,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1353_esabr": [
+    {
+      "hp": 4500,
+      "atk": 250,
+      "def": 100,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 2,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1353_esabr_2": [
+    {
+      "hp": 6000,
+      "atk": 300,
+      "def": 150,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 2,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1354_eghost": [
+    {
+      "hp": 5000,
+      "atk": 100,
+      "def": 120,
+      "res": 10,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 1.2,
+      "atkInterval": 2,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1354_eghost_2": [
+    {
+      "hp": 7000,
+      "atk": 100,
+      "def": 180,
+      "res": 10,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 1.2,
+      "atkInterval": 2,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1355_mrfly": [
+    {
+      "hp": 6000,
+      "atk": 0,
+      "def": 80,
+      "res": 40,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 1.2,
+      "atkInterval": 2,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1355_mrfly_2": [
+    {
+      "hp": 10000,
+      "atk": 0,
+      "def": 80,
+      "res": 50,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 1.2,
+      "atkInterval": 2,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1356_egun": [
+    {
+      "hp": 9000,
+      "atk": 200,
+      "def": 80,
+      "res": 10,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_1356_egun_2": [
+    {
+      "hp": 12000,
+      "atk": 250,
+      "def": 120,
+      "res": 10,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_1357_erob": [
+    {
+      "hp": 16000,
+      "atk": 500,
+      "def": 250,
+      "res": 20,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.6,
+      "atkInterval": 2.8,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1357_erob_2": [
+    {
+      "hp": 20000,
+      "atk": 600,
+      "def": 350,
+      "res": 20,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.6,
+      "atkInterval": 2.8,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1358_esheld": [
+    {
+      "hp": 12000,
+      "atk": 300,
+      "def": 600,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 3,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1358_esheld_2": [
+    {
+      "hp": 15000,
+      "atk": 400,
+      "def": 700,
+      "res": 0,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 3,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1359_ekulsr": [
+    {
+      "hp": 20000,
+      "atk": 400,
+      "def": 200,
+      "res": 20,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.6,
+      "atkInterval": 4.5,
+      "atkRange": 2.6
+    }
+  ],
+  "enemy_1359_ekulsr_2": [
+    {
+      "hp": 25000,
+      "atk": 550,
+      "def": 300,
+      "res": 20,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.6,
+      "atkInterval": 4.5,
+      "atkRange": 2.6
+    }
+  ],
+  "enemy_1546_cliff": [
+    {
+      "hp": 45000,
+      "atk": 1100,
+      "def": 2500,
+      "res": 60,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.45,
+      "atkInterval": 4,
+      "atkRange": 2.2
+    },
+    {
+      "hp": 65000,
+      "atk": 1300,
+      "def": 2500,
+      "res": 70,
+      "erst": 0,
+      "irst": 0,
+      "mvSpd": 0.45,
+      "atkInterval": 4,
+      "atkRange": 2.2
+    }
   ]
 }

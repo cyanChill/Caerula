@@ -1927,6 +1927,14 @@
     "usage": "Filled with an assortment of supplies and materials.",
     "rarity": 5
   },
+  "randomMaterial_9": {
+    "id": "randomMaterial_9",
+    "iconId": "randomMaterial_1",
+    "name": "Rhodes Island Supplies VI",
+    "description": "Rhodes Island purchases and stores boxes of supplies from various places. However, due to the lack of an organized storage system, each box contains seemingly random materials.",
+    "usage": "Filled with an assortment of supplies and materials.",
+    "rarity": 5
+  },
   "randomMaterial_rhine2": {
     "id": "randomMaterial_rhine2",
     "iconId": "randomMaterial_rhine2",
@@ -4031,6 +4039,22 @@
     "usage": "Used to improve the Potential of Poncirus.",
     "rarity": 5
   },
+  "p_char_4105_almond": {
+    "id": "p_char_4105_almond",
+    "iconId": "p_char_4105_almond",
+    "name": "Almond's Token",
+    "description": "A metal whistle that makes a shrill sound when blown hard. Quite the wake-up call. 'Yoo-hoooo—let's get to work!'",
+    "usage": "Used to improve the Potential of Almond.",
+    "rarity": 5
+  },
+  "p_char_4104_coldst": {
+    "id": "p_char_4104_coldst",
+    "iconId": "p_char_4104_coldst",
+    "name": "Coldshot's Token",
+    "description": "A chunk of ice carved into a globe, a perfect fit for the glass it sits in. To those interested in trying her homebrew, we suggest you take it on the rocks to water it down. Or better yet, DON'T try it.",
+    "usage": "Used to improve the Potential of Coldshot.",
+    "rarity": 5
+  },
   "p_char_103_angel": {
     "id": "p_char_103_angel",
     "iconId": "p_char_103_angel",
@@ -4661,6 +4685,14 @@
     "name": "Eyjafjalla the Hvít Aska's Token",
     "description": "A small and light piece of volcanic rock that tumbles about floating and sinking once dropped in water, gently fizzing away without end. This is the very song of Life.",
     "usage": "Used to improve the Potential of Eyjafjalla the Hvít Aska.",
+    "rarity": 6
+  },
+  "p_char_1034_jesca2": {
+    "id": "p_char_1034_jesca2",
+    "iconId": "p_char_1034_jesca2",
+    "name": "Jessica the Liberated's Token",
+    "description": "A custom-ordered laser scope, used for precision nighttime aiming. She always has her sights set dead ahead, and never looks away.",
+    "usage": "Used to improve the Potential of Jessica the Liberated.",
     "rarity": 6
   },
   "class_p_char_123_fang": {
@@ -5813,6 +5845,14 @@
     "name": "Tequila's Personal Letter",
     "description": "The letter writes of a number of ordinary happenings on his return to Dossoles, as well as of the few bottles of vintage he'll be bringing back aboard.",
     "usage": "A personal letter sent to the Doctor, used to improve Tequila to Max Potential.",
+    "rarity": 5
+  },
+  "voucher_full_wildmn": {
+    "id": "voucher_full_wildmn",
+    "iconId": "voucher_full_wildmn",
+    "name": "Wild Mane's Personal Letter",
+    "description": "The letter writes of her daily training with the Pinus Sylvestris Knightclub, as well as her plans for future upgrades.",
+    "usage": "A personal letter sent to the Doctor, used to improve Wild Mane to Max Potential.",
     "rarity": 5
   },
   "uni_set_guitar": {
@@ -7127,6 +7167,14 @@
     "usage": "Obtain all furniture exclusive to the Dossoles Holiday event not yet acquired.",
     "rarity": 5
   },
+  "uni_set_kazimierz": {
+    "id": "uni_set_kazimierz",
+    "iconId": "uni_set_kazimierz",
+    "name": "Near Light Furniture Pack",
+    "description": "The Procurement Department's reconnected with its suppliers, and replenished stocks of initially limited pieces of furniture! Give your thanks to Closure!",
+    "usage": "Obtain all furniture exclusive to the Near Light event not yet acquired.",
+    "rarity": 5
+  },
   "act23side_token_spirit": {
     "id": "act23side_token_spirit",
     "iconId": "act23side_token_spirit",
@@ -7150,6 +7198,22 @@
     "description": "A wellbeing charm hand-carved by the Moushan villagers to pray for blessings. Take it to Yishan Temple, have the censer acolyte bestow it a stroke of cinnabar, and it may put you all the more at ease.\n",
     "usage": "A plaque carved of crude peachwood. When a year's harvest is good, some are willing to exchange their foodstuffs with the elderly, whose consummate craft produces these charms, by which auspiciousness is sought.",
     "rarity": 5
+  },
+  "voucher_ulika": {
+    "id": "voucher_ulika",
+    "iconId": "voucher_ulika",
+    "name": "U-Official's Folder",
+    "description": "A bunch of papers recording the streamer's various experiences in cute handwriting, but when flipped over becomes a map of a nomadic city, with detailed markings noting the frequency of debt collectors showing up.",
+    "usage": "A folder with handwritten notes inside. Used to obtain U-Official for the first time, and subsequently improve the potential of U-Official.",
+    "rarity": 1
+  },
+  "favor_add_ulika": {
+    "id": "favor_add_ulika",
+    "iconId": "favor_add_ulika",
+    "name": "Streamer U's Stream Clips",
+    "description": "A storage device with recordings of the most wonderful livestream moments, and can be used to raise the trust of U-Official.",
+    "usage": "Used to increase U-Official's Trust.",
+    "rarity": 1
   },
   "act24side_melding_1": {
     "id": "act24side_melding_1",
@@ -7469,6 +7533,22 @@
     "name": "Sami Impressions Furniture Pack I",
     "description": "A Sami forest cabin recreated based on Magallan's notes and the supplementary reports from other operators who participated in the expedition. Quiet and simple, as things have always been.",
     "usage": "Obtain the furniture belonging to the two sets 'Dreamland Signposts' and 'Words of Nature' in the 'Sami Impressions' furniture series.",
+    "rarity": 5
+  },
+  "act28side_token_box": {
+    "id": "act28side_token_box",
+    "iconId": "act28side_token_box",
+    "name": "Shoddy Fuel",
+    "description": "Plastics, paper, wood... even scrapped Originium circuitry. Their only commonality is that they all burn when thrown in the power plant, and provide the plate with just that much more heat.",
+    "usage": "Combustibles salvaged from Davistown and its environs. Practically worthless for heat, and produces way too much smoke, but fuel is fuel and there's an old worker by the energy tower who'll trade goods from the mine for it.",
+    "rarity": 5
+  },
+  "act1mainlinebp_token_star": {
+    "id": "act1mainlinebp_token_star",
+    "iconId": "act1mainlinebp_token_star",
+    "name": "Milestone Fragment",
+    "description": "A flickering, glinting fragment. A light so that you no longer fear the dark as you walk dauntlessly on through the thorns.",
+    "usage": "Can be exchanged for Milestone Rewards.",
     "rarity": 5
   }
 }

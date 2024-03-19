@@ -4135,6 +4135,101 @@
     "type": "trap",
     "usedBy": "char_1033_swire2"
   },
+  "token_10032_jesca2_jckshd": {
+    "id": "token_10032_jesca2_jckshd",
+    "iconId": "token_10032_jesca2_jckshd",
+    "slug": "mobile_riot_shield",
+    "name": "Mobile Riot Shield",
+    "displayName": "Mobile Riot Shield",
+    "rarity": 6,
+    "position": "MELEE",
+    "range": ["0-1", "0-1", "0-1"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 1731,
+            "atk": 0,
+            "def": 348,
+            "res": 0,
+            "respawnTime": 30,
+            "cost": 5,
+            "blockCnt": 2,
+            "atkInterval": 1
+          },
+          {
+            "hp": 2249,
+            "atk": 0,
+            "def": 465,
+            "res": 0,
+            "respawnTime": 30,
+            "cost": 5,
+            "blockCnt": 2,
+            "atkInterval": 1
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 2368,
+            "atk": 0,
+            "def": 480,
+            "res": 0,
+            "respawnTime": 30,
+            "cost": 5,
+            "blockCnt": 2,
+            "atkInterval": 1
+          },
+          {
+            "hp": 2888,
+            "atk": 0,
+            "def": 600,
+            "res": 0,
+            "respawnTime": 30,
+            "cost": 5,
+            "blockCnt": 2,
+            "atkInterval": 1
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 90,
+        "stats": [
+          {
+            "hp": 3041,
+            "atk": 0,
+            "def": 619,
+            "res": 0,
+            "respawnTime": 30,
+            "cost": 5,
+            "blockCnt": 2,
+            "atkInterval": 1
+          },
+          {
+            "hp": 3802,
+            "atk": 0,
+            "def": 755,
+            "res": 0,
+            "respawnTime": 30,
+            "cost": 5,
+            "blockCnt": 2,
+            "atkInterval": 1
+          }
+        ],
+        "evolveCost": []
+      }
+    ],
+    "talents": {},
+    "trait": "More likely to be attacked.",
+    "skillIds": [null, null, null],
+    "type": "summon",
+    "usedBy": "char_1034_jesca2"
+  },
   "trap_079_allydonq": {
     "id": "trap_079_allydonq",
     "iconId": "trap_079_allydonq",

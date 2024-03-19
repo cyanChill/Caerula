@@ -362,6 +362,11 @@
         "description": "Includes the following Operators:\nGitano, Bibeak, Qanipalaat, Typhon, Santalla, Valarqvin",
         "slug": "sami"
       },
+      "cc.g.bs": {
+        "name": "Blacksteel Worldwide",
+        "description": "Includes the following Operators:\nLiskarm, Franka, Jessica, Vanilla, Almond",
+        "slug": "blacksteel_worldwide"
+      },
       "cc.c.abyssal2_1": {
         "name": "Special Bonus",
         "description": "For every Abyssal Hunter operator stationed in a Factory, the Control Center provides 5% Productivity for every Factory with an Abyssal Hunter operator stationed within it, up to a maximum of 45% Productivity",
