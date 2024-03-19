@@ -824,6 +824,28 @@ export const EnemyEventTable: Record<
       "enemy_1545_shpkg",
     ],
   },
+  cv: {
+    name: "Come Catastrophes or Wakes of Vultures",
+    enemies: [
+      "enemy_1352_eslime",
+      "enemy_1352_eslime_2",
+      "enemy_1353_esabr",
+      "enemy_1353_esabr_2",
+      "enemy_1354_eghost",
+      "enemy_1354_eghost_2",
+      "enemy_1355_mrfly",
+      "enemy_1355_mrfly_2",
+      "enemy_1356_egun",
+      "enemy_1356_egun_2",
+      "enemy_1357_erob",
+      "enemy_1357_erob_2",
+      "enemy_1358_esheld",
+      "enemy_1358_esheld_2",
+      "enemy_1359_ekulsr",
+      "enemy_1359_ekulsr_2",
+      "enemy_1546_cliff",
+    ],
+  },
   /* Interlocking Competition */
   ichw: {
     name: "Interlocking Competition: Hymnoi Wisdom",

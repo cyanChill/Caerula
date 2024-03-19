@@ -15144,6 +15144,448 @@
     "relatedEnemies": []
   },
   {
+    "sort": 680,
+    "id": "enemy_1352_eslime",
+    "slug": "radioactive_originium_slug",
+    "code": "B11",
+    "name": "Radioactive Originium Slug",
+    "description": "A wild Infected creature that accidentally consumed too much industrial waste, causing it to leak Arts energy upon death. These low-intelligence creatures are easily manipulated by enemy casters to launch swarming attacks on manmade facilities.",
+    "race": "Infected Creature",
+    "type": "NORMAL",
+    "attackPattern": "Melee Arts",
+    "abilityList": [
+      {
+        "text": "When defeated, deals heavy Arts damage in an area and causes all enemies on the field to gain 1 Energy.",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 0,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 681,
+    "id": "enemy_1352_eslime_2",
+    "slug": "radioactive_originium_slug_α",
+    "code": "B12",
+    "name": "Radioactive Originium Slug α",
+    "description": "A wild Infected creature that accidentally consumed too much industrial waste, causing it to leak Arts energy upon death. More dangerous than ordinary radioactive Originium slugs, these low-intelligence creatures are easily manipulated by enemy casters to launch swarming attacks on manmade facilities.",
+    "race": "Infected Creature",
+    "type": "NORMAL",
+    "attackPattern": "Melee Arts",
+    "abilityList": [
+      {
+        "text": "When defeated, deals heavy Arts damage in an area and causes all enemies on the field to gain 1 Energy.",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 0,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 682,
+    "id": "enemy_1353_esabr",
+    "slug": "paramilitary_gangster",
+    "code": "EG1",
+    "name": "Paramilitary Gangster",
+    "description": "A gangster hired to sow chaos, often picking fights. Their employer has provided them with an experimental thermal amplification device.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Energy Capacity: 10; Gains [Overload] upon reaching max Energy.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Overload] Greatly increases ASPD, DEF, and RES for a period of time.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 683,
+    "id": "enemy_1353_esabr_2",
+    "slug": "paramilitary_gangster_leader",
+    "code": "EG2",
+    "name": "Paramilitary Gangster Leader",
+    "description": "A gangster hired to sow chaos, well-accustomed to brawls. Their employer has provided them with an experimental thermal amplification device.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Energy Capacity: 10; Gains [Overload] upon reaching max Energy.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Overload] Greatly increases ASPD, DEF, and RES for a period of time.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 684,
+    "id": "enemy_1354_eghost",
+    "slug": "paramilitary_thief",
+    "code": "EG3",
+    "name": "Paramilitary Thief",
+    "description": "A gangster hired to sow chaos, more interested in stealing property than injuring others. The thermal amplification devices they are equipped with have not actually been tested for safety.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "None Physical",
+    "abilityList": [
+      {
+        "text": "Can't be blocked. Energy Capacity: 10; Gains [Overload] upon reaching max Energy.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Overload] Greatly increases ASPD, DEF, and RES for a period of time.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 685,
+    "id": "enemy_1354_eghost_2",
+    "slug": "paramilitary_thief_leader",
+    "code": "EG4",
+    "name": "Paramilitary Thief Leader",
+    "description": "A gangster hired to sow chaos, adept at evading capture and acting quickly. The thermal amplification devices they are equipped with have not actually been tested for safety.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "None Physical",
+    "abilityList": [
+      {
+        "text": "Can't be blocked. Energy Capacity: 10; Gains [Overload] upon reaching max Energy.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Overload] Greatly increases ASPD, DEF, and RES for a period of time.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 686,
+    "id": "enemy_1355_mrfly",
+    "slug": "blocker",
+    "code": "D11",
+    "name": "Blocker",
+    "description": "An unmanned drone controlled by enemy forces, capable of interfering with Originium Arts. They mostly play a supportive role and lack direct offensive capabilities.",
+    "race": "Drone",
+    "type": "NORMAL",
+    "attackPattern": "None",
+    "abilityList": [
+      { "text": "Flying unit.", "textFormat": "NORMAL" },
+      {
+        "text": "Increases the RES of surrounding enemy units.",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 0,
+    "isFlying": true,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 687,
+    "id": "enemy_1355_mrfly_2",
+    "slug": "blocker–p",
+    "code": "D12",
+    "name": "Blocker—P",
+    "description": "An unmanned drone controlled by enemy forces, capable of interfering with Originium Arts. More effective than regular models, they mostly play a supportive role and lack direct offensive capabilities.",
+    "race": "Drone",
+    "type": "NORMAL",
+    "attackPattern": "None",
+    "abilityList": [
+      { "text": "Flying unit.", "textFormat": "NORMAL" },
+      {
+        "text": "Increases the RES of surrounding enemy units.",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 0,
+    "isFlying": true,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 688,
+    "id": "enemy_1356_egun",
+    "slug": "paramilitary_sniper",
+    "code": "EG5",
+    "name": "Paramilitary Sniper",
+    "description": "An outlaw hired to sow chaos, equipped with a thermal energy blaster with its output cranked up too high. However, as a result of this, they are able to charge the equipment of other gangsters.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Energy Capacity: 20; Gains [Overload] upon reaching max Energy.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Periodically stops moving and continuously provides Energy to all enemies within attack range.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Overload] Greatly increases ASPD, DEF, and RES for a longer period of time.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 689,
+    "id": "enemy_1356_egun_2",
+    "slug": "paramilitary_sniper_leader",
+    "code": "EG6",
+    "name": "Paramilitary Sniper Leader",
+    "description": "An outlaw hired to sow chaos, well-accustomed to using thermal energy blasters and eager to just start blasting.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Energy Capacity: 20; Gains [Overload] upon reaching max Energy.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Periodically stops moving and continuously provides Energy to all enemies within attack range.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Overload] Greatly increases ASPD, DEF, and RES for a longer period of time.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 690,
+    "id": "enemy_1357_erob",
+    "slug": "paramilitary_axeman",
+    "code": "EG7",
+    "name": "Paramilitary Axeman",
+    "description": "An outlaw hired to sow chaos, equipped with a thermal energy axe that consumes too much power. The energy supply isn't quite sufficient to start it up.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Energy Capacity: 20; Gains [Overload] upon reaching max Energy.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Continuously drains 1 Energy from all nearby ground enemies.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Overload] Greatly increases ASPD, DEF, and RES for a longer period of time.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 691,
+    "id": "enemy_1357_erob_2",
+    "slug": "paramilitary_axeman_leader",
+    "code": "EG8",
+    "name": "Paramilitary Axeman Leader",
+    "description": "An outlaw hired to sow chaos, equipped with a thermal energy axe that consumes too much power. They will find a way to use their associates' energy supplies.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Energy Capacity: 20; Gains [Overload] upon reaching max Energy.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Continuously drains 1 Energy from all nearby ground enemies.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Overload] Greatly increases ASPD, DEF, and RES for a longer period of time.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 692,
+    "id": "enemy_1358_esheld",
+    "slug": "paramilitary_defender",
+    "code": "EG9",
+    "name": "Paramilitary Defender",
+    "description": "A mercenary hired to sow chaos, equipped with a heavy protective suit that is charged in advance to preempt any energy leakage issues. Due to their relatively high education level, part of the job description is to provide handwritten thermal energy amplifier reports to their employer.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Energy Capacity: 20; Gains [Overload] upon reaching max Energy.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Starts with an additional 15 Energy, but loses 1 Energy per 10 seconds.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Overload] Greatly increases ASPD, DEF, and RES for a longer period of time.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 693,
+    "id": "enemy_1358_esheld_2",
+    "slug": "paramilitary_defender_leader",
+    "code": "EG10",
+    "name": "Paramilitary Defender Leader",
+    "description": "A mercenary hired to sow chaos, equipped with a heavy protective suit that is charged in advance to preempt any energy leakage issues. In addition to causing damage, they are also responsible for compiling and submitting the team's test results.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Energy Capacity: 20; Gains [Overload] upon reaching max Energy.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Starts with an additional 15 Energy, but loses 1 Energy per 10 seconds.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Overload] Greatly increases ASPD, DEF, and RES for a longer period of time.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 694,
+    "id": "enemy_1359_ekulsr",
+    "slug": "paramilitary_bombardier",
+    "code": "EG11",
+    "name": "Paramilitary Bombardier",
+    "description": "A mercenary hired to sow chaos, equipped with a compressed-air grenade launcher. In complete disregard to safety regulations, the gas cylinder is pre-heated to increase weapon efficiency.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Energy Capacity: 30; Gains [Overload] upon reaching max Energy.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Starts with an additional 25 Energy, but loses 1 Energy per 5 seconds.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "While not blocked, launches grenades that deal damage to the target and surrounding units.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Overload] Greatly increases ASPD, DEF, and RES for a longer period of time.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 695,
+    "id": "enemy_1359_ekulsr_2",
+    "slug": "paramilitary_bombardier_leader",
+    "code": "EG12",
+    "name": "Paramilitary Bombardier Leader",
+    "description": "A mercenary hired to sow chaos, equipped with a compressed-air grenade launcher. The gas cylinder has been heated to such a degree that their colleagues are afraid to get close.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Energy Capacity: 30; Gains [Overload] upon reaching max Energy.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Starts with an additional 25 Energy, but loses 1 Energy per 5 seconds.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "While not blocked, launches grenades that deal damage to the target and surrounding units.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Overload] Greatly increases ASPD, DEF, and RES for a longer period of time.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
     "sort": 712,
     "id": "enemy_2001_duckmi",
     "slug": "duck_lord",
@@ -17516,6 +17958,50 @@
     "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
     "lifePointReduction": 2,
     "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 787,
+    "id": "enemy_1546_cliff",
+    "slug": "'clip'_cliff",
+    "code": "BSC",
+    "name": "'Clip' Cliff",
+    "description": "Legendary mercenary and founder of Blacksteel Worldwide. War once destroyed him, then forged him anew.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Attacks reduce the target's DEF for a few seconds; this effect can stack.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "ATK and DEF are greatly reduced upon taking damage from a Waste Heat Vent.",
+        "textFormat": "NORMAL"
+      },
+      { "text": "First Form", "textFormat": "TITLE" },
+      {
+        "text": "[Quickdraw] Stuns the target and adjacent units, then attacks 3 times consecutively.",
+        "textFormat": "NORMAL"
+      },
+      { "text": "Second Form", "textFormat": "TITLE" },
+      {
+        "text": "Upon entering second form, gains the ability to immediately clear the SP of all Waste Heat Vents on the field.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "ATK and DEF increased, ASPD greatly increased.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Stroke of Thunder] Stuns the target and adjacent units, then attacks 6 times consecutively. If the target retreats or is defeated, the attacks will penetrate a certain distance and this skill will be refreshed.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 2,
+    "weight": 6,
     "isFlying": false,
     "relatedEnemies": []
   },

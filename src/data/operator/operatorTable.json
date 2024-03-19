@@ -539,6 +539,114 @@
     "type": null,
     "tokensUsed": null
   },
+  "char_4091_ulika": {
+    "id": "char_4091_ulika",
+    "slug": "u-official",
+    "name": "U-Official",
+    "displayName": "U-Official",
+    "rarity": 1,
+    "position": "RANGED",
+    "range": ["x-4"],
+    "stats": [
+      {
+        "maxLevel": 30,
+        "stats": [
+          {
+            "hp": 308,
+            "atk": 81,
+            "def": 22,
+            "res": 0,
+            "respawnTime": 200,
+            "cost": 3,
+            "blockCnt": 1,
+            "atkInterval": 1.3
+          },
+          {
+            "hp": 385,
+            "atk": 102,
+            "def": 28,
+            "res": 0,
+            "respawnTime": 200,
+            "cost": 3,
+            "blockCnt": 1,
+            "atkInterval": 1.3
+          }
+        ],
+        "evolveCost": []
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Short-Circuiting Genius I",
+          "description": "Less likely to be attacked; After being deployed for a certain duration, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> other units within range for 5 seconds",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 0, "level": 1 }
+        },
+        {
+          "name": "Short-Circuiting Genius II",
+          "description": "Less likely to be attacked; After being deployed for a certain duration, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> other units within range for 5.5 seconds",
+          "range": null,
+          "potential": 2,
+          "unlockCond": { "elite": 0, "level": 1 }
+        },
+        {
+          "name": "Short-Circuiting Genius III",
+          "description": "Less likely to be attacked; After being deployed for a certain duration, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> other units within range for 6 seconds",
+          "range": null,
+          "potential": 3,
+          "unlockCond": { "elite": 0, "level": 1 }
+        },
+        {
+          "name": "Short-Circuiting Genius IV",
+          "description": "Less likely to be attacked; After being deployed for a certain duration, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> other units within range for 6.5 seconds",
+          "range": null,
+          "potential": 4,
+          "unlockCond": { "elite": 0, "level": 1 }
+        },
+        {
+          "name": "Short-Circuiting Genius V",
+          "description": "Less likely to be attacked; After being deployed for a certain duration, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> other units within range for 7 seconds",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 0, "level": 1 }
+        },
+        {
+          "name": "Short-Circuiting Genius VI",
+          "description": "Less likely to be attacked; After being deployed for a certain duration, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> other units within range for 7.5 seconds",
+          "range": null,
+          "potential": 6,
+          "unlockCond": { "elite": 0, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "Improves Talent",
+      "Improves Talent",
+      "Improves Talent",
+      "Improves Talent",
+      "Improves Talent"
+    ],
+    "profession": "Supporter",
+    "branch": "bard",
+    "skills": [],
+    "skillLevel": [],
+    "trustBonus": {
+      "hp": 120,
+      "atk": 20,
+      "def": 0,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": "rhodes", "faction": null, "team": null },
+    "tags": ["Crowd-Control"],
+    "type": null,
+    "tokensUsed": null
+  },
   "char_4093_frston": {
     "id": "char_4093_frston",
     "slug": "friston-3",
@@ -41499,6 +41607,251 @@
     "type": null,
     "tokensUsed": null
   },
+  "char_4104_coldst": {
+    "id": "char_4104_coldst",
+    "slug": "coldshot",
+    "name": "Coldshot",
+    "displayName": "Coldshot",
+    "rarity": 5,
+    "position": "RANGED",
+    "range": ["3-12", "4-9", "4-9"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 845,
+            "atk": 476,
+            "def": 105,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 17,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 1113,
+            "atk": 635,
+            "def": 141,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 17,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 70,
+        "stats": [
+          {
+            "hp": 1113,
+            "atk": 635,
+            "def": 141,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 19,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 1428,
+            "atk": 804,
+            "def": 179,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 19,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 20000 },
+          { "id": "3241", "count": 4 },
+          { "id": "30042", "count": 4 },
+          { "id": "30052", "count": 2 }
+        ]
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 1428,
+            "atk": 804,
+            "def": 179,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 21,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 1855,
+            "atk": 958,
+            "def": 224,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 21,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 120000 },
+          { "id": "3243", "count": 3 },
+          { "id": "30104", "count": 8 },
+          { "id": "30043", "count": 10 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Not to be Outdone",
+          "description": "If no attack is made for 2 seconds, the next attack deals 120% ATK as Physical damage",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Not to be Outdone",
+          "description": "If no attack is made for 2 seconds, the next attack deals 123% <span style=\"color:#0098DC;\">(+3%)</span> ATK as Physical damage",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Not to be Outdone",
+          "description": "If no attack is made for 2 seconds, the next attack deals 130% ATK as Physical damage",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Not to be Outdone",
+          "description": "If no attack is made for 2 seconds, the next attack deals 133% <span style=\"color:#0098DC;\">(+3%)</span> ATK as Physical damage",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Redeployment Time -10 sec",
+      "DP Cost -1",
+      "Improves Talent",
+      "DP Cost -1"
+    ],
+    "profession": "Sniper",
+    "branch": "hunter",
+    "skills": [
+      {
+        "id": "skcom_atk_up[3]",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "30094", "count": 3 },
+              { "id": "30013", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "31064", "count": 3 },
+              { "id": "30074", "count": 6 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30135", "count": 4 },
+              { "id": "31024", "count": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_coldst_2",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "31044", "count": 3 },
+              { "id": "30103", "count": 3 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "30094", "count": 3 },
+              { "id": "30014", "count": 6 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30145", "count": 4 },
+              { "id": "31064", "count": 3 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 4 }] },
+      {
+        "level": 3,
+        "cost": [{ "id": "3301", "count": 4 }, { "id": "30061", "count": 4 }]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30012", "count": 4 }]
+      },
+      {
+        "level": 5,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30022", "count": 5 }]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30023", "count": 5 }]
+      },
+      {
+        "level": 7,
+        "cost": [
+          { "id": "3303", "count": 6 },
+          { "id": "30043", "count": 3 },
+          { "id": "31023", "count": 3 }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "hp": 0,
+      "atk": 105,
+      "def": 0,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": "columbia", "faction": null, "team": null },
+    "tags": ["DPS"],
+    "type": null,
+    "tokensUsed": null
+  },
   "char_4015_spuria": {
     "id": "char_4015_spuria",
     "slug": "spuria",
@@ -42224,6 +42577,251 @@
     },
     "affiliation": { "nation": "lungmen", "faction": null, "team": null },
     "tags": ["Shift", "Slow"],
+    "type": null,
+    "tokensUsed": null
+  },
+  "char_4105_almond": {
+    "id": "char_4105_almond",
+    "slug": "almond",
+    "name": "Almond",
+    "displayName": "Almond",
+    "rarity": 5,
+    "position": "MELEE",
+    "range": ["2-2", "3-2", "3-2"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 921,
+            "atk": 299,
+            "def": 179,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 11,
+            "blockCnt": 2,
+            "atkInterval": 1.8
+          },
+          {
+            "hp": 1245,
+            "atk": 428,
+            "def": 264,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 11,
+            "blockCnt": 2,
+            "atkInterval": 1.8
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 70,
+        "stats": [
+          {
+            "hp": 1245,
+            "atk": 428,
+            "def": 264,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 13,
+            "blockCnt": 2,
+            "atkInterval": 1.8
+          },
+          {
+            "hp": 1618,
+            "atk": 556,
+            "def": 348,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 13,
+            "blockCnt": 2,
+            "atkInterval": 1.8
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 20000 },
+          { "id": "3281", "count": 4 },
+          { "id": "30032", "count": 5 },
+          { "id": "30042", "count": 3 }
+        ]
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 1618,
+            "atk": 556,
+            "def": 348,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 13,
+            "blockCnt": 2,
+            "atkInterval": 1.8
+          },
+          {
+            "hp": 2130,
+            "atk": 695,
+            "def": 410,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 13,
+            "blockCnt": 2,
+            "atkInterval": 1.8
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 120000 },
+          { "id": "3283", "count": 3 },
+          { "id": "30044", "count": 6 },
+          { "id": "30083", "count": 13 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Engineer's Backpack",
+          "description": "Immediately restores 4 SP after activating a skill for the first time each battle",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Engineer's Backpack",
+          "description": "Immediately restores 6 <span style=\"color:#0098DC;\">(+2)</span> SP after activating a skill for the first time each battle",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Engineer's Backpack",
+          "description": "Immediately restores 8 SP after activating a skill for the first time each battle",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Engineer's Backpack",
+          "description": "Immediately restores 10 <span style=\"color:#0098DC;\">(+2)</span> SP after activating a skill for the first time each battle",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Redeployment Time -4 sec",
+      "DEF +20",
+      "Improves Talent",
+      "DP Cost -1"
+    ],
+    "profession": "Specialist",
+    "branch": "hookmaster",
+    "skills": [
+      {
+        "id": "skchr_almond_1",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "30094", "count": 3 },
+              { "id": "30023", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "31034", "count": 3 },
+              { "id": "30054", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30115", "count": 4 },
+              { "id": "31044", "count": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_almond_2",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "31044", "count": 3 },
+              { "id": "30083", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "30064", "count": 3 },
+              { "id": "31064", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30125", "count": 4 },
+              { "id": "31034", "count": 3 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 4 }] },
+      {
+        "level": 3,
+        "cost": [{ "id": "3301", "count": 4 }, { "id": "30051", "count": 5 }]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30062", "count": 2 }]
+      },
+      {
+        "level": 5,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30012", "count": 8 }]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "31033", "count": 4 }]
+      },
+      {
+        "level": 7,
+        "cost": [
+          { "id": "3303", "count": 6 },
+          { "id": "30023", "count": 3 },
+          { "id": "31053", "count": 3 }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "hp": 200,
+      "atk": 0,
+      "def": 45,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": "columbia", "faction": "blacksteel", "team": null },
+    "tags": ["Shift"],
     "type": null,
     "tokensUsed": null
   },
@@ -66025,6 +66623,320 @@
     "tags": ["DPS", "Defense"],
     "type": null,
     "tokensUsed": null
+  },
+  "char_1034_jesca2": {
+    "id": "char_1034_jesca2",
+    "slug": "jessica_the_liberated",
+    "name": "Jessica the Liberated",
+    "displayName": "Jessica the Liberated",
+    "rarity": 6,
+    "position": "MELEE",
+    "range": ["2-2", "2-2", "2-2"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 1455,
+            "atk": 269,
+            "def": 258,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 19,
+            "blockCnt": 3,
+            "atkInterval": 1.2
+          },
+          {
+            "hp": 1941,
+            "atk": 346,
+            "def": 386,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 19,
+            "blockCnt": 3,
+            "atkInterval": 1.2
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 1941,
+            "atk": 346,
+            "def": 386,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 21,
+            "blockCnt": 3,
+            "atkInterval": 1.2
+          },
+          {
+            "hp": 2589,
+            "atk": 433,
+            "def": 522,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 21,
+            "blockCnt": 3,
+            "atkInterval": 1.2
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 30000 },
+          { "id": "3231", "count": 5 },
+          { "id": "30032", "count": 10 },
+          { "id": "30052", "count": 3 }
+        ]
+      },
+      {
+        "maxLevel": 90,
+        "stats": [
+          {
+            "hp": 2589,
+            "atk": 433,
+            "def": 522,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 23,
+            "blockCnt": 3,
+            "atkInterval": 1.2
+          },
+          {
+            "hp": 3608,
+            "atk": 522,
+            "def": 716,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 23,
+            "blockCnt": 3,
+            "atkInterval": 1.2
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 180000 },
+          { "id": "3233", "count": 4 },
+          { "id": "30145", "count": 4 },
+          { "id": "30064", "count": 4 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Adaptable",
+          "description": "Can use a Mobile Riot Shield that lasts for 20 seconds. The Mobile Riot Shield can only be deployed in the four tiles adjacent to Jessica the Liberated, and when deployed, Jessica the Liberated immediately turns to face the shield and increases the DEF of herself and units behind her by 5%",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 0, "level": 1 }
+        },
+        {
+          "name": "Adaptable",
+          "description": "Can use a Mobile Riot Shield that lasts for 20 seconds. The Mobile Riot Shield can only be deployed in the four tiles adjacent to Jessica the Liberated, and when deployed, Jessica the Liberated immediately turns to face the shield and increases the DEF of herself and units behind her by 8% <span style=\"color:#0098DC;\">(+3%)</span>",
+          "range": null,
+          "potential": 3,
+          "unlockCond": { "elite": 0, "level": 1 }
+        },
+        {
+          "name": "Adaptable",
+          "description": "Can use a Mobile Riot Shield that lasts for 35 seconds. The Mobile Riot Shield can only be deployed in the four tiles adjacent to Jessica the Liberated, and when deployed, Jessica the Liberated immediately turns to face the shield and increases the DEF of herself and units behind her by 10%",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Adaptable",
+          "description": "Can use a Mobile Riot Shield that lasts for 35 seconds. The Mobile Riot Shield can only be deployed in the four tiles adjacent to Jessica the Liberated, and when deployed, Jessica the Liberated immediately turns to face the shield and increases the DEF of herself and units behind her by 13% <span style=\"color:#0098DC;\">(+3%)</span>",
+          "range": null,
+          "potential": 3,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Adaptable",
+          "description": "Can use a Mobile Riot Shield that lasts for 50 seconds. The Mobile Riot Shield can only be deployed in the four tiles adjacent to Jessica the Liberated, and when deployed, Jessica the Liberated immediately turns to face the shield and increases the DEF of herself and units behind her by 15%",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Adaptable",
+          "description": "Can use a Mobile Riot Shield that lasts for 50 seconds. The Mobile Riot Shield can only be deployed in the four tiles adjacent to Jessica the Liberated, and when deployed, Jessica the Liberated immediately turns to face the shield and increases the DEF of herself and units behind her by 18% <span style=\"color:#0098DC;\">(+3%)</span>",
+          "range": null,
+          "potential": 3,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ],
+      "1": [
+        {
+          "name": "Charge and Release",
+          "description": "When the Mobile Riot Shield receives damage, 50% chance to restore 1 SP to Jessica the Liberated",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Charge and Release",
+          "description": "When the Mobile Riot Shield receives damage, 55% <span style=\"color:#0098DC;\">(+5%)</span> chance to restore 1 SP to Jessica the Liberated",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Improves First Talent",
+      "ATK +28",
+      "Improves Second Talent",
+      "DP Cost -1"
+    ],
+    "profession": "Defender",
+    "branch": "shotprotector",
+    "skills": [
+      {
+        "id": "skchr_jesca2_1",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "30064", "count": 3 },
+              { "id": "31063", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "30074", "count": 4 },
+              { "id": "31064", "count": 8 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30115", "count": 6 },
+              { "id": "31034", "count": 5 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_jesca2_2",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "30074", "count": 4 },
+              { "id": "30083", "count": 8 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "31024", "count": 4 },
+              { "id": "30044", "count": 7 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30135", "count": 6 },
+              { "id": "30084", "count": 5 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_jesca2_3",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 2, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "31064", "count": 4 },
+              { "id": "30063", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "30104", "count": 4 },
+              { "id": "30074", "count": 9 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30145", "count": 6 },
+              { "id": "30084", "count": 4 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 5 }] },
+      {
+        "level": 3,
+        "cost": [
+          { "id": "3301", "count": 5 },
+          { "id": "30041", "count": 5 },
+          { "id": "30021", "count": 4 }
+        ]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 8 }, { "id": "30052", "count": 4 }]
+      },
+      {
+        "level": 5,
+        "cost": [
+          { "id": "3302", "count": 8 },
+          { "id": "30062", "count": 3 },
+          { "id": "30032", "count": 3 }
+        ]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 8 }, { "id": "31033", "count": 6 }]
+      },
+      {
+        "level": 7,
+        "cost": [
+          { "id": "3303", "count": 8 },
+          { "id": "30093", "count": 5 },
+          { "id": "31063", "count": 3 }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "hp": 0,
+      "atk": 60,
+      "def": 60,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": "columbia", "faction": "blacksteel", "team": null },
+    "tags": ["Defense", "Survival", "DPS"],
+    "type": null,
+    "tokensUsed": ["token_10032_jesca2_jckshd"]
   },
   "char_264_f12yin": {
     "id": "char_264_f12yin",
