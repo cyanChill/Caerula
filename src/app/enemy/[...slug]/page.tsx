@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { XMark } from "@/assets/svgs/navigation";
-import type { Enemy } from "@/data/types/AKEnemy";
+import type { Enemy, EnemyId, EnemyStat } from "@/data/types/AKEnemy";
 import EnemyList from "@/data/enemy/enemyList.json";
 import EnemyStatTable from "@/data/enemy/enemyStatTable.json";
 
@@ -12,6 +12,8 @@ import { cn } from "@/lib/style";
 import { constructMetadata } from "@/lib/metadata";
 import { JotaiProvider } from "@/lib/jotai";
 import { pickKeys } from "@/utils/object";
+import Tabs, { Tab, TabList, TabPanel } from "@/components/layout/Tabs";
+import StatList from "@/features/characters/StatList";
 import EnemyPageLock from "./_components/enemyPageLock";
 
 interface Props {
@@ -51,7 +53,7 @@ export default function Enemy({ params }: Props) {
   if (!enemy) notFound();
 
   return (
-    <>
+    <JotaiProvider>
       <EnemyPageLock />
       <article
         aria-labelledby="enemy-name"
@@ -84,8 +86,13 @@ export default function Enemy({ params }: Props) {
             "lifePointReduction",
           ] as const)}
         />
+        <StatsContent
+          id={enemy.id}
+          weight={enemy.weight}
+          stats={EnemyStatTable[enemy.id]}
+        />
       </article>
-    </>
+    </JotaiProvider>
   );
 }
 
@@ -148,6 +155,65 @@ function LPCost({ lifePointReduction }: { lifePointReduction: number }) {
         className="size-[1lh]"
       />
       <span>{lifePointReduction}</span>
+    </div>
+  );
+}
+
+type StatsContentProps = { id: EnemyId; stats: EnemyStat[]; weight: number };
+
+/** @description Displays the stats for the current enemy. */
+function StatsContent({ id, stats, weight }: StatsContentProps) {
+  const tabIds = Array.from({ length: stats.length }, (_, i) => `${i}`);
+  return (
+    <div className="grid gap-4 lg:grid-cols-[auto_minmax(0,1fr)]">
+      <div className="grid auto-rows-min gap-1 justify-self-center">
+        <Image
+          src={`/images/enemy/avatar/${id}.webp`}
+          alt=""
+          width={32}
+          height={32}
+          className="size-[7.5rem] rounded-md"
+        />
+        <div
+          className={cn(
+            "flex items-center gap-2 rounded-md px-2 py-0.5",
+            "bg-neutral-10 text-sm text-neutral-80",
+          )}
+        >
+          <Image
+            src="/images/enemy/ui/profile/weight.webp"
+            alt=""
+            height={16}
+            width={16}
+            className="size-[1lh]"
+          />{" "}
+          Weight {weight}
+        </div>
+      </div>
+      <div>
+        <Tabs storeId="enemy-stats" tabKeys={tabIds}>
+          <TabList
+            label="Enemy Stat levels"
+            className="no-scrollbar flex h-min gap-4 overflow-x-scroll p-0.5"
+          >
+            {tabIds.map((id) => (
+              <Tab
+                key={id}
+                id={id}
+                label={`Level ${id}`}
+                activeClass="underline"
+              >
+                Level {id}
+              </Tab>
+            ))}
+          </TabList>
+          {stats.map((stat, idx) => (
+            <TabPanel key={idx} id={`${idx}`}>
+              <StatList stats={stat} />
+            </TabPanel>
+          ))}
+        </Tabs>
+      </div>
     </div>
   );
 }

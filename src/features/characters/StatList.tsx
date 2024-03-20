@@ -14,11 +14,11 @@ const StatKeyMap: Record<StatKey, string> = {
   respawnTime: "Redeploy",
   cost: "DP Cost",
   blockCnt: "Block Count",
+  mvSpd: "Movement Speed",
   atkInterval: "ATK Interval",
+  atkRange: "ATK Range",
   erst: "Elemental RES",
   irst: "Elemental Resistance",
-  mvSpd: "Movement Speed",
-  atkRange: "ATK Range",
 };
 
 /** @description Lists out the stats that are defined in our types. */
