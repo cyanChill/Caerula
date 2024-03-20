@@ -287,48 +287,53 @@ function Abilities({ abilityList }: Pick<Enemy, "abilityList">) {
 
 /** @description Display related enemies. */
 function Relations({ relatedEnemies }: Pick<Enemy, "relatedEnemies">) {
-  if (relatedEnemies.length === 0) return null;
+  const enemies = relatedEnemies
+    .map((id) => EnemyList.find((e) => e.id === id))
+    .filter((enemy) => !!enemy);
+  if (enemies.length === 0) return null;
+
   return (
     <section>
       <h3 className="mb-2 text-lg font-bold">Related Enemies</h3>
       <ul className="mx-2 grid gap-2 text-sm">
-        {relatedEnemies.map((id) => {
-          const enemy = EnemyList.find((e) => e.id === id)!;
-          return (
-            <li key={id}>
-              <Link
-                href={`/enemy/${enemy.slug}`}
-                scroll={false}
+        {/* 
+          FIXME: Eslint thinks that `enemies` is `(Enemy | undefined)[]`
+          when it's asserted earlier that it's `Enemy[]`
+        */}
+        {(enemies as Enemy[]).map(({ id, slug, name }) => (
+          <li key={id}>
+            <Link
+              href={`/enemy/${slug}`}
+              scroll={false}
+              className={cn(
+                "group flex h-[--ch] gap-2 overflow-clip [--ch:calc(1rem+2lh)]",
+                "rounded-md font-semibold",
+              )}
+            >
+              <Image
+                src={`/images/enemy/avatar/${id}.webp`}
+                alt=""
+                width={32}
+                height={32}
+                className="size-[--ch] scale-150"
+              />
+              <div
                 className={cn(
-                  "group flex h-[--ch] gap-2 overflow-clip [--ch:calc(1rem+2lh)]",
-                  "rounded-md font-semibold",
+                  "relative z-[1] line-clamp-2 w-full px-4 py-2 backdrop-blur-2xl",
+                  "bg-neutral-20/25 transition duration-500 group-hover:bg-neutral-30/25",
                 )}
               >
-                <Image
-                  src={`/images/enemy/avatar/${enemy.id}.webp`}
-                  alt=""
-                  width={32}
-                  height={32}
-                  className="size-[--ch] scale-150"
-                />
-                <div
+                {name}
+                <LinkChain
                   className={cn(
-                    "relative z-[1] line-clamp-2 w-full px-4 py-2 backdrop-blur-2xl",
-                    "bg-neutral-20/25 transition duration-500 group-hover:bg-neutral-30/25",
+                    "absolute right-4 top-0 z-[-1] aspect-square h-full",
+                    "rotate-90 scale-150 text-neutral-30/50",
                   )}
-                >
-                  {enemy.name}
-                  <LinkChain
-                    className={cn(
-                      "absolute right-4 top-0 z-[-1] aspect-square h-full",
-                      "rotate-90 scale-150 text-neutral-30/50",
-                    )}
-                  />
-                </div>
-              </Link>
-            </li>
-          );
-        })}
+                />
+              </div>
+            </Link>
+          </li>
+        ))}
       </ul>
     </section>
   );

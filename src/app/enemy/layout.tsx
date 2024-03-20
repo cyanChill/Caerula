@@ -22,13 +22,20 @@ function Header() {
       <h1 className="mb-8 mt-[15svh] text-4xl font-semibold sm:mt-[25svh] sm:text-5xl md:text-7xl">
         Enemy
       </h1>
-      <p className="font-geist-sans text-sm text-neutral-70 sm:text-base md:text-xl">
-        The objective is to defeat and prevent enemies from entering the{" "}
-        <span className="text-primary-70">Protection Objective</span>. There are{" "}
-        <span className="text-primary-70">3</span> classes of enemies from
-        various races, with some having special abilities that you need to watch
-        out for.
-      </p>
+      <div className="space-y-4 font-geist-sans text-sm text-neutral-70 sm:text-base md:text-xl">
+        <p>
+          The objective is to defeat and prevent enemies from entering the{" "}
+          <span className="text-primary-70">Protection Objective</span>. There
+          are <span className="text-primary-70">3</span> classes of enemies from
+          various races, with some having special abilities that you need to
+          watch out for.
+        </p>
+        <p>
+          This acts as a general reference for information on a given enemy. For
+          more accurate data on a specific enemy, look at the enemy entry for
+          the given stage in-game.
+        </p>
+      </div>
     </>
   );
 }
