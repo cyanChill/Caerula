@@ -1,4 +1,4 @@
-import { ArrowTopRight } from "@/assets/svgs/direction";
+import { ArrowTopRight } from "@/assets/svgs/navigation";
 
 import { cn } from "@/lib/style";
 import ELink from "@/components/link/ELink";

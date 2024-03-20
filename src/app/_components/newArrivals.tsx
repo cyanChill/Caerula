@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { ArrowTopRight } from "@/assets/svgs/direction";
+import { ArrowTopRight } from "@/assets/svgs/navigation";
 import type { Skin } from "@/data/types/AKSkin";
 
 import { cn } from "@/lib/style";

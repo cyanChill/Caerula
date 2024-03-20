@@ -1,4 +1,4 @@
-import { ChevronDown } from "@/assets/svgs/direction";
+import { ChevronDown } from "@/assets/svgs/navigation";
 
 import { cn } from "@/lib/style";
 
