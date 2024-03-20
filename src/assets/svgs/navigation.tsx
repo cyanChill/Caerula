@@ -76,7 +76,7 @@ export function XMark({ className }: { className?: string }) {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth={1.5}
+      strokeWidth={2}
       className={className}
     >
       <path

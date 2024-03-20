@@ -29,8 +29,8 @@ interface Props {
 
 /** @description Statically generate routes instead of on-demand at request time. */
 export function generateStaticParams() {
-  return Object.values(OperatorTable).map((operator) => ({
-    slug: [...operator.slug.split("/")],
+  return Object.values(OperatorTable).map(({ slug }) => ({
+    slug: [...slug.split("/")],
   }));
 }
 

@@ -19,7 +19,7 @@ export function SlotRenderer({ children }: { children: React.ReactNode }) {
       className={cn(
         "grid",
         // Mobile Layout (Full-Page Modal)
-        "fixed left-0 top-0 z-[1] h-dvh",
+        "fixed left-0 top-0 z-[1] h-dvh w-full",
         // Desktop Layout
         "lg:dashed-border lg:!sticky lg:top-[5dvh] lg:h-auto lg:max-h-[90dvh]",
       )}
