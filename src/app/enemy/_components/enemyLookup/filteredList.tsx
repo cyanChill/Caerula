@@ -30,6 +30,7 @@ export function FilteredEnemyList() {
         <li key={id}>
           <Link
             href={`/enemy/${slug}`}
+            scroll={false}
             className="relative block rounded-md bg-neutral-10/50 outline-none ring-white focus:ring-2"
           >
             <span

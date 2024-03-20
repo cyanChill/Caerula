@@ -1,4 +1,5 @@
 "use client";
+import { useRef, useEffect } from "react";
 import { usePathname } from "next/navigation";
 
 import { cn } from "@/lib/style";
@@ -9,9 +10,15 @@ import ModalBackdrop from "@/components/layout/ModalBackdrop";
  *  filter list on desktop & give it a modal-look on mobile.
  */
 export function SlotRenderer({ children }: { children: React.ReactNode }) {
+  const slotRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
   // See if we're rendering an enemy (or error page)
   const isRenderingEnemy = pathname.startsWith("/enemy/");
+
+  // Scroll to top of slot container whenever the pathname changes
+  useEffect(() => {
+    if (slotRef.current) slotRef.current.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <div
@@ -22,11 +29,15 @@ export function SlotRenderer({ children }: { children: React.ReactNode }) {
         "fixed left-0 top-0 z-[1] h-dvh w-full",
         // Desktop Layout
         "lg:dashed-border lg:!sticky lg:top-[5dvh] lg:h-auto lg:max-h-[90dvh]",
+        { "pointer-events-none": !isRenderingEnemy },
       )}
     >
       {isRenderingEnemy && (
         <>
-          <div className="no-scrollbar grid overflow-y-scroll p-4">
+          <div
+            ref={slotRef}
+            className="no-scrollbar grid overflow-y-scroll p-4"
+          >
             {children}
           </div>
           <ModalBackdrop

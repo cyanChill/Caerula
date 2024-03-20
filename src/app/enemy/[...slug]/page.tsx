@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
-import { XMark } from "@/assets/svgs/navigation";
+import { XMark, LinkChain } from "@/assets/svgs/navigation";
 import type { Enemy, EnemyId, EnemyStat } from "@/data/types/AKEnemy";
 import EnemyList from "@/data/enemy/enemyList.json";
 import EnemyStatTable from "@/data/enemy/enemyStatTable.json";
@@ -12,7 +12,12 @@ import { cn } from "@/lib/style";
 import { constructMetadata } from "@/lib/metadata";
 import { JotaiProvider } from "@/lib/jotai";
 import { pickKeys } from "@/utils/object";
-import Tabs, { Tab, TabList, TabPanel } from "@/components/layout/Tabs";
+import Tabs, {
+  Tab,
+  TabList,
+  TabPanel,
+  TabPanelGroup,
+} from "@/components/layout/Tabs";
 import StatList from "@/features/characters/StatList";
 import EnemyPageLock from "./_components/enemyPageLock";
 
@@ -61,6 +66,7 @@ export default function Enemy({ params }: Props) {
       >
         <Link
           href="/enemy"
+          scroll={false}
           className={cn(
             "sticky right-0 top-0 z-[1] aspect-square justify-self-end p-0.5",
             "rounded-full backdrop-blur-lg transition duration-300",
@@ -87,6 +93,7 @@ export default function Enemy({ params }: Props) {
         </p>
         <Immunities immunities={enemy.immunities} />
         <Abilities abilityList={enemy.abilityList} />
+        <Relations relatedEnemies={enemy.relatedEnemies} />
       </article>
     </JotaiProvider>
   );
@@ -197,7 +204,7 @@ function StatsContent({ id, stats, weight }: StatsContentProps) {
           Weight {weight}
         </div>
       </div>
-      <div>
+      <div className="grid gap-2">
         <Tabs storeId="enemy-stats" tabKeys={tabIds}>
           <TabList
             label="Enemy Stat levels"
@@ -214,11 +221,13 @@ function StatsContent({ id, stats, weight }: StatsContentProps) {
               </Tab>
             ))}
           </TabList>
-          {stats.map((stat, idx) => (
-            <TabPanel key={idx} id={`${idx}`}>
-              <StatList stats={stat} />
-            </TabPanel>
-          ))}
+          <TabPanelGroup className="rounded-2xl bg-neutralAlt-10/50 p-2 backdrop-blur-2xl">
+            {stats.map((stat, idx) => (
+              <TabPanel key={idx} id={`${idx}`}>
+                <StatList stats={stat} />
+              </TabPanel>
+            ))}
+          </TabPanelGroup>
         </Tabs>
       </div>
     </section>
@@ -271,6 +280,55 @@ function Abilities({ abilityList }: Pick<Enemy, "abilityList">) {
             })}
           />
         ))}
+      </ul>
+    </section>
+  );
+}
+
+/** @description Display related enemies. */
+function Relations({ relatedEnemies }: Pick<Enemy, "relatedEnemies">) {
+  if (relatedEnemies.length === 0) return null;
+  return (
+    <section>
+      <h3 className="mb-2 text-lg font-bold">Related Enemies</h3>
+      <ul className="mx-2 grid gap-2 text-sm">
+        {relatedEnemies.map((id) => {
+          const enemy = EnemyList.find((e) => e.id === id)!;
+          return (
+            <li key={id}>
+              <Link
+                href={`/enemy/${enemy.slug}`}
+                scroll={false}
+                className={cn(
+                  "group flex h-[--ch] gap-2 overflow-clip [--ch:calc(1rem+2lh)]",
+                  "rounded-md font-semibold",
+                )}
+              >
+                <Image
+                  src={`/images/enemy/avatar/${enemy.id}.webp`}
+                  alt=""
+                  width={32}
+                  height={32}
+                  className="size-[--ch] scale-150"
+                />
+                <div
+                  className={cn(
+                    "relative z-[1] line-clamp-2 w-full px-4 py-2 backdrop-blur-2xl",
+                    "bg-neutral-20/25 transition duration-500 group-hover:bg-neutral-30/25",
+                  )}
+                >
+                  {enemy.name}
+                  <LinkChain
+                    className={cn(
+                      "absolute right-4 top-0 z-[-1] aspect-square h-full",
+                      "rotate-90 scale-150 text-neutral-30/50",
+                    )}
+                  />
+                </div>
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </section>
   );
