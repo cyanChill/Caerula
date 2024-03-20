@@ -57,32 +57,23 @@ export default function Enemy({ params }: Props) {
       <EnemyPageLock />
       <article
         aria-labelledby="enemy-name"
-        className={cn("grid auto-rows-min gap-2")}
+        className="mb-16 grid auto-rows-min gap-4"
       >
         <Link
           href="/enemy"
           className={cn(
-            "z-[1] aspect-square justify-self-end rounded-full p-0.5 backdrop-blur-lg",
-            "text-center text-neutral-80 transition duration-300 hover:text-white",
+            "sticky right-0 top-0 z-[1] aspect-square justify-self-end p-0.5",
+            "rounded-full backdrop-blur-lg transition duration-300",
+            "text-center text-neutral-80 hover:text-white",
             "bg-neutral-10/50 hover:bg-neutral-20/50",
           )}
         >
           <XMark className="size-7" />
         </Link>
 
-        {enemy.type !== "NORMAL" && (
-          <Image
-            src={`/images/enemy/ui/profile/${enemy.type.toLowerCase()}.webp`}
-            alt=""
-            width={32}
-            height={32}
-            className="absolute right-2 top-2 row-span-4 size-36 opacity-25 lg:opacity-50"
-          />
-        )}
-
         <HeadingContent
           {...pickKeys(enemy, [
-            ...["race", "code", "name", "attackPattern"],
+            ...["race", "code", "name", "attackPattern", "type"],
             "lifePointReduction",
           ] as const)}
         />
@@ -91,6 +82,11 @@ export default function Enemy({ params }: Props) {
           weight={enemy.weight}
           stats={EnemyStatTable[enemy.id]}
         />
+        <p className="text-sm italic leading-tight text-neutral-60">
+          {enemy.description}
+        </p>
+        <Immunities immunities={enemy.immunities} />
+        <Abilities abilityList={enemy.abilityList} />
       </article>
     </JotaiProvider>
   );
@@ -106,12 +102,23 @@ function HeadingContent({
   name,
   attackPattern,
   lifePointReduction,
+  type,
 }: Pick<
   Enemy,
-  "race" | "code" | "name" | "attackPattern" | "lifePointReduction"
+  "race" | "code" | "name" | "attackPattern" | "lifePointReduction" | "type"
 >) {
   return (
-    <>
+    <header className="relative grid gap-2">
+      {type !== "NORMAL" && (
+        <Image
+          src={`/images/enemy/ui/profile/${type.toLowerCase()}.webp`}
+          alt=""
+          width={32}
+          height={32}
+          className="absolute -top-12 right-0 size-36 opacity-25 lg:opacity-50"
+        />
+      )}
+
       <p className="min-h-[1lh] text-sm	text-[#7AAAA6]">{race}</p>
       <div className="flex gap-2">
         <span
@@ -128,7 +135,7 @@ function HeadingContent({
         <p className="min-h-[1lh] text-sm	text-neutral-80">{attackPattern}</p>
         <LPCost {...{ lifePointReduction }} />
       </div>
-    </>
+    </header>
   );
 }
 
@@ -165,7 +172,7 @@ type StatsContentProps = { id: EnemyId; stats: EnemyStat[]; weight: number };
 function StatsContent({ id, stats, weight }: StatsContentProps) {
   const tabIds = Array.from({ length: stats.length }, (_, i) => `${i}`);
   return (
-    <div className="grid gap-4 lg:grid-cols-[auto_minmax(0,1fr)]">
+    <section className="grid gap-4 lg:grid-cols-[auto_minmax(0,1fr)]">
       <div className="grid auto-rows-min gap-1 justify-self-center">
         <Image
           src={`/images/enemy/avatar/${id}.webp`}
@@ -214,6 +221,57 @@ function StatsContent({ id, stats, weight }: StatsContentProps) {
           ))}
         </Tabs>
       </div>
-    </div>
+    </section>
+  );
+}
+
+/** @description Displays the list of immunities the enemy has. */
+function Immunities({ immunities }: Pick<Enemy, "immunities">) {
+  if (immunities.length === 0) return null;
+  return (
+    <section>
+      <h3 className="mb-2 text-lg font-bold">Immunities</h3>
+      <ul className="flex flex-wrap gap-2 text-xs">
+        {immunities.map((imm) => (
+          <li
+            key={imm}
+            className="flex-center gap-1 rounded bg-neutralAlt-10 px-2 py-0.5"
+          >
+            <Image
+              src={`/images/enemy/ui/debuff/${imm.toLowerCase()}.webp`}
+              alt=""
+              width={16}
+              height={16}
+              className="size-[0.8lh]"
+            />
+            {imm}
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+/** @description Displays the list of abilities the enemy has. */
+function Abilities({ abilityList }: Pick<Enemy, "abilityList">) {
+  if (abilityList.length === 0) return null;
+  return (
+    <section>
+      <h3 className="mb-2 text-lg font-bold">Trait</h3>
+      <ul className="ml-4 grid gap-2 text-sm">
+        {abilityList.map(({ text, textFormat }, idx) => (
+          <li
+            key={idx}
+            dangerouslySetInnerHTML={{ __html: text }}
+            className={cn("relative", {
+              "list-disc": textFormat === "NORMAL",
+              "before:absolute before:-left-6 before:top-0 before:size-[1lh] before:bg-[url(/images/enemy/ui/debuff/silence.webp)] before:bg-contain before:bg-no-repeat":
+                textFormat === "SILENCE",
+              "my-2 font-semibold text-[#EB3441]": textFormat === "TITLE",
+            })}
+          />
+        ))}
+      </ul>
+    </section>
   );
 }
