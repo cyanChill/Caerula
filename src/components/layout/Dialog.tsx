@@ -96,7 +96,7 @@ export function DialogClose({ onClick, children, ...props }: ButtonProps) {
 }
 
 type DialogContentProps = React.DialogHTMLAttributes<HTMLDialogElement> &
-  DialogConfig;
+  DialogConfig & { unStrictClick?: boolean };
 
 /**
  * @description A HTML `<dialog>` element which automatically applies the
@@ -109,6 +109,7 @@ type DialogContentProps = React.DialogHTMLAttributes<HTMLDialogElement> &
 export function DialogContent({
   origin,
   onClick,
+  unStrictClick,
   children,
   className,
   ...props
@@ -149,7 +150,7 @@ export function DialogContent({
         if (onClick) onClick(e);
         // If our child is a single wrapper element, we close the modal
         // when we click on the backdrop
-        if (e.target === e.currentTarget) closeDialog();
+        if (e.target === e.currentTarget || unStrictClick) closeDialog();
       }}
       className={cn(dialogVariants({ origin }), className)}
     >
