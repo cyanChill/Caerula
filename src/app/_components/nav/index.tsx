@@ -1,15 +1,63 @@
-import { ArrowTopRight } from "@/assets/svgs/direction";
+import { ArrowTopRight } from "@/assets/svgs/navigation";
 
 import { cn } from "@/lib/style";
+import {
+  Dialog,
+  DialogContent,
+  DialogTrigger,
+} from "@/components/layout/Dialog";
 import ELink from "@/components/link/ELink";
 import { type NavConfigItem, navConfigs } from "./config";
 
-interface NavListProps {
-  withHome?: boolean;
+/**
+ * @description Primary navigation of application — requires passing down
+ *  `<NavList withHome />` to reduce "First Load JS" & "Size".
+ */
+export function Navbar() {
+  return (
+    <nav aria-label="main">
+      <Dialog>
+        <DialogTrigger
+          color="custom"
+          className={cn(
+            "fixed bottom-[15svh] left-0 z-10 px-[0.4em] py-[2em] [writing-mode:vertical-rl]",
+            "font-array text-[clamp(0.8rem,0.75vw,4rem)] leading-none tracking-[0.175em]",
+            "rounded-none rounded-r-[0.675em] border-[0.125em] border-l-0 border-white",
+            "shadow-[0_0_0.5em_0.1em_#95E6FF] [text-shadow:0_0_0.5em_#95E6FF]",
+            "bg-surface transition duration-500 hover:brightness-200",
+          )}
+        >
+          MENU
+        </DialogTrigger>
+        <DialogContent
+          origin="left"
+          unStrictClick
+          className={cn(
+            "no-scrollbar !m-0 max-h-dvh overflow-y-auto @container",
+            "w-full max-w-screen-2xl p-[1em] pb-[5svh] lg:w-[40vw] lg:min-w-[40rem]",
+            "bg-transparent text-[clamp(0.875rem,0.75vw,3rem)] text-white",
+          )}
+        >
+          <p
+            className={cn(
+              "mx-auto my-[1.75em] w-fit p-[0.5em] text-white/75",
+              "rounded-[max(0.25rem,0.5em)] border-[0.125em] border-current",
+            )}
+          >
+            <span className="inline-flex aspect-square items-center rounded-[0.25em] bg-white/75 p-[0.125em] text-black">
+              Esc
+            </span>{" "}
+            or &quot;Click&quot; to close menu.
+          </p>
+          <NavList withHome />
+        </DialogContent>
+      </Dialog>
+    </nav>
+  );
 }
 
 /** @description Lists out buttons to routes in our application. */
-export function NavList({ withHome = false }: NavListProps) {
+export function NavList({ withHome = false }: { withHome?: boolean }) {
   const items = withHome ? navConfigs : navConfigs.toSpliced(0, 1);
   return (
     <ul className="grid auto-rows-fr gap-2 [--min-col-size:25rem] @md:grid-cols-2 @6xl:grid-cols-autoFit @6xl:gap-4">
@@ -24,10 +72,8 @@ export function NavList({ withHome = false }: NavListProps) {
   );
 }
 
-type NavBtnProps = NavConfigItem & { viewExternal?: boolean };
-
 /** @description Stylized link component w/ 2 variants. */
-function NavBtn(props: NavBtnProps) {
+function NavBtn(props: NavConfigItem & { viewExternal?: boolean }) {
   const { type, href, external = false, icon, title, theme } = props;
   const viewExternal = external || !!props.viewExternal;
 

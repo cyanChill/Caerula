@@ -7,8 +7,7 @@ import { GeistSans } from "geist/font/sans";
 import "@/assets/globals.css";
 import { cn } from "@/lib/style";
 import { JotaiProvider } from "@/lib/jotai";
-import { NavList } from "./_components/nav";
-import { Navbar } from "./_components/nav/client";
+import { Navbar } from "./_components/nav";
 import Footer from "./_components/footer";
 
 const array = localFont({
@@ -63,14 +62,16 @@ export default function RootLayout({
       className={`${array.variable} ${GeistMono.variable} ${GeistSans.variable} ${khand.variable}`}
     >
       <body className={cn("bg-surface text-white", GeistMono.className)}>
-        <Navbar navList={<NavList withHome />} />
         {/* 
           Making sure that if we forget to include a `<JotaiProvider />`
           on the individual `page.tsx`, we have a fallback provider to
           prevent global store from being shared between multiple requests
             - https://jotai.org/docs/guides/nextjs#provider
         */}
-        <JotaiProvider>{children}</JotaiProvider>
+        <JotaiProvider>
+          <Navbar />
+          {children}
+        </JotaiProvider>
         <Footer />
         <Analytics />
       </body>

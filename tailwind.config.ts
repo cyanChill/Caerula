@@ -16,6 +16,22 @@ const config: Config = {
           "50%": { opacity: "1" },
           "80%, 100%": { opacity: "0", transform: "translateY(0px)" },
         },
+        "fade-in": { "0%": { opacity: "0" }, "100%": { opacity: "1" } },
+        /* Modal Animations */
+        "slide-in": {
+          "0%": {
+            opacity: "0",
+            transform: "translate(var(--translateX, 0), var(--translateY, 0))",
+          },
+          "100%": { opacity: "1", transform: "translate(0, 0)" },
+        },
+        "slide-out": {
+          "0%": { opacity: "1", transform: "translate(0, 0)" },
+          "100%": {
+            opacity: "0",
+            transform: "translate(var(--translateX, 0), var(--translateY, 0))",
+          },
+        },
       },
       transitionProperty: {
         visibility: "opacity, visibility",

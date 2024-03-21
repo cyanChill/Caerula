@@ -64,8 +64,8 @@ type TabsProps = {
 };
 
 /**
- * @description The context provider of this namespace component. All
- *  tab-related components must be under this.
+ * @description The context provider for this component. All tab-related
+ *  components must be under this.
  */
 export default function Tabs(props: React.PropsWithChildren<TabsProps>) {
   return (
@@ -99,7 +99,7 @@ type BaseTabProps = BaseStyleProps & { id: string };
 
 /**
  * @description An unstyled `<div />` that provides the keyboard navigation
- *  of a tablist. Its children should only be `<Tabs.Tab />` components.
+ *  of a tablist. Its children should only be `<Tab />` components.
  */
 export function TabList({
   orientation = "horizontal",

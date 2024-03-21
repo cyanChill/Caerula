@@ -1,5 +1,5 @@
 import type { CharacterTalent } from "@/data/types/shared";
-import { CircleArrow } from "@/assets/svgs/direction";
+import { CircleArrow } from "@/assets/svgs/navigation";
 import { talentsAtom } from "./store";
 
 import { cn } from "@/lib/style";

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { ArrowTopRight } from "@/assets/svgs/direction";
+import { ArrowTopRight } from "@/assets/svgs/navigation";
 import type { Operator } from "@/data/types/AKCharacter";
 
 import { cn } from "@/lib/style";
