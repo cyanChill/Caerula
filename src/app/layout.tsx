@@ -9,6 +9,7 @@ import { cn } from "@/lib/style";
 import { JotaiProvider } from "@/lib/jotai";
 import { Navbar } from "./_components/nav";
 import Footer from "./_components/footer";
+import { Polyfill } from "./_components/polyfill";
 
 const array = localFont({
   src: [
@@ -68,6 +69,7 @@ export default function RootLayout({
           prevent global store from being shared between multiple requests
             - https://jotai.org/docs/guides/nextjs#provider
         */}
+        <Polyfill />
         <JotaiProvider>
           <Navbar />
           {children}
