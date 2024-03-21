@@ -36,7 +36,7 @@ export function SlotRenderer({ children }: { children: React.ReactNode }) {
         <>
           <div
             ref={slotRef}
-            className="no-scrollbar grid overflow-y-scroll p-4"
+            className="no-scrollbar grid max-h-[inherit] overflow-y-scroll p-4"
           >
             {children}
           </div>
