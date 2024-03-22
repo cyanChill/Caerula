@@ -44,7 +44,11 @@ export function Checkbox({
       )}
     >
       {label}
-      <input type="checkbox" {...props} className="size-0 outline-none" />
+      <input
+        type="checkbox"
+        {...props}
+        className="size-0 scale-0 outline-none"
+      />
     </label>
   );
 }

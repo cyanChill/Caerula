@@ -20,14 +20,14 @@ export function Navbar() {
         <DialogTrigger
           color="custom"
           className={cn(
-            "fixed bottom-[15svh] left-0 z-10 px-[0.4em] py-[2em] [writing-mode:vertical-rl]",
+            "fixed bottom-[15svh] left-0 z-10 px-[0.4em] py-[2em]",
             "font-array text-[clamp(0.8rem,0.75vw,4rem)] leading-none tracking-[0.175em]",
             "rounded-none rounded-r-[0.675em] border-[0.125em] border-l-0 border-white",
             "shadow-[0_0_0.5em_0.1em_#95E6FF] [text-shadow:0_0_0.5em_#95E6FF]",
             "bg-surface transition duration-500 hover:brightness-200",
           )}
         >
-          MENU
+          <span className="[writing-mode:vertical-rl]">MENU</span>
         </DialogTrigger>
         <DialogContent
           origin="left"

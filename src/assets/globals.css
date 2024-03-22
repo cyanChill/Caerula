@@ -71,7 +71,6 @@
     height: 100%;
     width: 100%;
     background-color: var(--border-color);
-    border-radius: 16px;
     -webkit-mask: var(--border-svg);
     mask: var(--border-svg);
     pointer-events: none;

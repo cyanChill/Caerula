@@ -120,7 +120,7 @@ function RedirectCard(props: Omit<OperatorExcerpt, "type">) {
             "hover:scale-100 hover:bg-carrot-70 focus:scale-100",
           )}
         >
-          <ArrowTopRight thin className="size-full" />
+          <ArrowTopRight thin className="aspect-square w-full" />
         </ELink>
       </div>
     </Card>

@@ -102,7 +102,7 @@ function StatsWidget(props: ExperienceProps) {
       defaultPadding
       className={cn(
         "col-span-2 row-span-2 @container md:col-span-3",
-        "grid grid-rows-[auto_minmax(0,1fr)] gap-4 bg-neutral-20/75",
+        "grid gap-4 bg-neutral-20/75 md:grid-rows-[auto_minmax(0,1fr)]",
       )}
     >
       <Client.StatsTabsProvider

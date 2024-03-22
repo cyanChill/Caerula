@@ -15,8 +15,6 @@ interface SectionMeta {
   /** Glow color for the current section of content. */
   glow: `from-${string}-${number}` | `from-[#${string}]`;
   options?: {
-    /** Children that goes under the description in the left column. */
-    extraInfo?: React.ReactNode;
     hideArrows?: boolean;
   };
 }
@@ -115,7 +113,7 @@ function SlideSection({
       <div
         className={cn(
           "col-start-1 row-span-full @container lg:max-h-[90dvh]",
-          "grid grid-rows-[auto_minmax(0,1fr)] lg:sticky lg:top-[5dvh]",
+          "grid lg:sticky lg:top-[5dvh] lg:grid-rows-[auto_minmax(0,1fr)]",
           "px-4 pt-[max(2.5rem,15svh)] lg:mb-[5dvh]",
           "transition-opacity duration-500 lg:pointer-events-none lg:opacity-0",
           { "lg:pointer-events-auto lg:opacity-100": activeId === id },
@@ -130,17 +128,14 @@ function SlideSection({
         >
           {sectionMeta.title}
         </h1>
-        <div className="no-scrollbar lg:overflow-y-auto lg:py-8">
-          <p
-            className={cn(
-              "mb-4 max-w-[85cqw] font-khand text-[clamp(1rem,min(2.5vw,6cqw),5rem)]",
-              "[text-shadow:0_0_4em_#FF00D6]",
-            )}
-          >
-            <span className="text-[#99A5B4]">{sectionMeta.description}</span>
-          </p>
-          {sectionMeta.options?.extraInfo}
-        </div>
+        <p
+          className={cn(
+            "mb-4 max-w-[85cqw] font-khand text-[clamp(1rem,min(2.5vw,6cqw),5rem)] lg:py-8",
+            "text-[#99A5B4] [text-shadow:0_0_4em_#FF00D6]",
+          )}
+        >
+          {sectionMeta.description}
+        </p>
       </div>
 
       <section
