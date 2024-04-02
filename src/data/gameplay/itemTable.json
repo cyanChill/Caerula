@@ -7550,5 +7550,13 @@
     "description": "A flickering, glinting fragment. A light so that you no longer fear the dark as you walk dauntlessly on through the thorns.",
     "usage": "Can be exchanged for Milestone Rewards.",
     "rarity": 5
+  },
+  "act42d0_token_evaluation": {
+    "id": "act42d0_token_evaluation",
+    "iconId": "act42d0_token_Evaluation",
+    "name": "Experimental Dataset",
+    "description": "'WARNING! Please refrain from undue perception of/empathy with simulation products, or subsequent generation of false data may lead to irreversible mental damage.'",
+    "usage": "Stores operation data from the Formulative Battlerealm. Accumulate to advance Cogitative Diving Evaluation progress.",
+    "rarity": 5
   }
 }

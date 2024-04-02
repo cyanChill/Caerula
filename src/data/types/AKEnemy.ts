@@ -23,10 +23,10 @@ export type StatusEffect = (typeof Debuffs)[number];
 
 /** @description Describes the stats of an enemy. */
 export type EnemyStat = StatTable & {
+  mvSpd: number; // moveSpeed
   // FIXME: Not completely sure if the mapping for the elemental resistances are correct
   erst: number; // epDamageResistance (Reduce Elemental Damage Taken By Percent)
   irst: number; // epResistance (Reduce Elemental Impairement Build-up By Percent)
-  mvSpd: number; // moveSpeed
   atkRange: number; // rangeRadius
 };
 

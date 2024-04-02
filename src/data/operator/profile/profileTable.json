@@ -14351,6 +14351,14 @@
         "trustUnlock": 50
       }
     ],
+    "char_190_clour": [
+      {
+        "title": "Somewhere to Make Home",
+        "text": ["Where should a feral child of the barrens make her home?"],
+        "unlockCond": { "elite": 2, "level": 1 },
+        "trustUnlock": 50
+      }
+    ],
     "char_213_mostma": [
       {
         "title": "Atop the Skyscrapers",
@@ -14937,6 +14945,16 @@
         "trustUnlock": 200
       }
     ],
+    "char_369_bena": [
+      {
+        "title": "The Simple Wish",
+        "text": [
+          "Children's wishes are by and large simple stuff, and even if things change, they stay plain and innocent."
+        ],
+        "unlockCond": { "elite": 2, "level": 1 },
+        "trustUnlock": 50
+      }
+    ],
     "char_469_indigo": [
       {
         "title": "Hardcore Drink",
@@ -15337,6 +15355,16 @@
       {
         "title": "Hypothetically Just",
         "text": ["There are at least two different ways to interpret any given matter."],
+        "unlockCond": { "elite": 2, "level": 1 },
+        "trustUnlock": 50
+      }
+    ],
+    "char_157_dagda": [
+      {
+        "title": "How She Strode Onward",
+        "text": [
+          "Unrealistic delusions in her brim of honor, duty, and patriotism. Reality, meanwhile, endlessly tortures her: the Sarkaz invasion, the sacrifices of her mentors, and lies just as much for herself. It's time she made a decision."
+        ],
         "unlockCond": { "elite": 2, "level": 1 },
         "trustUnlock": 50
       }
@@ -16419,6 +16447,31 @@
     "char_385_finlpp": {
       "title": "Cleansed",
       "text": "No one can ensure the rivers will remain eternally unsoiled. Contamination, diffusion, dilution... these processes take their silent toll, and in the end, the water will be clean once again.\nBut though the water washes away all, and nature erases all trace, it doesn't deter her from using what little power she has to accelerate the purification.\nFaster, now, just a little faster still.",
+      "unlockCond": { "elite": 2, "level": 1 }
+    },
+    "char_4039_horn": {
+      "title": "Soundeth the Clarion",
+      "text": "The frontline is barren save for Horn fighting bitterly on, shield weighing down her grip, heavy artillery scorching her back, and naught left before her but the endless smoke of war. A moment's silence, then she whistles bright and clear, issuing herself the order to fight while the clarion has been lost.\nShe will make her charge, for those who are still alive, and for those who have fallen.",
+      "unlockCond": { "elite": 2, "level": 1 }
+    },
+    "char_157_dagda": {
+      "title": "Through Thick and Thin",
+      "text": "No matter when or where, Dagda never needs eyes on the back of her head as long as she's with the Glasgow Gang. When a set of steel claws doesn't send the enemy packing, adding in a hammer, a machete, and a pair of knuckles will guarantee the lot of them have nothing to fear.",
+      "unlockCond": { "elite": 2, "level": 1 }
+    },
+    "char_369_bena": {
+      "title": "Shan't Leave Well Alone",
+      "text": "Should you provoke Bena's ire, or Annie's, or... heaven forbid, both at once, you'd best prepare yourself. They'll be eyeing you, following you, one exhausted only to swap out for the other, and they won't stop until you either repent, or collapse.",
+      "unlockCond": { "elite": 2, "level": 1 }
+    },
+    "char_190_clour": {
+      "title": "An Arrow Left the Rain",
+      "text": "Stride by stride, a girl wades through the mud, only lifting her head now and then to check the way forward, a series of silent footprints following right behind her. She could not say how long she's been on the way home, and only once the end is in sight does she finally decide to bid farewell.\nAll of a sudden come strange sounds from around her, and she grasps her longbow tight. Now, nothing can get in her way, not to mention the companions who stand by her side.\nShe passes through the curtain of rain, and never looks back.",
+      "unlockCond": { "elite": 2, "level": 1 }
+    },
+    "char_4062_totter": {
+      "title": "Arrowpoint of Rent Skies",
+      "text": "As a long-range sniper, Totter rarely takes to the front lines, by and large laying low at the very rear to provide solid, timely fire support for the Defender Operators ahead. While frontline operators afford him defense, Totter in turn sees to his fellows-in-arms' protection via every last one of his menacing arrowheads, liable to rend the skies.",
       "unlockCond": { "elite": 2, "level": 1 }
     }
   }

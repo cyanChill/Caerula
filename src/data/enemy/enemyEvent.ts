@@ -993,4 +993,9 @@ export const EnemyEventTable: Record<
       "enemy_7014_dva",
     ],
   },
+  /* Design of Strife */
+  dos: {
+    name: "Design of Strife",
+    enemies: ["enemy_8006_flmgd", "enemy_8001_flmlod_3"],
+  },
 };
