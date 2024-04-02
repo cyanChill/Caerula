@@ -1285,7 +1285,9 @@ export const EnemyIds = [
   "enemy_7011_paki",
   "enemy_7012_wilder",
   "enemy_7013_slwazd",
-  "enemy_7014_dva"
+  "enemy_7014_dva",
+  "enemy_8006_flmgd",
+  "enemy_8001_flmlod_3"
 ] as const;
 
 export const EnemyRaceTable = {
@@ -2971,6 +2973,7 @@ export const SkinIds = [
   "char_4045_heidi_epoque#24",
   "char_297_hamoni_epoque#24",
   "char_135_halo_epoque#25",
+  "char_209_ardign_epoque#26",
   "char_120_hibisc_nian#1",
   "char_010_chen_nian#2",
   "char_308_swire_nian#2",
@@ -4150,5 +4153,6 @@ export const ItemIds = [
   "act20side_token_book_rep_1",
   "uni_set_samiRoom_1",
   "act28side_token_box",
-  "act1mainlinebp_token_star"
+  "act1mainlinebp_token_star",
+  "act42d0_token_evaluation"
 ] as const;

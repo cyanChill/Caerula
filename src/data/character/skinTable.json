@@ -7597,6 +7597,17 @@
       "artists": ["YUJI"],
       "releasedAt": 1709658000
     },
+    "char_209_ardign_epoque#26": {
+      "id": "char_209_ardign_epoque#26",
+      "usedBy": "char_209_ardign",
+      "brandId": "epoque",
+      "subBrand": { "id": "2023#epoque#8", "name": "EPOQUE/XXVI" },
+      "name": "Sunny Day",
+      "imgAlt": "Cardigan's \"Sunny Day\" skin",
+      "description": "EPOQUE Collection New Arrivals/Sunny Day. Cardigan's outfit when she had just arrived at a city in southern Leithanien. Skillfully tailored to fit a young girl's stature. Light, airy, and blooming with vitality.",
+      "artists": ["一立里子"],
+      "releasedAt": 1712077200
+    },
     "char_120_hibisc_nian#1": {
       "id": "char_120_hibisc_nian#1",
       "usedBy": "char_120_hibisc",
@@ -10180,7 +10191,7 @@
     "char_192_falco": ["char_192_falco_1"],
     "char_208_melan": ["char_208_melan_1", "char_208_melan_epoque#1"],
     "char_281_popka": ["char_281_popka_1"],
-    "char_209_ardign": ["char_209_ardign_1", "char_209_ardign_snow#1"],
+    "char_209_ardign": ["char_209_ardign_1", "char_209_ardign_snow#1", "char_209_ardign_epoque#26"],
     "char_122_beagle": ["char_122_beagle_1", "char_122_beagle_boc#1"],
     "char_514_rdfend": ["char_514_rdfend_1"],
     "char_284_spot": ["char_284_spot_1", "char_284_spot_boc#3"],
