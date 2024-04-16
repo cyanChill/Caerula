@@ -1981,6 +1981,52 @@
     "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
   },
+  "skchr_vrdant_1": {
+    "id": "skchr_vrdant_1",
+    "iconId": "skchr_vrdant_1",
+    "name": "Verdant Barrier",
+    "description": [
+      "Max HP <span style=\"color:#0098DC;\">+10%</span>, RES <span style=\"color:#0098DC;\">+5</span>",
+      "Max HP <span style=\"color:#0098DC;\">+11%</span>, RES <span style=\"color:#0098DC;\">+5</span>",
+      "Max HP <span style=\"color:#0098DC;\">+12%</span>, RES <span style=\"color:#0098DC;\">+5</span>",
+      "Max HP <span style=\"color:#0098DC;\">+14%</span>, RES <span style=\"color:#0098DC;\">+5</span>",
+      "Max HP <span style=\"color:#0098DC;\">+15%</span>, RES <span style=\"color:#0098DC;\">+5</span>",
+      "Max HP <span style=\"color:#0098DC;\">+16%</span>, RES <span style=\"color:#0098DC;\">+5</span>",
+      "Max HP <span style=\"color:#0098DC;\">+18%</span>, RES <span style=\"color:#0098DC;\">+10</span>",
+      "Max HP <span style=\"color:#0098DC;\">+20%</span>, RES <span style=\"color:#0098DC;\">+11</span>",
+      "Max HP <span style=\"color:#0098DC;\">+22%</span>, RES <span style=\"color:#0098DC;\">+13</span>",
+      "Max HP <span style=\"color:#0098DC;\">+25%</span>, RES <span style=\"color:#0098DC;\">+15</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_vrdant_2": {
+    "id": "skchr_vrdant_2",
+    "iconId": "skchr_vrdant_2",
+    "name": "Double-edged Poison Ivy",
+    "description": [
+      "Changes damage type to Arts, ASPD <span style=\"color:#0098DC;\">+20</span>, lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "Changes damage type to Arts, ASPD <span style=\"color:#0098DC;\">+25</span>, lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "Changes damage type to Arts, ASPD <span style=\"color:#0098DC;\">+30</span>, lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "Changes damage type to Arts, ASPD <span style=\"color:#0098DC;\">+35</span>, lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "Changes damage type to Arts, ASPD <span style=\"color:#0098DC;\">+40</span>, lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "Changes damage type to Arts, ASPD <span style=\"color:#0098DC;\">+45</span>, lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "Changes damage type to Arts, ASPD <span style=\"color:#0098DC;\">+50</span>, lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "Changes damage type to Arts, ASPD <span style=\"color:#0098DC;\">+60</span>, lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "Changes damage type to Arts, ASPD <span style=\"color:#0098DC;\">+70</span>, lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy",
+      "Changes damage type to Arts, ASPD <span style=\"color:#0098DC;\">+80</span>, lose <span style=\"color:#FF6237;\">4%</span> HP every time when hit an enemy"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [35, 35, 35, 30, 30, 30, 26, 26, 26, 25],
+    "initSp": [10, 10, 10, 15, 15, 15, 16, 16, 16, 16],
+    "duration": [20, 20, 20, 21, 21, 21, 22, 23, 24, 25]
+  },
   "skchr_strong_1": {
     "id": "skchr_strong_1",
     "iconId": "skchr_strong_1",
@@ -5114,6 +5160,52 @@
     "initSp": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
     "duration": [30, 30, 30, 30, 30, 30, 30, 30, 30, 30]
   },
+  "skchr_delphn_1": {
+    "id": "skchr_delphn_1",
+    "iconId": "skchr_delphn_1",
+    "name": "'Concentration'",
+    "description": [
+      "Attack range <span style=\"color:#0098DC;\">changes</span>, attack interval is <span style=\"color:#0098DC;\">significantly reduced </span>, and each attack deals <span style=\"color:#0098DC;\">30%</span> ATK as Arts damage",
+      "Attack range <span style=\"color:#0098DC;\">changes</span>, attack interval is <span style=\"color:#0098DC;\">significantly reduced </span>, and each attack deals <span style=\"color:#0098DC;\">31%</span> ATK as Arts damage",
+      "Attack range <span style=\"color:#0098DC;\">changes</span>, attack interval is <span style=\"color:#0098DC;\">significantly reduced </span>, and each attack deals <span style=\"color:#0098DC;\">32%</span> ATK as Arts damage",
+      "Attack range <span style=\"color:#0098DC;\">changes</span>, attack interval is <span style=\"color:#0098DC;\">significantly reduced </span>, and each attack deals <span style=\"color:#0098DC;\">35%</span> ATK as Arts damage",
+      "Attack range <span style=\"color:#0098DC;\">changes</span>, attack interval is <span style=\"color:#0098DC;\">significantly reduced </span>, and each attack deals <span style=\"color:#0098DC;\">36%</span> ATK as Arts damage",
+      "Attack range <span style=\"color:#0098DC;\">changes</span>, attack interval is <span style=\"color:#0098DC;\">significantly reduced </span>, and each attack deals <span style=\"color:#0098DC;\">37%</span> ATK as Arts damage",
+      "Attack range <span style=\"color:#0098DC;\">changes</span>, attack interval is <span style=\"color:#0098DC;\">significantly reduced </span>, and each attack deals <span style=\"color:#0098DC;\">40%</span> ATK as Arts damage",
+      "Attack range <span style=\"color:#0098DC;\">changes</span>, attack interval is <span style=\"color:#0098DC;\">significantly reduced </span>, and each attack deals <span style=\"color:#0098DC;\">43%</span> ATK as Arts damage",
+      "Attack range <span style=\"color:#0098DC;\">changes</span>, attack interval is <span style=\"color:#0098DC;\">significantly reduced </span>, and each attack deals <span style=\"color:#0098DC;\">46%</span> ATK as Arts damage",
+      "Attack range <span style=\"color:#0098DC;\">changes</span>, attack interval is <span style=\"color:#0098DC;\">significantly reduced </span>, and each attack deals <span style=\"color:#0098DC;\">50%</span> ATK as Arts damage"
+    ],
+    "rangeId": "4-1",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [25, 24, 23, 22, 21, 20, 19, 18, 17, 15],
+    "initSp": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+    "duration": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+  },
+  "skchr_delphn_2": {
+    "id": "skchr_delphn_2",
+    "iconId": "skchr_delphn_2",
+    "name": "'Preemptive Strike'",
+    "description": [
+      "ATK <span style=\"color:#0098DC;\">+30%</span>, but no longer targets enemies below <span style=\"color:#0098DC;\">50%</span> HP. Attacks cause targets to take <span style=\"color:#0098DC;\">6%</span> of Delphine's ATK per second as Arts damage (stacks up to 4 times, lasts until the skill ends)",
+      "ATK <span style=\"color:#0098DC;\">+35%</span>, but no longer targets enemies below <span style=\"color:#0098DC;\">50%</span> HP. Attacks cause targets to take <span style=\"color:#0098DC;\">6%</span> of Delphine's ATK per second as Arts damage (stacks up to 4 times, lasts until the skill ends)",
+      "ATK <span style=\"color:#0098DC;\">+40%</span>, but no longer targets enemies below <span style=\"color:#0098DC;\">50%</span> HP. Attacks cause targets to take <span style=\"color:#0098DC;\">6%</span> of Delphine's ATK per second as Arts damage (stacks up to 4 times, lasts until the skill ends)",
+      "ATK <span style=\"color:#0098DC;\">+45%</span>, but no longer targets enemies below <span style=\"color:#0098DC;\">50%</span> HP. Attacks cause targets to take <span style=\"color:#0098DC;\">6%</span> of Delphine's ATK per second as Arts damage (stacks up to 4 times, lasts until the skill ends)",
+      "ATK <span style=\"color:#0098DC;\">+50%</span>, but no longer targets enemies below <span style=\"color:#0098DC;\">50%</span> HP. Attacks cause targets to take <span style=\"color:#0098DC;\">6%</span> of Delphine's ATK per second as Arts damage (stacks up to 4 times, lasts until the skill ends)",
+      "ATK <span style=\"color:#0098DC;\">+55%</span>, but no longer targets enemies below <span style=\"color:#0098DC;\">50%</span> HP. Attacks cause targets to take <span style=\"color:#0098DC;\">6%</span> of Delphine's ATK per second as Arts damage (stacks up to 4 times, lasts until the skill ends)",
+      "ATK <span style=\"color:#0098DC;\">+60%</span>, but no longer targets enemies below <span style=\"color:#0098DC;\">50%</span> HP. Attacks cause targets to take <span style=\"color:#0098DC;\">6%</span> of Delphine's ATK per second as Arts damage (stacks up to 4 times, lasts until the skill ends)",
+      "ATK <span style=\"color:#0098DC;\">+75%</span>, but no longer targets enemies below <span style=\"color:#0098DC;\">50%</span> HP. Attacks cause targets to take <span style=\"color:#0098DC;\">6%</span> of Delphine's ATK per second as Arts damage (stacks up to 4 times, lasts until the skill ends)",
+      "ATK <span style=\"color:#0098DC;\">+90%</span>, but no longer targets enemies below <span style=\"color:#0098DC;\">50%</span> HP. Attacks cause targets to take <span style=\"color:#0098DC;\">6%</span> of Delphine's ATK per second as Arts damage (stacks up to 4 times, lasts until the skill ends)",
+      "ATK <span style=\"color:#0098DC;\">+100%</span>, but no longer targets enemies below <span style=\"color:#0098DC;\">50%</span> HP. Attacks cause targets to take <span style=\"color:#0098DC;\">6%</span> of Delphine's ATK per second as Arts damage (stacks up to 4 times, lasts until the skill ends)"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [50, 49, 48, 47, 46, 45, 44, 43, 42, 40],
+    "initSp": [10, 11, 12, 13, 14, 15, 16, 17, 18, 20],
+    "duration": [30, 30, 30, 30, 30, 30, 30, 30, 30, 30]
+  },
   "skchr_kjera_2": {
     "id": "skchr_kjera_2",
     "iconId": "skchr_kjera_2",
@@ -5826,6 +5918,29 @@
     "spCost": [25, 24, 23, 22, 21, 20, 19, 19, 18, 18],
     "initSp": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
     "duration": [8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
+  },
+  "skchr_vendla_2": {
+    "id": "skchr_vendla_2",
+    "iconId": "skchr_vendla_2",
+    "name": "Umbrage of Thorns",
+    "description": [
+      "ATK <span style=\"color:#0098DC;\">+30%</span>. Makes the ally with the highest Max HP within Attack Range more likely to be attacked by enemies, and when this ally receives an enemy attack, Vendela deals <span style=\"color:#0098DC;\">10%</span> ATK as Arts damage to the attacker and activates her Trait on the ally",
+      "ATK <span style=\"color:#0098DC;\">+40%</span>. Makes the ally with the highest Max HP within Attack Range more likely to be attacked by enemies, and when this ally receives an enemy attack, Vendela deals <span style=\"color:#0098DC;\">15%</span> ATK as Arts damage to the attacker and activates her Trait on the ally",
+      "ATK <span style=\"color:#0098DC;\">+50%</span>. Makes the ally with the highest Max HP within Attack Range more likely to be attacked by enemies, and when this ally receives an enemy attack, Vendela deals <span style=\"color:#0098DC;\">18%</span> ATK as Arts damage to the attacker and activates her Trait on the ally",
+      "ATK <span style=\"color:#0098DC;\">+55%</span>. Makes the ally with the highest Max HP within Attack Range more likely to be attacked by enemies, and when this ally receives an enemy attack, Vendela deals <span style=\"color:#0098DC;\">20%</span> ATK as Arts damage to the attacker and activates her Trait on the ally",
+      "ATK <span style=\"color:#0098DC;\">+60%</span>. Makes the ally with the highest Max HP within Attack Range more likely to be attacked by enemies, and when this ally receives an enemy attack, Vendela deals <span style=\"color:#0098DC;\">25%</span> ATK as Arts damage to the attacker and activates her Trait on the ally",
+      "ATK <span style=\"color:#0098DC;\">+70%</span>. Makes the ally with the highest Max HP within Attack Range more likely to be attacked by enemies, and when this ally receives an enemy attack, Vendela deals <span style=\"color:#0098DC;\">28%</span> ATK as Arts damage to the attacker and activates her Trait on the ally",
+      "ATK <span style=\"color:#0098DC;\">+75%</span>. Makes the ally with the highest Max HP within Attack Range more likely to be attacked by enemies, and when this ally receives an enemy attack, Vendela deals <span style=\"color:#0098DC;\">30%</span> ATK as Arts damage to the attacker and activates her Trait on the ally",
+      "ATK <span style=\"color:#0098DC;\">+75%</span>. Makes the ally with the highest Max HP within Attack Range more likely to be attacked by enemies, and when this ally receives an enemy attack, Vendela deals <span style=\"color:#0098DC;\">35%</span> ATK as Arts damage to the attacker and activates her Trait on the ally",
+      "ATK <span style=\"color:#0098DC;\">+80%</span>. Makes the ally with the highest Max HP within Attack Range more likely to be attacked by enemies, and when this ally receives an enemy attack, Vendela deals <span style=\"color:#0098DC;\">40%</span> ATK as Arts damage to the attacker and activates her Trait on the ally",
+      "ATK <span style=\"color:#0098DC;\">+80%</span>. Makes the ally with the highest Max HP within Attack Range more likely to be attacked by enemies, and when this ally receives an enemy attack, Vendela deals <span style=\"color:#0098DC;\">50%</span> ATK as Arts damage to the attacker and activates her Trait on the ally"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [40, 38, 37, 36, 35, 34, 32, 31, 31, 30],
+    "initSp": [5, 5, 5, 10, 10, 10, 12, 14, 15, 15],
+    "duration": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15]
   },
   "skchr_peper_2": {
     "id": "skchr_peper_2",
@@ -10359,16 +10474,16 @@
     "iconId": "skchr_lin_1",
     "name": "Elegance",
     "description": [
-      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+10%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow the target for </a><span style=\"color:#0098DC;\">0.7</span>s.",
-      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+15%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow the target for </a><span style=\"color:#0098DC;\">0.7</span>s.",
-      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+20%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow the target for </a><span style=\"color:#0098DC;\">0.7</span>s.",
-      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+25%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow the target for </a><span style=\"color:#0098DC;\">0.8</span>s.",
-      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+30%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow the target for </a><span style=\"color:#0098DC;\">0.8</span>s.",
-      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+35%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow the target for </a><span style=\"color:#0098DC;\">0.8</span>s.",
-      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+40%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow the target for </a><span style=\"color:#0098DC;\">0.9</span>s.",
-      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+45%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow the target for </a><span style=\"color:#0098DC;\">0.9</span>s.",
-      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+50%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow the target for </a><span style=\"color:#0098DC;\">1</span>s.",
-      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+60%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow the target for </a><span style=\"color:#0098DC;\">1</span>s."
+      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+10%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow</a> the target for <span style=\"color:#0098DC;\">0.7</span>s.",
+      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+15%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow</a> the target for <span style=\"color:#0098DC;\">0.7</span>s.",
+      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+20%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow</a> the target for <span style=\"color:#0098DC;\">0.7</span>s.",
+      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+25%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow</a> the target for <span style=\"color:#0098DC;\">0.8</span>s.",
+      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+30%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow</a> the target for <span style=\"color:#0098DC;\">0.8</span>s.",
+      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+35%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow</a> the target for <span style=\"color:#0098DC;\">0.8</span>s.",
+      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+40%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow</a> the target for <span style=\"color:#0098DC;\">0.9</span>s.",
+      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+45%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow</a> the target for <span style=\"color:#0098DC;\">0.9</span>s.",
+      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+50%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow</a> the target for <span style=\"color:#0098DC;\">1</span>s.",
+      "<span style=\"color:#F49800;\">Can switch between the initial state and the following state: </span>\nAttack interval<span style=\"color:#FF6237;\"> slightly increased</span>, ATK <span style=\"color:#0098DC;\">+60%</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">slow</a> the target for <span style=\"color:#0098DC;\">1</span>s."
     ],
     "rangeId": null,
     "activationType": "Manual",
@@ -13781,6 +13896,75 @@
     "initSp": [32, 32, 34, 34, 36, 36, 38, 40, 43, 45],
     "duration": [30, 30, 30, 30, 30, 30, 30, 30, 30, 30]
   },
+  "skchr_hodrer_1": {
+    "id": "skchr_hodrer_1",
+    "iconId": "skchr_hodrer_1",
+    "name": "Unquenchable Front",
+    "description": [
+      "The next attack deals <span style=\"color:#0098DC;\">160%</span> ATK as Physical damage, and restores <span style=\"color:#0098DC;\">10%</span> HP",
+      "The next attack deals <span style=\"color:#0098DC;\">165%</span> ATK as Physical damage, and restores <span style=\"color:#0098DC;\">10%</span> HP",
+      "The next attack deals <span style=\"color:#0098DC;\">170%</span> ATK as Physical damage, and restores <span style=\"color:#0098DC;\">10%</span> HP",
+      "The next attack deals <span style=\"color:#0098DC;\">180%</span> ATK as Physical damage, and restores <span style=\"color:#0098DC;\">15%</span> HP",
+      "The next attack deals <span style=\"color:#0098DC;\">185%</span> ATK as Physical damage, and restores <span style=\"color:#0098DC;\">15%</span> HP",
+      "The next attack deals <span style=\"color:#0098DC;\">190%</span> ATK as Physical damage, and restores <span style=\"color:#0098DC;\">15%</span> HP",
+      "The next attack deals <span style=\"color:#0098DC;\">200%</span> ATK as Physical damage, and restores <span style=\"color:#0098DC;\">20%</span> HP",
+      "The next attack deals <span style=\"color:#0098DC;\">220%</span> ATK as Physical damage, and restores <span style=\"color:#0098DC;\">20%</span> HP",
+      "The next attack deals <span style=\"color:#0098DC;\">240%</span> ATK as Physical damage, and restores <span style=\"color:#0098DC;\">20%</span> HP",
+      "The next attack deals <span style=\"color:#0098DC;\">260%</span> ATK as Physical damage, and restores <span style=\"color:#0098DC;\">25%</span> HP"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Offensive",
+    "spCost": [4, 4, 4, 3, 3, 3, 3, 3, 3, 2],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_hodrer_2": {
+    "id": "skchr_hodrer_2",
+    "iconId": "skchr_hodrer_2",
+    "name": "Burden of Cinder and Ash",
+    "description": [
+      "Passive: ATK <span style=\"color:#0098DC;\">+4%</span>\n<span style=\"color:#F49800;\">Activation Effect: Can switch between the default state and the following state:</span>\nAttack Interval <span style=\"color:#FF6237;\">increases slightly</span>, Block <span style=\"color:#0098DC;\">+1</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">1</span> second",
+      "Passive: ATK <span style=\"color:#0098DC;\">+8%</span>\n<span style=\"color:#F49800;\">Activation Effect: Can switch between the default state and the following state:</span>\nAttack Interval <span style=\"color:#FF6237;\">increases slightly</span>, Block <span style=\"color:#0098DC;\">+1</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">1</span> second",
+      "Passive: ATK <span style=\"color:#0098DC;\">+12%</span>\n<span style=\"color:#F49800;\">Activation Effect: Can switch between the default state and the following state:</span>\nAttack Interval <span style=\"color:#FF6237;\">increases slightly</span>, Block <span style=\"color:#0098DC;\">+1</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">1</span> second",
+      "Passive: ATK <span style=\"color:#0098DC;\">+16%</span>\n<span style=\"color:#F49800;\">Activation Effect: Can switch between the default state and the following state:</span>\nAttack Interval <span style=\"color:#FF6237;\">increases slightly</span>, Block <span style=\"color:#0098DC;\">+1</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">1</span> second",
+      "Passive: ATK <span style=\"color:#0098DC;\">+20%</span>\n<span style=\"color:#F49800;\">Activation Effect: Can switch between the default state and the following state:</span>\nAttack Interval <span style=\"color:#FF6237;\">increases slightly</span>, Block <span style=\"color:#0098DC;\">+1</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">1</span> second",
+      "Passive: ATK <span style=\"color:#0098DC;\">+24%</span>\n<span style=\"color:#F49800;\">Activation Effect: Can switch between the default state and the following state:</span>\nAttack Interval <span style=\"color:#FF6237;\">increases slightly</span>, Block <span style=\"color:#0098DC;\">+1</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">1</span> second",
+      "Passive: ATK <span style=\"color:#0098DC;\">+28%</span>\n<span style=\"color:#F49800;\">Activation Effect: Can switch between the default state and the following state:</span>\nAttack Interval <span style=\"color:#FF6237;\">increases slightly</span>, Block <span style=\"color:#0098DC;\">+1</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">1</span> second",
+      "Passive: ATK <span style=\"color:#0098DC;\">+32%</span>\n<span style=\"color:#F49800;\">Activation Effect: Can switch between the default state and the following state:</span>\nAttack Interval <span style=\"color:#FF6237;\">increases slightly</span>, Block <span style=\"color:#0098DC;\">+1</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">1</span> second",
+      "Passive: ATK <span style=\"color:#0098DC;\">+36%</span>\n<span style=\"color:#F49800;\">Activation Effect: Can switch between the default state and the following state:</span>\nAttack Interval <span style=\"color:#FF6237;\">increases slightly</span>, Block <span style=\"color:#0098DC;\">+1</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">1</span> second",
+      "Passive: ATK <span style=\"color:#0098DC;\">+40%</span>\n<span style=\"color:#F49800;\">Activation Effect: Can switch between the default state and the following state:</span>\nAttack Interval <span style=\"color:#FF6237;\">increases slightly</span>, Block <span style=\"color:#0098DC;\">+1</span>, attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">1</span> second"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [10, 10, 10, 9, 9, 9, 8, 7, 6, 5],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_hodrer_3": {
+    "id": "skchr_hodrer_3",
+    "iconId": "skchr_hodrer_3",
+    "name": "Fog of War Upon Death's Door",
+    "description": [
+      "Consumes <span style=\"color:#FF6237;\">100</span> HP per second and deals <span style=\"color:#0098DC;\">200</span> True damage per second to enemies that have either attacked or been attacked by this unit. Attack Range <span style=\"color:#0098DC;\">+1</span>, Max HP <span style=\"color:#0098DC;\">+15%</span>, ATK <span style=\"color:#0098DC;\">+30%</span>, and each attack restores <span style=\"color:#0098DC;\">5%</span> HP and has a <span style=\"color:#0098DC;\">25%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">2</span> seconds",
+      "Consumes <span style=\"color:#FF6237;\">100</span> HP per second and deals <span style=\"color:#0098DC;\">200</span> True damage per second to enemies that have either attacked or been attacked by this unit. Attack Range <span style=\"color:#0098DC;\">+1</span>, Max HP <span style=\"color:#0098DC;\">+15%</span>, ATK <span style=\"color:#0098DC;\">+40%</span>, and each attack restores <span style=\"color:#0098DC;\">5%</span> HP and has a <span style=\"color:#0098DC;\">25%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">2</span> seconds",
+      "Consumes <span style=\"color:#FF6237;\">100</span> HP per second and deals <span style=\"color:#0098DC;\">200</span> True damage per second to enemies that have either attacked or been attacked by this unit. Attack Range <span style=\"color:#0098DC;\">+1</span>, Max HP <span style=\"color:#0098DC;\">+15%</span>, ATK <span style=\"color:#0098DC;\">+50%</span>, and each attack restores <span style=\"color:#0098DC;\">5%</span> HP and has a <span style=\"color:#0098DC;\">25%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">2</span> seconds",
+      "Consumes <span style=\"color:#FF6237;\">100</span> HP per second and deals <span style=\"color:#0098DC;\">200</span> True damage per second to enemies that have either attacked or been attacked by this unit. Attack Range <span style=\"color:#0098DC;\">+1</span>, Max HP <span style=\"color:#0098DC;\">+30%</span>, ATK <span style=\"color:#0098DC;\">+60%</span>, and each attack restores <span style=\"color:#0098DC;\">5%</span> HP and has a <span style=\"color:#0098DC;\">25%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">3</span> seconds",
+      "Consumes <span style=\"color:#FF6237;\">100</span> HP per second and deals <span style=\"color:#0098DC;\">200</span> True damage per second to enemies that have either attacked or been attacked by this unit. Attack Range <span style=\"color:#0098DC;\">+1</span>, Max HP <span style=\"color:#0098DC;\">+30%</span>, ATK <span style=\"color:#0098DC;\">+70%</span>, and each attack restores <span style=\"color:#0098DC;\">5%</span> HP and has a <span style=\"color:#0098DC;\">25%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">3</span> seconds",
+      "Consumes <span style=\"color:#FF6237;\">100</span> HP per second and deals <span style=\"color:#0098DC;\">200</span> True damage per second to enemies that have either attacked or been attacked by this unit. Attack Range <span style=\"color:#0098DC;\">+1</span>, Max HP <span style=\"color:#0098DC;\">+30%</span>, ATK <span style=\"color:#0098DC;\">+80%</span>, and each attack restores <span style=\"color:#0098DC;\">5%</span> HP and has a <span style=\"color:#0098DC;\">25%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">3</span> seconds",
+      "Consumes <span style=\"color:#FF6237;\">100</span> HP per second and deals <span style=\"color:#0098DC;\">200</span> True damage per second to enemies that have either attacked or been attacked by this unit. Attack Range <span style=\"color:#0098DC;\">+1</span>, Max HP <span style=\"color:#0098DC;\">+45%</span>, ATK <span style=\"color:#0098DC;\">+90%</span>, and each attack restores <span style=\"color:#0098DC;\">5%</span> HP and has a <span style=\"color:#0098DC;\">25%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">4</span> seconds",
+      "Consumes <span style=\"color:#FF6237;\">100</span> HP per second and deals <span style=\"color:#0098DC;\">200</span> True damage per second to enemies that have either attacked or been attacked by this unit. Attack Range <span style=\"color:#0098DC;\">+1</span>, Max HP <span style=\"color:#0098DC;\">+45%</span>, ATK <span style=\"color:#0098DC;\">+100%</span>, and each attack restores <span style=\"color:#0098DC;\">5%</span> HP and has a <span style=\"color:#0098DC;\">25%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">4</span> seconds",
+      "Consumes <span style=\"color:#FF6237;\">100</span> HP per second and deals <span style=\"color:#0098DC;\">200</span> True damage per second to enemies that have either attacked or been attacked by this unit. Attack Range <span style=\"color:#0098DC;\">+1</span>, Max HP <span style=\"color:#0098DC;\">+45%</span>, ATK <span style=\"color:#0098DC;\">+110%</span>, and each attack restores <span style=\"color:#0098DC;\">5%</span> HP and has a <span style=\"color:#0098DC;\">25%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">4</span> seconds",
+      "Consumes <span style=\"color:#FF6237;\">100</span> HP per second and deals <span style=\"color:#0098DC;\">200</span> True damage per second to enemies that have either attacked or been attacked by this unit. Attack Range <span style=\"color:#0098DC;\">+1</span>, Max HP <span style=\"color:#0098DC;\">+60%</span>, ATK <span style=\"color:#0098DC;\">+120%</span>, and each attack restores <span style=\"color:#0098DC;\">5%</span> HP and has a <span style=\"color:#0098DC;\">25%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">stun</a> targets for <span style=\"color:#0098DC;\">5</span> seconds"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [80, 77, 74, 70, 67, 64, 60, 57, 54, 50],
+    "initSp": [40, 40, 40, 40, 40, 40, 40, 40, 40, 40],
+    "duration": [70, 70, 70, 70, 70, 70, 70, 70, 70, 70]
+  },
   "skchr_chen_1": {
     "id": "skchr_chen_1",
     "iconId": "skchr_chen_1",
@@ -16786,6 +16970,48 @@
     "spCost": [50, 50, 50, 50],
     "initSp": [25, 0, 50, 0],
     "duration": [10, 10, 10, 10]
+  },
+  "sktok_bonore": {
+    "id": "sktok_bonore",
+    "iconId": "sktok_bonore",
+    "name": "Bloodcalling Altar",
+    "description": [
+      "Releases a Pulse Wave that absorbs all <span style=\"color:#0098DC;\">Blood Amber</span> within range and converts them into <span style=\"color:#0098DC;\">Bloodborn Spawn</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [20],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_outset": {
+    "id": "sktok_outset",
+    "iconId": "sktok_outset",
+    "name": "Bomb Loading Point",
+    "description": [
+      "Spend 10 DP to deploy an <span style=\"color:#0098DC;\">Anti-Witchcraft Repositionable Bomb</span> that will move towards the nearest Bloodcalling Altar (cannot be used if there is still another deployed bomb)"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [40],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_bldore": {
+    "id": "sktok_bldore",
+    "iconId": "sktok_bldore",
+    "name": "Throne of Blood",
+    "description": [
+      "Releases a searing Blood Mist centered around a target, inflicting increasing amounts of Arts damage to units within while reducing their ASPD by 40; <span style=\"color:#0098DC;\">Blood Amber</span> affected by this Blood Mist will turn into <span style=\"color:#0098DC;\">Bloodborn Spawn</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [20],
+    "initSp": [15],
+    "duration": [0]
   },
   "sktok_ltstat": {
     "id": "sktok_ltstat",

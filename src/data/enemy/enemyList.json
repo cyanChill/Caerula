@@ -15586,7 +15586,445 @@
     "relatedEnemies": []
   },
   {
-    "sort": 712,
+    "sort": 696,
+    "id": "enemy_1360_dfello",
+    "slug": "bloodborn_spawn",
+    "code": "SSK1",
+    "name": "Bloodborn Spawn",
+    "description": "A creation of the Sanguine Court's Originium Arts. It is said that just a few drops of fresh blood can spawn an entire swarm of these mindless worms. Once they've latched on, they will never let go until their hunger and thirst have been sated.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Arts",
+    "abilityList": [
+      {
+        "text": "Deals Arts damage and gains increased ATK depending on the number of units the target is blocking.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Attacks restore HP proportional to damage dealt",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Leaves behind &lt;Blood Amber&gt; when defeated.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1367_dseed"]
+  },
+  {
+    "sort": 697,
+    "id": "enemy_1361_dthrow",
+    "slug": "sarkaz_heirbearer_bombardier",
+    "code": "SCI21",
+    "name": "Sarkaz Heirbearer Bombardier",
+    "description": "A long-range bombardier of the Sarkaz Royal Court that has received the blessing of the Sanguinarch of Vampires. Wherever they aim will be left a sea of flames, and their targets inevitably reduced to rubble.",
+    "race": "Sarkaz",
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Deals long-ranged attacks that explode after a delay, inflicting Physical damage in an area.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Will be reborn as a &lt;Touch of the Sanguinarch&gt; after falling in battle for the first time",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1220_dzoms"]
+  },
+  {
+    "sort": 698,
+    "id": "enemy_1361_dthrow_2",
+    "slug": "sarkaz_heirbearer_annihilator",
+    "code": "SCI22",
+    "name": "Sarkaz Heirbearer Annihilator",
+    "description": "An elite long-range bombardier of the Sarkaz Royal Court that has received the blessing of the Sanguinarch of Vampires. They do not aim at any particular target or tangible enemy. The only thing reflected in their eyes is ruination itself.",
+    "race": "Sarkaz",
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Deals long-ranged attacks that explode after a delay, inflicting Physical damage in an area.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Will be reborn as a &lt;Touch of Benevolence&gt; after falling in battle for the first time",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1220_dzoms_2"]
+  },
+  {
+    "sort": 699,
+    "id": "enemy_1362_dfat",
+    "slug": "sarkaz_heirbearer_punisher",
+    "code": "SCI23",
+    "name": "Sarkaz Heirbearer Punisher",
+    "description": "A formation-breaker of the Sarkaz Royal Court that has received the blessing of the Sanguinarch of Vampires. Said to have violated the taboos of the Court, however the Sanguinarch did not punish them for their transgressions. Instead, they now inflict upon others the pain that should have befallen them.",
+    "race": "Sarkaz",
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "After several attacks, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> friendly units in an area.",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "Will be reborn as a &lt;Gift of the Sanguinarch&gt; after falling in battle for the first time",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 5,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1221_dzomg"]
+  },
+  {
+    "sort": 700,
+    "id": "enemy_1362_dfat_2",
+    "slug": "sarkaz_heirbearer_scourger",
+    "code": "SCI24",
+    "name": "Sarkaz Heirbearer Scourger",
+    "description": "An elite formation-breaker of the Sarkaz Royal Court that has received the blessing of the Sanguinarch of Vampires. Said to have disobeyed the Sanguinarch's will, however the Sanguinarch did not punish them for their transgressions. In return, these warriors convert their regret into endless slaughter and wash away their guilt with blood.",
+    "race": "Sarkaz",
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "After several attacks, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> friendly units in an area.",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "Will be reborn as a &lt;Gift of Magnanimity&gt; after falling in battle for the first time",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 5,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1221_dzomg_2"]
+  },
+  {
+    "sort": 701,
+    "id": "enemy_1363_spnshd",
+    "slug": "sarkaz_boneguard",
+    "code": "SSK2",
+    "name": "Sarkaz Boneguard",
+    "description": "A guard responsible for protecting the Feranmut's skeleton. As some of the most loyal adherents of the Military Commission, they will carry out their duties at any cost, even if they must shed their own blood.",
+    "race": "Sarkaz",
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "More likely to be attacked by friendly units.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Upon receiving damage, reduces the ASPD of the attacker.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Prevents &lt;Anti-Witchcraft Repositionable Bombs&gt; from moving when nearby.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Leaves behind 2 &lt;Blood Amber&gt; when defeated.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1367_dseed", "enemy_1369_bmbcar1"]
+  },
+  {
+    "sort": 702,
+    "id": "enemy_1363_spnshd_2",
+    "slug": "sarkaz_boneguard_captain",
+    "code": "SSK3",
+    "name": "Sarkaz Boneguard Captain",
+    "description": "A guard captain responsible for protecting the Feranmut's skeleton. As some of the most fervent adherents of the Military Commission, they will realize the Commission's will at any cost, even if they must shed their own blood.",
+    "race": "Sarkaz",
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "More likely to be attacked by friendly units.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Upon receiving damage, reduces the ASPD of the attacker.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Prevents &lt;Anti-Witchcraft Repositionable Bombs&gt; from moving when nearby.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Leaves behind 2 &lt;Blood Amber&gt; when defeated.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1367_dseed"]
+  },
+  {
+    "sort": 703,
+    "id": "enemy_1364_spnaxe",
+    "slug": "sarkaz_boneguard_flayer",
+    "code": "SSK4",
+    "name": "Sarkaz Boneguard Flayer",
+    "description": "A professional armsmaster responsible for protecting the Feranmut's skeleton, carefully selected by the Military Commission. They use witchcraft to connect themselves with the Feranmut's nerves, allowing the entire skeleton to become their weapon.",
+    "race": "Sarkaz",
+    "type": "ELITE",
+    "attackPattern": "Melee Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Recovers a portion of HP and gains increased ATK when either enemy or friendly units are defeated within range (can stack).",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Leaves behind 2 &lt;Blood Amber&gt; when defeated.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1367_dseed"]
+  },
+  {
+    "sort": 704,
+    "id": "enemy_1364_spnaxe_2",
+    "slug": "sarkaz_boneguard_torturer",
+    "code": "SSK5",
+    "name": "Sarkaz Boneguard Torturer",
+    "description": "An elite armsmaster responsible for protecting the Feranmut's skeleton, carefully selected by the most senior members of the Military Commission. The degree of their fusion with the Feranmut's nerves defies common understanding, with their ancient witchcraft drilled deep into their bodies.",
+    "race": "Sarkaz",
+    "type": "ELITE",
+    "attackPattern": "Melee Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Recovers a portion of HP and gains increased ATK when either enemy or friendly units are defeated within range (can stack).",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Leaves behind 2 &lt;Blood Amber&gt; when defeated.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1367_dseed"]
+  },
+  {
+    "sort": 705,
+    "id": "enemy_1365_spnwiz",
+    "slug": "sarkaz_boneguard_fluxcaster",
+    "code": "SSK6",
+    "name": "Sarkaz Boneguard Fluxcaster",
+    "description": "A Sarkaz Caster responsible for guarding the Feranmut's skeleton, their nature warped due to perpetually drifting through spacetime along with it. In times of emergency, they will call upon the Feranmut's power to disappear from the enemy's sight before reappearing at a more opportune time.",
+    "race": "Sarkaz",
+    "type": "NORMAL",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "If defeated within range of a Bloodcalling Altar, slips into a turbulence in spacetime and cannot be attacked during this period.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Will revive on the field when affected by an altar's pulse.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 706,
+    "id": "enemy_1365_spnwiz_2",
+    "slug": "sarkaz_boneguard_fluxcaster_captain",
+    "code": "SSK7",
+    "name": "Sarkaz Boneguard Fluxcaster Captain\n",
+    "description": "A Sarkaz Caster responsible for guarding the Feranmut's skeleton, their nature warped due to perpetually drifting through spacetime along with it, to the point that their very existence has become tenuous. In times of emergency, they will call upon the Feranmut's power to hide within the turbulent folds of spacetime before reappearing at a more opportune time to deliver a fatal blow.",
+    "race": "Sarkaz",
+    "type": "NORMAL",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "If defeated within range of a Bloodcalling Altar, slips into a turbulence in spacetime and cannot be attacked during this period.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Will revive on the field when affected by an altar's pulse.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 707,
+    "id": "enemy_1366_dcolle",
+    "slug": "sarkaz_bloodwalker",
+    "code": "SSK8",
+    "name": "Sarkaz Bloodwalker",
+    "description": "A special entity within the Crimson Court, ensuring that no touch of the Crimson's dominion over blood goes to waste. They collect the essence condensed from the blood spilled on the battlefield and wait for it to be given form again through the ancient rituals of the vampires.",
+    "race": "Sarkaz",
+    "type": "ELITE",
+    "attackPattern": "None",
+    "abilityList": [
+      { "text": "Cannot be blocked.", "textFormat": "NORMAL" },
+      {
+        "text": "Collects up to 5 pieces of dropped &lt;Blood Amber&gt;. When defeated, drops all collected &lt;Blood Amber&gt;.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1367_dseed"]
+  },
+  {
+    "sort": 708,
+    "id": "enemy_1366_dcolle_2",
+    "slug": "sarkaz_bloodnexus",
+    "code": "SSK9",
+    "name": "Sarkaz Bloodnexus",
+    "description": "A very special entity within the Crimson Court, ensuring that each strand of blood weaves the decrees issued by the Regent of the Royal Court. They collect the essence condensed from the blood spilled on the battlefield and wait for it to be returned to the cycle of slaughter through the ancient rituals of the vampires.",
+    "race": "Sarkaz",
+    "type": "ELITE",
+    "attackPattern": "None",
+    "abilityList": [
+      { "text": "Cannot be blocked.", "textFormat": "NORMAL" },
+      {
+        "text": "Collects up to 5 pieces of dropped &lt;Blood Amber&gt;. When defeated, drops all collected &lt;Blood Amber&gt;.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1367_dseed"]
+  },
+  {
+    "sort": 709,
+    "id": "enemy_1367_dseed",
+    "slug": "blood_amber",
+    "code": "SSK10",
+    "name": "Blood Amber",
+    "description": "The blood that flows from warriors under the gaze of the Sanguinarch of Vampires will be turned into beautiful crystals waiting to be used once more, waiting to savor the taste of despair once more.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "None",
+    "abilityList": [
+      {
+        "text": "When affected by the pulse of a Bloodcalling Altar, will be reborn as a Bloodborn Spawn at the altar.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": [
+      "enemy_1360_dfello",
+      "enemy_1363_spnshd",
+      "enemy_1363_spnshd_2",
+      "enemy_1364_spnaxe",
+      "enemy_1364_spnaxe_2",
+      "enemy_1366_dcolle",
+      "enemy_1366_dcolle_2"
+    ]
+  },
+  {
+    "sort": 710,
+    "id": "enemy_1368_spilot",
+    "slug": "commander_ulsulah",
+    "code": "SSK11",
+    "name": "Commander Ulšulah",
+    "description": "Ulšulah, Lifebone's commander and the youngest major in the Kazdel Military Commission, fights not for any specific person or organization, but rather for the possibility that Kazdel can one day become a true country.",
+    "race": "Sarkaz",
+    "type": "ELITE",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "[Marrowchill Aura] Significantly reduces the ASPD of surrounding allied units and gives a Bloodcalling Altar the ability to produce Blood Amber.",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "When defeated, returns to a Bloodcalling Altar and revives after a period of time.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 7,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 711,
+    "id": "enemy_1369_bmbcar1",
+    "slug": "anti-witchcraft_repositionable_bomb",
+    "code": "LUD",
+    "name": "Anti-Witchcraft Repositionable Bomb",
+    "description": "A bomb whose explosion can suppress the effects of Sarkaz witchcraft, with a prototype delivery platform originating from Victoria. After being modified by a certain demolition expert, it has become a trump card in our desperate battles.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "None",
+    "abilityList": [
+      {
+        "text": "Neutral unit; will be prioritized by both enemy and friendly units.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Movement Speed is slowed when attacked by an enemy unit, but increased when attacked by a friendly unit.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Explodes upon reaching a Bloodcalling Altar, dealing a large amount of True damage to surrounding enemies and destroying the Altar.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 1,
+    "weight": 5,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1363_spnshd", "enemy_1363_spnshd_2"]
+  },
+  {
+    "sort": 730,
     "id": "enemy_2001_duckmi",
     "slug": "duck_lord",
     "code": "DLD",
@@ -15609,7 +16047,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 713,
+    "sort": 731,
     "id": "enemy_2002_bearmi",
     "slug": "gopnik",
     "code": "GPN",
@@ -15626,7 +16064,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 714,
+    "sort": 732,
     "id": "enemy_2034_sythef",
     "slug": "crying_thief",
     "code": "THF",
@@ -15652,7 +16090,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 715,
+    "sort": 733,
     "id": "enemy_2009_csaudc",
     "slug": "derisive_audience",
     "code": "CS1",
@@ -15674,7 +16112,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 716,
+    "sort": 734,
     "id": "enemy_2010_csdcr",
     "slug": "scarlet_singer",
     "code": "CS2",
@@ -15700,7 +16138,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 717,
+    "sort": 735,
     "id": "enemy_2011_csppt",
     "slug": "theater_golem",
     "code": "CS3",
@@ -15726,7 +16164,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 718,
+    "sort": 736,
     "id": "enemy_2012_csbln",
     "slug": "small_surprise",
     "code": "CS4",
@@ -15749,7 +16187,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 719,
+    "sort": 737,
     "id": "enemy_2017_csphts",
     "slug": "ominous_apparition",
     "code": "PTS",
@@ -15779,7 +16217,7 @@
     "relatedEnemies": ["enemy_2016_csphtm"]
   },
   {
-    "sort": 720,
+    "sort": 738,
     "id": "enemy_2021_syfish",
     "slug": "bone_sea_drifter",
     "code": "SY1",
@@ -15801,7 +16239,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 721,
+    "sort": 739,
     "id": "enemy_2022_syzeni",
     "slug": "ocean_stonecutter",
     "code": "SY2",
@@ -15823,7 +16261,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 722,
+    "sort": 740,
     "id": "enemy_2023_sypult",
     "slug": "retching_broodmother",
     "code": "SY3",
@@ -15846,7 +16284,7 @@
     "relatedEnemies": ["enemy_2024_synut"]
   },
   {
-    "sort": 723,
+    "sort": 741,
     "id": "enemy_2024_synut",
     "slug": "baleful_broodling",
     "code": "SY4",
@@ -15870,7 +16308,7 @@
     "relatedEnemies": ["enemy_2023_sypult"]
   },
   {
-    "sort": 724,
+    "sort": 742,
     "id": "enemy_2025_syufo",
     "slug": "skimming_sea_drifter",
     "code": "SY5",
@@ -15896,7 +16334,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 725,
+    "sort": 743,
     "id": "enemy_2033_syboys",
     "slug": "pathshaper_fractal",
     "code": "SY6",
@@ -15919,7 +16357,7 @@
     "relatedEnemies": ["enemy_2031_syboy", "enemy_2032_syboy2"]
   },
   {
-    "sort": 726,
+    "sort": 744,
     "id": "enemy_2040_syrott",
     "slug": "ishar'mla's_tears",
     "code": "SY7",
@@ -15946,7 +16384,7 @@
     "relatedEnemies": ["enemy_2039_syskad"]
   },
   {
-    "sort": 727,
+    "sort": 745,
     "id": "enemy_2041_syjely",
     "slug": "izumik's_offspring",
     "code": "SY8",
@@ -15963,7 +16401,7 @@
     "relatedEnemies": ["enemy_2042_syboss"]
   },
   {
-    "sort": 728,
+    "sort": 746,
     "id": "enemy_2035_sybox",
     "slug": "chest_seaborn",
     "code": "SY9",
@@ -15980,7 +16418,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 729,
+    "sort": 747,
     "id": "enemy_2043_smsbr",
     "slug": "tainted_carcass",
     "code": "EJ1",
@@ -16002,7 +16440,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 730,
+    "sort": 748,
     "id": "enemy_2044_smwiz",
     "slug": "distorted_caster",
     "code": "EJ2",
@@ -16024,7 +16462,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 731,
+    "sort": 749,
     "id": "enemy_2045_smdrn",
     "slug": "collapsed_construct",
     "code": "EJ3",
@@ -16041,7 +16479,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 732,
+    "sort": 750,
     "id": "enemy_2046_smwar",
     "slug": "shattered_champion",
     "code": "EJ4",
@@ -16058,7 +16496,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 733,
+    "sort": 751,
     "id": "enemy_2059_smbox",
     "slug": "testaceous_vinecreeps",
     "code": "EJ5",
@@ -16075,7 +16513,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 735,
+    "sort": 753,
     "id": "enemy_4001_toxcar",
     "slug": "retrofitted_gastruck",
     "code": "MU1",
@@ -16097,7 +16535,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 736,
+    "sort": 754,
     "id": "enemy_4001_toxcar_2",
     "slug": "supercharged_gastruck",
     "code": "MU2",
@@ -16119,7 +16557,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 737,
+    "sort": 755,
     "id": "enemy_4002_syokai",
     "slug": "cheap_second-hand_drone",
     "code": "MU3",
@@ -16146,7 +16584,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 738,
+    "sort": 756,
     "id": "enemy_4002_syokai_2",
     "slug": "remodeled_second-hand_drone",
     "code": "MU4",
@@ -16173,7 +16611,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 739,
+    "sort": 757,
     "id": "enemy_4003_pbank",
     "slug": "mobile_power_source",
     "code": "MU5",
@@ -16200,7 +16638,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 740,
+    "sort": 758,
     "id": "enemy_1050_lslime",
     "slug": "pompeii",
     "code": "UM1",
@@ -16230,7 +16668,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 741,
+    "sort": 759,
     "id": "enemy_1500_skulsr",
     "slug": "skullshatterer",
     "code": "SS",
@@ -16256,7 +16694,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 742,
+    "sort": 760,
     "id": "enemy_1502_crowns",
     "slug": "crownslayer",
     "code": "CS",
@@ -16278,7 +16716,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 743,
+    "sort": 761,
     "id": "enemy_1503_talula",
     "slug": "talulah",
     "code": "TA",
@@ -16309,7 +16747,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 744,
+    "sort": 762,
     "id": "enemy_1504_cqbw",
     "slug": "w",
     "code": "W",
@@ -16335,7 +16773,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 745,
+    "sort": 763,
     "id": "enemy_1505_frstar",
     "slug": "frostnova",
     "code": "FN",
@@ -16365,7 +16803,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 746,
+    "sort": 764,
     "id": "enemy_1507_mephi",
     "slug": "mephisto",
     "code": "MP",
@@ -16391,7 +16829,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 747,
+    "sort": 765,
     "id": "enemy_1508_faust",
     "slug": "faust",
     "code": "FA",
@@ -16421,7 +16859,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 748,
+    "sort": 766,
     "id": "enemy_1509_mousek",
     "slug": "rat_king",
     "code": "MK",
@@ -16455,7 +16893,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 749,
+    "sort": 767,
     "id": "enemy_1510_frstar2",
     "slug": "frostnova,_'winter's_scar'",
     "code": "FNF",
@@ -16485,7 +16923,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 750,
+    "sort": 768,
     "id": "enemy_1506_patrt",
     "slug": "patriot",
     "code": "PT",
@@ -16530,7 +16968,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 751,
+    "sort": 769,
     "id": "enemy_1511_mdrock",
     "slug": "mudrock",
     "code": "MR",
@@ -16561,7 +16999,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 752,
+    "sort": 770,
     "id": "enemy_1512_mcmstr",
     "slug": "the_big_ugly_thing",
     "code": "BU",
@@ -16597,7 +17035,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 753,
+    "sort": 771,
     "id": "enemy_1513_dekght",
     "slug": "corrupted_knight",
     "code": "DK1",
@@ -16627,7 +17065,7 @@
     "relatedEnemies": ["enemy_1513_dekght_2"]
   },
   {
-    "sort": 754,
+    "sort": 772,
     "id": "enemy_1513_dekght_2",
     "slug": "withered_knight",
     "code": "DK2",
@@ -16654,7 +17092,7 @@
     "relatedEnemies": ["enemy_1513_dekght"]
   },
   {
-    "sort": 755,
+    "sort": 773,
     "id": "enemy_1514_smephi",
     "slug": "mephisto,_'the_singer'",
     "code": "SMP",
@@ -16690,7 +17128,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 756,
+    "sort": 774,
     "id": "enemy_1515_bsnake",
     "slug": "deathless_black_snake",
     "code": "BSN",
@@ -16734,7 +17172,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 757,
+    "sort": 775,
     "id": "enemy_1516_jakill",
     "slug": "jesselton_williams",
     "code": "JAK",
@@ -16776,7 +17214,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 758,
+    "sort": 776,
     "id": "enemy_1517_xi",
     "slug": "free",
     "code": "DSK",
@@ -16817,7 +17255,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 759,
+    "sort": 777,
     "id": "enemy_1519_bgball",
     "slug": "essence_of_evolution",
     "code": "BB",
@@ -16863,7 +17301,7 @@
     "relatedEnemies": ["enemy_1137_plasm", "enemy_1138_tumor"]
   },
   {
-    "sort": 760,
+    "sort": 778,
     "id": "enemy_1520_empgrd",
     "slug": "'emperor's_blade',_pursuer",
     "code": "EMG",
@@ -16903,7 +17341,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 761,
+    "sort": 779,
     "id": "enemy_1521_dslily",
     "slug": "sal_viento_bishop_quintus",
     "code": "SVK",
@@ -16941,7 +17379,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 762,
+    "sort": 780,
     "id": "enemy_1522_captan",
     "slug": "pancho_salas",
     "code": "CPS",
@@ -16953,7 +17391,7 @@
     "abilityList": [
       { "text": "First Form", "textFormat": "TITLE" },
       {
-        "text": "Summons &lt;Kites&gt; to fight alongside &lt;Pancho's Explosive Boats&gt;",
+        "text": "Summons &lt;Kites&gt; and &lt;Pancho's Explosive Boats&gt; in battle",
         "textFormat": "NORMAL"
       },
       {
@@ -16985,7 +17423,7 @@
     "relatedEnemies": ["enemy_1164_bmbmot_3"]
   },
   {
-    "sort": 763,
+    "sort": 781,
     "id": "enemy_1523_mandra",
     "slug": "mandragora",
     "code": "MD",
@@ -17025,7 +17463,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 764,
+    "sort": 782,
     "id": "enemy_1524_bldkgt",
     "slug": "the_blood_knight_dikaiopolis",
     "code": "BK",
@@ -17070,7 +17508,7 @@
     "relatedEnemies": ["enemy_1186_bldbld"]
   },
   {
-    "sort": 765,
+    "sort": 783,
     "id": "enemy_1525_blkswb",
     "slug": "degenbrecher",
     "code": "BJ",
@@ -17122,7 +17560,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 766,
+    "sort": 784,
     "id": "enemy_1526_sfsui",
     "slug": "sui-xiang",
     "code": "SUI",
@@ -17175,7 +17613,7 @@
     "relatedEnemies": ["enemy_1211_msfsui"]
   },
   {
-    "sort": 767,
+    "sort": 785,
     "id": "enemy_1527_martyr",
     "slug": "andoain,_the_'martyr'",
     "code": "AND",
@@ -17220,7 +17658,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 768,
+    "sort": 786,
     "id": "enemy_1528_manfri",
     "slug": "manfred",
     "code": "MAN",
@@ -17260,7 +17698,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 769,
+    "sort": 787,
     "id": "enemy_1529_dsdevr",
     "slug": "the_endspeaker,_will_of_we_many",
     "code": "AMA",
@@ -17297,7 +17735,7 @@
     ]
   },
   {
-    "sort": 770,
+    "sort": 788,
     "id": "enemy_1530_white",
     "slug": "kreide,_'worldly_remains'",
     "code": "KRE",
@@ -17337,7 +17775,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 771,
+    "sort": 789,
     "id": "enemy_1531_bbrain",
     "slug": "awaken",
     "code": "BBR",
@@ -17383,7 +17821,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 772,
+    "sort": 790,
     "id": "enemy_1532_minima",
     "slug": "materialist_antagonizer",
     "code": "CST",
@@ -17436,7 +17874,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 773,
+    "sort": 791,
     "id": "enemy_1533_stmkgt",
     "slug": "the_last_steam_knight",
     "code": "LYN",
@@ -17482,7 +17920,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 774,
+    "sort": 792,
     "id": "enemy_1535_wlfmster",
     "slug": "zaaro,_signore_dei_lupi",
     "code": "ZA",
@@ -17527,7 +17965,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 775,
+    "sort": 793,
     "id": "enemy_1536_ncrmcr",
     "slug": "the_leader",
     "code": "EB",
@@ -17572,7 +18010,7 @@
     "relatedEnemies": ["enemy_1288_duskls", "enemy_1288_duskls_2"]
   },
   {
-    "sort": 776,
+    "sort": 794,
     "id": "enemy_1538_ymmons",
     "slug": "ya",
     "code": "YA01",
@@ -17620,7 +18058,7 @@
     "relatedEnemies": ["enemy_1312_ymillu", "enemy_1538_ymmons_2", "enemy_1538_ymmons_3"]
   },
   {
-    "sort": 779,
+    "sort": 797,
     "id": "enemy_1537_mhrors",
     "slug": "rathalos",
     "code": "6935",
@@ -17685,7 +18123,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 780,
+    "sort": 798,
     "id": "enemy_1539_reid",
     "slug": "hateful_avenger/boss",
     "code": "A15",
@@ -17715,7 +18153,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 781,
+    "sort": 799,
     "id": "enemy_1540_wdncr",
     "slug": "eblana",
     "code": "EB",
@@ -17732,7 +18170,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 782,
+    "sort": 800,
     "id": "enemy_1541_wdslms",
     "slug": "damazti_cluster/clone",
     "code": "DC3",
@@ -17749,7 +18187,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 783,
+    "sort": 801,
     "id": "enemy_1542_wdslm",
     "slug": "damazti_cluster",
     "code": "DC1",
@@ -17802,7 +18240,7 @@
     "relatedEnemies": ["enemy_1323_wdbshd"]
   },
   {
-    "sort": 784,
+    "sort": 802,
     "id": "enemy_1543_cstlrs",
     "slug": "kristen",
     "code": "KW",
@@ -17854,7 +18292,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 785,
+    "sort": 803,
     "id": "enemy_1544_cledub",
     "slug": "the_gardener",
     "code": "CD",
@@ -17902,7 +18340,7 @@
     "relatedEnemies": ["enemy_3005_lpeopl"]
   },
   {
-    "sort": 786,
+    "sort": 804,
     "id": "enemy_1545_shpkg",
     "slug": "dolly,_sovereign_of_sheep",
     "code": "DLY",
@@ -17962,7 +18400,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 787,
+    "sort": 805,
     "id": "enemy_1546_cliff",
     "slug": "'clip'_cliff",
     "code": "BSC",
@@ -18006,7 +18444,59 @@
     "relatedEnemies": []
   },
   {
-    "sort": 789,
+    "sort": 806,
+    "id": "enemy_1547_blord",
+    "slug": "duq'arael,_'regent's_crimson'",
+    "code": "PB",
+    "name": "Duq'arael, 'Regent's Crimson'",
+    "description": "The Host of the Crimson Court, and master of all bloodborn. A drop of Teekaz blood once flowed through his body, and its last remaining purity has returned to the land. Now, he has his sights set on the King of Sarkaz once again. He smiles, declaring that he has already slain one such King, and plans to bid farewell to the final one.",
+    "race": "Sarkaz",
+    "type": "BOSS",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      { "text": "First Form", "textFormat": "TITLE" },
+      {
+        "text": "[Moon-Devouring Bloodmist] Releases a searing Blood Mist centered around a target, inflicting increasing amounts of Arts damage to allied units within while reducing their ASPD and increasing their Redeployment Time. Pieces of Blood Amber affected by this Blood Mist will turn into Bloodborn Spawn.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Blood Surge] When defeated, this skill will activate 4 times, selecting one target each time (prioritizing units that have not been hit). Deals Arts damage to the target and all units in the adjacent 4 tiles and stuns them.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When defeated, returns to the Throne of Blood and revives after a period of time.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Enters second form when the Throne of Blood is destroyed.",
+        "textFormat": "NORMAL"
+      },
+      { "text": "Second Form", "textFormat": "TITLE" },
+      {
+        "text": "Takes greatly reduced Physical and Arts damage and increases the HP recovery rate of other surrounding enemy units (this trait will be lost for a while when this unit is hit by an &lt;Anti-Witchcraft Repositionable Bomb&gt;)",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Blood Affliction] Attacks deal continuous Arts damage that ramps up over time. If the target leaves the field during this duration, their Redeployment Time will be greatly increased.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Crimson Edict] Continuously spawns &lt;Blood Amber&gt; around this unit for a period of time. Afterward, Blood Mist will be released centered around this unit.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Sunken Death] When struck by an &lt;Anti-Witchcraft Repositionable Bomb&gt;, destroys the corresponding bomb loading point, and releases [Blood Surge] twice.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 2,
+    "weight": 10,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1367_dseed"]
+  },
+  {
+    "sort": 808,
     "id": "enemy_2003_rockman",
     "slug": "lost_colossus",
     "code": "WDG",
@@ -18028,7 +18518,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 790,
+    "sort": 809,
     "id": "enemy_2004_balloon",
     "slug": "jetman",
     "code": "JTM",
@@ -18050,7 +18540,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 791,
+    "sort": 810,
     "id": "enemy_2005_axetro",
     "slug": "forsaken_one",
     "code": "FSK",
@@ -18072,7 +18562,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 792,
+    "sort": 811,
     "id": "enemy_2006_flsnip",
     "slug": "rusthammer_warrior",
     "code": "RSH",
@@ -18098,7 +18588,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 793,
+    "sort": 812,
     "id": "enemy_2007_flwitch",
     "slug": "frozen_monstrosity",
     "code": "FZM",
@@ -18128,7 +18618,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 794,
+    "sort": 813,
     "id": "enemy_2008_flking",
     "slug": "gravestone",
     "code": "GST",
@@ -18154,7 +18644,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 795,
+    "sort": 814,
     "id": "enemy_2013_csbot",
     "slug": "wandering_puppet",
     "code": "MSC",
@@ -18176,7 +18666,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 796,
+    "sort": 815,
     "id": "enemy_2014_csicer",
     "slug": "snow_doe",
     "code": "ICR",
@@ -18202,7 +18692,7 @@
     "relatedEnemies": ["enemy_2015_csicem"]
   },
   {
-    "sort": 797,
+    "sort": 816,
     "id": "enemy_2015_csicem",
     "slug": "frost_buck",
     "code": "ICM",
@@ -18228,7 +18718,7 @@
     "relatedEnemies": ["enemy_2014_csicer"]
   },
   {
-    "sort": 798,
+    "sort": 817,
     "id": "enemy_2016_csphtm",
     "slug": "lucian,_'blood_diamond'",
     "code": "PTM",
@@ -18254,7 +18744,7 @@
     "relatedEnemies": ["enemy_2017_csphts"]
   },
   {
-    "sort": 799,
+    "sort": 818,
     "id": "enemy_2018_csdoll",
     "slug": "big_sad_lock",
     "code": "DOL",
@@ -18289,7 +18779,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 800,
+    "sort": 819,
     "id": "enemy_2019_cshost",
     "slug": "troupe_mouthpiece",
     "code": "HST",
@@ -18320,7 +18810,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 801,
+    "sort": 820,
     "id": "enemy_2020_cswrtr",
     "slug": "playwright",
     "code": "WRT",
@@ -18354,7 +18844,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 802,
+    "sort": 821,
     "id": "enemy_2026_syudg",
     "slug": "saint_carmen",
     "code": "UGF",
@@ -18380,7 +18870,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 803,
+    "sort": 822,
     "id": "enemy_2027_syudg2",
     "slug": "saint_iberia",
     "code": "UGS",
@@ -18407,7 +18897,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 804,
+    "sort": 823,
     "id": "enemy_2028_syevil",
     "slug": "tidelinked_bishop",
     "code": "SEV",
@@ -18429,7 +18919,7 @@
     "relatedEnemies": ["enemy_2029_symon", "enemy_2030_symon2"]
   },
   {
-    "sort": 805,
+    "sort": 824,
     "id": "enemy_2029_symon",
     "slug": "tidelinked_archon",
     "code": "SMF",
@@ -18455,7 +18945,7 @@
     "relatedEnemies": ["enemy_2028_syevil"]
   },
   {
-    "sort": 806,
+    "sort": 825,
     "id": "enemy_2030_symon2",
     "slug": "tidelinked_immortal",
     "code": "SMS",
@@ -18485,7 +18975,7 @@
     "relatedEnemies": ["enemy_2028_syevil"]
   },
   {
-    "sort": 807,
+    "sort": 826,
     "id": "enemy_2031_syboy",
     "slug": "pathshaper",
     "code": "SRF",
@@ -18511,7 +19001,7 @@
     "relatedEnemies": ["enemy_2033_syboys"]
   },
   {
-    "sort": 808,
+    "sort": 827,
     "id": "enemy_2032_syboy2",
     "slug": "lingering_pathshaper",
     "code": "SRS",
@@ -18538,7 +19028,7 @@
     "relatedEnemies": ["enemy_2033_syboys"]
   },
   {
-    "sort": 809,
+    "sort": 828,
     "id": "enemy_2037_sygirl",
     "slug": "paranoia_illusion",
     "code": "GIR",
@@ -18574,7 +19064,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 810,
+    "sort": 829,
     "id": "enemy_2038_sydonq",
     "slug": "the_last_knight",
     "code": "DOQ",
@@ -18607,7 +19097,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 811,
+    "sort": 830,
     "id": "enemy_2039_syskad",
     "slug": "ishar'mla,_heart_of_corruption",
     "code": "SKA",
@@ -18643,7 +19133,7 @@
     "relatedEnemies": ["enemy_2040_syrott"]
   },
   {
-    "sort": 812,
+    "sort": 831,
     "id": "enemy_2042_syboss",
     "slug": "izumik,_source_of_ecology",
     "code": "MZK",
@@ -18676,7 +19166,7 @@
     "relatedEnemies": ["enemy_2041_syjely"]
   },
   {
-    "sort": 813,
+    "sort": 832,
     "id": "enemy_2036_syshop",
     "slug": "cannot",
     "code": "KNT",
@@ -18702,7 +19192,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 814,
+    "sort": 833,
     "id": "enemy_2048_smgrd",
     "slug": "demon's_blade",
     "code": "DB",
@@ -18728,7 +19218,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 815,
+    "sort": 834,
     "id": "enemy_2049_smgrd2",
     "slug": "'demon's_blade,'_the_vagabond",
     "code": "DBV",
@@ -18754,7 +19244,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 816,
+    "sort": 835,
     "id": "enemy_2050_smsha",
     "slug": "fallen_snowpriest",
     "code": "FSP",
@@ -18780,7 +19270,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 817,
+    "sort": 836,
     "id": "enemy_2051_smsha2",
     "slug": "hollow_snowpriest",
     "code": "HSP",
@@ -18806,7 +19296,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 818,
+    "sort": 837,
     "id": "enemy_2052_smgia",
     "slug": "weaving_vinecreeps",
     "code": "WVC",
@@ -18832,7 +19322,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 819,
+    "sort": 838,
     "id": "enemy_2053_smgia2",
     "slug": "elder_vinecreeps",
     "code": "EVC",
@@ -18858,7 +19348,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 820,
+    "sort": 839,
     "id": "enemy_2054_smdeer",
     "slug": "'samivilinn,'_the_resolution_of_the_very_north",
     "code": "SAM",
@@ -18892,7 +19382,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 821,
+    "sort": 840,
     "id": "enemy_2055_smlead",
     "slug": "'eikthyrnir,'_the_scar_of_the_shattered",
     "code": "EIK",
@@ -18937,7 +19427,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 822,
+    "sort": 841,
     "id": "enemy_2056_smedzi",
     "slug": "crazelyseon,_the_ascendant_of_cosmoi",
     "code": "CES",
@@ -18972,7 +19462,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 827,
+    "sort": 846,
     "id": "enemy_6001_trsgst",
     "slug": "fleet-footed_thief",
     "code": "DL1",
@@ -18995,7 +19485,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 828,
+    "sort": 847,
     "id": "enemy_6002_trswlf",
     "slug": "teary_detective",
     "code": "DL2",
@@ -19025,7 +19515,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 829,
+    "sort": 848,
     "id": "enemy_6003_trsslm",
     "slug": "shiny_pooloo",
     "code": "DL3",
@@ -19051,7 +19541,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 830,
+    "sort": 849,
     "id": "enemy_6004_pleslm",
     "slug": "milan",
     "code": "DL4",
@@ -19081,7 +19571,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 831,
+    "sort": 850,
     "id": "enemy_6005_llstone",
     "slug": "spherical_colossus",
     "code": "DL5",
@@ -19111,7 +19601,7 @@
     "relatedEnemies": ["enemy_6006_fystone"]
   },
   {
-    "sort": 832,
+    "sort": 851,
     "id": "enemy_6006_fystone",
     "slug": "crude_sphere",
     "code": "DL6",
@@ -19134,7 +19624,7 @@
     "relatedEnemies": ["enemy_6005_llstone"]
   },
   {
-    "sort": 833,
+    "sort": 852,
     "id": "enemy_6007_mtslm",
     "slug": "drifting_cabin",
     "code": "DL7",
@@ -19160,7 +19650,7 @@
     "relatedEnemies": ["enemy_6008_mtslms"]
   },
   {
-    "sort": 834,
+    "sort": 853,
     "id": "enemy_6008_mtslms",
     "slug": "fluorescent_originium_slug",
     "code": "DL8",
@@ -19177,7 +19667,7 @@
     "relatedEnemies": ["enemy_6007_mtslm"]
   },
   {
-    "sort": 835,
+    "sort": 854,
     "id": "enemy_6009_nlkgtbs",
     "slug": "fruit_of_gluttony",
     "code": "DL9",
@@ -19207,7 +19697,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 836,
+    "sort": 855,
     "id": "enemy_6010_boxing",
     "slug": "'boy_wonder'_sandel",
     "code": "DL10",
@@ -19233,7 +19723,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 837,
+    "sort": 856,
     "id": "enemy_6011_planty",
     "slug": "nature's_compromise",
     "code": "DL11",
@@ -19263,7 +19753,7 @@
     "relatedEnemies": ["enemy_6012_plants"]
   },
   {
-    "sort": 838,
+    "sort": 857,
     "id": "enemy_6012_plants",
     "slug": "small_symbiont",
     "code": "DL12",
@@ -19280,7 +19770,7 @@
     "relatedEnemies": ["enemy_6011_planty"]
   },
   {
-    "sort": 839,
+    "sort": 858,
     "id": "enemy_6013_smith",
     "slug": "mama's_'rebel_girl'",
     "code": "DL13",
@@ -19310,7 +19800,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 840,
+    "sort": 859,
     "id": "enemy_6014_crzgas",
     "slug": "tumor",
     "code": "DL14",
@@ -19337,7 +19827,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 841,
+    "sort": 860,
     "id": "enemy_6015_ictruck",
     "slug": "supersweetie_smiley",
     "code": "DL15",
@@ -19375,7 +19865,7 @@
     "relatedEnemies": ["enemy_6017_icdrone"]
   },
   {
-    "sort": 842,
+    "sort": 861,
     "id": "enemy_6016_splash",
     "slug": "thirster",
     "code": "DL16",
@@ -19413,7 +19903,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 843,
+    "sort": 862,
     "id": "enemy_6017_icdrone",
     "slug": "supersweetie_delivery_drone",
     "code": "DL17",
@@ -19436,7 +19926,7 @@
     "relatedEnemies": ["enemy_6015_ictruck"]
   },
   {
-    "sort": 844,
+    "sort": 863,
     "id": "enemy_7001_blwzad",
     "slug": "tribal_shaman",
     "code": "SD1",
@@ -19458,7 +19948,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 845,
+    "sort": 864,
     "id": "enemy_7001_blwzad_2",
     "slug": "lord_ameer_shaman",
     "code": "SD2",
@@ -19480,7 +19970,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 846,
+    "sort": 865,
     "id": "enemy_7002_veingd",
     "slug": "vein_guardian",
     "code": "SD3",
@@ -19502,7 +19992,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 847,
+    "sort": 866,
     "id": "enemy_7002_veingd_2",
     "slug": "maddened_vein_guardian",
     "code": "SD4",
@@ -19524,7 +20014,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 848,
+    "sort": 867,
     "id": "enemy_7003_catapt",
     "slug": "anything_can_be_broken",
     "code": "SD5",
@@ -19546,7 +20036,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 849,
+    "sort": 868,
     "id": "enemy_7003_catapt_2",
     "slug": "everything_should_be_smashed",
     "code": "SD6",
@@ -19568,7 +20058,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 850,
+    "sort": 869,
     "id": "enemy_7004_xbdeer",
     "slug": "leporibeast_shorthorn",
     "code": "SD7",
@@ -19590,7 +20080,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 851,
+    "sort": 870,
     "id": "enemy_7004_xbdeer_2",
     "slug": "leporibeast_longhorn",
     "code": "SD8",
@@ -19612,7 +20102,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 852,
+    "sort": 871,
     "id": "enemy_7005_xbbull",
     "slug": "mossback_beast",
     "code": "SD9",
@@ -19635,7 +20125,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 853,
+    "sort": 872,
     "id": "enemy_7005_xbbull_2",
     "slug": "lush_mossback_beast",
     "code": "SD10",
@@ -19658,7 +20148,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 854,
+    "sort": 873,
     "id": "enemy_7006_xbcrab",
     "slug": "cragpincer",
     "code": "SD11",
@@ -19680,7 +20170,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 855,
+    "sort": 874,
     "id": "enemy_7006_xbcrab_2",
     "slug": "crystalline_cragpincer",
     "code": "SD12",
@@ -19702,7 +20192,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 856,
+    "sort": 875,
     "id": "enemy_7015_xbcrab2",
     "slug": "consortium_of_pincers",
     "code": "SD13",
@@ -19724,7 +20214,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 857,
+    "sort": 876,
     "id": "enemy_7007_xbbird",
     "slug": "sandfall_crystalhoof",
     "code": "SD14",
@@ -19747,7 +20237,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 859,
+    "sort": 878,
     "id": "enemy_7009_mtmoun",
     "slug": "the_immortal",
     "code": "SD16",
@@ -19773,7 +20263,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 860,
+    "sort": 879,
     "id": "enemy_7010_bldrgn",
     "slug": "great_wingbeast",
     "code": "SD17",
@@ -19803,7 +20293,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 861,
+    "sort": 880,
     "id": "enemy_7011_paki",
     "slug": "sargonian_contract_assassin",
     "code": "SD18",
@@ -19825,7 +20315,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 862,
+    "sort": 881,
     "id": "enemy_7012_wilder",
     "slug": "dauntless_linebreaker",
     "code": "SD19",
@@ -19853,7 +20343,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 863,
+    "sort": 882,
     "id": "enemy_7013_slwazd",
     "slug": "the_ruinbringer",
     "code": "SD20",
@@ -19882,7 +20372,7 @@
     "relatedEnemies": ["enemy_1021_bslime", "enemy_1021_bslime_2"]
   },
   {
-    "sort": 864,
+    "sort": 883,
     "id": "enemy_7014_dva",
     "slug": "al-rafiq",
     "code": "SD21",
@@ -19922,7 +20412,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 865,
+    "sort": 884,
     "id": "enemy_8006_flmgd",
     "slug": "reforged_retinue",
     "code": "SFR02",
@@ -19944,7 +20434,7 @@
     "relatedEnemies": ["enemy_8001_flmlod_3", "enemy_8001_flmlod_2"]
   },
   {
-    "sort": 868,
+    "sort": 887,
     "id": "enemy_8001_flmlod_3",
     "slug": "sverdsmeltr,_guardian_ember_of_the_king",
     "code": "SFR01",

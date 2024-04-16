@@ -1,117 +1,4 @@
 {
-  "enemy_1007_slime": [
-    {
-      "hp": 550,
-      "atk": 130,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 1,
-      "atkInterval": 1.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 2050,
-      "atk": 300,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 1,
-      "atkInterval": 1.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1007_slime_2": [
-    {
-      "hp": 1050,
-      "atk": 185,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 1,
-      "atkInterval": 1.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 2850,
-      "atk": 400,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 1,
-      "atkInterval": 1.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1007_slime_3": [
-    {
-      "hp": 1550,
-      "atk": 240,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 1,
-      "atkInterval": 1.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1004_mslime": [
-    {
-      "hp": 2080,
-      "atk": 180,
-      "def": 80,
-      "res": 0,
-      "mvSpd": 1,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.8
-    }
-  ],
-  "enemy_1004_mslime_2": [
-    {
-      "hp": 2780,
-      "atk": 290,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 1,
-      "atkInterval": 3.3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.75
-    }
-  ],
-  "enemy_1021_bslime": [
-    {
-      "hp": 2460,
-      "atk": 260,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 1,
-      "atkInterval": 1.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1021_bslime_2": [
-    {
-      "hp": 3700,
-      "atk": 350,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 1,
-      "atkInterval": 1.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
   "enemy_1000_gopro": [
     {
       "hp": 820,
@@ -168,6 +55,32 @@
       "res": 20,
       "mvSpd": 1.9,
       "atkInterval": 1.4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1001_bigbo": [
+    {
+      "hp": 22000,
+      "atk": 1900,
+      "def": 800,
+      "res": 30,
+      "mvSpd": 0.5,
+      "atkInterval": 6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1001_bigbo_2": [
+    {
+      "hp": 30000,
+      "atk": 2700,
+      "def": 1000,
+      "res": 30,
+      "mvSpd": 0.5,
+      "atkInterval": 6,
       "erst": 0,
       "irst": 0,
       "atkRange": 0
@@ -245,6 +158,300 @@
       "atkRange": 1.9
     }
   ],
+  "enemy_1004_mslime": [
+    {
+      "hp": 2080,
+      "atk": 180,
+      "def": 80,
+      "res": 0,
+      "mvSpd": 1,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.8
+    }
+  ],
+  "enemy_1004_mslime_2": [
+    {
+      "hp": 2780,
+      "atk": 290,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 1,
+      "atkInterval": 3.3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.75
+    }
+  ],
+  "enemy_1005_yokai": [
+    {
+      "hp": 800,
+      "atk": 0,
+      "def": 50,
+      "res": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 2.3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 1870,
+      "atk": 0,
+      "def": 50,
+      "res": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 2.3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1005_yokai_2": [
+    {
+      "hp": 1550,
+      "atk": 220,
+      "def": 50,
+      "res": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    },
+    {
+      "hp": 2500,
+      "atk": 330,
+      "def": 125,
+      "res": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1005_yokai_3": [
+    {
+      "hp": 30000,
+      "atk": 660,
+      "def": 170,
+      "res": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 3.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1006_shield": [
+    {
+      "hp": 6000,
+      "atk": 600,
+      "def": 800,
+      "res": 0,
+      "mvSpd": 0.75,
+      "atkInterval": 2.6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 8000,
+      "atk": 600,
+      "def": 850,
+      "res": 0,
+      "mvSpd": 0.75,
+      "atkInterval": 2.6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1006_shield_2": [
+    {
+      "hp": 10000,
+      "atk": 600,
+      "def": 1000,
+      "res": 0,
+      "mvSpd": 0.75,
+      "atkInterval": 2.6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 15000,
+      "atk": 700,
+      "def": 850,
+      "res": 0,
+      "mvSpd": 0.75,
+      "atkInterval": 2.6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1006_shield_3": [
+    {
+      "hp": 40000,
+      "atk": 1000,
+      "def": 1200,
+      "res": 0,
+      "mvSpd": 0.75,
+      "atkInterval": 2.6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 33000,
+      "atk": 2500,
+      "def": 1500,
+      "res": 0,
+      "mvSpd": 0.75,
+      "atkInterval": 2.6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1007_slime": [
+    {
+      "hp": 550,
+      "atk": 130,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 1,
+      "atkInterval": 1.7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 2050,
+      "atk": 300,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 1,
+      "atkInterval": 1.7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1007_slime_2": [
+    {
+      "hp": 1050,
+      "atk": 185,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 1,
+      "atkInterval": 1.7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 2850,
+      "atk": 400,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 1,
+      "atkInterval": 1.7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1007_slime_3": [
+    {
+      "hp": 1550,
+      "atk": 240,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 1,
+      "atkInterval": 1.7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1008_ghost": [
+    {
+      "hp": 2300,
+      "atk": 100,
+      "def": 120,
+      "res": 35,
+      "mvSpd": 1.2,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1009_lurker": [
+    {
+      "hp": 2200,
+      "atk": 300,
+      "def": 90,
+      "res": 20,
+      "mvSpd": 1,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 3400,
+      "atk": 400,
+      "def": 130,
+      "res": 20,
+      "mvSpd": 1,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1010_demon": [
+    {
+      "hp": 7500,
+      "atk": 600,
+      "def": 230,
+      "res": 50,
+      "mvSpd": 0.85,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 10000,
+      "atk": 900,
+      "def": 350,
+      "res": 50,
+      "mvSpd": 0.85,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1010_demon_2": [
+    {
+      "hp": 15000,
+      "atk": 750,
+      "def": 250,
+      "res": 50,
+      "mvSpd": 0.85,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
   "enemy_1011_wizard": [
     {
       "hp": 1600,
@@ -304,27 +511,38 @@
       "atkRange": 2
     }
   ],
-  "enemy_1018_aoemag": [
+  "enemy_1012_dcross": [
     {
-      "hp": 7000,
-      "atk": 240,
-      "def": 120,
+      "hp": 6000,
+      "atk": 450,
+      "def": 200,
       "res": 50,
-      "mvSpd": 0.7,
-      "atkInterval": 3.8,
+      "mvSpd": 0.8,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    },
+    {
+      "hp": 6700,
+      "atk": 660,
+      "def": 300,
+      "res": 50,
+      "mvSpd": 0.8,
+      "atkInterval": 3,
       "erst": 0,
       "irst": 0,
       "atkRange": 2.2
     }
   ],
-  "enemy_1018_aoemag_2": [
+  "enemy_1012_dcross_2": [
     {
-      "hp": 13500,
-      "atk": 380,
-      "def": 160,
+      "hp": 12000,
+      "atk": 570,
+      "def": 200,
       "res": 50,
-      "mvSpd": 0.7,
-      "atkInterval": 3.8,
+      "mvSpd": 0.8,
+      "atkInterval": 3,
       "erst": 0,
       "irst": 0,
       "atkRange": 2.2
@@ -376,32 +594,6 @@
       "erst": 0,
       "irst": 0,
       "atkRange": 0
-    }
-  ],
-  "enemy_1024_mortar": [
-    {
-      "hp": 3300,
-      "atk": 400,
-      "def": 150,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 7
-    }
-  ],
-  "enemy_1024_mortar_2": [
-    {
-      "hp": 5000,
-      "atk": 550,
-      "def": 150,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 7
     }
   ],
   "enemy_1014_rogue": [
@@ -478,104 +670,6 @@
       "atkRange": 0
     }
   ],
-  "enemy_1006_shield": [
-    {
-      "hp": 6000,
-      "atk": 600,
-      "def": 800,
-      "res": 0,
-      "mvSpd": 0.75,
-      "atkInterval": 2.6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 8000,
-      "atk": 600,
-      "def": 850,
-      "res": 0,
-      "mvSpd": 0.75,
-      "atkInterval": 2.6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1006_shield_2": [
-    {
-      "hp": 10000,
-      "atk": 600,
-      "def": 1000,
-      "res": 0,
-      "mvSpd": 0.75,
-      "atkInterval": 2.6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 15000,
-      "atk": 700,
-      "def": 850,
-      "res": 0,
-      "mvSpd": 0.75,
-      "atkInterval": 2.6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1006_shield_3": [
-    {
-      "hp": 40000,
-      "atk": 1000,
-      "def": 1200,
-      "res": 0,
-      "mvSpd": 0.75,
-      "atkInterval": 2.6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 33000,
-      "atk": 2500,
-      "def": 1500,
-      "res": 0,
-      "mvSpd": 0.75,
-      "atkInterval": 2.6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1001_bigbo": [
-    {
-      "hp": 22000,
-      "atk": 1900,
-      "def": 800,
-      "res": 30,
-      "mvSpd": 0.5,
-      "atkInterval": 6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1001_bigbo_2": [
-    {
-      "hp": 30000,
-      "atk": 2700,
-      "def": 1000,
-      "res": 30,
-      "mvSpd": 0.5,
-      "atkInterval": 6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
   "enemy_1016_diaman": [
     {
       "hp": 3000,
@@ -600,117 +694,6 @@
       "atkRange": 0
     }
   ],
-  "enemy_1009_lurker": [
-    {
-      "hp": 2200,
-      "atk": 300,
-      "def": 90,
-      "res": 20,
-      "mvSpd": 1,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 3400,
-      "atk": 400,
-      "def": 130,
-      "res": 20,
-      "mvSpd": 1,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1008_ghost": [
-    {
-      "hp": 2300,
-      "atk": 100,
-      "def": 120,
-      "res": 35,
-      "mvSpd": 1.2,
-      "atkInterval": 1,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1026_aghost": [
-    {
-      "hp": 3800,
-      "atk": 100,
-      "def": 350,
-      "res": 35,
-      "mvSpd": 1.2,
-      "atkInterval": 1,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1005_yokai": [
-    {
-      "hp": 800,
-      "atk": 0,
-      "def": 50,
-      "res": 0,
-      "mvSpd": 0.9,
-      "atkInterval": 2.3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 1870,
-      "atk": 0,
-      "def": 50,
-      "res": 0,
-      "mvSpd": 0.9,
-      "atkInterval": 2.3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1005_yokai_2": [
-    {
-      "hp": 1550,
-      "atk": 220,
-      "def": 50,
-      "res": 0,
-      "mvSpd": 0.9,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    },
-    {
-      "hp": 2500,
-      "atk": 330,
-      "def": 125,
-      "res": 0,
-      "mvSpd": 0.9,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1005_yokai_3": [
-    {
-      "hp": 30000,
-      "atk": 660,
-      "def": 170,
-      "res": 0,
-      "mvSpd": 0.5,
-      "atkInterval": 3.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
   "enemy_1017_defdrn": [
     {
       "hp": 4000,
@@ -733,6 +716,32 @@
       "erst": 0,
       "irst": 0,
       "atkRange": 2.5
+    }
+  ],
+  "enemy_1018_aoemag": [
+    {
+      "hp": 7000,
+      "atk": 240,
+      "def": 120,
+      "res": 50,
+      "mvSpd": 0.7,
+      "atkInterval": 3.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_1018_aoemag_2": [
+    {
+      "hp": 13500,
+      "atk": 380,
+      "def": 160,
+      "res": 50,
+      "mvSpd": 0.7,
+      "atkInterval": 3.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
     }
   ],
   "enemy_1019_jshoot": [
@@ -761,32 +770,6 @@
       "atkRange": 2.2
     }
   ],
-  "enemy_1023_jmage": [
-    {
-      "hp": 2200,
-      "atk": 350,
-      "def": 80,
-      "res": 50,
-      "mvSpd": 0.8,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1023_jmage_2": [
-    {
-      "hp": 4200,
-      "atk": 400,
-      "def": 130,
-      "res": 50,
-      "mvSpd": 0.8,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
   "enemy_1020_obsv": [
     {
       "hp": 7000,
@@ -800,78 +783,30 @@
       "atkRange": 0
     }
   ],
-  "enemy_1010_demon": [
+  "enemy_1021_bslime": [
     {
-      "hp": 7500,
-      "atk": 600,
-      "def": 230,
-      "res": 50,
-      "mvSpd": 0.85,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 10000,
-      "atk": 900,
-      "def": 350,
-      "res": 50,
-      "mvSpd": 0.85,
-      "atkInterval": 2,
+      "hp": 2460,
+      "atk": 260,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 1,
+      "atkInterval": 1.7,
       "erst": 0,
       "irst": 0,
       "atkRange": 0
     }
   ],
-  "enemy_1010_demon_2": [
+  "enemy_1021_bslime_2": [
     {
-      "hp": 15000,
-      "atk": 750,
-      "def": 250,
-      "res": 50,
-      "mvSpd": 0.85,
-      "atkInterval": 2,
+      "hp": 3700,
+      "atk": 350,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 1,
+      "atkInterval": 1.7,
       "erst": 0,
       "irst": 0,
       "atkRange": 0
-    }
-  ],
-  "enemy_1012_dcross": [
-    {
-      "hp": 6000,
-      "atk": 450,
-      "def": 200,
-      "res": 50,
-      "mvSpd": 0.8,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
-    },
-    {
-      "hp": 6700,
-      "atk": 660,
-      "def": 300,
-      "res": 50,
-      "mvSpd": 0.8,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
-    }
-  ],
-  "enemy_1012_dcross_2": [
-    {
-      "hp": 12000,
-      "atk": 570,
-      "def": 200,
-      "res": 50,
-      "mvSpd": 0.8,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
     }
   ],
   "enemy_1022_dmage": [
@@ -911,28 +846,56 @@
       "atkRange": 2.5
     }
   ],
-  "enemy_1501_demonk": [
+  "enemy_1023_jmage": [
     {
-      "hp": 15000,
-      "atk": 700,
-      "def": 250,
-      "res": 35,
-      "mvSpd": 0.78,
-      "atkInterval": 5,
+      "hp": 2200,
+      "atk": 350,
+      "def": 80,
+      "res": 50,
+      "mvSpd": 0.8,
+      "atkInterval": 4,
       "erst": 0,
       "irst": 0,
-      "atkRange": 2.35
-    },
+      "atkRange": 2
+    }
+  ],
+  "enemy_1023_jmage_2": [
     {
-      "hp": 23000,
-      "atk": 950,
-      "def": 250,
-      "res": 35,
-      "mvSpd": 0.78,
-      "atkInterval": 5,
+      "hp": 4200,
+      "atk": 400,
+      "def": 130,
+      "res": 50,
+      "mvSpd": 0.8,
+      "atkInterval": 4,
       "erst": 0,
       "irst": 0,
-      "atkRange": 2.35
+      "atkRange": 2
+    }
+  ],
+  "enemy_1024_mortar": [
+    {
+      "hp": 3300,
+      "atk": 400,
+      "def": 150,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 7
+    }
+  ],
+  "enemy_1024_mortar_2": [
+    {
+      "hp": 5000,
+      "atk": 550,
+      "def": 150,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 7
     }
   ],
   "enemy_1025_reveng": [
@@ -978,6 +941,19 @@
       "res": 50,
       "mvSpd": 0.65,
       "atkInterval": 2.3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1026_aghost": [
+    {
+      "hp": 3800,
+      "atk": 100,
+      "def": 350,
+      "res": 35,
+      "mvSpd": 1.2,
+      "atkInterval": 1,
       "erst": 0,
       "irst": 0,
       "atkRange": 0
@@ -1670,161 +1646,6 @@
       "atkRange": 0
     }
   ],
-  "enemy_1500_skulsr": [
-    {
-      "hp": 10500,
-      "atk": 1000,
-      "def": 150,
-      "res": 30,
-      "mvSpd": 0.6,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.6
-    },
-    {
-      "hp": 30000,
-      "atk": 1300,
-      "def": 240,
-      "res": 30,
-      "mvSpd": 0.6,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.6
-    },
-    {
-      "hp": 80000,
-      "atk": 1950,
-      "def": 400,
-      "res": 30,
-      "mvSpd": 0.6,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.6
-    }
-  ],
-  "enemy_1502_crowns": [
-    {
-      "hp": 6000,
-      "atk": 400,
-      "def": 120,
-      "res": 50,
-      "mvSpd": 1.4,
-      "atkInterval": 2.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 10000,
-      "atk": 550,
-      "def": 150,
-      "res": 50,
-      "mvSpd": 1.4,
-      "atkInterval": 2.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 20000,
-      "atk": 700,
-      "def": 250,
-      "res": 50,
-      "mvSpd": 1.4,
-      "atkInterval": 2.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1504_cqbw": [
-    {
-      "hp": 10000,
-      "atk": 470,
-      "def": 100,
-      "res": 50,
-      "mvSpd": 1.2,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_1505_frstar": [
-    {
-      "hp": 25000,
-      "atk": 420,
-      "def": 250,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 3.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    },
-    {
-      "hp": 35000,
-      "atk": 620,
-      "def": 350,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 3.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1507_mephi": [
-    {
-      "hp": 28000,
-      "atk": 500,
-      "def": 200,
-      "res": 60,
-      "mvSpd": 0.5,
-      "atkInterval": 6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 20
-    },
-    {
-      "hp": 60000,
-      "atk": 1000,
-      "def": 300,
-      "res": 60,
-      "mvSpd": 0.5,
-      "atkInterval": 6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 20
-    }
-  ],
-  "enemy_1508_faust": [
-    {
-      "hp": 37000,
-      "atk": 1000,
-      "def": 350,
-      "res": 35,
-      "mvSpd": 0.5,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 20
-    },
-    {
-      "hp": 50000,
-      "atk": 1200,
-      "def": 350,
-      "res": 35,
-      "mvSpd": 0.5,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 20
-    }
-  ],
   "enemy_1055_ganman": [
     {
       "hp": 2700,
@@ -1979,30 +1800,6 @@
       "erst": 0,
       "irst": 0,
       "atkRange": 0
-    }
-  ],
-  "enemy_1509_mousek": [
-    {
-      "hp": 22000,
-      "atk": 470,
-      "def": 350,
-      "res": 30,
-      "mvSpd": 0.6,
-      "atkInterval": 3.4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    },
-    {
-      "hp": 36000,
-      "atk": 590,
-      "def": 350,
-      "res": 30,
-      "mvSpd": 0.6,
-      "atkInterval": 3.4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
     }
   ],
   "enemy_1061_zomshd": [
@@ -2248,30 +2045,6 @@
       "erst": 0,
       "irst": 0,
       "atkRange": 2.5
-    }
-  ],
-  "enemy_1510_frstar2": [
-    {
-      "hp": 30000,
-      "atk": 440,
-      "def": 380,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 3.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    },
-    {
-      "hp": 45000,
-      "atk": 530,
-      "def": 440,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 3.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
     }
   ],
   "enemy_1071_dftman": [
@@ -2690,30 +2463,6 @@
       "atkRange": 0
     }
   ],
-  "enemy_1506_patrt": [
-    {
-      "hp": 45000,
-      "atk": 1600,
-      "def": 500,
-      "res": 45,
-      "mvSpd": 0.4,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 60000,
-      "atk": 2000,
-      "def": 500,
-      "res": 45,
-      "mvSpd": 0.4,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
   "enemy_1086_ltsodr": [
     {
       "hp": 3000,
@@ -2896,30 +2645,6 @@
       "atkRange": 0
     }
   ],
-  "enemy_1511_mdrock": [
-    {
-      "hp": 45000,
-      "atk": 800,
-      "def": 1000,
-      "res": 30,
-      "mvSpd": 0.6,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 55000,
-      "atk": 1000,
-      "def": 1000,
-      "res": 30,
-      "mvSpd": 0.6,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
   "enemy_1093_ccsbr": [
     {
       "hp": 2600,
@@ -3074,178 +2799,6 @@
       "erst": 0,
       "irst": 0,
       "atkRange": 0
-    }
-  ],
-  "enemy_1512_mcmstr": [
-    {
-      "hp": 40000,
-      "atk": 500,
-      "def": 1000,
-      "res": 20,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 60000,
-      "atk": 700,
-      "def": 1200,
-      "res": 20,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2001_duckmi": [
-    {
-      "hp": 18000,
-      "atk": 100,
-      "def": 200,
-      "res": 30,
-      "mvSpd": 0.4,
-      "atkInterval": 1,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 35000,
-      "atk": 100,
-      "def": 300,
-      "res": 30,
-      "mvSpd": 0.4,
-      "atkInterval": 1,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 45000,
-      "atk": 100,
-      "def": 400,
-      "res": 30,
-      "mvSpd": 0.4,
-      "atkInterval": 1,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2002_bearmi": [
-    {
-      "hp": 30000,
-      "atk": 2000,
-      "def": 200,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 70000,
-      "atk": 3000,
-      "def": 450,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 90000,
-      "atk": 4000,
-      "def": 550,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2003_rockman": [
-    {
-      "hp": 75000,
-      "atk": 1500,
-      "def": 600,
-      "res": 0,
-      "mvSpd": 0.5,
-      "atkInterval": 4.4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_2004_balloon": [
-    {
-      "hp": 58000,
-      "atk": 400,
-      "def": 280,
-      "res": 30,
-      "mvSpd": 0.8,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2005_axetro": [
-    {
-      "hp": 50000,
-      "atk": 500,
-      "def": 300,
-      "res": 30,
-      "mvSpd": 0.6,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_2006_flsnip": [
-    {
-      "hp": 40000,
-      "atk": 1200,
-      "def": 550,
-      "res": 40,
-      "mvSpd": 0.4,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 20
-    }
-  ],
-  "enemy_2007_flwitch": [
-    {
-      "hp": 27000,
-      "atk": 350,
-      "def": 1500,
-      "res": 80,
-      "mvSpd": 0.5,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.4
-    }
-  ],
-  "enemy_2008_flking": [
-    {
-      "hp": 60000,
-      "atk": 2000,
-      "def": 330,
-      "res": 55,
-      "mvSpd": 0.5,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
     }
   ],
   "enemy_1099_nbkght": [
@@ -3482,54 +3035,6 @@
       "atkRange": 0
     }
   ],
-  "enemy_1513_dekght": [
-    {
-      "hp": 40000,
-      "atk": 1200,
-      "def": 1200,
-      "res": 30,
-      "mvSpd": 0.65,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 60000,
-      "atk": 1400,
-      "def": 1200,
-      "res": 30,
-      "mvSpd": 0.65,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1513_dekght_2": [
-    {
-      "hp": 40000,
-      "atk": 500,
-      "def": 600,
-      "res": 70,
-      "mvSpd": 0.65,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    },
-    {
-      "hp": 60000,
-      "atk": 650,
-      "def": 600,
-      "res": 70,
-      "mvSpd": 0.65,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
   "enemy_1107_uoffcr": [
     {
       "hp": 3300,
@@ -3751,104 +3256,6 @@
       "atkRange": 0
     }
   ],
-  "enemy_1503_talula": [
-    {
-      "hp": 50000,
-      "atk": 1500,
-      "def": 700,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    },
-    {
-      "hp": 60000,
-      "atk": 1800,
-      "def": 700,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_1514_smephi": [
-    {
-      "hp": 60000,
-      "atk": 450,
-      "def": 450,
-      "res": 30,
-      "mvSpd": 0.1,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 3
-    },
-    {
-      "hp": 70000,
-      "atk": 550,
-      "def": 550,
-      "res": 40,
-      "mvSpd": 0.1,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 3
-    }
-  ],
-  "enemy_1515_bsnake": [
-    {
-      "hp": 50000,
-      "atk": 770,
-      "def": 800,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    },
-    {
-      "hp": 60000,
-      "atk": 1000,
-      "def": 800,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_3001_upeopl": [
-    {
-      "hp": 3500,
-      "atk": 0,
-      "def": 50,
-      "res": 0,
-      "mvSpd": 0.65,
-      "atkInterval": 0,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_3002_ftrtal": [
-    {
-      "hp": 15000,
-      "atk": 600,
-      "def": 350,
-      "res": 50,
-      "mvSpd": 0.45,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.5
-    }
-  ],
   "enemy_1116_liprr": [
     {
       "hp": 5500,
@@ -4003,30 +3410,6 @@
       "erst": 0,
       "irst": 0,
       "atkRange": 0
-    }
-  ],
-  "enemy_1516_jakill": [
-    {
-      "hp": 25000,
-      "atk": 700,
-      "def": 400,
-      "res": 20,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    },
-    {
-      "hp": 40000,
-      "atk": 800,
-      "def": 400,
-      "res": 20,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
     }
   ],
   "enemy_1122_sphond": [
@@ -4235,95 +3618,6 @@
       "erst": 0,
       "irst": 0,
       "atkRange": 1.9
-    }
-  ],
-  "enemy_1517_xi": [
-    {
-      "hp": 30000,
-      "atk": 500,
-      "def": 750,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    },
-    {
-      "hp": 40000,
-      "atk": 600,
-      "def": 800,
-      "res": 55,
-      "mvSpd": 0.5,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_4001_toxcar": [
-    {
-      "hp": 12000,
-      "atk": 500,
-      "def": 400,
-      "res": 30,
-      "mvSpd": 0.7,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_4001_toxcar_2": [
-    {
-      "hp": 15000,
-      "atk": 550,
-      "def": 500,
-      "res": 30,
-      "mvSpd": 0.7,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_4002_syokai": [
-    {
-      "hp": 5000,
-      "atk": 0,
-      "def": 100,
-      "res": 20,
-      "mvSpd": 0.7,
-      "atkInterval": 1,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_4002_syokai_2": [
-    {
-      "hp": 10000,
-      "atk": 0,
-      "def": 200,
-      "res": 30,
-      "mvSpd": 0.7,
-      "atkInterval": 1,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_4003_pbank": [
-    {
-      "hp": 7500,
-      "atk": 0,
-      "def": 250,
-      "res": 30,
-      "mvSpd": 1.9,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
     }
   ],
   "enemy_1130_infstr": [
@@ -4547,30 +3841,6 @@
       "atkRange": 1.5
     }
   ],
-  "enemy_1519_bgball": [
-    {
-      "hp": 50000,
-      "atk": 700,
-      "def": 500,
-      "res": 50,
-      "mvSpd": 0.1,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 70000,
-      "atk": 900,
-      "def": 500,
-      "res": 50,
-      "mvSpd": 0.1,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
   "enemy_1140_merhd": [
     {
       "hp": 2200,
@@ -4751,30 +4021,6 @@
       "erst": 0,
       "irst": 0,
       "atkRange": 2.5
-    }
-  ],
-  "enemy_1520_empgrd": [
-    {
-      "hp": 28000,
-      "atk": 600,
-      "def": 400,
-      "res": 40,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    },
-    {
-      "hp": 40000,
-      "atk": 700,
-      "def": 400,
-      "res": 40,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
     }
   ],
   "enemy_1147_dshond": [
@@ -4994,30 +4240,6 @@
       "erst": 0,
       "irst": 0,
       "atkRange": 0
-    }
-  ],
-  "enemy_1521_dslily": [
-    {
-      "hp": 100000,
-      "atk": 380,
-      "def": 500,
-      "res": 50,
-      "mvSpd": 0.1,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 99
-    },
-    {
-      "hp": 140000,
-      "atk": 450,
-      "def": 600,
-      "res": 60,
-      "mvSpd": 0.1,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 99
     }
   ],
   "enemy_1156_hymhr": [
@@ -5250,43 +4472,6 @@
       "erst": 0,
       "irst": 0,
       "atkRange": 0
-    }
-  ],
-  "enemy_3003_alymot": [
-    {
-      "hp": 2000,
-      "atk": 100,
-      "def": 100,
-      "res": 0,
-      "mvSpd": 0.65,
-      "atkInterval": 1,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1522_captan": [
-    {
-      "hp": 27000,
-      "atk": 1000,
-      "def": 750,
-      "res": 30,
-      "mvSpd": 1,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 3.5
-    },
-    {
-      "hp": 35000,
-      "atk": 1200,
-      "def": 850,
-      "res": 30,
-      "mvSpd": 1,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 3.5
     }
   ],
   "enemy_1165_duhond": [
@@ -5599,30 +4784,6 @@
       "erst": 0,
       "irst": 0,
       "atkRange": -1
-    }
-  ],
-  "enemy_1523_mandra": [
-    {
-      "hp": 50000,
-      "atk": 640,
-      "def": 520,
-      "res": 35,
-      "mvSpd": 0.4,
-      "atkInterval": 1.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.5
-    },
-    {
-      "hp": 65500,
-      "atk": 740,
-      "def": 650,
-      "res": 40,
-      "mvSpd": 0.45,
-      "atkInterval": 1.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.5
     }
   ],
   "enemy_1178_dscorp": [
@@ -5953,30 +5114,6 @@
       "atkRange": 0
     }
   ],
-  "enemy_1524_bldkgt": [
-    {
-      "hp": 30000,
-      "atk": 1750,
-      "def": 1000,
-      "res": 40,
-      "mvSpd": 0.6,
-      "atkInterval": 6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 50000,
-      "atk": 2200,
-      "def": 1200,
-      "res": 40,
-      "mvSpd": 0.6,
-      "atkInterval": 6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
   "enemy_1187_krghd": [
     {
       "hp": 3500,
@@ -6081,6 +5218,32 @@
       "atkRange": 15
     }
   ],
+  "enemy_1191_krgrg": [
+    {
+      "hp": 5000,
+      "atk": 600,
+      "def": 250,
+      "res": 50,
+      "mvSpd": 0.7,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1191_krgrg_2": [
+    {
+      "hp": 7000,
+      "atk": 800,
+      "def": 350,
+      "res": 50,
+      "mvSpd": 0.7,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
   "enemy_1192_krgscr": [
     {
       "hp": 5000,
@@ -6133,32 +5296,6 @@
       "atkRange": 0
     }
   ],
-  "enemy_1191_krgrg": [
-    {
-      "hp": 5000,
-      "atk": 600,
-      "def": 250,
-      "res": 50,
-      "mvSpd": 0.7,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1191_krgrg_2": [
-    {
-      "hp": 7000,
-      "atk": 800,
-      "def": 350,
-      "res": 50,
-      "mvSpd": 0.7,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
   "enemy_1194_krgmtr": [
     {
       "hp": 15000,
@@ -6183,186 +5320,6 @@
       "erst": 0,
       "irst": 0,
       "atkRange": 1.5
-    }
-  ],
-  "enemy_1525_blkswb": [
-    {
-      "hp": 28000,
-      "atk": 900,
-      "def": 600,
-      "res": 50,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 45000,
-      "atk": 1000,
-      "def": 800,
-      "res": 50,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2009_csaudc": [
-    {
-      "hp": 8000,
-      "atk": 750,
-      "def": 600,
-      "res": 30,
-      "mvSpd": 1.2,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2010_csdcr": [
-    {
-      "hp": 12000,
-      "atk": 500,
-      "def": 300,
-      "res": 60,
-      "mvSpd": 0.8,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_2011_csppt": [
-    {
-      "hp": 24000,
-      "atk": 1200,
-      "def": 300,
-      "res": 30,
-      "mvSpd": 0.5,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.3
-    }
-  ],
-  "enemy_2012_csbln": [
-    {
-      "hp": 4000,
-      "atk": 400,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 0.5,
-      "atkInterval": 1,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.25
-    }
-  ],
-  "enemy_2013_csbot": [
-    {
-      "hp": 40000,
-      "atk": 900,
-      "def": 800,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 1.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2014_csicer": [
-    {
-      "hp": 40000,
-      "atk": 700,
-      "def": 300,
-      "res": 30,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
-    }
-  ],
-  "enemy_2015_csicem": [
-    {
-      "hp": 60000,
-      "atk": 1200,
-      "def": 300,
-      "res": 30,
-      "mvSpd": 0.6,
-      "atkInterval": 6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2016_csphtm": [
-    {
-      "hp": 80000,
-      "atk": 1500,
-      "def": 600,
-      "res": 40,
-      "mvSpd": 0.6,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2017_csphts": [
-    {
-      "hp": 10000,
-      "atk": 750,
-      "def": 400,
-      "res": 20,
-      "mvSpd": 0.6,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2018_csdoll": [
-    {
-      "hp": 300000,
-      "atk": 800,
-      "def": 700,
-      "res": 60,
-      "mvSpd": 0.1,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 99
-    }
-  ],
-  "enemy_2019_cshost": [
-    {
-      "hp": 100000,
-      "atk": 1000,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 0.5,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_2020_cswrtr": [
-    {
-      "hp": 80000,
-      "atk": 800,
-      "def": 1000,
-      "res": 50,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
     }
   ],
   "enemy_1195_sfyin": [
@@ -6794,30 +5751,6 @@
       "atkRange": 0
     }
   ],
-  "enemy_1526_sfsui": [
-    {
-      "hp": 55000,
-      "atk": 1400,
-      "def": 550,
-      "res": 30,
-      "mvSpd": 0.1,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 75000,
-      "atk": 1600,
-      "def": 700,
-      "res": 40,
-      "mvSpd": 0.1,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
   "enemy_1212_mtrfol": [
     {
       "hp": 3500,
@@ -7021,30 +5954,6 @@
       "res": 60,
       "mvSpd": 0.8,
       "atkInterval": 2.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_1527_martyr": [
-    {
-      "hp": 27000,
-      "atk": 750,
-      "def": 550,
-      "res": 60,
-      "mvSpd": 0.5,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    },
-    {
-      "hp": 38000,
-      "atk": 900,
-      "def": 600,
-      "res": 60,
-      "mvSpd": 0.5,
-      "atkInterval": 5,
       "erst": 0,
       "irst": 0,
       "atkRange": 2.5
@@ -7310,30 +6219,6 @@
       "atkRange": -1
     }
   ],
-  "enemy_1528_manfri": [
-    {
-      "hp": 40000,
-      "atk": 1000,
-      "def": 600,
-      "res": 40,
-      "mvSpd": 0.5,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    },
-    {
-      "hp": 60000,
-      "atk": 1200,
-      "def": 600,
-      "res": 40,
-      "mvSpd": 0.5,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
   "enemy_1230_dsbudr": [
     {
       "hp": 7000,
@@ -7568,41 +6453,6 @@
       "atkRange": 1.5
     }
   ],
-  "enemy_1529_dsdevr": [
-    {
-      "hp": 10000,
-      "atk": 800,
-      "def": 700,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.8
-    },
-    {
-      "hp": 10000,
-      "atk": 800,
-      "def": 700,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.8
-    },
-    {
-      "hp": 14000,
-      "atk": 900,
-      "def": 700,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.8
-    }
-  ],
   "enemy_1238_ltmob": [
     {
       "hp": 3500,
@@ -7833,108 +6683,6 @@
       "erst": 0,
       "irst": 0,
       "atkRange": 2
-    }
-  ],
-  "enemy_1530_white": [
-    {
-      "hp": 60000,
-      "atk": 800,
-      "def": 400,
-      "res": 20,
-      "mvSpd": 0.4,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 100000,
-      "atk": 1000,
-      "def": 500,
-      "res": 20,
-      "mvSpd": 0.4,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_6001_trsgst": [
-    {
-      "hp": 22000,
-      "atk": 0,
-      "def": 700,
-      "res": 50,
-      "mvSpd": 1,
-      "atkInterval": 1,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_6002_trswlf": [
-    {
-      "hp": 19000,
-      "atk": 400,
-      "def": 400,
-      "res": 20,
-      "mvSpd": 0.9,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_6003_trsslm": [
-    {
-      "hp": 24000,
-      "atk": 150,
-      "def": 700,
-      "res": 50,
-      "mvSpd": 0.85,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_6004_pleslm": [
-    {
-      "hp": 60000,
-      "atk": 1000,
-      "def": 800,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_6005_llstone": [
-    {
-      "hp": 58000,
-      "atk": 1800,
-      "def": 1200,
-      "res": 50,
-      "mvSpd": 0.4,
-      "atkInterval": 7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_6006_fystone": [
-    {
-      "hp": 2000,
-      "atk": 0,
-      "def": 1000,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 1,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
     }
   ],
   "enemy_1249_lysdb": [
@@ -8169,30 +6917,6 @@
       "atkRange": 2
     }
   ],
-  "enemy_1531_bbrain": [
-    {
-      "hp": 37500,
-      "atk": 1200,
-      "def": 650,
-      "res": 50,
-      "mvSpd": 0.1,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 50000,
-      "atk": 1350,
-      "def": 750,
-      "res": 50,
-      "mvSpd": 0.1,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
   "enemy_1258_durman": [
     {
       "hp": 2800,
@@ -8375,6 +7099,3273 @@
       "atkRange": 0
     }
   ],
+  "enemy_1266_nhapos": [
+    {
+      "hp": 40000,
+      "atk": 2000,
+      "def": 1000,
+      "res": 30,
+      "mvSpd": 0.5,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1267_nhpbr": [
+    {
+      "hp": 4500,
+      "atk": 380,
+      "def": 100,
+      "res": 20,
+      "mvSpd": 0.8,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1267_nhpbr_2": [
+    {
+      "hp": 5500,
+      "atk": 450,
+      "def": 100,
+      "res": 20,
+      "mvSpd": 0.8,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1268_nhnrs": [
+    {
+      "hp": 6500,
+      "atk": 320,
+      "def": 200,
+      "res": 50,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_1268_nhnrs_2": [
+    {
+      "hp": 8000,
+      "atk": 380,
+      "def": 200,
+      "res": 50,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_1269_nhfly": [
+    {
+      "hp": 1200,
+      "atk": 750,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 0.6,
+      "atkInterval": 0,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1269_nhfly_2": [
+    {
+      "hp": 1550,
+      "atk": 1250,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 0.6,
+      "atkInterval": 0,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1270_nhstlk": [
+    {
+      "hp": 12000,
+      "atk": 550,
+      "def": 150,
+      "res": 20,
+      "mvSpd": 1.4,
+      "atkInterval": 1.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1270_nhstlk_2": [
+    {
+      "hp": 16000,
+      "atk": 700,
+      "def": 200,
+      "res": 20,
+      "mvSpd": 1.4,
+      "atkInterval": 1.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1271_nhkodo": [
+    {
+      "hp": 30000,
+      "atk": 1050,
+      "def": 0,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1271_nhkodo_2": [
+    {
+      "hp": 40000,
+      "atk": 1350,
+      "def": 0,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1272_nhtank": [
+    {
+      "hp": 12000,
+      "atk": 750,
+      "def": 750,
+      "res": 10,
+      "mvSpd": 0.7,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_1272_nhtank_2": [
+    {
+      "hp": 15000,
+      "atk": 850,
+      "def": 750,
+      "res": 10,
+      "mvSpd": 0.7,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_1273_stmgun": [
+    {
+      "hp": 15000,
+      "atk": 600,
+      "def": 1500,
+      "res": 10,
+      "mvSpd": 0.5,
+      "atkInterval": 6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 3
+    }
+  ],
+  "enemy_1273_stmgun_2": [
+    {
+      "hp": 18000,
+      "atk": 750,
+      "def": 1500,
+      "res": 10,
+      "mvSpd": 0.5,
+      "atkInterval": 6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 3
+    }
+  ],
+  "enemy_1274_stmram": [
+    {
+      "hp": 10000,
+      "atk": 650,
+      "def": 800,
+      "res": 20,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1274_stmram_2": [
+    {
+      "hp": 13500,
+      "atk": 750,
+      "def": 800,
+      "res": 20,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1275_dwlock": [
+    {
+      "hp": 12000,
+      "atk": 450,
+      "def": 250,
+      "res": 50,
+      "mvSpd": 0.8,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1275_dwlock_2": [
+    {
+      "hp": 14000,
+      "atk": 500,
+      "def": 250,
+      "res": 50,
+      "mvSpd": 0.8,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1276_telex": [
+    {
+      "hp": 50000,
+      "atk": 0,
+      "def": 3000,
+      "res": 90,
+      "mvSpd": 0.5,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1277_sgman": [
+    {
+      "hp": 3500,
+      "atk": 320,
+      "def": 120,
+      "res": 10,
+      "mvSpd": 1,
+      "atkInterval": 1.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1277_sgman_2": [
+    {
+      "hp": 4400,
+      "atk": 375,
+      "def": 180,
+      "res": 10,
+      "mvSpd": 1,
+      "atkInterval": 1.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1278_sgbow": [
+    {
+      "hp": 4000,
+      "atk": 300,
+      "def": 200,
+      "res": 10,
+      "mvSpd": 1,
+      "atkInterval": 2.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1278_sgbow_2": [
+    {
+      "hp": 5500,
+      "atk": 380,
+      "def": 200,
+      "res": 10,
+      "mvSpd": 1,
+      "atkInterval": 2.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1279_sgbdg": [
+    {
+      "hp": 9000,
+      "atk": 500,
+      "def": 900,
+      "res": 10,
+      "mvSpd": 0.5,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1279_sgbdg_2": [
+    {
+      "hp": 12000,
+      "atk": 600,
+      "def": 1100,
+      "res": 10,
+      "mvSpd": 0.5,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1280_sgmag": [
+    {
+      "hp": 4500,
+      "atk": 320,
+      "def": 250,
+      "res": 40,
+      "mvSpd": 0.8,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_1280_sgmag_2": [
+    {
+      "hp": 6000,
+      "atk": 400,
+      "def": 250,
+      "res": 40,
+      "mvSpd": 0.8,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1281_sgcar": [
+    {
+      "hp": 10000,
+      "atk": 900,
+      "def": 1000,
+      "res": 15,
+      "mvSpd": 1.2,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1281_sgcar_2": [
+    {
+      "hp": 18000,
+      "atk": 1100,
+      "def": 1300,
+      "res": 15,
+      "mvSpd": 1.2,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1282_sgelder": [
+    {
+      "hp": 7500,
+      "atk": 500,
+      "def": 500,
+      "res": 25,
+      "mvSpd": 0.7,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1282_sgelder_2": [
+    {
+      "hp": 9500,
+      "atk": 600,
+      "def": 500,
+      "res": 25,
+      "mvSpd": 0.7,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1283_sgkill": [
+    {
+      "hp": 12000,
+      "atk": 800,
+      "def": 800,
+      "res": 45,
+      "mvSpd": 0.9,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.8
+    }
+  ],
+  "enemy_1283_sgkill_2": [
+    {
+      "hp": 18000,
+      "atk": 1050,
+      "def": 800,
+      "res": 45,
+      "mvSpd": 0.9,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.8
+    }
+  ],
+  "enemy_1284_sgprst": [
+    {
+      "hp": 22000,
+      "atk": 900,
+      "def": 500,
+      "res": 40,
+      "mvSpd": 1,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.9
+    },
+    {
+      "hp": 30000,
+      "atk": 1100,
+      "def": 650,
+      "res": 40,
+      "mvSpd": 1,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.9
+    }
+  ],
+  "enemy_1285_sgwlf": [
+    {
+      "hp": 30000,
+      "atk": 0,
+      "def": 200,
+      "res": 0,
+      "mvSpd": 1,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.5
+    },
+    {
+      "hp": 50000,
+      "atk": 0,
+      "def": 200,
+      "res": 0,
+      "mvSpd": 1,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.5
+    }
+  ],
+  "enemy_1286_dumcy": [
+    {
+      "hp": 3500,
+      "atk": 330,
+      "def": 150,
+      "res": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 2.2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1286_dumcy_2": [
+    {
+      "hp": 4800,
+      "atk": 380,
+      "def": 200,
+      "res": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 2.2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1287_ducrb": [
+    {
+      "hp": 2000,
+      "atk": 350,
+      "def": 400,
+      "res": 30,
+      "mvSpd": 1,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1287_ducrb_2": [
+    {
+      "hp": 3000,
+      "atk": 420,
+      "def": 500,
+      "res": 50,
+      "mvSpd": 1,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1288_duskls": [
+    {
+      "hp": 5000,
+      "atk": 150,
+      "def": 50,
+      "res": 50,
+      "mvSpd": 0.7,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1288_duskls_2": [
+    {
+      "hp": 6000,
+      "atk": 180,
+      "def": 100,
+      "res": 50,
+      "mvSpd": 0.7,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1289_dubmb": [
+    {
+      "hp": 6000,
+      "atk": 500,
+      "def": 300,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 10
+    }
+  ],
+  "enemy_1289_dubmb_2": [
+    {
+      "hp": 7500,
+      "atk": 600,
+      "def": 350,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 10
+    }
+  ],
+  "enemy_1290_duflm": [
+    {
+      "hp": 7500,
+      "atk": 300,
+      "def": 300,
+      "res": 50,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_1290_duflm_2": [
+    {
+      "hp": 9000,
+      "atk": 400,
+      "def": 350,
+      "res": 50,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_1291_dusrch": [
+    {
+      "hp": 15000,
+      "atk": 600,
+      "def": 1300,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1291_dusrch_2": [
+    {
+      "hp": 20000,
+      "atk": 800,
+      "def": 1500,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1292_duskld": [
+    {
+      "hp": 10000,
+      "atk": 350,
+      "def": 550,
+      "res": 60,
+      "mvSpd": 0.5,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1292_duskld_2": [
+    {
+      "hp": 15000,
+      "atk": 450,
+      "def": 750,
+      "res": 60,
+      "mvSpd": 0.5,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1293_duswrd": [
+    {
+      "hp": 17000,
+      "atk": 650,
+      "def": 500,
+      "res": 40,
+      "mvSpd": 0.6,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1293_duswrd_2": [
+    {
+      "hp": 22000,
+      "atk": 750,
+      "def": 600,
+      "res": 40,
+      "mvSpd": 0.6,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1293_duswrd_3": [
+    {
+      "hp": 27000,
+      "atk": 800,
+      "def": 700,
+      "res": 40,
+      "mvSpd": 0.6,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1295_ymph": [
+    {
+      "hp": 6500,
+      "atk": 250,
+      "def": 50,
+      "res": 0,
+      "mvSpd": 1.5,
+      "atkInterval": 1.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1295_ymph_2": [
+    {
+      "hp": 8500,
+      "atk": 280,
+      "def": 80,
+      "res": 0,
+      "mvSpd": 1.5,
+      "atkInterval": 1.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1296_ymknif": [
+    {
+      "hp": 4500,
+      "atk": 400,
+      "def": 200,
+      "res": 20,
+      "mvSpd": 0.8,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.2
+    }
+  ],
+  "enemy_1296_ymknif_2": [
+    {
+      "hp": 6000,
+      "atk": 480,
+      "def": 200,
+      "res": 20,
+      "mvSpd": 0.8,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.2
+    }
+  ],
+  "enemy_1297_ymflag": [
+    {
+      "hp": 7500,
+      "atk": 350,
+      "def": 150,
+      "res": 20,
+      "mvSpd": 1.2,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.2
+    }
+  ],
+  "enemy_1297_ymflag_2": [
+    {
+      "hp": 11000,
+      "atk": 420,
+      "def": 250,
+      "res": 20,
+      "mvSpd": 1.2,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.2
+    }
+  ],
+  "enemy_1298_ymmonk": [
+    {
+      "hp": 12000,
+      "atk": 600,
+      "def": 800,
+      "res": 35,
+      "mvSpd": 0.7,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.2
+    }
+  ],
+  "enemy_1298_ymmonk_2": [
+    {
+      "hp": 15000,
+      "atk": 750,
+      "def": 1000,
+      "res": 35,
+      "mvSpd": 0.7,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.2
+    }
+  ],
+  "enemy_1299_ymkilr": [
+    {
+      "hp": 8500,
+      "atk": 800,
+      "def": 250,
+      "res": 20,
+      "mvSpd": 1.1,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.2
+    }
+  ],
+  "enemy_1299_ymkilr_2": [
+    {
+      "hp": 11000,
+      "atk": 1000,
+      "def": 300,
+      "res": 20,
+      "mvSpd": 1.1,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.2
+    }
+  ],
+  "enemy_1300_ymmir": [
+    {
+      "hp": 10000,
+      "atk": 400,
+      "def": 200,
+      "res": 40,
+      "mvSpd": 0.8,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1300_ymmir_2": [
+    {
+      "hp": 13000,
+      "atk": 500,
+      "def": 250,
+      "res": 40,
+      "mvSpd": 0.8,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1301_ymcnon": [
+    {
+      "hp": 15000,
+      "atk": 1000,
+      "def": 1200,
+      "res": 10,
+      "mvSpd": 0.8,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.2
+    }
+  ],
+  "enemy_1301_ymcnon_2": [
+    {
+      "hp": 18000,
+      "atk": 1200,
+      "def": 1200,
+      "res": 10,
+      "mvSpd": 0.8,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.2
+    }
+  ],
+  "enemy_1302_ymtro": [
+    {
+      "hp": 22500,
+      "atk": 800,
+      "def": 1200,
+      "res": 10,
+      "mvSpd": 0.3,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.2
+    }
+  ],
+  "enemy_1302_ymtro_2": [
+    {
+      "hp": 30000,
+      "atk": 1000,
+      "def": 1500,
+      "res": 10,
+      "mvSpd": 0.3,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.2
+    }
+  ],
+  "enemy_1303_mhshep": [
+    {
+      "hp": 5000,
+      "atk": 250,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 2.3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1303_mhshep_2": [
+    {
+      "hp": 6500,
+      "atk": 320,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 2.3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1304_mhwolf": [
+    {
+      "hp": 4500,
+      "atk": 310,
+      "def": 0,
+      "res": 5,
+      "mvSpd": 1.5,
+      "atkInterval": 1.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1304_mhwolf_2": [
+    {
+      "hp": 6500,
+      "atk": 380,
+      "def": 0,
+      "res": 5,
+      "mvSpd": 1.5,
+      "atkInterval": 1.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1305_mhslim": [
+    {
+      "hp": 1200,
+      "atk": 50,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.8
+    }
+  ],
+  "enemy_1305_mhslim_2": [
+    {
+      "hp": 1800,
+      "atk": 80,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.8
+    }
+  ],
+  "enemy_1306_mhtrtl": [
+    {
+      "hp": 14000,
+      "atk": 600,
+      "def": 120,
+      "res": 0,
+      "mvSpd": 0.7,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1306_mhtrtl_2": [
+    {
+      "hp": 18000,
+      "atk": 680,
+      "def": 130,
+      "res": 0,
+      "mvSpd": 0.7,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1307_mhrhcr": [
+    {
+      "hp": 12000,
+      "atk": 600,
+      "def": 140,
+      "res": 0,
+      "mvSpd": 0.7,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1307_mhrhcr_2": [
+    {
+      "hp": 16000,
+      "atk": 750,
+      "def": 160,
+      "res": 0,
+      "mvSpd": 0.7,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1308_mheagl": [
+    {
+      "hp": 9000,
+      "atk": 450,
+      "def": 50,
+      "res": 5,
+      "mvSpd": 0.65,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1308_mheagl_2": [
+    {
+      "hp": 12000,
+      "atk": 550,
+      "def": 80,
+      "res": 5,
+      "mvSpd": 0.65,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1309_mhboar": [
+    {
+      "hp": 25000,
+      "atk": 600,
+      "def": 20,
+      "res": 0,
+      "mvSpd": 0.35,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1309_mhboar_2": [
+    {
+      "hp": 32000,
+      "atk": 700,
+      "def": 50,
+      "res": 0,
+      "mvSpd": 0.4,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1310_mhprpn": [
+    {
+      "hp": 25000,
+      "atk": 580,
+      "def": 130,
+      "res": 5,
+      "mvSpd": 0.7,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0.5
+    }
+  ],
+  "enemy_1310_mhprpn_2": [
+    {
+      "hp": 35000,
+      "atk": 720,
+      "def": 150,
+      "res": 8,
+      "mvSpd": 0.3,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0.5
+    }
+  ],
+  "enemy_1311_mhkryk": [
+    {
+      "hp": 20000,
+      "atk": 1090,
+      "def": 480,
+      "res": 0,
+      "mvSpd": 0.75,
+      "atkInterval": 1.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1311_mhkryk_2": [
+    {
+      "hp": 27000,
+      "atk": 1260,
+      "def": 550,
+      "res": 1,
+      "mvSpd": 0.75,
+      "atkInterval": 1.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1313_wdfmr": [
+    {
+      "hp": 5000,
+      "atk": 250,
+      "def": 50,
+      "res": 0,
+      "mvSpd": 0.65,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_1313_wdfmr_2": [
+    {
+      "hp": 5000,
+      "atk": 250,
+      "def": 50,
+      "res": 0,
+      "mvSpd": 0.65,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_1314_wdnjd": [
+    {
+      "hp": 6500,
+      "atk": 500,
+      "def": 300,
+      "res": 20,
+      "mvSpd": 0.65,
+      "atkInterval": 2.3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1314_wdnjd_2": [
+    {
+      "hp": 8000,
+      "atk": 600,
+      "def": 350,
+      "res": 20,
+      "mvSpd": 0.65,
+      "atkInterval": 2.3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1315_wdyjd": [
+    {
+      "hp": 5500,
+      "atk": 700,
+      "def": 150,
+      "res": 35,
+      "mvSpd": 0.65,
+      "atkInterval": 3.3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1315_wdyjd_2": [
+    {
+      "hp": 6500,
+      "atk": 800,
+      "def": 200,
+      "res": 35,
+      "mvSpd": 0.65,
+      "atkInterval": 3.3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1316_wdpjd": [
+    {
+      "hp": 12000,
+      "atk": 1000,
+      "def": 1200,
+      "res": 0,
+      "mvSpd": 0.35,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1316_wdpjd_2": [
+    {
+      "hp": 15000,
+      "atk": 1200,
+      "def": 1500,
+      "res": 0,
+      "mvSpd": 0.35,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1317_wdexg": [
+    {
+      "hp": 6000,
+      "atk": 600,
+      "def": 300,
+      "res": 35,
+      "mvSpd": 0.8,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1317_wdexg_2": [
+    {
+      "hp": 7500,
+      "atk": 650,
+      "def": 350,
+      "res": 35,
+      "mvSpd": 0.8,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1318_wdsmgc": [
+    {
+      "hp": 9000,
+      "atk": 550,
+      "def": 200,
+      "res": 50,
+      "mvSpd": 0.7,
+      "atkInterval": 3.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1318_wdsmgc_2": [
+    {
+      "hp": 12000,
+      "atk": 650,
+      "def": 250,
+      "res": 60,
+      "mvSpd": 0.7,
+      "atkInterval": 3.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1319_wdfmpm": [
+    {
+      "hp": 10000,
+      "atk": 250,
+      "def": 100,
+      "res": 50,
+      "mvSpd": 0.6,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1319_wdfmpm_2": [
+    {
+      "hp": 12000,
+      "atk": 300,
+      "def": 150,
+      "res": 50,
+      "mvSpd": 0.6,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1320_wdrrl": [
+    {
+      "hp": 20000,
+      "atk": 800,
+      "def": 700,
+      "res": 20,
+      "mvSpd": 0.8,
+      "atkInterval": 2.9,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1320_wdrrl_2": [
+    {
+      "hp": 25000,
+      "atk": 1200,
+      "def": 800,
+      "res": 20,
+      "mvSpd": 0.8,
+      "atkInterval": 2.9,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1321_wdarft": [
+    {
+      "hp": 30000,
+      "atk": 500,
+      "def": 250,
+      "res": 30,
+      "mvSpd": 0.3,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1321_wdarft_2": [
+    {
+      "hp": 35000,
+      "atk": 500,
+      "def": 300,
+      "res": 35,
+      "mvSpd": 0.3,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1322_wdgyht": [
+    {
+      "hp": 36000,
+      "atk": 2250,
+      "def": 500,
+      "res": 35,
+      "mvSpd": 0.7,
+      "atkInterval": 6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1322_wdgyht_2": [
+    {
+      "hp": 15000,
+      "atk": 1800,
+      "def": 375,
+      "res": 30,
+      "mvSpd": 0.7,
+      "atkInterval": 6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1323_wdbshd": [
+    {
+      "hp": 3500,
+      "atk": 250,
+      "def": 300,
+      "res": 50,
+      "mvSpd": 0.2,
+      "atkInterval": 1.9,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0.5
+    },
+    {
+      "hp": 5000,
+      "atk": 300,
+      "def": 300,
+      "res": 50,
+      "mvSpd": 0.2,
+      "atkInterval": 1.9,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0.5
+    }
+  ],
+  "enemy_1325_cbgpro": [
+    {
+      "hp": 3800,
+      "atk": 290,
+      "def": 0,
+      "res": 30,
+      "mvSpd": 1.7,
+      "atkInterval": 1.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1325_cbgpro_2": [
+    {
+      "hp": 4600,
+      "atk": 360,
+      "def": 0,
+      "res": 30,
+      "mvSpd": 1.7,
+      "atkInterval": 1.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1326_cbagen": [
+    {
+      "hp": 5800,
+      "atk": 400,
+      "def": 150,
+      "res": 40,
+      "mvSpd": 1.2,
+      "atkInterval": 1.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1326_cbagen_2": [
+    {
+      "hp": 7800,
+      "atk": 500,
+      "def": 170,
+      "res": 40,
+      "mvSpd": 1.2,
+      "atkInterval": 1.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1327_cbrokt": [
+    {
+      "hp": 5750,
+      "atk": 350,
+      "def": 170,
+      "res": 40,
+      "mvSpd": 0.8,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.4
+    }
+  ],
+  "enemy_1327_cbrokt_2": [
+    {
+      "hp": 8000,
+      "atk": 500,
+      "def": 200,
+      "res": 40,
+      "mvSpd": 0.8,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.4
+    }
+  ],
+  "enemy_1328_cbjedi": [
+    {
+      "hp": 10000,
+      "atk": 700,
+      "def": 550,
+      "res": 50,
+      "mvSpd": 0.75,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1328_cbjedi_2": [
+    {
+      "hp": 14000,
+      "atk": 800,
+      "def": 650,
+      "res": 50,
+      "mvSpd": 0.75,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1329_cbshld": [
+    {
+      "hp": 10000,
+      "atk": 700,
+      "def": 3300,
+      "res": 60,
+      "mvSpd": 0.75,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1329_cbshld_2": [
+    {
+      "hp": 13000,
+      "atk": 900,
+      "def": 3500,
+      "res": 60,
+      "mvSpd": 0.75,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1330_cbrush": [
+    {
+      "hp": 12000,
+      "atk": 1000,
+      "def": 1100,
+      "res": 0,
+      "mvSpd": 1.1,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1330_cbrush_2": [
+    {
+      "hp": 14000,
+      "atk": 1200,
+      "def": 1300,
+      "res": 0,
+      "mvSpd": 1.1,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1331_cbsisy": [
+    {
+      "hp": 15000,
+      "atk": 190,
+      "def": 800,
+      "res": 10,
+      "mvSpd": 0.8,
+      "atkInterval": 0.6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1331_cbsisy_2": [
+    {
+      "hp": 20000,
+      "atk": 250,
+      "def": 900,
+      "res": 10,
+      "mvSpd": 0.8,
+      "atkInterval": 0.6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1332_cbterm": [
+    {
+      "hp": 20000,
+      "atk": 1200,
+      "def": 4500,
+      "res": 75,
+      "mvSpd": 0.8,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.4
+    }
+  ],
+  "enemy_1332_cbterm_2": [
+    {
+      "hp": 22000,
+      "atk": 1500,
+      "def": 4800,
+      "res": 90,
+      "mvSpd": 0.8,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.4
+    }
+  ],
+  "enemy_1333_cbbgen": [
+    {
+      "hp": 5500,
+      "atk": 600,
+      "def": 300,
+      "res": 40,
+      "mvSpd": 1.2,
+      "atkInterval": 1.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1333_cbbgen_2": [
+    {
+      "hp": 8500,
+      "atk": 600,
+      "def": 400,
+      "res": 40,
+      "mvSpd": 1.2,
+      "atkInterval": 1.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1335_bldrat": [
+    {
+      "hp": 2200,
+      "atk": 300,
+      "def": 100,
+      "res": 0,
+      "mvSpd": 1.7,
+      "atkInterval": 1.4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1335_bldrat_2": [
+    {
+      "hp": 3500,
+      "atk": 350,
+      "def": 120,
+      "res": 0,
+      "mvSpd": 1.7,
+      "atkInterval": 1.4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1336_bldbat": [
+    {
+      "hp": 3500,
+      "atk": 150,
+      "def": 120,
+      "res": 20,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.5
+    }
+  ],
+  "enemy_1336_bldbat_2": [
+    {
+      "hp": 4500,
+      "atk": 200,
+      "def": 150,
+      "res": 20,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.5
+    }
+  ],
+  "enemy_1337_bhrknf": [
+    {
+      "hp": 5500,
+      "atk": 350,
+      "def": 400,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1337_bhrknf_2": [
+    {
+      "hp": 7000,
+      "atk": 450,
+      "def": 450,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1338_bhrjst": [
+    {
+      "hp": 5300,
+      "atk": 500,
+      "def": 330,
+      "res": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1338_bhrjst_2": [
+    {
+      "hp": 7300,
+      "atk": 600,
+      "def": 350,
+      "res": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1339_bhrgrd": [
+    {
+      "hp": 20000,
+      "atk": 500,
+      "def": 800,
+      "res": 0,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1339_bhrgrd_2": [
+    {
+      "hp": 25000,
+      "atk": 500,
+      "def": 1000,
+      "res": 0,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1340_bthtbw": [
+    {
+      "hp": 15000,
+      "atk": 500,
+      "def": 500,
+      "res": 30,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.8
+    }
+  ],
+  "enemy_1340_bthtbw_2": [
+    {
+      "hp": 20000,
+      "atk": 600,
+      "def": 600,
+      "res": 30,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.8
+    }
+  ],
+  "enemy_1341_bthtms": [
+    {
+      "hp": 15000,
+      "atk": 650,
+      "def": 500,
+      "res": 50,
+      "mvSpd": 0.8,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1341_bthtms_2": [
+    {
+      "hp": 20000,
+      "atk": 750,
+      "def": 600,
+      "res": 50,
+      "mvSpd": 0.8,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1342_frtuna": [
+    {
+      "hp": 35000,
+      "atk": 700,
+      "def": 400,
+      "res": 50,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.8
+    }
+  ],
+  "enemy_1344_ddlamb": [
+    {
+      "hp": 5000,
+      "atk": 500,
+      "def": 150,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 3.2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1344_ddlamb_2": [
+    {
+      "hp": 6500,
+      "atk": 600,
+      "def": 200,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 3.2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1345_tplamb": [
+    {
+      "hp": 5000,
+      "atk": 300,
+      "def": 100,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1345_tplamb_2": [
+    {
+      "hp": 6000,
+      "atk": 380,
+      "def": 150,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1346_ynshp": [
+    {
+      "hp": 8000,
+      "atk": 750,
+      "def": 250,
+      "res": 20,
+      "mvSpd": 1.1,
+      "atkInterval": 3.2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1346_ynshp_2": [
+    {
+      "hp": 10000,
+      "atk": 900,
+      "def": 300,
+      "res": 20,
+      "mvSpd": 1.1,
+      "atkInterval": 3.2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1347_fyshp": [
+    {
+      "hp": 18000,
+      "atk": 550,
+      "def": 50,
+      "res": 20,
+      "mvSpd": 0.35,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1347_fyshp_2": [
+    {
+      "hp": 25000,
+      "atk": 650,
+      "def": 100,
+      "res": 25,
+      "mvSpd": 0.35,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1348_rllamb": [
+    {
+      "hp": 5000,
+      "atk": 1000,
+      "def": 250,
+      "res": 0,
+      "mvSpd": 1.5,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1348_rllamb_2": [
+    {
+      "hp": 6000,
+      "atk": 1250,
+      "def": 300,
+      "res": 0,
+      "mvSpd": 1.5,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1349_rckshp": [
+    {
+      "hp": 15000,
+      "atk": 1200,
+      "def": 1200,
+      "res": 20,
+      "mvSpd": 0.5,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1349_rckshp_2": [
+    {
+      "hp": 18000,
+      "atk": 1500,
+      "def": 1500,
+      "res": 25,
+      "mvSpd": 0.5,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1350_mgcshp": [
+    {
+      "hp": 7000,
+      "atk": 380,
+      "def": 250,
+      "res": 50,
+      "mvSpd": 0.7,
+      "atkInterval": 3.2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 3.5
+    }
+  ],
+  "enemy_1350_mgcshp_2": [
+    {
+      "hp": 9000,
+      "atk": 550,
+      "def": 280,
+      "res": 60,
+      "mvSpd": 0.7,
+      "atkInterval": 3.2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 3.5
+    }
+  ],
+  "enemy_1351_yhhshp": [
+    {
+      "hp": 500,
+      "atk": 500,
+      "def": 50,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_1352_eslime": [
+    {
+      "hp": 2000,
+      "atk": 90,
+      "def": 50,
+      "res": 10,
+      "mvSpd": 1,
+      "atkInterval": 1.7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1352_eslime_2": [
+    {
+      "hp": 3500,
+      "atk": 150,
+      "def": 50,
+      "res": 15,
+      "mvSpd": 1,
+      "atkInterval": 1.7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1353_esabr": [
+    {
+      "hp": 4500,
+      "atk": 250,
+      "def": 100,
+      "res": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1353_esabr_2": [
+    {
+      "hp": 6000,
+      "atk": 300,
+      "def": 150,
+      "res": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1354_eghost": [
+    {
+      "hp": 5000,
+      "atk": 100,
+      "def": 120,
+      "res": 10,
+      "mvSpd": 1.2,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1354_eghost_2": [
+    {
+      "hp": 7000,
+      "atk": 100,
+      "def": 180,
+      "res": 10,
+      "mvSpd": 1.2,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1355_mrfly": [
+    {
+      "hp": 6000,
+      "atk": 0,
+      "def": 80,
+      "res": 40,
+      "mvSpd": 1.2,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1355_mrfly_2": [
+    {
+      "hp": 10000,
+      "atk": 0,
+      "def": 80,
+      "res": 50,
+      "mvSpd": 1.2,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1356_egun": [
+    {
+      "hp": 9000,
+      "atk": 200,
+      "def": 80,
+      "res": 10,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_1356_egun_2": [
+    {
+      "hp": 12000,
+      "atk": 250,
+      "def": 120,
+      "res": 10,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_1357_erob": [
+    {
+      "hp": 16000,
+      "atk": 500,
+      "def": 250,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 2.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1357_erob_2": [
+    {
+      "hp": 20000,
+      "atk": 600,
+      "def": 350,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 2.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1358_esheld": [
+    {
+      "hp": 12000,
+      "atk": 300,
+      "def": 600,
+      "res": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1358_esheld_2": [
+    {
+      "hp": 15000,
+      "atk": 400,
+      "def": 700,
+      "res": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1359_ekulsr": [
+    {
+      "hp": 20000,
+      "atk": 400,
+      "def": 200,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.6
+    }
+  ],
+  "enemy_1359_ekulsr_2": [
+    {
+      "hp": 25000,
+      "atk": 550,
+      "def": 300,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.6
+    }
+  ],
+  "enemy_1360_dfello": [
+    {
+      "hp": 4000,
+      "atk": 100,
+      "def": 200,
+      "res": 20,
+      "mvSpd": 0.8,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1
+    }
+  ],
+  "enemy_1361_dthrow": [
+    {
+      "hp": 6000,
+      "atk": 450,
+      "def": 150,
+      "res": 40,
+      "mvSpd": 0.8,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1361_dthrow_2": [
+    {
+      "hp": 8000,
+      "atk": 550,
+      "def": 150,
+      "res": 40,
+      "mvSpd": 0.8,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1362_dfat": [
+    {
+      "hp": 25000,
+      "atk": 1200,
+      "def": 100,
+      "res": 40,
+      "mvSpd": 0.7,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_1362_dfat_2": [
+    {
+      "hp": 35000,
+      "atk": 1500,
+      "def": 100,
+      "res": 40,
+      "mvSpd": 0.7,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_1363_spnshd": [
+    {
+      "hp": 12000,
+      "atk": 900,
+      "def": 1200,
+      "res": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 3.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_1363_spnshd_2": [
+    {
+      "hp": 15000,
+      "atk": 1100,
+      "def": 1500,
+      "res": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 3.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_1364_spnaxe": [
+    {
+      "hp": 20000,
+      "atk": 900,
+      "def": 900,
+      "res": 20,
+      "mvSpd": 0.75,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.3
+    }
+  ],
+  "enemy_1364_spnaxe_2": [
+    {
+      "hp": 25000,
+      "atk": 1200,
+      "def": 1200,
+      "res": 20,
+      "mvSpd": 0.75,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.3
+    }
+  ],
+  "enemy_1365_spnwiz": [
+    {
+      "hp": 5000,
+      "atk": 350,
+      "def": 200,
+      "res": 60,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1365_spnwiz_2": [
+    {
+      "hp": 7000,
+      "atk": 420,
+      "def": 300,
+      "res": 60,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1366_dcolle": [
+    {
+      "hp": 10000,
+      "atk": 100,
+      "def": 350,
+      "res": 50,
+      "mvSpd": 1,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_1366_dcolle_2": [
+    {
+      "hp": 15000,
+      "atk": 100,
+      "def": 400,
+      "res": 50,
+      "mvSpd": 1,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_1367_dseed": [
+    {
+      "hp": 3000,
+      "atk": 100,
+      "def": 3000,
+      "res": 90,
+      "mvSpd": 1,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1
+    }
+  ],
+  "enemy_1368_spilot": [
+    {
+      "hp": 30000,
+      "atk": 800,
+      "def": 800,
+      "res": 50,
+      "mvSpd": 0.3,
+      "atkInterval": 3.7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1369_bmbcar1": [
+    {
+      "hp": 10000,
+      "atk": 500,
+      "def": 200,
+      "res": 0,
+      "mvSpd": 0.4,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.7
+    }
+  ],
+  "enemy_1500_skulsr": [
+    {
+      "hp": 10500,
+      "atk": 1000,
+      "def": 150,
+      "res": 30,
+      "mvSpd": 0.6,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.6
+    },
+    {
+      "hp": 30000,
+      "atk": 1300,
+      "def": 240,
+      "res": 30,
+      "mvSpd": 0.6,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.6
+    },
+    {
+      "hp": 80000,
+      "atk": 1950,
+      "def": 400,
+      "res": 30,
+      "mvSpd": 0.6,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.6
+    }
+  ],
+  "enemy_1501_demonk": [
+    {
+      "hp": 15000,
+      "atk": 700,
+      "def": 250,
+      "res": 35,
+      "mvSpd": 0.78,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.35
+    },
+    {
+      "hp": 23000,
+      "atk": 950,
+      "def": 250,
+      "res": 35,
+      "mvSpd": 0.78,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.35
+    }
+  ],
+  "enemy_1502_crowns": [
+    {
+      "hp": 6000,
+      "atk": 400,
+      "def": 120,
+      "res": 50,
+      "mvSpd": 1.4,
+      "atkInterval": 2.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 10000,
+      "atk": 550,
+      "def": 150,
+      "res": 50,
+      "mvSpd": 1.4,
+      "atkInterval": 2.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 20000,
+      "atk": 700,
+      "def": 250,
+      "res": 50,
+      "mvSpd": 1.4,
+      "atkInterval": 2.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1503_talula": [
+    {
+      "hp": 50000,
+      "atk": 1500,
+      "def": 700,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    },
+    {
+      "hp": 60000,
+      "atk": 1800,
+      "def": 700,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1504_cqbw": [
+    {
+      "hp": 10000,
+      "atk": 470,
+      "def": 100,
+      "res": 50,
+      "mvSpd": 1.2,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1505_frstar": [
+    {
+      "hp": 25000,
+      "atk": 420,
+      "def": 250,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 3.7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    },
+    {
+      "hp": 35000,
+      "atk": 620,
+      "def": 350,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 3.7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1506_patrt": [
+    {
+      "hp": 45000,
+      "atk": 1600,
+      "def": 500,
+      "res": 45,
+      "mvSpd": 0.4,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 60000,
+      "atk": 2000,
+      "def": 500,
+      "res": 45,
+      "mvSpd": 0.4,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1507_mephi": [
+    {
+      "hp": 28000,
+      "atk": 500,
+      "def": 200,
+      "res": 60,
+      "mvSpd": 0.5,
+      "atkInterval": 6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 20
+    },
+    {
+      "hp": 60000,
+      "atk": 1000,
+      "def": 300,
+      "res": 60,
+      "mvSpd": 0.5,
+      "atkInterval": 6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 20
+    }
+  ],
+  "enemy_1508_faust": [
+    {
+      "hp": 37000,
+      "atk": 1000,
+      "def": 350,
+      "res": 35,
+      "mvSpd": 0.5,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 20
+    },
+    {
+      "hp": 50000,
+      "atk": 1200,
+      "def": 350,
+      "res": 35,
+      "mvSpd": 0.5,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 20
+    }
+  ],
+  "enemy_1509_mousek": [
+    {
+      "hp": 22000,
+      "atk": 470,
+      "def": 350,
+      "res": 30,
+      "mvSpd": 0.6,
+      "atkInterval": 3.4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    },
+    {
+      "hp": 36000,
+      "atk": 590,
+      "def": 350,
+      "res": 30,
+      "mvSpd": 0.6,
+      "atkInterval": 3.4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1510_frstar2": [
+    {
+      "hp": 30000,
+      "atk": 440,
+      "def": 380,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 3.7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    },
+    {
+      "hp": 45000,
+      "atk": 530,
+      "def": 440,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 3.7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1511_mdrock": [
+    {
+      "hp": 45000,
+      "atk": 800,
+      "def": 1000,
+      "res": 30,
+      "mvSpd": 0.6,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 55000,
+      "atk": 1000,
+      "def": 1000,
+      "res": 30,
+      "mvSpd": 0.6,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1512_mcmstr": [
+    {
+      "hp": 40000,
+      "atk": 500,
+      "def": 1000,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 60000,
+      "atk": 700,
+      "def": 1200,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1513_dekght": [
+    {
+      "hp": 40000,
+      "atk": 1200,
+      "def": 1200,
+      "res": 30,
+      "mvSpd": 0.65,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 60000,
+      "atk": 1400,
+      "def": 1200,
+      "res": 30,
+      "mvSpd": 0.65,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1513_dekght_2": [
+    {
+      "hp": 40000,
+      "atk": 500,
+      "def": 600,
+      "res": 70,
+      "mvSpd": 0.65,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    },
+    {
+      "hp": 60000,
+      "atk": 650,
+      "def": 600,
+      "res": 70,
+      "mvSpd": 0.65,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1514_smephi": [
+    {
+      "hp": 60000,
+      "atk": 450,
+      "def": 450,
+      "res": 30,
+      "mvSpd": 0.1,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 3
+    },
+    {
+      "hp": 70000,
+      "atk": 550,
+      "def": 550,
+      "res": 40,
+      "mvSpd": 0.1,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 3
+    }
+  ],
+  "enemy_1515_bsnake": [
+    {
+      "hp": 50000,
+      "atk": 770,
+      "def": 800,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    },
+    {
+      "hp": 60000,
+      "atk": 1000,
+      "def": 800,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1516_jakill": [
+    {
+      "hp": 25000,
+      "atk": 700,
+      "def": 400,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    },
+    {
+      "hp": 40000,
+      "atk": 800,
+      "def": 400,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1517_xi": [
+    {
+      "hp": 30000,
+      "atk": 500,
+      "def": 750,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    },
+    {
+      "hp": 40000,
+      "atk": 600,
+      "def": 800,
+      "res": 55,
+      "mvSpd": 0.5,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1519_bgball": [
+    {
+      "hp": 50000,
+      "atk": 700,
+      "def": 500,
+      "res": 50,
+      "mvSpd": 0.1,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 70000,
+      "atk": 900,
+      "def": 500,
+      "res": 50,
+      "mvSpd": 0.1,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1520_empgrd": [
+    {
+      "hp": 28000,
+      "atk": 600,
+      "def": 400,
+      "res": 40,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    },
+    {
+      "hp": 40000,
+      "atk": 700,
+      "def": 400,
+      "res": 40,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1521_dslily": [
+    {
+      "hp": 100000,
+      "atk": 380,
+      "def": 500,
+      "res": 50,
+      "mvSpd": 0.1,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 99
+    },
+    {
+      "hp": 140000,
+      "atk": 450,
+      "def": 600,
+      "res": 60,
+      "mvSpd": 0.1,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 99
+    }
+  ],
+  "enemy_1522_captan": [
+    {
+      "hp": 27000,
+      "atk": 1000,
+      "def": 750,
+      "res": 30,
+      "mvSpd": 1,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 3.5
+    },
+    {
+      "hp": 35000,
+      "atk": 1200,
+      "def": 850,
+      "res": 30,
+      "mvSpd": 1,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 3.5
+    }
+  ],
+  "enemy_1523_mandra": [
+    {
+      "hp": 50000,
+      "atk": 640,
+      "def": 520,
+      "res": 35,
+      "mvSpd": 0.4,
+      "atkInterval": 1.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.5
+    },
+    {
+      "hp": 65500,
+      "atk": 740,
+      "def": 650,
+      "res": 40,
+      "mvSpd": 0.45,
+      "atkInterval": 1.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.5
+    }
+  ],
+  "enemy_1524_bldkgt": [
+    {
+      "hp": 30000,
+      "atk": 1750,
+      "def": 1000,
+      "res": 40,
+      "mvSpd": 0.6,
+      "atkInterval": 6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 50000,
+      "atk": 2200,
+      "def": 1200,
+      "res": 40,
+      "mvSpd": 0.6,
+      "atkInterval": 6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1525_blkswb": [
+    {
+      "hp": 28000,
+      "atk": 900,
+      "def": 600,
+      "res": 50,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 45000,
+      "atk": 1000,
+      "def": 800,
+      "res": 50,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1526_sfsui": [
+    {
+      "hp": 55000,
+      "atk": 1400,
+      "def": 550,
+      "res": 30,
+      "mvSpd": 0.1,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 75000,
+      "atk": 1600,
+      "def": 700,
+      "res": 40,
+      "mvSpd": 0.1,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1527_martyr": [
+    {
+      "hp": 27000,
+      "atk": 750,
+      "def": 550,
+      "res": 60,
+      "mvSpd": 0.5,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    },
+    {
+      "hp": 38000,
+      "atk": 900,
+      "def": 600,
+      "res": 60,
+      "mvSpd": 0.5,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1528_manfri": [
+    {
+      "hp": 40000,
+      "atk": 1000,
+      "def": 600,
+      "res": 40,
+      "mvSpd": 0.5,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    },
+    {
+      "hp": 60000,
+      "atk": 1200,
+      "def": 600,
+      "res": 40,
+      "mvSpd": 0.5,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1529_dsdevr": [
+    {
+      "hp": 10000,
+      "atk": 800,
+      "def": 700,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.8
+    },
+    {
+      "hp": 10000,
+      "atk": 800,
+      "def": 700,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.8
+    },
+    {
+      "hp": 14000,
+      "atk": 900,
+      "def": 700,
+      "res": 0,
+      "mvSpd": 0.8,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.8
+    }
+  ],
+  "enemy_1530_white": [
+    {
+      "hp": 60000,
+      "atk": 800,
+      "def": 400,
+      "res": 20,
+      "mvSpd": 0.4,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 100000,
+      "atk": 1000,
+      "def": 500,
+      "res": 20,
+      "mvSpd": 0.4,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1531_bbrain": [
+    {
+      "hp": 37500,
+      "atk": 1200,
+      "def": 650,
+      "res": 50,
+      "mvSpd": 0.1,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 50000,
+      "atk": 1350,
+      "def": 750,
+      "res": 50,
+      "mvSpd": 0.1,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
   "enemy_1532_minima": [
     {
       "hp": 55000,
@@ -8399,27 +10390,619 @@
       "atkRange": 2.5
     }
   ],
-  "enemy_6007_mtslm": [
+  "enemy_1533_stmkgt": [
+    {
+      "hp": 65000,
+      "atk": 1600,
+      "def": 2000,
+      "res": 40,
+      "mvSpd": 0.5,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 80000,
+      "atk": 1800,
+      "def": 2400,
+      "res": 40,
+      "mvSpd": 0.5,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1535_wlfmster": [
+    {
+      "hp": 35000,
+      "atk": 800,
+      "def": 1000,
+      "res": 60,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
     {
       "hp": 50000,
       "atk": 1000,
-      "def": 1500,
-      "res": 40,
+      "def": 1300,
+      "res": 60,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1536_ncrmcr": [
+    {
+      "hp": 30000,
+      "atk": 800,
+      "def": 750,
+      "res": 60,
       "mvSpd": 0.5,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    },
+    {
+      "hp": 50000,
+      "atk": 1000,
+      "def": 800,
+      "res": 60,
+      "mvSpd": 0.5,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1537_mhrors": [
+    {
+      "hp": 20000,
+      "atk": 900,
+      "def": 200,
+      "res": 0,
+      "mvSpd": 0.65,
+      "atkInterval": 2.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 26000,
+      "atk": 1050,
+      "def": 205,
+      "res": 3,
+      "mvSpd": 0.65,
+      "atkInterval": 2.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 30000,
+      "atk": 1150,
+      "def": 210,
+      "res": 5,
+      "mvSpd": 0.65,
+      "atkInterval": 2.8,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1538_ymmons": [
+    {
+      "hp": 65000,
+      "atk": 600,
+      "def": 450,
+      "res": 50,
+      "mvSpd": 0.3,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 85000,
+      "atk": 800,
+      "def": 550,
+      "res": 50,
+      "mvSpd": 0.3,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1539_reid": [
+    {
+      "hp": 23000,
+      "atk": 800,
+      "def": 650,
+      "res": 60,
+      "mvSpd": 0.65,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1540_wdncr": [
+    {
+      "hp": 50000,
+      "atk": 1500,
+      "def": 800,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_1541_wdslms": [
+    {
+      "hp": 100000,
+      "atk": 750,
+      "def": 800,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_1542_wdslm": [
+    {
+      "hp": 100000,
+      "atk": 550,
+      "def": 750,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    },
+    {
+      "hp": 150000,
+      "atk": 750,
+      "def": 900,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_1543_cstlrs": [
+    {
+      "hp": 35000,
+      "atk": 600,
+      "def": 600,
+      "res": 50,
+      "mvSpd": 0.4,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    },
+    {
+      "hp": 50000,
+      "atk": 700,
+      "def": 800,
+      "res": 50,
+      "mvSpd": 0.4,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1544_cledub": [
+    {
+      "hp": 800,
+      "atk": 100,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 0,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 800,
+      "atk": 100,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 0,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1545_shpkg": [
+    {
+      "hp": 60000,
+      "atk": 750,
+      "def": 800,
+      "res": 60,
+      "mvSpd": 0.35,
+      "atkInterval": 7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.5
+    },
+    {
+      "hp": 80000,
+      "atk": 1000,
+      "def": 900,
+      "res": 60,
+      "mvSpd": 0.35,
+      "atkInterval": 7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.5
+    }
+  ],
+  "enemy_1546_cliff": [
+    {
+      "hp": 45000,
+      "atk": 1100,
+      "def": 2500,
+      "res": 60,
+      "mvSpd": 0.45,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    },
+    {
+      "hp": 65000,
+      "atk": 1300,
+      "def": 2500,
+      "res": 70,
+      "mvSpd": 0.45,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_1547_blord": [
+    {
+      "hp": 30000,
+      "atk": 700,
+      "def": 300,
+      "res": 50,
+      "mvSpd": 0.3,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    },
+    {
+      "hp": 40000,
+      "atk": 850,
+      "def": 450,
+      "res": 50,
+      "mvSpd": 0.3,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_2001_duckmi": [
+    {
+      "hp": 18000,
+      "atk": 100,
+      "def": 200,
+      "res": 30,
+      "mvSpd": 0.4,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 35000,
+      "atk": 100,
+      "def": 300,
+      "res": 30,
+      "mvSpd": 0.4,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 45000,
+      "atk": 100,
+      "def": 400,
+      "res": 30,
+      "mvSpd": 0.4,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_2002_bearmi": [
+    {
+      "hp": 30000,
+      "atk": 2000,
+      "def": 200,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 70000,
+      "atk": 3000,
+      "def": 450,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 90000,
+      "atk": 4000,
+      "def": 550,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_2003_rockman": [
+    {
+      "hp": 75000,
+      "atk": 1500,
+      "def": 600,
+      "res": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 4.4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_2004_balloon": [
+    {
+      "hp": 58000,
+      "atk": 400,
+      "def": 280,
+      "res": 30,
+      "mvSpd": 0.8,
       "atkInterval": 2,
       "erst": 0,
       "irst": 0,
       "atkRange": 0
     }
   ],
-  "enemy_6008_mtslms": [
+  "enemy_2005_axetro": [
     {
-      "hp": 3200,
-      "atk": 260,
-      "def": 1200,
-      "res": 0,
+      "hp": 50000,
+      "atk": 500,
+      "def": 300,
+      "res": 30,
+      "mvSpd": 0.6,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_2006_flsnip": [
+    {
+      "hp": 40000,
+      "atk": 1200,
+      "def": 550,
+      "res": 40,
+      "mvSpd": 0.4,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 20
+    }
+  ],
+  "enemy_2007_flwitch": [
+    {
+      "hp": 27000,
+      "atk": 350,
+      "def": 1500,
+      "res": 80,
+      "mvSpd": 0.5,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.4
+    }
+  ],
+  "enemy_2008_flking": [
+    {
+      "hp": 60000,
+      "atk": 2000,
+      "def": 330,
+      "res": 55,
+      "mvSpd": 0.5,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_2009_csaudc": [
+    {
+      "hp": 8000,
+      "atk": 750,
+      "def": 600,
+      "res": 30,
       "mvSpd": 1.2,
-      "atkInterval": 2,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_2010_csdcr": [
+    {
+      "hp": 12000,
+      "atk": 500,
+      "def": 300,
+      "res": 60,
+      "mvSpd": 0.8,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_2011_csppt": [
+    {
+      "hp": 24000,
+      "atk": 1200,
+      "def": 300,
+      "res": 30,
+      "mvSpd": 0.5,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.3
+    }
+  ],
+  "enemy_2012_csbln": [
+    {
+      "hp": 4000,
+      "atk": 400,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.25
+    }
+  ],
+  "enemy_2013_csbot": [
+    {
+      "hp": 40000,
+      "atk": 900,
+      "def": 800,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 1.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_2014_csicer": [
+    {
+      "hp": 40000,
+      "atk": 700,
+      "def": 300,
+      "res": 30,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_2015_csicem": [
+    {
+      "hp": 60000,
+      "atk": 1200,
+      "def": 300,
+      "res": 30,
+      "mvSpd": 0.6,
+      "atkInterval": 6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_2016_csphtm": [
+    {
+      "hp": 80000,
+      "atk": 1500,
+      "def": 600,
+      "res": 40,
+      "mvSpd": 0.6,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_2017_csphts": [
+    {
+      "hp": 10000,
+      "atk": 750,
+      "def": 400,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_2018_csdoll": [
+    {
+      "hp": 300000,
+      "atk": 800,
+      "def": 700,
+      "res": 60,
+      "mvSpd": 0.1,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 99
+    }
+  ],
+  "enemy_2019_cshost": [
+    {
+      "hp": 100000,
+      "atk": 1000,
+      "def": 0,
+      "res": 0,
+      "mvSpd": 0.5,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_2020_cswrtr": [
+    {
+      "hp": 80000,
+      "atk": 800,
+      "def": 1000,
+      "res": 50,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
       "erst": 0,
       "irst": 0,
       "atkRange": 0
@@ -8755,63 +11338,115 @@
       "atkRange": 1.5
     }
   ],
-  "enemy_1267_nhpbr": [
+  "enemy_2043_smsbr": [
     {
-      "hp": 4500,
-      "atk": 380,
-      "def": 100,
-      "res": 20,
-      "mvSpd": 0.8,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1267_nhpbr_2": [
-    {
-      "hp": 5500,
-      "atk": 450,
-      "def": 100,
-      "res": 20,
-      "mvSpd": 0.8,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1270_nhstlk": [
-    {
-      "hp": 12000,
-      "atk": 550,
-      "def": 150,
-      "res": 20,
-      "mvSpd": 1.4,
-      "atkInterval": 1.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1270_nhstlk_2": [
-    {
-      "hp": 16000,
-      "atk": 700,
+      "hp": 4000,
+      "atk": 400,
       "def": 200,
-      "res": 20,
-      "mvSpd": 1.4,
-      "atkInterval": 1.8,
+      "res": 0,
+      "mvSpd": 1,
+      "atkInterval": 1.5,
       "erst": 0,
       "irst": 0,
       "atkRange": 0
     }
   ],
-  "enemy_1266_nhapos": [
+  "enemy_2044_smwiz": [
+    {
+      "hp": 8000,
+      "atk": 350,
+      "def": 300,
+      "res": 50,
+      "mvSpd": 0.6,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.8
+    }
+  ],
+  "enemy_2045_smdrn": [
+    {
+      "hp": 3500,
+      "atk": 200,
+      "def": 100,
+      "res": 65,
+      "mvSpd": 2,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.3
+    }
+  ],
+  "enemy_2046_smwar": [
+    {
+      "hp": 20000,
+      "atk": 700,
+      "def": 800,
+      "res": 20,
+      "mvSpd": 2.5,
+      "atkInterval": 1.2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_2048_smgrd": [
+    {
+      "hp": 50000,
+      "atk": 800,
+      "def": 300,
+      "res": 30,
+      "mvSpd": 0.6,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.4
+    }
+  ],
+  "enemy_2049_smgrd2": [
+    {
+      "hp": 60000,
+      "atk": 800,
+      "def": 300,
+      "res": 30,
+      "mvSpd": 0.4,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2
+    }
+  ],
+  "enemy_2050_smsha": [
     {
       "hp": 40000,
-      "atk": 2000,
-      "def": 1000,
+      "atk": 600,
+      "def": 300,
+      "res": 60,
+      "mvSpd": 2.5,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 3.5
+    }
+  ],
+  "enemy_2051_smsha2": [
+    {
+      "hp": 45000,
+      "atk": 750,
+      "def": 300,
+      "res": 60,
+      "mvSpd": 2.5,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 3.5
+    }
+  ],
+  "enemy_2052_smgia": [
+    {
+      "hp": 90000,
+      "atk": 1200,
+      "def": 700,
       "res": 30,
       "mvSpd": 0.5,
       "atkInterval": 3,
@@ -8820,220 +11455,322 @@
       "atkRange": 0
     }
   ],
-  "enemy_1268_nhnrs": [
+  "enemy_2053_smgia2": [
     {
-      "hp": 6500,
-      "atk": 320,
-      "def": 200,
-      "res": 50,
-      "mvSpd": 0.7,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
-    }
-  ],
-  "enemy_1268_nhnrs_2": [
-    {
-      "hp": 8000,
-      "atk": 380,
-      "def": 200,
-      "res": 50,
-      "mvSpd": 0.7,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
-    }
-  ],
-  "enemy_1269_nhfly": [
-    {
-      "hp": 1200,
-      "atk": 750,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 0.6,
-      "atkInterval": 0,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1269_nhfly_2": [
-    {
-      "hp": 1550,
-      "atk": 1250,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 0.6,
-      "atkInterval": 0,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1271_nhkodo": [
-    {
-      "hp": 30000,
-      "atk": 1050,
-      "def": 0,
-      "res": 20,
-      "mvSpd": 0.6,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1271_nhkodo_2": [
-    {
-      "hp": 40000,
-      "atk": 1350,
-      "def": 0,
-      "res": 20,
-      "mvSpd": 0.6,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1274_stmram": [
-    {
-      "hp": 10000,
-      "atk": 650,
-      "def": 800,
-      "res": 20,
-      "mvSpd": 0.7,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1274_stmram_2": [
-    {
-      "hp": 13500,
-      "atk": 750,
-      "def": 800,
-      "res": 20,
-      "mvSpd": 0.7,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1272_nhtank": [
-    {
-      "hp": 12000,
-      "atk": 750,
-      "def": 750,
-      "res": 10,
-      "mvSpd": 0.7,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
-    }
-  ],
-  "enemy_1272_nhtank_2": [
-    {
-      "hp": 15000,
-      "atk": 850,
-      "def": 750,
-      "res": 10,
-      "mvSpd": 0.7,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
-    }
-  ],
-  "enemy_1275_dwlock": [
-    {
-      "hp": 12000,
-      "atk": 450,
-      "def": 250,
-      "res": 50,
-      "mvSpd": 0.8,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_1275_dwlock_2": [
-    {
-      "hp": 14000,
-      "atk": 500,
-      "def": 250,
-      "res": 50,
-      "mvSpd": 0.8,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_1276_telex": [
-    {
-      "hp": 50000,
-      "atk": 0,
-      "def": 3000,
-      "res": 90,
-      "mvSpd": 0.5,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1273_stmgun": [
-    {
-      "hp": 15000,
-      "atk": 600,
-      "def": 1500,
-      "res": 10,
-      "mvSpd": 0.5,
-      "atkInterval": 6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 3
-    }
-  ],
-  "enemy_1273_stmgun_2": [
-    {
-      "hp": 18000,
-      "atk": 750,
-      "def": 1500,
-      "res": 10,
-      "mvSpd": 0.5,
-      "atkInterval": 6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 3
-    }
-  ],
-  "enemy_1533_stmkgt": [
-    {
-      "hp": 65000,
-      "atk": 1600,
-      "def": 2000,
+      "hp": 100000,
+      "atk": 1200,
+      "def": 1200,
       "res": 40,
       "mvSpd": 0.5,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_2054_smdeer": [
+    {
+      "hp": 240000,
+      "atk": 800,
+      "def": 800,
+      "res": 40,
+      "mvSpd": 1,
+      "atkInterval": 6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_2055_smlead": [
+    {
+      "hp": 150000,
+      "atk": 1000,
+      "def": 3000,
+      "res": 30,
+      "mvSpd": 1.1,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_2056_smedzi": [
+    {
+      "hp": 80000,
+      "atk": 1000,
+      "def": 1500,
+      "res": 50,
+      "mvSpd": 0,
       "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 3.5
+    }
+  ],
+  "enemy_2059_smbox": [
+    {
+      "hp": 10000,
+      "atk": 600,
+      "def": 500,
+      "res": 30,
+      "mvSpd": 0.7,
+      "atkInterval": 1.2,
       "erst": 0,
       "irst": 0,
       "atkRange": 0
     },
     {
-      "hp": 80000,
-      "atk": 1800,
-      "def": 2400,
-      "res": 40,
+      "hp": 20000,
+      "atk": 800,
+      "def": 500,
+      "res": 30,
+      "mvSpd": 0.7,
+      "atkInterval": 1.2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    },
+    {
+      "hp": 30000,
+      "atk": 1200,
+      "def": 500,
+      "res": 30,
+      "mvSpd": 0.7,
+      "atkInterval": 1.2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_3001_upeopl": [
+    {
+      "hp": 3500,
+      "atk": 0,
+      "def": 50,
+      "res": 0,
+      "mvSpd": 0.65,
+      "atkInterval": 0,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_3002_ftrtal": [
+    {
+      "hp": 15000,
+      "atk": 600,
+      "def": 350,
+      "res": 50,
+      "mvSpd": 0.45,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1.5
+    }
+  ],
+  "enemy_3003_alymot": [
+    {
+      "hp": 2000,
+      "atk": 100,
+      "def": 100,
+      "res": 0,
+      "mvSpd": 0.65,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_3004_speople": [
+    {
+      "hp": 3000,
+      "atk": 0,
+      "def": 50,
+      "res": 0,
+      "mvSpd": 0.7,
+      "atkInterval": 0,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_3005_lpeopl": [
+    {
+      "hp": 5000,
+      "atk": 0,
+      "def": 50,
+      "res": 0,
+      "mvSpd": 0.65,
+      "atkInterval": 0,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_4001_toxcar": [
+    {
+      "hp": 12000,
+      "atk": 500,
+      "def": 400,
+      "res": 30,
+      "mvSpd": 0.7,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_4001_toxcar_2": [
+    {
+      "hp": 15000,
+      "atk": 550,
+      "def": 500,
+      "res": 30,
+      "mvSpd": 0.7,
+      "atkInterval": 3.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_4002_syokai": [
+    {
+      "hp": 5000,
+      "atk": 0,
+      "def": 100,
+      "res": 20,
+      "mvSpd": 0.7,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_4002_syokai_2": [
+    {
+      "hp": 10000,
+      "atk": 0,
+      "def": 200,
+      "res": 30,
+      "mvSpd": 0.7,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_4003_pbank": [
+    {
+      "hp": 7500,
+      "atk": 0,
+      "def": 250,
+      "res": 30,
+      "mvSpd": 1.9,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_6001_trsgst": [
+    {
+      "hp": 22000,
+      "atk": 0,
+      "def": 700,
+      "res": 50,
+      "mvSpd": 1,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_6002_trswlf": [
+    {
+      "hp": 19000,
+      "atk": 400,
+      "def": 400,
+      "res": 20,
+      "mvSpd": 0.9,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_6003_trsslm": [
+    {
+      "hp": 24000,
+      "atk": 150,
+      "def": 700,
+      "res": 50,
+      "mvSpd": 0.85,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_6004_pleslm": [
+    {
+      "hp": 60000,
+      "atk": 1000,
+      "def": 800,
+      "res": 50,
       "mvSpd": 0.5,
       "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_6005_llstone": [
+    {
+      "hp": 58000,
+      "atk": 1800,
+      "def": 1200,
+      "res": 50,
+      "mvSpd": 0.4,
+      "atkInterval": 7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_6006_fystone": [
+    {
+      "hp": 2000,
+      "atk": 0,
+      "def": 1000,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_6007_mtslm": [
+    {
+      "hp": 50000,
+      "atk": 1000,
+      "def": 1500,
+      "res": 40,
+      "mvSpd": 0.5,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_6008_mtslms": [
+    {
+      "hp": 3200,
+      "atk": 260,
+      "def": 1200,
+      "res": 0,
+      "mvSpd": 1.2,
+      "atkInterval": 2,
       "erst": 0,
       "irst": 0,
       "atkRange": 0
@@ -9050,518 +11787,6 @@
       "erst": 0,
       "irst": 0,
       "atkRange": 0
-    }
-  ],
-  "enemy_1277_sgman": [
-    {
-      "hp": 3500,
-      "atk": 320,
-      "def": 120,
-      "res": 10,
-      "mvSpd": 1,
-      "atkInterval": 1.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1277_sgman_2": [
-    {
-      "hp": 4400,
-      "atk": 375,
-      "def": 180,
-      "res": 10,
-      "mvSpd": 1,
-      "atkInterval": 1.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1278_sgbow": [
-    {
-      "hp": 4000,
-      "atk": 300,
-      "def": 200,
-      "res": 10,
-      "mvSpd": 1,
-      "atkInterval": 2.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1278_sgbow_2": [
-    {
-      "hp": 5500,
-      "atk": 380,
-      "def": 200,
-      "res": 10,
-      "mvSpd": 1,
-      "atkInterval": 2.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_1279_sgbdg": [
-    {
-      "hp": 9000,
-      "atk": 500,
-      "def": 900,
-      "res": 10,
-      "mvSpd": 0.5,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1279_sgbdg_2": [
-    {
-      "hp": 12000,
-      "atk": 600,
-      "def": 1100,
-      "res": 10,
-      "mvSpd": 0.5,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1280_sgmag": [
-    {
-      "hp": 4500,
-      "atk": 320,
-      "def": 250,
-      "res": 40,
-      "mvSpd": 0.8,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
-    }
-  ],
-  "enemy_1280_sgmag_2": [
-    {
-      "hp": 6000,
-      "atk": 400,
-      "def": 250,
-      "res": 40,
-      "mvSpd": 0.8,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_1281_sgcar": [
-    {
-      "hp": 10000,
-      "atk": 900,
-      "def": 1000,
-      "res": 15,
-      "mvSpd": 1.2,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1281_sgcar_2": [
-    {
-      "hp": 18000,
-      "atk": 1100,
-      "def": 1300,
-      "res": 15,
-      "mvSpd": 1.2,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1282_sgelder": [
-    {
-      "hp": 7500,
-      "atk": 500,
-      "def": 500,
-      "res": 25,
-      "mvSpd": 0.7,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1282_sgelder_2": [
-    {
-      "hp": 9500,
-      "atk": 600,
-      "def": 500,
-      "res": 25,
-      "mvSpd": 0.7,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1283_sgkill": [
-    {
-      "hp": 12000,
-      "atk": 800,
-      "def": 800,
-      "res": 45,
-      "mvSpd": 0.9,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.8
-    }
-  ],
-  "enemy_1283_sgkill_2": [
-    {
-      "hp": 18000,
-      "atk": 1050,
-      "def": 800,
-      "res": 45,
-      "mvSpd": 0.9,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.8
-    }
-  ],
-  "enemy_1284_sgprst": [
-    {
-      "hp": 22000,
-      "atk": 900,
-      "def": 500,
-      "res": 40,
-      "mvSpd": 1,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.9
-    },
-    {
-      "hp": 30000,
-      "atk": 1100,
-      "def": 650,
-      "res": 40,
-      "mvSpd": 1,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.9
-    }
-  ],
-  "enemy_1535_wlfmster": [
-    {
-      "hp": 35000,
-      "atk": 800,
-      "def": 1000,
-      "res": 60,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 50000,
-      "atk": 1000,
-      "def": 1300,
-      "res": 60,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1285_sgwlf": [
-    {
-      "hp": 30000,
-      "atk": 0,
-      "def": 200,
-      "res": 0,
-      "mvSpd": 1,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.5
-    },
-    {
-      "hp": 50000,
-      "atk": 0,
-      "def": 200,
-      "res": 0,
-      "mvSpd": 1,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.5
-    }
-  ],
-  "enemy_3004_speople": [
-    {
-      "hp": 3000,
-      "atk": 0,
-      "def": 50,
-      "res": 0,
-      "mvSpd": 0.7,
-      "atkInterval": 0,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1286_dumcy": [
-    {
-      "hp": 3500,
-      "atk": 330,
-      "def": 150,
-      "res": 0,
-      "mvSpd": 0.9,
-      "atkInterval": 2.2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1286_dumcy_2": [
-    {
-      "hp": 4800,
-      "atk": 380,
-      "def": 200,
-      "res": 0,
-      "mvSpd": 0.9,
-      "atkInterval": 2.2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1287_ducrb": [
-    {
-      "hp": 2000,
-      "atk": 350,
-      "def": 400,
-      "res": 30,
-      "mvSpd": 1,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1287_ducrb_2": [
-    {
-      "hp": 3000,
-      "atk": 420,
-      "def": 500,
-      "res": 50,
-      "mvSpd": 1,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1288_duskls": [
-    {
-      "hp": 5000,
-      "atk": 150,
-      "def": 50,
-      "res": 50,
-      "mvSpd": 0.7,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1288_duskls_2": [
-    {
-      "hp": 6000,
-      "atk": 180,
-      "def": 100,
-      "res": 50,
-      "mvSpd": 0.7,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1289_dubmb": [
-    {
-      "hp": 6000,
-      "atk": 500,
-      "def": 300,
-      "res": 20,
-      "mvSpd": 0.6,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 10
-    }
-  ],
-  "enemy_1289_dubmb_2": [
-    {
-      "hp": 7500,
-      "atk": 600,
-      "def": 350,
-      "res": 20,
-      "mvSpd": 0.6,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 10
-    }
-  ],
-  "enemy_1290_duflm": [
-    {
-      "hp": 7500,
-      "atk": 300,
-      "def": 300,
-      "res": 50,
-      "mvSpd": 0.7,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
-    }
-  ],
-  "enemy_1290_duflm_2": [
-    {
-      "hp": 9000,
-      "atk": 400,
-      "def": 350,
-      "res": 50,
-      "mvSpd": 0.7,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
-    }
-  ],
-  "enemy_1291_dusrch": [
-    {
-      "hp": 15000,
-      "atk": 600,
-      "def": 1300,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1291_dusrch_2": [
-    {
-      "hp": 20000,
-      "atk": 800,
-      "def": 1500,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1292_duskld": [
-    {
-      "hp": 10000,
-      "atk": 350,
-      "def": 550,
-      "res": 60,
-      "mvSpd": 0.5,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1292_duskld_2": [
-    {
-      "hp": 15000,
-      "atk": 450,
-      "def": 750,
-      "res": 60,
-      "mvSpd": 0.5,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1293_duswrd": [
-    {
-      "hp": 17000,
-      "atk": 650,
-      "def": 500,
-      "res": 40,
-      "mvSpd": 0.6,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1293_duswrd_2": [
-    {
-      "hp": 22000,
-      "atk": 750,
-      "def": 600,
-      "res": 40,
-      "mvSpd": 0.6,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1293_duswrd_3": [
-    {
-      "hp": 27000,
-      "atk": 800,
-      "def": 700,
-      "res": 40,
-      "mvSpd": 0.6,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1536_ncrmcr": [
-    {
-      "hp": 30000,
-      "atk": 800,
-      "def": 750,
-      "res": 60,
-      "mvSpd": 0.5,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    },
-    {
-      "hp": 50000,
-      "atk": 1000,
-      "def": 800,
-      "res": 60,
-      "mvSpd": 0.5,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
     }
   ],
   "enemy_6010_boxing": [
@@ -9603,236 +11828,69 @@
       "atkRange": 0
     }
   ],
-  "enemy_1538_ymmons": [
+  "enemy_6013_smith": [
     {
-      "hp": 65000,
-      "atk": 600,
-      "def": 450,
-      "res": 50,
+      "hp": 48000,
+      "atk": 1000,
+      "def": 1000,
+      "res": 30,
+      "mvSpd": 0.5,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_6014_crzgas": [
+    {
+      "hp": 50000,
+      "atk": 0,
+      "def": 600,
+      "res": 30,
       "mvSpd": 0.3,
+      "atkInterval": 1,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_6015_ictruck": [
+    {
+      "hp": 80000,
+      "atk": 1100,
+      "def": 1400,
+      "res": 60,
+      "mvSpd": 1.3,
       "atkInterval": 5,
       "erst": 0,
       "irst": 0,
-      "atkRange": 0
-    },
+      "atkRange": -1
+    }
+  ],
+  "enemy_6016_splash": [
     {
       "hp": 85000,
-      "atk": 800,
-      "def": 550,
-      "res": 50,
-      "mvSpd": 0.3,
-      "atkInterval": 5,
+      "atk": 500,
+      "def": 1950,
+      "res": 95,
+      "mvSpd": 0.2,
+      "atkInterval": 2.7,
       "erst": 0,
       "irst": 0,
-      "atkRange": 0
+      "atkRange": -1
     }
   ],
-  "enemy_1295_ymph": [
-    {
-      "hp": 6500,
-      "atk": 250,
-      "def": 50,
-      "res": 0,
-      "mvSpd": 1.5,
-      "atkInterval": 1.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1295_ymph_2": [
-    {
-      "hp": 8500,
-      "atk": 280,
-      "def": 80,
-      "res": 0,
-      "mvSpd": 1.5,
-      "atkInterval": 1.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1296_ymknif": [
-    {
-      "hp": 4500,
-      "atk": 400,
-      "def": 200,
-      "res": 20,
-      "mvSpd": 0.8,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.2
-    }
-  ],
-  "enemy_1296_ymknif_2": [
-    {
-      "hp": 6000,
-      "atk": 480,
-      "def": 200,
-      "res": 20,
-      "mvSpd": 0.8,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.2
-    }
-  ],
-  "enemy_1297_ymflag": [
-    {
-      "hp": 7500,
-      "atk": 350,
-      "def": 150,
-      "res": 20,
-      "mvSpd": 1.2,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.2
-    }
-  ],
-  "enemy_1297_ymflag_2": [
-    {
-      "hp": 11000,
-      "atk": 420,
-      "def": 250,
-      "res": 20,
-      "mvSpd": 1.2,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.2
-    }
-  ],
-  "enemy_1298_ymmonk": [
+  "enemy_6017_icdrone": [
     {
       "hp": 12000,
-      "atk": 600,
-      "def": 800,
-      "res": 35,
-      "mvSpd": 0.7,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.2
-    }
-  ],
-  "enemy_1298_ymmonk_2": [
-    {
-      "hp": 15000,
-      "atk": 750,
-      "def": 1000,
-      "res": 35,
-      "mvSpd": 0.7,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.2
-    }
-  ],
-  "enemy_1299_ymkilr": [
-    {
-      "hp": 8500,
-      "atk": 800,
-      "def": 250,
-      "res": 20,
-      "mvSpd": 1.1,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.2
-    }
-  ],
-  "enemy_1299_ymkilr_2": [
-    {
-      "hp": 11000,
-      "atk": 1000,
-      "def": 300,
-      "res": 20,
-      "mvSpd": 1.1,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.2
-    }
-  ],
-  "enemy_1300_ymmir": [
-    {
-      "hp": 10000,
-      "atk": 400,
-      "def": 200,
+      "atk": 0,
+      "def": 500,
       "res": 40,
-      "mvSpd": 0.8,
-      "atkInterval": 2.5,
+      "mvSpd": 0,
+      "atkInterval": 1,
       "erst": 0,
       "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1300_ymmir_2": [
-    {
-      "hp": 13000,
-      "atk": 500,
-      "def": 250,
-      "res": 40,
-      "mvSpd": 0.8,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1301_ymcnon": [
-    {
-      "hp": 15000,
-      "atk": 1000,
-      "def": 1200,
-      "res": 10,
-      "mvSpd": 0.8,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.2
-    }
-  ],
-  "enemy_1301_ymcnon_2": [
-    {
-      "hp": 18000,
-      "atk": 1200,
-      "def": 1200,
-      "res": 10,
-      "mvSpd": 0.8,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.2
-    }
-  ],
-  "enemy_1302_ymtro": [
-    {
-      "hp": 22500,
-      "atk": 800,
-      "def": 1200,
-      "res": 10,
-      "mvSpd": 0.3,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.2
-    }
-  ],
-  "enemy_1302_ymtro_2": [
-    {
-      "hp": 30000,
-      "atk": 1000,
-      "def": 1500,
-      "res": 10,
-      "mvSpd": 0.3,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.2
+      "atkRange": -1
     }
   ],
   "enemy_7001_blwzad": [
@@ -9991,14 +12049,14 @@
       "atkRange": 0
     }
   ],
-  "enemy_7015_xbcrab2": [
+  "enemy_7007_xbbird": [
     {
-      "hp": 17000,
-      "atk": 1300,
-      "def": 2500,
-      "res": 90,
-      "mvSpd": 0.9,
-      "atkInterval": 3,
+      "hp": 50000,
+      "atk": 0,
+      "def": 400,
+      "res": 20,
+      "mvSpd": 0.7,
+      "atkInterval": 1,
       "erst": 0,
       "irst": 0,
       "atkRange": 0
@@ -10043,19 +12101,6 @@
       "atkRange": 0
     }
   ],
-  "enemy_7007_xbbird": [
-    {
-      "hp": 50000,
-      "atk": 0,
-      "def": 400,
-      "res": 20,
-      "mvSpd": 0.7,
-      "atkInterval": 1,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
   "enemy_7012_wilder": [
     {
       "hp": 700000,
@@ -10095,1830 +12140,17 @@
       "atkRange": 0
     }
   ],
-  "enemy_1303_mhshep": [
+  "enemy_7015_xbcrab2": [
     {
-      "hp": 5000,
-      "atk": 250,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 2.3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1303_mhshep_2": [
-    {
-      "hp": 6500,
-      "atk": 320,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 2.3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1304_mhwolf": [
-    {
-      "hp": 4500,
-      "atk": 310,
-      "def": 0,
-      "res": 5,
-      "mvSpd": 1.5,
-      "atkInterval": 1.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1304_mhwolf_2": [
-    {
-      "hp": 6500,
-      "atk": 380,
-      "def": 0,
-      "res": 5,
-      "mvSpd": 1.5,
-      "atkInterval": 1.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1305_mhslim": [
-    {
-      "hp": 1200,
-      "atk": 50,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.8
-    }
-  ],
-  "enemy_1305_mhslim_2": [
-    {
-      "hp": 1800,
-      "atk": 80,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.8
-    }
-  ],
-  "enemy_1306_mhtrtl": [
-    {
-      "hp": 14000,
-      "atk": 600,
-      "def": 120,
-      "res": 0,
-      "mvSpd": 0.7,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1306_mhtrtl_2": [
-    {
-      "hp": 18000,
-      "atk": 680,
-      "def": 130,
-      "res": 0,
-      "mvSpd": 0.7,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1307_mhrhcr": [
-    {
-      "hp": 12000,
-      "atk": 600,
-      "def": 140,
-      "res": 0,
-      "mvSpd": 0.7,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1307_mhrhcr_2": [
-    {
-      "hp": 16000,
-      "atk": 750,
-      "def": 160,
-      "res": 0,
-      "mvSpd": 0.7,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1308_mheagl": [
-    {
-      "hp": 9000,
-      "atk": 450,
-      "def": 50,
-      "res": 5,
-      "mvSpd": 0.65,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1308_mheagl_2": [
-    {
-      "hp": 12000,
-      "atk": 550,
-      "def": 80,
-      "res": 5,
-      "mvSpd": 0.65,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1309_mhboar": [
-    {
-      "hp": 25000,
-      "atk": 600,
-      "def": 20,
-      "res": 0,
-      "mvSpd": 0.35,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1309_mhboar_2": [
-    {
-      "hp": 32000,
-      "atk": 700,
-      "def": 50,
-      "res": 0,
-      "mvSpd": 0.4,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1310_mhprpn": [
-    {
-      "hp": 25000,
-      "atk": 580,
-      "def": 130,
-      "res": 5,
-      "mvSpd": 0.7,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0.5
-    }
-  ],
-  "enemy_1310_mhprpn_2": [
-    {
-      "hp": 35000,
-      "atk": 720,
-      "def": 150,
-      "res": 8,
-      "mvSpd": 0.3,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0.5
-    }
-  ],
-  "enemy_1311_mhkryk": [
-    {
-      "hp": 20000,
-      "atk": 1090,
-      "def": 480,
-      "res": 0,
-      "mvSpd": 0.75,
-      "atkInterval": 1.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1311_mhkryk_2": [
-    {
-      "hp": 27000,
-      "atk": 1260,
-      "def": 550,
-      "res": 1,
-      "mvSpd": 0.75,
-      "atkInterval": 1.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1537_mhrors": [
-    {
-      "hp": 20000,
-      "atk": 900,
-      "def": 200,
-      "res": 0,
-      "mvSpd": 0.65,
-      "atkInterval": 2.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 26000,
-      "atk": 1050,
-      "def": 205,
-      "res": 3,
-      "mvSpd": 0.65,
-      "atkInterval": 2.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 30000,
-      "atk": 1150,
-      "def": 210,
-      "res": 5,
-      "mvSpd": 0.65,
-      "atkInterval": 2.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1539_reid": [
-    {
-      "hp": 23000,
-      "atk": 800,
-      "def": 650,
-      "res": 60,
-      "mvSpd": 0.65,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1313_wdfmr": [
-    {
-      "hp": 5000,
-      "atk": 250,
-      "def": 50,
-      "res": 0,
-      "mvSpd": 0.65,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": -1
-    }
-  ],
-  "enemy_1313_wdfmr_2": [
-    {
-      "hp": 5000,
-      "atk": 250,
-      "def": 50,
-      "res": 0,
-      "mvSpd": 0.65,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": -1
-    }
-  ],
-  "enemy_1314_wdnjd": [
-    {
-      "hp": 6500,
-      "atk": 500,
-      "def": 300,
-      "res": 20,
-      "mvSpd": 0.65,
-      "atkInterval": 2.3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1314_wdnjd_2": [
-    {
-      "hp": 8000,
-      "atk": 600,
-      "def": 350,
-      "res": 20,
-      "mvSpd": 0.65,
-      "atkInterval": 2.3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1315_wdyjd": [
-    {
-      "hp": 5500,
-      "atk": 700,
-      "def": 150,
-      "res": 35,
-      "mvSpd": 0.65,
-      "atkInterval": 3.3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1315_wdyjd_2": [
-    {
-      "hp": 6500,
-      "atk": 800,
-      "def": 200,
-      "res": 35,
-      "mvSpd": 0.65,
-      "atkInterval": 3.3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1316_wdpjd": [
-    {
-      "hp": 12000,
-      "atk": 1000,
-      "def": 1200,
-      "res": 0,
-      "mvSpd": 0.35,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1316_wdpjd_2": [
-    {
-      "hp": 15000,
-      "atk": 1200,
-      "def": 1500,
-      "res": 0,
-      "mvSpd": 0.35,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1317_wdexg": [
-    {
-      "hp": 6000,
-      "atk": 600,
-      "def": 300,
-      "res": 35,
-      "mvSpd": 0.8,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1317_wdexg_2": [
-    {
-      "hp": 7500,
-      "atk": 650,
-      "def": 350,
-      "res": 35,
-      "mvSpd": 0.8,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1318_wdsmgc": [
-    {
-      "hp": 9000,
-      "atk": 550,
-      "def": 200,
-      "res": 50,
-      "mvSpd": 0.7,
-      "atkInterval": 3.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1318_wdsmgc_2": [
-    {
-      "hp": 12000,
-      "atk": 650,
-      "def": 250,
-      "res": 60,
-      "mvSpd": 0.7,
-      "atkInterval": 3.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1319_wdfmpm": [
-    {
-      "hp": 10000,
-      "atk": 250,
-      "def": 100,
-      "res": 50,
-      "mvSpd": 0.6,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1319_wdfmpm_2": [
-    {
-      "hp": 12000,
-      "atk": 300,
-      "def": 150,
-      "res": 50,
-      "mvSpd": 0.6,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1320_wdrrl": [
-    {
-      "hp": 20000,
-      "atk": 800,
-      "def": 700,
-      "res": 20,
-      "mvSpd": 0.8,
-      "atkInterval": 2.9,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1320_wdrrl_2": [
-    {
-      "hp": 25000,
-      "atk": 1200,
-      "def": 800,
-      "res": 20,
-      "mvSpd": 0.8,
-      "atkInterval": 2.9,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1321_wdarft": [
-    {
-      "hp": 30000,
-      "atk": 500,
-      "def": 250,
-      "res": 30,
-      "mvSpd": 0.3,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1321_wdarft_2": [
-    {
-      "hp": 35000,
-      "atk": 500,
-      "def": 300,
-      "res": 35,
-      "mvSpd": 0.3,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1322_wdgyht": [
-    {
-      "hp": 36000,
-      "atk": 2250,
-      "def": 500,
-      "res": 35,
-      "mvSpd": 0.7,
-      "atkInterval": 6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1322_wdgyht_2": [
-    {
-      "hp": 15000,
-      "atk": 1800,
-      "def": 375,
-      "res": 30,
-      "mvSpd": 0.7,
-      "atkInterval": 6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1323_wdbshd": [
-    {
-      "hp": 3500,
-      "atk": 250,
-      "def": 300,
-      "res": 50,
-      "mvSpd": 0.2,
-      "atkInterval": 1.9,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0.5
-    },
-    {
-      "hp": 5000,
-      "atk": 300,
-      "def": 300,
-      "res": 50,
-      "mvSpd": 0.2,
-      "atkInterval": 1.9,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0.5
-    }
-  ],
-  "enemy_1542_wdslm": [
-    {
-      "hp": 100000,
-      "atk": 550,
-      "def": 750,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": -1
-    },
-    {
-      "hp": 150000,
-      "atk": 750,
-      "def": 900,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": -1
-    }
-  ],
-  "enemy_1540_wdncr": [
-    {
-      "hp": 50000,
-      "atk": 1500,
-      "def": 800,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1541_wdslms": [
-    {
-      "hp": 100000,
-      "atk": 750,
-      "def": 800,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": -1
-    }
-  ],
-  "enemy_6013_smith": [
-    {
-      "hp": 48000,
-      "atk": 1000,
-      "def": 1000,
-      "res": 30,
-      "mvSpd": 0.5,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": -1
-    }
-  ],
-  "enemy_6014_crzgas": [
-    {
-      "hp": 50000,
-      "atk": 0,
-      "def": 600,
-      "res": 30,
-      "mvSpd": 0.3,
-      "atkInterval": 1,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": -1
-    }
-  ],
-  "enemy_1325_cbgpro": [
-    {
-      "hp": 3800,
-      "atk": 290,
-      "def": 0,
-      "res": 30,
-      "mvSpd": 1.7,
-      "atkInterval": 1.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1325_cbgpro_2": [
-    {
-      "hp": 4600,
-      "atk": 360,
-      "def": 0,
-      "res": 30,
-      "mvSpd": 1.7,
-      "atkInterval": 1.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1326_cbagen": [
-    {
-      "hp": 5800,
-      "atk": 400,
-      "def": 150,
-      "res": 40,
-      "mvSpd": 1.2,
-      "atkInterval": 1.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1326_cbagen_2": [
-    {
-      "hp": 7800,
-      "atk": 500,
-      "def": 170,
-      "res": 40,
-      "mvSpd": 1.2,
-      "atkInterval": 1.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1327_cbrokt": [
-    {
-      "hp": 5750,
-      "atk": 350,
-      "def": 170,
-      "res": 40,
-      "mvSpd": 0.8,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.4
-    }
-  ],
-  "enemy_1327_cbrokt_2": [
-    {
-      "hp": 8000,
-      "atk": 500,
-      "def": 200,
-      "res": 40,
-      "mvSpd": 0.8,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.4
-    }
-  ],
-  "enemy_1328_cbjedi": [
-    {
-      "hp": 10000,
-      "atk": 700,
-      "def": 550,
-      "res": 50,
-      "mvSpd": 0.75,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1328_cbjedi_2": [
-    {
-      "hp": 14000,
-      "atk": 800,
-      "def": 650,
-      "res": 50,
-      "mvSpd": 0.75,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1329_cbshld": [
-    {
-      "hp": 10000,
-      "atk": 700,
-      "def": 3300,
-      "res": 60,
-      "mvSpd": 0.75,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1329_cbshld_2": [
-    {
-      "hp": 13000,
-      "atk": 900,
-      "def": 3500,
-      "res": 60,
-      "mvSpd": 0.75,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1330_cbrush": [
-    {
-      "hp": 12000,
-      "atk": 1000,
-      "def": 1100,
-      "res": 0,
-      "mvSpd": 1.1,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1330_cbrush_2": [
-    {
-      "hp": 14000,
-      "atk": 1200,
-      "def": 1300,
-      "res": 0,
-      "mvSpd": 1.1,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1331_cbsisy": [
-    {
-      "hp": 15000,
-      "atk": 190,
-      "def": 800,
-      "res": 10,
-      "mvSpd": 0.8,
-      "atkInterval": 0.6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1331_cbsisy_2": [
-    {
-      "hp": 20000,
-      "atk": 250,
-      "def": 900,
-      "res": 10,
-      "mvSpd": 0.8,
-      "atkInterval": 0.6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1332_cbterm": [
-    {
-      "hp": 20000,
-      "atk": 1200,
-      "def": 4500,
-      "res": 75,
-      "mvSpd": 0.8,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.4
-    }
-  ],
-  "enemy_1332_cbterm_2": [
-    {
-      "hp": 22000,
-      "atk": 1500,
-      "def": 4800,
-      "res": 90,
-      "mvSpd": 0.8,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.4
-    }
-  ],
-  "enemy_1333_cbbgen": [
-    {
-      "hp": 5500,
-      "atk": 600,
-      "def": 300,
-      "res": 40,
-      "mvSpd": 1.2,
-      "atkInterval": 1.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1333_cbbgen_2": [
-    {
-      "hp": 8500,
-      "atk": 600,
-      "def": 400,
-      "res": 40,
-      "mvSpd": 1.2,
-      "atkInterval": 1.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1543_cstlrs": [
-    {
-      "hp": 35000,
-      "atk": 600,
-      "def": 600,
-      "res": 50,
-      "mvSpd": 0.4,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    },
-    {
-      "hp": 50000,
-      "atk": 700,
-      "def": 800,
-      "res": 50,
-      "mvSpd": 0.4,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_3005_lpeopl": [
-    {
-      "hp": 5000,
-      "atk": 0,
-      "def": 50,
-      "res": 0,
-      "mvSpd": 0.65,
-      "atkInterval": 0,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1335_bldrat": [
-    {
-      "hp": 2200,
-      "atk": 300,
-      "def": 100,
-      "res": 0,
-      "mvSpd": 1.7,
-      "atkInterval": 1.4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1335_bldrat_2": [
-    {
-      "hp": 3500,
-      "atk": 350,
-      "def": 120,
-      "res": 0,
-      "mvSpd": 1.7,
-      "atkInterval": 1.4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1336_bldbat": [
-    {
-      "hp": 3500,
-      "atk": 150,
-      "def": 120,
-      "res": 20,
-      "mvSpd": 0.7,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.5
-    }
-  ],
-  "enemy_1336_bldbat_2": [
-    {
-      "hp": 4500,
-      "atk": 200,
-      "def": 150,
-      "res": 20,
-      "mvSpd": 0.7,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.5
-    }
-  ],
-  "enemy_1337_bhrknf": [
-    {
-      "hp": 5500,
-      "atk": 350,
-      "def": 400,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1337_bhrknf_2": [
-    {
-      "hp": 7000,
-      "atk": 450,
-      "def": 450,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1338_bhrjst": [
-    {
-      "hp": 5300,
-      "atk": 500,
-      "def": 330,
-      "res": 0,
-      "mvSpd": 0.9,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1338_bhrjst_2": [
-    {
-      "hp": 7300,
-      "atk": 600,
-      "def": 350,
-      "res": 0,
-      "mvSpd": 0.9,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1339_bhrgrd": [
-    {
-      "hp": 20000,
-      "atk": 500,
-      "def": 800,
-      "res": 0,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1339_bhrgrd_2": [
-    {
-      "hp": 25000,
-      "atk": 500,
-      "def": 1000,
-      "res": 0,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1340_bthtbw": [
-    {
-      "hp": 15000,
-      "atk": 500,
-      "def": 500,
-      "res": 30,
-      "mvSpd": 0.7,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.8
-    }
-  ],
-  "enemy_1340_bthtbw_2": [
-    {
-      "hp": 20000,
-      "atk": 600,
-      "def": 600,
-      "res": 30,
-      "mvSpd": 0.7,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.8
-    }
-  ],
-  "enemy_1341_bthtms": [
-    {
-      "hp": 15000,
-      "atk": 650,
-      "def": 500,
-      "res": 50,
-      "mvSpd": 0.8,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1341_bthtms_2": [
-    {
-      "hp": 20000,
-      "atk": 750,
-      "def": 600,
-      "res": 50,
-      "mvSpd": 0.8,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1342_frtuna": [
-    {
-      "hp": 35000,
-      "atk": 700,
-      "def": 400,
-      "res": 50,
-      "mvSpd": 0.7,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.8
-    }
-  ],
-  "enemy_1544_cledub": [
-    {
-      "hp": 800,
-      "atk": 100,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 0.5,
-      "atkInterval": 0,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 800,
-      "atk": 100,
-      "def": 0,
-      "res": 0,
-      "mvSpd": 0.5,
-      "atkInterval": 0,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2043_smsbr": [
-    {
-      "hp": 4000,
-      "atk": 400,
-      "def": 200,
-      "res": 0,
-      "mvSpd": 1,
-      "atkInterval": 1.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2044_smwiz": [
-    {
-      "hp": 8000,
-      "atk": 350,
-      "def": 300,
-      "res": 50,
-      "mvSpd": 0.6,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.8
-    }
-  ],
-  "enemy_2045_smdrn": [
-    {
-      "hp": 3500,
-      "atk": 200,
-      "def": 100,
-      "res": 65,
-      "mvSpd": 2,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.3
-    }
-  ],
-  "enemy_2046_smwar": [
-    {
-      "hp": 20000,
-      "atk": 700,
-      "def": 800,
-      "res": 20,
-      "mvSpd": 2.5,
-      "atkInterval": 1.2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2048_smgrd": [
-    {
-      "hp": 50000,
-      "atk": 800,
-      "def": 300,
-      "res": 30,
-      "mvSpd": 0.6,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.4
-    }
-  ],
-  "enemy_2049_smgrd2": [
-    {
-      "hp": 60000,
-      "atk": 800,
-      "def": 300,
-      "res": 30,
-      "mvSpd": 0.4,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_2050_smsha": [
-    {
-      "hp": 40000,
-      "atk": 600,
-      "def": 300,
-      "res": 60,
-      "mvSpd": 2.5,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 3.5
-    }
-  ],
-  "enemy_2051_smsha2": [
-    {
-      "hp": 45000,
-      "atk": 750,
-      "def": 300,
-      "res": 60,
-      "mvSpd": 2.5,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 3.5
-    }
-  ],
-  "enemy_2052_smgia": [
-    {
-      "hp": 90000,
-      "atk": 1200,
-      "def": 700,
-      "res": 30,
-      "mvSpd": 0.5,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2053_smgia2": [
-    {
-      "hp": 100000,
-      "atk": 1200,
-      "def": 1200,
-      "res": 40,
-      "mvSpd": 0.5,
-      "atkInterval": 2.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2059_smbox": [
-    {
-      "hp": 10000,
-      "atk": 600,
-      "def": 500,
-      "res": 30,
-      "mvSpd": 0.7,
-      "atkInterval": 1.2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 20000,
-      "atk": 800,
-      "def": 500,
-      "res": 30,
-      "mvSpd": 0.7,
-      "atkInterval": 1.2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    },
-    {
-      "hp": 30000,
-      "atk": 1200,
-      "def": 500,
-      "res": 30,
-      "mvSpd": 0.7,
-      "atkInterval": 1.2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2054_smdeer": [
-    {
-      "hp": 240000,
-      "atk": 800,
-      "def": 800,
-      "res": 40,
-      "mvSpd": 1,
-      "atkInterval": 6,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": -1
-    }
-  ],
-  "enemy_2055_smlead": [
-    {
-      "hp": 150000,
-      "atk": 1000,
-      "def": 3000,
-      "res": 30,
-      "mvSpd": 1.1,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_2056_smedzi": [
-    {
-      "hp": 80000,
-      "atk": 1000,
-      "def": 1500,
-      "res": 50,
-      "mvSpd": 0,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 3.5
-    }
-  ],
-  "enemy_1344_ddlamb": [
-    {
-      "hp": 5000,
-      "atk": 500,
-      "def": 150,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 3.2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1344_ddlamb_2": [
-    {
-      "hp": 6500,
-      "atk": 600,
-      "def": 200,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 3.2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1345_tplamb": [
-    {
-      "hp": 5000,
-      "atk": 300,
-      "def": 100,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1345_tplamb_2": [
-    {
-      "hp": 6000,
-      "atk": 380,
-      "def": 150,
-      "res": 0,
-      "mvSpd": 0.8,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1346_ynshp": [
-    {
-      "hp": 8000,
-      "atk": 750,
-      "def": 250,
-      "res": 20,
-      "mvSpd": 1.1,
-      "atkInterval": 3.2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1346_ynshp_2": [
-    {
-      "hp": 10000,
-      "atk": 900,
-      "def": 300,
-      "res": 20,
-      "mvSpd": 1.1,
-      "atkInterval": 3.2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1347_fyshp": [
-    {
-      "hp": 18000,
-      "atk": 550,
-      "def": 50,
-      "res": 20,
-      "mvSpd": 0.35,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1347_fyshp_2": [
-    {
-      "hp": 25000,
-      "atk": 650,
-      "def": 100,
-      "res": 25,
-      "mvSpd": 0.35,
-      "atkInterval": 3.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2
-    }
-  ],
-  "enemy_1348_rllamb": [
-    {
-      "hp": 5000,
-      "atk": 1000,
-      "def": 250,
-      "res": 0,
-      "mvSpd": 1.5,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1348_rllamb_2": [
-    {
-      "hp": 6000,
-      "atk": 1250,
-      "def": 300,
-      "res": 0,
-      "mvSpd": 1.5,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1349_rckshp": [
-    {
-      "hp": 15000,
-      "atk": 1200,
-      "def": 1200,
-      "res": 20,
-      "mvSpd": 0.5,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1349_rckshp_2": [
-    {
-      "hp": 18000,
-      "atk": 1500,
-      "def": 1500,
-      "res": 25,
-      "mvSpd": 0.5,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1350_mgcshp": [
-    {
-      "hp": 7000,
-      "atk": 380,
-      "def": 250,
-      "res": 50,
-      "mvSpd": 0.7,
-      "atkInterval": 3.2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 3.5
-    }
-  ],
-  "enemy_1350_mgcshp_2": [
-    {
-      "hp": 9000,
-      "atk": 550,
-      "def": 280,
-      "res": 60,
-      "mvSpd": 0.7,
-      "atkInterval": 3.2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 3.5
-    }
-  ],
-  "enemy_1351_yhhshp": [
-    {
-      "hp": 500,
-      "atk": 500,
-      "def": 50,
-      "res": 50,
-      "mvSpd": 0.5,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": -1
-    }
-  ],
-  "enemy_1545_shpkg": [
-    {
-      "hp": 60000,
-      "atk": 750,
-      "def": 800,
-      "res": 60,
-      "mvSpd": 0.35,
-      "atkInterval": 7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.5
-    },
-    {
-      "hp": 80000,
-      "atk": 1000,
-      "def": 900,
-      "res": 60,
-      "mvSpd": 0.35,
-      "atkInterval": 7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 1.5
-    }
-  ],
-  "enemy_6015_ictruck": [
-    {
-      "hp": 80000,
-      "atk": 1100,
-      "def": 1400,
-      "res": 60,
-      "mvSpd": 1.3,
-      "atkInterval": 5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": -1
-    }
-  ],
-  "enemy_6016_splash": [
-    {
-      "hp": 85000,
-      "atk": 500,
-      "def": 1950,
-      "res": 95,
-      "mvSpd": 0.2,
-      "atkInterval": 2.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": -1
-    }
-  ],
-  "enemy_6017_icdrone": [
-    {
-      "hp": 12000,
-      "atk": 0,
-      "def": 500,
-      "res": 40,
-      "mvSpd": 0,
-      "atkInterval": 1,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": -1
-    }
-  ],
-  "enemy_1352_eslime": [
-    {
-      "hp": 2000,
-      "atk": 90,
-      "def": 50,
-      "res": 10,
-      "mvSpd": 1,
-      "atkInterval": 1.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1352_eslime_2": [
-    {
-      "hp": 3500,
-      "atk": 150,
-      "def": 50,
-      "res": 15,
-      "mvSpd": 1,
-      "atkInterval": 1.7,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1353_esabr": [
-    {
-      "hp": 4500,
-      "atk": 250,
-      "def": 100,
-      "res": 0,
-      "mvSpd": 0.9,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1353_esabr_2": [
-    {
-      "hp": 6000,
-      "atk": 300,
-      "def": 150,
-      "res": 0,
-      "mvSpd": 0.9,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1354_eghost": [
-    {
-      "hp": 5000,
-      "atk": 100,
-      "def": 120,
-      "res": 10,
-      "mvSpd": 1.2,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1354_eghost_2": [
-    {
-      "hp": 7000,
-      "atk": 100,
-      "def": 180,
-      "res": 10,
-      "mvSpd": 1.2,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1355_mrfly": [
-    {
-      "hp": 6000,
-      "atk": 0,
-      "def": 80,
-      "res": 40,
-      "mvSpd": 1.2,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_1355_mrfly_2": [
-    {
-      "hp": 10000,
-      "atk": 0,
-      "def": 80,
-      "res": 50,
-      "mvSpd": 1.2,
-      "atkInterval": 2,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.5
-    }
-  ],
-  "enemy_1356_egun": [
-    {
-      "hp": 9000,
-      "atk": 200,
-      "def": 80,
-      "res": 10,
-      "mvSpd": 0.7,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
-    }
-  ],
-  "enemy_1356_egun_2": [
-    {
-      "hp": 12000,
-      "atk": 250,
-      "def": 120,
-      "res": 10,
-      "mvSpd": 0.7,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
-    }
-  ],
-  "enemy_1357_erob": [
-    {
-      "hp": 16000,
-      "atk": 500,
-      "def": 250,
-      "res": 20,
-      "mvSpd": 0.6,
-      "atkInterval": 2.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1357_erob_2": [
-    {
-      "hp": 20000,
-      "atk": 600,
-      "def": 350,
-      "res": 20,
-      "mvSpd": 0.6,
-      "atkInterval": 2.8,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1358_esheld": [
-    {
-      "hp": 12000,
-      "atk": 300,
-      "def": 600,
-      "res": 0,
-      "mvSpd": 0.5,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1358_esheld_2": [
-    {
-      "hp": 15000,
-      "atk": 400,
-      "def": 700,
-      "res": 0,
-      "mvSpd": 0.5,
-      "atkInterval": 3,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 0
-    }
-  ],
-  "enemy_1359_ekulsr": [
-    {
-      "hp": 20000,
-      "atk": 400,
-      "def": 200,
-      "res": 20,
-      "mvSpd": 0.6,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.6
-    }
-  ],
-  "enemy_1359_ekulsr_2": [
-    {
-      "hp": 25000,
-      "atk": 550,
-      "def": 300,
-      "res": 20,
-      "mvSpd": 0.6,
-      "atkInterval": 4.5,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.6
-    }
-  ],
-  "enemy_1546_cliff": [
-    {
-      "hp": 45000,
-      "atk": 1100,
-      "def": 2500,
-      "res": 60,
-      "mvSpd": 0.45,
-      "atkInterval": 4,
-      "erst": 0,
-      "irst": 0,
-      "atkRange": 2.2
-    },
-    {
-      "hp": 65000,
+      "hp": 17000,
       "atk": 1300,
       "def": 2500,
-      "res": 70,
-      "mvSpd": 0.45,
-      "atkInterval": 4,
+      "res": 90,
+      "mvSpd": 0.9,
+      "atkInterval": 3,
       "erst": 0,
       "irst": 0,
-      "atkRange": 2.2
+      "atkRange": 0
     }
   ],
   "enemy_8001_flmlod_3": [

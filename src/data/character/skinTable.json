@@ -125,6 +125,12 @@
       "name": "Achievement Star",
       "altName": "ACHIEVEMENT STAR",
       "description": "Press Start\nCasual clothing made for gamers, comfortable while maximizing the gaming experience."
+    },
+    "iteration": {
+      "id": "iteration",
+      "name": "Iteration Provident",
+      "altName": "ITERATION PROVIDENT",
+      "description": "Two Paths, One Goal\nSo-called 'fate' has been recursive from the start, a harmonious reconstruction, a mirror with limitless reflections. And then came you."
     }
   },
   "skinTable": {
@@ -1624,6 +1630,28 @@
       "artists": ["阿鬼"],
       "releasedAt": 0
     },
+    "char_4107_vrdant_1": {
+      "id": "char_4107_vrdant_1",
+      "usedBy": "char_4107_vrdant",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Verdant's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["百慕大飞鱼"],
+      "releasedAt": 0
+    },
+    "char_4107_vrdant_2": {
+      "id": "char_4107_vrdant_2",
+      "usedBy": "char_4107_vrdant",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Verdant's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["百慕大飞鱼"],
+      "releasedAt": 0
+    },
     "char_128_plosis_1": {
       "id": "char_128_plosis_1",
       "usedBy": "char_128_plosis",
@@ -2988,6 +3016,28 @@
       "artists": ["STAR影法师"],
       "releasedAt": 0
     },
+    "char_4110_delphn_1": {
+      "id": "char_4110_delphn_1",
+      "usedBy": "char_4110_delphn",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Delphine's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["Cenm0"],
+      "releasedAt": 0
+    },
+    "char_4110_delphn_2": {
+      "id": "char_4110_delphn_2",
+      "usedBy": "char_4110_delphn",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Delphine's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["Cenm0"],
+      "releasedAt": 0
+    },
     "char_1011_lava2_1": {
       "id": "char_1011_lava2_1",
       "usedBy": "char_1011_lava2",
@@ -3349,6 +3399,28 @@
       "imgAlt": "Hibiscus the Purifier's \"Elite 2\" skin",
       "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
       "artists": ["下野宏铭"],
+      "releasedAt": 0
+    },
+    "char_494_vendla_1": {
+      "id": "char_494_vendla_1",
+      "usedBy": "char_494_vendla",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Vendela's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["Studio Montagne"],
+      "releasedAt": 0
+    },
+    "char_494_vendla_2": {
+      "id": "char_494_vendla_2",
+      "usedBy": "char_494_vendla",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Vendela's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["Studio Montagne"],
       "releasedAt": 0
     },
     "char_4071_peper_1": {
@@ -6055,6 +6127,28 @@
       "imgAlt": "Qiubai's \"Elite 2\" skin",
       "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
       "artists": ["温泉瓜"],
+      "releasedAt": 0
+    },
+    "char_4088_hodrer_1": {
+      "id": "char_4088_hodrer_1",
+      "usedBy": "char_4088_hodrer",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Hoederer's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["树豚"],
+      "releasedAt": 0
+    },
+    "char_4088_hodrer_2": {
+      "id": "char_4088_hodrer_2",
+      "usedBy": "char_4088_hodrer",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Hoederer's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["树豚"],
       "releasedAt": 0
     },
     "char_010_chen_1": {
@@ -10160,6 +10254,61 @@
       "artists": ["IRIS_呓"],
       "releasedAt": 1707908400
     },
+    "token_10025_doroth_recttp_witch#4": {
+      "id": "token_10025_doroth_recttp_witch#4",
+      "usedBy": "token_10025_doroth_recttp",
+      "brandId": "witch",
+      "subBrand": { "id": "2023#witch", "name": "Witch Feast/IV" },
+      "name": "Hand of Destiny",
+      "imgAlt": "Resonator's \"Hand of Destiny\" skin",
+      "description": null,
+      "artists": null,
+      "releasedAt": 1713268800
+    },
+    "char_4048_doroth_witch#4": {
+      "id": "char_4048_doroth_witch#4",
+      "usedBy": "char_4048_doroth",
+      "brandId": "witch",
+      "subBrand": { "id": "2023#witch", "name": "Witch Feast/IV" },
+      "name": "Hand of Destiny",
+      "imgAlt": "Dorothy's \"Hand of Destiny\" skin",
+      "description": "Witch Feast Role-Playing Script 'Dominions & Dogma' Custom Line/Hand of Destiny. This player shall be the will of the realm behind the story. She is neither a wicked god, nor a righteous spirit. All she does is let the players roll the dice.",
+      "artists": ["Jacknife"],
+      "releasedAt": 1713268800
+    },
+    "char_300_phenxi_witch#4": {
+      "id": "char_300_phenxi_witch#4",
+      "usedBy": "char_300_phenxi",
+      "brandId": "witch",
+      "subBrand": { "id": "2023#witch", "name": "Witch Feast/IV" },
+      "name": "Divine Oath",
+      "imgAlt": "Fiammetta's \"Divine Oath\" skin",
+      "description": "Witch Feast Role-Playing Script 'Dominions & Dogma' Custom Line/Divine Oath. This player shall be the apostolic knight who takes charge in times of crisis. She is the crimson fury spilling forth from the Holy Spirit's palm, bearing the eternal burden of seeking the land of salvation.",
+      "artists": ["三目YYB"],
+      "releasedAt": 1713268800
+    },
+    "char_492_quercu_witch#4": {
+      "id": "char_492_quercu_witch#4",
+      "usedBy": "char_492_quercu",
+      "brandId": "witch",
+      "subBrand": { "id": "2023#witch", "name": "Witch Feast/IV" },
+      "name": "The Bard's Tale",
+      "imgAlt": "Quercus's \"The Bard's Tale\" skin",
+      "description": "Witch Feast Role-Playing Script 'Dominions & Dogma' Custom Line/The Bard's Tale. This player shall be the one singing ballads for the heroes of old, livening up the tavern with her ditties. Come, listen close, who stole the melody that wends through the shadow-flickering breeze?",
+      "artists": ["YUJI"],
+      "releasedAt": 1713268800
+    },
+    "char_436_whispr_witch#4": {
+      "id": "char_436_whispr_witch#4",
+      "usedBy": "char_436_whispr",
+      "brandId": "witch",
+      "subBrand": { "id": "2023#witch", "name": "Witch Feast/IV" },
+      "name": "Priory of Abyss",
+      "imgAlt": "Whisperain's \"Priory of Abyss\" skin",
+      "description": "Witch Feast Role-Playing Script 'Dominions & Dogma' Custom Line/Priory of Abyss. This player shall be the sister in black, who has saved countless adventurers' lives. The people never ask who forgets the traumas of their mundane lives for them.",
+      "artists": ["Chuzenji"],
+      "releasedAt": 1713268800
+    },
     "char_1001_amiya2_2": {
       "id": "char_1001_amiya2_2",
       "usedBy": "char_1001_amiya2",
@@ -10298,6 +10447,7 @@
     ],
     "char_355_ethan": ["char_355_ethan_1", "char_355_ethan_2", "char_355_ethan_epoque#7"],
     "char_277_sqrrel": ["char_277_sqrrel_1", "char_277_sqrrel_2", "char_277_sqrrel_ghost#1"],
+    "char_4107_vrdant": ["char_4107_vrdant_1", "char_4107_vrdant_2"],
     "char_128_plosis": ["char_128_plosis_1", "char_128_plosis_2", "char_128_plosis_epoque#3"],
     "char_275_breeze": ["char_275_breeze_1", "char_275_breeze_2"],
     "char_115_headbr": [
@@ -10412,6 +10562,7 @@
     "char_388_mint": ["char_388_mint_1", "char_388_mint_2", "char_388_mint_epoque#22"],
     "char_338_iris": ["char_338_iris_1", "char_338_iris_2", "char_338_iris_witch#3"],
     "char_297_hamoni": ["char_297_hamoni_1", "char_297_hamoni_2", "char_297_hamoni_epoque#24"],
+    "char_4110_delphn": ["char_4110_delphn_1", "char_4110_delphn_2"],
     "char_1011_lava2": ["char_1011_lava2_1", "char_1011_lava2_2", "char_1011_lava2_nian#6"],
     "char_489_serum": ["char_489_serum_1", "char_489_serum_2"],
     "char_4013_kjera": ["char_4013_kjera_1", "char_4013_kjera_2", "char_4013_kjera_epoque#18"],
@@ -10434,7 +10585,12 @@
     "char_345_folnic": ["char_345_folnic_1", "char_345_folnic_2", "char_345_folnic_wild#4"],
     "char_510_amedic": ["char_510_amedic_1"],
     "char_348_ceylon": ["char_348_ceylon_1", "char_348_ceylon_2", "char_348_ceylon_summer#13"],
-    "char_436_whispr": ["char_436_whispr_1", "char_436_whispr_2", "char_436_whispr_nian#4"],
+    "char_436_whispr": [
+      "char_436_whispr_1",
+      "char_436_whispr_2",
+      "char_436_whispr_nian#4",
+      "char_436_whispr_witch#4"
+    ],
     "char_402_tuye": ["char_402_tuye_1", "char_402_tuye_2", "char_402_tuye_epoque#14"],
     "char_473_mberry": [
       "char_473_mberry_1",
@@ -10444,6 +10600,7 @@
     ],
     "char_449_glider": ["char_449_glider_1", "char_449_glider_2", "char_449_glider_epoque#17"],
     "char_1024_hbisc2": ["char_1024_hbisc2_1", "char_1024_hbisc2_2"],
+    "char_494_vendla": ["char_494_vendla_1", "char_494_vendla_2"],
     "char_4071_peper": ["char_4071_peper_1", "char_4071_peper_2", "char_4071_peper_whirlwind#5"],
     "char_148_nearl": ["char_148_nearl_1", "char_148_nearl_2", "char_148_nearl_summer#2"],
     "char_226_hmau": ["char_226_hmau_1", "char_226_hmau_2", "char_226_hmau_nian#4"],
@@ -10512,7 +10669,12 @@
     "char_4045_heidi": ["char_4045_heidi_1", "char_4045_heidi_2", "char_4045_heidi_epoque#24"],
     "char_343_tknogi": ["char_343_tknogi_1", "char_343_tknogi_2", "char_343_tknogi_epoque#9"],
     "char_4019_ncdeer": ["char_4019_ncdeer_1", "char_4019_ncdeer_2", "char_4019_ncdeer_ncdeer#1"],
-    "char_492_quercu": ["char_492_quercu_1", "char_492_quercu_2", "char_492_quercu_epoque#17"],
+    "char_492_quercu": [
+      "char_492_quercu_1",
+      "char_492_quercu_2",
+      "char_492_quercu_epoque#17",
+      "char_492_quercu_witch#4"
+    ],
     "char_4102_threye": ["char_4102_threye_1", "char_4102_threye_2"],
     "char_215_mantic": [
       "char_215_mantic_1",
@@ -10549,7 +10711,7 @@
     "char_4055_bgsnow": ["char_4055_bgsnow_1", "char_4055_bgsnow_2", "char_4055_bgsnow_wild#7"],
     "char_430_fartth": ["char_430_fartth_1", "char_430_fartth_2", "char_430_fartth_whirlwind#5"],
     "char_113_cqbw": ["char_113_cqbw_1", "char_113_cqbw_2", "char_113_cqbw_epoque#7"],
-    "char_300_phenxi": ["char_300_phenxi_1", "char_300_phenxi_2"],
+    "char_300_phenxi": ["char_300_phenxi_1", "char_300_phenxi_2", "char_300_phenxi_witch#4"],
     "char_197_poca": ["char_197_poca_1", "char_197_poca_2", "char_197_poca_epoque#12"],
     "char_2012_typhon": ["char_2012_typhon_1", "char_2012_typhon_2"],
     "char_391_rosmon": ["char_391_rosmon_1", "char_391_rosmon_2", "char_391_rosmon_epoque#17"],
@@ -10642,7 +10804,7 @@
     "char_474_glady": ["char_474_glady_1", "char_474_glady_2", "char_474_glady_boc#5"],
     "char_437_mizuki": ["char_437_mizuki_1", "char_437_mizuki_2", "char_437_mizuki_sale#7"],
     "char_1023_ghost2": ["char_1023_ghost2_1", "char_1023_ghost2_2", "char_1023_ghost2_boc#6"],
-    "char_4048_doroth": ["char_4048_doroth_1", "char_4048_doroth_2"],
+    "char_4048_doroth": ["char_4048_doroth_1", "char_4048_doroth_2", "char_4048_doroth_witch#4"],
     "char_147_shining": ["char_147_shining_1", "char_147_shining_2", "char_147_shining_summer#1"],
     "char_179_cgbird": ["char_179_cgbird_1", "char_179_cgbird_2", "char_179_cgbird_witch#1"],
     "char_003_kalts": ["char_003_kalts_1", "char_003_kalts_2", "char_003_kalts_boc#6"],
@@ -10687,6 +10849,7 @@
     ],
     "char_293_thorns": ["char_293_thorns_1", "char_293_thorns_2", "char_293_thorns_it#1"],
     "char_4082_qiubai": ["char_4082_qiubai_1", "char_4082_qiubai_2", "char_4082_qiubai_ncg#1"],
+    "char_4088_hodrer": ["char_4088_hodrer_1", "char_4088_hodrer_2"],
     "char_010_chen": [
       "char_010_chen_1",
       "char_010_chen_2",
@@ -10792,7 +10955,7 @@
     "token_10022_kazema_shadow": ["token_10022_kazema_shadow", "token_10022_kazema_shadow_witch#3"],
     "token_10023_windft_wrench": ["token_10023_windft_wrench"],
     "token_10024_ebnhlz_rcube": ["token_10024_ebnhlz_rcube"],
-    "token_10025_doroth_recttp": ["token_10025_doroth_recttp"],
+    "token_10025_doroth_recttp": ["token_10025_doroth_recttp", "token_10025_doroth_recttp_witch#4"],
     "token_10026_bgsnow_subbow": ["token_10026_bgsnow_subbow", "token_10026_bgsnow_subbow_wild#7"],
     "token_10027_ironmn_pile1": ["token_10027_ironmn_pile1", "token_10027_ironmn_pile1_summer#11"],
     "token_10027_ironmn_pile2": ["token_10027_ironmn_pile2", "token_10027_ironmn_pile2_summer#11"],

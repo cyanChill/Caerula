@@ -217,6 +217,28 @@ export const EnemyEventTable: Record<
       "enemy_1542_wdslm",
     ],
   },
+  e13: {
+    name: "Episode 13: The Whirlpool that is Passion",
+    enemies: [
+      "enemy_1360_dfello",
+      "enemy_1361_dthrow",
+      "enemy_1361_dthrow_2",
+      "enemy_1362_dfat",
+      "enemy_1362_dfat_2",
+      "enemy_1363_spnshd",
+      "enemy_1363_spnshd_2",
+      "enemy_1364_spnaxe",
+      "enemy_1364_spnaxe_2",
+      "enemy_1365_spnwiz",
+      "enemy_1365_spnwiz_2",
+      "enemy_1366_dcolle",
+      "enemy_1366_dcolle_2",
+      "enemy_1367_dseed",
+      "enemy_1368_spilot",
+      "enemy_1369_bmbcar1",
+      "enemy_1547_blord",
+    ],
+  },
   /* Events */
   of: {
     name: "Heart of Surging Flame",
