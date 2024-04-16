@@ -815,6 +815,38 @@
     "usage": "A compound crystal mass that has undergone high-tolerance refinement. Used in a variety of strengthening projects, and is a common material in synthetic items at factories.",
     "rarity": 4
   },
+  "31073": {
+    "id": "31073",
+    "iconId": "MTL_SL_XW",
+    "name": "Fuscous Fiber",
+    "description": "A derived product in Originium engineering, widely used in industrial fields due to its exceptional functionality. In recent years, its unique appearance has also drawn keen interest from those working in design.",
+    "usage": "A specialized fiber bundle, possessing high tensile strength and elastic modulus. Used in a variety of strengthening projects.",
+    "rarity": 3
+  },
+  "31074": {
+    "id": "31074",
+    "iconId": "MTL_SL_XWB",
+    "name": "Solidified Fiber Board",
+    "description": "A compound fiber board crafted through bespoke manufacturing. Exhibits outstanding functionality, both physically and chemically, coupled with a rarely-seen ease of processing. An irreplaceable part of many an industrial workflow.",
+    "usage": "A specialized fiber board, solidified in a mold. Used in a variety of strengthening projects.",
+    "rarity": 4
+  },
+  "31083": {
+    "id": "31083",
+    "iconId": "MTL_SL_HT",
+    "name": "Aggregate Cyclicene",
+    "description": "A novel transparent material born from the laboratory. Its high luminous transmittance and phenomenal durability in all aspects promise to make it an excellent substitute for many conventional materials.",
+    "usage": "A superlatively heat- and chemical-resistant industrial material. Used in a variety of strengthening projects.",
+    "rarity": 3
+  },
+  "31084": {
+    "id": "31084",
+    "iconId": "MTL_SL_HTT",
+    "name": "Cyclicene Prefab",
+    "description": "An industrial product arrived at through the introduction of several excellent materials into the synthesis process, preserving luminous transmittance while vastly increasing strength and shock resistance. Prospects are high for its wide adoption in the field of defense.",
+    "usage": "A prefabricated industrial intermediate composed of multiple first-rate materials. Used in a variety of strengthening projects.",
+    "rarity": 4
+  },
   "32001": {
     "id": "32001",
     "iconId": "MTL_ASC_DI",
@@ -1089,6 +1121,22 @@
   },
   "renamingCard_30_038": {
     "id": "renamingCard_30_038",
+    "iconId": "renamingCard",
+    "name": "ID Info Update Card",
+    "description": "Don't waste the precious chance to do a system update.",
+    "usage": "ID Info Update Card for a system upgrade to the Rhodes Island bridge. This one is for you, Doctor.",
+    "rarity": 5
+  },
+  "renamingCard_0_044": {
+    "id": "renamingCard_0_044",
+    "iconId": "renamingCard",
+    "name": "ID Info Update Card",
+    "description": "Don't waste the precious chance to do a system update.",
+    "usage": "ID Info Update Card for a system upgrade to the Rhodes Island bridge. This one is for you, Doctor.",
+    "rarity": 5
+  },
+  "renamingCard_30_044": {
+    "id": "renamingCard_30_044",
     "iconId": "renamingCard",
     "name": "ID Info Update Card",
     "description": "Don't waste the precious chance to do a system update.",
@@ -3015,6 +3063,14 @@
     "usage": "Used to improve the Potential of Humus.",
     "rarity": 4
   },
+  "p_char_4107_vrdant": {
+    "id": "p_char_4107_vrdant",
+    "iconId": "p_char_4107_vrdant",
+    "name": "Verdant's Token",
+    "description": "A stalk of grass one could mistake for a weed at first glance. Holds a special significance to him. A sharp notch has been cut in the grass's blade—don't worry, he's not trying to hurt you.",
+    "usage": "Used to improve the Potential of Verdant.",
+    "rarity": 4
+  },
   "p_char_128_plosis": {
     "id": "p_char_128_plosis",
     "iconId": "p_char_128_plosis",
@@ -4055,6 +4111,22 @@
     "usage": "Used to improve the Potential of Coldshot.",
     "rarity": 5
   },
+  "p_char_4110_delphn": {
+    "id": "p_char_4110_delphn",
+    "iconId": "p_char_4110_delphn",
+    "name": "Delphine's Token",
+    "description": "A refined cufflink. Servicemen of Windermere lineage have always been fastidious about their martial appearances, with not a hair out of place. Now, she's removed this small token of her own accord, and gifted it to you.",
+    "usage": "Used to improve the Potential of Delphine.",
+    "rarity": 5
+  },
+  "p_char_494_vendla": {
+    "id": "p_char_494_vendla",
+    "iconId": "p_char_494_vendla",
+    "name": "Vendela's Token",
+    "description": "A withered white rose, cream-colored petals stained by irremovable traces of deep red, reflecting certain recollections of her past life. Bygones are bygones, and there is so little she can hold onto.",
+    "usage": "Used to improve the Potential of Vendela.",
+    "rarity": 5
+  },
   "p_char_103_angel": {
     "id": "p_char_103_angel",
     "iconId": "p_char_103_angel",
@@ -4307,7 +4379,7 @@
     "id": "p_char_311_mudrok",
     "iconId": "p_char_311_mudrok",
     "name": "Mudrock's Token",
-    "description": "A tiny little rock sculture. It looks like it's 'gazing' at you inquisitively.",
+    "description": "A tiny little rock sculpture. It looks like it's 'gazing' at you inquisitively.",
     "usage": "Used to improve the Potential of Mudrock.",
     "rarity": 6
   },
@@ -4693,6 +4765,14 @@
     "name": "Jessica the Liberated's Token",
     "description": "A custom-ordered laser scope, used for precision nighttime aiming. She always has her sights set dead ahead, and never looks away.",
     "usage": "Used to improve the Potential of Jessica the Liberated.",
+    "rarity": 6
+  },
+  "p_char_4088_hodrer": {
+    "id": "p_char_4088_hodrer",
+    "iconId": "p_char_4088_hodrer",
+    "name": "Hoederer's Token",
+    "description": "A notebook with a singed corner. Recorded are not only operation results, but the lives of Sarkaz, sifted from the ashes.",
+    "usage": "Used to improve the Potential of Hoederer.",
     "rarity": 6
   },
   "class_p_char_123_fang": {
@@ -7558,5 +7638,21 @@
     "description": "'WARNING! Please refrain from undue perception of/empathy with simulation products, or subsequent generation of false data may lead to irreversible mental damage.'",
     "usage": "Stores operation data from the Formulative Battlerealm. Accumulate to advance Cogitative Diving Evaluation progress.",
     "rarity": 5
+  },
+  "classic_fes_pick_tier_5_4401": {
+    "id": "classic_fes_pick_tier_5_4401",
+    "iconId": "classic_fes_pick_tier_5",
+    "name": "Kernel Locating 5* Operator",
+    "description": "Boosts the pull rate of one chosen 5-star operator",
+    "usage": "Boosts the pull rate of one chosen 5-star operator",
+    "rarity": 6
+  },
+  "classic_fes_pick_tier_6_4401": {
+    "id": "classic_fes_pick_tier_6_4401",
+    "iconId": "classic_fes_pick_tier_6",
+    "name": "Kernel Locating 6* Operator",
+    "description": "Boosts the pull rate of one chosen 6-star operator",
+    "usage": "Boosts the pull rate of one chosen 6-star operator",
+    "rarity": 6
   }
 }

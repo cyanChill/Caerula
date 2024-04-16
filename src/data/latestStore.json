@@ -1,9 +1,14 @@
 {
   "latest-operator-ids": [
-    "char_4091_ulika",
-    "char_4104_coldst",
-    "char_4105_almond",
-    "char_1034_jesca2"
+    "char_4107_vrdant",
+    "char_4110_delphn",
+    "char_494_vendla",
+    "char_4088_hodrer"
   ],
-  "latest-skin-ids": ["char_209_ardign_epoque#26"]
+  "latest-skin-ids": [
+    "char_4048_doroth_witch#4",
+    "char_300_phenxi_witch#4",
+    "char_492_quercu_witch#4",
+    "char_436_whispr_witch#4"
+  ]
 }
