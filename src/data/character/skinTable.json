@@ -816,6 +816,28 @@
       "artists": ["板板"],
       "releasedAt": 0
     },
+    "char_4100_caper_1": {
+      "id": "char_4100_caper_1",
+      "usedBy": "char_4100_caper",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Caper's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["臼"],
+      "releasedAt": 0
+    },
+    "char_4100_caper_2": {
+      "id": "char_4100_caper_2",
+      "usedBy": "char_4100_caper",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Caper's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["臼"],
+      "releasedAt": 0
+    },
     "char_198_blackd_1": {
       "id": "char_198_blackd_1",
       "usedBy": "char_198_blackd",
@@ -3148,6 +3170,28 @@
       "artists": ["〇亻"],
       "releasedAt": 0
     },
+    "char_499_kaitou_1": {
+      "id": "char_499_kaitou_1",
+      "usedBy": "char_499_kaitou",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Diamante's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["およ"],
+      "releasedAt": 0
+    },
+    "char_499_kaitou_2": {
+      "id": "char_499_kaitou_2",
+      "usedBy": "char_499_kaitou",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Diamante's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["およ"],
+      "releasedAt": 0
+    },
     "char_242_otter_1": {
       "id": "char_242_otter_1",
       "usedBy": "char_242_otter",
@@ -3487,6 +3531,28 @@
       "imgAlt": "Hung's \"Elite 2\" skin",
       "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
       "artists": ["KuroBlood"],
+      "releasedAt": 0
+    },
+    "char_4109_baslin_1": {
+      "id": "char_4109_baslin_1",
+      "usedBy": "char_4109_baslin",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Bassline's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["九日九号"],
+      "releasedAt": 0
+    },
+    "char_4109_baslin_2": {
+      "id": "char_4109_baslin_2",
+      "usedBy": "char_4109_baslin",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Bassline's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["九日九号"],
       "releasedAt": 0
     },
     "char_144_red_1": {
@@ -5447,6 +5513,28 @@
       "artists": ["一千"],
       "releasedAt": 0
     },
+    "char_245_cello_1": {
+      "id": "char_245_cello_1",
+      "usedBy": "char_245_cello",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Virtuosa's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["竜崎いち"],
+      "releasedAt": 0
+    },
+    "char_245_cello_2": {
+      "id": "char_245_cello_2",
+      "usedBy": "char_245_cello",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Virtuosa's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["竜崎いち"],
+      "releasedAt": 0
+    },
     "char_250_phatom_1": {
       "id": "char_250_phatom_1",
       "usedBy": "char_250_phatom",
@@ -6261,6 +6349,28 @@
       "artists": ["Ask"],
       "releasedAt": 0
     },
+    "char_4098_vvana_1": {
+      "id": "char_4098_vvana_1",
+      "usedBy": "char_4098_vvana",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Viviana's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["Chuzenji"],
+      "releasedAt": 0
+    },
+    "char_4098_vvana_2": {
+      "id": "char_4098_vvana_2",
+      "usedBy": "char_4098_vvana",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Viviana's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["Chuzenji"],
+      "releasedAt": 0
+    },
     "char_188_helage_1": {
       "id": "char_188_helage_1",
       "usedBy": "char_188_helage",
@@ -6325,6 +6435,28 @@
       "imgAlt": "Nearl the Radiant Knight's \"Elite 2\" skin",
       "description": "She once again took the championship, not to prove herself, but to affect change. \nEven after the Major ended, she still continues to wear it.",
       "artists": ["竜崎いち"],
+      "releasedAt": 0
+    },
+    "char_4011_lessng_1": {
+      "id": "char_4011_lessng_1",
+      "usedBy": "char_4011_lessng",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Lessing's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["カワグチ"],
+      "releasedAt": 0
+    },
+    "char_4011_lessng_2": {
+      "id": "char_4011_lessng_2",
+      "usedBy": "char_4011_lessng",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Lessing's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["カワグチ"],
       "releasedAt": 0
     },
     "char_1032_excu2_1": {
@@ -7701,6 +7833,83 @@
       "description": "EPOQUE Collection New Arrivals/Sunny Day. Cardigan's outfit when she had just arrived at a city in southern Leithanien. Skillfully tailored to fit a young girl's stature. Light, airy, and blooming with vitality.",
       "artists": ["一立里子"],
       "releasedAt": 1712077200
+    },
+    "token_10028_vigil_wolf_epoque#27": {
+      "id": "token_10028_vigil_wolf_epoque#27",
+      "usedBy": "token_10028_vigil_wolf",
+      "brandId": "epoque",
+      "subBrand": { "id": "2023#epoque#9", "name": "EPOQUE/XXVII" },
+      "name": "The Other Side of Siracusa",
+      "imgAlt": "Wolfpack's \"The Other Side of Siracusa\" skin",
+      "description": null,
+      "artists": null,
+      "releasedAt": 1716483600
+    },
+    "char_427_vigil_epoque#27": {
+      "id": "char_427_vigil_epoque#27",
+      "usedBy": "char_427_vigil",
+      "brandId": "epoque",
+      "subBrand": { "id": "2023#epoque#9", "name": "EPOQUE/XXVII" },
+      "name": "The Other Side of Siracusa",
+      "imgAlt": "Vigil's \"The Other Side of Siracusa\" skin",
+      "description": "EPOQUE Collection New Arrivals/The Other Side of Siracusa. Does he not occasionally wear a plain jacket and hoodie instead of a tailored suit, and sit-down at a not-quite traditional Siracusan restaurant?",
+      "artists": ["hou"],
+      "releasedAt": 1716483600
+    },
+    "char_126_shotst_epoque#28": {
+      "id": "char_126_shotst_epoque#28",
+      "usedBy": "char_126_shotst",
+      "brandId": "epoque",
+      "subBrand": { "id": "2023#epoque#10", "name": "EPOQUE/XXVIII" },
+      "name": "Gwiazdcytrony",
+      "imgAlt": "Meteor's \"Gwiazdcytrony\" skin",
+      "description": "EPOQUE Sub-Brand [Passe] Series Selects/Gwiazdcytrony. Meteor's winter clothes from back in Kazimierz. Balancing lightness and warmth, they also allow one to easily hide in dense forests. A reproduction.",
+      "artists": ["HUG"],
+      "releasedAt": 1715079600
+    },
+    "char_4064_mlynar_epoque#28": {
+      "id": "char_4064_mlynar_epoque#28",
+      "usedBy": "char_4064_mlynar",
+      "brandId": "epoque",
+      "subBrand": { "id": "2023#epoque#10", "name": "EPOQUE/XXVIII" },
+      "name": "W Dali",
+      "imgAlt": "Młynar's \"W Dali\" skin",
+      "description": "EPOQUE Sub-Brand [Passe] Series Selects/W Dali. Młynar's attire as a knight-errant, wandering Kazimierz's plains and endless forests, the words engraved on the hilt of his sword not yet covered by useless trinkets.",
+      "artists": ["竜崎いち"],
+      "releasedAt": 1714496400
+    },
+    "char_222_bpipe_epoque#28": {
+      "id": "char_222_bpipe_epoque#28",
+      "usedBy": "char_222_bpipe",
+      "brandId": "epoque",
+      "subBrand": { "id": "2023#epoque#10", "name": "EPOQUE/XXVIII" },
+      "name": "Royal Guardswoman",
+      "imgAlt": "Bagpipe's \"Royal Guardswoman\" skin",
+      "description": "EPOQUE Sub-Brand [Passe] Series Selects/Royal Guardswoman. Bagpipe's uniform as a new cadet at the military academy, doubling as formal wear. Training in formal wear was yet another duty of a royal guardsman cadet.",
+      "artists": ["u介"],
+      "releasedAt": 1714496400
+    },
+    "char_405_absin_epoque#28": {
+      "id": "char_405_absin_epoque#28",
+      "usedBy": "char_405_absin",
+      "brandId": "epoque",
+      "subBrand": { "id": "2023#epoque#10", "name": "EPOQUE/XXVIII" },
+      "name": "Noon Twilight",
+      "imgAlt": "Absinthe's \"Noon Twilight\" skin",
+      "description": "EPOQUE Sub-Brand [Passe] Series Selects/Noon Twilight. Absinthe's former school uniform. In Ursus, students wear their uniforms while exercising, resembling a field of neatly spaced seedlings behind a plow.",
+      "artists": ["aZLing4"],
+      "releasedAt": 1714496400
+    },
+    "char_431_ashlok_epoque#28": {
+      "id": "char_431_ashlok_epoque#28",
+      "usedBy": "char_431_ashlok",
+      "brandId": "epoque",
+      "subBrand": { "id": "2023#epoque#10", "name": "EPOQUE/XXVIII" },
+      "name": "Lances of Kaliskas",
+      "imgAlt": "Ashlock's \"Lances of Kaliskas\" skin",
+      "description": "EPOQUE Sub-Brand [Passe] Series Selects/Lances of Kaliskas. Ashlock's formalwear, worn when her family banished her. Traditional dress worthy of a Kazimierz knight, not entirely inappropriate on her.",
+      "artists": ["NoriZC"],
+      "releasedAt": 1714496400
     },
     "char_120_hibisc_nian#1": {
       "id": "char_120_hibisc_nian#1",
@@ -9330,6 +9539,17 @@
       "artists": ["九日九号"],
       "releasedAt": 1704474000
     },
+    "char_2012_typhon_wild#9": {
+      "id": "char_2012_typhon_wild#9",
+      "usedBy": "char_2012_typhon",
+      "brandId": "wild",
+      "subBrand": { "id": "2023#wild#3", "name": "Vitafield/IX" },
+      "name": "Northern Pathfinder",
+      "imgAlt": "Typhon's \"Northern Pathfinder\" skin",
+      "description": "Vitafield [Rewilder] Series Classics/Northern Pathfinder. Made with special materials with function in mind, perfect for meeting your various needs and weathering even the roughest conditions.",
+      "artists": ["LM7"],
+      "releasedAt": 1714561200
+    },
     "char_219_meteo_sweep#1": {
       "id": "char_219_meteo_sweep#1",
       "usedBy": "char_219_meteo",
@@ -10309,6 +10529,17 @@
       "artists": ["Chuzenji"],
       "releasedAt": 1713268800
     },
+    "char_1028_texas2_iteration#1": {
+      "id": "char_1028_texas2_iteration#1",
+      "usedBy": "char_1028_texas2",
+      "brandId": "iteration",
+      "subBrand": { "id": "2023#iteration", "name": "Iteration Provident" },
+      "name": "Wingbreaker",
+      "imgAlt": "Texas the Omertosa's \"Wingbreaker\" skin",
+      "description": "Iteration Provident Series/Wingbreaker. Texas the Omertosa's iteration from decision point F/3019226. The hunter shot down the great demon Vermithrax, but was betrayed by the Lone Wolf Emperor and banished to the barrens.",
+      "artists": ["幻象黑兔"],
+      "releasedAt": 1714496400
+    },
     "char_1001_amiya2_2": {
       "id": "char_1001_amiya2_2",
       "usedBy": "char_1001_amiya2",
@@ -10367,7 +10598,12 @@
       "char_235_jesica_wild#2",
       "char_235_jesica_nian#2"
     ],
-    "char_126_shotst": ["char_126_shotst_1", "char_126_shotst_2", "char_126_shotst_epoque#10"],
+    "char_126_shotst": [
+      "char_126_shotst_1",
+      "char_126_shotst_2",
+      "char_126_shotst_epoque#10",
+      "char_126_shotst_epoque#28"
+    ],
     "char_190_clour": ["char_190_clour_1", "char_190_clour_2"],
     "char_133_mm": ["char_133_mm_1", "char_133_mm_2"],
     "char_118_yuki": ["char_118_yuki_1", "char_118_yuki_2", "char_118_yuki_boc#2"],
@@ -10375,6 +10611,7 @@
     "char_302_glaze": ["char_302_glaze_1", "char_302_glaze_2", "char_302_glaze_summer#11"],
     "char_366_acdrop": ["char_366_acdrop_1", "char_366_acdrop_2", "char_366_acdrop_whirlwind#4"],
     "char_4062_totter": ["char_4062_totter_1", "char_4062_totter_2"],
+    "char_4100_caper": ["char_4100_caper_1", "char_4100_caper_2"],
     "char_198_blackd": [
       "char_198_blackd_1",
       "char_198_blackd_2",
@@ -10539,7 +10776,7 @@
       "char_002_amiya_epoque#4",
       "char_002_amiya_test#1"
     ],
-    "char_405_absin": ["char_405_absin_1", "char_405_absin_2"],
+    "char_405_absin": ["char_405_absin_1", "char_405_absin_2", "char_405_absin_epoque#28"],
     "char_411_tomimi": ["char_411_tomimi_1", "char_411_tomimi_2", "char_411_tomimi_summer#5"],
     "char_466_qanik": ["char_466_qanik_1", "char_466_qanik_2"],
     "char_166_skfire": ["char_166_skfire_1", "char_166_skfire_2", "char_166_skfire_summer#1"],
@@ -10568,6 +10805,7 @@
     "char_4013_kjera": ["char_4013_kjera_1", "char_4013_kjera_2", "char_4013_kjera_epoque#18"],
     "char_4040_rockr": ["char_4040_rockr_1", "char_4040_rockr_2", "char_4040_rockr_lxh#1"],
     "char_4054_malist": ["char_4054_malist_1", "char_4054_malist_2", "char_4054_malist_summer#14"],
+    "char_499_kaitou": ["char_499_kaitou_1", "char_499_kaitou_2"],
     "char_242_otter": ["char_242_otter_1", "char_242_otter_2", "char_242_otter_ghost#1"],
     "char_336_folivo": ["char_336_folivo_1", "char_336_folivo_2", "char_336_folivo_epoque#22"],
     "char_108_silent": [
@@ -10604,6 +10842,7 @@
     "char_4071_peper": ["char_4071_peper_1", "char_4071_peper_2", "char_4071_peper_whirlwind#5"],
     "char_148_nearl": ["char_148_nearl_1", "char_148_nearl_2", "char_148_nearl_summer#2"],
     "char_226_hmau": ["char_226_hmau_1", "char_226_hmau_2", "char_226_hmau_nian#4"],
+    "char_4109_baslin": ["char_4109_baslin_1", "char_4109_baslin_2"],
     "char_144_red": ["char_144_red_1", "char_144_red_2", "char_144_red_summer#6"],
     "char_243_waaifu": ["char_243_waaifu_1", "char_243_waaifu_2", "char_243_waaifu_whirlwind#2"],
     "char_214_kafka": ["char_214_kafka_1", "char_214_kafka_2", "char_214_kafka_snow#3"],
@@ -10622,7 +10861,7 @@
     "char_4047_pianst": ["char_4047_pianst_1", "char_4047_pianst_2", "char_4047_pianst_wild#8"],
     "char_457_blitz": ["char_457_blitz_1", "char_457_blitz_2"],
     "char_304_zebra": ["char_304_zebra_1", "char_304_zebra_2", "char_304_zebra_wild#6"],
-    "char_431_ashlok": ["char_431_ashlok_1", "char_431_ashlok_2"],
+    "char_431_ashlok": ["char_431_ashlok_1", "char_431_ashlok_2", "char_431_ashlok_epoque#28"],
     "char_493_firwhl": ["char_493_firwhl_1", "char_493_firwhl_2"],
     "char_422_aurora": ["char_422_aurora_1", "char_422_aurora_2", "char_422_aurora_boc#4"],
     "char_464_cement": ["char_464_cement_1", "char_464_cement_2"],
@@ -10713,7 +10952,7 @@
     "char_113_cqbw": ["char_113_cqbw_1", "char_113_cqbw_2", "char_113_cqbw_epoque#7"],
     "char_300_phenxi": ["char_300_phenxi_1", "char_300_phenxi_2", "char_300_phenxi_witch#4"],
     "char_197_poca": ["char_197_poca_1", "char_197_poca_2", "char_197_poca_epoque#12"],
-    "char_2012_typhon": ["char_2012_typhon_1", "char_2012_typhon_2"],
+    "char_2012_typhon": ["char_2012_typhon_1", "char_2012_typhon_2", "char_2012_typhon_wild#9"],
     "char_391_rosmon": ["char_391_rosmon_1", "char_391_rosmon_2", "char_391_rosmon_epoque#17"],
     "char_1013_chen2": ["char_1013_chen2_1", "char_1013_chen2_2", "char_1013_chen2_boc#6"],
     "char_112_siege": [
@@ -10722,7 +10961,12 @@
       "char_112_siege_wild#2",
       "char_112_siege_striker#2"
     ],
-    "char_222_bpipe": ["char_222_bpipe_1", "char_222_bpipe_2", "char_222_bpipe_race#1"],
+    "char_222_bpipe": [
+      "char_222_bpipe_1",
+      "char_222_bpipe_2",
+      "char_222_bpipe_race#1",
+      "char_222_bpipe_epoque#28"
+    ],
     "char_362_saga": ["char_362_saga_1", "char_362_saga_2", "char_362_saga_sale#9"],
     "char_479_sleach": [
       "char_479_sleach_1",
@@ -10731,7 +10975,7 @@
       "char_479_sleach_summer#11"
     ],
     "char_420_flamtl": ["char_420_flamtl_1", "char_420_flamtl_2", "char_420_flamtl_game#2"],
-    "char_427_vigil": ["char_427_vigil_1", "char_427_vigil_2"],
+    "char_427_vigil": ["char_427_vigil_1", "char_427_vigil_2", "char_427_vigil_epoque#27"],
     "char_249_mlyss": ["char_249_mlyss_1", "char_249_mlyss_2"],
     "char_4087_ines": ["char_4087_ines_1", "char_4087_ines_2"],
     "char_134_ifrit": ["char_134_ifrit_1", "char_134_ifrit_2", "char_134_ifrit_summer#1"],
@@ -10784,13 +11028,14 @@
       "char_2023_ling_ncg#1"
     ],
     "char_4072_ironmn": ["char_4072_ironmn_1", "char_4072_ironmn_2", "char_4072_ironmn_summer#11"],
+    "char_245_cello": ["char_245_cello_1", "char_245_cello_2"],
     "char_250_phatom": [
       "char_250_phatom_1",
       "char_250_phatom_2",
       "char_250_phatom_ghost#1",
       "char_250_phatom_sale#4"
     ],
-    "char_1028_texas2": ["char_1028_texas2_1", "char_1028_texas2_2"],
+    "char_1028_texas2": ["char_1028_texas2_1", "char_1028_texas2_2", "char_1028_texas2_iteration#1"],
     "char_1029_yato2": ["char_1029_yato2_1", "char_1029_yato2_2"],
     "char_322_lmlee": ["char_322_lmlee_1", "char_322_lmlee_2", "char_322_lmlee_witch#3"],
     "char_1033_swire2": ["char_1033_swire2_1", "char_1033_swire2_2"],
@@ -10869,6 +11114,7 @@
       "char_350_surtr_it#1",
       "char_350_surtr_summer#9"
     ],
+    "char_4098_vvana": ["char_4098_vvana_1", "char_4098_vvana_2"],
     "char_188_helage": ["char_188_helage_1", "char_188_helage_2", "char_188_helage_boc#2"],
     "char_485_pallas": [
       "char_485_pallas_1",
@@ -10877,8 +11123,9 @@
       "char_485_pallas_epoque#19"
     ],
     "char_1014_nearl2": ["char_1014_nearl2_1", "char_1014_nearl2_2", "char_1014_nearl2_epoque#17"],
+    "char_4011_lessng": ["char_4011_lessng_1", "char_4011_lessng_2"],
     "char_1032_excu2": ["char_1032_excu2_1", "char_1032_excu2_2"],
-    "char_4064_mlynar": ["char_4064_mlynar_1", "char_4064_mlynar_2"],
+    "char_4064_mlynar": ["char_4064_mlynar_1", "char_4064_mlynar_2", "char_4064_mlynar_epoque#28"],
     "char_230_savage": ["char_230_savage_1", "char_230_savage_2"],
     "char_282_catap": ["char_282_catap_1"],
     "char_283_midn": ["char_283_midn_1", "char_283_midn_boc#1"],
@@ -10960,7 +11207,7 @@
     "token_10027_ironmn_pile1": ["token_10027_ironmn_pile1", "token_10027_ironmn_pile1_summer#11"],
     "token_10027_ironmn_pile2": ["token_10027_ironmn_pile2", "token_10027_ironmn_pile2_summer#11"],
     "token_10027_ironmn_pile3": ["token_10027_ironmn_pile3", "token_10027_ironmn_pile3_summer#11"],
-    "token_10028_vigil_wolf": ["token_10028_vigil_wolf"],
+    "token_10028_vigil_wolf": ["token_10028_vigil_wolf", "token_10028_vigil_wolf_epoque#27"],
     "token_10029_slent2_protrb": ["token_10029_slent2_protrb"],
     "token_10030_mlyss_wtrman": ["token_10030_mlyss_wtrman"],
     "token_10031_swire2_gdtrap": ["token_10031_swire2_gdtrap"],

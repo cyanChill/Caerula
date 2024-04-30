@@ -999,6 +999,14 @@
     "usage": "A time-limited currency arranged for a new type of headhunting contract; Collect enough to recruit an operator from a designated pool for a limited time",
     "rarity": 5
   },
+  "LMTGS_COIN_4401": {
+    "id": "LMTGS_COIN_4401",
+    "iconId": "LMTGS_COIN_4401",
+    "name": "Headhunting Data Contract",
+    "description": "A long-term, stable relationship with the headhunting agency can effectively control our expenditures. However, we hope that this method will not be required every time.",
+    "usage": "A time-limited currency arranged for a new type of headhunting contract; Collect enough to recruit an operator from a designated pool for a limited time",
+    "rarity": 5
+  },
   "EPGS_COIN": {
     "id": "EPGS_COIN",
     "iconId": "EPGS_COIN",
@@ -1455,6 +1463,14 @@
     "usage": "A batch headhunting permit issued by the Rhodes Island HR Department; Can be used at a certain time to recruit talented Operators, 10 rolls at once.",
     "rarity": 5
   },
+  "LIMITED_TKT_GACHA_10_4401": {
+    "id": "LIMITED_TKT_GACHA_10_4401",
+    "iconId": "LIMITED_TKT_GACHA_10_4401",
+    "name": "Candleglow Sonata Headhunting Permit",
+    "description": "In order to ensure the available talent pool can be scaled upwards to satisfy the Doctor's emergency preparation request, this batch of headhunting items carries specificity, time-sensitivity, and of course, a degree of risk.",
+    "usage": "A batch headhunting permit issued by the Rhodes Island HR Department; Can be used at a certain time to recruit talented Operators, 10 rolls at once.",
+    "rarity": 5
+  },
   "voucher_item_4pick1": {
     "id": "voucher_item_4pick1",
     "iconId": "voucher_item_4pick1",
@@ -1557,6 +1573,14 @@
     "name": "Senior Operator Transfer Permit",
     "description": "Allows you to select a 5-star Operator from a past Headhunting Pool up to and including 'Roaring Cliffrunner.'",
     "usage": "A lot of tablework went into this Senior Operator Transfer Permit from Rhodes Island's HR distribution; a 100% guarantee on the aid you receive is no small ask.",
+    "rarity": 5
+  },
+  "voucher_item_pick4401": {
+    "id": "voucher_item_pick4401",
+    "iconId": "voucher_recruitR6_g",
+    "name": "Thank-You Celebration Operator Permit",
+    "description": "Allows you to select a 6-star Operator from a past Headhunting Pool, up to and including 'As In My Adumbration.'",
+    "usage": "A lot of tablework went into this Top Operator Transfer Permit from Rhodes Island's HR distribution; a 100% guarantee on the aid you receive is no small ask.",
     "rarity": 5
   },
   "voucher_levelmax_6": {
@@ -2013,6 +2037,14 @@
     "name": "Mountaincomm Trade Supplies",
     "description": "A material resupply box from Mountaincomm Trade. We the vendor are delighted to work with such a major client, and offer these complimentary gifts to you courtesy of our partner logistics firm.",
     "usage": "Filled with an assortment of supplies and materials.",
+    "rarity": 5
+  },
+  "randomMaterial_leith2": {
+    "id": "randomMaterial_leith2",
+    "iconId": "randomMaterial_leith2",
+    "name": "Investigation Resupply",
+    "description": "'Though the contents are as unalike as the sounds of the heart, they will help you in your search for the truth. Follow the echoes not yet forgotten, and you will eventually find the answer.'",
+    "usage": "Package from an unknown source containing various supplies, including random materials.",
     "rarity": 5
   },
   "mod_unlock_token": {
@@ -3071,6 +3103,14 @@
     "usage": "Used to improve the Potential of Verdant.",
     "rarity": 4
   },
+  "p_char_4100_caper": {
+    "id": "p_char_4100_caper",
+    "iconId": "p_char_4100_caper",
+    "name": "Caper's Token",
+    "description": "A soft, puffy ball of white fur. She insisted that you accept it. The smug smile on her face gives you a bad feeling, but nothing has happened. Yet.",
+    "usage": "Used to improve the Potential of Caper.",
+    "rarity": 4
+  },
   "p_char_128_plosis": {
     "id": "p_char_128_plosis",
     "iconId": "p_char_128_plosis",
@@ -4127,6 +4167,22 @@
     "usage": "Used to improve the Potential of Vendela.",
     "rarity": 5
   },
+  "p_char_499_kaitou": {
+    "id": "p_char_499_kaitou",
+    "iconId": "p_char_499_kaitou",
+    "name": "Diamante's Token",
+    "description": "A simple gemstone magnifying glass that has seen many years of use. Find the traces of forgery, and identify my true nature.",
+    "usage": "Used to improve the Potential of Diamante.",
+    "rarity": 5
+  },
+  "p_char_4109_baslin": {
+    "id": "p_char_4109_baslin",
+    "iconId": "p_char_4109_baslin",
+    "name": "Bassline's Token",
+    "description": "The mouthpiece of a tuba. Bassline has rubbed it clean and restored its former sheen.",
+    "usage": "Used to improve the Potential of Bassline.",
+    "rarity": 5
+  },
   "p_char_103_angel": {
     "id": "p_char_103_angel",
     "iconId": "p_char_103_angel",
@@ -4773,6 +4829,22 @@
     "name": "Hoederer's Token",
     "description": "A notebook with a singed corner. Recorded are not only operation results, but the lives of Sarkaz, sifted from the ashes.",
     "usage": "Used to improve the Potential of Hoederer.",
+    "rarity": 6
+  },
+  "p_char_4098_vvana": {
+    "id": "p_char_4098_vvana",
+    "iconId": "p_char_4098_vvana",
+    "name": "Viviana's Token",
+    "description": "A dried marigold bookmark. A book's journey is long and far; let it mark a temporary repose, the place to return to after stepping away.",
+    "usage": "Used to improve the Potential of Viviana.",
+    "rarity": 6
+  },
+  "p_char_245_cello": {
+    "id": "p_char_245_cello",
+    "iconId": "p_char_245_cello",
+    "name": "Virtuosa's Token",
+    "description": "A pair of black gloves made from fine materials, bringing calm to the instrument's strings, and to the restless sounds of the heart.",
+    "usage": "Used to improve the Potential of Virtuosa.",
     "rarity": 6
   },
   "class_p_char_123_fang": {
@@ -7119,6 +7191,14 @@
     "usage": "Permits issued by the Dipartimento di Sicurezza Alimentare to the famiglie. These grant famiglia members entry to the Dipartimento di Sicurezza Alimentare and the right to obtain goods, whether said goods fall under 'alimentare' notwithstanding.",
     "rarity": 5
   },
+  "act21side_token_permesso_rep_1": {
+    "id": "act21side_token_permesso_rep_1",
+    "iconId": "act21side_token_permesso",
+    "name": "Permesso di Importazione",
+    "description": "Steaks, seasonal vegetables, and fresh fruit to please any soul, or a little something otherwise. The clever ones know what the famiglie want, and will ready it in advance, to be supplied when the time comes.",
+    "usage": "Permits issued by the Dipartimento di Sicurezza Alimentare to the famiglie. These grant famiglia members entry to the Dipartimento di Sicurezza Alimentare and the right to obtain goods, whether said goods fall under 'alimentare' notwithstanding.",
+    "rarity": 5
+  },
   "voucher_vigil": {
     "id": "voucher_vigil",
     "iconId": "voucher_vigil",
@@ -7638,6 +7718,54 @@
     "description": "'WARNING! Please refrain from undue perception of/empathy with simulation products, or subsequent generation of false data may lead to irreversible mental damage.'",
     "usage": "Stores operation data from the Formulative Battlerealm. Accumulate to advance Cogitative Diving Evaluation progress.",
     "rarity": 5
+  },
+  "act29side_token_erin": {
+    "id": "act29side_token_erin",
+    "iconId": "act29side_token_erin",
+    "name": "Die Klänge von den Erinnerungen",
+    "description": "Memories of the past are scattered across the ancient capital of Leithanien, carried by broken passages of music. Like today's Leithanien, they will need be tuned before they can be heard.",
+    "usage": "Leaves that fall on the streets of Zwillingstürme. Missing phrases of music can be found on them from time to time. Give them to tune seekers at concerts and be rewarded with the gift of music.",
+    "rarity": 5
+  },
+  "act29side_frag_1": {
+    "id": "act29side_frag_1",
+    "iconId": "act29side_frag_1",
+    "name": "Note of Joy",
+    "description": "Knock on the shut door and reach out. We should have been united through joy.",
+    "usage": "A piece of fallen memory, preserved with Arts. It pulses in your palm to the rhythm of emotion. It will be forged into a key before oblivion.",
+    "rarity": 5
+  },
+  "act29side_frag_2": {
+    "id": "act29side_frag_2",
+    "iconId": "act29side_frag_2",
+    "name": "Note of Anger",
+    "description": "Knock on the shut door and reach out. We should have been united through anger.",
+    "usage": "A piece of fallen memory, preserved with Arts. It pulses in your palm to the rhythm of emotion. It will be forged into a key before oblivion.",
+    "rarity": 5
+  },
+  "act29side_frag_3": {
+    "id": "act29side_frag_3",
+    "iconId": "act29side_frag_3",
+    "name": "Note of Sorrow",
+    "description": "Knock on the shut door and reach out. We should have been united through sorrow.",
+    "usage": "A piece of fallen memory, preserved with Arts. It pulses in your palm to the rhythm of emotion. It will be forged into a key before oblivion.",
+    "rarity": 5
+  },
+  "act29side_frag_4": {
+    "id": "act29side_frag_4",
+    "iconId": "act29side_frag_4",
+    "name": "Note of Fear",
+    "description": "Knock on the shut door and reach out. We should have been united through fear.",
+    "usage": "A piece of fallen memory, preserved with Arts. It pulses in your palm to the rhythm of emotion. It will be forged into a key before oblivion.",
+    "rarity": 5
+  },
+  "voucher_lessng": {
+    "id": "voucher_lessng",
+    "iconId": "voucher_lessng",
+    "name": "Lessing's Folder",
+    "description": "Several proverbs are written on the paper with tidy, print-like handwriting. The pen has penetrated the paper in a few places. There are also a few scribbles about things that need to be done.",
+    "usage": "A folder storing personal notes. Lessing is obtained the first time this item is obtained, and can improve Lessing's Potential thereafter.",
+    "rarity": 6
   },
   "classic_fes_pick_tier_5_4401": {
     "id": "classic_fes_pick_tier_5_4401",

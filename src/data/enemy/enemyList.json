@@ -7937,7 +7937,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": true,
     "relatedEnemies": []
@@ -7960,7 +7960,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": true,
     "relatedEnemies": []
@@ -7977,7 +7977,7 @@
     "attackPattern": "Melee Physical",
     "abilityList": [],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -7994,7 +7994,7 @@
     "attackPattern": "Melee Physical",
     "abilityList": [],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -8016,7 +8016,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -8038,7 +8038,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -8111,7 +8111,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -8138,7 +8138,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -8164,7 +8164,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": []
@@ -8190,7 +8190,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": []
@@ -9404,7 +9404,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": false,
     "relatedEnemies": ["enemy_1222_dpvt", "enemy_1223_dmech", "enemy_1361_dthrow"]
@@ -9430,7 +9430,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": false,
     "relatedEnemies": ["enemy_1222_dpvt_2", "enemy_1223_dmech_2", "enemy_1361_dthrow_2"]
@@ -9456,7 +9456,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 3,
     "isFlying": false,
     "relatedEnemies": ["enemy_1225_dkmage", "enemy_1226_dklord", "enemy_1362_dfat"]
@@ -9482,7 +9482,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 3,
     "isFlying": false,
     "relatedEnemies": ["enemy_1225_dkmage_2", "enemy_1226_dklord_2", "enemy_1362_dfat_2"]
@@ -9504,7 +9504,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": ["enemy_1220_dzoms"]
@@ -9526,7 +9526,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": ["enemy_1220_dzoms_2"]
@@ -9552,7 +9552,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": ["enemy_1220_dzoms"]
@@ -9578,7 +9578,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": ["enemy_1220_dzoms_2"]
@@ -9600,7 +9600,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": []
@@ -9622,7 +9622,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": []
@@ -9648,7 +9648,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 3,
     "isFlying": false,
     "relatedEnemies": ["enemy_1221_dzomg"]
@@ -9674,7 +9674,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 3,
     "isFlying": false,
     "relatedEnemies": ["enemy_1221_dzomg_2"]
@@ -9700,7 +9700,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": ["enemy_1221_dzomg"]
@@ -9726,7 +9726,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": ["enemy_1221_dzomg_2"]
@@ -9753,7 +9753,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": true,
     "relatedEnemies": []
@@ -9780,7 +9780,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": true,
     "relatedEnemies": []
@@ -9802,7 +9802,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": false,
     "relatedEnemies": []
@@ -9824,7 +9824,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": false,
     "relatedEnemies": []
@@ -9846,7 +9846,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -9868,7 +9868,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -12329,7 +12329,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -12351,7 +12351,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -12373,7 +12373,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": false,
     "relatedEnemies": []
@@ -12395,7 +12395,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": false,
     "relatedEnemies": []
@@ -12421,7 +12421,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -12447,7 +12447,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -12469,7 +12469,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -12491,7 +12491,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -12517,7 +12517,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -12543,7 +12543,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -12566,7 +12566,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 5,
     "isFlying": false,
     "relatedEnemies": []
@@ -12589,7 +12589,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 5,
     "isFlying": false,
     "relatedEnemies": []
@@ -12615,7 +12615,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": []
@@ -12641,7 +12641,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": []
@@ -12664,7 +12664,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 5,
     "isFlying": false,
     "relatedEnemies": []
@@ -12687,7 +12687,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 5,
     "isFlying": false,
     "relatedEnemies": []
@@ -12710,7 +12710,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 5,
     "isFlying": false,
     "relatedEnemies": []
@@ -16024,6 +16024,466 @@
     "relatedEnemies": ["enemy_1363_spnshd", "enemy_1363_spnshd_2"]
   },
   {
+    "sort": 712,
+    "id": "enemy_1371_ltnflu",
+    "slug": "remnant_orchestra_flautist",
+    "code": "OCS1",
+    "name": "Remnant Orchestra Flautist",
+    "description": "Flautist who wants to join their king's orchestra. This nobody has never seen the spectacle, and is all the more fanatical for it.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "After 2 attacks, the next attack has increased ATK",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 713,
+    "id": "enemy_1371_ltnflu_2",
+    "slug": "witch_king's_orchestra_flautist",
+    "code": "OCS2",
+    "name": "Witch King's Orchestra Flautist",
+    "description": "Flautist who once played in their king's orchestra. This nobody has unfortunately seen the spectacle, and is all the more fanatical for it.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "After 2 attacks, the next attack has increased ATK",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 714,
+    "id": "enemy_1372_ltntpt",
+    "slug": "remnant_orchestra_trumpeter",
+    "code": "OCS3",
+    "name": "Remnant Orchestra Trumpeter",
+    "description": "Trumpeter who wants to sound their king's triumph. His music is sharp and bright, and he believes himself to be the herald of victory.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "After 2 attacks, the next attack deals splash damage in a cross",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "Attacks deal Arts damage when passionate variation is active",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 715,
+    "id": "enemy_1372_ltntpt_2",
+    "slug": "witch_king's_orchestra_trumpeter",
+    "code": "OCS4",
+    "name": "Witch King's Orchestra Trumpeter",
+    "description": "Trumpeter who once sounded their king's triumph. His music is sharper and brighter, and he has heralded many victories.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "After 2 attacks, the next attack deals splash damage in a cross",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "Attacks deal Arts damage when passionate variation is active",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 716,
+    "id": "enemy_1373_ltnhor",
+    "slug": "remnant_orchestra_hornist",
+    "code": "OCS5",
+    "name": "Remnant Orchestra Hornist",
+    "description": "Hornist who wants to display his skills under their king. He has never had a chance to show off his talents, and waits for an opportunity to awe the world.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "After 2 attacks, the next attack hits an additional target",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "Attacks deal Arts damage when passionate variation is active",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 717,
+    "id": "enemy_1373_ltnhor_2",
+    "slug": "witch_king's_orchestra_hornist",
+    "code": "OCS6",
+    "name": "Witch King's Orchestra Hornist",
+    "description": "Hornist who once displayed his skills under their king. He never truly had a chance to show off his talents, and waits for more opportunities to awe the world.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "After 2 attacks, the next attack hits an additional target",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "Attacks deal Arts damage when passionate variation is active",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 718,
+    "id": "enemy_1374_ltnhap",
+    "slug": "remnant_orchestra_chorister",
+    "code": "OCS7",
+    "name": "Remnant Orchestra Chorister",
+    "description": "Chorister who wants to sing their king's praise. He tries to write his ode, but every word he pens is as malevolent as any curse.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "After 1 attack, the next attack restores HP based on ATK",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "Instead restores the HP of this unit and all enemies within attack range when passionate variation is active",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 719,
+    "id": "enemy_1374_ltnhap_2",
+    "slug": "witch_king's_orchestra_chorister",
+    "code": "OCS8",
+    "name": "Witch King's Orchestra Chorister",
+    "description": "Chorister who once sang their king's praise. He has written many odes, but every word he pens is more malevolent than any curse.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "After 1 attack, the next attack restores HP based on ATK",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "Instead restores the HP of this unit and all enemies within attack range when passionate variation is active",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 720,
+    "id": "enemy_1375_ltnclr",
+    "slug": "remnant_orchestra_wind_player",
+    "code": "OCS9",
+    "name": "Remnant Orchestra Wind Player",
+    "description": "Wind player who wants to become the concertmaster of their king's orchestra. He worked hard to climb the ladder, but the orchestra is long gone, for which he is very resentful.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Arts",
+    "abilityList": [
+      {
+        "text": "ATK continuously increases when unblocked. ATK is reset after the next attack.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When melancholic variation is active, ATK is greatly increased, and attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a> the target",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 721,
+    "id": "enemy_1375_ltnclr_2",
+    "slug": "witch_king's_orchestra_wind_player",
+    "code": "OCS10",
+    "name": "Witch King's Orchestra Wind Player",
+    "description": "Wind player who was once the concertmaster of their king's orchestra. He was once atop the ladder, but the orchestra is long gone, for which he is beyond resentful.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Arts",
+    "abilityList": [
+      {
+        "text": "ATK continuously increases when unblocked. ATK is reset after the next attack.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When melancholic variation is active, ATK is greatly increased, and attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a> the target",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 722,
+    "id": "enemy_1376_ltndru",
+    "slug": "remnant_orchestra_drummer",
+    "code": "OCS11",
+    "name": "Remnant Orchestra Drummer",
+    "description": "Drummer who wants to set the beat for their king's music. Every beat he drums is filled with pain, for he punishes himself to achieve steady rhythm.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "After 2 attacks, the next attack deals splash damage to all targets in attack range",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "Attack range increases when passionate variation is active",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 723,
+    "id": "enemy_1376_ltndru_2",
+    "slug": "witch_king's_orchestra_drummer",
+    "code": "OCS12",
+    "name": "Witch King's Orchestra Drummer",
+    "description": "Drummer who once set the beat for their king's music. Every beat he drums is filled with suffering, for he torments himself to achieve impeccable rhythm.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "After 2 attacks, the next attack deals splash damage to all targets in attack range",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "Attack range increases when passionate variation is active",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 724,
+    "id": "enemy_1377_ltnclo",
+    "slug": "remnant_orchestra_cellist",
+    "code": "OCS13",
+    "name": "Remnant Orchestra Cellist",
+    "description": "Cellist who wants to be their king's trusted henchman. He lives to earn their king's favor, for which he is willing to play obsequious tunes.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "More likely to be attacked by your units",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When melancholic variation is active, ATK is greatly increased, and gains a Shield that protects against a certain number of attacks; each time damage is prevented, reflects as Physical damage based on own ATK",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 725,
+    "id": "enemy_1377_ltnclo_2",
+    "slug": "witch_king's_orchestra_cellist",
+    "code": "OCS14",
+    "name": "Witch King's Orchestra Cellist",
+    "description": "Cellist who was once their king's trusted henchman. He lives to keep their king's favor, for which he is willing to play loathed tunes.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "More likely to be attacked by your units",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When melancholic variation is active, ATK is greatly increased, and gains a Shield that protects against a certain number of attacks; each time damage is prevented, reflects as Physical damage based on own ATK",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 726,
+    "id": "enemy_1378_ltnmst",
+    "slug": "remnant_orchestra_tuner",
+    "code": "OCS15",
+    "name": "Remnant Orchestra Tuner",
+    "description": "Musician who wants to tune for their king. He seeks the harmony of origin, so that all sounds may be consonant.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Continuously casts at the nearest Tuning Node you control within attack range to disable it",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When the corresponding variation is in effect, attacks temporarily increase damage taken by your units",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 727,
+    "id": "enemy_1378_ltnmst_2",
+    "slug": "witch_king's_orchestra_tuner",
+    "code": "OCS16",
+    "name": "Witch King's Orchestra Tuner",
+    "description": "Musician who once tuned for their king. He has touched the harmony of origin, and in his hands all sounds may be consonant.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Continuously casts at the nearest Tuning Node you control within attack range to disable it",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When the corresponding variation is in effect, attacks temporarily increase damage taken by your units",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 728,
+    "id": "enemy_1379_ltncdt",
+    "slug": "remnant_orchestra_conductor",
+    "code": "MST1",
+    "name": "Remnant Orchestra Conductor",
+    "description": "Conductor who wants to be the instrument of their king's will. Being a conductor is already a rare honor, but he still seeks to climb that great spire, for which he will go to any length.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Continuously casts at the nearest Tuning Node you control within attack range to disable it",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When the corresponding variation is in effect, increases the max HP of all enemies within attack range",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 729,
+    "id": "enemy_1379_ltncdt_2",
+    "slug": "witch_king's_orchestra_conductor",
+    "code": "MST2",
+    "name": "Witch King's Orchestra Conductor",
+    "description": "Conductor who was once the instrument of their king's will. Having been second only to one, and having gazed upon that elusive spire, he will go to any length to see it again.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Continuously casts at the nearest Tuning Node you control within attack range to disable it",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When the corresponding variation is in effect, greatly increases the max HP of all enemies within attack range",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
     "sort": 730,
     "id": "enemy_2001_duckmi",
     "slug": "duck_lord",
@@ -18494,6 +18954,70 @@
     "weight": 10,
     "isFlying": false,
     "relatedEnemies": ["enemy_1367_dseed"]
+  },
+  {
+    "sort": 807,
+    "id": "enemy_1548_ltniak",
+    "slug": "herkunftshorn,_'witch_king'",
+    "code": "HH",
+    "name": "Herkunftshorn, 'Witch King'",
+    "description": "The long nightmare awakes. The ersatz night gives way to dawn. Come and witness the death of the king, and the death of the genesis of creation.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Cannot be blocked, attacks deal splash damage",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Death of Creation] After some time has passed, deals Arts splash damage to all your units, and drains all Life Points",
+        "textFormat": "NORMAL"
+      },
+      { "text": "First Form", "textFormat": "TITLE" },
+      {
+        "text": "Teleports to the next check point after some time has passed",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Punishment of Foolishness] Whenever a certain percentage of HP is lost, devours 2 of your Operators and randomly redeploys them at 2 locations",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Punishment of Insipidity] Periodically inflicts Mark of Insipidity on 2 of your Operators within attack range (requires 5 attacks to destroy), preventing them from attacking or using skills, and making them more likely to be attacked by enemies. The next time this skill is used, immediately defeats any Operators with Mark of Insipidity, and deals Arts splash damage to the 4 adjacent tiles.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Reborn after being defeated for the first time, dealing Arts splash damage to all your units, and unleashes [Punishment of Foolishness]; once rebirth is complete, switches to 2nd form, and resets [Death of Creation] countdown",
+        "textFormat": "NORMAL"
+      },
+      { "text": "Second Form", "textFormat": "TITLE" },
+      {
+        "text": "Cannot move; creates a Shield that protects against Physical and Arts damage from a single direction",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Attack range covers the entire battlefield; ATK is greatly decreased, attack splash area is increased, and DEF is greatly increased",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Takes control of all Tuning Nodes on the battlefield, disabling them",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Sovereign's Edict] Periodically changes the variation; enemies are boosted while variation is active and are continuously checked against the orchestra's tempo; enemies that cannot keep up with the Witch King's tempo because of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a> are marked and take heavy Arts damage when the variation ends",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Punishment of Insipidity] only selects one target",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 2,
+    "weight": 10,
+    "isFlying": false,
+    "relatedEnemies": []
   },
   {
     "sort": 808,
