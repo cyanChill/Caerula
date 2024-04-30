@@ -7937,7 +7937,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": true,
     "relatedEnemies": []
@@ -7960,7 +7960,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": true,
     "relatedEnemies": []
@@ -7977,7 +7977,7 @@
     "attackPattern": "Melee Physical",
     "abilityList": [],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -7994,7 +7994,7 @@
     "attackPattern": "Melee Physical",
     "abilityList": [],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -8016,7 +8016,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -8038,7 +8038,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -8111,7 +8111,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -8138,7 +8138,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -8164,7 +8164,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": []
@@ -8190,7 +8190,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": []
@@ -9404,7 +9404,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": false,
     "relatedEnemies": ["enemy_1222_dpvt", "enemy_1223_dmech", "enemy_1361_dthrow"]
@@ -9430,7 +9430,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": false,
     "relatedEnemies": ["enemy_1222_dpvt_2", "enemy_1223_dmech_2", "enemy_1361_dthrow_2"]
@@ -9456,7 +9456,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 3,
     "isFlying": false,
     "relatedEnemies": ["enemy_1225_dkmage", "enemy_1226_dklord", "enemy_1362_dfat"]
@@ -9482,7 +9482,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 3,
     "isFlying": false,
     "relatedEnemies": ["enemy_1225_dkmage_2", "enemy_1226_dklord_2", "enemy_1362_dfat_2"]
@@ -9504,7 +9504,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": ["enemy_1220_dzoms"]
@@ -9526,7 +9526,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": ["enemy_1220_dzoms_2"]
@@ -9552,7 +9552,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": ["enemy_1220_dzoms"]
@@ -9578,7 +9578,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": ["enemy_1220_dzoms_2"]
@@ -9600,7 +9600,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": []
@@ -9622,7 +9622,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": []
@@ -9648,7 +9648,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 3,
     "isFlying": false,
     "relatedEnemies": ["enemy_1221_dzomg"]
@@ -9674,7 +9674,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 3,
     "isFlying": false,
     "relatedEnemies": ["enemy_1221_dzomg_2"]
@@ -9700,7 +9700,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": ["enemy_1221_dzomg"]
@@ -9726,7 +9726,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": ["enemy_1221_dzomg_2"]
@@ -9753,7 +9753,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": true,
     "relatedEnemies": []
@@ -9780,7 +9780,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": true,
     "relatedEnemies": []
@@ -9802,7 +9802,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": false,
     "relatedEnemies": []
@@ -9824,7 +9824,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": false,
     "relatedEnemies": []
@@ -9846,7 +9846,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -9868,7 +9868,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -12329,7 +12329,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -12351,7 +12351,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -12373,7 +12373,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": false,
     "relatedEnemies": []
@@ -12395,7 +12395,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 0,
     "isFlying": false,
     "relatedEnemies": []
@@ -12421,7 +12421,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -12447,7 +12447,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -12469,7 +12469,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -12491,7 +12491,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -12517,7 +12517,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -12543,7 +12543,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -12566,7 +12566,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 5,
     "isFlying": false,
     "relatedEnemies": []
@@ -12589,7 +12589,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 5,
     "isFlying": false,
     "relatedEnemies": []
@@ -12615,7 +12615,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": []
@@ -12641,7 +12641,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": []
@@ -12664,7 +12664,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 5,
     "isFlying": false,
     "relatedEnemies": []
@@ -12687,7 +12687,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 5,
     "isFlying": false,
     "relatedEnemies": []
@@ -12710,7 +12710,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 5,
     "isFlying": false,
     "relatedEnemies": []
@@ -16088,7 +16088,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -16114,7 +16114,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -16140,7 +16140,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -16166,7 +16166,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -16192,7 +16192,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -16218,7 +16218,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 1,
     "isFlying": false,
     "relatedEnemies": []
@@ -16244,7 +16244,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -16270,7 +16270,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -16296,7 +16296,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -16322,7 +16322,7 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 2,
     "isFlying": false,
     "relatedEnemies": []
@@ -16348,7 +16348,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": []
@@ -16374,7 +16374,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 4,
     "isFlying": false,
     "relatedEnemies": []
@@ -16400,7 +16400,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 3,
     "isFlying": false,
     "relatedEnemies": []
@@ -16426,7 +16426,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 3,
     "isFlying": false,
     "relatedEnemies": []
@@ -16452,7 +16452,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 3,
     "isFlying": false,
     "relatedEnemies": []
@@ -16478,7 +16478,7 @@
       }
     ],
     "immunities": ["Silence"],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 3,
     "isFlying": false,
     "relatedEnemies": []
