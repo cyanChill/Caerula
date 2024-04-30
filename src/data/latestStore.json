@@ -1,14 +1,18 @@
 {
   "latest-operator-ids": [
-    "char_4107_vrdant",
-    "char_4110_delphn",
-    "char_494_vendla",
-    "char_4088_hodrer"
+    "char_4100_caper",
+    "char_499_kaitou",
+    "char_4109_baslin",
+    "char_245_cello",
+    "char_4098_vvana",
+    "char_4011_lessng"
   ],
   "latest-skin-ids": [
-    "char_4048_doroth_witch#4",
-    "char_300_phenxi_witch#4",
-    "char_492_quercu_witch#4",
-    "char_436_whispr_witch#4"
+    "char_4064_mlynar_epoque#28",
+    "char_222_bpipe_epoque#28",
+    "char_405_absin_epoque#28",
+    "char_431_ashlok_epoque#28",
+    "char_2012_typhon_wild#9",
+    "char_1028_texas2_iteration#1"
   ]
 }

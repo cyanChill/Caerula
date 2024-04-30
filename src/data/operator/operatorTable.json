@@ -7127,6 +7127,247 @@
     "type": null,
     "tokensUsed": null
   },
+  "char_4100_caper": {
+    "id": "char_4100_caper",
+    "slug": "caper",
+    "name": "Caper",
+    "displayName": "Caper",
+    "rarity": 4,
+    "position": "RANGED",
+    "range": ["3-3", "y-7", "y-7"],
+    "stats": [
+      {
+        "maxLevel": 45,
+        "stats": [
+          {
+            "hp": 984,
+            "atk": 206,
+            "def": 56,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 12,
+            "blockCnt": 1,
+            "atkInterval": 1
+          },
+          {
+            "hp": 1407,
+            "atk": 344,
+            "def": 94,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 12,
+            "blockCnt": 1,
+            "atkInterval": 1
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 60,
+        "stats": [
+          {
+            "hp": 1407,
+            "atk": 344,
+            "def": 94,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 14,
+            "blockCnt": 1,
+            "atkInterval": 1
+          },
+          {
+            "hp": 1804,
+            "atk": 492,
+            "def": 135,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 14,
+            "blockCnt": 1,
+            "atkInterval": 1
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 15000 },
+          { "id": "3241", "count": 3 },
+          { "id": "30032", "count": 1 },
+          { "id": "30022", "count": 1 }
+        ]
+      },
+      {
+        "maxLevel": 70,
+        "stats": [
+          {
+            "hp": 1804,
+            "atk": 492,
+            "def": 135,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 14,
+            "blockCnt": 1,
+            "atkInterval": 1
+          },
+          {
+            "hp": 2200,
+            "atk": 600,
+            "def": 160,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 14,
+            "blockCnt": 1,
+            "atkInterval": 1
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 60000 },
+          { "id": "3242", "count": 5 },
+          { "id": "30063", "count": 11 },
+          { "id": "31083", "count": 7 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Larking About",
+          "description": "When attacking, 25% chance to increase that attack's ATK to 130%",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Larking About",
+          "description": "When attacking, 25% chance to increase that attack's ATK to 140% <span style=\"color:#0098DC;\">(+10%)</span>",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Larking About",
+          "description": "When attacking, 25% chance to increase that attack's ATK to 150%",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Larking About",
+          "description": "When attacking, 25% chance to increase that attack's ATK to 160% <span style=\"color:#0098DC;\">(+10%)</span>",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Redeployment Time -4 sec",
+      "ATK +23",
+      "Improves Talent",
+      "DP Cost -1"
+    ],
+    "profession": "Sniper",
+    "branch": "loopshooter",
+    "skills": [
+      {
+        "id": "skchr_caper_1",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 2 },
+              { "id": "30104", "count": 1 },
+              { "id": "30023", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 4 },
+              { "id": "31044", "count": 2 },
+              { "id": "31034", "count": 2 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "30145", "count": 2 },
+              { "id": "30074", "count": 2 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_caper_2",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 2 },
+              { "id": "31054", "count": 1 },
+              { "id": "30093", "count": 3 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 4 },
+              { "id": "30084", "count": 2 },
+              { "id": "30014", "count": 3 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "30155", "count": 2 },
+              { "id": "31034", "count": 1 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 2 }] },
+      {
+        "level": 3,
+        "cost": [{ "id": "3301", "count": 2 }, { "id": "30021", "count": 4 }]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 3 }, { "id": "30032", "count": 2 }]
+      },
+      {
+        "level": 5,
+        "cost": [{ "id": "3302", "count": 3 }, { "id": "30042", "count": 2 }]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 3 }, { "id": "31063", "count": 2 }]
+      },
+      {
+        "level": 7,
+        "cost": [{ "id": "3303", "count": 4 }, { "id": "30093", "count": 2 }]
+      }
+    ],
+    "trustBonus": {
+      "hp": 0,
+      "atk": 65,
+      "def": 0,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": "bolivar", "faction": null, "team": null },
+    "tags": ["DPS"],
+    "type": null,
+    "tokensUsed": null
+  },
   "char_198_blackd": {
     "id": "char_198_blackd",
     "slug": "courier",
@@ -32467,6 +32708,251 @@
     "type": null,
     "tokensUsed": null
   },
+  "char_499_kaitou": {
+    "id": "char_499_kaitou",
+    "slug": "diamante",
+    "name": "Diamante",
+    "displayName": "Diamante",
+    "rarity": 5,
+    "position": "RANGED",
+    "range": ["3-6", "3-1", "3-1"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 543,
+            "atk": 283,
+            "def": 45,
+            "res": 5,
+            "respawnTime": 70,
+            "cost": 18,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 755,
+            "atk": 388,
+            "def": 68,
+            "res": 5,
+            "respawnTime": 70,
+            "cost": 18,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 70,
+        "stats": [
+          {
+            "hp": 755,
+            "atk": 388,
+            "def": 68,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 20,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 981,
+            "atk": 485,
+            "def": 92,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 20,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 20000 },
+          { "id": "3251", "count": 4 },
+          { "id": "30012", "count": 6 },
+          { "id": "30052", "count": 3 }
+        ]
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 981,
+            "atk": 485,
+            "def": 92,
+            "res": 15,
+            "respawnTime": 70,
+            "cost": 20,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 1309,
+            "atk": 578,
+            "def": 111,
+            "res": 15,
+            "respawnTime": 70,
+            "cost": 20,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 120000 },
+          { "id": "3253", "count": 3 },
+          { "id": "31084", "count": 7 },
+          { "id": "30083", "count": 15 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Advanced Notice",
+          "description": "If there is an enemy within attack range under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, ATK +10%",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Advanced Notice",
+          "description": "If there is an enemy within attack range under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, ATK +13% <span style=\"color:#0098DC;\">(+3%)</span>",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Advanced Notice",
+          "description": "If there is an enemy within attack range under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, ATK +18%",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Advanced Notice",
+          "description": "If there is an enemy within attack range under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, ATK +21% <span style=\"color:#0098DC;\">(+3%)</span>",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Redeployment Time -4 sec",
+      "ATK +25",
+      "Improves Talent",
+      "DP Cost -1"
+    ],
+    "profession": "Caster",
+    "branch": "primcaster",
+    "skills": [
+      {
+        "id": "skchr_kaitou_1",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "31084", "count": 3 },
+              { "id": "31053", "count": 3 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "30094", "count": 3 },
+              { "id": "31054", "count": 6 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30125", "count": 4 },
+              { "id": "31064", "count": 3 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_kaitou_2",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "31064", "count": 3 },
+              { "id": "30033", "count": 3 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "30084", "count": 3 },
+              { "id": "30064", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30135", "count": 4 },
+              { "id": "31024", "count": 4 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 4 }] },
+      {
+        "level": 3,
+        "cost": [{ "id": "3301", "count": 4 }, { "id": "30031", "count": 7 }]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30042", "count": 3 }]
+      },
+      {
+        "level": 5,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30052", "count": 4 }]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "31053", "count": 4 }]
+      },
+      {
+        "level": 7,
+        "cost": [
+          { "id": "3303", "count": 6 },
+          { "id": "31083", "count": 2 },
+          { "id": "30083", "count": 3 }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "hp": 0,
+      "atk": 65,
+      "def": 0,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": "leithanien", "faction": null, "team": null },
+    "tags": ["Elemental", "DPS"],
+    "type": null,
+    "tokensUsed": null
+  },
   "char_242_otter": {
     "id": "char_242_otter",
     "slug": "mayer",
@@ -36247,6 +36733,237 @@
       "atkInterval": 0
     },
     "affiliation": { "nation": "lungmen", "faction": null, "team": "lee" },
+    "tags": ["Defense", "Healing"],
+    "type": null,
+    "tokensUsed": null
+  },
+  "char_4109_baslin": {
+    "id": "char_4109_baslin",
+    "slug": "bassline",
+    "name": "Bassline",
+    "displayName": "Bassline",
+    "rarity": 5,
+    "position": "MELEE",
+    "range": ["0-1", "0-1", "0-1"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 1150,
+            "atk": 195,
+            "def": 238,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 17,
+            "blockCnt": 2,
+            "atkInterval": 1.2
+          },
+          {
+            "hp": 1555,
+            "atk": 279,
+            "def": 350,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 17,
+            "blockCnt": 2,
+            "atkInterval": 1.2
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 70,
+        "stats": [
+          {
+            "hp": 1555,
+            "atk": 279,
+            "def": 350,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 19,
+            "blockCnt": 3,
+            "atkInterval": 1.2
+          },
+          {
+            "hp": 1994,
+            "atk": 378,
+            "def": 467,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 19,
+            "blockCnt": 3,
+            "atkInterval": 1.2
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 20000 },
+          { "id": "3231", "count": 4 },
+          { "id": "30012", "count": 6 },
+          { "id": "30052", "count": 3 }
+        ]
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 1994,
+            "atk": 378,
+            "def": 467,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 21,
+            "blockCnt": 3,
+            "atkInterval": 1.2
+          },
+          {
+            "hp": 2770,
+            "atk": 473,
+            "def": 570,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 21,
+            "blockCnt": 3,
+            "atkInterval": 1.2
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 120000 },
+          { "id": "3233", "count": 3 },
+          { "id": "31084", "count": 7 },
+          { "id": "30083", "count": 15 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Authoritarian Teachings",
+          "description": "RES +6; if there are allied Operators in the 8 surrounding tiles, gain another RES +2",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Authoritarian Teachings",
+          "description": "RES +12; if there are allied Operators in the 8 surrounding tiles, gain another RES +4",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Redeployment Time -4 sec",
+      "DEF +25",
+      "Max HP +200",
+      "DP Cost -1"
+    ],
+    "profession": "Defender",
+    "branch": "guardian",
+    "skills": [
+      {
+        "id": "skchr_baslin_1",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "31084", "count": 3 },
+              { "id": "31053", "count": 3 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "30094", "count": 3 },
+              { "id": "31054", "count": 6 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30125", "count": 4 },
+              { "id": "31064", "count": 3 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_baslin_2",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "31064", "count": 3 },
+              { "id": "30033", "count": 3 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "30084", "count": 3 },
+              { "id": "30064", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30135", "count": 4 },
+              { "id": "31024", "count": 4 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 4 }] },
+      {
+        "level": 3,
+        "cost": [{ "id": "3301", "count": 4 }, { "id": "30031", "count": 7 }]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30042", "count": 3 }]
+      },
+      {
+        "level": 5,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30052", "count": 4 }]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "31053", "count": 4 }]
+      },
+      {
+        "level": 7,
+        "cost": [
+          { "id": "3303", "count": 6 },
+          { "id": "31083", "count": 2 },
+          { "id": "30083", "count": 3 }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "hp": 0,
+      "atk": 50,
+      "def": 30,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": "leithanien", "faction": null, "team": null },
     "tags": ["Defense", "Healing"],
     "type": null,
     "tokensUsed": null
@@ -59975,6 +60692,299 @@
       "token_10027_ironmn_pile3"
     ]
   },
+  "char_245_cello": {
+    "id": "char_245_cello",
+    "slug": "virtuosa",
+    "name": "Virtuosa",
+    "displayName": "Virtuosa",
+    "rarity": 6,
+    "position": "RANGED",
+    "range": ["y-2", "y-2", "y-2"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 484,
+            "atk": 231,
+            "def": 48,
+            "res": 5,
+            "respawnTime": 70,
+            "cost": 14,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 702,
+            "atk": 321,
+            "def": 70,
+            "res": 5,
+            "respawnTime": 70,
+            "cost": 14,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 702,
+            "atk": 321,
+            "def": 70,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 16,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 936,
+            "atk": 407,
+            "def": 93,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 16,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 30000 },
+          { "id": "3271", "count": 5 },
+          { "id": "30052", "count": 7 },
+          { "id": "30012", "count": 7 }
+        ]
+      },
+      {
+        "maxLevel": 90,
+        "stats": [
+          {
+            "hp": 936,
+            "atk": 407,
+            "def": 93,
+            "res": 15,
+            "respawnTime": 70,
+            "cost": 16,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 1201,
+            "atk": 485,
+            "def": 109,
+            "res": 15,
+            "respawnTime": 70,
+            "cost": 16,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 180000 },
+          { "id": "3273", "count": 4 },
+          { "id": "30115", "count": 4 },
+          { "id": "30104", "count": 5 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Wordless Elegy",
+          "description": "Enemies within attack range take 6% ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a> per second",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 0, "level": 1 }
+        },
+        {
+          "name": "Wordless Elegy",
+          "description": "Enemies within attack range take 8% ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a> per second, and are <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slowed</a> for 0.2s",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Wordless Elegy",
+          "description": "Enemies within attack range take 10% ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a> per second, and are <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"-80% Movement Speed\" href=\"/terminology#slow\">Slowed</a> for 0.2s",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ],
+      "1": [
+        {
+          "name": "Mental Inversion",
+          "description": "Enemies within attack range take 20% more <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Mental Inversion",
+          "description": "Enemies within attack range take 22% more <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a> <span style=\"color:#0098DC;\">(+2%)</span>",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Redeployment Time -6 sec",
+      "ATK +23",
+      "Improves Second Talent",
+      "DP Cost -1"
+    ],
+    "profession": "Supporter",
+    "branch": "ritualist",
+    "skills": [
+      {
+        "id": "skchr_cello_1",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "31044", "count": 4 },
+              { "id": "30053", "count": 7 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "31034", "count": 4 },
+              { "id": "30074", "count": 8 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30145", "count": 6 },
+              { "id": "30074", "count": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_cello_2",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "30094", "count": 4 },
+              { "id": "31083", "count": 5 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "30104", "count": 4 },
+              { "id": "30044", "count": 7 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30155", "count": 6 },
+              { "id": "31034", "count": 3 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_cello_3",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 2, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "31054", "count": 4 },
+              { "id": "31023", "count": 7 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "31024", "count": 4 },
+              { "id": "31034", "count": 7 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30125", "count": 6 },
+              { "id": "30014", "count": 6 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 5 }] },
+      {
+        "level": 3,
+        "cost": [
+          { "id": "3301", "count": 5 },
+          { "id": "30061", "count": 4 },
+          { "id": "30031", "count": 4 }
+        ]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 8 }, { "id": "30012", "count": 7 }]
+      },
+      {
+        "level": 5,
+        "cost": [
+          { "id": "3302", "count": 8 },
+          { "id": "30022", "count": 4 },
+          { "id": "30052", "count": 4 }
+        ]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 8 }, { "id": "30083", "count": 6 }]
+      },
+      {
+        "level": 7,
+        "cost": [
+          { "id": "3303", "count": 8 },
+          { "id": "30073", "count": 6 },
+          { "id": "31023", "count": 3 }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "hp": 300,
+      "atk": 40,
+      "def": 0,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": "laterano", "faction": null, "team": null },
+    "tags": ["Elemental", "Support"],
+    "type": "limited",
+    "tokensUsed": null
+  },
   "char_250_phatom": {
     "id": "char_250_phatom",
     "slug": "phantom",
@@ -70929,6 +71939,306 @@
     "type": null,
     "tokensUsed": null
   },
+  "char_4098_vvana": {
+    "id": "char_4098_vvana",
+    "slug": "viviana",
+    "name": "Viviana",
+    "displayName": "Viviana",
+    "rarity": 6,
+    "position": "MELEE",
+    "range": ["1-1", "1-1", "1-1"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 1332,
+            "atk": 277,
+            "def": 202,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 19,
+            "blockCnt": 1,
+            "atkInterval": 1.25
+          },
+          {
+            "hp": 1753,
+            "atk": 402,
+            "def": 289,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 19,
+            "blockCnt": 1,
+            "atkInterval": 1.25
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 1753,
+            "atk": 402,
+            "def": 289,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 21,
+            "blockCnt": 1,
+            "atkInterval": 1.25
+          },
+          {
+            "hp": 2219,
+            "atk": 523,
+            "def": 371,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 21,
+            "blockCnt": 1,
+            "atkInterval": 1.25
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 30000 },
+          { "id": "3221", "count": 5 },
+          { "id": "30062", "count": 6 },
+          { "id": "30022", "count": 4 }
+        ]
+      },
+      {
+        "maxLevel": 90,
+        "stats": [
+          {
+            "hp": 2219,
+            "atk": 523,
+            "def": 371,
+            "res": 15,
+            "respawnTime": 70,
+            "cost": 21,
+            "blockCnt": 1,
+            "atkInterval": 1.25
+          },
+          {
+            "hp": 2920,
+            "atk": 646,
+            "def": 447,
+            "res": 15,
+            "respawnTime": 70,
+            "cost": 21,
+            "blockCnt": 1,
+            "atkInterval": 1.25
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 180000 },
+          { "id": "3223", "count": 4 },
+          { "id": "30135", "count": 4 },
+          { "id": "31014", "count": 8 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Candlelight",
+          "description": "Deal +5% Arts damage and take -5% Physical and Arts damage. Double effect if there is an elite or leader enemy within attack range",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Candlelight",
+          "description": "Deal +6% <span style=\"color:#0098DC;\">(+1%)</span> Arts damage and take -6% <span style=\"color:#0098DC;\">(-1%)</span> Physical and Arts damage. Double effect if there is an elite or leader enemy within attack range",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Candlelight",
+          "description": "Deal +8% Arts damage and take -8% Physical and Arts damage. Double effect if there is an elite or leader enemy within attack range",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Candlelight",
+          "description": "Deal +9% <span style=\"color:#0098DC;\">(+1%)</span> Arts damage and take -9% <span style=\"color:#0098DC;\">(-1%)</span> Physical and Arts damage. Double effect if there is an elite or leader enemy within attack range",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ],
+      "1": [
+        {
+          "name": "Nova",
+          "description": "When attacking an elite or leader enemy, there is an 18% chance to gain a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Blocks 1 instance of damage per layer of Shield\" href=\"/terminology#shield\">Shield</a> that only blocks melee attacks (max 1 stack)",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Nova",
+          "description": "When attacking an elite or leader enemy, there is a 20% <span style=\"color:#0098DC;\">(+2%)</span> chance to gain a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Blocks 1 instance of damage per layer of Shield\" href=\"/terminology#shield\">Shield</a> that only blocks melee attacks (max 1 stack)",
+          "range": null,
+          "potential": 3,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Improves Second Talent",
+      "ATK +28",
+      "Improves First Talent",
+      "DP Cost -1"
+    ],
+    "profession": "Guard",
+    "branch": "artsfghter",
+    "skills": [
+      {
+        "id": "skchr_vvana_1",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "31064", "count": 4 },
+              { "id": "30033", "count": 6 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "30074", "count": 4 },
+              { "id": "30014", "count": 10 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30145", "count": 6 },
+              { "id": "30054", "count": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_vvana_2",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "30014", "count": 4 },
+              { "id": "30083", "count": 8 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "31014", "count": 4 },
+              { "id": "31074", "count": 8 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30115", "count": 6 },
+              { "id": "30074", "count": 7 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_vvana_3",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 2, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "30074", "count": 4 },
+              { "id": "30043", "count": 8 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "30094", "count": 4 },
+              { "id": "30054", "count": 7 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30125", "count": 6 },
+              { "id": "31074", "count": 5 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 5 }] },
+      {
+        "level": 3,
+        "cost": [
+          { "id": "3301", "count": 5 },
+          { "id": "30011", "count": 6 },
+          { "id": "30061", "count": 4 }
+        ]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 8 }, { "id": "30022", "count": 5 }]
+      },
+      {
+        "level": 5,
+        "cost": [
+          { "id": "3302", "count": 8 },
+          { "id": "30032", "count": 4 },
+          { "id": "30042", "count": 4 }
+        ]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 8 }, { "id": "30073", "count": 7 }]
+      },
+      {
+        "level": 7,
+        "cost": [
+          { "id": "3303", "count": 8 },
+          { "id": "30033", "count": 6 },
+          { "id": "30043", "count": 4 }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "hp": 0,
+      "atk": 100,
+      "def": 0,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": "leithanien", "faction": null, "team": null },
+    "tags": ["DPS", "Survival"],
+    "type": null,
+    "tokensUsed": null
+  },
   "char_188_helage": {
     "id": "char_188_helage",
     "slug": "hellagur",
@@ -71793,6 +73103,292 @@
     "tags": ["DPS"],
     "type": "limited",
     "tokensUsed": ["token_10019_nearl2_sword"]
+  },
+  "char_4011_lessng": {
+    "id": "char_4011_lessng",
+    "slug": "lessing",
+    "name": "Lessing",
+    "displayName": "Lessing",
+    "rarity": 6,
+    "position": "MELEE",
+    "range": ["1-1", "1-1", "1-1"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 1449,
+            "atk": 465,
+            "def": 123,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 19,
+            "blockCnt": 1,
+            "atkInterval": 1.5
+          },
+          {
+            "hp": 2070,
+            "atk": 684,
+            "def": 176,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 19,
+            "blockCnt": 1,
+            "atkInterval": 1.5
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 2070,
+            "atk": 684,
+            "def": 176,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 21,
+            "blockCnt": 1,
+            "atkInterval": 1.5
+          },
+          {
+            "hp": 2798,
+            "atk": 866,
+            "def": 232,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 21,
+            "blockCnt": 1,
+            "atkInterval": 1.5
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 30000 },
+          { "id": "3221", "count": 5 },
+          { "id": "30012", "count": 12 },
+          { "id": "30022", "count": 5 }
+        ]
+      },
+      {
+        "maxLevel": 90,
+        "stats": [
+          {
+            "hp": 2798,
+            "atk": 866,
+            "def": 232,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 21,
+            "blockCnt": 1,
+            "atkInterval": 1.5
+          },
+          {
+            "hp": 3682,
+            "atk": 1044,
+            "def": 277,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 21,
+            "blockCnt": 1,
+            "atkInterval": 1.5
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 180000 },
+          { "id": "3223", "count": 4 },
+          { "id": "30145", "count": 4 },
+          { "id": "31084", "count": 5 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Pain Focus",
+          "description": "When blocking, take 20% less Physical and Arts damage from enemies not blocked by this unit",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Pain Focus",
+          "description": "When blocking, take 35% less Physical and Arts damage from enemies not blocked by this unit",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ],
+      "1": [
+        {
+          "name": "Whetted With Pain",
+          "description": "When damage is taken, ATK +12% for 15s (does not stack)",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Whetted With Pain",
+          "description": "When damage is taken, ATK +16%<span style=\"color:#0098DC;\">(+4%)</span> for 15s (does not stack)",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Redeployment Time -10 sec",
+      "DP Cost -1",
+      "Improves Second Talent",
+      "DP Cost -1"
+    ],
+    "profession": "Guard",
+    "branch": "fearless",
+    "skills": [
+      {
+        "id": "skchr_lessng_1",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "31084", "count": 4 },
+              { "id": "30023", "count": 7 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "30054", "count": 4 },
+              { "id": "31014", "count": 9 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30135", "count": 6 },
+              { "id": "30084", "count": 6 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_lessng_2",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "31054", "count": 4 },
+              { "id": "30083", "count": 7 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "30084", "count": 4 },
+              { "id": "31044", "count": 8 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30145", "count": 6 },
+              { "id": "31014", "count": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_lessng_3",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 2, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "30054", "count": 4 },
+              { "id": "31063", "count": 5 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "31074", "count": 4 },
+              { "id": "31084", "count": 8 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30155", "count": 6 },
+              { "id": "30054", "count": 4 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 5 }] },
+      {
+        "level": 3,
+        "cost": [
+          { "id": "3301", "count": 5 },
+          { "id": "30021", "count": 5 },
+          { "id": "30051", "count": 4 }
+        ]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 8 }, { "id": "30032", "count": 5 }]
+      },
+      {
+        "level": 5,
+        "cost": [
+          { "id": "3302", "count": 8 },
+          { "id": "30042", "count": 4 },
+          { "id": "30022", "count": 3 }
+        ]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 8 }, { "id": "30033", "count": 7 }]
+      },
+      {
+        "level": 7,
+        "cost": [
+          { "id": "3303", "count": 8 },
+          { "id": "31083", "count": 4 },
+          { "id": "31013", "count": 3 }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "hp": 200,
+      "atk": 85,
+      "def": 0,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": "leithanien", "faction": null, "team": null },
+    "tags": ["DPS"],
+    "type": null,
+    "tokensUsed": null
   },
   "char_1032_excu2": {
     "id": "char_1032_excu2",

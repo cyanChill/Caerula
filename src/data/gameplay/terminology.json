@@ -207,6 +207,11 @@
         "description": "Operators with this skill\nEbenholz",
         "slug": "harmony_astray"
       },
+      "cc.bd_B_3": {
+        "name": "Wordless Anthem",
+        "description": "Operators with this skill\nVirtuosa",
+        "slug": "wordless_anthem"
+      },
       "cc.bd_A": {
         "name": "Chain of Thought",
         "description": "Affects skills related to Psychokinesis and Manifestation of Consciousness\nProvided by the following Operators' skills:\nRosmontis",

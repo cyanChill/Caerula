@@ -306,6 +306,14 @@ export const BranchTable: Record<BranchId, Branch> = {
     damageType: "PHYSICAL",
     trait: "Prioritizes attacking the enemy with <span style=\"color:#00B0FF;\">lowest DEF</span> within range first"
   },
+  loopshooter: {
+    id: "loopshooter",
+    name: "Loopshooter",
+    profession: "Sniper",
+    position: "RANGED",
+    damageType: "PHYSICAL",
+    trait: "Can only attack while holding a <span style=\"color:#00B0FF;\">boomerang projectile</span> (projectile takes time to return)"
+  },
   lord: {
     id: "lord",
     name: "Lord",
@@ -361,6 +369,14 @@ export const BranchTable: Record<BranchId, Branch> = {
     position: "MELEE",
     damageType: "PHYSICAL",
     trait: "Blocks 2 enemies"
+  },
+  primcaster: {
+    id: "primcaster",
+    name: "Primal Caster",
+    profession: "Caster",
+    position: "RANGED",
+    damageType: "MAGICAL",
+    trait: "Attacks deal <span style=\"color:#00B0FF;\">Arts damage</span>, and can inflict <span style=\"color:#00B0FF;\">Elemental damage</span>"
   },
   protector: {
     id: "protector",

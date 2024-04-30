@@ -1199,6 +1199,52 @@
     "initSp": [15, 15, 15, 20, 20, 20, 25, 25, 25, 25],
     "duration": [25, 25, 25, 25, 25, 25, 25, 27, 28, 30]
   },
+  "skchr_caper_1": {
+    "id": "skchr_caper_1",
+    "iconId": "skcom_powerstrike[2]",
+    "name": "Power Strike β",
+    "description": [
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">170%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">175%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">180%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">185%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">190%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">195%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">200%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">210%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">220%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">230%</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Offensive",
+    "spCost": [5, 5, 5, 4, 4, 4, 4, 4, 4, 3],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "skchr_caper_2": {
+    "id": "skchr_caper_2",
+    "iconId": "skchr_caper_2",
+    "name": "Double the Fun",
+    "description": [
+      "ATK <span style=\"color:#0098DC;\">+10%</span>, each attack fires <span style=\"color:#0098DC;\">1</span> more boomerang projectile",
+      "ATK <span style=\"color:#0098DC;\">+15%</span>, each attack fires <span style=\"color:#0098DC;\">1</span> more boomerang projectile",
+      "ATK <span style=\"color:#0098DC;\">+20%</span>, each attack fires <span style=\"color:#0098DC;\">1</span> more boomerang projectile",
+      "ATK <span style=\"color:#0098DC;\">+25%</span>, each attack fires <span style=\"color:#0098DC;\">1</span> more boomerang projectile",
+      "ATK <span style=\"color:#0098DC;\">+30%</span>, each attack fires <span style=\"color:#0098DC;\">1</span> more boomerang projectile",
+      "ATK <span style=\"color:#0098DC;\">+35%</span>, each attack fires <span style=\"color:#0098DC;\">1</span> more boomerang projectile",
+      "ATK <span style=\"color:#0098DC;\">+40%</span>, each attack fires <span style=\"color:#0098DC;\">1</span> more boomerang projectile",
+      "ATK <span style=\"color:#0098DC;\">+45%</span>, each attack fires <span style=\"color:#0098DC;\">1</span> more boomerang projectile",
+      "ATK <span style=\"color:#0098DC;\">+50%</span>, each attack fires <span style=\"color:#0098DC;\">1</span> more boomerang projectile",
+      "ATK <span style=\"color:#0098DC;\">+60%</span>, each attack fires <span style=\"color:#0098DC;\">1</span> more boomerang projectile"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Offensive",
+    "spCost": [35, 34, 33, 32, 31, 30, 29, 28, 27, 25],
+    "initSp": [10, 10, 10, 11, 11, 11, 12, 13, 14, 15],
+    "duration": [15, 15, 15, 16, 16, 16, 17, 18, 19, 20]
+  },
   "skchr_blackd_2": {
     "id": "skchr_blackd_2",
     "iconId": "skchr_blackd_2",
@@ -5275,6 +5321,52 @@
     "initSp": [0, 0, 1, 1, 2, 2, 2, 3, 4, 4],
     "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   },
+  "skchr_kaitou_1": {
+    "id": "skchr_kaitou_1",
+    "iconId": "skchr_kaitou_1",
+    "name": "Laser Cutter",
+    "description": [
+      "ATK <span style=\"color:#0098DC;\">+40%</span>, attacks deal an additional <span style=\"color:#0098DC;\">10%</span> of Arts damage as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">20%</span> ATK as Elemental damage",
+      "ATK <span style=\"color:#0098DC;\">+45%</span>, attacks deal an additional <span style=\"color:#0098DC;\">10%</span> of Arts damage as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">20%</span> ATK as Elemental damage",
+      "ATK <span style=\"color:#0098DC;\">+50%</span>, attacks deal an additional <span style=\"color:#0098DC;\">10%</span> of Arts damage as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">20%</span> ATK as Elemental damage",
+      "ATK <span style=\"color:#0098DC;\">+60%</span>, attacks deal an additional <span style=\"color:#0098DC;\">10%</span> of Arts damage as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">30%</span> ATK as Elemental damage",
+      "ATK <span style=\"color:#0098DC;\">+65%</span>, attacks deal an additional <span style=\"color:#0098DC;\">10%</span> of Arts damage as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">30%</span> ATK as Elemental damage",
+      "ATK <span style=\"color:#0098DC;\">+70%</span>, attacks deal an additional <span style=\"color:#0098DC;\">10%</span> of Arts damage as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">30%</span> ATK as Elemental damage",
+      "ATK <span style=\"color:#0098DC;\">+80%</span>, attacks deal an additional <span style=\"color:#0098DC;\">10%</span> of Arts damage as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">40%</span> ATK as Elemental damage",
+      "ATK <span style=\"color:#0098DC;\">+90%</span>, attacks deal an additional <span style=\"color:#0098DC;\">15%</span> of Arts damage as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">40%</span> ATK as Elemental damage",
+      "ATK <span style=\"color:#0098DC;\">+100%</span>, attacks deal an additional <span style=\"color:#0098DC;\">15%</span> of Arts damage as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">40%</span> ATK as Elemental damage",
+      "ATK <span style=\"color:#0098DC;\">+110%</span>, attacks deal an additional <span style=\"color:#0098DC;\">15%</span> of Arts damage as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">50%</span> ATK as Elemental damage"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [39, 38, 37, 36, 35, 34, 33, 32, 31, 30],
+    "initSp": [0, 0, 0, 5, 5, 5, 15, 15, 15, 20],
+    "duration": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
+  },
+  "skchr_kaitou_2": {
+    "id": "skchr_kaitou_2",
+    "iconId": "skchr_kaitou_2",
+    "name": "Heat Treatment Discoloration",
+    "description": [
+      "ASPD <span style=\"color:#0098DC;\">+40</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">40%</span> ATK as Elemental damage",
+      "ASPD <span style=\"color:#0098DC;\">+45</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">40%</span> ATK as Elemental damage",
+      "ASPD <span style=\"color:#0098DC;\">+50</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">40%</span> ATK as Elemental damage",
+      "ASPD <span style=\"color:#0098DC;\">+55</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">50%</span> ATK as Elemental damage",
+      "ASPD <span style=\"color:#0098DC;\">+60</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">50%</span> ATK as Elemental damage",
+      "ASPD <span style=\"color:#0098DC;\">+65</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">50%</span> ATK as Elemental damage",
+      "ASPD <span style=\"color:#0098DC;\">+75</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">60%</span> ATK as Elemental damage",
+      "ASPD <span style=\"color:#0098DC;\">+80</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">65%</span> ATK as Elemental damage",
+      "ASPD <span style=\"color:#0098DC;\">+85</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">70%</span> ATK as Elemental damage",
+      "ASPD <span style=\"color:#0098DC;\">+90</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; if target is under the burst effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>, deal an additional <span style=\"color:#0098DC;\">75%</span> ATK as Elemental damage"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [45, 45, 45, 40, 40, 40, 37, 37, 37, 35],
+    "initSp": [10, 10, 10, 10, 10, 10, 15, 15, 15, 20],
+    "duration": [25, 25, 25, 30, 30, 30, 35, 35, 35, 35]
+  },
   "skchr_lionhd_2": {
     "id": "skchr_lionhd_2",
     "iconId": "skchr_lionhd_2",
@@ -6309,6 +6401,52 @@
     "spCost": [25, 25, 25, 24, 24, 24, 23, 22, 21, 20],
     "initSp": [10, 10, 10, 11, 11, 11, 12, 14, 16, 18],
     "duration": [20, 20, 20, 22, 22, 22, 24, 26, 28, 30]
+  },
+  "skchr_baslin_1": {
+    "id": "skchr_baslin_1",
+    "iconId": "skchr_baslin_1",
+    "name": "First Aid",
+    "description": [
+      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">110%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">115%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">120%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">130%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">135%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">140%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">150%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">160%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">170%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">180%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>"
+    ],
+    "rangeId": "x-4",
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [6, 6, 6, 5, 5, 5, 5, 4, 4, 4],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "skchr_baslin_2": {
+    "id": "skchr_baslin_2",
+    "iconId": "skchr_baslin_2",
+    "name": "Calming Bass",
+    "description": [
+      "ATK <span style=\"color:#0098DC;\">+20%</span>; stop attacking and focus on healing nearby allies, each heal giving the target a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> that absorbs <span style=\"color:#0098DC;\">Arts</span> damage equal to <span style=\"color:#0098DC;\">30%</span> of Bassline's ATK",
+      "ATK <span style=\"color:#0098DC;\">+25%</span>; stop attacking and focus on healing nearby allies, each heal giving the target a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> that absorbs <span style=\"color:#0098DC;\">Arts</span> damage equal to <span style=\"color:#0098DC;\">30%</span> of Bassline's ATK",
+      "ATK <span style=\"color:#0098DC;\">+30%</span>; stop attacking and focus on healing nearby allies, each heal giving the target a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> that absorbs <span style=\"color:#0098DC;\">Arts</span> damage equal to <span style=\"color:#0098DC;\">30%</span> of Bassline's ATK",
+      "ATK <span style=\"color:#0098DC;\">+35%</span>; stop attacking and focus on healing nearby allies, each heal giving the target a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> that absorbs <span style=\"color:#0098DC;\">Arts</span> damage equal to <span style=\"color:#0098DC;\">40%</span> of Bassline's ATK",
+      "ATK <span style=\"color:#0098DC;\">+40%</span>; stop attacking and focus on healing nearby allies, each heal giving the target a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> that absorbs <span style=\"color:#0098DC;\">Arts</span> damage equal to <span style=\"color:#0098DC;\">40%</span> of Bassline's ATK",
+      "ATK <span style=\"color:#0098DC;\">+45%</span>; stop attacking and focus on healing nearby allies, each heal giving the target a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> that absorbs <span style=\"color:#0098DC;\">Arts</span> damage equal to <span style=\"color:#0098DC;\">40%</span> of Bassline's ATK",
+      "ATK <span style=\"color:#0098DC;\">+50%</span>; stop attacking and focus on healing nearby allies, each heal giving the target a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> that absorbs <span style=\"color:#0098DC;\">Arts</span> damage equal to <span style=\"color:#0098DC;\">50%</span> of Bassline's ATK",
+      "ATK <span style=\"color:#0098DC;\">+60%</span>; stop attacking and focus on healing nearby allies, each heal giving the target a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> that absorbs <span style=\"color:#0098DC;\">Arts</span> damage equal to <span style=\"color:#0098DC;\">50%</span> of Bassline's ATK",
+      "ATK <span style=\"color:#0098DC;\">+70%</span>; stop attacking and focus on healing nearby allies, each heal giving the target a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> that absorbs <span style=\"color:#0098DC;\">Arts</span> damage equal to <span style=\"color:#0098DC;\">50%</span> of Bassline's ATK",
+      "ATK <span style=\"color:#0098DC;\">+80%</span>; stop attacking and focus on healing nearby allies, each heal giving the target a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> that absorbs <span style=\"color:#0098DC;\">Arts</span> damage equal to <span style=\"color:#0098DC;\">60%</span> of Bassline's ATK"
+    ],
+    "rangeId": "x-4",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [70, 70, 70, 65, 65, 65, 60, 60, 60, 60],
+    "initSp": [40, 40, 40, 45, 45, 45, 50, 51, 52, 53],
+    "duration": [60, 60, 60, 60, 60, 60, 60, 60, 60, 60]
   },
   "skchr_red_1": {
     "id": "skchr_red_1",
@@ -11527,6 +11665,75 @@
     "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   },
+  "skchr_cello_1": {
+    "id": "skchr_cello_1",
+    "iconId": "skchr_cello_1",
+    "name": "'Golden Ecstasy'",
+    "description": [
+      "Deal <span style=\"color:#0098DC;\">180%</span> ATK as Arts damage, and an additional <span style=\"color:#0098DC;\">75%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a> if the enemy is not under the burst effect\n<span style=\"color:#F49800;\">Can store 1 charge and cannot use normal attacks when skill is inactive</span>",
+      "Deal <span style=\"color:#0098DC;\">190%</span> ATK as Arts damage, and an additional <span style=\"color:#0098DC;\">75%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a> if the enemy is not under the burst effect\n<span style=\"color:#F49800;\">Can store 1 charge and cannot use normal attacks when skill is inactive</span>",
+      "Deal <span style=\"color:#0098DC;\">200%</span> ATK as Arts damage, and an additional <span style=\"color:#0098DC;\">75%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a> if the enemy is not under the burst effect\n<span style=\"color:#F49800;\">Can store 1 charge and cannot use normal attacks when skill is inactive</span>",
+      "Deal <span style=\"color:#0098DC;\">210%</span> ATK as Arts damage, and an additional <span style=\"color:#0098DC;\">85%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a> if the enemy is not under the burst effect\n<span style=\"color:#F49800;\">Can store 2 charges and cannot use normal attacks when skill is inactive</span>",
+      "Deal <span style=\"color:#0098DC;\">220%</span> ATK as Arts damage, and an additional <span style=\"color:#0098DC;\">85%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a> if the enemy is not under the burst effect\n<span style=\"color:#F49800;\">Can store 2 charges and cannot use normal attacks when skill is inactive</span>",
+      "Deal <span style=\"color:#0098DC;\">230%</span> ATK as Arts damage, and an additional <span style=\"color:#0098DC;\">85%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a> if the enemy is not under the burst effect\n<span style=\"color:#F49800;\">Can store 2 charges and cannot use normal attacks when skill is inactive</span>",
+      "Deal <span style=\"color:#0098DC;\">240%</span> ATK as Arts damage, and an additional <span style=\"color:#0098DC;\">95%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a> if the enemy is not under the burst effect\n<span style=\"color:#F49800;\">Can store 2 charges and cannot use normal attacks when skill is inactive</span>",
+      "Deal <span style=\"color:#0098DC;\">260%</span> ATK as Arts damage, and an additional <span style=\"color:#0098DC;\">100%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a> if the enemy is not under the burst effect\n<span style=\"color:#F49800;\">Can store 3 charges and cannot use normal attacks when skill is inactive</span>",
+      "Deal <span style=\"color:#0098DC;\">280%</span> ATK as Arts damage, and an additional <span style=\"color:#0098DC;\">105%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a> if the enemy is not under the burst effect\n<span style=\"color:#F49800;\">Can store 3 charges and cannot use normal attacks when skill is inactive</span>",
+      "Deal <span style=\"color:#0098DC;\">300%</span> ATK as Arts damage, and an additional <span style=\"color:#0098DC;\">110%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a> if the enemy is not under the burst effect\n<span style=\"color:#F49800;\">Can store 3 charges and cannot use normal attacks when skill is inactive</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [7, 7, 7, 7, 7, 7, 6, 6, 6, 6],
+    "initSp": [0, 2, 4, 6, 8, 10, 12, 14, 16, 18],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_cello_2": {
+    "id": "skchr_cello_2",
+    "iconId": "skchr_cello_2",
+    "name": "'Requiem Mass'",
+    "description": [
+      "ASPD <span style=\"color:#0098DC;\">+15</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; when this unit and the allied Operator with highest ATK within range deal damage to an enemy, additionally deal <span style=\"color:#0098DC;\">10%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+20</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; when this unit and the allied Operator with highest ATK within range deal damage to an enemy, additionally deal <span style=\"color:#0098DC;\">10%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+25</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; when this unit and the allied Operator with highest ATK within range deal damage to an enemy, additionally deal <span style=\"color:#0098DC;\">10%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+30</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; when this unit and the allied Operator with highest ATK within range deal damage to an enemy, additionally deal <span style=\"color:#0098DC;\">15%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+35</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; when this unit and the allied Operator with highest ATK within range deal damage to an enemy, additionally deal <span style=\"color:#0098DC;\">15%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+40</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; when this unit and the allied Operator with highest ATK within range deal damage to an enemy, additionally deal <span style=\"color:#0098DC;\">15%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+45</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; when this unit and the allied Operator with highest ATK within range deal damage to an enemy, additionally deal <span style=\"color:#0098DC;\">20%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+50</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; when this unit and the allied Operator with highest ATK within range deal damage to an enemy, additionally deal <span style=\"color:#0098DC;\">20%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+55</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; when this unit and the allied Operator with highest ATK within range deal damage to an enemy, additionally deal <span style=\"color:#0098DC;\">20%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+60</span>, attack <span style=\"color:#0098DC;\">1</span> additional target; when this unit and the allied Operator with highest ATK within range deal damage to an enemy, additionally deal <span style=\"color:#0098DC;\">25%</span> ATK as <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.\" href=\"/terminology#necrosis_damage_-_player\">Necrosis damage</a>"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [38, 37, 36, 34, 33, 32, 30, 28, 26, 24],
+    "initSp": [0, 2, 4, 7, 9, 11, 14, 14, 14, 14],
+    "duration": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
+  },
+  "skchr_cello_3": {
+    "id": "skchr_cello_3",
+    "iconId": "skchr_cello_3",
+    "name": "'Liberal Tango'",
+    "description": [
+      "<span style=\"color:#FF6237;\">Stops attacking</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+70%</span>, 2nd Talent effect increased to <span style=\"color:#0098DC;\">1.6</span>x; when skill is active, for all other Operators within range, the one with the highest max HP gains max HP <span style=\"color:#0098DC;\">+15%</span>, the one with the highest ATK gains ATK <span style=\"color:#0098DC;\">+15%</span>, and the one with the highest DEF gains DEF <span style=\"color:#0098DC;\">+15%</span>",
+      "<span style=\"color:#FF6237;\">Stops attacking</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+80%</span>, 2nd Talent effect increased to <span style=\"color:#0098DC;\">1.7</span>x; when skill is active, for all other Operators within range, the one with the highest max HP gains max HP <span style=\"color:#0098DC;\">+15%</span>, the one with the highest ATK gains ATK <span style=\"color:#0098DC;\">+15%</span>, and the one with the highest DEF gains DEF <span style=\"color:#0098DC;\">+15%</span>",
+      "<span style=\"color:#FF6237;\">Stops attacking</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+90%</span>, 2nd Talent effect increased to <span style=\"color:#0098DC;\">1.8</span>x; when skill is active, for all other Operators within range, the one with the highest max HP gains max HP <span style=\"color:#0098DC;\">+15%</span>, the one with the highest ATK gains ATK <span style=\"color:#0098DC;\">+15%</span>, and the one with the highest DEF gains DEF <span style=\"color:#0098DC;\">+15%</span>",
+      "<span style=\"color:#FF6237;\">Stops attacking</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+105%</span>, 2nd Talent effect increased to <span style=\"color:#0098DC;\">1.9</span>x; when skill is active, for all other Operators within range, the one with the highest max HP gains max HP <span style=\"color:#0098DC;\">+20%</span>, the one with the highest ATK gains ATK <span style=\"color:#0098DC;\">+20%</span>, and the one with the highest DEF gains DEF <span style=\"color:#0098DC;\">+20%</span>",
+      "<span style=\"color:#FF6237;\">Stops attacking</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+115%</span>, 2nd Talent effect increased to <span style=\"color:#0098DC;\">2</span>x; when skill is active, for all other Operators within range, the one with the highest max HP gains max HP <span style=\"color:#0098DC;\">+20%</span>, the one with the highest ATK gains ATK <span style=\"color:#0098DC;\">+20%</span>, and the one with the highest DEF gains DEF <span style=\"color:#0098DC;\">+20%</span>",
+      "<span style=\"color:#FF6237;\">Stops attacking</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+125%</span>, 2nd Talent effect increased to <span style=\"color:#0098DC;\">2.1</span>x; when skill is active, for all other Operators within range, the one with the highest max HP gains max HP <span style=\"color:#0098DC;\">+20%</span>, the one with the highest ATK gains ATK <span style=\"color:#0098DC;\">+20%</span>, and the one with the highest DEF gains DEF <span style=\"color:#0098DC;\">+20%</span>",
+      "<span style=\"color:#FF6237;\">Stops attacking</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+140%</span>, 2nd Talent effect increased to <span style=\"color:#0098DC;\">2.2</span>x; when skill is active, for all other Operators within range, the one with the highest max HP gains max HP <span style=\"color:#0098DC;\">+25%</span>, the one with the highest ATK gains ATK <span style=\"color:#0098DC;\">+25%</span>, and the one with the highest DEF gains DEF <span style=\"color:#0098DC;\">+25%</span>",
+      "<span style=\"color:#FF6237;\">Stops attacking</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+155%</span>, 2nd Talent effect increased to <span style=\"color:#0098DC;\">2.3</span>x; when skill is active, for all other Operators within range, the one with the highest max HP gains max HP <span style=\"color:#0098DC;\">+25%</span>, the one with the highest ATK gains ATK <span style=\"color:#0098DC;\">+25%</span>, and the one with the highest DEF gains DEF <span style=\"color:#0098DC;\">+25%</span>",
+      "<span style=\"color:#FF6237;\">Stops attacking</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+165%</span>, 2nd Talent effect increased to <span style=\"color:#0098DC;\">2.4</span>x; when skill is active, for all other Operators within range, the one with the highest max HP gains max HP <span style=\"color:#0098DC;\">+25%</span>, the one with the highest ATK gains ATK <span style=\"color:#0098DC;\">+25%</span>, and the one with the highest DEF gains DEF <span style=\"color:#0098DC;\">+25%</span>",
+      "<span style=\"color:#FF6237;\">Stops attacking</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+180%</span>, 2nd Talent effect increased to <span style=\"color:#0098DC;\">2.5</span>x; when skill is active, for all other Operators within range, the one with the highest max HP gains max HP <span style=\"color:#0098DC;\">+30%</span>, the one with the highest ATK gains ATK <span style=\"color:#0098DC;\">+30%</span>, and the one with the highest DEF gains DEF <span style=\"color:#0098DC;\">+30%</span>"
+    ],
+    "rangeId": "y-8",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [60, 60, 60, 60, 60, 60, 60, 60, 60, 60],
+    "initSp": [20, 22, 24, 26, 28, 30, 32, 35, 37, 40],
+    "duration": [30, 30, 30, 32, 32, 32, 34, 36, 38, 40]
+  },
   "skchr_phatom_1": {
     "id": "skchr_phatom_1",
     "iconId": "skchr_phatom_1",
@@ -13574,6 +13781,75 @@
     "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
   },
+  "skchr_lessng_1": {
+    "id": "skchr_lessng_1",
+    "iconId": "skcom_powerstrike[3]",
+    "name": "Power Strike γ",
+    "description": [
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">190%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">195%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">200%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">205%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">210%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">215%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">225%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">245%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">265%</span>",
+      "Increases the ATK of next attack to <span style=\"color:#0098DC;\">290%</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Offensive",
+    "spCost": [4, 4, 4, 3, 3, 3, 3, 3, 3, 2],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "skchr_lessng_2": {
+    "id": "skchr_lessng_2",
+    "iconId": "skchr_lessng_2",
+    "name": "Clash of the Faithful",
+    "description": [
+      "When deployed, 1st Talent effect increased to <span style=\"color:#0098DC;\">2</span>x, ATK <span style=\"color:#0098DC;\">+20%</span>, and attacks become <span style=\"color:#0098DC;\">2</span>-hit combos",
+      "When deployed, 1st Talent effect increased to <span style=\"color:#0098DC;\">2</span>x, ATK <span style=\"color:#0098DC;\">+20%</span>, and attacks become <span style=\"color:#0098DC;\">2</span>-hit combos",
+      "When deployed, 1st Talent effect increased to <span style=\"color:#0098DC;\">2</span>x, ATK <span style=\"color:#0098DC;\">+25%</span>, and attacks become <span style=\"color:#0098DC;\">2</span>-hit combos",
+      "When deployed, 1st Talent effect increased to <span style=\"color:#0098DC;\">2</span>x, ATK <span style=\"color:#0098DC;\">+25%</span>, and attacks become <span style=\"color:#0098DC;\">2</span>-hit combos",
+      "When deployed, 1st Talent effect increased to <span style=\"color:#0098DC;\">2</span>x, ATK <span style=\"color:#0098DC;\">+30%</span>, and attacks become <span style=\"color:#0098DC;\">2</span>-hit combos",
+      "When deployed, 1st Talent effect increased to <span style=\"color:#0098DC;\">2</span>x, ATK <span style=\"color:#0098DC;\">+30%</span>, and attacks become <span style=\"color:#0098DC;\">2</span>-hit combos",
+      "When deployed, 1st Talent effect increased to <span style=\"color:#0098DC;\">2</span>x, ATK <span style=\"color:#0098DC;\">+35%</span>, and attacks become <span style=\"color:#0098DC;\">2</span>-hit combos",
+      "When deployed, 1st Talent effect increased to <span style=\"color:#0098DC;\">2</span>x, ATK <span style=\"color:#0098DC;\">+40%</span>, and attacks become <span style=\"color:#0098DC;\">2</span>-hit combos",
+      "When deployed, 1st Talent effect increased to <span style=\"color:#0098DC;\">2</span>x, ATK <span style=\"color:#0098DC;\">+50%</span>, and attacks become <span style=\"color:#0098DC;\">2</span>-hit combos",
+      "When deployed, 1st Talent effect increased to <span style=\"color:#0098DC;\">2.2</span>x, ATK <span style=\"color:#0098DC;\">+60%</span>, and attacks become <span style=\"color:#0098DC;\">2</span>-hit combos"
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+  },
+  "skchr_lessng_3": {
+    "id": "skchr_lessng_3",
+    "iconId": "skchr_lessng_3",
+    "name": "Oathbreaker",
+    "description": [
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+50%</span>, and attacks deal <span style=\"color:#0098DC;\">140%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+55%</span>, and attacks deal <span style=\"color:#0098DC;\">145%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+60%</span>, and attacks deal <span style=\"color:#0098DC;\">150%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+65%</span>, and attacks deal <span style=\"color:#0098DC;\">160%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+70%</span>, and attacks deal <span style=\"color:#0098DC;\">165%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+75%</span>, and attacks deal <span style=\"color:#0098DC;\">170%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+80%</span>, and attacks deal <span style=\"color:#0098DC;\">180%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+90%</span>, and attacks deal <span style=\"color:#0098DC;\">190%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+100%</span>, and attacks deal <span style=\"color:#0098DC;\">200%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+110%</span>, and attacks deal <span style=\"color:#0098DC;\">220%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [55, 55, 55, 50, 50, 50, 45, 44, 42, 40],
+    "initSp": [15, 15, 15, 20, 20, 20, 25, 26, 28, 30],
+    "duration": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
+  },
   "skchr_f12yin_1": {
     "id": "skchr_f12yin_1",
     "iconId": "skchr_f12yin_1",
@@ -14309,6 +14585,75 @@
     "spCost": [10, 10, 10, 9, 9, 9, 8, 7, 6, 5],
     "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_vvana_1": {
+    "id": "skchr_vvana_1",
+    "iconId": "skchr_vvana_1",
+    "name": "Blade of Fleeting Shadows",
+    "description": [
+      "For the next attack, ATK is increased to <span style=\"color:#0098DC;\">140%</span>, and hits twice;\n<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a> effect: Attack range <span style=\"color:#0098DC;\">+2</span>, and hits 3 times",
+      "For the next attack, ATK is increased to <span style=\"color:#0098DC;\">145%</span>, and hits twice;\n<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a> effect: Attack range <span style=\"color:#0098DC;\">+2</span>, and hits 3 times",
+      "For the next attack, ATK is increased to <span style=\"color:#0098DC;\">150%</span>, and hits twice;\n<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a> effect: Attack range <span style=\"color:#0098DC;\">+2</span>, and hits 3 times",
+      "For the next attack, ATK is increased to <span style=\"color:#0098DC;\">155%</span>, and hits twice;\n<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a> effect: Attack range <span style=\"color:#0098DC;\">+2</span>, and hits 3 times",
+      "For the next attack, ATK is increased to <span style=\"color:#0098DC;\">160%</span>, and hits twice;\n<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a> effect: Attack range <span style=\"color:#0098DC;\">+2</span>, and hits 3 times",
+      "For the next attack, ATK is increased to <span style=\"color:#0098DC;\">165%</span>, and hits twice;\n<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a> effect: Attack range <span style=\"color:#0098DC;\">+2</span>, and hits 3 times",
+      "For the next attack, ATK is increased to <span style=\"color:#0098DC;\">170%</span>, and hits twice;\n<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a> effect: Attack range <span style=\"color:#0098DC;\">+2</span>, and hits 3 times",
+      "For the next attack, ATK is increased to <span style=\"color:#0098DC;\">180%</span>, and hits twice;\n<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a> effect: Attack range <span style=\"color:#0098DC;\">+2</span>, and hits 3 times",
+      "For the next attack, ATK is increased to <span style=\"color:#0098DC;\">190%</span>, and hits twice;\n<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a> effect: Attack range <span style=\"color:#0098DC;\">+2</span>, and hits 3 times",
+      "For the next attack, ATK is increased to <span style=\"color:#0098DC;\">200%</span>, and hits twice;\n<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a> effect: Attack range <span style=\"color:#0098DC;\">+2</span>, and hits 3 times"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [6, 6, 6, 5, 5, 5, 4, 4, 4, 4],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_vvana_2": {
+    "id": "skchr_vvana_2",
+    "iconId": "skchr_vvana_2",
+    "name": "Shadowed by Candlelight",
+    "description": [
+      "ATK <span style=\"color:#0098DC;\">+10%</span>, DEF <span style=\"color:#0098DC;\">+50%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies. Each attack has a <span style=\"color:#0098DC;\">20%</span> chance to be 2 hits with <span style=\"color:#0098DC;\">120%</span> ATK and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces the target's base stats while increasing own. The reduction and increase in stats cannot exceed the specified upper limit (only the strongest effect of this type applies)\" href=\"/terminology#steal\">Steal</a> <span style=\"color:#0098DC;\">20</span> ASPD from the target (up to a total of 20, lasts until skill expires or Viviana leaves the battlefield)",
+      "ATK <span style=\"color:#0098DC;\">+13%</span>, DEF <span style=\"color:#0098DC;\">+60%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies. Each attack has a <span style=\"color:#0098DC;\">20%</span> chance to be 2 hits with <span style=\"color:#0098DC;\">120%</span> ATK and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces the target's base stats while increasing own. The reduction and increase in stats cannot exceed the specified upper limit (only the strongest effect of this type applies)\" href=\"/terminology#steal\">Steal</a> <span style=\"color:#0098DC;\">20</span> ASPD from the target (up to a total of 20, lasts until skill expires or Viviana leaves the battlefield)",
+      "ATK <span style=\"color:#0098DC;\">+16%</span>, DEF <span style=\"color:#0098DC;\">+70%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies. Each attack has a <span style=\"color:#0098DC;\">20%</span> chance to be 2 hits with <span style=\"color:#0098DC;\">120%</span> ATK and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces the target's base stats while increasing own. The reduction and increase in stats cannot exceed the specified upper limit (only the strongest effect of this type applies)\" href=\"/terminology#steal\">Steal</a> <span style=\"color:#0098DC;\">20</span> ASPD from the target (up to a total of 20, lasts until skill expires or Viviana leaves the battlefield)",
+      "ATK <span style=\"color:#0098DC;\">+20%</span>, DEF <span style=\"color:#0098DC;\">+80%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies. Each attack has a <span style=\"color:#0098DC;\">20%</span> chance to be 2 hits with <span style=\"color:#0098DC;\">130%</span> ATK and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces the target's base stats while increasing own. The reduction and increase in stats cannot exceed the specified upper limit (only the strongest effect of this type applies)\" href=\"/terminology#steal\">Steal</a> <span style=\"color:#0098DC;\">25</span> ASPD from the target (up to a total of 25, lasts until skill expires or Viviana leaves the battlefield)",
+      "ATK <span style=\"color:#0098DC;\">+23%</span>, DEF <span style=\"color:#0098DC;\">+90%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies. Each attack has a <span style=\"color:#0098DC;\">20%</span> chance to be 2 hits with <span style=\"color:#0098DC;\">130%</span> ATK and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces the target's base stats while increasing own. The reduction and increase in stats cannot exceed the specified upper limit (only the strongest effect of this type applies)\" href=\"/terminology#steal\">Steal</a> <span style=\"color:#0098DC;\">25</span> ASPD from the target (up to a total of 25, lasts until skill expires or Viviana leaves the battlefield)",
+      "ATK <span style=\"color:#0098DC;\">+26%</span>, DEF <span style=\"color:#0098DC;\">+100%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies. Each attack has a <span style=\"color:#0098DC;\">20%</span> chance to be 2 hits with <span style=\"color:#0098DC;\">130%</span> ATK and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces the target's base stats while increasing own. The reduction and increase in stats cannot exceed the specified upper limit (only the strongest effect of this type applies)\" href=\"/terminology#steal\">Steal</a> <span style=\"color:#0098DC;\">25</span> ASPD from the target (up to a total of 25, lasts until skill expires or Viviana leaves the battlefield)",
+      "ATK <span style=\"color:#0098DC;\">+30%</span>, DEF <span style=\"color:#0098DC;\">+110%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies. Each attack has a <span style=\"color:#0098DC;\">20%</span> chance to be 2 hits with <span style=\"color:#0098DC;\">140%</span> ATK and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces the target's base stats while increasing own. The reduction and increase in stats cannot exceed the specified upper limit (only the strongest effect of this type applies)\" href=\"/terminology#steal\">Steal</a> <span style=\"color:#0098DC;\">30</span> ASPD from the target (up to a total of 30, lasts until skill expires or Viviana leaves the battlefield)",
+      "ATK <span style=\"color:#0098DC;\">+33%</span>, DEF <span style=\"color:#0098DC;\">+130%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies. Each attack has a <span style=\"color:#0098DC;\">20%</span> chance to be 2 hits with <span style=\"color:#0098DC;\">140%</span> ATK and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces the target's base stats while increasing own. The reduction and increase in stats cannot exceed the specified upper limit (only the strongest effect of this type applies)\" href=\"/terminology#steal\">Steal</a> <span style=\"color:#0098DC;\">33</span> ASPD from the target (up to a total of 33, lasts until skill expires or Viviana leaves the battlefield)",
+      "ATK <span style=\"color:#0098DC;\">+36%</span>, DEF <span style=\"color:#0098DC;\">+145%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies. Each attack has a <span style=\"color:#0098DC;\">20%</span> chance to be 2 hits with <span style=\"color:#0098DC;\">140%</span> ATK and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces the target's base stats while increasing own. The reduction and increase in stats cannot exceed the specified upper limit (only the strongest effect of this type applies)\" href=\"/terminology#steal\">Steal</a> <span style=\"color:#0098DC;\">36</span> ASPD from the target (up to a total of 36, lasts until skill expires or Viviana leaves the battlefield)",
+      "ATK <span style=\"color:#0098DC;\">+40%</span>, DEF <span style=\"color:#0098DC;\">+160%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies. Each attack has a <span style=\"color:#0098DC;\">20%</span> chance to be 2 hits with <span style=\"color:#0098DC;\">150%</span> ATK and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces the target's base stats while increasing own. The reduction and increase in stats cannot exceed the specified upper limit (only the strongest effect of this type applies)\" href=\"/terminology#steal\">Steal</a> <span style=\"color:#0098DC;\">40</span> ASPD from the target (up to a total of 40, lasts until skill expires or Viviana leaves the battlefield)"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [35, 35, 35, 32, 32, 32, 30, 28, 27, 25],
+    "initSp": [6, 6, 6, 9, 9, 9, 12, 13, 14, 15],
+    "duration": [25, 25, 25, 28, 28, 28, 30, 32, 33, 35]
+  },
+  "skchr_vvana_3": {
+    "id": "skchr_vvana_3",
+    "iconId": "skchr_vvana_3",
+    "name": "'Flicker'",
+    "description": [
+      "Attack interval <span style=\"color:#FF6237;\">increases</span>, ATK <span style=\"color:#0098DC;\">+35%</span>, DEF <span style=\"color:#0098DC;\">+20%</span>, RES <span style=\"color:#0098DC;\">+10</span>, attacks hit twice, 2nd Talent trigger chance increased to <span style=\"color:#0098DC;\">1.6</span>x, attacks prioritize elite and leader enemies\n<span style=\"color:#F49800;\">Starting with the 2nd use, attack range +2, attacks hit 3 times, and duration increased to 25s</span>",
+      "Attack interval <span style=\"color:#FF6237;\">increases</span>, ATK <span style=\"color:#0098DC;\">+40%</span>, DEF <span style=\"color:#0098DC;\">+25%</span>, RES <span style=\"color:#0098DC;\">+10</span>, attacks hit twice, 2nd Talent trigger chance increased to <span style=\"color:#0098DC;\">1.6</span>x, attacks prioritize elite and leader enemies\n<span style=\"color:#F49800;\">Starting with the 2nd use, attack range +2, attacks hit 3 times, and duration increased to 25s</span>",
+      "Attack interval <span style=\"color:#FF6237;\">increases</span>, ATK <span style=\"color:#0098DC;\">+45%</span>, DEF <span style=\"color:#0098DC;\">+30%</span>, RES <span style=\"color:#0098DC;\">+10</span>, attacks hit twice, 2nd Talent trigger chance increased to <span style=\"color:#0098DC;\">1.6</span>x, attacks prioritize elite and leader enemies\n<span style=\"color:#F49800;\">Starting with the 2nd use, attack range +2, attacks hit 3 times, and duration increased to 25s</span>",
+      "Attack interval <span style=\"color:#FF6237;\">increases</span>, ATK <span style=\"color:#0098DC;\">+55%</span>, DEF <span style=\"color:#0098DC;\">+40%</span>, RES <span style=\"color:#0098DC;\">+15</span>, attacks hit twice, 2nd Talent trigger chance increased to <span style=\"color:#0098DC;\">1.8</span>x, attacks prioritize elite and leader enemies\n<span style=\"color:#F49800;\">Starting with the 2nd use, attack range +2, attacks hit 3 times, and duration increased to 25s</span>",
+      "Attack interval <span style=\"color:#FF6237;\">increases</span>, ATK <span style=\"color:#0098DC;\">+60%</span>, DEF <span style=\"color:#0098DC;\">+45%</span>, RES <span style=\"color:#0098DC;\">+15</span>, attacks hit twice, 2nd Talent trigger chance increased to <span style=\"color:#0098DC;\">1.8</span>x, attacks prioritize elite and leader enemies\n<span style=\"color:#F49800;\">Starting with the 2nd use, attack range +2, attacks hit 3 times, and duration increased to 25s</span>",
+      "Attack interval <span style=\"color:#FF6237;\">increases</span>, ATK <span style=\"color:#0098DC;\">+65%</span>, DEF <span style=\"color:#0098DC;\">+50%</span>, RES <span style=\"color:#0098DC;\">+15</span>, attacks hit twice, 2nd Talent trigger chance increased to <span style=\"color:#0098DC;\">1.8</span>x, attacks prioritize elite and leader enemies\n<span style=\"color:#F49800;\">Starting with the 2nd use, attack range +2, attacks hit 3 times, and duration increased to 25s</span>",
+      "Attack interval <span style=\"color:#FF6237;\">increases</span>, ATK <span style=\"color:#0098DC;\">+75%</span>, DEF <span style=\"color:#0098DC;\">+60%</span>, RES <span style=\"color:#0098DC;\">+20</span>, attacks hit twice, 2nd Talent trigger chance increased to <span style=\"color:#0098DC;\">2</span>x, attacks prioritize elite and leader enemies\n<span style=\"color:#F49800;\">Starting with the 2nd use, attack range +2, attacks hit 3 times, and duration increased to 25s</span>",
+      "Attack interval <span style=\"color:#FF6237;\">increases</span>, ATK <span style=\"color:#0098DC;\">+85%</span>, DEF <span style=\"color:#0098DC;\">+70%</span>, RES <span style=\"color:#0098DC;\">+25</span>, attacks hit twice, 2nd Talent trigger chance increased to <span style=\"color:#0098DC;\">2.2</span>x, attacks prioritize elite and leader enemies\n<span style=\"color:#F49800;\">Starting with the 2nd use, attack range +2, attacks hit 3 times, and duration increased to 25s</span>",
+      "Attack interval <span style=\"color:#FF6237;\">increases</span>, ATK <span style=\"color:#0098DC;\">+95%</span>, DEF <span style=\"color:#0098DC;\">+80%</span>, RES <span style=\"color:#0098DC;\">+25</span>, attacks hit twice, 2nd Talent trigger chance increased to <span style=\"color:#0098DC;\">2.3</span>x, attacks prioritize elite and leader enemies\n<span style=\"color:#F49800;\">Starting with the 2nd use, attack range +2, attacks hit 3 times, and duration increased to 25s</span>",
+      "Attack interval <span style=\"color:#FF6237;\">increases</span>, ATK <span style=\"color:#0098DC;\">+110%</span>, DEF <span style=\"color:#0098DC;\">+90%</span>, RES <span style=\"color:#0098DC;\">+25</span>, attacks hit twice, 2nd Talent trigger chance increased to <span style=\"color:#0098DC;\">2.5</span>x, attacks prioritize elite and leader enemies\n<span style=\"color:#F49800;\">Starting with the 2nd use, attack range +2, attacks hit 3 times, and duration increased to 25s</span>"
+    ],
+    "rangeId": "1-1",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [34, 34, 34, 32, 32, 32, 30, 28, 27, 25],
+    "initSp": [6, 6, 6, 9, 9, 9, 12, 14, 16, 18],
+    "duration": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15]
   },
   "skchr_helage_1": {
     "id": "skchr_helage_1",
@@ -17150,5 +17495,48 @@
     "spCost": [0],
     "initSp": [0],
     "duration": [-1]
+  },
+  "sktok_condtr": {
+    "id": "sktok_condtr",
+    "iconId": "sktok_condtr",
+    "name": "Area Tuning",
+    "description": [
+      "When activated during a variation, enables <span style=\"color:#0098DC;\">switching between passionate and melancholic variations</span>, and gives allies a buff for <span style=\"color:#0098DC;\">20s</span>:\nWhen passionate variation is active, ASPD <span style=\"color:#0098DC;\">+50</span>;\nwhen melancholic variation is active, ATK <span style=\"color:#0098DC;\">+60%</span> but ASPD <span style=\"color:#0098DC;\">-10</span>;\nfor every Tuning Node on the battlefield, <span style=\"color:#0098DC;\">gain</span> 1 additional stack",
+      "When activated during a variation, enables <span style=\"color:#0098DC;\">switching between passionate and melancholic variations</span>, and gives allies a buff for <span style=\"color:#0098DC;\">20s</span>:\nWhen passionate variation is active, ASPD <span style=\"color:#0098DC;\">+50</span>;\nwhen melancholic variation is active, ATK <span style=\"color:#0098DC;\">+60%</span> but ASPD <span style=\"color:#0098DC;\">-10</span>;\nfor every Tuning Node on the battlefield, <span style=\"color:#0098DC;\">gain</span> 1 additional stack",
+      "When activated during a variation, enables <span style=\"color:#0098DC;\">switching between passionate and melancholic variations</span>, and gives allies a buff for <span style=\"color:#0098DC;\">20s</span>:\nWhen passionate variation is active, ASPD <span style=\"color:#0098DC;\">+50</span>;\nwhen melancholic variation is active, ATK <span style=\"color:#0098DC;\">+60%</span> but ASPD <span style=\"color:#0098DC;\">-10</span>;\nfor every Tuning Node on the battlefield, <span style=\"color:#0098DC;\">gain</span> 1 additional stack",
+      "When activated during a variation, enables <span style=\"color:#0098DC;\">switching between passionate and melancholic variations</span>, and gives allies a buff for <span style=\"color:#0098DC;\">20s</span>:\nWhen passionate variation is active, ASPD <span style=\"color:#0098DC;\">+50</span>;\nwhen melancholic variation is active, ATK <span style=\"color:#0098DC;\">+60%</span> but ASPD <span style=\"color:#0098DC;\">-10</span>;\nfor every Tuning Node on the battlefield, <span style=\"color:#0098DC;\">gain</span> 1 additional stack"
+    ],
+    "rangeId": "x-1",
+    "activationType": "Manual",
+    "spRecovery": "Defensive",
+    "spCost": [5, 10, 15, 20],
+    "initSp": [0, 0, 0, 0],
+    "duration": [0.25, 0.25, 0.25, 0.25]
+  },
+  "sktok_portlent": {
+    "id": "sktok_portlent",
+    "iconId": "sktok_portlent",
+    "name": "Annihilation",
+    "description": ["Absorbs all damage taken and transfers it to the Aspect of Creation"],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [20]
+  },
+  "sktok_portlexi": {
+    "id": "sktok_portlexi",
+    "iconId": "sktok_portlexi",
+    "name": "Creation",
+    "description": [
+      "Transforms damage taken by the Aspect of Annihilation to <span style=\"color:#0098DC;\">Physical damage</span> and releases it forward in the form of projectiles"
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
   }
 }

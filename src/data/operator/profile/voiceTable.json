@@ -372,7 +372,8 @@
       { "langId": "CN_MANDARIN", "actors": ["Winter"] },
       { "langId": "EN", "actors": ["Cristina Vee"] },
       { "langId": "JP", "actors": ["Natsumi Takamori"] },
-      { "langId": "KR", "actors": ["Kim Chae-ha"] }
+      { "langId": "KR", "actors": ["Kim Chae-ha"] },
+      { "langId": "RUS", "actors": ["Varvara Sarantzeva"] }
     ],
     "char_260_durnar": [
       { "langId": "CN_MANDARIN", "actors": ["Thea"] },
@@ -429,7 +430,8 @@
       { "langId": "CN_MANDARIN", "actors": ["Certain"] },
       { "langId": "EN", "actors": ["Amy Lennox"] },
       { "langId": "JP", "actors": ["Ami Koshimizu"] },
-      { "langId": "KR", "actors": ["Lee Myung-hi"] }
+      { "langId": "KR", "actors": ["Lee Myung-hi"] },
+      { "langId": "RUS", "actors": ["Eva Finkelshtein"] }
     ],
     "char_102_texas": [
       { "langId": "CN_MANDARIN", "actors": ["Menglu Yang"] },
@@ -617,7 +619,8 @@
       { "langId": "CN_MANDARIN", "actors": ["Icy"] },
       { "langId": "EN", "actors": ["Monica Rial"] },
       { "langId": "JP", "actors": ["Rie Murakawa"] },
-      { "langId": "KR", "actors": ["Song Ha-rim"] }
+      { "langId": "KR", "actors": ["Song Ha-rim"] },
+      { "langId": "RUS", "actors": ["Taisiya Trishina"] }
     ],
     "char_411_tomimi": [
       { "langId": "CN_MANDARIN", "actors": ["Xueting Mu"] },
@@ -830,7 +833,8 @@
       { "langId": "CN_MANDARIN", "actors": ["Z"] },
       { "langId": "EN", "actors": ["Risa Mei"] },
       { "langId": "JP", "actors": ["Aoi Yuki"] },
-      { "langId": "KR", "actors": ["Kim Ga-ryeong"] }
+      { "langId": "KR", "actors": ["Kim Ga-ryeong"] },
+      { "langId": "RUS", "actors": ["Marusia Savicheva"] }
     ],
     "char_326_glacus": [
       { "langId": "CN_MANDARIN", "actors": ["Cuo"] },
@@ -908,7 +912,8 @@
       { "langId": "CN_MANDARIN", "actors": ["Zhiqiu Ye"] },
       { "langId": "EN", "actors": ["Elizabeth Maxwell"] },
       { "langId": "JP", "actors": ["Reina Ueda"] },
-      { "langId": "KR", "actors": ["Choi Ha-ri"] }
+      { "langId": "KR", "actors": ["Choi Ha-ri"] },
+      { "langId": "RUS", "actors": ["Alyona Andronova"] }
     ],
     "char_391_rosmon": [
       { "langId": "CN_MANDARIN", "actors": ["Ruoyu Zhang"] },
@@ -1124,7 +1129,8 @@
       { "langId": "CN_MANDARIN", "actors": ["Robin Liu"] },
       { "langId": "EN", "actors": ["Paul Herzberg"] },
       { "langId": "JP", "actors": ["Show Hayami"] },
-      { "langId": "KR", "actors": ["Si Young-jun"] }
+      { "langId": "KR", "actors": ["Si Young-jun"] },
+      { "langId": "RUS", "actors": ["Denis Nekrasov"] }
     ],
     "char_485_pallas": [
       { "langId": "CN_MANDARIN", "actors": ["Yihan Zhou"] },
@@ -1308,6 +1314,7 @@
     "char_4046_ebnhlz": [
       { "langId": "CN_MANDARIN", "actors": ["Jax"] },
       { "langId": "EN", "actors": ["Atilla Akinci"] },
+      { "langId": "GER", "actors": ["Malte Meibauer"] },
       { "langId": "JP", "actors": ["Ryota Osaka"] },
       { "langId": "KR", "actors": ["Um Sang-hyun"] }
     ],
@@ -1320,6 +1327,7 @@
     "char_4047_pianst": [
       { "langId": "CN_MANDARIN", "actors": ["Qd"] },
       { "langId": "EN", "actors": ["Gunnar Cauthery"] },
+      { "langId": "GER", "actors": ["Lukas Wurm"] },
       { "langId": "JP", "actors": ["Hiroki Yasumoto"] },
       { "langId": "KR", "actors": ["Lee Hyun"] }
     ],
@@ -1712,6 +1720,44 @@
       { "langId": "JP", "actors": ["Taiki Bito"] },
       { "langId": "KR", "actors": ["Kim Yoon-gi"] }
     ],
+    "char_245_cello": [
+      { "langId": "CN_MANDARIN", "actors": ["Tong Zeng"] },
+      { "langId": "EN", "actors": ["Cat Protano"] },
+      { "langId": "JP", "actors": ["Aya Endo"] },
+      { "langId": "KR", "actors": ["Son Jeong-min"] }
+    ],
+    "char_4098_vvana": [
+      { "langId": "CN_MANDARIN", "actors": ["Ziyi Qin"] },
+      { "langId": "EN", "actors": ["Lena Tiemann"] },
+      { "langId": "GER", "actors": ["Lena Tiemann"] },
+      { "langId": "JP", "actors": ["M・A・O"] },
+      { "langId": "KR", "actors": ["Lee Seul"] }
+    ],
+    "char_4011_lessng": [
+      { "langId": "CN_MANDARIN", "actors": ["ZhiAn"] },
+      { "langId": "EN", "actors": ["Jesse Grimm"] },
+      { "langId": "GER", "actors": ["Jesse Grimm"] },
+      { "langId": "JP", "actors": ["Yuma Uchida"] },
+      { "langId": "KR", "actors": ["Kim Min-ju"] }
+    ],
+    "char_4109_baslin": [
+      { "langId": "CN_MANDARIN", "actors": ["Hong Haitian"] },
+      { "langId": "EN", "actors": ["Cassandra Schütt"] },
+      { "langId": "JP", "actors": ["Aki Kaneda"] },
+      { "langId": "KR", "actors": ["Hur Yea-eun"] }
+    ],
+    "char_499_kaitou": [
+      { "langId": "CN_MANDARIN", "actors": ["Yuze Sang"] },
+      { "langId": "EN", "actors": ["Flemming Stein"] },
+      { "langId": "JP", "actors": ["Daichi Kanbara"] },
+      { "langId": "KR", "actors": ["Park Yo-han"] }
+    ],
+    "char_4100_caper": [
+      { "langId": "CN_MANDARIN", "actors": ["Zirui Ge"] },
+      { "langId": "EN", "actors": ["Vanessa Marroquin"] },
+      { "langId": "JP", "actors": ["Miharu Hanai"] },
+      { "langId": "KR", "actors": ["Lee Bo-yong"] }
+    ],
     "char_311_mudrok#1": [
       { "langId": "CN_MANDARIN", "actors": ["Duduru"] },
       { "langId": "JP", "actors": ["Maaya Uchida"] },
@@ -1737,6 +1783,12 @@
       { "langId": "EN", "actors": ["Sura Siu"] },
       { "langId": "JP", "actors": ["Yoko Hikasa"] },
       { "langId": "KR", "actors": ["Han Chae-eon"] }
+    ],
+    "char_4064_mlynar_epoque#28": [
+      { "langId": "CN_MANDARIN", "actors": ["Yuhang Wang"] },
+      { "langId": "EN", "actors": ["Anthony Howell"] },
+      { "langId": "JP", "actors": ["Rikiya Koyama"] },
+      { "langId": "KR", "actors": ["Choi Hyun-su"] }
     ]
   },
   "dialogueTable": {
@@ -49845,6 +49897,1036 @@
         "unlockCond": null
       }
     ],
+    "char_4109_baslin": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "That's a huge stack of documents... I can lend you a hand if you're struggling to clear them, Doctor… Oh, sorry. I should be on standby waiting for your request.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "Hildegard doesn't care how Leithanians think of her, and I'm not some civil servant mincing words for her. It's just that we've been together for a long time now, so I'm able to stand in for her on unofficial occasions, to speak words she's not at liberty to speak, or meet people unsuitable for her to see.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "That must have been Federico earlier... He's also the type to think of normal conversation as stepping on glass. But once you know them long enough, you'll be able to understand what they're perplexed with, or what they're chasing after. My advice? Get used to awkward silence.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "I just heard some people discussing my age, but I don't see the issue, really. I met a sickly fellow in Zwillingstürme. He was younger than me by a few months, but he's skating on thin ice every day due to his status as Graf... Well, at least I don't have to worry about my own safety like that. ",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": " 'Wolfgang, everything you say and do will affect Wulfsburg's future.' That's what I told myself back then. My life is my answer sheet, which I keep neat. But the problem is... maybe not everything has to be treated as an exam... Um, I still seem tense, even now?",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "Thank you for your concern, but I don't mind Hildegard's disappearance at all. She told me the enclosure of war was built so that it could be torn down in the future without any worries. She must have been somewhat aware of it that day, but she still... Anyway, my mission isn't over yet, and I remain her envoy still.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "Doctor, why are fowlbeasts unable to touch the stars no matter how far they fly? Uh, no, I'm just used to breaking the silence when it gets too quiet. Please pay me no heed. I don't think the answer's that important...? It's because they can't even fly right when they're... Ahem, seeing stars.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "Didn't I soundproof the room with Arts...? This castanet? It's a gift from Lieselotte, given during my first audience with her. When I was living in the Spire, I would kick it at the books in my room. Knocking them down one by one, then put them back before the sun came up. It's normal for me to be childish at my age, isn't it?",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "You two are so similar... Sorry for disturbing you with my sudden words, Doctor... I was just thinking about how you and Hildegard are so alike. Both of you shoulder so many responsibilities in silence, and I can't tell when to step in. Can I help you? Or... can you help me?",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "My tuba? Of course I can play it... Speaking of which, can you play the piano? Can you practice with me when you're free?",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "Doctor, I am here at the behest of Empress Hildegard of Leithanien, and I hope to maintain friendly relations with you. I can act as a your Messenger, and perform music for you as well.",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "I've already seen this... Hold on, I have some old recordings of the annual Kaiserinnensfest. Would you like to watch them together with me?",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "Phew... Seems like I haven't disappointed you. Uh, Doctor. Should I be acting more nonchalant about this?",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "Mm... I'm glad to have met your expectations.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "I'll follow your baton for the time being.",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "I knew you were too lazy to show up, so I went to run some errands... I'm very much used to this. ",
+        "unlockCond": null
+      },
+      {
+        "title": "Depart",
+        "text": "A music score or a battle plan—you have to give me one of those at least.",
+        "unlockCond": null
+      },
+      {
+        "title": "Begin Operation",
+        "text": "Hm. Dissonances.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "Opening with a tuba? A rare arrangement.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "Am I the only tuba in your band?",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "I'll warm up my fingers first.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 2",
+        "text": "I'll join in the performance at the right section.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 1",
+        "text": "Can you hear it, the restorative vigor of that fortissimo?",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 2",
+        "text": "Can you feel it, the melodious emotions of that pianissimo?",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 3",
+        "text": "A shrill howl? That's what happens when you mess up while performing.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 4",
+        "text": "Out of my way, or I'll shove your head up this tuba.",
+        "unlockCond": null
+      },
+      {
+        "title": "4-star Result",
+        "text": "While the tuba is one of the most difficult instruments to play, I'm sure I'll get somewhat proficient at it in time. But you, you seem like a musician who was born proficient with all kinds of instruments... Life is so unfair.",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "Your ingenuity put to shame any conductor I've seen.",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "How does one keep their musicality in tip-top shape? Practice. A flawed performance simply means you haven't practiced enough.",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "Did we fail? I don't think so. People like you usually factor failure into your plans, yes?",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "The soundproofing here should be decent...?",
+        "unlockCond": null
+      },
+      {
+        "title": "Tap",
+        "text": "Ahh... you gave me a fright.",
+        "unlockCond": null
+      },
+      {
+        "title": "Trust Tap",
+        "text": "Doctor, I'm just about to replace the bell on my tuba. Can you lend me a hand?",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      {
+        "title": "Greeting",
+        "text": "Are you resting well, Doctor?",
+        "unlockCond": null
+      }
+    ],
+    "char_4100_caper": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "Oh, thank you so much, Doc! Why am I thanking you? Heehee, because you just signed… MY PAID LEAVE APPLICATION!",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "I used to be a troublemaker for hire. People PAY for my epic pranks. The coalition government, the Singas, True Bolívar. I don't care who I work for. Sometimes, I even work both sides. I take care of one job on my way to one place, and the other on the way back. Jajaja! All that ruckus, it was glorious!!",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "Here, some corn bugles. Want some? No, no! You can't just throw them in your mouth. Where are your manners? Give me your hand, let me show you. First, you put them on each of your fingertips like that, then—Om! Hehe! Thanks for the food!",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "You call this a weapon? Hahaha, that's so funny. I call it 'Twirly-twirl.' It's a toy my mama made for me. You can throw it out like this, and then it comes back. What? It's too destructive? That's the fun part.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "I've been pretty playful ever since I was a kid. I had enough tricks up my sleeve to turn the tables on the bullies, even pulled a few ducats out of them sometimes. I mean, come on, you need a thrill like that to really feel alive. But here you are, working your butt off all day long. Aren't you bored?",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "Can't hear the rain in here at all.... You know, Doctor, back when I was a kid, rainy days meant I couldn't go out to play. All I could do was stay in mama's workshop, helping her count screws, and listening to the pitter-patter of rain on the sheetmetal roof... But I don't mind days like that. You surprised?",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "A Liberi dude who calls himself a hottie, a Vulpo car mechanic who does things his way, and my fellow Bolívarian with the huge appetite. Just where did you find all these fun people? I knew I made the right choice joining you guys.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "Before I left home, I had a huge fight with mama, all because I caught Oripathy. I have my ways to keep from being a burden to my family, but mama… she hugged me so tight, she said she'd sell everything in the house to get me treated. I've never wanted to admit it, but I guess my life really is miserable.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "You know what 'can soccer' is? It's my favorite game! Just take a can out of the ditch or whatever scrap heap, then play ball. Oye wey! What's that look on your face? We may have been poor, but there was plenty of fun to be had. Don't believe me? Come try for yourself!",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "If you're that tired, how about you hand me all your top-secret documents and get some rest?",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "Caper, or whatever you wanna call me. Just standing here already proves I'm tough enough, right? You're my boss now, so make sure I don't get bored. And be ready for my surprises.",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "You saw that move of mine? Hahaha! Their reaction was so funny.",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "All the officers I know are so desperate for promotion, they do all kinds of dirty infighting. So I assumed getting promoted had to be super fun. Hmph, turns out it's no big deal.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "I guess only my mama would be happy to hear I got promoted... It's all the same to me. But If I get promoted high enough to order <i>you</i> around… Heehee, then my head is full of ideas.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "Finally giving me a real fun job?",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "Alright, everyone, don't overdo it! Of course, that doesn't apply to me!",
+        "unlockCond": null
+      },
+      {
+        "title": "Depart",
+        "text": "Come on, come on! Let's go!",
+        "unlockCond": null
+      },
+      {
+        "title": "Begin Operation",
+        "text": "Twirly-twirl, it's time to play!",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "My turn now?",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "What you waiting for? It's gotta be me!",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "Think you can catch me? That's hilarious!",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 2",
+        "text": "What should I play with you guys?",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 1",
+        "text": "Go home to your mama!",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 2",
+        "text": "Watch out—Here comes Twirly-twirl!",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 3",
+        "text": "Watch me cut your pants to scraps!",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 4",
+        "text": "Watch me cut all that hair on your head!",
+        "unlockCond": null
+      },
+      {
+        "title": "4-star Result",
+        "text": "That was such a thrill! Can we do it again?",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "The No.1 rule of playing a master prank—is to be a prank master first, haha!",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "That's it? I haven't had enough fun.",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "Doctor, you go on ahead! I'm gonna play with them some more!",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "Doctor? Where did my luggage go? You didn't hide it, did you? Pff... Hahaha, just messing with you. I ain't got no luggage.",
+        "unlockCond": null
+      },
+      {
+        "title": "Tap",
+        "text": "Whoa~ Need me to keep what you just did a secret?",
+        "unlockCond": null
+      },
+      {
+        "title": "Trust Tap",
+        "text": "Try touching my ear. I promise, no surprises... Sike!",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      {
+        "title": "Greeting",
+        "text": "Doctor, enough work. Let's play!",
+        "unlockCond": null
+      }
+    ],
+    "char_4011_lessng": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "Certainly. I'll stay by your side... At the very least, you don't curse loudly while kicking books all around the room.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "We Leithanians do fuss over our horns a lot. Some visit specialized salons to trim any excess cutin, and to keep their horns in shape... Me? I just use this sword. What's that look on your face...? It's up to you to believe me, but there's no way I could demonstrate it for you right now.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "I'm just an auditing student at Ludwigs-Universität. The old man needs my help for a lot of things, and I'm the only one who can stand his temperament. It's no matter, he's like a mobile library, so I've learned a lot from him.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "The bindings on this sword? There are some on my body as well. They tighten my joints and keep my muscles taut, preventing my mind from slacking off. They are not just for show.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "It doesn't matter if a weapon is easy to wield or not, I'd find a way to wield this sword even if it were twice as big. A Leithanian noble can have multiple violin bows made to order, but commoners might only have sticks to use... and we can't depend on others to protect us.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "Looks, background, titles, Arts aptitude... everything that we passively inherit is specific only to ourselves. What use they have is for us to determine on our own, not up to abstract concepts like 'fate'.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "You don't have to switch it off. Everyone has their own peculiar habits after all. You can work only when there's music in the room, I get it... Don't worry about it, I'll listen to whatever you pick. I don't know much about music, but your taste... shouldn't be that bad, right?",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "The more engrossed you get reading up on things, the stranger your mood becomes... If you're feeling moody, a little throwing or smashing might help you vent it out. I'll take care of the clean up afterward... You're saying that, you were restless because I was staring at you as your mind wandered...? I'll go check if dinner's ready.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "Doctor, if you're truly altruistically advocating for the masses—then please believe me, that even if you take away my sword, cover my eyes, and bind my hands, I, Lessing Maeyer, am still willing to fight for you to the very end.",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "Get some sleep. I'll keep watch from a spot where I won't disturb you.",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "Franz... oh, Ebenholz, as you might know him, he told me about this place. I come from Leithanien, I have a sword, I know some Arts... I can help you.",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "If you say this is useful, then it will be. I'll make sure to watch it... eleven times a day.",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "Doctor, there's no need to make such a big fuss, and don't you give me a reward either. I already made it clear then, that I agree with your ideals and am willing to work for your sake.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "There are many spires in Leithanien, but there are even more people below them. It's natural for one of my background to make such a choice, but what's difficult is to actually shake up the ways of things. We still have a long way to go.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "You're responsible for the plan, and I'll be responsible for you. Give me the order.",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "I accept this job as a valuable training opportunity.",
+        "unlockCond": null
+      },
+      {
+        "title": "Depart",
+        "text": "Stay close to me, and don't fall behind.",
+        "unlockCond": null
+      },
+      { "title": "Begin Operation", "text": "Hmm?!", "unlockCond": null },
+      {
+        "title": "Selecting Operator 1",
+        "text": "I've long been ready.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "You can call me earlier next time.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "I've experienced more chaotic scenes than this.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 2",
+        "text": "I'll go someplace else that needs more help.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 1",
+        "text": "You shall not pass, while I'm here.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 2",
+        "text": "You can run, but I'll keep chasing.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 3",
+        "text": "The only thing to hold a sword back is the cowardice of its wielder.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 4",
+        "text": "Answer for your own sins!",
+        "unlockCond": null
+      },
+      {
+        "title": "4-star Result",
+        "text": "You've made me believe in something: no opponent is undefeatable, and no goal unachievable.",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "Sometimes I put you and the old man together to compare... and the difference is obvious. He would be excitedly hurling curses everywhere if he were in your shoes now. Yes, that's how he acts when he's happy.",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "Mission complete, oder?",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "Every time I fail, I tighten my bindings so that the pain leaves them to weigh on my mind. No, you don't have to, I'll bear yours along with mine.",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "It's nice and neat here. I'm going to change my bindings... I was referring to my sword, you don't have to look away.",
+        "unlockCond": null
+      },
+      {
+        "title": "Tap",
+        "text": "Is this how you supervise others? That's not good.",
+        "unlockCond": null
+      },
+      {
+        "title": "Trust Tap",
+        "text": "And what will you do if I overreact? ",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      {
+        "title": "Greeting",
+        "text": "Hello. I'm not nervous, I've always been like this... what else can I even say instead....? Heya?",
+        "unlockCond": null
+      }
+    ],
+    "char_499_kaitou": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "I won't refuse if you insist, but my poor vision makes it difficult for me to handle clerical work.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "The Engineering Department is very interested in my weapon. I wish I could explain how it works, but all I know is that it requires high-purity gem crystals to run. I have ways to acquire gem scraps, but cutting a precious stone of great value into pieces works the same.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "My gosh, briefing documents again? You're not lacking in manpower or technology. My advice would be to avoid spending time and effort on roundabout things... Oh, you didn't bring documents. Then I must express my gratitude. I don't want to be gazing at graphs or designs anymore. It hurts my eyes.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "Whistle? Oh, it was me whistling a Leithanian tune. My sincerest apologies, this place just makes me feel relaxed, and it wasn't my... You seem to be fine with it? Strange... to my knowledge, every spire-dweller feels insulted when they hear the sound, and even the mildest scholar would lose his temper when a child whistles at them on the streets.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "I've lived with the Infected since I was little, so it was only natural that I would get Oripathy myself... Well, Rhodes Island doesn't seem to accept that explanation. Then how do you like the story of a single explosion at the quarry that also collapsed many futures? A story too fanciful to believe, don't you think?",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "I may have underestimated you, Doctor. Tell me, would you like to bet on me? Betting on whether I'm worth trusting, betting on what tricks I have up my sleeves, betting on if I'm more than an infected. Of course, should you have a change of mind, I'll get back and continue to work on my worthless stone.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "I'm not interested in talking about the past. As you can see, my lab was destroyed, and all traces cut off. I no longer have to put a price on gems with blood on them... all of which have put my mind at ease, in fact. I no longer have to imagine the gems being cut into pieces, after all.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "I don't know when I'll return to Leithanien, but I would like to invite you for my next operation. There won't be any cooperation, nor do I intend to share my plans... but I'll ask you to keep your eyes on me, to witness all that I do. You're the only one who can see through me, aren't you? Come then.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "I can take you to the top of any spire in Leithanien. How does that sound? You'd understand me there. The scent of the wind is clean at the top... and that's all. That's all that young boy in the gem mine longed for.",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "If you fall asleep, then nothing here can pique my interest.",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "Which name card would you like: the one in my left hand, or the one in my right...? Diamante, gemologist. Pleased to make your acquaintance. Don't worry, there's no target here worth my attention, even if you picked the other card.",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "A practical video, free from excessive narration and trite background music.",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "Thanks. I don't normally collect medals for the purpose of displaying status, but if you insist, I will place it at the top of my collection to demonstrate my respect for you.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "Steal a piece of bread, go to jail. Offend a noble, get beaten. Steal a priceless treasure, and you get to stand at the top of the tallest spire. Be my guest, Doctor, and come watch my show, watch the audience cheer. Will it bring you joy, or sorrow?",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "Colluding with me is not something to be done lightly.",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "One wrong step, and we'll pay a heavy price. I expect perfect teamwork from you.",
+        "unlockCond": null
+      },
+      { "title": "Depart", "text": "As promised.", "unlockCond": null },
+      {
+        "title": "Begin Operation",
+        "text": "What do you possess that's mine to take?",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "As you wish.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "This is the only value of gemstones.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "To all my enemies: I will Crack. You. Down.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 2",
+        "text": "I shall have the honor to pulverize what you treasure.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 1",
+        "text": "Will you cheer for me? I can't help but wonder!",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 2",
+        "text": "How will you struggle? How will you hold on to what you have?",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 3",
+        "text": "When will I strike, and take what you cherish the most?",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 4",
+        "text": "Who has not earned their end?",
+        "unlockCond": null
+      },
+      {
+        "title": "4-star Result",
+        "text": "I shared my life with you. Repay that debt, and tell me what fruit our efforts have born. Tell me what's the rewards of valor.",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "We can leave now. I'm sure no witnesses escaped.",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "A gem loses its value when flawed with impurities and cracks. You might as well dispose of it.",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "Are you still alive? Good. We all have our share of misfortune, but now you've had your stakes back, which you can risk on the line in the next game. Allow me to congratulate you on that.",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "What assessment would you like from me? It's the only place I can call home for now. I don't dare to be critical.",
+        "unlockCond": null
+      },
+      {
+        "title": "Tap",
+        "text": "Of course, it's your prerogative.",
+        "unlockCond": null
+      },
+      {
+        "title": "Trust Tap",
+        "text": "If I may interest you with a grind such as gem polishing, then please, take the seat to my opposite.",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      {
+        "title": "Greeting",
+        "text": "Greetings, Doctor. Do you need something appraised?",
+        "unlockCond": null
+      }
+    ],
+    "char_4098_vvana": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "Hm, by the way, may I ask who was your previous assistant? No, I'm not snooping or anything. It's just... There's not much I can do for you here, besides offer my quiet thoughts on the occasional poem.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "I see what you're hiding behind your back. Be at ease, I know very well that Leithanien needs a citizen to heighten her glory in foreign lands. Kazimierz, on the other hand, needs a scandal-plagued knight of self-professed purity. Both are as plain as day. Besides, that issue of The Red Wine is outdated. Their kinds never run short of personalities to gossip over.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "The wind can get very strong up on the decks. Perhaps you should change into something warmer. Me? I'm just dressing this place up as a certain city of greenery and shade in my imagination. The one where the gentle breeze blew from lands unknown, and the blacksmith's rhythmic hammering sounded the passage of time... Those days were brief. So brief, they are worth remembering.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": " 'Droste' is my mother's maiden name. It is a common name with no place in the spires. How long would you stay in an alley full of marigolds, Doktor? Very few would grace their proses and stanzas with these forbidden blossoms, but they're really beautiful... To be honest, I'm surprised you actually remembered my full name, Doktor.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "Poetry is charming as a respite from grammatical convention. It is a search for the most fitting of expressions in the most irrational.  The Candle Knight, who upholds virtue, and Viviana, who loves poetry... I have been a contradiction since the very beginning.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "Tales about foreign lands usually end with the traveler returning home. I was always preparing to return to Leithanien, but even after having experienced so much, my truest imp ression of the place remains in the candlelit books on those dark nights. I've seen the people I wanted to see, and I've made my choice.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "Look. What is it the candle lights here? Our faces? Lines of poetry that no one reads? Or the dark and mired path ahead of us? I guess you've always been able to see them, even without my candlelight. Right then, rest your eyes upon me. Don't let the light distract your gaze.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "I returned to that small, dark chamber in the spire and spoke to the little girl within. I told her that she will endure a lifetime of slander, suffer regrets that cannot be undone, and be trapped in a cycle of endless pursuit and loss… Yes, farewells feel the same as a dream. Do you find me, as I am in this moment, real enough?",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": " 'If you and I were notes from one stanza, on which instrument are we strung? And what player has us in his hand?' Oh, I knew you would come. Have you finished reading the poems I gave you? Let me guess. I couldn't possibly share the image of your beloved, and it must lie within the most uplifting cantata.",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "Mein Tag war heiter, glücklich meine Nacht.",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "Greetings. Margaret told me about you.  It's a shame we didn't have a chance to meet in the Grand Knight Territory… They called me 'The Candle Knight' at the time. You can call me Viviana, Doktor.",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "Watching my own fights through a screen... For a moment, I thought I was still in Kazimierz.",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "Are you going to grant me a title as well?  There's no need for that, but it probably won't matter anyway. This place is no arena.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "Can I interpret this as... your hope that I will stay?",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "I, Viviana Droste, shall wield candle and blade to win victories in your name.",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "Um, truth be told, the General Chamber of Commerce's spokesmen kept complaining that I didn't care much about my own matches.",
+        "unlockCond": null
+      },
+      {
+        "title": "Depart",
+        "text": "Let us move. A timely departure paves the way for an early return.",
+        "unlockCond": null
+      },
+      {
+        "title": "Begin Operation",
+        "text": "Moonlight barely laid upon the breezy parterre, yet you've witnessed the entirety of autumn?",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "I listen, to this passing silence.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "I wait, for that belated serenity.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "This is no arena. No scars will be remembered or awarded.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 2",
+        "text": "Leave. This is my last suggestion.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 1",
+        "text": "Why obsess over rhymes? Poetry is woven with the thread of ideas.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 2",
+        "text": " 'Pale roses,' pale minds.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 3",
+        "text": "Alas, but tying your legs together won't make you fly.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 4",
+        "text": "Let time rest upon this unlit night.",
+        "unlockCond": null
+      },
+      {
+        "title": "4-star Result",
+        "text": "Tired already, Doktor? Me too. The last time I had such an unforgettable bout was that match I fought in Kawalerielki.",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "Doktor, you're right. Words that shake one's soul always come from within the storm.",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "Even the most uninspiring poetry may contain a few lines that tug at our hearts. Despite the regrettable techniques employed, I can't help but approve of the writer's expression.",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "Doktor, accept this temporary lapse in creativity and remember how this moment feels. I'm still looking forward to the completion of this sonnet.",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "No bathtub...? Never mind. Just a little joke.",
+        "unlockCond": null
+      },
+      {
+        "title": "Tap",
+        "text": "Hmm, who is there? Whatever. I already knew it was you.",
+        "unlockCond": null
+      },
+      {
+        "title": "Trust Tap",
+        "text": "Doktor, if the candle goes out, I can't say for sure what might happen next.",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      {
+        "title": "Greeting",
+        "text": "Hmm, Doktor, what are you muttering there? I won't force you to recite any poems. But you have read them, have you not?",
+        "unlockCond": null
+      }
+    ],
+    "char_245_cello": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "What kind of ambience do you prefer when you're working? Of course, my music can't directly alleviate the busy state you're in, but I'd feel terrible if it couldn't make you more comfortable…  or content.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "This next concert is for Amiya. I really am curious... what would she see in me if I were allowed to touch her emotions? Oh, that look on your face... are you worried? Then, why not come along... and confine me to your side?",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": " 'Music is the order you dig out of chaos.' That's what my Leithanian teachers taught me, but they've all since died in silence or lunacy. If it were me... I would tell my students, 'Music is a flowing will, a language of self-expression.'",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "I can tell your fingers are still stiff. It seems you're not yet used to learning this way. Don't be nervous, I'll guide you... Oh? What's the matter, Fede? Are you going to greet me with a mine or an electric fence this time? If you'd like a music lesson, the Doctor and I will oblige.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "I'll never stop performing, even if you, Doctor, are the one who asks me. Trauma is one thing, but freedom is another. My life is the same as the others, it will simply come to an end if I stop in my tracks.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "No matter how powerful one's spirit may be, there is no way to vanquish the inevitability of death. If there is meaning in life, if there is really something out there that can fight against chaos and nothingness... it has to be every emotion that I'm feeling right here and now, and the melodies they'll turn into.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "I'm watching... the clouds. Water accumulates above and in excess before turning to rain. Mother made just as natural a choice when she decided to leave. But father still refuses to accept it, even now. What about you, Doctor? Will you also refuse to listen to the truest self... that lies within you?",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "Working with you is actually quite dull to me. Yes, because I don't want to, and can't play your music. So I've curbed my expectations of you, for I fear that when this emotion bursts in resonance along with my strings, you will turn to a grotesque collection of variegated fragments in my arms.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "Let me be your personal musician. Let me... feel my way around your mind. How elaborate are your ideas, and how terrifying is your rising willpower? I will of course be captivated by your music when it blooms into its ultimate form; and at that moment, what I will perform for you... shall be myself.",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "Rest well… I don't need to mix any 'illusion' into this lullaby. Your dreams... are already colorful enough.",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "I should have introduced myself by playing some music for you. Unfortunately, I've been forbidden from doing so for the moment. Let's start with a codename, then. You may call me... 'Virtuosa.'",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "I've no interest in these means of inflicting harm. Do you mind if I wander about for a bit?",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "You've come to understand me more and more, even without the sound of an instrument to connect us. And yet... just how am I supposed to share this joy in my heart with you?",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "Whenever I touch the strings, the surrounding emotions all flow into me, through my fingertips, surging up into the sky and down into the ground. Did you hear it too? The cry of life in its truest form... How astonishing, how beautiful.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "What audience have you picked for me today?",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "I don't often play with accompaniment, but I can try to match the others' voices.",
+        "unlockCond": null
+      },
+      {
+        "title": "Depart",
+        "text": "Notes fall into memory, and a melody resonates in the mind.",
+        "unlockCond": null
+      },
+      {
+        "title": "Begin Operation",
+        "text": "What tones are your souls in?",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "The concert may begin at any time.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "What would you like to hear?",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "A solo, to you.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 2",
+        "text": "An improv, from us.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 1",
+        "text": "Ecstasy as bright as gold.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 2",
+        "text": "Suffering will come to rest.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 3",
+        "text": "Liberty and sunlight all around us.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 4",
+        "text": "Feel your own self, to your heart's content.",
+        "unlockCond": null
+      },
+      {
+        "title": "4-star Result",
+        "text": "War itself is unworthy of a performance. But I will listen to every voice on the battlefield, from hero to refugee.",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "Over already? Your victory doesn't need to be embellished by my music. I'd much rather... perform for you a piece inspired by that cloud passing overhead.",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "Guilt, doubt, fear... this surge of emotion rising from the battlefield will follow them, accompanying them to their graves.",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "The performance ends, and the audience scatters. After such a conclusion, how long can the strings continue to vibrate?",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "What a beautiful sunset. It would be even more romantic if there were music swirling around the deck.",
+        "unlockCond": null
+      },
+      {
+        "title": "Tap",
+        "text": "These strings are vibrating... for you.",
+        "unlockCond": null
+      },
+      {
+        "title": "Trust Tap",
+        "text": "Hmm? Have I been lurking in this corner for a long while? There's a tune lingering in my head, and I refuse to go to sleep before I can express it.",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      {
+        "title": "Greeting",
+        "text": "Sometimes, I too prefer to avoid the crowd, far away from all the sounds, just to feel my own self... and to feel you as well.",
+        "unlockCond": null
+      }
+    ],
     "char_113_cqbw_epoque#7": [
       {
         "title": "Appointed as Assistant",
@@ -50341,6 +51423,175 @@
       {
         "title": "Greeting",
         "text": "There is still much we can do, Doctor.",
+        "unlockCond": null
+      }
+    ],
+    "char_4064_mlynar_epoque#28": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "Just another rainfall.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "I've never guaranteed your survival for following me, Toland. If it was their lives that your hunters valued, they shouldn't have stepped onto the battlefield or had their recklessness take over them in the first place... Their deaths are not what you need to downplay for your mockery. You will always remember. As will I.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "The rivalries in the halls of power never ceased, they've merely become a part of the opportunistic pursuit of profit. The only constant is the innocent being dragged into the cesspool. As vassals of a treasonous knight, your parents were forced to take you into their involuntary flight ere the fabricated incrimination could arrive... Czcibor, why? Why didn't you... flee even further?",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "Why are you still here? Our ideals have come to an end, and I witnessed their final moments... No, never mind. You wish to spar? Then pick up your spear. Entrust your future not to a failure, but to sacrifice, and the pain in your flesh. Come.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "Father, you once told me that longswords are suitable only for valorous young knights. But the National Council's miscarriage of justice, the General Chamber of Commerce's rise to prominence—everything I've wanted to stop, my blade was useless to prevent. I couldn't remove your lesions, and with it by my side I watched as Schnitz left... I merely became accustomed to its prescence.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "Golden plains, a field of wheat, the path of a nomadic city, and the wake of a Catastrophe. The manor's garden, the arena, and those who hand over their last coin along with their last harvest... Father, I've always tried to walk a righteous path.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "Forget it, Schnitz. How am I to tutor Maria in your stead? I am no knight, and certainly no father. No one would call me 'gentle.' Besides... I never once imagined I would actually return to this place... Why, Schnitz? Why am I the one to remain?",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "Margaret doesn't speak to me, but considering how she was back then... we had no need to. She is just like you were at that age, Yolanta, too much so. She will experience the same things you did, and she will never regret them. That I should tarry at her side more? Hmph, there's no point.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "The Grand Knight Territory's appearance is ever-fluid. Today, the city exhibits no trace of what it was twenty years ago, its sunset-lit silhouette sunken and gone... Yet its nightscapes still spring up to my mind at times wanted and at times not. Often, I find myself thinking that I should at least... try to seek out and reclaim that past.",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "The sound of a rainstorm in the wilderness...",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": " 'Fear neither hardship nor darkness...' Hmph. A bygone time unworthy of remembering. A dream, far too lucid.",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "Nearly the same struggles and sacrifices...",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "Blank paperwork for promotion within the order, excerpts from the recon knights' reports on our movements... Schnitz often sent these things, as his way of saying hello.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "How should I present myself...? As the one slandered by the papers and the groundless gossip in town? Or as the wanderer who once treated that vilification as a badge of honor?",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "To think they all still believe that blood is not spilled in vain…",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "Follow me.",
+        "unlockCond": null
+      },
+      {
+        "title": "Depart",
+        "text": "The sound of the wind in the barrens... Far too familiar.",
+        "unlockCond": null
+      },
+      {
+        "title": "Begin Operation",
+        "text": "It would seem they have yet to remember what to fear.",
+        "unlockCond": null
+      },
+      { "title": "Selecting Operator 1", "text": "Yes?", "unlockCond": null },
+      {
+        "title": "Selecting Operator 2",
+        "text": "Blade whetted again… for but another battle…",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "Do I need to repeat myself on the battle plan?",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 2",
+        "text": "All those... I have yet to abandon.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 1",
+        "text": "It will be over before you feel the pain.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 2",
+        "text": "Face the tide? Hmph.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 3",
+        "text": "The sunlight will have to wait.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 4",
+        "text": "Even if there is but a sigh at the very end.",
+        "unlockCond": null
+      },
+      {
+        "title": "4-star Result",
+        "text": "There is no one man who loftily sneers at the pointlessness of it all... Time speeds past us equally.",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "...Wake me up.",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "From the windows of Kawalerielki's towers, my eyes have grown tired of those men and their unpunished misdeeds.",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": " 'Failure can be endured.' ... But the price is always dear.",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "I have no promises to make.",
+        "unlockCond": null
+      },
+      {
+        "title": "Tap",
+        "text": "I can tell who you are. Speak freely.",
+        "unlockCond": null
+      },
+      {
+        "title": "Trust Tap",
+        "text": "Do not add any frivolous decorations to my sword, Toland... In the Grand Knight Territory, there are merchants eying the Nearl name. They will do as you do, and ridicule me in your place.",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      {
+        "title": "Greeting",
+        "text": "Do I long for the old days? No. I simply cannot forget. That which I saw in the places untouched by light... and could do nothing about.",
         "unlockCond": null
       }
     ],
@@ -54738,6 +55989,7 @@
     "char_302_glaze": ["char_302_glaze"],
     "char_366_acdrop": ["char_366_acdrop"],
     "char_4062_totter": ["char_4062_totter"],
+    "char_4100_caper": ["char_4100_caper"],
     "char_198_blackd": ["char_198_blackd"],
     "char_149_scave": ["char_149_scave"],
     "char_290_vigna": ["char_290_vigna"],
@@ -54845,6 +56097,7 @@
     "char_4013_kjera": ["char_4013_kjera"],
     "char_4040_rockr": ["char_4040_rockr"],
     "char_4054_malist": ["char_4054_malist"],
+    "char_499_kaitou": ["char_499_kaitou"],
     "char_242_otter": ["char_242_otter"],
     "char_336_folivo": ["char_336_folivo"],
     "char_108_silent": ["char_108_silent"],
@@ -54861,6 +56114,7 @@
     "char_4071_peper": ["char_4071_peper"],
     "char_148_nearl": ["char_148_nearl"],
     "char_226_hmau": ["char_226_hmau", "char_226_hmau_CN_TOPOLECT"],
+    "char_4109_baslin": ["char_4109_baslin"],
     "char_144_red": ["char_144_red"],
     "char_243_waaifu": ["char_243_waaifu", "char_243_waaifu_CN_TOPOLECT"],
     "char_214_kafka": ["char_214_kafka"],
@@ -54950,6 +56204,7 @@
     "char_1031_slent2": ["char_1031_slent2"],
     "char_2023_ling": ["char_2023_ling", "char_2023_ling_CN_TOPOLECT"],
     "char_4072_ironmn": ["char_4072_ironmn"],
+    "char_245_cello": ["char_245_cello"],
     "char_250_phatom": ["char_250_phatom"],
     "char_1028_texas2": ["char_1028_texas2", "char_1028_texas2_ITA"],
     "char_1029_yato2": ["char_1029_yato2"],
@@ -54987,11 +56242,13 @@
     "char_017_huang": ["char_017_huang"],
     "char_1026_gvial2": ["char_1026_gvial2"],
     "char_350_surtr": ["char_350_surtr"],
+    "char_4098_vvana": ["char_4098_vvana"],
     "char_188_helage": ["char_188_helage"],
     "char_485_pallas": ["char_485_pallas"],
     "char_1014_nearl2": ["char_1014_nearl2"],
+    "char_4011_lessng": ["char_4011_lessng"],
     "char_1032_excu2": ["char_1032_excu2"],
-    "char_4064_mlynar": ["char_4064_mlynar"],
+    "char_4064_mlynar": ["char_4064_mlynar", "char_4064_mlynar_epoque#28"],
     "char_230_savage": ["char_230_savage"],
     "char_282_catap": ["char_282_catap"],
     "char_283_midn": ["char_283_midn"],
