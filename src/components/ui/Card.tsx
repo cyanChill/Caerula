@@ -19,7 +19,7 @@ export default function Card({
     <As
       {...props}
       className={cn(
-        "rounded-2xl drop-shadow-xl backdrop-blur-2xl",
+        "rounded-2xl drop-shadow-xl",
         { "p-2 sm:p-4": defaultPadding },
         className,
       )}
