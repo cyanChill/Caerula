@@ -28,7 +28,7 @@ export default function StatList<T extends StatKey>(props: {
   className?: string;
 }) {
   return (
-    <div className={cn("@container", props.className)}>
+    <div className={props.className}>
       <ul
         aria-label="Stats"
         style={
@@ -37,7 +37,8 @@ export default function StatList<T extends StatKey>(props: {
           } as React.CSSProperties
         }
         className={cn(
-          "grid auto-cols-fr gap-0.5 text-[clamp(0.85rem,4cqw,1.15rem)]",
+          "grid auto-cols-fr gap-0.5 text-[clamp(0.85rem,3vw,1.15rem)]",
+          "md:text-[clamp(0.85rem,calc(0.25vw+0.75rem),1.15rem)]",
           "min-[350px]:grid-flow-col min-[350px]:grid-rows-[repeat(var(--numRows),1fr)]",
         )}
       >

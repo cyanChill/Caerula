@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { XMark, LinkChain } from "@/assets/svgs/navigation";
-import type { Enemy, EnemyId, EnemyStat } from "@/data/types/AKEnemy";
+import type { Enemy, EnemyId } from "@/data/types/AKEnemy";
 import EnemyList from "@/data/enemy/enemyList.json";
 import EnemyStatTable from "@/data/enemy/enemyStatTable.json";
 
@@ -83,11 +83,7 @@ export default function Enemy({ params }: Props) {
             "lifePointReduction",
           ] as const)}
         />
-        <StatsContent
-          id={enemy.id}
-          weight={enemy.weight}
-          stats={EnemyStatTable[enemy.id]}
-        />
+        <StatsContent id={enemy.id} weight={enemy.weight} />
         <p className="text-sm italic leading-tight text-neutral-60">
           {enemy.description}
         </p>
@@ -173,10 +169,9 @@ function LPCost({ lifePointReduction }: { lifePointReduction: number }) {
   );
 }
 
-type StatsContentProps = { id: EnemyId; stats: EnemyStat[]; weight: number };
-
 /** @description Displays the stats for the current enemy. */
-function StatsContent({ id, stats, weight }: StatsContentProps) {
+function StatsContent({ id, weight }: { id: EnemyId; weight: number }) {
+  const stats = EnemyStatTable[id];
   const tabIds = Array.from({ length: stats.length }, (_, i) => `${i}`);
   return (
     <section className="grid gap-4 lg:grid-cols-[auto_minmax(0,1fr)]">
