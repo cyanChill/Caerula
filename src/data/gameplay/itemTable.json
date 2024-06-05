@@ -1031,6 +1031,14 @@
     "usage": "Rewards earned after completing a contract. Can be used to redeem supplies.",
     "rarity": 5
   },
+  "CRISIS_SHOP_COIN_V2": {
+    "id": "CRISIS_SHOP_COIN_V2",
+    "iconId": "CRISIS_SHOP_COIN_V2",
+    "name": "Crystal Contract Bounty",
+    "description": "The ruthless but effective bounty mechanism is the only way to ensure the normal operations of the Contingency Contract system.",
+    "usage": "Rewards earned after completing a contract. Can be used to redeem supplies.",
+    "rarity": 5
+  },
   "STORY_REVIEW_COIN": {
     "id": "STORY_REVIEW_COIN",
     "iconId": "STORY_REVIEW_COIN",
@@ -6007,6 +6015,14 @@
     "usage": "A personal letter sent to the Doctor, used to improve Wild Mane to Max Potential.",
     "rarity": 5
   },
+  "voucher_full_kjera": {
+    "id": "voucher_full_kjera",
+    "iconId": "voucher_full_kjera",
+    "name": "Kjera's Personal Letter",
+    "description": "The letter mentions her experiences writing tourism slogans for Kjerag, and her perplexity at the lukewarm reception they received from the public.",
+    "usage": "A personal letter sent to the Doctor, used to improve Kjera to Max Potential.",
+    "rarity": 5
+  },
   "uni_set_guitar": {
     "id": "uni_set_guitar",
     "iconId": "uni_set_guitar",
@@ -7333,6 +7349,14 @@
     "name": "Near Light Furniture Pack",
     "description": "The Procurement Department's reconnected with its suppliers, and replenished stocks of initially limited pieces of furniture! Give your thanks to Closure!",
     "usage": "Obtain all furniture exclusive to the Near Light event not yet acquired.",
+    "rarity": 5
+  },
+  "uni_set_stage": {
+    "id": "uni_set_stage",
+    "iconId": "uni_set_stage",
+    "name": "Break the Ice Furniture Pack",
+    "description": "The Procurement Department's reconnected with its suppliers, and replenished stocks of initially limited pieces of furniture! Give your thanks to Closure!",
+    "usage": "Obtain all furniture exclusive to the Break the Ice event not yet acquired.",
     "rarity": 5
   },
   "act23side_token_spirit": {

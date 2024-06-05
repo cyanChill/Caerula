@@ -17358,6 +17358,76 @@
     "initSp": [15],
     "duration": [0]
   },
+  "sktok_toolore": {
+    "id": "sktok_toolore",
+    "iconId": "sktok_ore",
+    "name": "Pulse Wave",
+    "description": [
+      "Collects <span style=\"color:#0098DC;\">6</span> Recon Proficiency from surrounding enemy units (can only trigger once from the same enemy unit)"
+    ],
+    "rangeId": "x-1",
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [5],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_tooltower": {
+    "id": "sktok_tooltower",
+    "iconId": "sktok_tower",
+    "name": "Arts Transfer Protocol",
+    "description": [
+      "Deploy friendly units in the adjacent 4 tiles can restore SP to the device\nOnce activated, each attack deals <span style=\"color:#0098DC;\">2%</span> Max HP as Arts damage to an enemy unit and generates <span style=\"color:#0098DC;\">3</span> Recon Proficiency"
+    ],
+    "rangeId": "x-5",
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [50],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_tooltree": {
+    "id": "sktok_tooltree",
+    "iconId": "sktok_tree",
+    "name": "Natural Camouflage",
+    "description": [
+      "<span style=\"color:#0098DC;\">Increases</span> the DEF of adjacent friendly units, and gains more Recon Proficiency when an enemy is defeated"
+    ],
+    "rangeId": "x-5",
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_toolinvert": {
+    "id": "sktok_toolinvert",
+    "iconId": "sktok_inverter",
+    "name": "Warping Reality",
+    "description": [
+      "Explodes after deployment, dealing <span style=\"color:#0098DC;\">500</span> Arts damage to all enemy units in the adjacent 4 tiles, and generates <span style=\"color:#0098DC;\">8</span> Recon Proficiency for each enemy hit"
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_toolgarage": {
+    "id": "sktok_toolgarage",
+    "iconId": "sktok_garage",
+    "name": "Self-Driving Cart, Forward!",
+    "description": [
+      "Consumes <span style=\"color:#0098DC;\">3</span> DP and <span style=\"color:#FF6237;\">200</span> HP to launch a Self-Driving Recon Cart in the direction this unit is deployed\n<span style=\"color:#F49800;\">After launching, the Self-Driving Recon Cart moves in a straight line until it runs into impassable area. When passing a friendly unit, it will change its direction according to that unit's deployment direction (Once per unit)</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [10],
+    "initSp": [0],
+    "duration": [0]
+  },
   "sktok_ltstat": {
     "id": "sktok_ltstat",
     "iconId": "sktok_ltstat",

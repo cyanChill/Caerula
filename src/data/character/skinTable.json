@@ -8274,6 +8274,17 @@
       "artists": ["板板"],
       "releasedAt": 1703160000
     },
+    "char_131_flameb_whirlwind#6": {
+      "id": "char_131_flameb_whirlwind#6",
+      "usedBy": "char_131_flameb",
+      "brandId": "whirlwind",
+      "subBrand": { "id": "2023#whirlwind#2", "name": "0011/Tempest/VI" },
+      "name": "One Blade",
+      "imgAlt": "Flamebringer's \"One Blade\" skin",
+      "description": "0011 Tempest Series New Arrivals/One Blade. Form-fitting, cool, and breathable sportswear, for those patrolling the streets. In a fistfight, the flowing scarlet sleeves become a raging flame. The accompanying sword is most certainly not a prop.",
+      "artists": ["虎三"],
+      "releasedAt": 1717606800
+    },
     "char_147_shining_summer#1": {
       "id": "char_147_shining_summer#1",
       "usedBy": "char_147_shining",
@@ -9748,6 +9759,39 @@
       "artists": ["过失帝国"],
       "releasedAt": 1701795600
     },
+    "char_103_angel_kfc#1": {
+      "id": "char_103_angel_kfc#1",
+      "usedBy": "char_103_angel",
+      "brandId": "kitchen",
+      "subBrand": { "id": "2020#kitchen", "name": "Rhodes Kitchen" },
+      "name": "City Rider",
+      "imgAlt": "Exusiai's \"City Rider\" skin",
+      "description": "Rhodes Kitchen Collection/City Rider. Designed by Exusiai herself, 'I didn't think too much about the design, actually. I just made something that I'd like to wear.'",
+      "artists": ["幻象黑兔"],
+      "releasedAt": 1717606800
+    },
+    "char_134_ifrit_kfc#1": {
+      "id": "char_134_ifrit_kfc#1",
+      "usedBy": "char_134_ifrit",
+      "brandId": "kitchen",
+      "subBrand": { "id": "2020#kitchen", "name": "Rhodes Kitchen" },
+      "name": "Children's Party",
+      "imgAlt": "Ifrit's \"Children's Party\" skin",
+      "description": "Rhodes Kitchen Collection/Children's Party. Designed by Silence. Made with special materials from Rhine Lab, it offers a completely unnecessary amount of protection.",
+      "artists": ["NoriZC"],
+      "releasedAt": 1717606800
+    },
+    "char_201_moeshd_kfc#1": {
+      "id": "char_201_moeshd_kfc#1",
+      "usedBy": "char_201_moeshd",
+      "brandId": "kitchen",
+      "subBrand": { "id": "2020#kitchen", "name": "Rhodes Kitchen" },
+      "name": "Seven in the Morning",
+      "imgAlt": "Croissant's \"Seven in the Morning\" skin",
+      "description": "Rhodes Kitchen Collection/Seven in the Morning. Designed by Croissant. Actually just recycled Exusiai's design because it's cheaper to do it that way.",
+      "artists": ["幻象黑兔"],
+      "releasedAt": 1717606800
+    },
     "char_173_slchan_wwf#1": {
       "id": "char_173_slchan_wwf#1",
       "usedBy": "char_173_slchan",
@@ -10726,7 +10770,12 @@
     "char_265_sophia": ["char_265_sophia_1", "char_265_sophia_2", "char_265_sophia_epoque#11"],
     "char_4106_bryota": ["char_4106_bryota_1", "char_4106_bryota_2"],
     "char_106_franka": ["char_106_franka_1", "char_106_franka_2", "char_106_franka_ncg#1"],
-    "char_131_flameb": ["char_131_flameb_1", "char_131_flameb_2", "char_131_flameb_summer#8"],
+    "char_131_flameb": [
+      "char_131_flameb_1",
+      "char_131_flameb_2",
+      "char_131_flameb_summer#8",
+      "char_131_flameb_whirlwind#6"
+    ],
     "char_154_morgan": ["char_154_morgan_1", "char_154_morgan_2"],
     "char_508_aguard": ["char_508_aguard_1"],
     "char_155_tiger": ["char_155_tiger_1", "char_155_tiger_2", "char_155_tiger_striker#2"],
@@ -10853,7 +10902,12 @@
       "char_107_liskam_nian#2",
       "char_107_liskam_striker#1"
     ],
-    "char_201_moeshd": ["char_201_moeshd_1", "char_201_moeshd_2", "char_201_moeshd_summer#4"],
+    "char_201_moeshd": [
+      "char_201_moeshd_1",
+      "char_201_moeshd_2",
+      "char_201_moeshd_summer#4",
+      "char_201_moeshd_kfc#1"
+    ],
     "char_325_bison": ["char_325_bison_1", "char_325_bison_2"],
     "char_163_hpsts": ["char_163_hpsts_1", "char_163_hpsts_2"],
     "char_378_asbest": ["char_378_asbest_1", "char_378_asbest_2", "char_378_asbest_whirlwind#3"],
@@ -10937,7 +10991,8 @@
       "char_103_angel_1",
       "char_103_angel_2",
       "char_103_angel_wild#1",
-      "char_103_angel_sale#8"
+      "char_103_angel_sale#8",
+      "char_103_angel_kfc#1"
     ],
     "char_332_archet": ["char_332_archet_1", "char_332_archet_2", "char_332_archet_shining#1"],
     "char_456_ash": ["char_456_ash_1", "char_456_ash_2", "char_456_ash_rainbow6#1"],
@@ -10978,7 +11033,12 @@
     "char_427_vigil": ["char_427_vigil_1", "char_427_vigil_2", "char_427_vigil_epoque#27"],
     "char_249_mlyss": ["char_249_mlyss_1", "char_249_mlyss_2"],
     "char_4087_ines": ["char_4087_ines_1", "char_4087_ines_2"],
-    "char_134_ifrit": ["char_134_ifrit_1", "char_134_ifrit_2", "char_134_ifrit_summer#1"],
+    "char_134_ifrit": [
+      "char_134_ifrit_1",
+      "char_134_ifrit_2",
+      "char_134_ifrit_summer#1",
+      "char_134_ifrit_kfc#1"
+    ],
     "char_213_mostma": ["char_213_mostma_1", "char_213_mostma_2", "char_213_mostma_epoque#5"],
     "char_180_amgoat": ["char_180_amgoat_1", "char_180_amgoat_2", "char_180_amgoat_summer#5"],
     "char_2013_cerber": [
