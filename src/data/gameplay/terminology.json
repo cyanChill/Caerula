@@ -144,6 +144,11 @@
         "name": "Protective Barrier",
         "description": "Absorbs a certain amount of Elemental Damage.",
         "slug": "protective_barrier"
+      },
+      "ba.tremble": {
+        "name": "Frighten",
+        "description": "Cannot perform normal attacks when blocked",
+        "slug": "frighten"
       }
     }
   },
@@ -319,7 +324,7 @@
       },
       "cc.g.ussg": {
         "name": "Ursus Student Self-Governing Group",
-        "description": "Includes the following Operators:\nRosa, Zima, Istina, Gummy",
+        "description": "Includes the following Operators:\nRosa, Zima, Istina, Gummy, Leto",
         "slug": "ursus_student_self-governing_group"
       },
       "cc.g.R6": {
@@ -344,7 +349,7 @@
       },
       "cc.g.karlan": {
         "name": "Karlan Trade",
-        "description": "Includes the following Operators\nSilverAsh, Gnosis, Pramanix, Cliffheart, Matterhorn, Courier, Kjera, Aurora",
+        "description": "Includes the following Operators\nSilverAsh, Gnosis, Pramanix, Cliffheart, Matterhorn, Courier, Kjera, Aurora, Degenbrecher",
         "slug": "karlan_trade"
       },
       "cc.g.sui": {

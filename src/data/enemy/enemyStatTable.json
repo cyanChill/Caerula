@@ -9810,6 +9810,240 @@
       "atkRange": 2.2
     }
   ],
+  "enemy_1381_winman": [
+    {
+      "hp": 5800,
+      "atk": 300,
+      "def": 100,
+      "res": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 1.7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1381_winman_2": [
+    {
+      "hp": 7800,
+      "atk": 400,
+      "def": 200,
+      "res": 0,
+      "mvSpd": 0.9,
+      "atkInterval": 1.7,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1382_winbal": [
+    {
+      "hp": 5500,
+      "atk": 400,
+      "def": 100,
+      "res": 10,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1382_winbal_2": [
+    {
+      "hp": 7000,
+      "atk": 500,
+      "def": 200,
+      "res": 10,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1383_windog": [
+    {
+      "hp": 5000,
+      "atk": 300,
+      "def": 450,
+      "res": 0,
+      "mvSpd": 2,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1383_windog_2": [
+    {
+      "hp": 6000,
+      "atk": 350,
+      "def": 550,
+      "res": 0,
+      "mvSpd": 2,
+      "atkInterval": 2,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1384_winfrz": [
+    {
+      "hp": 20000,
+      "atk": 800,
+      "def": 400,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1384_winfrz_2": [
+    {
+      "hp": 25000,
+      "atk": 1000,
+      "def": 500,
+      "res": 20,
+      "mvSpd": 0.6,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1385_winbom": [
+    {
+      "hp": 10000,
+      "atk": 400,
+      "def": 350,
+      "res": 50,
+      "mvSpd": 0.9,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1
+    }
+  ],
+  "enemy_1385_winbom_2": [
+    {
+      "hp": 14000,
+      "atk": 550,
+      "def": 450,
+      "res": 50,
+      "mvSpd": 0.9,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 1
+    }
+  ],
+  "enemy_1386_winmag": [
+    {
+      "hp": 7000,
+      "atk": 500,
+      "def": 250,
+      "res": 60,
+      "mvSpd": 0.7,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1386_winmag_2": [
+    {
+      "hp": 8000,
+      "atk": 600,
+      "def": 350,
+      "res": 70,
+      "mvSpd": 0.7,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1387_winshd": [
+    {
+      "hp": 12000,
+      "atk": 500,
+      "def": 1200,
+      "res": 20,
+      "mvSpd": 0.5,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1387_winshd_2": [
+    {
+      "hp": 14000,
+      "atk": 700,
+      "def": 1500,
+      "res": 20,
+      "mvSpd": 0.5,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_1388_wingnt": [
+    {
+      "hp": 10000,
+      "atk": 800,
+      "def": 700,
+      "res": 20,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1388_wingnt_2": [
+    {
+      "hp": 12000,
+      "atk": 950,
+      "def": 800,
+      "res": 20,
+      "mvSpd": 0.7,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
+    }
+  ],
+  "enemy_1389_winbab": [
+    {
+      "hp": 6000,
+      "atk": 550,
+      "def": 300,
+      "res": 10,
+      "mvSpd": 0.6,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 3.5
+    }
+  ],
+  "enemy_1389_winbab_2": [
+    {
+      "hp": 7000,
+      "atk": 650,
+      "def": 400,
+      "res": 10,
+      "mvSpd": 0.6,
+      "atkInterval": 3,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 3.5
+    }
+  ],
   "enemy_1500_skulsr": [
     {
       "hp": 10500,
@@ -10960,6 +11194,19 @@
       "erst": 0,
       "irst": 0,
       "atkRange": -1
+    }
+  ],
+  "enemy_1549_windoc": [
+    {
+      "hp": 40000,
+      "atk": 800,
+      "def": 500,
+      "res": 50,
+      "mvSpd": 0.3,
+      "atkInterval": 6,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.5
     }
   ],
   "enemy_2001_duckmi": [

@@ -18,6 +18,7 @@ export const Debuffs = [
   "Sleep",
   "Frozen",
   "Levitate",
+  "Frighten",
 ] as const;
 export type StatusEffect = (typeof Debuffs)[number];
 

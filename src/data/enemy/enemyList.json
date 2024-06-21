@@ -16485,6 +16485,416 @@
   },
   {
     "sort": 730,
+    "id": "enemy_1381_winman",
+    "slug": "delegation_recruit",
+    "code": "VM1",
+    "name": "Delegation Recruit",
+    "description": "Soldier recruited into the delegation, employing the standard orthodox tactics. They are enjoying the peaceful lull.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 731,
+    "id": "enemy_1381_winman_2",
+    "slug": "delegation_veteran",
+    "code": "VM2",
+    "name": "Delegation Veteran",
+    "description": "Soldier whose fate is entwined with the delegation, employing hardened and ruthless tactics. They are on guard against potential escalation.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 732,
+    "id": "enemy_1382_winbal",
+    "slug": "delegation_assault_recruit",
+    "code": "VM3",
+    "name": "Delegation Assault Recruit",
+    "description": "New recruits on a special mission, firing warning shots with non-lethal weapons to avoid unnecessary loss of life. Having never seen war with their own eyes, they carry out their mission with expectations of peace.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical Arts",
+    "abilityList": [
+      {
+        "text": "Attacks in &lt;Frigid&gt; areas deal Arts damage; attacks in Emergency Heater range deal Physical damage.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 733,
+    "id": "enemy_1382_winbal_2",
+    "slug": "delegation_assault_veteran",
+    "code": "VM4",
+    "name": "Delegation Assault Veteran",
+    "description": "Veteran on a special mission, firing warning shots with non-lethal weapons to avoid unnecessary loss of life. Having seen death with their own eyes, they respond to orders with the instinctive reactions of war.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical Arts",
+    "abilityList": [
+      {
+        "text": "Attacks in &lt;Frigid&gt; areas deal Arts damage; attacks in Emergency Heater range deal Physical damage.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 734,
+    "id": "enemy_1383_windog",
+    "slug": "clockwork_patroller",
+    "code": "VM5",
+    "name": "Clockwork Patroller",
+    "description": "Patrol machine developed for the local environment. Moves faster if it is wound up a few times before battle. Low firepower.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Movement speed is reduced in Emergency Heater range.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 735,
+    "id": "enemy_1383_windog_2",
+    "slug": "clockwork_warrior",
+    "code": "VM6",
+    "name": "Clockwork Warrior",
+    "description": "Patrol machine developed for the local environment. Moves faster if it is wound up a few times before battle. High firepower.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Movement speed is reduced in Emergency Heater range.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 736,
+    "id": "enemy_1384_winfrz",
+    "slug": "frozen_mountain_burdenbeast",
+    "code": "VM7",
+    "name": "Frozen Mountain Burdenbeast",
+    "description": "Mountain burdenbeast buried by a sudden avalanche. Its thick layer of fat will help it survive the worst of it until rescue arrives.\n",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Remains on standby in &lt;Frigid&gt; areas for a while without attacking.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Immediately revived if its plate is in Emergency Heater range",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 737,
+    "id": "enemy_1384_winfrz_2",
+    "slug": "slumbering_mountain_burdenbeast",
+    "code": "VM8",
+    "name": "Slumbering Mountain Burdenbeast",
+    "description": "Mountain burdenbeast buried by familiar snowfall. It will rest well in its habitual hibernation until it senses the spring breeze.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Remains on standby in &lt;Frigid&gt; areas for a while without attacking.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Immediately revived if its plate is in Emergency Heater range",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 738,
+    "id": "enemy_1385_winbom",
+    "slug": "jet_canister",
+    "code": "VM9",
+    "name": "'Jet Canister'",
+    "description": "This weapon was developed for close-range assault in response to the painful experience of trench warfare, but how many would be willing to carry a such a heavy and fragile can on their backs?",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "On death, deals Arts damage to all nearby units, inflicting Cold and disabling Emergency Heaters.",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 739,
+    "id": "enemy_1385_winbom_2",
+    "slug": "boom_canister",
+    "code": "VM10",
+    "name": "'Boom Canister'",
+    "description": "After many broken and exploded cans, people came to the realization that this weapon needed someone with a death wish, making trench warfare even more painful.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "On death, deals Arts damage to all nearby units, inflicting Cold and disabling Emergency Heaters.",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 740,
+    "id": "enemy_1386_winmag",
+    "slug": "delegation_caster",
+    "code": "VM11",
+    "name": "Delegation Caster",
+    "description": "Elite Arts attackers of the delegation, casting with perfect coordination, but still asked to take it easy.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Attacks in &lt;Frigid&gt; areas deal splash damage in a cross; trait is inactive in Emergency Heater range.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 741,
+    "id": "enemy_1386_winmag_2",
+    "slug": "delegation_caster_commander",
+    "code": "VM12",
+    "name": "Delegation Caster Commander",
+    "description": "Ferocious Arts attackers of the delegation, casting with resonant harmony, but still ordered to take it easy.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Attacks in &lt;Frigid&gt; areas deal splash damage in a cross; trait is inactive in Emergency Heater range.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 742,
+    "id": "enemy_1387_winshd",
+    "slug": "delegation_shieldbearer",
+    "code": "VM13",
+    "name": "Delegation Shieldbearer",
+    "description": "Determined defenders of the delegation, their shields one with the frozen crystals, forming a wall on the snow that few can penetrate.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "DEF and RES gradually increase in &lt;Frigid&gt; areas, and gradually decrease in Emergency Heater range.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 743,
+    "id": "enemy_1387_winshd_2",
+    "slug": "delegation_shieldbearer_captain",
+    "code": "VM14",
+    "name": "Delegation Shieldbearer Captain",
+    "description": "Outstanding defenders of the delegation, their form one with heaven and earth, forming an unbreakable wall in the snow.\n",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "DEF and RES gradually increase in &lt;Frigid&gt; areas, and gradually decrease in Emergency Heater range.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 744,
+    "id": "enemy_1388_wingnt",
+    "slug": "catapult",
+    "code": "VM15",
+    "name": "'Catapult'",
+    "description": "Expert grenadiers of the delegation, able to throw shells as heavy as a hundred kilos. The rest of the delegation knows better than to challenge them to a snowball fight.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Throws a massive snowball, dealing splash damage in a cross",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Can only use melee attacks once snowball is thrown",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 745,
+    "id": "enemy_1388_wingnt_2",
+    "slug": "mortar",
+    "code": "VM16",
+    "name": "'Mortar'",
+    "description": "Elite grenadiers of the delegation, able to throw shells with the same power as city artillery. No one in the delegation is foolish enough to challenge them, so they roam the snow with their carefully crafted balls, waiting for a challenger foolish enough to fall into their trap.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Throws a massive snowball, dealing splash damage in a cross",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Can only use melee attacks once snowball is thrown",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 746,
+    "id": "enemy_1389_winbab",
+    "slug": "delegation_centurion",
+    "code": "VM17",
+    "name": "Delegation Centurion",
+    "description": "Centurions are normally tasked with assaulting a fortified position. In the delegation, their main task is to defeat the defenders of the heaters.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Prioritizes targets to the right of a Emergency Heater",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 747,
+    "id": "enemy_1389_winbab_2",
+    "slug": "delegation_centurion_champion",
+    "code": "VM18",
+    "name": "Delegation Centurion Champion",
+    "description": "If defeating heater defenders has become the focus of the delegation's training, then it is no surprise that a champion would eventually emerge.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Prioritizes targets to the right of a Emergency Heater",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 748,
     "id": "enemy_2001_duckmi",
     "slug": "duck_lord",
     "code": "DLD",
@@ -16507,7 +16917,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 731,
+    "sort": 749,
     "id": "enemy_2002_bearmi",
     "slug": "gopnik",
     "code": "GPN",
@@ -16524,7 +16934,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 732,
+    "sort": 750,
     "id": "enemy_2034_sythef",
     "slug": "crying_thief",
     "code": "THF",
@@ -16550,7 +16960,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 733,
+    "sort": 751,
     "id": "enemy_2009_csaudc",
     "slug": "derisive_audience",
     "code": "CS1",
@@ -16572,7 +16982,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 734,
+    "sort": 752,
     "id": "enemy_2010_csdcr",
     "slug": "scarlet_singer",
     "code": "CS2",
@@ -16598,7 +17008,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 735,
+    "sort": 753,
     "id": "enemy_2011_csppt",
     "slug": "theater_golem",
     "code": "CS3",
@@ -16624,7 +17034,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 736,
+    "sort": 754,
     "id": "enemy_2012_csbln",
     "slug": "small_surprise",
     "code": "CS4",
@@ -16647,7 +17057,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 737,
+    "sort": 755,
     "id": "enemy_2017_csphts",
     "slug": "ominous_apparition",
     "code": "PTS",
@@ -16677,7 +17087,7 @@
     "relatedEnemies": ["enemy_2016_csphtm"]
   },
   {
-    "sort": 738,
+    "sort": 756,
     "id": "enemy_2021_syfish",
     "slug": "bone_sea_drifter",
     "code": "SY1",
@@ -16699,7 +17109,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 739,
+    "sort": 757,
     "id": "enemy_2022_syzeni",
     "slug": "ocean_stonecutter",
     "code": "SY2",
@@ -16721,7 +17131,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 740,
+    "sort": 758,
     "id": "enemy_2023_sypult",
     "slug": "retching_broodmother",
     "code": "SY3",
@@ -16744,7 +17154,7 @@
     "relatedEnemies": ["enemy_2024_synut"]
   },
   {
-    "sort": 741,
+    "sort": 759,
     "id": "enemy_2024_synut",
     "slug": "baleful_broodling",
     "code": "SY4",
@@ -16768,7 +17178,7 @@
     "relatedEnemies": ["enemy_2023_sypult"]
   },
   {
-    "sort": 742,
+    "sort": 760,
     "id": "enemy_2025_syufo",
     "slug": "skimming_sea_drifter",
     "code": "SY5",
@@ -16794,7 +17204,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 743,
+    "sort": 761,
     "id": "enemy_2033_syboys",
     "slug": "pathshaper_fractal",
     "code": "SY6",
@@ -16817,7 +17227,7 @@
     "relatedEnemies": ["enemy_2031_syboy", "enemy_2032_syboy2"]
   },
   {
-    "sort": 744,
+    "sort": 762,
     "id": "enemy_2040_syrott",
     "slug": "ishar'mla's_tears",
     "code": "SY7",
@@ -16844,7 +17254,7 @@
     "relatedEnemies": ["enemy_2039_syskad"]
   },
   {
-    "sort": 745,
+    "sort": 763,
     "id": "enemy_2041_syjely",
     "slug": "izumik's_offspring",
     "code": "SY8",
@@ -16861,7 +17271,7 @@
     "relatedEnemies": ["enemy_2042_syboss"]
   },
   {
-    "sort": 746,
+    "sort": 764,
     "id": "enemy_2035_sybox",
     "slug": "chest_seaborn",
     "code": "SY9",
@@ -16878,7 +17288,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 747,
+    "sort": 765,
     "id": "enemy_2043_smsbr",
     "slug": "tainted_carcass",
     "code": "EJ1",
@@ -16900,7 +17310,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 748,
+    "sort": 766,
     "id": "enemy_2044_smwiz",
     "slug": "distorted_caster",
     "code": "EJ2",
@@ -16922,7 +17332,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 749,
+    "sort": 767,
     "id": "enemy_2045_smdrn",
     "slug": "collapsed_construct",
     "code": "EJ3",
@@ -16939,7 +17349,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 750,
+    "sort": 768,
     "id": "enemy_2046_smwar",
     "slug": "shattered_champion",
     "code": "EJ4",
@@ -16956,7 +17366,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 751,
+    "sort": 769,
     "id": "enemy_2059_smbox",
     "slug": "testaceous_vinecreeps",
     "code": "EJ5",
@@ -16973,7 +17383,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 753,
+    "sort": 773,
     "id": "enemy_4001_toxcar",
     "slug": "retrofitted_gastruck",
     "code": "MU1",
@@ -16995,7 +17405,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 754,
+    "sort": 774,
     "id": "enemy_4001_toxcar_2",
     "slug": "supercharged_gastruck",
     "code": "MU2",
@@ -17017,7 +17427,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 755,
+    "sort": 775,
     "id": "enemy_4002_syokai",
     "slug": "cheap_second-hand_drone",
     "code": "MU3",
@@ -17044,7 +17454,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 756,
+    "sort": 776,
     "id": "enemy_4002_syokai_2",
     "slug": "remodeled_second-hand_drone",
     "code": "MU4",
@@ -17071,7 +17481,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 757,
+    "sort": 777,
     "id": "enemy_4003_pbank",
     "slug": "mobile_power_source",
     "code": "MU5",
@@ -17098,7 +17508,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 758,
+    "sort": 778,
     "id": "enemy_1050_lslime",
     "slug": "pompeii",
     "code": "UM1",
@@ -17128,7 +17538,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 759,
+    "sort": 779,
     "id": "enemy_1500_skulsr",
     "slug": "skullshatterer",
     "code": "SS",
@@ -17154,7 +17564,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 760,
+    "sort": 780,
     "id": "enemy_1502_crowns",
     "slug": "crownslayer",
     "code": "CS",
@@ -17176,7 +17586,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 761,
+    "sort": 781,
     "id": "enemy_1503_talula",
     "slug": "talulah",
     "code": "TA",
@@ -17207,7 +17617,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 762,
+    "sort": 782,
     "id": "enemy_1504_cqbw",
     "slug": "w",
     "code": "W",
@@ -17233,7 +17643,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 763,
+    "sort": 783,
     "id": "enemy_1505_frstar",
     "slug": "frostnova",
     "code": "FN",
@@ -17263,7 +17673,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 764,
+    "sort": 784,
     "id": "enemy_1507_mephi",
     "slug": "mephisto",
     "code": "MP",
@@ -17289,7 +17699,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 765,
+    "sort": 785,
     "id": "enemy_1508_faust",
     "slug": "faust",
     "code": "FA",
@@ -17319,7 +17729,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 766,
+    "sort": 786,
     "id": "enemy_1509_mousek",
     "slug": "rat_king",
     "code": "MK",
@@ -17353,7 +17763,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 767,
+    "sort": 787,
     "id": "enemy_1510_frstar2",
     "slug": "frostnova,_'winter's_scar'",
     "code": "FNF",
@@ -17383,7 +17793,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 768,
+    "sort": 788,
     "id": "enemy_1506_patrt",
     "slug": "patriot",
     "code": "PT",
@@ -17428,7 +17838,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 769,
+    "sort": 789,
     "id": "enemy_1511_mdrock",
     "slug": "mudrock",
     "code": "MR",
@@ -17459,7 +17869,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 770,
+    "sort": 790,
     "id": "enemy_1512_mcmstr",
     "slug": "the_big_ugly_thing",
     "code": "BU",
@@ -17495,7 +17905,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 771,
+    "sort": 791,
     "id": "enemy_1513_dekght",
     "slug": "corrupted_knight",
     "code": "DK1",
@@ -17525,7 +17935,7 @@
     "relatedEnemies": ["enemy_1513_dekght_2"]
   },
   {
-    "sort": 772,
+    "sort": 792,
     "id": "enemy_1513_dekght_2",
     "slug": "withered_knight",
     "code": "DK2",
@@ -17552,7 +17962,7 @@
     "relatedEnemies": ["enemy_1513_dekght"]
   },
   {
-    "sort": 773,
+    "sort": 793,
     "id": "enemy_1514_smephi",
     "slug": "mephisto,_'the_singer'",
     "code": "SMP",
@@ -17588,7 +17998,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 774,
+    "sort": 794,
     "id": "enemy_1515_bsnake",
     "slug": "deathless_black_snake",
     "code": "BSN",
@@ -17632,7 +18042,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 775,
+    "sort": 795,
     "id": "enemy_1516_jakill",
     "slug": "jesselton_williams",
     "code": "JAK",
@@ -17674,7 +18084,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 776,
+    "sort": 796,
     "id": "enemy_1517_xi",
     "slug": "free",
     "code": "DSK",
@@ -17715,7 +18125,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 777,
+    "sort": 797,
     "id": "enemy_1519_bgball",
     "slug": "essence_of_evolution",
     "code": "BB",
@@ -17761,7 +18171,7 @@
     "relatedEnemies": ["enemy_1137_plasm", "enemy_1138_tumor"]
   },
   {
-    "sort": 778,
+    "sort": 798,
     "id": "enemy_1520_empgrd",
     "slug": "'emperor's_blade',_pursuer",
     "code": "EMG",
@@ -17801,7 +18211,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 779,
+    "sort": 799,
     "id": "enemy_1521_dslily",
     "slug": "sal_viento_bishop_quintus",
     "code": "SVK",
@@ -17832,14 +18242,14 @@
         "textFormat": "NORMAL"
       }
     ],
-    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate", "Frighten"],
     "lifePointReduction": 1,
     "weight": 10,
     "isFlying": false,
     "relatedEnemies": []
   },
   {
-    "sort": 780,
+    "sort": 800,
     "id": "enemy_1522_captan",
     "slug": "pancho_salas",
     "code": "CPS",
@@ -17883,7 +18293,7 @@
     "relatedEnemies": ["enemy_1164_bmbmot_3"]
   },
   {
-    "sort": 781,
+    "sort": 801,
     "id": "enemy_1523_mandra",
     "slug": "mandragora",
     "code": "MD",
@@ -17923,7 +18333,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 782,
+    "sort": 802,
     "id": "enemy_1524_bldkgt",
     "slug": "the_blood_knight_dikaiopolis",
     "code": "BK",
@@ -17968,7 +18378,7 @@
     "relatedEnemies": ["enemy_1186_bldbld"]
   },
   {
-    "sort": 783,
+    "sort": 803,
     "id": "enemy_1525_blkswb",
     "slug": "degenbrecher",
     "code": "BJ",
@@ -18020,7 +18430,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 784,
+    "sort": 804,
     "id": "enemy_1526_sfsui",
     "slug": "sui-xiang",
     "code": "SUI",
@@ -18073,7 +18483,7 @@
     "relatedEnemies": ["enemy_1211_msfsui"]
   },
   {
-    "sort": 785,
+    "sort": 805,
     "id": "enemy_1527_martyr",
     "slug": "andoain,_the_'martyr'",
     "code": "AND",
@@ -18118,7 +18528,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 786,
+    "sort": 806,
     "id": "enemy_1528_manfri",
     "slug": "manfred",
     "code": "MAN",
@@ -18158,7 +18568,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 787,
+    "sort": 807,
     "id": "enemy_1529_dsdevr",
     "slug": "the_endspeaker,_will_of_we_many",
     "code": "AMA",
@@ -18195,7 +18605,7 @@
     ]
   },
   {
-    "sort": 788,
+    "sort": 808,
     "id": "enemy_1530_white",
     "slug": "kreide,_'worldly_remains'",
     "code": "KRE",
@@ -18235,7 +18645,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 789,
+    "sort": 809,
     "id": "enemy_1531_bbrain",
     "slug": "awaken",
     "code": "BBR",
@@ -18281,7 +18691,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 790,
+    "sort": 810,
     "id": "enemy_1532_minima",
     "slug": "materialist_antagonizer",
     "code": "CST",
@@ -18334,7 +18744,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 791,
+    "sort": 811,
     "id": "enemy_1533_stmkgt",
     "slug": "the_last_steam_knight",
     "code": "LYN",
@@ -18380,7 +18790,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 792,
+    "sort": 812,
     "id": "enemy_1535_wlfmster",
     "slug": "zaaro,_signore_dei_lupi",
     "code": "ZA",
@@ -18425,7 +18835,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 793,
+    "sort": 813,
     "id": "enemy_1536_ncrmcr",
     "slug": "the_leader",
     "code": "EB",
@@ -18470,7 +18880,7 @@
     "relatedEnemies": ["enemy_1288_duskls", "enemy_1288_duskls_2"]
   },
   {
-    "sort": 794,
+    "sort": 814,
     "id": "enemy_1538_ymmons",
     "slug": "ya",
     "code": "YA01",
@@ -18518,7 +18928,7 @@
     "relatedEnemies": ["enemy_1312_ymillu", "enemy_1538_ymmons_2", "enemy_1538_ymmons_3"]
   },
   {
-    "sort": 797,
+    "sort": 817,
     "id": "enemy_1537_mhrors",
     "slug": "rathalos",
     "code": "6935",
@@ -18583,7 +18993,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 798,
+    "sort": 818,
     "id": "enemy_1539_reid",
     "slug": "hateful_avenger/boss",
     "code": "A15",
@@ -18613,7 +19023,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 799,
+    "sort": 819,
     "id": "enemy_1540_wdncr",
     "slug": "eblana",
     "code": "EB",
@@ -18630,7 +19040,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 800,
+    "sort": 820,
     "id": "enemy_1541_wdslms",
     "slug": "damazti_cluster/clone",
     "code": "DC3",
@@ -18647,7 +19057,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 801,
+    "sort": 821,
     "id": "enemy_1542_wdslm",
     "slug": "damazti_cluster",
     "code": "DC1",
@@ -18700,7 +19110,7 @@
     "relatedEnemies": ["enemy_1323_wdbshd"]
   },
   {
-    "sort": 802,
+    "sort": 822,
     "id": "enemy_1543_cstlrs",
     "slug": "kristen",
     "code": "KW",
@@ -18752,7 +19162,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 803,
+    "sort": 823,
     "id": "enemy_1544_cledub",
     "slug": "the_gardener",
     "code": "CD",
@@ -18800,7 +19210,7 @@
     "relatedEnemies": ["enemy_3005_lpeopl"]
   },
   {
-    "sort": 804,
+    "sort": 824,
     "id": "enemy_1545_shpkg",
     "slug": "dolly,_sovereign_of_sheep",
     "code": "DLY",
@@ -18860,7 +19270,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 805,
+    "sort": 825,
     "id": "enemy_1546_cliff",
     "slug": "'clip'_cliff",
     "code": "BSC",
@@ -18904,7 +19314,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 806,
+    "sort": 826,
     "id": "enemy_1547_blord",
     "slug": "duq'arael,_'regent's_crimson'",
     "code": "PB",
@@ -18956,7 +19366,7 @@
     "relatedEnemies": ["enemy_1367_dseed"]
   },
   {
-    "sort": 807,
+    "sort": 827,
     "id": "enemy_1548_ltniak",
     "slug": "herkunftshorn,_'witch_king'",
     "code": "HH",
@@ -19020,7 +19430,55 @@
     "relatedEnemies": []
   },
   {
-    "sort": 808,
+    "sort": 828,
+    "id": "enemy_1549_windoc",
+    "slug": "harold_craigavon",
+    "code": "HC",
+    "name": "Harold Craigavon",
+    "description": "A 'visitor' from Victoria who witnessed the rise and fall of Victoria, and who will shape Kjerag's future with his own hands. Does he stand here for the Duke, the Empire, or himself?",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Prioritizes targets to the right of a Emergency Heater",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Every unlit Emergency Heater reduces Physical or Arts damage taken by &lt;Harold Craigavon&gt;",
+        "textFormat": "NORMAL"
+      },
+      { "text": "Counterpart Form", "textFormat": "TITLE" },
+      {
+        "text": "[Chastising Touch] Periodically extinguishes the nearest Emergency Heater and deals damage to targets in a cross around it. Extinguishes an additional Emergency Heater in Breakthrough Form",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Pep Talk] Heals and boosts other enemies",
+        "textFormat": "NORMAL"
+      },
+      { "text": "Breakthrough Form", "textFormat": "TITLE" },
+      {
+        "text": "ATK is greatly increased in Breakthrough Form.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Immediately extinguishes Emergency Heaters in a large area when entering Breakthrough Form.",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Vapor Rain] Deals damage to all targets after losing a percentage of HP. Performs additional attacks for each unlit Emergency Heater.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 2,
+    "weight": 10,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 829,
     "id": "enemy_2003_rockman",
     "slug": "lost_colossus",
     "code": "WDG",
@@ -19042,7 +19500,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 809,
+    "sort": 830,
     "id": "enemy_2004_balloon",
     "slug": "jetman",
     "code": "JTM",
@@ -19064,7 +19522,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 810,
+    "sort": 831,
     "id": "enemy_2005_axetro",
     "slug": "forsaken_one",
     "code": "FSK",
@@ -19086,7 +19544,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 811,
+    "sort": 832,
     "id": "enemy_2006_flsnip",
     "slug": "rusthammer_warrior",
     "code": "RSH",
@@ -19112,7 +19570,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 812,
+    "sort": 833,
     "id": "enemy_2007_flwitch",
     "slug": "frozen_monstrosity",
     "code": "FZM",
@@ -19142,7 +19600,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 813,
+    "sort": 834,
     "id": "enemy_2008_flking",
     "slug": "gravestone",
     "code": "GST",
@@ -19168,7 +19626,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 814,
+    "sort": 835,
     "id": "enemy_2013_csbot",
     "slug": "wandering_puppet",
     "code": "MSC",
@@ -19190,7 +19648,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 815,
+    "sort": 836,
     "id": "enemy_2014_csicer",
     "slug": "snow_doe",
     "code": "ICR",
@@ -19216,7 +19674,7 @@
     "relatedEnemies": ["enemy_2015_csicem"]
   },
   {
-    "sort": 816,
+    "sort": 837,
     "id": "enemy_2015_csicem",
     "slug": "frost_buck",
     "code": "ICM",
@@ -19242,7 +19700,7 @@
     "relatedEnemies": ["enemy_2014_csicer"]
   },
   {
-    "sort": 817,
+    "sort": 838,
     "id": "enemy_2016_csphtm",
     "slug": "lucian,_'blood_diamond'",
     "code": "PTM",
@@ -19268,7 +19726,7 @@
     "relatedEnemies": ["enemy_2017_csphts"]
   },
   {
-    "sort": 818,
+    "sort": 839,
     "id": "enemy_2018_csdoll",
     "slug": "big_sad_lock",
     "code": "DOL",
@@ -19296,14 +19754,14 @@
         "textFormat": "NORMAL"
       }
     ],
-    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate", "Frighten"],
     "lifePointReduction": 1,
     "weight": 10,
     "isFlying": false,
     "relatedEnemies": []
   },
   {
-    "sort": 819,
+    "sort": 840,
     "id": "enemy_2019_cshost",
     "slug": "troupe_mouthpiece",
     "code": "HST",
@@ -19334,7 +19792,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 820,
+    "sort": 841,
     "id": "enemy_2020_cswrtr",
     "slug": "playwright",
     "code": "WRT",
@@ -19368,7 +19826,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 821,
+    "sort": 842,
     "id": "enemy_2026_syudg",
     "slug": "saint_carmen",
     "code": "UGF",
@@ -19394,7 +19852,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 822,
+    "sort": 843,
     "id": "enemy_2027_syudg2",
     "slug": "saint_iberia",
     "code": "UGS",
@@ -19421,7 +19879,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 823,
+    "sort": 844,
     "id": "enemy_2028_syevil",
     "slug": "tidelinked_bishop",
     "code": "SEV",
@@ -19443,7 +19901,7 @@
     "relatedEnemies": ["enemy_2029_symon", "enemy_2030_symon2"]
   },
   {
-    "sort": 824,
+    "sort": 845,
     "id": "enemy_2029_symon",
     "slug": "tidelinked_archon",
     "code": "SMF",
@@ -19469,7 +19927,7 @@
     "relatedEnemies": ["enemy_2028_syevil"]
   },
   {
-    "sort": 825,
+    "sort": 846,
     "id": "enemy_2030_symon2",
     "slug": "tidelinked_immortal",
     "code": "SMS",
@@ -19499,7 +19957,7 @@
     "relatedEnemies": ["enemy_2028_syevil"]
   },
   {
-    "sort": 826,
+    "sort": 847,
     "id": "enemy_2031_syboy",
     "slug": "pathshaper",
     "code": "SRF",
@@ -19525,7 +19983,7 @@
     "relatedEnemies": ["enemy_2033_syboys"]
   },
   {
-    "sort": 827,
+    "sort": 848,
     "id": "enemy_2032_syboy2",
     "slug": "lingering_pathshaper",
     "code": "SRS",
@@ -19552,7 +20010,7 @@
     "relatedEnemies": ["enemy_2033_syboys"]
   },
   {
-    "sort": 828,
+    "sort": 849,
     "id": "enemy_2037_sygirl",
     "slug": "paranoia_illusion",
     "code": "GIR",
@@ -19588,7 +20046,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 829,
+    "sort": 850,
     "id": "enemy_2038_sydonq",
     "slug": "the_last_knight",
     "code": "DOQ",
@@ -19621,7 +20079,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 830,
+    "sort": 851,
     "id": "enemy_2039_syskad",
     "slug": "ishar'mla,_heart_of_corruption",
     "code": "SKA",
@@ -19657,7 +20115,7 @@
     "relatedEnemies": ["enemy_2040_syrott"]
   },
   {
-    "sort": 831,
+    "sort": 852,
     "id": "enemy_2042_syboss",
     "slug": "izumik,_source_of_ecology",
     "code": "MZK",
@@ -19690,7 +20148,7 @@
     "relatedEnemies": ["enemy_2041_syjely"]
   },
   {
-    "sort": 832,
+    "sort": 853,
     "id": "enemy_2036_syshop",
     "slug": "cannot",
     "code": "KNT",
@@ -19716,7 +20174,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 833,
+    "sort": 854,
     "id": "enemy_2048_smgrd",
     "slug": "demon's_blade",
     "code": "DB",
@@ -19742,7 +20200,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 834,
+    "sort": 855,
     "id": "enemy_2049_smgrd2",
     "slug": "'demon's_blade,'_the_vagabond",
     "code": "DBV",
@@ -19768,7 +20226,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 835,
+    "sort": 856,
     "id": "enemy_2050_smsha",
     "slug": "fallen_snowpriest",
     "code": "FSP",
@@ -19794,7 +20252,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 836,
+    "sort": 857,
     "id": "enemy_2051_smsha2",
     "slug": "hollow_snowpriest",
     "code": "HSP",
@@ -19820,7 +20278,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 837,
+    "sort": 858,
     "id": "enemy_2052_smgia",
     "slug": "weaving_vinecreeps",
     "code": "WVC",
@@ -19846,7 +20304,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 838,
+    "sort": 859,
     "id": "enemy_2053_smgia2",
     "slug": "elder_vinecreeps",
     "code": "EVC",
@@ -19872,7 +20330,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 839,
+    "sort": 860,
     "id": "enemy_2054_smdeer",
     "slug": "'samivilinn,'_the_resolution_of_the_very_north",
     "code": "SAM",
@@ -19899,14 +20357,14 @@
         "textFormat": "NORMAL"
       }
     ],
-    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate", "Frighten"],
     "lifePointReduction": 1,
     "weight": 10,
     "isFlying": false,
     "relatedEnemies": []
   },
   {
-    "sort": 840,
+    "sort": 861,
     "id": "enemy_2055_smlead",
     "slug": "'eikthyrnir,'_the_scar_of_the_shattered",
     "code": "EIK",
@@ -19951,7 +20409,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 841,
+    "sort": 862,
     "id": "enemy_2056_smedzi",
     "slug": "crazelyseon,_the_ascendant_of_cosmoi",
     "code": "CES",
@@ -19986,7 +20444,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 846,
+    "sort": 869,
     "id": "enemy_6001_trsgst",
     "slug": "fleet-footed_thief",
     "code": "DL1",
@@ -20009,7 +20467,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 847,
+    "sort": 870,
     "id": "enemy_6002_trswlf",
     "slug": "teary_detective",
     "code": "DL2",
@@ -20039,7 +20497,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 848,
+    "sort": 871,
     "id": "enemy_6003_trsslm",
     "slug": "shiny_pooloo",
     "code": "DL3",
@@ -20065,7 +20523,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 849,
+    "sort": 872,
     "id": "enemy_6004_pleslm",
     "slug": "milan",
     "code": "DL4",
@@ -20095,7 +20553,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 850,
+    "sort": 873,
     "id": "enemy_6005_llstone",
     "slug": "spherical_colossus",
     "code": "DL5",
@@ -20125,7 +20583,7 @@
     "relatedEnemies": ["enemy_6006_fystone"]
   },
   {
-    "sort": 851,
+    "sort": 874,
     "id": "enemy_6006_fystone",
     "slug": "crude_sphere",
     "code": "DL6",
@@ -20148,7 +20606,7 @@
     "relatedEnemies": ["enemy_6005_llstone"]
   },
   {
-    "sort": 852,
+    "sort": 875,
     "id": "enemy_6007_mtslm",
     "slug": "drifting_cabin",
     "code": "DL7",
@@ -20174,7 +20632,7 @@
     "relatedEnemies": ["enemy_6008_mtslms"]
   },
   {
-    "sort": 853,
+    "sort": 876,
     "id": "enemy_6008_mtslms",
     "slug": "fluorescent_originium_slug",
     "code": "DL8",
@@ -20191,7 +20649,7 @@
     "relatedEnemies": ["enemy_6007_mtslm"]
   },
   {
-    "sort": 854,
+    "sort": 877,
     "id": "enemy_6009_nlkgtbs",
     "slug": "fruit_of_gluttony",
     "code": "DL9",
@@ -20221,7 +20679,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 855,
+    "sort": 878,
     "id": "enemy_6010_boxing",
     "slug": "'boy_wonder'_sandel",
     "code": "DL10",
@@ -20247,7 +20705,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 856,
+    "sort": 879,
     "id": "enemy_6011_planty",
     "slug": "nature's_compromise",
     "code": "DL11",
@@ -20277,7 +20735,7 @@
     "relatedEnemies": ["enemy_6012_plants"]
   },
   {
-    "sort": 857,
+    "sort": 880,
     "id": "enemy_6012_plants",
     "slug": "small_symbiont",
     "code": "DL12",
@@ -20294,7 +20752,7 @@
     "relatedEnemies": ["enemy_6011_planty"]
   },
   {
-    "sort": 858,
+    "sort": 881,
     "id": "enemy_6013_smith",
     "slug": "mama's_'rebel_girl'",
     "code": "DL13",
@@ -20324,7 +20782,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 859,
+    "sort": 882,
     "id": "enemy_6014_crzgas",
     "slug": "tumor",
     "code": "DL14",
@@ -20351,7 +20809,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 860,
+    "sort": 883,
     "id": "enemy_6015_ictruck",
     "slug": "supersweetie_smiley",
     "code": "DL15",
@@ -20389,7 +20847,7 @@
     "relatedEnemies": ["enemy_6017_icdrone"]
   },
   {
-    "sort": 861,
+    "sort": 884,
     "id": "enemy_6016_splash",
     "slug": "thirster",
     "code": "DL16",
@@ -20427,7 +20885,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 862,
+    "sort": 885,
     "id": "enemy_6017_icdrone",
     "slug": "supersweetie_delivery_drone",
     "code": "DL17",
@@ -20450,7 +20908,7 @@
     "relatedEnemies": ["enemy_6015_ictruck"]
   },
   {
-    "sort": 863,
+    "sort": 890,
     "id": "enemy_7001_blwzad",
     "slug": "tribal_shaman",
     "code": "SD1",
@@ -20472,7 +20930,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 864,
+    "sort": 891,
     "id": "enemy_7001_blwzad_2",
     "slug": "lord_ameer_shaman",
     "code": "SD2",
@@ -20494,7 +20952,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 865,
+    "sort": 892,
     "id": "enemy_7002_veingd",
     "slug": "vein_guardian",
     "code": "SD3",
@@ -20516,7 +20974,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 866,
+    "sort": 893,
     "id": "enemy_7002_veingd_2",
     "slug": "maddened_vein_guardian",
     "code": "SD4",
@@ -20538,7 +20996,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 867,
+    "sort": 894,
     "id": "enemy_7003_catapt",
     "slug": "anything_can_be_broken",
     "code": "SD5",
@@ -20560,7 +21018,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 868,
+    "sort": 895,
     "id": "enemy_7003_catapt_2",
     "slug": "everything_should_be_smashed",
     "code": "SD6",
@@ -20582,7 +21040,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 869,
+    "sort": 896,
     "id": "enemy_7004_xbdeer",
     "slug": "leporibeast_shorthorn",
     "code": "SD7",
@@ -20604,7 +21062,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 870,
+    "sort": 897,
     "id": "enemy_7004_xbdeer_2",
     "slug": "leporibeast_longhorn",
     "code": "SD8",
@@ -20626,7 +21084,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 871,
+    "sort": 898,
     "id": "enemy_7005_xbbull",
     "slug": "mossback_beast",
     "code": "SD9",
@@ -20649,7 +21107,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 872,
+    "sort": 899,
     "id": "enemy_7005_xbbull_2",
     "slug": "lush_mossback_beast",
     "code": "SD10",
@@ -20672,7 +21130,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 873,
+    "sort": 900,
     "id": "enemy_7006_xbcrab",
     "slug": "cragpincer",
     "code": "SD11",
@@ -20694,7 +21152,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 874,
+    "sort": 901,
     "id": "enemy_7006_xbcrab_2",
     "slug": "crystalline_cragpincer",
     "code": "SD12",
@@ -20716,7 +21174,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 875,
+    "sort": 902,
     "id": "enemy_7015_xbcrab2",
     "slug": "consortium_of_pincers",
     "code": "SD13",
@@ -20738,7 +21196,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 876,
+    "sort": 903,
     "id": "enemy_7007_xbbird",
     "slug": "sandfall_crystalhoof",
     "code": "SD14",
@@ -20761,7 +21219,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 878,
+    "sort": 905,
     "id": "enemy_7009_mtmoun",
     "slug": "the_immortal",
     "code": "SD16",
@@ -20787,7 +21245,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 879,
+    "sort": 906,
     "id": "enemy_7010_bldrgn",
     "slug": "great_wingbeast",
     "code": "SD17",
@@ -20817,7 +21275,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 880,
+    "sort": 907,
     "id": "enemy_7011_paki",
     "slug": "sargonian_contract_assassin",
     "code": "SD18",
@@ -20839,7 +21297,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 881,
+    "sort": 908,
     "id": "enemy_7012_wilder",
     "slug": "dauntless_linebreaker",
     "code": "SD19",
@@ -20867,7 +21325,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 882,
+    "sort": 909,
     "id": "enemy_7013_slwazd",
     "slug": "the_ruinbringer",
     "code": "SD20",
@@ -20896,7 +21354,7 @@
     "relatedEnemies": ["enemy_1021_bslime", "enemy_1021_bslime_2"]
   },
   {
-    "sort": 883,
+    "sort": 910,
     "id": "enemy_7014_dva",
     "slug": "al-rafiq",
     "code": "SD21",
@@ -20936,7 +21394,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 884,
+    "sort": 911,
     "id": "enemy_8006_flmgd",
     "slug": "reforged_retinue",
     "code": "SFR02",
@@ -20958,7 +21416,7 @@
     "relatedEnemies": ["enemy_8001_flmlod_3", "enemy_8001_flmlod_2"]
   },
   {
-    "sort": 887,
+    "sort": 914,
     "id": "enemy_8001_flmlod_3",
     "slug": "sverdsmeltr,_guardian_ember_of_the_king",
     "code": "SFR01",
