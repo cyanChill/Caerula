@@ -6,6 +6,8 @@ export const VoiceLangTable = {
   KR: "KR",
   LINKAGE: "Collaboration",
   ITA: "IT",
+  GER: "German",
+  RUS: "Russian"
 } as const;
 
 export type LanguageId = keyof typeof VoiceLangTable;
