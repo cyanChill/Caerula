@@ -4191,6 +4191,22 @@
     "usage": "Used to improve the Potential of Bassline.",
     "rarity": 5
   },
+  "p_char_194_leto": {
+    "id": "p_char_194_leto",
+    "iconId": "p_char_194_leto",
+    "name": "Leto's Token",
+    "description": "A bottle of honey beverage, emblematic of the taste of home. The moment Leto hands you this, she's gonna tell you 'chug.'",
+    "usage": "Used to improve the Potential of Leto.",
+    "rarity": 5
+  },
+  "p_char_4114_harold": {
+    "id": "p_char_4114_harold",
+    "iconId": "p_char_4114_harold",
+    "name": "Harold's Token",
+    "description": "A bottle of discerningly selected perfume. From what goes into it to how to use it, Harold has explained each aspect to you in laborious enough detail to drive one up the wall.",
+    "usage": "Used to improve the Potential of Harold.",
+    "rarity": 5
+  },
   "p_char_103_angel": {
     "id": "p_char_103_angel",
     "iconId": "p_char_103_angel",
@@ -4853,6 +4869,14 @@
     "name": "Virtuosa's Token",
     "description": "A pair of black gloves made from fine materials, bringing calm to the instrument's strings, and to the restless sounds of the heart.",
     "usage": "Used to improve the Potential of Virtuosa.",
+    "rarity": 6
+  },
+  "p_char_4116_blkkgt": {
+    "id": "p_char_4116_blkkgt",
+    "iconId": "p_char_4116_blkkgt",
+    "name": "Degenbrecher's Token",
+    "description": "A comms terminal that can only reach her number. Doesn't look any different to a regular comms terminal, but provides infinitely more relief.",
+    "usage": "Used to improve the Potential of Degenbrecher.",
     "rarity": 6
   },
   "class_p_char_123_fang": {
@@ -7647,6 +7671,22 @@
     "usage": "Boosts the pull rate of one chosen 6-star operator",
     "rarity": 6
   },
+  "classic_fes_pick_tier_5_4401": {
+    "id": "classic_fes_pick_tier_5_4401",
+    "iconId": "classic_fes_pick_tier_5",
+    "name": "Kernel Locating 5* Operator",
+    "description": "Boosts the pull rate of one chosen 5-star operator",
+    "usage": "Boosts the pull rate of one chosen 5-star operator",
+    "rarity": 6
+  },
+  "classic_fes_pick_tier_6_4401": {
+    "id": "classic_fes_pick_tier_6_4401",
+    "iconId": "classic_fes_pick_tier_6",
+    "name": "Kernel Locating 6* Operator",
+    "description": "Boosts the pull rate of one chosen 6-star operator",
+    "usage": "Boosts the pull rate of one chosen 6-star operator",
+    "rarity": 6
+  },
   "act27side_token_fur": {
     "id": "act27side_token_fur",
     "iconId": "act27side_token_fur",
@@ -7717,6 +7757,14 @@
     "name": "Sami Impressions Furniture Pack I",
     "description": "A Sami forest cabin recreated based on Magallan's notes and the supplementary reports from other operators who participated in the expedition. Quiet and simple, as things have always been.",
     "usage": "Obtain the furniture belonging to the two sets 'Dreamland Signposts' and 'Words of Nature' in the 'Sami Impressions' furniture series.",
+    "rarity": 5
+  },
+  "uni_set_samiRoom_2": {
+    "id": "uni_set_samiRoom_2",
+    "iconId": "uni_set_samiRoom_2",
+    "name": "Sami Impressions Furniture Pack II",
+    "description": "A Sami forest cabin recreated based on Magallan's notes and the supplementary reports from other operators who participated in the expedition. Quiet and simple, as things have always been.",
+    "usage": "Obtain the furniture belonging to the two sets 'Life in the Forest' and 'Fireside Twitters' in the 'Sami Impressions' furniture series.",
     "rarity": 5
   },
   "act28side_token_box": {
@@ -7791,20 +7839,12 @@
     "usage": "A folder storing personal notes. Lessing is obtained the first time this item is obtained, and can improve Lessing's Potential thereafter.",
     "rarity": 6
   },
-  "classic_fes_pick_tier_5_4401": {
-    "id": "classic_fes_pick_tier_5_4401",
-    "iconId": "classic_fes_pick_tier_5",
-    "name": "Kernel Locating 5* Operator",
-    "description": "Boosts the pull rate of one chosen 5-star operator",
-    "usage": "Boosts the pull rate of one chosen 5-star operator",
-    "rarity": 6
-  },
-  "classic_fes_pick_tier_6_4401": {
-    "id": "classic_fes_pick_tier_6_4401",
-    "iconId": "classic_fes_pick_tier_6",
-    "name": "Kernel Locating 6* Operator",
-    "description": "Boosts the pull rate of one chosen 6-star operator",
-    "usage": "Boosts the pull rate of one chosen 6-star operator",
-    "rarity": 6
+  "act30side_token_box": {
+    "id": "act30side_token_box",
+    "iconId": "act30side_token_box",
+    "name": "Burdenbeast Blind Box",
+    "description": "Blind boxes from the cultural industries in collaboration with 'BangBang Burdenbeast.' Collect all nine, including a limited-edition secret burdenbeast.\nNOTE: Pray faithfully to the newly erected Kjeragandr statue, and your odds of drawing the secret one go up!",
+    "usage": "Burdenbeast Blind Boxes—such a smash hit, Onboard Services ran out of stock for a time. That means this batch couldn't have come sooner, and the train attendants will be delighted to trade other goods for it.",
+    "rarity": 5
   }
 }

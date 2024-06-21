@@ -3573,6 +3573,29 @@
     "initSp": [15, 16, 17, 18, 19, 20, 21, 22, 23, 25],
     "duration": [20, 20, 20, 20, 20, 20, 21, 22, 23, 25]
   },
+  "skchr_leto_2": {
+    "id": "skchr_leto_2",
+    "iconId": "skchr_leto_2",
+    "name": "Answer the Call",
+    "description": [
+      "All [Ursus Student Self-Governing Group] Operators with skills ready activate their skills at the same time. Own ATK <span style=\"color:#0098DC;\">+20%</span>, attack an extra target, and ranged attacks no longer reduce ATK",
+      "All [Ursus Student Self-Governing Group] Operators with skills ready activate their skills at the same time. Own ATK <span style=\"color:#0098DC;\">+30%</span>, attack an extra target, and ranged attacks no longer reduce ATK",
+      "All [Ursus Student Self-Governing Group] Operators with skills ready activate their skills at the same time. Own ATK <span style=\"color:#0098DC;\">+40%</span>, attack an extra target, and ranged attacks no longer reduce ATK",
+      "All [Ursus Student Self-Governing Group] Operators with skills ready activate their skills at the same time. Own ATK <span style=\"color:#0098DC;\">+50%</span>, attack an extra target, and ranged attacks no longer reduce ATK",
+      "All [Ursus Student Self-Governing Group] Operators with skills ready activate their skills at the same time. Own ATK <span style=\"color:#0098DC;\">+60%</span>, attack an extra target, and ranged attacks no longer reduce ATK",
+      "All [Ursus Student Self-Governing Group] Operators with skills ready activate their skills at the same time. Own ATK <span style=\"color:#0098DC;\">+70%</span>, attack an extra target, and ranged attacks no longer reduce ATK",
+      "All [Ursus Student Self-Governing Group] Operators with skills ready activate their skills at the same time. Own ATK <span style=\"color:#0098DC;\">+80%</span>, attack an extra target, and ranged attacks no longer reduce ATK",
+      "All [Ursus Student Self-Governing Group] Operators with skills ready activate their skills at the same time. Own ATK <span style=\"color:#0098DC;\">+90%</span>, attack an extra target, and ranged attacks no longer reduce ATK",
+      "All [Ursus Student Self-Governing Group] Operators with skills ready activate their skills at the same time. Own ATK <span style=\"color:#0098DC;\">+100%</span>, attack an extra target, and ranged attacks no longer reduce ATK",
+      "All [Ursus Student Self-Governing Group] Operators with skills ready activate their skills at the same time. Own ATK <span style=\"color:#0098DC;\">+115%</span>, attack an extra target, and ranged attacks no longer reduce ATK"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [52, 49, 46, 43, 40, 37, 35, 32, 30, 28],
+    "initSp": [6, 7, 8, 9, 10, 11, 12, 14, 14, 16],
+    "duration": [25, 25, 25, 25, 25, 25, 25, 25, 25, 25]
+  },
   "skchr_bibeak_1": {
     "id": "skchr_bibeak_1",
     "iconId": "skchr_bibeak_1",
@@ -5986,6 +6009,29 @@
     "spRecovery": "Auto",
     "spCost": [55, 54, 53, 52, 51, 50, 49, 48, 47, 45],
     "initSp": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+    "duration": [25, 25, 25, 25, 25, 25, 25, 25, 25, 25]
+  },
+  "skchr_harold_2": {
+    "id": "skchr_harold_2",
+    "iconId": "skchr_harold_2",
+    "name": "Triage",
+    "description": [
+      "ASPD <span style=\"color:#0098DC;\">+40</span>, prioritize healing the target that has taken the most <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a>. When healing targets with more than 50% Elemental Damage, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> healed is increased to <span style=\"color:#0098DC;\">120%</span>",
+      "ASPD <span style=\"color:#0098DC;\">+45</span>, prioritize healing the target that has taken the most <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a>. When healing targets with more than 50% Elemental Damage, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> healed is increased to <span style=\"color:#0098DC;\">130%</span>",
+      "ASPD <span style=\"color:#0098DC;\">+50</span>, prioritize healing the target that has taken the most <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a>. When healing targets with more than 50% Elemental Damage, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> healed is increased to <span style=\"color:#0098DC;\">140%</span>",
+      "ASPD <span style=\"color:#0098DC;\">+55</span>, prioritize healing the target that has taken the most <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a>. When healing targets with more than 50% Elemental Damage, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> healed is increased to <span style=\"color:#0098DC;\">160%</span>",
+      "ASPD <span style=\"color:#0098DC;\">+60</span>, prioritize healing the target that has taken the most <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a>. When healing targets with more than 50% Elemental Damage, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> healed is increased to <span style=\"color:#0098DC;\">180%</span>",
+      "ASPD <span style=\"color:#0098DC;\">+70</span>, prioritize healing the target that has taken the most <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a>. When healing targets with more than 50% Elemental Damage, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> healed is increased to <span style=\"color:#0098DC;\">190%</span>",
+      "ASPD <span style=\"color:#0098DC;\">+80</span>, prioritize healing the target that has taken the most <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a>. When healing targets with more than 50% Elemental Damage, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> healed is increased to <span style=\"color:#0098DC;\">200%</span>",
+      "ASPD <span style=\"color:#0098DC;\">+90</span>, prioritize healing the target that has taken the most <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a>. When healing targets with more than 50% Elemental Damage, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> healed is increased to <span style=\"color:#0098DC;\">220%</span>",
+      "ASPD <span style=\"color:#0098DC;\">+90</span>, prioritize healing the target that has taken the most <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a>. When healing targets with more than 50% Elemental Damage, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> healed is increased to <span style=\"color:#0098DC;\">230%</span>",
+      "ASPD <span style=\"color:#0098DC;\">+100</span>, prioritize healing the target that has taken the most <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a>. When healing targets with more than 50% Elemental Damage, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Nervous Impairment, Corrosion Damage, Burn Damage, and Necrosis Damage\" href=\"/terminology#elemental_damage\">Elemental Damage</a> healed is increased to <span style=\"color:#0098DC;\">250%</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [40, 40, 40, 37, 37, 37, 35, 34, 32, 30],
+    "initSp": [10, 10, 10, 13, 13, 13, 15, 15, 15, 18],
     "duration": [25, 25, 25, 25, 25, 25, 25, 25, 25, 25]
   },
   "skchr_hbisc2_2": {
@@ -14379,6 +14425,75 @@
     "initSp": [0, 4, 8, 8, 12, 16, 16, 16, 16, 16],
     "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   },
+  "skchr_blkkgt_1": {
+    "id": "skchr_blkkgt_1",
+    "iconId": "skchr_blkkgt_1",
+    "name": "Pure Force",
+    "description": [
+      "The next attack deals <span style=\"color:#0098DC;\">160%</span> of ATK as Physical damage twice to up to <span style=\"color:#0098DC;\">5</span> nearby ground enemies",
+      "The next attack deals <span style=\"color:#0098DC;\">165%</span> of ATK as Physical damage twice to up to <span style=\"color:#0098DC;\">5</span> nearby ground enemies",
+      "The next attack deals <span style=\"color:#0098DC;\">170%</span> of ATK as Physical damage twice to up to <span style=\"color:#0098DC;\">5</span> nearby ground enemies",
+      "The next attack deals <span style=\"color:#0098DC;\">175%</span> of ATK as Physical damage twice to up to <span style=\"color:#0098DC;\">5</span> nearby ground enemies",
+      "The next attack deals <span style=\"color:#0098DC;\">180%</span> of ATK as Physical damage twice to up to <span style=\"color:#0098DC;\">5</span> nearby ground enemies",
+      "The next attack deals <span style=\"color:#0098DC;\">185%</span> of ATK as Physical damage twice to up to <span style=\"color:#0098DC;\">5</span> nearby ground enemies",
+      "The next attack deals <span style=\"color:#0098DC;\">190%</span> of ATK as Physical damage twice to up to <span style=\"color:#0098DC;\">6</span> nearby ground enemies",
+      "The next attack deals <span style=\"color:#0098DC;\">200%</span> of ATK as Physical damage twice to up to <span style=\"color:#0098DC;\">6</span> nearby ground enemies",
+      "The next attack deals <span style=\"color:#0098DC;\">210%</span> of ATK as Physical damage twice to up to <span style=\"color:#0098DC;\">6</span> nearby ground enemies",
+      "The next attack deals <span style=\"color:#0098DC;\">220%</span> of ATK as Physical damage twice to up to <span style=\"color:#0098DC;\">6</span> nearby ground enemies"
+    ],
+    "rangeId": "x-4",
+    "activationType": "Auto",
+    "spRecovery": "Offensive",
+    "spCost": [7, 7, 7, 6, 6, 6, 5, 4, 4, 3],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "skchr_blkkgt_2": {
+    "id": "skchr_blkkgt_2",
+    "iconId": "skchr_blkkgt_2",
+    "name": "Silent Derision",
+    "description": [
+      "Slash <span style=\"color:#0098DC;\">2</span> times at up to <span style=\"color:#0098DC;\">5</span> ground enemies ahead, or slash <span style=\"color:#0098DC;\">3</span> times when attacking blocked enemies. Talent trigger rate increased to <span style=\"color:#0098DC;\">100%</span>, and each slash deals <span style=\"color:#0098DC;\">220%</span> of ATK as Physical damage\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Slash <span style=\"color:#0098DC;\">2</span> times at up to <span style=\"color:#0098DC;\">5</span> ground enemies ahead, or slash <span style=\"color:#0098DC;\">3</span> times when attacking blocked enemies. Talent trigger rate increased to <span style=\"color:#0098DC;\">100%</span>, and each slash deals <span style=\"color:#0098DC;\">230%</span> of ATK as Physical damage\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Slash <span style=\"color:#0098DC;\">2</span> times at up to <span style=\"color:#0098DC;\">5</span> ground enemies ahead, or slash <span style=\"color:#0098DC;\">3</span> times when attacking blocked enemies. Talent trigger rate increased to <span style=\"color:#0098DC;\">100%</span>, and each slash deals <span style=\"color:#0098DC;\">235%</span> of ATK as Physical damage\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Slash <span style=\"color:#0098DC;\">2</span> times at up to <span style=\"color:#0098DC;\">5</span> ground enemies ahead, or slash <span style=\"color:#0098DC;\">3</span> times when attacking blocked enemies. Talent trigger rate increased to <span style=\"color:#0098DC;\">100%</span>, and each slash deals <span style=\"color:#0098DC;\">250%</span> of ATK as Physical damage\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Slash <span style=\"color:#0098DC;\">2</span> times at up to <span style=\"color:#0098DC;\">5</span> ground enemies ahead, or slash <span style=\"color:#0098DC;\">3</span> times when attacking blocked enemies. Talent trigger rate increased to <span style=\"color:#0098DC;\">100%</span>, and each slash deals <span style=\"color:#0098DC;\">260%</span> of ATK as Physical damage\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Slash <span style=\"color:#0098DC;\">2</span> times at up to <span style=\"color:#0098DC;\">5</span> ground enemies ahead, or slash <span style=\"color:#0098DC;\">3</span> times when attacking blocked enemies. Talent trigger rate increased to <span style=\"color:#0098DC;\">100%</span>, and each slash deals <span style=\"color:#0098DC;\">270%</span> of ATK as Physical damage\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Slash <span style=\"color:#0098DC;\">2</span> times at up to <span style=\"color:#0098DC;\">5</span> ground enemies ahead, or slash <span style=\"color:#0098DC;\">3</span> times when attacking blocked enemies. Talent trigger rate increased to <span style=\"color:#0098DC;\">100%</span>, and each slash deals <span style=\"color:#0098DC;\">280%</span> of ATK as Physical damage\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Slash <span style=\"color:#0098DC;\">2</span> times at up to <span style=\"color:#0098DC;\">6</span> ground enemies ahead, or slash <span style=\"color:#0098DC;\">3</span> times when attacking blocked enemies. Talent trigger rate increased to <span style=\"color:#0098DC;\">100%</span>, and each slash deals <span style=\"color:#0098DC;\">290%</span> of ATK as Physical damage\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Slash <span style=\"color:#0098DC;\">2</span> times at up to <span style=\"color:#0098DC;\">6</span> ground enemies ahead, or slash <span style=\"color:#0098DC;\">3</span> times when attacking blocked enemies. Talent trigger rate increased to <span style=\"color:#0098DC;\">100%</span>, and each slash deals <span style=\"color:#0098DC;\">300%</span> of ATK as Physical damage\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Slash <span style=\"color:#0098DC;\">2</span> times at up to <span style=\"color:#0098DC;\">6</span> ground enemies ahead, or slash <span style=\"color:#0098DC;\">3</span> times when attacking blocked enemies. Talent trigger rate increased to <span style=\"color:#0098DC;\">100%</span>, and each slash deals <span style=\"color:#0098DC;\">310%</span> of ATK as Physical damage\n<span style=\"color:#F49800;\">Can store 2 charges</span>"
+    ],
+    "rangeId": "1-4",
+    "activationType": "Manual",
+    "spRecovery": "Offensive",
+    "spCost": [18, 18, 18, 15, 15, 15, 12, 12, 12, 12],
+    "initSp": [0, 0, 0, 2, 2, 2, 5, 7, 8, 10],
+    "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "skchr_blkkgt_3": {
+    "id": "skchr_blkkgt_3",
+    "iconId": "skchr_blkkgt_3",
+    "name": "Return To Silence",
+    "description": [
+      "Slash <span style=\"color:#0098DC;\">10</span> times, each dealing <span style=\"color:#0098DC;\">150%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">5</span> enemies. Talent trigger chance increases to <span style=\"color:#0098DC;\">100%</span>, and continuously drags enemies towards self, with <span style=\"color:#0098DC;\">moderate</span> force. Then deal <span style=\"color:#0098DC;\">300%</span> of ATK as Physical damage once, and drag enemies towards self with <span style=\"color:#0098DC;\">significant</span> force",
+      "Slash <span style=\"color:#0098DC;\">10</span> times, each dealing <span style=\"color:#0098DC;\">160%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">5</span> enemies. Talent trigger chance increases to <span style=\"color:#0098DC;\">100%</span>, and continuously drags enemies towards self, with <span style=\"color:#0098DC;\">moderate</span> force. Then deal <span style=\"color:#0098DC;\">300%</span> of ATK as Physical damage once, and drag enemies towards self with <span style=\"color:#0098DC;\">significant</span> force",
+      "Slash <span style=\"color:#0098DC;\">10</span> times, each dealing <span style=\"color:#0098DC;\">170%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">5</span> enemies. Talent trigger chance increases to <span style=\"color:#0098DC;\">100%</span>, and continuously drags enemies towards self, with <span style=\"color:#0098DC;\">moderate</span> force. Then deal <span style=\"color:#0098DC;\">300%</span> of ATK as Physical damage once, and drag enemies towards self with <span style=\"color:#0098DC;\">significant</span> force",
+      "Slash <span style=\"color:#0098DC;\">10</span> times, each dealing <span style=\"color:#0098DC;\">180%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">5</span> enemies. Talent trigger chance increases to <span style=\"color:#0098DC;\">100%</span>, and continuously drags enemies towards self, with <span style=\"color:#0098DC;\">moderate</span> force. Then deal <span style=\"color:#0098DC;\">300%</span> of ATK as Physical damage once, and drag enemies towards self with <span style=\"color:#0098DC;\">significant</span> force",
+      "Slash <span style=\"color:#0098DC;\">10</span> times, each dealing <span style=\"color:#0098DC;\">190%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">5</span> enemies. Talent trigger chance increases to <span style=\"color:#0098DC;\">100%</span>, and continuously drags enemies towards self, with <span style=\"color:#0098DC;\">moderate</span> force. Then deal <span style=\"color:#0098DC;\">300%</span> of ATK as Physical damage once, and drag enemies towards self with <span style=\"color:#0098DC;\">significant</span> force",
+      "Slash <span style=\"color:#0098DC;\">10</span> times, each dealing <span style=\"color:#0098DC;\">195%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">5</span> enemies. Talent trigger chance increases to <span style=\"color:#0098DC;\">100%</span>, and continuously drags enemies towards self, with <span style=\"color:#0098DC;\">moderate</span> force. Then deal <span style=\"color:#0098DC;\">300%</span> of ATK as Physical damage once, and drag enemies towards self with <span style=\"color:#0098DC;\">significant</span> force",
+      "Slash <span style=\"color:#0098DC;\">10</span> times, each dealing <span style=\"color:#0098DC;\">200%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">6</span> enemies. Talent trigger chance increases to <span style=\"color:#0098DC;\">100%</span>, and continuously drags enemies towards self, with <span style=\"color:#0098DC;\">moderate</span> force. Then deal <span style=\"color:#0098DC;\">300%</span> of ATK as Physical damage once, and drag enemies towards self with <span style=\"color:#0098DC;\">significant</span> force",
+      "Slash <span style=\"color:#0098DC;\">10</span> times, each dealing <span style=\"color:#0098DC;\">210%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">6</span> enemies. Talent trigger chance increases to <span style=\"color:#0098DC;\">100%</span>, and continuously drags enemies towards self, with <span style=\"color:#0098DC;\">moderate</span> force. Then deal <span style=\"color:#0098DC;\">310%</span> of ATK as Physical damage once, and drag enemies towards self with <span style=\"color:#0098DC;\">significant</span> force",
+      "Slash <span style=\"color:#0098DC;\">10</span> times, each dealing <span style=\"color:#0098DC;\">220%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">6</span> enemies. Talent trigger chance increases to <span style=\"color:#0098DC;\">100%</span>, and continuously drags enemies towards self, with <span style=\"color:#0098DC;\">moderate</span> force. Then deal <span style=\"color:#0098DC;\">320%</span> of ATK as Physical damage once, and drag enemies towards self with <span style=\"color:#0098DC;\">significant</span> force",
+      "Slash <span style=\"color:#0098DC;\">10</span> times, each dealing <span style=\"color:#0098DC;\">235%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">6</span> enemies. Talent trigger chance increases to <span style=\"color:#0098DC;\">100%</span>, and continuously drags enemies towards self, with <span style=\"color:#0098DC;\">moderate</span> force. Then deal <span style=\"color:#0098DC;\">330%</span> of ATK as Physical damage once, and drag enemies towards self with <span style=\"color:#0098DC;\">significant</span> force"
+    ],
+    "rangeId": "x-1",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [35, 35, 35, 35, 35, 35, 33, 32, 32, 30],
+    "initSp": [10, 10, 10, 10, 10, 10, 15, 18, 18, 20],
+    "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
   "skchr_huang_1": {
     "id": "skchr_huang_1",
     "iconId": "skcom_powerstrike[3]",
@@ -17043,14 +17158,15 @@
     "iconId": "sktok_smpow",
     "name": "Activate",
     "description": [
-      "Removes the invulnerability of [Crazelyseon, the Ascendant of Cosmoi] for <span style=\"color:#0098DC;\">5</span> seconds;\n<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a> Effect: Extends the invulnerability removal effect to <span style=\"color:#0098DC;\">10</span> seconds, and additionally clears all [Seedbeds]"
+      "Removes the invulnerability of [Crazelyseon, the Ascendant of Cosmoi] for <span style=\"color:#0098DC;\">5</span> seconds;\n<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a> Effect: Extends the invulnerability removal effect to <span style=\"color:#0098DC;\">10</span> seconds, and additionally clears all [Seedbeds]",
+      "Removes the invulnerability of [Crazelyseon, the Ascendant of Cosmoi] for <span style=\"color:#0098DC;\">2.5</span> seconds;\n<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a> Effect: Extends the invulnerability removal effect to <span style=\"color:#0098DC;\">5</span> seconds, and additionally clears all [Seedbeds]"
     ],
     "rangeId": "x-2",
     "activationType": "Manual",
     "spRecovery": "Auto",
-    "spCost": [40],
-    "initSp": [0],
-    "duration": [-1]
+    "spCost": [40, 20],
+    "initSp": [0, 0],
+    "duration": [-1, -1]
   },
   "sktok_smbox": {
     "id": "sktok_smbox",
@@ -17608,5 +17724,31 @@
     "spCost": [0],
     "initSp": [0],
     "duration": [0]
+  },
+  "sktok_winfire": {
+    "id": "sktok_winfire",
+    "iconId": "sktok_winfire",
+    "name": "Ignite",
+    "description": [
+      "When activated, Operators in the 8 tiles surrounding the Emergency Heater become immune to the Frigid environmental effect"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [100],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_winstone": {
+    "id": "sktok_winstone",
+    "iconId": "sktok_winstone",
+    "name": "Emergency Ignition",
+    "description": ["Ignite an inactive Emergency Heater"],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
   }
 }

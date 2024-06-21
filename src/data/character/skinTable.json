@@ -2213,6 +2213,28 @@
       "artists": ["NoriZC"],
       "releasedAt": 0
     },
+    "char_194_leto_1": {
+      "id": "char_194_leto_1",
+      "usedBy": "char_194_leto",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Leto's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["Skade"],
+      "releasedAt": 0
+    },
+    "char_194_leto_2": {
+      "id": "char_194_leto_2",
+      "usedBy": "char_194_leto",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Leto's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["Skade"],
+      "releasedAt": 0
+    },
     "char_4083_chimes_1": {
       "id": "char_4083_chimes_1",
       "usedBy": "char_4083_chimes",
@@ -3421,6 +3443,28 @@
       "imgAlt": "Honeyberry's \"Elite 2\" skin",
       "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
       "artists": ["Liyu黎"],
+      "releasedAt": 0
+    },
+    "char_4114_harold_1": {
+      "id": "char_4114_harold_1",
+      "usedBy": "char_4114_harold",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Harold's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["一千"],
+      "releasedAt": 0
+    },
+    "char_4114_harold_2": {
+      "id": "char_4114_harold_2",
+      "usedBy": "char_4114_harold",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Harold's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["一千"],
       "releasedAt": 0
     },
     "char_1024_hbisc2_1": {
@@ -6283,6 +6327,28 @@
       "artists": ["aZLing4"],
       "releasedAt": 0
     },
+    "char_4116_blkkgt_1": {
+      "id": "char_4116_blkkgt_1",
+      "usedBy": "char_4116_blkkgt",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Degenbrecher's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["竜崎いち"],
+      "releasedAt": 0
+    },
+    "char_4116_blkkgt_2": {
+      "id": "char_4116_blkkgt_2",
+      "usedBy": "char_4116_blkkgt",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Degenbrecher's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["竜崎いち"],
+      "releasedAt": 0
+    },
     "char_017_huang_1": {
       "id": "char_017_huang_1",
       "usedBy": "char_017_huang",
@@ -7911,6 +7977,17 @@
       "artists": ["NoriZC"],
       "releasedAt": 1714496400
     },
+    "char_212_ansel_epoque#29": {
+      "id": "char_212_ansel_epoque#29",
+      "usedBy": "char_212_ansel",
+      "brandId": "epoque",
+      "subBrand": { "id": "2023#epoque#11", "name": "EPOQUE/XXIX" },
+      "name": "Nighttime Café",
+      "imgAlt": "Ansel's \"Nighttime Café\" skin",
+      "description": "EPOQUE Collection New Arrivals/Nighttime Café. Always meticulous, Ansel likes to be properly dressed at the café as well. He steadfastly refuses to sell coffee at night, however.",
+      "artists": ["一立里子"],
+      "releasedAt": 1720522800
+    },
     "char_120_hibisc_nian#1": {
       "id": "char_120_hibisc_nian#1",
       "usedBy": "char_120_hibisc",
@@ -9352,6 +9429,39 @@
       "artists": ["折射镜"],
       "releasedAt": 1689678000
     },
+    "char_4065_judge_snow#6": {
+      "id": "char_4065_judge_snow#6",
+      "usedBy": "char_4065_judge",
+      "brandId": "xmas",
+      "subBrand": { "id": "2023#xmas", "name": "Icefield Messenger/VI" },
+      "name": "Occasionally Flushed",
+      "imgAlt": "Penance's \"Occasionally Flushed\" skin",
+      "description": "Penance's casual outdoor wear/Occasionally Flushed. Sometimes, Lavinia will tolerate a hint of aqua between her otherwise pure black skirt and white coat.",
+      "artists": ["IRIS_呓"],
+      "releasedAt": 1718971200
+    },
+    "char_343_tknogi_snow#6": {
+      "id": "char_343_tknogi_snow#6",
+      "usedBy": "char_343_tknogi",
+      "brandId": "xmas",
+      "subBrand": { "id": "2023#xmas", "name": "Icefield Messenger/VI" },
+      "name": "Dance",
+      "imgAlt": "Tsukinogi's \"Dance\" skin",
+      "description": "Tsukinogi's formal dress for festive occasions/Dance. The flimsy red skirt and sturdy white shawl are like flowing fire and burning snow. Shall we dance?",
+      "artists": ["上埜"],
+      "releasedAt": 1718971200
+    },
+    "char_466_qanik_snow#6": {
+      "id": "char_466_qanik_snow#6",
+      "usedBy": "char_466_qanik",
+      "brandId": "xmas",
+      "subBrand": { "id": "2023#xmas", "name": "Icefield Messenger/VI" },
+      "name": "Gratitude Gift",
+      "imgAlt": "Qanipalaat's \"Gratitude Gift\" skin",
+      "description": "Formal wear that Qanipalaat got on holiday/Gratitude Gift. Always one to gift Sami specialties, he's now received a gift in return. He smiled to learn that Victorian garb went well with his tail.",
+      "artists": ["三目YYB"],
+      "releasedAt": 1718971200
+    },
     "char_103_angel_wild#1": {
       "id": "char_103_angel_wild#1",
       "usedBy": "char_103_angel",
@@ -9786,8 +9896,8 @@
       "usedBy": "char_201_moeshd",
       "brandId": "kitchen",
       "subBrand": { "id": "2020#kitchen", "name": "Rhodes Kitchen" },
-      "name": "Seven in the Morning",
-      "imgAlt": "Croissant's \"Seven in the Morning\" skin",
+      "name": "1899/12/30 7:00:00",
+      "imgAlt": "Croissant's \"1899/12/30 7:00:00\" skin",
       "description": "Rhodes Kitchen Collection/Seven in the Morning. Designed by Croissant. Actually just recycled Exusiai's design because it's cheaper to do it that way.",
       "artists": ["幻象黑兔"],
       "releasedAt": 1717606800
@@ -10624,7 +10734,7 @@
     "char_507_rsnipe": ["char_507_rsnipe_1"],
     "char_121_lava": ["char_121_lava_1"],
     "char_120_hibisc": ["char_120_hibisc_1", "char_120_hibisc_nian#1"],
-    "char_212_ansel": ["char_212_ansel_1", "char_212_ansel_summer#1"],
+    "char_212_ansel": ["char_212_ansel_1", "char_212_ansel_summer#1", "char_212_ansel_epoque#29"],
     "char_506_rmedic": ["char_506_rmedic_1"],
     "char_210_stward": ["char_210_stward_1", "char_210_stward_sale#6"],
     "char_505_rcast": ["char_505_rcast_1"],
@@ -10783,6 +10893,7 @@
     "char_157_dagda": ["char_157_dagda_1", "char_157_dagda_2"],
     "char_140_whitew": ["char_140_whitew_1", "char_140_whitew_2", "char_140_whitew_boc#1"],
     "char_294_ayer": ["char_294_ayer_1", "char_294_ayer_2", "char_294_ayer_boc#3"],
+    "char_194_leto": ["char_194_leto_1", "char_194_leto_2"],
     "char_4083_chimes": ["char_4083_chimes_1", "char_4083_chimes_2"],
     "char_252_bibeak": ["char_252_bibeak_1", "char_252_bibeak_2", "char_252_bibeak_winter#2"],
     "char_459_tachak": ["char_459_tachak_1", "char_459_tachak_2", "char_459_tachak_rainbow6#1"],
@@ -10827,7 +10938,7 @@
     ],
     "char_405_absin": ["char_405_absin_1", "char_405_absin_2", "char_405_absin_epoque#28"],
     "char_411_tomimi": ["char_411_tomimi_1", "char_411_tomimi_2", "char_411_tomimi_summer#5"],
-    "char_466_qanik": ["char_466_qanik_1", "char_466_qanik_2"],
+    "char_466_qanik": ["char_466_qanik_1", "char_466_qanik_2", "char_466_qanik_snow#6"],
     "char_166_skfire": ["char_166_skfire_1", "char_166_skfire_2", "char_166_skfire_summer#1"],
     "char_509_acast": ["char_509_acast_1"],
     "char_306_leizi": ["char_306_leizi_1", "char_306_leizi_2"],
@@ -10886,6 +10997,7 @@
       "char_473_mberry_nian#9"
     ],
     "char_449_glider": ["char_449_glider_1", "char_449_glider_2", "char_449_glider_epoque#17"],
+    "char_4114_harold": ["char_4114_harold_1", "char_4114_harold_2"],
     "char_1024_hbisc2": ["char_1024_hbisc2_1", "char_1024_hbisc2_2"],
     "char_494_vendla": ["char_494_vendla_1", "char_494_vendla_2"],
     "char_4071_peper": ["char_4071_peper_1", "char_4071_peper_2", "char_4071_peper_whirlwind#5"],
@@ -10960,7 +11072,12 @@
       "char_101_sora_epoque#17"
     ],
     "char_4045_heidi": ["char_4045_heidi_1", "char_4045_heidi_2", "char_4045_heidi_epoque#24"],
-    "char_343_tknogi": ["char_343_tknogi_1", "char_343_tknogi_2", "char_343_tknogi_epoque#9"],
+    "char_343_tknogi": [
+      "char_343_tknogi_1",
+      "char_343_tknogi_2",
+      "char_343_tknogi_epoque#9",
+      "char_343_tknogi_snow#6"
+    ],
     "char_4019_ncdeer": ["char_4019_ncdeer_1", "char_4019_ncdeer_2", "char_4019_ncdeer_ncdeer#1"],
     "char_492_quercu": [
       "char_492_quercu_1",
@@ -11135,7 +11252,7 @@
       "char_311_mudrok_summer#6",
       "char_311_mudrok_ambienceSynesthesia#2"
     ],
-    "char_4065_judge": ["char_4065_judge_1", "char_4065_judge_2"],
+    "char_4065_judge": ["char_4065_judge_1", "char_4065_judge_2", "char_4065_judge_snow#6"],
     "char_416_zumama": ["char_416_zumama_1", "char_416_zumama_2", "char_416_zumama_boc#3"],
     "char_4039_horn": ["char_4039_horn_1", "char_4039_horn_2", "char_4039_horn_epoque#24"],
     "char_1034_jesca2": ["char_1034_jesca2_1", "char_1034_jesca2_2"],
@@ -11166,6 +11283,7 @@
       "char_4009_irene_2",
       "char_4009_irene_ambienceSynesthesia#3"
     ],
+    "char_4116_blkkgt": ["char_4116_blkkgt_1", "char_4116_blkkgt_2"],
     "char_017_huang": ["char_017_huang_1", "char_017_huang_2", "char_017_huang_as#1"],
     "char_1026_gvial2": ["char_1026_gvial2_1", "char_1026_gvial2_2", "char_1026_gvial2_summer#12"],
     "char_350_surtr": [
