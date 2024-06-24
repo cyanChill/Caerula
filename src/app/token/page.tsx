@@ -2,7 +2,7 @@ import type { Metadata, ResolvingMetadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
-import type { OperatorId, TokenClassification } from "@/data/types/AKCharacter";
+import type { TokenClassification } from "@/data/types/AKCharacter";
 import OperatorTable from "@/data/operator/operatorTable.json";
 import TokenTable from "@/data/token/tokenTable.json";
 
@@ -68,9 +68,9 @@ function ClassificationSection({ type }: { type: TokenClassification }) {
   // Sort ids by the operator's name
   const sortedOpTokenOwners = tokenOwners
     .filter((id) => !!id)
-    .map((id) => ({ id, name: OperatorTable[id!].displayName }))
+    .map((id) => ({ id, name: OperatorTable[id].displayName }))
     .sort((a, b) => a.name.localeCompare(b.name))
-    .map(({ id }) => id) as OperatorId[];
+    .map(({ id }) => id);
 
   return (
     <section aria-labelledby={type} className="space-y-2">

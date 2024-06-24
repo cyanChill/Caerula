@@ -141,7 +141,7 @@ function getTokenAnalysisContent(id: TokenId) {
     ] as Recipient[],
     skills: token.skillIds
       .filter((id) => !!id)
-      .map((skillId) => SkillTable[skillId!])
+      .map((skillId) => SkillTable[skillId])
       .filter((info, idx, arr) =>
         idx === 0 ? !!info : !!info && info.name !== arr[idx - 1].name,
       ),

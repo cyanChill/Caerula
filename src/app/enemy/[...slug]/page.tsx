@@ -122,7 +122,7 @@ function HeadingContent({
         />
       )}
 
-      <p className="min-h-[1lh] text-sm	text-[#7AAAA6]">{race}</p>
+      <p className="min-h-[1lh] text-sm text-[#7AAAA6]">{race}</p>
       <div className="flex gap-2">
         <span
           aria-hidden="true"
@@ -135,7 +135,7 @@ function HeadingContent({
         </h2>
       </div>
       <div className="flex items-center justify-between gap-2">
-        <p className="min-h-[1lh] text-sm	text-neutral-80">{attackPattern}</p>
+        <p className="min-h-[1lh] text-sm text-neutral-80">{attackPattern}</p>
         <LPCost {...{ lifePointReduction }} />
       </div>
     </header>
@@ -291,11 +291,7 @@ function Relations({ relatedEnemies }: Pick<Enemy, "relatedEnemies">) {
     <section>
       <h3 className="mb-2 text-lg font-bold">Related Enemies</h3>
       <ul className="mx-2 grid gap-2 text-sm">
-        {/* 
-          FIXME: Eslint thinks that `enemies` is `(Enemy | undefined)[]`
-          when it's asserted earlier that it's `Enemy[]`
-        */}
-        {(enemies as Enemy[]).map(({ id, slug, name }) => (
+        {enemies.map(({ id, slug, name }) => (
           <li key={id}>
             <Link
               href={`/enemy/${slug}`}
