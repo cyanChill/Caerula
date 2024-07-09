@@ -185,6 +185,11 @@
         "name": "Necrosis Damage - Player",
         "description": "Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), inflicting 50%Enfeeble that gradually recovers, and dealing 800 Elemental Damage per second. 15s cooldown.",
         "slug": "necrosis_damage_-_player"
+      },
+      "ba.dt.burning2": {
+        "name": "Burn damage - Player",
+        "description": "Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.",
+        "slug": "burn_damage_-_player"
       }
     }
   },

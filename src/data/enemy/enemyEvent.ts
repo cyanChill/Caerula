@@ -1035,6 +1035,10 @@ export const EnemyEventTable: Record<
       "enemy_6015_ictruck",
       "enemy_6016_splash",
       "enemy_6017_icdrone",
+      "enemy_6018_carrier",
+      "enemy_6019_escort",
+      "enemy_6020_orang",
+      "enemy_6021_cask",
     ],
   },
   /* Reclamation Algorithm */

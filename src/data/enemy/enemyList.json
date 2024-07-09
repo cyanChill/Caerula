@@ -20908,6 +20908,120 @@
     "relatedEnemies": ["enemy_6015_ictruck"]
   },
   {
+    "sort": 886,
+    "id": "enemy_6018_carrier",
+    "slug": "hatred_without_root",
+    "code": "DL18",
+    "name": "'Hatred Without Root'",
+    "description": "An airborne command center for agricultural drones. Long has it tended the crops in the field, even treating them as its own, but it is nevertheless lonely because of its rootless wandering. Malware has turned its loneliness into hatred for all who dwell on the ground.",
+    "race": "Drone",
+    "type": "BOSS",
+    "attackPattern": "None",
+    "abilityList": [
+      { "text": "Flying unit.", "textFormat": "NORMAL" },
+      {
+        "text": "Periodically summons drones at its location",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When there are drones nearby, gain <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Spread Malice] Summons several &lt;Seeding Drones&gt; and temporarily gives all drones within an area extra ATK and HP. If there are no nearby &lt;Seeding Drones&gt; when skill ends, stops moving and temporarily gains <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Amplifies all Physical, Arts, and True damage taken by the corresponding amount (only the strongest effect of this type applies)\" href=\"/terminology#fragile\">Fragile</a>",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 3,
+    "weight": 5,
+    "isFlying": true,
+    "relatedEnemies": [
+      "enemy_6019_escort",
+      "enemy_1005_yokai_2",
+      "enemy_1041_lazerd",
+      "enemy_1106_byokai"
+    ]
+  },
+  {
+    "sort": 887,
+    "id": "enemy_6019_escort",
+    "slug": "seeding_drone",
+    "code": "DL19",
+    "name": "Seeding Drone",
+    "description": "Agriculture drone equipped with a variety of tools for seeding, watering, fertilizing, etc. It is proud of its role, and of its natural fertilizer fermentation system. 'No one can refuse some steaming hot fertilizer.'",
+    "race": "Drone",
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Every 3rd attack <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> your Operators for several seconds",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Sleep", "Levitate"],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": true,
+    "relatedEnemies": ["enemy_6018_carrier"]
+  },
+  {
+    "sort": 888,
+    "id": "enemy_6020_orang",
+    "slug": "spirit_of_liquor",
+    "code": "DL20",
+    "name": "'Spirit of Liquor'",
+    "description": "The 'ultimate automaton' developed by the Liquor Association, with the power to 'squash ten kegs at the same time.' In accordance with an environmental protection pact with Acahualla, the armor plates are made from recycled kegs. Considered one of the competition's favorites, it went berserk when champagne from the opening ceremony seeped into its control chip.",
+    "race": "Machina",
+    "type": "BOSS",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a>, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, attack, or use skills (inflicted through the Cold status); When enemies are frozen, RES -15\" href=\"/terminology#frozen\">Frozen</a>, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a>, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Invulnerable and unable to take any actions\" href=\"/terminology#sleep\">Sleep</a>; temporarily loses immunity when affected by &lt;Long Live Mead!&gt;",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "ATK increased after each attack (with stack limit), resets after some time without attacking",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Aged Mead] Throws &lt;Aged Mead&gt; at one of your Operators after losing a percentage of HP. The Operator is <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stunned</a> while &lt;Aged Mead&gt; is on the battlefield. &lt;Aged Mead&gt; can be attacked and is added to the Deployment Waiting Zone as &lt;Long Live Mead!&gt; when defeated",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Periodically targets one of your units and throws a can after a delay, dealing Physical splash damage and inflicting<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a>",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 3,
+    "weight": 6,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_6021_cask"]
+  },
+  {
+    "sort": 889,
+    "id": "enemy_6021_cask",
+    "slug": "aged_mead",
+    "code": "DL21",
+    "name": "Aged Mead",
+    "description": "Mead that has been aged for more than a decade, with a strong flowery scent. The Liquor Association stole it to deal a blow to the Mead Association, an attempt that resulted in some of its members turning traitor, leading to turmoil within. It has now become a weapon of revenge for the Liquor Association.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "None",
+    "abilityList": [
+      {
+        "text": "More likely to be attacked, causes the target Operator to be <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stunned</a> while on the battlefield; added to the Deployment Waiting Zone as &lt;Long Live Mead!&gt; when defeated",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 0,
+    "weight": 5,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_6020_orang"]
+  },
+  {
     "sort": 890,
     "id": "enemy_7001_blwzad",
     "slug": "tribal_shaman",

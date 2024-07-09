@@ -12398,6 +12398,58 @@
       "atkRange": -1
     }
   ],
+  "enemy_6018_carrier": [
+    {
+      "hp": 96000,
+      "atk": 300,
+      "def": 605,
+      "res": 65,
+      "mvSpd": 0.4,
+      "atkInterval": 5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": -1
+    }
+  ],
+  "enemy_6019_escort": [
+    {
+      "hp": 6500,
+      "atk": 340,
+      "def": 250,
+      "res": 50,
+      "mvSpd": 0.5,
+      "atkInterval": 4.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 2.2
+    }
+  ],
+  "enemy_6020_orang": [
+    {
+      "hp": 99000,
+      "atk": 700,
+      "def": 1700,
+      "res": 50,
+      "mvSpd": 0.7,
+      "atkInterval": 4,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
+  "enemy_6021_cask": [
+    {
+      "hp": 6000,
+      "atk": 50,
+      "def": 100,
+      "res": 10,
+      "mvSpd": 0,
+      "atkInterval": 2.5,
+      "erst": 0,
+      "irst": 0,
+      "atkRange": 0
+    }
+  ],
   "enemy_7001_blwzad": [
     {
       "hp": 5000,

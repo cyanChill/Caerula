@@ -5390,6 +5390,52 @@
     "initSp": [10, 10, 10, 10, 10, 10, 15, 15, 15, 20],
     "duration": [25, 25, 25, 30, 30, 30, 35, 35, 35, 35]
   },
+  "skchr_warmy_1": {
+    "id": "skchr_warmy_1",
+    "iconId": "skchr_warmy_1",
+    "name": "Burning Flames",
+    "description": [
+      "ASPD <span style=\"color:#0098DC;\">+40</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+45</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+50</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+55</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+60</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+65</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+70</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+80</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+90</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+100</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [30, 29, 28, 27, 26, 25, 23, 22, 21, 20],
+    "initSp": [0, 1, 2, 3, 4, 5, 6, 7, 8, 10],
+    "duration": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
+  },
+  "skchr_warmy_2": {
+    "id": "skchr_warmy_2",
+    "iconId": "skchr_warmy_2",
+    "name": "Scorching Stream",
+    "description": [
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+110%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+120%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+130%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+140%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+150%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+160%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+170%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+180%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+190%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+200%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [30, 30, 30, 25, 25, 25, 20, 20, 20, 20],
+    "initSp": [0, 0, 0, 5, 5, 5, 10, 10, 12, 12],
+    "duration": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15]
+  },
   "skchr_lionhd_2": {
     "id": "skchr_lionhd_2",
     "iconId": "skchr_lionhd_2",
@@ -9621,6 +9667,98 @@
     "spCost": [70, 70, 70, 65, 65, 65, 60, 58, 56, 55],
     "initSp": [15, 15, 15, 20, 20, 20, 25, 27, 29, 30],
     "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_ray_1": {
+    "id": "skchr_ray_1",
+    "iconId": "skchr_ray_1",
+    "name": "Parting Shot",
+    "description": [
+      "Fire a special bullet, dealing <span style=\"color:#0098DC;\">220%</span> of ATK as Physical damage and pushing the target back <span style=\"color:#0098DC;\">moderately</span>. If target is defeated, the next reload loads <span style=\"color:#0098DC;\">1</span> additional bullet(s)\n<span style=\"color:#F49800;\">Can store 1 charge</span>",
+      "Fire a special bullet, dealing <span style=\"color:#0098DC;\">240%</span> of ATK as Physical damage and pushing the target back <span style=\"color:#0098DC;\">moderately</span>. If target is defeated, the next reload loads <span style=\"color:#0098DC;\">1</span> additional bullet(s)\n<span style=\"color:#F49800;\">Can store 1 charge</span>",
+      "Fire a special bullet, dealing <span style=\"color:#0098DC;\">260%</span> of ATK as Physical damage and pushing the target back <span style=\"color:#0098DC;\">moderately</span>. If target is defeated, the next reload loads <span style=\"color:#0098DC;\">1</span> additional bullet(s)\n<span style=\"color:#F49800;\">Can store 1 charge</span>",
+      "Fire a special bullet, dealing <span style=\"color:#0098DC;\">290%</span> of ATK as Physical damage and pushing the target back <span style=\"color:#0098DC;\">moderately</span>. If target is defeated, the next reload loads <span style=\"color:#0098DC;\">1</span> additional bullet(s)\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Fire a special bullet, dealing <span style=\"color:#0098DC;\">310%</span> of ATK as Physical damage and pushing the target back <span style=\"color:#0098DC;\">moderately</span>. If target is defeated, the next reload loads <span style=\"color:#0098DC;\">1</span> additional bullet(s)\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Fire a special bullet, dealing <span style=\"color:#0098DC;\">330%</span> of ATK as Physical damage and pushing the target back <span style=\"color:#0098DC;\">moderately</span>. If target is defeated, the next reload loads <span style=\"color:#0098DC;\">1</span> additional bullet(s)\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Fire a special bullet, dealing <span style=\"color:#0098DC;\">360%</span> of ATK as Physical damage and pushing the target back <span style=\"color:#0098DC;\">moderately</span>. If target is defeated, the next reload loads <span style=\"color:#0098DC;\">1</span> additional bullet(s)\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Fire a special bullet, dealing <span style=\"color:#0098DC;\">390%</span> of ATK as Physical damage and pushing the target back <span style=\"color:#0098DC;\">moderately</span>. If target is defeated, the next reload loads <span style=\"color:#0098DC;\">2</span> additional bullet(s)\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Fire a special bullet, dealing <span style=\"color:#0098DC;\">420%</span> of ATK as Physical damage and pushing the target back <span style=\"color:#0098DC;\">moderately</span>. If target is defeated, the next reload loads <span style=\"color:#0098DC;\">2</span> additional bullet(s)\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Fire a special bullet, dealing <span style=\"color:#0098DC;\">450%</span> of ATK as Physical damage and pushing the target back <span style=\"color:#0098DC;\">significantly</span>. If target is defeated, the next reload loads <span style=\"color:#0098DC;\">2</span> additional bullet(s)\n<span style=\"color:#F49800;\">Can store 2 charges</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [16, 16, 16, 14, 14, 14, 12, 12, 12, 10],
+    "initSp": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_ray_2": {
+    "id": "skchr_ray_2",
+    "iconId": "skchr_ray_2",
+    "name": "Area Overwatch",
+    "description": [
+      "Passive: When the sandbeast retreats, recover all bullets that hit in the area\nAutomatic: Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+30%</span>, sandbeast redeployment time <span style=\"color:#0098DC;\">-10%</span>\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "Passive: When the sandbeast retreats, recover all bullets that hit in the area\nAutomatic: Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+40%</span>, sandbeast redeployment time <span style=\"color:#0098DC;\">-10%</span>\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "Passive: When the sandbeast retreats, recover all bullets that hit in the area\nAutomatic: Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+50%</span>, sandbeast redeployment time <span style=\"color:#0098DC;\">-10%</span>\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "Passive: When the sandbeast retreats, recover all bullets that hit in the area\nAutomatic: Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+60%</span>, sandbeast redeployment time <span style=\"color:#0098DC;\">-20%</span>\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "Passive: When the sandbeast retreats, recover all bullets that hit in the area\nAutomatic: Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+70%</span>, sandbeast redeployment time <span style=\"color:#0098DC;\">-20%</span>\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "Passive: When the sandbeast retreats, recover all bullets that hit in the area\nAutomatic: Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+80%</span>, sandbeast redeployment time <span style=\"color:#0098DC;\">-20%</span>\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "Passive: When the sandbeast retreats, recover all bullets that hit in the area\nAutomatic: Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+90%</span>, sandbeast redeployment time <span style=\"color:#0098DC;\">-30%</span>\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "Passive: When the sandbeast retreats, recover all bullets that hit in the area\nAutomatic: Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+100%</span>, sandbeast redeployment time <span style=\"color:#0098DC;\">-30%</span>\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "Passive: When the sandbeast retreats, recover all bullets that hit in the area\nAutomatic: Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+110%</span>, sandbeast redeployment time <span style=\"color:#0098DC;\">-30%</span>\n<span style=\"color:#F49800;\">Unlimited duration</span>",
+      "Passive: When the sandbeast retreats, recover all bullets that hit in the area\nAutomatic: Attack Range <span style=\"color:#0098DC;\">increases</span>, ATK <span style=\"color:#0098DC;\">+120%</span>, sandbeast redeployment time <span style=\"color:#0098DC;\">-40%</span>\n<span style=\"color:#F49800;\">Unlimited duration</span>"
+    ],
+    "rangeId": "4-10",
+    "activationType": "Auto",
+    "spRecovery": "Offensive",
+    "spCost": [16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "sktok_ray_2": {
+    "id": "sktok_ray_2",
+    "iconId": "sktok_ray_sndbst",
+    "name": "Area Overwatch",
+    "description": [
+      "When retreating, retrieves Ray's bullets that hit in the area",
+      "When retreating, retrieves Ray's bullets that hit in the area",
+      "When retreating, retrieves Ray's bullets that hit in the area",
+      "When retreating, retrieves Ray's bullets that hit in the area",
+      "When retreating, retrieves Ray's bullets that hit in the area",
+      "When retreating, retrieves Ray's bullets that hit in the area",
+      "When retreating, retrieves Ray's bullets that hit in the area",
+      "When retreating, retrieves Ray's bullets that hit in the area",
+      "When retreating, retrieves Ray's bullets that hit in the area",
+      "When retreating, retrieves Ray's bullets that hit in the area"
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_ray_3": {
+    "id": "skchr_ray_3",
+    "iconId": "skchr_ray_3",
+    "name": "'See the Light'",
+    "description": [
+      "Immediately <span style=\"color:#FF6237;\">stop attacking</span> until fully loaded, reload interval <span style=\"color:#0098DC;\">greatly reduces</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, attacks deal <span style=\"color:#0098DC;\">190%</span> of ATK as Physical damage and bind the enemy for <span style=\"color:#0098DC;\">2</span>s\n<span style=\"color:#F49800;\">If an enemy is defeated while skill is active, gain 10 SP when skill ends</span>",
+      "Immediately <span style=\"color:#FF6237;\">stop attacking</span> until fully loaded, reload interval <span style=\"color:#0098DC;\">greatly reduces</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, attacks deal <span style=\"color:#0098DC;\">200%</span> of ATK as Physical damage and bind the enemy for <span style=\"color:#0098DC;\">2</span>s\n<span style=\"color:#F49800;\">If an enemy is defeated while skill is active, gain 10 SP when skill ends</span>",
+      "Immediately <span style=\"color:#FF6237;\">stop attacking</span> until fully loaded, reload interval <span style=\"color:#0098DC;\">greatly reduces</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, attacks deal <span style=\"color:#0098DC;\">210%</span> of ATK as Physical damage and bind the enemy for <span style=\"color:#0098DC;\">2</span>s\n<span style=\"color:#F49800;\">If an enemy is defeated while skill is active, gain 10 SP when skill ends</span>",
+      "Immediately <span style=\"color:#FF6237;\">stop attacking</span> until fully loaded, reload interval <span style=\"color:#0098DC;\">greatly reduces</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, attacks deal <span style=\"color:#0098DC;\">230%</span> of ATK as Physical damage and bind the enemy for <span style=\"color:#0098DC;\">2</span>s\n<span style=\"color:#F49800;\">If an enemy is defeated while skill is active, gain 10 SP when skill ends</span>",
+      "Immediately <span style=\"color:#FF6237;\">stop attacking</span> until fully loaded, reload interval <span style=\"color:#0098DC;\">greatly reduces</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, attacks deal <span style=\"color:#0098DC;\">240%</span> of ATK as Physical damage and bind the enemy for <span style=\"color:#0098DC;\">2</span>s\n<span style=\"color:#F49800;\">If an enemy is defeated while skill is active, gain 10 SP when skill ends</span>",
+      "Immediately <span style=\"color:#FF6237;\">stop attacking</span> until fully loaded, reload interval <span style=\"color:#0098DC;\">greatly reduces</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, attacks deal <span style=\"color:#0098DC;\">250%</span> of ATK as Physical damage and bind the enemy for <span style=\"color:#0098DC;\">2</span>s\n<span style=\"color:#F49800;\">If an enemy is defeated while skill is active, gain 10 SP when skill ends</span>",
+      "Immediately <span style=\"color:#FF6237;\">stop attacking</span> until fully loaded, reload interval <span style=\"color:#0098DC;\">greatly reduces</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, attacks deal <span style=\"color:#0098DC;\">270%</span> of ATK as Physical damage and bind the enemy for <span style=\"color:#0098DC;\">2</span>s\n<span style=\"color:#F49800;\">If an enemy is defeated while skill is active, gain 10 SP when skill ends</span>",
+      "Immediately <span style=\"color:#FF6237;\">stop attacking</span> until fully loaded, reload interval <span style=\"color:#0098DC;\">greatly reduces</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, attacks deal <span style=\"color:#0098DC;\">290%</span> of ATK as Physical damage and bind the enemy for <span style=\"color:#0098DC;\">2</span>s\n<span style=\"color:#F49800;\">If an enemy is defeated while skill is active, gain 10 SP when skill ends</span>",
+      "Immediately <span style=\"color:#FF6237;\">stop attacking</span> until fully loaded, reload interval <span style=\"color:#0098DC;\">greatly reduces</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, attacks deal <span style=\"color:#0098DC;\">310%</span> of ATK as Physical damage and bind the enemy for <span style=\"color:#0098DC;\">2</span>s\n<span style=\"color:#F49800;\">If an enemy is defeated while skill is active, gain 10 SP when skill ends</span>",
+      "Immediately <span style=\"color:#FF6237;\">stop attacking</span> until fully loaded, reload interval <span style=\"color:#0098DC;\">greatly reduces</span>, Attack Range <span style=\"color:#0098DC;\">increases</span>, attacks deal <span style=\"color:#0098DC;\">330%</span> of ATK as Physical damage and bind the enemy for <span style=\"color:#0098DC;\">2</span>s\n<span style=\"color:#F49800;\">If an enemy is defeated while skill is active, gain 10 SP when skill ends</span>"
+    ],
+    "rangeId": "3-8",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [40, 39, 38, 37, 36, 35, 33, 32, 31, 30],
+    "initSp": [10, 10, 10, 15, 15, 15, 20, 20, 20, 20],
+    "duration": [16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
   },
   "skchr_siege_2": {
     "id": "skchr_siege_2",
@@ -17750,5 +17888,145 @@
     "spCost": [0],
     "initSp": [0],
     "duration": [-1]
+  },
+  "sktok_mercha": {
+    "id": "sktok_mercha",
+    "iconId": "sktok_mercha",
+    "name": "Battlefield Inspiration",
+    "description": [
+      "Gives the Operator in the tile in front <span style=\"color:#0098DC;\">+40%</span> ATK. If <span style=\"color:#0098DC;\">20</span> or more DP are remaining, expend 20 DP to increase their ATK by another <span style=\"color:#0098DC;\">+40%</span>\n(Max +80% per Operator, not triggered if at max)"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_merchaa": {
+    "id": "sktok_merchaa",
+    "iconId": "sktok_mercha",
+    "name": "Battlefield Inspiration",
+    "description": [
+      "Gives the Operator in the tile in front <span style=\"color:#0098DC;\">+40%</span> ATK. If <span style=\"color:#0098DC;\">20</span> or more DP are remaining, expend 20 DP to increase their ATK by another <span style=\"color:#0098DC;\">+40%</span>\n(Max +80% per Operator, not triggered if at max)"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_merchab": {
+    "id": "sktok_merchab",
+    "iconId": "sktok_mercha",
+    "name": "Battlefield Inspiration",
+    "description": [
+      "Gives the Operator in the tile in front <span style=\"color:#0098DC;\">+40%</span> ATK. If <span style=\"color:#0098DC;\">20</span> or more DP are remaining, expend 20 DP to increase their ATK by another <span style=\"color:#0098DC;\">+40%</span>\n(Max +80% per Operator, not triggered if at max)"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_sniper": {
+    "id": "sktok_sniper",
+    "iconId": "sktok_sniper",
+    "name": "Airspace Control",
+    "description": [
+      "Choose 1 from 0-4 units from the Preparation Area and add them to the Deployment Waiting Zone. If you chose a <span style=\"color:#0098DC;\">Sniper</span>, give all Operators 1 Sniper Tactical Equipment and +1 max equipment level this battle (max +3)"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_snipera": {
+    "id": "sktok_snipera",
+    "iconId": "sktok_sniper",
+    "name": "Airspace Control",
+    "description": [
+      "Choose 1 from 0-4 units from the Preparation Area and add them to the Deployment Waiting Zone. If you chose a <span style=\"color:#0098DC;\">Sniper</span>, give all Operators 1 Sniper Tactical Equipment and +1 max equipment level this battle (max +3)"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_sniperb": {
+    "id": "sktok_sniperb",
+    "iconId": "sktok_sniper",
+    "name": "Airspace Control",
+    "description": [
+      "Choose 1 from 0-4 units from the Preparation Area twice, and add them to the Deployment Waiting Zone. If you chose a <span style=\"color:#0098DC;\">Sniper</span>, give all Operators 1 Sniper Tactical Equipment and +1 max equipment level this battle (max +3)"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_gasbot": {
+    "id": "sktok_gasbot",
+    "iconId": "sktok_gasbot",
+    "name": "Quick Cooling",
+    "description": [
+      "For every <span style=\"color:#0098DC;\">10%</span> HP lost, inflict <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> on all nearby enemies for <span style=\"color:#0098DC;\">8</span>s "
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_gasbota": {
+    "id": "sktok_gasbota",
+    "iconId": "sktok_gasbot",
+    "name": "Quick Cooling",
+    "description": [
+      "For every <span style=\"color:#0098DC;\">10%</span> HP lost, inflict <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> on all nearby enemies for <span style=\"color:#0098DC;\">8</span>s "
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_gasbotb": {
+    "id": "sktok_gasbotb",
+    "iconId": "sktok_gasbot",
+    "name": "Quick Cooling",
+    "description": [
+      "For every <span style=\"color:#0098DC;\">10%</span> HP lost, inflict <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces ASPD by 30 and causes subsequent applications of the Cold status during the debuff duration to inflict Frozen\" href=\"/terminology#cold\">Cold</a> on all nearby enemies for <span style=\"color:#0098DC;\">8</span>s "
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_beer": {
+    "id": "sktok_beer",
+    "iconId": "sktok_beer",
+    "name": "'Long Live Mead!'",
+    "description": [
+      "Explodes some time after deployment, causing 'Spirit of Liquor' to lose immunity for <span style=\"color:#0098DC;\">15</span>s if it is in the 8 surrounding tiles, and stunning enemies in the area for <span style=\"color:#0098DC;\">10</span>s"
+    ],
+    "rangeId": "x-4",
+    "activationType": "Auto",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
   }
 }
