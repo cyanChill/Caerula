@@ -33198,6 +33198,251 @@
     "type": null,
     "tokensUsed": null
   },
+  "char_4081_warmy": {
+    "id": "char_4081_warmy",
+    "slug": "warmy",
+    "name": "Warmy",
+    "displayName": "Warmy",
+    "rarity": 5,
+    "position": "RANGED",
+    "range": ["3-6", "3-1", "3-1"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 563,
+            "atk": 284,
+            "def": 42,
+            "res": 5,
+            "respawnTime": 70,
+            "cost": 18,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 783,
+            "atk": 390,
+            "def": 64,
+            "res": 5,
+            "respawnTime": 70,
+            "cost": 18,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 70,
+        "stats": [
+          {
+            "hp": 783,
+            "atk": 390,
+            "def": 64,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 20,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 1018,
+            "atk": 488,
+            "def": 87,
+            "res": 10,
+            "respawnTime": 70,
+            "cost": 20,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 20000 },
+          { "id": "3251", "count": 4 },
+          { "id": "30042", "count": 4 },
+          { "id": "30022", "count": 3 }
+        ]
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 1018,
+            "atk": 488,
+            "def": 87,
+            "res": 15,
+            "respawnTime": 70,
+            "cost": 20,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 1358,
+            "atk": 581,
+            "def": 106,
+            "res": 15,
+            "respawnTime": 70,
+            "cost": 20,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 120000 },
+          { "id": "3253", "count": 3 },
+          { "id": "30094", "count": 6 },
+          { "id": "31033", "count": 19 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Overflowing Pot",
+          "description": "Enemies within Attack Range take 200% ATK as Elemental damage when they trigger a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Overflowing Pot",
+          "description": "Enemies within Attack Range take 220%<span style=\"color:#0098DC;\"> (+20%) </span>ATK as Elemental damage when they trigger a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Overflowing Pot",
+          "description": "Enemies within Attack Range take 300% ATK as Elemental damage when they trigger a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Overflowing Pot",
+          "description": "Enemies within Attack Range take 320%<span style=\"color:#0098DC;\"> (+20%) </span>ATK as Elemental damage when they trigger a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Redeployment Time -4 sec",
+      "ATK +25",
+      "Improves Talent",
+      "DP Cost -1"
+    ],
+    "profession": "Caster",
+    "branch": "primcaster",
+    "skills": [
+      {
+        "id": "skchr_warmy_1",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "31074", "count": 3 },
+              { "id": "31043", "count": 3 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "31014", "count": 3 },
+              { "id": "30094", "count": 6 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30145", "count": 4 },
+              { "id": "30084", "count": 3 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_warmy_2",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "30044", "count": 3 },
+              { "id": "30083", "count": 1 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "31084", "count": 3 },
+              { "id": "31074", "count": 5 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30155", "count": 4 },
+              { "id": "30064", "count": 2 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 4 }] },
+      {
+        "level": 3,
+        "cost": [{ "id": "3301", "count": 4 }, { "id": "30061", "count": 4 }]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30012", "count": 4 }]
+      },
+      {
+        "level": 5,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30022", "count": 5 }]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "31063", "count": 4 }]
+      },
+      {
+        "level": 7,
+        "cost": [
+          { "id": "3303", "count": 6 },
+          { "id": "30013", "count": 3 },
+          { "id": "31033", "count": 4 }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "hp": 0,
+      "atk": 65,
+      "def": 0,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": "rim", "faction": null, "team": null },
+    "tags": ["Elemental", "Nuker"],
+    "type": null,
+    "tokensUsed": null
+  },
   "char_242_otter": {
     "id": "char_242_otter",
     "slug": "mayer",
@@ -53215,6 +53460,292 @@
     "tags": ["DPS", "AoE"],
     "type": "limited",
     "tokensUsed": null
+  },
+  "char_4117_ray": {
+    "id": "char_4117_ray",
+    "slug": "ray",
+    "name": "Ray",
+    "displayName": "Ray",
+    "rarity": 6,
+    "position": "RANGED",
+    "range": ["3-12", "4-9", "4-9"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 904,
+            "atk": 547,
+            "def": 103,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 17,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 1190,
+            "atk": 720,
+            "def": 140,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 17,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 1190,
+            "atk": 720,
+            "def": 140,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 19,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 1507,
+            "atk": 900,
+            "def": 180,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 19,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 30000 },
+          { "id": "3241", "count": 5 },
+          { "id": "30032", "count": 8 },
+          { "id": "30042", "count": 4 }
+        ]
+      },
+      {
+        "maxLevel": 90,
+        "stats": [
+          {
+            "hp": 1507,
+            "atk": 900,
+            "def": 180,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 21,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          },
+          {
+            "hp": 1933,
+            "atk": 1072,
+            "def": 228,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 21,
+            "blockCnt": 1,
+            "atkInterval": 1.6
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 180000 },
+          { "id": "3243", "count": 4 },
+          { "id": "30125", "count": 4 },
+          { "id": "30014", "count": 8 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Patrol Partner",
+          "description": "Can deploy a sandbeast within Attack Range to scout an area for 15s, extending Attack Range into that area. Prioritizes attacking targets within this area, and deals 10% more Physical damage to them",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Patrol Partner",
+          "description": "Can deploy a sandbeast within Attack Range to scout an area for 25s, extending Attack Range into that area. Prioritizes attacking targets within this area, and deals 15% more Physical damage to them",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ],
+      "1": [
+        {
+          "name": "Extreme Focus",
+          "description": "When attacking the same target, each attack increases ATK by 8%, stacking up to 3 times",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Extreme Focus",
+          "description": "When attacking the same target, each attack increases ATK by 9% <span style=\"color:#0098DC;\">(+1%)</span>, stacking up to 3 times",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Redeployment Time -4 sec",
+      "ATK +37",
+      "Improves Second Talent",
+      "DP Cost -1"
+    ],
+    "profession": "Sniper",
+    "branch": "hunter",
+    "skills": [
+      {
+        "id": "skchr_ray_1",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "30064", "count": 3 },
+              { "id": "31013", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "31044", "count": 4 },
+              { "id": "30094", "count": 8 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30145", "count": 6 },
+              { "id": "31064", "count": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_ray_2",
+        "tokenUsed": "token_10034_ray_sndbst",
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "30104", "count": 4 },
+              { "id": "31043", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "30064", "count": 4 },
+              { "id": "30084", "count": 6 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30155", "count": 6 },
+              { "id": "30014", "count": 5 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_ray_3",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 2, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "30074", "count": 4 },
+              { "id": "30063", "count": 6 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "31084", "count": 4 },
+              { "id": "30104", "count": 7 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30115", "count": 6 },
+              { "id": "31024", "count": 6 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 5 }] },
+      {
+        "level": 3,
+        "cost": [
+          { "id": "3301", "count": 5 },
+          { "id": "30041", "count": 5 },
+          { "id": "30021", "count": 4 }
+        ]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 8 }, { "id": "30052", "count": 4 }]
+      },
+      {
+        "level": 5,
+        "cost": [
+          { "id": "3302", "count": 8 },
+          { "id": "30062", "count": 3 },
+          { "id": "30032", "count": 3 }
+        ]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 8 }, { "id": "30053", "count": 6 }]
+      },
+      {
+        "level": 7,
+        "cost": [
+          { "id": "3303", "count": 8 },
+          { "id": "31033", "count": 6 },
+          { "id": "30083", "count": 3 }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "hp": 0,
+      "atk": 120,
+      "def": 0,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": "rim", "faction": null, "team": null },
+    "tags": ["DPS"],
+    "type": null,
+    "tokensUsed": ["token_10034_ray_sndbst"]
   },
   "char_112_siege": {
     "id": "char_112_siege",

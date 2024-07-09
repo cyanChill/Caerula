@@ -3214,6 +3214,28 @@
       "artists": ["およ"],
       "releasedAt": 0
     },
+    "char_4081_warmy_1": {
+      "id": "char_4081_warmy_1",
+      "usedBy": "char_4081_warmy",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Warmy's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["二色こぺ"],
+      "releasedAt": 0
+    },
+    "char_4081_warmy_2": {
+      "id": "char_4081_warmy_2",
+      "usedBy": "char_4081_warmy",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Warmy's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["二色こぺ"],
+      "releasedAt": 0
+    },
     "char_242_otter_1": {
       "id": "char_242_otter_1",
       "usedBy": "char_242_otter",
@@ -4961,6 +4983,28 @@
       "imgAlt": "Ch'en the Holungday's \"Elite 2\" skin",
       "description": "Artificial sea, sandy beaches, competitions—all things that have absolutely no draw to Ch'en. It's in other ways that this vacation left a deep impression on her.\nAnd to other people, when Ch'en's occasionally worn this outfit, it's left a deep impression on them too.",
       "artists": ["唯@W"],
+      "releasedAt": 0
+    },
+    "char_4117_ray_1": {
+      "id": "char_4117_ray_1",
+      "usedBy": "char_4117_ray",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Ray's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["Cenm0"],
+      "releasedAt": 0
+    },
+    "char_4117_ray_2": {
+      "id": "char_4117_ray_2",
+      "usedBy": "char_4117_ray",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Ray's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["Cenm0"],
       "releasedAt": 0
     },
     "char_112_siege_1": {
@@ -6998,6 +7042,17 @@
       "artists": null,
       "releasedAt": 0
     },
+    "token_10034_ray_sndbst": {
+      "id": "token_10034_ray_sndbst",
+      "usedBy": "token_10034_ray_sndbst",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Default",
+      "imgAlt": "Sandbeast's \"Default\" skin",
+      "description": null,
+      "artists": null,
+      "releasedAt": 0
+    },
     "char_230_savage_1": {
       "id": "char_230_savage_1",
       "usedBy": "char_230_savage",
@@ -7987,6 +8042,39 @@
       "description": "EPOQUE Collection New Arrivals/Nighttime Café. Always meticulous, Ansel likes to be properly dressed at the café as well. He steadfastly refuses to sell coffee at night, however.",
       "artists": ["一立里子"],
       "releasedAt": 1720522800
+    },
+    "char_1020_reed2_epoque#30": {
+      "id": "char_1020_reed2_epoque#30",
+      "usedBy": "char_1020_reed2",
+      "brandId": "epoque",
+      "subBrand": { "id": "2024#epoque", "name": "EPOQUE/XXX" },
+      "name": "Curator",
+      "imgAlt": "Reed the Flame Shadow's \"Curator\" skin",
+      "description": "EPOQUE Collection New Arrivals/Curator. Scholar's garb straight from a fairy tale. Stuff your magic, knowledge, and curiosity in the pockets, and take notes with Reed.",
+      "artists": ["STAR影法师"],
+      "releasedAt": 1720544400
+    },
+    "char_388_mint_epoque#30": {
+      "id": "char_388_mint_epoque#30",
+      "usedBy": "char_388_mint",
+      "brandId": "epoque",
+      "subBrand": { "id": "2024#epoque", "name": "EPOQUE/XXX" },
+      "name": "Private Study",
+      "imgAlt": "Mint's \"Private Study\" skin",
+      "description": "EPOQUE Collection New Arrivals/Private Study. Mint's formalwear at the Victorian Institution for Higher Studies, the green waistband showing off her lines and individuality.",
+      "artists": ["ヌードル"],
+      "releasedAt": 1720544400
+    },
+    "char_183_skgoat_epoque#30": {
+      "id": "char_183_skgoat_epoque#30",
+      "usedBy": "char_183_skgoat",
+      "brandId": "epoque",
+      "subBrand": { "id": "2024#epoque", "name": "EPOQUE/XXX" },
+      "name": "Major Field",
+      "imgAlt": "Earthspirit's \"Major Field\" skin",
+      "description": "EPOQUE Collection New Arrivals/Major Field. Practical yet dignified, it protects from the elements on field surveys, but can also be worn under a jacket for conferences.",
+      "artists": ["HUG"],
+      "releasedAt": 1720544400
     },
     "char_120_hibisc_nian#1": {
       "id": "char_120_hibisc_nian#1",
@@ -10617,6 +10705,17 @@
       "artists": ["IRIS_呓"],
       "releasedAt": 1710759600
     },
+    "char_4078_bdhkgt_yun#2": {
+      "id": "char_4078_bdhkgt_yun#2",
+      "usedBy": "char_4078_bdhkgt",
+      "brandId": "yun",
+      "subBrand": { "id": "2024#yun", "name": "0011/Yun/II" },
+      "name": "Away From Dust",
+      "imgAlt": "Jieyun's \"Away From Dust\" skin",
+      "description": "0011 Yun Series New Arrivals/Away From Dust. Made by expert Yanese tailors, the stylish, narrow-sleeved robe is cool and comfortable. Jieyun wore it while visiting Yan's rivers and lakes.",
+      "artists": ["伍秋秋秋秋"],
+      "releasedAt": 1721322000
+    },
     "char_4014_lunacu_yun#1": {
       "id": "char_4014_lunacu_yun#1",
       "usedBy": "char_4014_lunacu",
@@ -10828,7 +10927,7 @@
     "char_196_sunbr": ["char_196_sunbr_1", "char_196_sunbr_2", "char_196_sunbr_summer#1"],
     "char_260_durnar": ["char_260_durnar_1", "char_260_durnar_2"],
     "char_110_deepcl": ["char_110_deepcl_1", "char_110_deepcl_2", "char_110_deepcl_winter#3"],
-    "char_183_skgoat": ["char_183_skgoat_1", "char_183_skgoat_2"],
+    "char_183_skgoat": ["char_183_skgoat_1", "char_183_skgoat_2", "char_183_skgoat_epoque#30"],
     "char_258_podego": ["char_258_podego_1", "char_258_podego_2", "char_258_podego_epoque#9"],
     "char_484_robrta": [
       "char_484_robrta_1",
@@ -10925,7 +11024,7 @@
     "char_498_inside": ["char_498_inside_1", "char_498_inside_2"],
     "char_219_meteo": ["char_219_meteo_1", "char_219_meteo_2", "char_219_meteo_sweep#1"],
     "char_379_sesa": ["char_379_sesa_1", "char_379_sesa_2"],
-    "char_4078_bdhkgt": ["char_4078_bdhkgt_1", "char_4078_bdhkgt_2"],
+    "char_4078_bdhkgt": ["char_4078_bdhkgt_1", "char_4078_bdhkgt_2", "char_4078_bdhkgt_yun#2"],
     "char_279_excu": ["char_279_excu_1", "char_279_excu_2", "char_279_excu_boc#1"],
     "char_346_aosta": ["char_346_aosta_1", "char_346_aosta_2", "char_346_aosta_game#2"],
     "char_002_amiya": [
@@ -10956,7 +11055,12 @@
       "char_373_lionhd_snow#3"
     ],
     "char_341_sntlla": ["char_341_sntlla_1", "char_341_sntlla_2"],
-    "char_388_mint": ["char_388_mint_1", "char_388_mint_2", "char_388_mint_epoque#22"],
+    "char_388_mint": [
+      "char_388_mint_1",
+      "char_388_mint_2",
+      "char_388_mint_epoque#22",
+      "char_388_mint_epoque#30"
+    ],
     "char_338_iris": ["char_338_iris_1", "char_338_iris_2", "char_338_iris_witch#3"],
     "char_297_hamoni": ["char_297_hamoni_1", "char_297_hamoni_2", "char_297_hamoni_epoque#24"],
     "char_4110_delphn": ["char_4110_delphn_1", "char_4110_delphn_2"],
@@ -10966,6 +11070,7 @@
     "char_4040_rockr": ["char_4040_rockr_1", "char_4040_rockr_2", "char_4040_rockr_lxh#1"],
     "char_4054_malist": ["char_4054_malist_1", "char_4054_malist_2", "char_4054_malist_summer#14"],
     "char_499_kaitou": ["char_499_kaitou_1", "char_499_kaitou_2"],
+    "char_4081_warmy": ["char_4081_warmy_1", "char_4081_warmy_2"],
     "char_242_otter": ["char_242_otter_1", "char_242_otter_2", "char_242_otter_ghost#1"],
     "char_336_folivo": ["char_336_folivo_1", "char_336_folivo_2", "char_336_folivo_epoque#22"],
     "char_108_silent": [
@@ -11127,6 +11232,7 @@
     "char_2012_typhon": ["char_2012_typhon_1", "char_2012_typhon_2", "char_2012_typhon_wild#9"],
     "char_391_rosmon": ["char_391_rosmon_1", "char_391_rosmon_2", "char_391_rosmon_epoque#17"],
     "char_1013_chen2": ["char_1013_chen2_1", "char_1013_chen2_2", "char_1013_chen2_boc#6"],
+    "char_4117_ray": ["char_4117_ray_1", "char_4117_ray_2"],
     "char_112_siege": [
       "char_112_siege_1",
       "char_112_siege_2",
@@ -11236,7 +11342,7 @@
       "char_4042_lumen_ambienceSynesthesia#3"
     ],
     "char_1016_agoat2": ["char_1016_agoat2_1", "char_1016_agoat2_2"],
-    "char_1020_reed2": ["char_1020_reed2_1", "char_1020_reed2_2"],
+    "char_1020_reed2": ["char_1020_reed2_1", "char_1020_reed2_2", "char_1020_reed2_epoque#30"],
     "char_136_hsguma": ["char_136_hsguma_1", "char_136_hsguma_2", "char_136_hsguma_nian#3"],
     "char_202_demkni": [
       "char_202_demkni_1",
@@ -11390,6 +11496,7 @@
     "token_10030_mlyss_wtrman": ["token_10030_mlyss_wtrman"],
     "token_10031_swire2_gdtrap": ["token_10031_swire2_gdtrap"],
     "token_10032_jesca2_jckshd": ["token_10032_jesca2_jckshd"],
+    "token_10034_ray_sndbst": ["token_10034_ray_sndbst"],
     "trap_079_allydonq": ["trap_079_allydonq"]
   }
 }

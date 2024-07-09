@@ -4230,6 +4230,118 @@
     "type": "summon",
     "usedBy": "char_1034_jesca2"
   },
+  "token_10034_ray_sndbst": {
+    "id": "token_10034_ray_sndbst",
+    "iconId": "token_10034_ray_sndbst",
+    "slug": "sandbeast",
+    "name": "Sandbeast",
+    "displayName": "Sandbeast",
+    "rarity": 6,
+    "position": "ALL",
+    "range": ["x-4", "x-4", "x-4"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 100,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "respawnTime": 30,
+            "cost": 3,
+            "blockCnt": 0,
+            "atkInterval": 1
+          },
+          {
+            "hp": 100,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "respawnTime": 30,
+            "cost": 3,
+            "blockCnt": 0,
+            "atkInterval": 1
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 100,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "respawnTime": 30,
+            "cost": 3,
+            "blockCnt": 0,
+            "atkInterval": 1
+          },
+          {
+            "hp": 100,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "respawnTime": 30,
+            "cost": 3,
+            "blockCnt": 0,
+            "atkInterval": 1
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 90,
+        "stats": [
+          {
+            "hp": 100,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "respawnTime": 30,
+            "cost": 3,
+            "blockCnt": 0,
+            "atkInterval": 1
+          },
+          {
+            "hp": 100,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "respawnTime": 30,
+            "cost": 3,
+            "blockCnt": 0,
+            "atkInterval": 1
+          }
+        ],
+        "evolveCost": []
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Patrol Partner",
+          "description": "After deployment, scouts the surrounding area to extend Ray's Attack Range for 15s",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Patrol Partner",
+          "description": "After deployment, scouts the surrounding area to extend Ray's Attack Range for 25s",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "trait": "Cannot be attacked, can only be deployed within the summoner's Attack Range",
+    "skillIds": [null, "sktok_ray_2", null],
+    "type": "summon",
+    "usedBy": "char_4117_ray"
+  },
   "trap_079_allydonq": {
     "id": "trap_079_allydonq",
     "iconId": "trap_079_allydonq",

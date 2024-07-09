@@ -1,15 +1,12 @@
 {
-  "latest-operator-ids": [
-    "char_194_leto",
-    "char_4114_harold",
-    "char_4116_blkkgt"
-  ],
+  "latest-operator-ids": ["char_4081_warmy", "char_4117_ray"],
   "latest-skin-ids": [
+    "char_212_ansel_epoque#29",
+    "char_1020_reed2_epoque#30",
+    "char_388_mint_epoque#30",
+    "char_183_skgoat_epoque#30",
     "char_103_angel_kfc#1",
     "char_134_ifrit_kfc#1",
-    "char_201_moeshd_kfc#1",
-    "char_4065_judge_snow#6",
-    "char_343_tknogi_snow#6",
-    "char_466_qanik_snow#6"
+    "char_201_moeshd_kfc#1"
   ]
 }

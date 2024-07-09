@@ -4207,6 +4207,14 @@
     "usage": "Used to improve the Potential of Harold.",
     "rarity": 5
   },
+  "p_char_4081_warmy": {
+    "id": "p_char_4081_warmy",
+    "iconId": "p_char_4081_warmy",
+    "name": "Warmy's Token",
+    "description": "A tiny little freight truck, made out of a candy wrapper. For each Rim Billy sweet you've given Warmy in your journey, she's transformed it and gifted it back to you.",
+    "usage": "Used to improve the Potential of Warmy.",
+    "rarity": 5
+  },
   "p_char_103_angel": {
     "id": "p_char_103_angel",
     "iconId": "p_char_103_angel",
@@ -4877,6 +4885,14 @@
     "name": "Degenbrecher's Token",
     "description": "A comms terminal that can only reach her number. Doesn't look any different to a regular comms terminal, but provides infinitely more relief.",
     "usage": "Used to improve the Potential of Degenbrecher.",
+    "rarity": 6
+  },
+  "p_char_4117_ray": {
+    "id": "p_char_4117_ray",
+    "iconId": "p_char_4117_ray",
+    "name": "Ray's Token",
+    "description": "A scrapbook, author's intent indiscernible. The 'cryptid photo' inside seems like a collaged stitch job—should somebody tell her?",
+    "usage": "Used to improve the Potential of Ray.",
     "rarity": 6
   },
   "class_p_char_123_fang": {
@@ -6045,6 +6061,14 @@
     "name": "Kjera's Personal Letter",
     "description": "The letter mentions her experiences writing tourism slogans for Kjerag, and her perplexity at the lukewarm reception they received from the public.",
     "usage": "A personal letter sent to the Doctor, used to improve Kjera to Max Potential.",
+    "rarity": 5
+  },
+  "voucher_full_kroos2": {
+    "id": "voucher_full_kroos2",
+    "iconId": "voucher_full_kroos2",
+    "name": "Kroos the Keen Glint's Personal Letter",
+    "description": "The letter writes of her experiences touring Shangshu, as well as her newly informed opinions on its signature dishes.",
+    "usage": "A personal letter sent to the Doctor, used to improve Kroos the Keen Glint to Max Potential.",
     "rarity": 5
   },
   "uni_set_guitar": {
@@ -7383,8 +7407,24 @@
     "usage": "Obtain all furniture exclusive to the Break the Ice event not yet acquired.",
     "rarity": 5
   },
+  "uni_set_teaHouse": {
+    "id": "uni_set_teaHouse",
+    "iconId": "uni_set_teaHouse",
+    "name": "Invitation to Wine Furniture Pack",
+    "description": "The Procurement Department's reconnected with its suppliers, and replenished stocks of initially limited pieces of furniture! Give your thanks to Closure!",
+    "usage": "Obtain all furniture exclusive to the Invitation to Wine event not yet acquired.",
+    "rarity": 5
+  },
   "act23side_token_spirit": {
     "id": "act23side_token_spirit",
+    "iconId": "act23side_token_spirit",
+    "name": "Freshly-Brewed Liedaozi",
+    "description": "A Yumen specialty product, high-purity spirit. Beloved by all drinkers, brewed by all brewers. A brew mixed of sandstorms on the border, and sun beating down in the sky and wind on the poplars, one gulp is a throat of blades and a drink of fire, and even the chilliest nights need no longer be feared.",
+    "usage": "Take a jar of freshly brewed spirit, and trade it with the old smith for a newly-edged sword of fine craft. 'Blood for water, wine for a blade. A close friend crossed by, grace and vengeance all too willing.'",
+    "rarity": 5
+  },
+  "act23side_token_spirit_rep_1": {
+    "id": "act23side_token_spirit_rep_1",
     "iconId": "act23side_token_spirit",
     "name": "Freshly-Brewed Liedaozi",
     "description": "A Yumen specialty product, high-purity spirit. Beloved by all drinkers, brewed by all brewers. A brew mixed of sandstorms on the border, and sun beating down in the sky and wind on the poplars, one gulp is a throat of blades and a drink of fire, and even the chilliest nights need no longer be feared.",
@@ -7845,6 +7885,14 @@
     "name": "Burdenbeast Blind Box",
     "description": "Blind boxes from the cultural industries in collaboration with 'BangBang Burdenbeast.' Collect all nine, including a limited-edition secret burdenbeast.\nNOTE: Pray faithfully to the newly erected Kjeragandr statue, and your odds of drawing the secret one go up!",
     "usage": "Burdenbeast Blind Boxes—such a smash hit, Onboard Services ran out of stock for a time. That means this batch couldn't have come sooner, and the train attendants will be delighted to trade other goods for it.",
+    "rarity": 5
+  },
+  "act16mini_token_sap": {
+    "id": "act16mini_token_sap",
+    "iconId": "act16mini_token_sap",
+    "name": "Spicy Bottletree Sap",
+    "description": "Bottletree sap naturally fermented in the abdomens of tree-hanging Originium slugs, celebrated by man and adored by sandbeasts. Still, how the beasts get the sap when they can't climb trees is one of Rim Billiton's great mysteries. Are there feral barreners helping them? Can't be...",
+    "usage": "Extremely spicy and fantastically invigorating, with a deep velvet flavor fresh bottletree sap can't hope to match. And the upside of not chronically ruining your body like hard liquor would. Give it to wild sandbeasts, and you might end up trading for their stashed curios.",
     "rarity": 5
   }
 }

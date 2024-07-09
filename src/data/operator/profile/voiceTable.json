@@ -1794,6 +1794,18 @@
       { "langId": "JP", "actors": ["Minami Takayama"] },
       { "langId": "KR", "actors": ["Lim Yoon-seon"] }
     ],
+    "char_4081_warmy": [
+      { "langId": "CN_MANDARIN", "actors": ["Yue Wang"] },
+      { "langId": "EN", "actors": ["Aimee Smith"] },
+      { "langId": "JP", "actors": ["Yuko Ono"] },
+      { "langId": "KR", "actors": ["Han Woo-jeong"] }
+    ],
+    "char_4117_ray": [
+      { "langId": "CN_MANDARIN", "actors": ["Yanqi Sun"] },
+      { "langId": "EN", "actors": ["May Charters"] },
+      { "langId": "JP", "actors": ["Kaori Nazuka"] },
+      { "langId": "KR", "actors": ["Kim Sung-hee"] }
+    ],
     "char_311_mudrok#1": [
       { "langId": "CN_MANDARIN", "actors": ["Duduru"] },
       { "langId": "JP", "actors": ["Maaya Uchida"] },
@@ -51482,6 +51494,348 @@
         "unlockCond": null
       }
     ],
+    "char_4081_warmy": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "Coming, coming! Warmy coming in with warmth! Huh...? Sheesh, Doctor! No calling me a little potlid like Lanns!",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "Doctor, do you smell that? Hehe, it's the smell of my sweet pear and vegetables soup, slow cooked to perfection! I said it before, I'm gonna cook the best meals to cure everyone's Oripathy! Huff, huff—It's not so hot anymore. Give it a try, won'tcha? If you don't, everyone else will eat it right up!",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "Rhodes Island is such a big, biiiig transport, and it has a kinda different furnace than the one at the factory... Oh, I just went to the engine level. The boiler man there thought I was lost and took me back up. I was fine down there, though. I'm used to the heat.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "Come, Doctor. Hurry up and eat. No need to worry about me. It cheers me right up to see people enjoying their food. Aw, you still want to share with me? Okay, I'll clean this plate! Om nom nom... Wha? You were just picking out things you don't want to eat? Well alright then.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "I made this bracelet from bottle tree leaves. I can keep them fresh for a short while. Hehe, didn't think my Arts could be used like this, did you? Oh, Don't worry, it'll only be for a short while. I won't keep it going for too long, or they'll get tired, too. We should let them be. The withering will come slowly.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "Dad liked to collect the carrots we had left to carve into small animals. Doctor, do you think Ray will like this carrot sandbeast? Ah! I think I carved a little too deep. I'm still not very good at this, not like Dad. If only he'd taught me a bit longer...",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "Doctor, look! The lady at Medical gave me a plaster with pears on it! Rhodes Island has so many Infected. It's the same back home, but we didn't live so well. And I had nowhere to go... Doctor, Is it a bad thing to be an Infected?",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "Deep in the pitch darkness, those warm breaths slowly got colder...' That's how Ray told her sandbeast stories. I've heard the workers saying stuff like that ever since the accident. They were kind of hard to understand at first, but I know what they mean now.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "Yeah, it hurts a lot when my Oripathy flares up. And I'm worried I could go out of control, too. Huff... Hufffff... Doctor, want to try a bite of stewed pear? It doesn't cure Oripathy, but it's sweet. When life's all hard and bitter, we need something sweet! Hehe, does it taste good? Alright, I'll take this to Lanns now.",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "Doctor? Are you feeling warmer? Have a good sleep now. I'm right here.",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "Nice to see you again, Doctor. Do you miss Billy stew? I was just heading to the aft kitchen with Lanns— Hey! I'm not a little potlid. Don't call me Potlid!",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "Whoa... Did you command all these battles, Doctor? You're amazing…",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "I-I got promoted? Does that mean I can ask Closure to buy some more authentic ingredients?",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "Thanks for your recognition, Doctor! I'll do what I can to bring even more warmth to the people! Um... Actually, what I mean is... I'm glad I can help out!",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      { "title": "Added to Squad", "text": "I'm all set.", "unlockCond": null },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "Huh? I'm the head chef today?",
+        "unlockCond": null
+      },
+      {
+        "title": "Depart",
+        "text": "S-Slow down... Wait for me!",
+        "unlockCond": null
+      },
+      {
+        "title": "Begin Operation",
+        "text": "They're not part of a good breakfast!",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "I'm here to help.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "Fire up the barbie.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "Light and gentle…",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 2",
+        "text": "This place feels a little too cool…",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 1",
+        "text": "Sparky spark, hop n' jump!",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 2",
+        "text": "Little flames, shake n' dance!",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 3",
+        "text": "Roast their tummies!",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 4",
+        "text": "Shh, it's burning quietly.",
+        "unlockCond": null
+      },
+      {
+        "title": "4-star Result",
+        "text": "Everyone did such a great job... I'll make a big stew to reward them!",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "Hm—Smells so good. Today was another huge success!",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "We spilled a lot out of the pot. What a shame...",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "I wasn't paying attention, it's all burnt...",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "This room's so warm… Hm? You can adjust the temperature with this panel?",
+        "unlockCond": null
+      },
+      {
+        "title": "Tap",
+        "text": "Huff—huff—Didn't burn you, did I?",
+        "unlockCond": null
+      },
+      {
+        "title": "Trust Tap",
+        "text": "I'm not— Okay, if it's what you want to call me, Doctor, then no worries. I <i>am</i> a little potlid.",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      {
+        "title": "Greeting",
+        "text": "Doctor, are you eating good today?",
+        "unlockCond": null
+      }
+    ],
+    "char_4117_ray": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "This animal almanac's a beauty. Right, from the bookshelves. I've washed my hands, so the pages'll be fine... Yeah, this is your office. Something wrong?",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "I hear explosions. One min, I'll head down to check. Exhaust fans sound normal, then next is... No, right. Forgot I'm riding with Rhodes Island now. You don't get Originium slugs in the pipes here. Um... Must be Engineering running weapon tests. Sorry about that, breaking your door down.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "You can tell how the air's doing from a sandbeast's back, so that's why you see pitsinkers bring one down. If there's poison and it keels over... you buy a new one. But this one wasn't from the shop. I don't even own it, so I don't keep it on a leash.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "Tales of the supernatural, these tapes said. Didn't really like watching them, but I do feel... Chills, from these? No. It's <i>hot</i> in the dark. The deeper down the pit, the hotter, harder to breathe. Always took yonks for the lift to bring us back up. I'd just stare at the lights in the ceiling, waiting.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "Got shooed out of the workshop by Lanns. She wasn't pissed though, just hauled me along to a doctor, then had me on Potlid-watching duty. And watching I love my own body more... That day she asked me what life was like catching Oripathy. But all that came to mind was being down in the pit, staring at the Infected creatures and thinking, 'we're more alike now.'",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "Proactive? Is this about me applying to rescue Infected...? Remember when you had me treat my wounds? So I have my cotton wads, and they're getting covered in bloodstains, and dust, and Originium shards, and sandbeast fur, and it struck me then: the pit's behind me, a million miles behind, and it's like I'm still being stabbed. Do you think I'm... still carrying the fear?",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "Ninety-seven, ninety-eight... Oh, first time seeing you at the training grounds. You always train at four in the morning too? That's not it? An op said I scared them target practicing here all night...?  But the light went kaput in my accommodation. I wanted to be somewhere lit-up.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "I think Amiya's being nice to me. Hiding something and she won't tell me what. But it does occur to me, you know. The giant shadow I saw in a sandstorm as a kid. I might've mistook it. But it's always occurred to me... Doctor, give her these carrot pies for me, would you? She's always so busy and all, I want to be nice back, and care for her.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "I've given it some thought. Hijacking Rhodes Island sounds unideal, but dragging you off might leave the whole ship out of order... Hm? Oh, it's just there's some great tales in your database. A few I wanna see with my own eyes, and it'd be nice if you come with. That's the new goal I found. What's wrong?",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "No scratching, you'll wake the Doctor. C'mon, let's go walkies on the deck.",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "I passed the Operator tests, Doctor, so thanks for all of you inviting me. That whole chase is over with, but I'm thinking I'll find my new goal on this ship.",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "That's not danger I can cope with yet.",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "You know, they wanted to certify me for my professional skills before. Gloompincer made off with the paper that time. Lost to the mineshaft depths... Anyway, there's a few extra things I can do. What's this ship need?",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "If that tiny patch of sky opened wide... wouldn't people want to chase the sun and the moons?",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "Here, Sandbeast, we need to get going.",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "I'll take the very front, as always.",
+        "unlockCond": null
+      },
+      {
+        "title": "Depart",
+        "text": "Sound of muddy air, tracks of animal... I'll keep a watch that way.",
+        "unlockCond": null
+      },
+      {
+        "title": "Begin Operation",
+        "text": "Fine visibility. I can see more than just danger.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "Got my bolts kitted.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "Point where I'm cleaning up?",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "Yeah, you'll hear from me as needed.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 2",
+        "text": "You lot stay up there if it gets risky.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 1",
+        "text": "Threat at my position—yeah, not anymore soon.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 2",
+        "text": "I'm hearing movement.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 3",
+        "text": "And that's as far as you go.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 4",
+        "text": "I'm done rambling in the dark.",
+        "unlockCond": null
+      },
+      {
+        "title": "4-star Result",
+        "text": "Sun's out. What a beauty… Sandbeast, let's get home.",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "This area's clear of danger for now. Doctor, you always been like this? Any problem, you'll solve it?",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "We'll have to expand the mine out... Hold the treatment for now. Got a lurking threat to handle.",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "You all leg it. Comms might cut out. If things get grim, I'll leave the most discernible signs I can.",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "Ship's sailing on sandstone… That's strange. Like I've heard it somewhere before?",
+        "unlockCond": null
+      },
+      {
+        "title": "Tap",
+        "text": "Was I not meant to dodge that? Okay, I'll stay put. You tap me again.",
+        "unlockCond": null
+      },
+      {
+        "title": "Trust Tap",
+        "text": "Sandbeasts with arcing backs like this should be living in the desert... Wonder why this bugger came with me? Here, got you new food to try.",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      {
+        "title": "Greeting",
+        "text": "Weather's fine outside. No dust cloud, and not a Catastrophe billow in sight.",
+        "unlockCond": null
+      }
+    ],
     "char_113_cqbw_epoque#7": [
       {
         "title": "Appointed as Assistant",
@@ -56654,6 +57008,7 @@
     "char_4040_rockr": ["char_4040_rockr"],
     "char_4054_malist": ["char_4054_malist"],
     "char_499_kaitou": ["char_499_kaitou"],
+    "char_4081_warmy": ["char_4081_warmy"],
     "char_242_otter": ["char_242_otter"],
     "char_336_folivo": ["char_336_folivo"],
     "char_108_silent": ["char_108_silent"],
@@ -56734,6 +57089,7 @@
     "char_2012_typhon": ["char_2012_typhon"],
     "char_391_rosmon": ["char_391_rosmon"],
     "char_1013_chen2": ["char_1013_chen2", "char_1013_chen2_CN_TOPOLECT"],
+    "char_4117_ray": ["char_4117_ray"],
     "char_112_siege": ["char_112_siege"],
     "char_222_bpipe": ["char_222_bpipe"],
     "char_362_saga": ["char_362_saga"],
