@@ -2786,6 +2786,29 @@
     "initSp": [0, 0, 0, 5, 5, 5, 10, 10, 10, 13],
     "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
   },
+  "skchr_rfalcn_2": {
+    "id": "skchr_rfalcn_2",
+    "iconId": "skchr_rfalcn_2",
+    "name": "Drunken Bladedance",
+    "description": [
+      "Gradually gains <span style=\"color:#0098DC;\">9</span> DP over the skill duration; ATK <span style=\"color:#0098DC;\">+4%</span>, ASPD <span style=\"color:#0098DC;\">+10</span>, and Talent 1 activation chance increases to <span style=\"color:#0098DC;\">1.3</span> times",
+      "Gradually gains <span style=\"color:#0098DC;\">9</span> DP over the skill duration; ATK <span style=\"color:#0098DC;\">+8%</span>, ASPD <span style=\"color:#0098DC;\">+10</span>, and Talent 1 activation chance increases to <span style=\"color:#0098DC;\">1.3</span> times",
+      "Gradually gains <span style=\"color:#0098DC;\">9</span> DP over the skill duration; ATK <span style=\"color:#0098DC;\">+12%</span>, ASPD <span style=\"color:#0098DC;\">+10</span>, and Talent 1 activation chance increases to <span style=\"color:#0098DC;\">1.3</span> times",
+      "Gradually gains <span style=\"color:#0098DC;\">10</span> DP over the skill duration; ATK <span style=\"color:#0098DC;\">+16%</span>, ASPD <span style=\"color:#0098DC;\">+20</span>, and Talent 1 activation chance increases to <span style=\"color:#0098DC;\">1.6</span> times",
+      "Gradually gains <span style=\"color:#0098DC;\">10</span> DP over the skill duration; ATK <span style=\"color:#0098DC;\">+20%</span>, ASPD <span style=\"color:#0098DC;\">+20</span>, and Talent 1 activation chance increases to <span style=\"color:#0098DC;\">1.6</span> times",
+      "Gradually gains <span style=\"color:#0098DC;\">10</span> DP over the skill duration; ATK <span style=\"color:#0098DC;\">+24%</span>, ASPD <span style=\"color:#0098DC;\">+20</span>, and Talent 1 activation chance increases to <span style=\"color:#0098DC;\">1.6</span> times",
+      "Gradually gains <span style=\"color:#0098DC;\">11</span> DP over the skill duration; ATK <span style=\"color:#0098DC;\">+28%</span>, ASPD <span style=\"color:#0098DC;\">+30</span>, and Talent 1 activation chance increases to <span style=\"color:#0098DC;\">1.9</span> times",
+      "Gradually gains <span style=\"color:#0098DC;\">11</span> DP over the skill duration; ATK <span style=\"color:#0098DC;\">+32%</span>, ASPD <span style=\"color:#0098DC;\">+30</span>, and Talent 1 activation chance increases to <span style=\"color:#0098DC;\">2.1</span> times",
+      "Gradually gains <span style=\"color:#0098DC;\">11</span> DP over the skill duration; ATK <span style=\"color:#0098DC;\">+36%</span>, ASPD <span style=\"color:#0098DC;\">+30</span>, and Talent 1 activation chance increases to <span style=\"color:#0098DC;\">2.3</span> times",
+      "Gradually gains <span style=\"color:#0098DC;\">12</span> DP over the skill duration; ATK <span style=\"color:#0098DC;\">+40%</span>, ASPD <span style=\"color:#0098DC;\">+40</span>, and Talent 1 activation chance increases to <span style=\"color:#0098DC;\">2.5</span> times"
+    ],
+    "rangeId": "1-1",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
+    "initSp": [5, 6, 7, 8, 9, 10, 12, 13, 14, 15],
+    "duration": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15]
+  },
   "skchr_grani_2": {
     "id": "skchr_grani_2",
     "iconId": "skchr_grani_2",
@@ -2895,6 +2918,29 @@
       "Stops attacking and recovers <span style=\"color:#0098DC;\">20</span> DP over the skill duration. While this skill is active, Locks up to <span style=\"color:#0098DC;\">4</span> nearby enemies.\nLocked enemies have <span style=\"color:#0098DC;\">-60%</span> Movement Speed, <span style=\"color:#0098DC;\">-35%</span> DEF, and lose <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisibility</a>"
     ],
     "rangeId": "x-2",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [40, 39, 38, 37, 36, 35, 34, 33, 32, 30],
+    "initSp": [6, 6, 6, 8, 8, 8, 10, 12, 14, 16],
+    "duration": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15]
+  },
+  "skchr_wanqin_2": {
+    "id": "skchr_wanqin_2",
+    "iconId": "skchr_wanqin_2",
+    "name": "Along the Easterlies",
+    "description": [
+      "Stops attacking, gradually recovers <span style=\"color:#0098DC;\">20</span> DP in total\nWhile skill is active, restores the HP of surrounding allied Operators by <span style=\"color:#0098DC;\">10%</span> of Wanqing's ATK every second, and increases their ASPD by <span style=\"color:#0098DC;\">+10</span> if they are deployed facing the same direction as Wanqing",
+      "Stops attacking, gradually recovers <span style=\"color:#0098DC;\">20</span> DP in total\nWhile skill is active, restores the HP of surrounding allied Operators by <span style=\"color:#0098DC;\">10%</span> of Wanqing's ATK every second, and increases their ASPD by <span style=\"color:#0098DC;\">+12</span> if they are deployed facing the same direction as Wanqing",
+      "Stops attacking, gradually recovers <span style=\"color:#0098DC;\">20</span> DP in total\nWhile skill is active, restores the HP of surrounding allied Operators by <span style=\"color:#0098DC;\">12%</span> of Wanqing's ATK every second, and increases their ASPD by <span style=\"color:#0098DC;\">+12</span> if they are deployed facing the same direction as Wanqing",
+      "Stops attacking, gradually recovers <span style=\"color:#0098DC;\">20</span> DP in total\nWhile skill is active, restores the HP of surrounding allied Operators by <span style=\"color:#0098DC;\">12%</span> of Wanqing's ATK every second, and increases their ASPD by <span style=\"color:#0098DC;\">+15</span> if they are deployed facing the same direction as Wanqing",
+      "Stops attacking, gradually recovers <span style=\"color:#0098DC;\">20</span> DP in total\nWhile skill is active, restores the HP of surrounding allied Operators by <span style=\"color:#0098DC;\">15%</span> of Wanqing's ATK every second, and increases their ASPD by <span style=\"color:#0098DC;\">+15</span> if they are deployed facing the same direction as Wanqing",
+      "Stops attacking, gradually recovers <span style=\"color:#0098DC;\">20</span> DP in total\nWhile skill is active, restores the HP of surrounding allied Operators by <span style=\"color:#0098DC;\">15%</span> of Wanqing's ATK every second, and increases their ASPD by <span style=\"color:#0098DC;\">+20</span> if they are deployed facing the same direction as Wanqing",
+      "Stops attacking, gradually recovers <span style=\"color:#0098DC;\">20</span> DP in total\nWhile skill is active, restores the HP of surrounding allied Operators by <span style=\"color:#0098DC;\">20%</span> of Wanqing's ATK every second, and increases their ASPD by <span style=\"color:#0098DC;\">+20</span> if they are deployed facing the same direction as Wanqing",
+      "Stops attacking, gradually recovers <span style=\"color:#0098DC;\">20</span> DP in total\nWhile skill is active, restores the HP of surrounding allied Operators by <span style=\"color:#0098DC;\">20%</span> of Wanqing's ATK every second, and increases their ASPD by <span style=\"color:#0098DC;\">+23</span> if they are deployed facing the same direction as Wanqing",
+      "Stops attacking, gradually recovers <span style=\"color:#0098DC;\">20</span> DP in total\nWhile skill is active, restores the HP of surrounding allied Operators by <span style=\"color:#0098DC;\">25%</span> of Wanqing's ATK every second, and increases their ASPD by <span style=\"color:#0098DC;\">+23</span> if they are deployed facing the same direction as Wanqing",
+      "Stops attacking, gradually recovers <span style=\"color:#0098DC;\">20</span> DP in total\nWhile skill is active, restores the HP of surrounding allied Operators by <span style=\"color:#0098DC;\">25%</span> of Wanqing's ATK every second, and increases their ASPD by <span style=\"color:#0098DC;\">+25</span> if they are deployed facing the same direction as Wanqing"
+    ],
+    "rangeId": "x-4",
     "activationType": "Manual",
     "spRecovery": "Auto",
     "spCost": [40, 39, 38, 37, 36, 35, 34, 33, 32, 30],
@@ -5395,16 +5441,16 @@
     "iconId": "skchr_warmy_1",
     "name": "Burning Flames",
     "description": [
-      "ASPD <span style=\"color:#0098DC;\">+40</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
-      "ASPD <span style=\"color:#0098DC;\">+45</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
-      "ASPD <span style=\"color:#0098DC;\">+50</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
-      "ASPD <span style=\"color:#0098DC;\">+55</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
-      "ASPD <span style=\"color:#0098DC;\">+60</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
-      "ASPD <span style=\"color:#0098DC;\">+65</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
-      "ASPD <span style=\"color:#0098DC;\">+70</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
-      "ASPD <span style=\"color:#0098DC;\">+80</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
-      "ASPD <span style=\"color:#0098DC;\">+90</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>",
-      "ASPD <span style=\"color:#0098DC;\">+100</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a>"
+      "ASPD <span style=\"color:#0098DC;\">+40</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+45</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+50</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+55</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+60</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+65</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+70</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+80</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+90</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a>",
+      "ASPD <span style=\"color:#0098DC;\">+100</span>, attacks inflict <span style=\"color:#0098DC;\">15%</span> of Arts damage as additional <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a>"
     ],
     "rangeId": null,
     "activationType": "Manual",
@@ -5418,16 +5464,16 @@
     "iconId": "skchr_warmy_2",
     "name": "Scorching Stream",
     "description": [
-      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+110%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
-      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+120%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
-      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+130%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
-      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+140%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
-      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+150%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
-      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+160%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
-      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+170%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
-      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+180%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
-      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+190%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
-      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+200%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_player\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage"
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+110%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+120%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+130%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+140%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+150%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+160%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+170%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+180%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+190%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage",
+      "Attack Interval <span style=\"color:#FF6237;\">Increases</span>, ATK <span style=\"color:#0098DC;\">+200%</span>, attacks hit <span style=\"color:#0098DC;\">2</span> enemies at once; <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Can continue recovering SP after reaching the maximum. When SP reaches double the maximum, enters Charged state. Skills have additional effects when activated in Charged state (All SP will be consumed whenever the skill is activated)\" href=\"/terminology#charged\">Charged</a>: Attacks hit <span style=\"color:#0098DC;\">3</span> enemies at once, duration increased to <span style=\"color:#0098DC;\">30</span>s. If target is under the effect of <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.\" href=\"/terminology#burn_damage_-_ally\">Burn damage</a> burst, additionally deal <span style=\"color:#0098DC;\">50%</span> of ATK as Elemental damage"
     ],
     "rangeId": null,
     "activationType": "Manual",
@@ -6407,16 +6453,16 @@
     "iconId": "skchr_nearl_1",
     "name": "First Aid",
     "description": [
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">110%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">115%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">120%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">130%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">135%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">140%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">150%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">160%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">170%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">180%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>"
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">110%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">115%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">120%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">130%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">135%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">140%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">150%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">160%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">170%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">180%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>"
     ],
     "rangeId": "x-4",
     "activationType": "Auto",
@@ -8034,6 +8080,52 @@
     "spCost": [30, 30, 30, 30, 30, 30, 25, 25, 25, 25],
     "initSp": [0, 0, 0, 5, 5, 5, 10, 12, 12, 15],
     "duration": [6, 6, 6, 6, 6, 6, 7, 8, 9, 10]
+  },
+  "skchr_grabds_1": {
+    "id": "skchr_grabds_1",
+    "iconId": "skchr_grabds_1",
+    "name": "Flute Flutter",
+    "description": [
+      "The next attack deals <span style=\"color:#0098DC;\">110%</span> ATK as Arts damage, and attacks an additional enemy\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">120%</span> ATK as Arts damage, and attacks an additional enemy\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">130%</span> ATK as Arts damage, and attacks an additional enemy\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">140%</span> ATK as Arts damage, and attacks an additional enemy\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">150%</span> ATK as Arts damage, and attacks an additional enemy\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">160%</span> ATK as Arts damage, and attacks an additional enemy\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">170%</span> ATK as Arts damage, and attacks an additional enemy\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">180%</span> ATK as Arts damage, and attacks an additional enemy\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">190%</span> ATK as Arts damage, and attacks an additional enemy\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>",
+      "The next attack deals <span style=\"color:#0098DC;\">210%</span> ATK as Arts damage, and attacks an additional enemy\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [7, 7, 7, 7, 7, 7, 6, 6, 6, 5],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+  },
+  "skchr_grabds_2": {
+    "id": "skchr_grabds_2",
+    "iconId": "skchr_grabds_2",
+    "name": "Hometown Lullaby",
+    "description": [
+      "Stops attacking and puts <span style=\"color:#0098DC;\">3</span> enemies within Attack Range to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Invulnerable and unable to take any actions\" href=\"/terminology#sleep\">Sleep</a> for <span style=\"color:#0098DC;\">3</span>s. Afterwards, ASPD <span style=\"color:#0098DC;\">+10</span>, and attacks <span style=\"color:#0098DC;\">3</span> enemies",
+      "Stops attacking and puts <span style=\"color:#0098DC;\">3</span> enemies within Attack Range to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Invulnerable and unable to take any actions\" href=\"/terminology#sleep\">Sleep</a> for <span style=\"color:#0098DC;\">3</span>s. Afterwards, ASPD <span style=\"color:#0098DC;\">+20</span>, and attacks <span style=\"color:#0098DC;\">3</span> enemies",
+      "Stops attacking and puts <span style=\"color:#0098DC;\">3</span> enemies within Attack Range to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Invulnerable and unable to take any actions\" href=\"/terminology#sleep\">Sleep</a> for <span style=\"color:#0098DC;\">3</span>s. Afterwards, ASPD <span style=\"color:#0098DC;\">+30</span>, and attacks <span style=\"color:#0098DC;\">3</span> enemies",
+      "Stops attacking and puts <span style=\"color:#0098DC;\">3</span> enemies within Attack Range to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Invulnerable and unable to take any actions\" href=\"/terminology#sleep\">Sleep</a> for <span style=\"color:#0098DC;\">4</span>s. Afterwards, ASPD <span style=\"color:#0098DC;\">+45</span>, and attacks <span style=\"color:#0098DC;\">3</span> enemies",
+      "Stops attacking and puts <span style=\"color:#0098DC;\">3</span> enemies within Attack Range to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Invulnerable and unable to take any actions\" href=\"/terminology#sleep\">Sleep</a> for <span style=\"color:#0098DC;\">4</span>s. Afterwards, ASPD <span style=\"color:#0098DC;\">+60</span>, and attacks <span style=\"color:#0098DC;\">3</span> enemies",
+      "Stops attacking and puts <span style=\"color:#0098DC;\">3</span> enemies within Attack Range to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Invulnerable and unable to take any actions\" href=\"/terminology#sleep\">Sleep</a> for <span style=\"color:#0098DC;\">4</span>s. Afterwards, ASPD <span style=\"color:#0098DC;\">+75</span>, and attacks <span style=\"color:#0098DC;\">3</span> enemies",
+      "Stops attacking and puts <span style=\"color:#0098DC;\">3</span> enemies within Attack Range to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Invulnerable and unable to take any actions\" href=\"/terminology#sleep\">Sleep</a> for <span style=\"color:#0098DC;\">4</span>s. Afterwards, ASPD <span style=\"color:#0098DC;\">+90</span>, and attacks <span style=\"color:#0098DC;\">3</span> enemies",
+      "Stops attacking and puts <span style=\"color:#0098DC;\">3</span> enemies within Attack Range to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Invulnerable and unable to take any actions\" href=\"/terminology#sleep\">Sleep</a> for <span style=\"color:#0098DC;\">5</span>s. Afterwards, ASPD <span style=\"color:#0098DC;\">+100</span>, and attacks <span style=\"color:#0098DC;\">3</span> enemies",
+      "Stops attacking and puts <span style=\"color:#0098DC;\">3</span> enemies within Attack Range to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Invulnerable and unable to take any actions\" href=\"/terminology#sleep\">Sleep</a> for <span style=\"color:#0098DC;\">5</span>s. Afterwards, ASPD <span style=\"color:#0098DC;\">+115</span>, and attacks <span style=\"color:#0098DC;\">3</span> enemies",
+      "Stops attacking and puts <span style=\"color:#0098DC;\">3</span> enemies within Attack Range to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Invulnerable and unable to take any actions\" href=\"/terminology#sleep\">Sleep</a> for <span style=\"color:#0098DC;\">5</span>s. Afterwards, ASPD <span style=\"color:#0098DC;\">+130</span>, and attacks <span style=\"color:#0098DC;\">3</span> enemies"
+    ],
+    "rangeId": "y-2",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [30, 30, 30, 30, 30, 30, 25, 25, 25, 25],
+    "initSp": [0, 0, 0, 5, 5, 5, 10, 12, 12, 15],
+    "duration": [13, 13, 13, 14, 14, 14, 14, 15, 15, 15]
   },
   "skchr_windft_1": {
     "id": "skchr_windft_1",
@@ -10290,16 +10382,16 @@
     "iconId": "skchr_ifrit_2",
     "name": "Pyroclasm",
     "description": [
-      "Deals <span style=\"color:#0098DC;\">130%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-100</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Burn damage\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
-      "Deals <span style=\"color:#0098DC;\">140%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-100</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Burn damage\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
-      "Deals <span style=\"color:#0098DC;\">150%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-100</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Burn damage\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
-      "Deals <span style=\"color:#0098DC;\">160%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-100</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Burn damage\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
-      "Deals <span style=\"color:#0098DC;\">170%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-100</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Burn damage\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
-      "Deals <span style=\"color:#0098DC;\">180%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-100</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Burn damage\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
-      "Deals <span style=\"color:#0098DC;\">190%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-200</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Burn damage\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>",
-      "Deals <span style=\"color:#0098DC;\">215%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-200</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Burn damage\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>",
-      "Deals <span style=\"color:#0098DC;\">225%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-200</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Burn damage\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>",
-      "Deals <span style=\"color:#0098DC;\">250%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-300</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Burn damage\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>"
+      "Deals <span style=\"color:#0098DC;\">130%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-100</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Immolation damage\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "Deals <span style=\"color:#0098DC;\">140%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-100</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Immolation damage\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "Deals <span style=\"color:#0098DC;\">150%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-100</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Immolation damage\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "Deals <span style=\"color:#0098DC;\">160%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-100</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Immolation damage\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "Deals <span style=\"color:#0098DC;\">170%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-100</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Immolation damage\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "Deals <span style=\"color:#0098DC;\">180%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-100</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Immolation damage\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "Deals <span style=\"color:#0098DC;\">190%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-200</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Immolation damage\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>",
+      "Deals <span style=\"color:#0098DC;\">215%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-200</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Immolation damage\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>",
+      "Deals <span style=\"color:#0098DC;\">225%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-200</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Immolation damage\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>",
+      "Deals <span style=\"color:#0098DC;\">250%</span> of ATK Arts damage in the next attack;Targets' DEF <span style=\"color:#0098DC;\">-300</span> for <span style=\"color:#0098DC;\">3</span> seconds; Causes them to take Immolation damage\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>"
     ],
     "rangeId": null,
     "activationType": "Auto",
@@ -10612,16 +10704,16 @@
     "iconId": "skchr_heyak_2",
     "name": "Meandering Stars",
     "description": [
-      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">20%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">8%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> seconds",
-      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">22%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">8%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> seconds",
-      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">24%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">8%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> seconds",
-      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">27%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">10%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> seconds",
-      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">29%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">10%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> seconds",
-      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">31%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">10%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> seconds",
-      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">35%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">12%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> seconds",
-      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">38%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">13%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> seconds",
-      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">41%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">14%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> seconds",
-      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">45%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">15%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> seconds"
+      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">20%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">8%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> second",
+      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">22%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">8%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> second",
+      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">24%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">8%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> second",
+      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">27%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">10%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> second",
+      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">29%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">10%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> second",
+      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">31%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">10%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> second",
+      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">35%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">12%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> second",
+      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">38%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">13%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> second",
+      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">41%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">14%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> second",
+      "Attacks change to <span style=\"color:#0098DC;\">9</span> hits, each dealing <span style=\"color:#0098DC;\">45%</span> ATK as damage to random enemies within Attack Range; each hit has a <span style=\"color:#0098DC;\">15%</span> chance to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a> the target for <span style=\"color:#0098DC;\">1</span> second"
     ],
     "rangeId": null,
     "activationType": "Manual",
@@ -13303,16 +13395,16 @@
     "iconId": "skchr_demkni_1",
     "name": "First Aid",
     "description": [
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">110%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">115%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">120%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">130%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">135%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">140%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">150%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">160%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">170%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
-      "Restores the HP of a nearby ally with less than 50% HP by <span style=\"color:#0098DC;\">180%</span> of the Operator's ATK in the next attack\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>"
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">110%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">115%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">120%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">130%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">135%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">140%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">150%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">160%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">170%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">180%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>"
     ],
     "rangeId": "x-4",
     "activationType": "Auto",
@@ -13435,6 +13527,75 @@
     "spCost": [30, 30, 30, 29, 29, 29, 28, 27, 26, 25],
     "initSp": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
     "duration": [20, 21, 22, 23, 24, 25, 26, 27, 28, 30]
+  },
+  "skchr_shu_1": {
+    "id": "skchr_shu_1",
+    "iconId": "skchr_shu_1",
+    "name": "Verdant Wisdom",
+    "description": [
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">110%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">115%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">120%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">130%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">135%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">140%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 1 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">150%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">160%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">170%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 2 charge(s)</span>",
+      "The next attack restores HP equal to <span style=\"color:#0098DC;\">180%</span> ATK to a nearby friendly unit with less than 50% HP\n<span style=\"color:#F49800;\">Can store 3 charge(s)</span>"
+    ],
+    "rangeId": "x-4",
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [6, 6, 6, 5, 5, 5, 5, 4, 4, 4],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "skchr_shu_2": {
+    "id": "skchr_shu_2",
+    "iconId": "skchr_shu_2",
+    "name": "Bountiful Harvest",
+    "description": [
+      "<span style=\"color:#FF6237;\">Stops</span> attacking to focus on healing up to <span style=\"color:#0098DC;\">2</span> allied units within range; ATK <span style=\"color:#0098DC;\">+30%</span>, Block <span style=\"color:#0098DC;\">+1</span>, Talent 1 effect increases to <span style=\"color:#0098DC;\">1.2</span> x\n<span style=\"color:#F49800;\">Heals will use a special attack interval</span>",
+      "<span style=\"color:#FF6237;\">Stops</span> attacking to focus on healing up to <span style=\"color:#0098DC;\">2</span> allied units within range; ATK <span style=\"color:#0098DC;\">+40%</span>, Block <span style=\"color:#0098DC;\">+1</span>, Talent 1 effect increases to <span style=\"color:#0098DC;\">1.2</span> x\n<span style=\"color:#F49800;\">Heals will use a special attack interval</span>",
+      "<span style=\"color:#FF6237;\">Stops</span> attacking to focus on healing up to <span style=\"color:#0098DC;\">2</span> allied units within range; ATK <span style=\"color:#0098DC;\">+50%</span>, Block <span style=\"color:#0098DC;\">+1</span>, Talent 1 effect increases to <span style=\"color:#0098DC;\">1.2</span> x\n<span style=\"color:#F49800;\">Heals will use a special attack interval</span>",
+      "<span style=\"color:#FF6237;\">Stops</span> attacking to focus on healing up to <span style=\"color:#0098DC;\">2</span> allied units within range; ATK <span style=\"color:#0098DC;\">+60%</span>, Block <span style=\"color:#0098DC;\">+1</span>, Talent 1 effect increases to <span style=\"color:#0098DC;\">1.3</span> x\n<span style=\"color:#F49800;\">Heals will use a special attack interval</span>",
+      "<span style=\"color:#FF6237;\">Stops</span> attacking to focus on healing up to <span style=\"color:#0098DC;\">2</span> allied units within range; ATK <span style=\"color:#0098DC;\">+70%</span>, Block <span style=\"color:#0098DC;\">+1</span>, Talent 1 effect increases to <span style=\"color:#0098DC;\">1.3</span> x\n<span style=\"color:#F49800;\">Heals will use a special attack interval</span>",
+      "<span style=\"color:#FF6237;\">Stops</span> attacking to focus on healing up to <span style=\"color:#0098DC;\">2</span> allied units within range; ATK <span style=\"color:#0098DC;\">+80%</span>, Block <span style=\"color:#0098DC;\">+1</span>, Talent 1 effect increases to <span style=\"color:#0098DC;\">1.3</span> x\n<span style=\"color:#F49800;\">Heals will use a special attack interval</span>",
+      "<span style=\"color:#FF6237;\">Stops</span> attacking to focus on healing up to <span style=\"color:#0098DC;\">2</span> allied units within range; ATK <span style=\"color:#0098DC;\">+90%</span>, Block <span style=\"color:#0098DC;\">+1</span>, Talent 1 effect increases to <span style=\"color:#0098DC;\">1.4</span> x\n<span style=\"color:#F49800;\">Heals will use a special attack interval</span>",
+      "<span style=\"color:#FF6237;\">Stops</span> attacking to focus on healing up to <span style=\"color:#0098DC;\">2</span> allied units within range; ATK <span style=\"color:#0098DC;\">+100%</span>, Block <span style=\"color:#0098DC;\">+1</span>, Talent 1 effect increases to <span style=\"color:#0098DC;\">1.4</span> x\n<span style=\"color:#F49800;\">Heals will use a special attack interval</span>",
+      "<span style=\"color:#FF6237;\">Stops</span> attacking to focus on healing up to <span style=\"color:#0098DC;\">2</span> allied units within range; ATK <span style=\"color:#0098DC;\">+110%</span>, Block <span style=\"color:#0098DC;\">+1</span>, Talent 1 effect increases to <span style=\"color:#0098DC;\">1.4</span> x\n<span style=\"color:#F49800;\">Heals will use a special attack interval</span>",
+      "<span style=\"color:#FF6237;\">Stops</span> attacking to focus on healing up to <span style=\"color:#0098DC;\">2</span> allied units within range; ATK <span style=\"color:#0098DC;\">+120%</span>, Block <span style=\"color:#0098DC;\">+1</span>, Talent 1 effect increases to <span style=\"color:#0098DC;\">1.5</span> x\n<span style=\"color:#F49800;\">Heals will use a special attack interval</span>"
+    ],
+    "rangeId": "x-1",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [40, 40, 40, 35, 35, 35, 30, 30, 30, 25],
+    "initSp": [10, 10, 10, 15, 15, 15, 20, 20, 20, 20],
+    "duration": [25, 25, 25, 25, 25, 25, 25, 25, 25, 25]
+  },
+  "skchr_shu_3": {
+    "id": "skchr_shu_3",
+    "iconId": "skchr_shu_3",
+    "name": "Samsara",
+    "description": [
+      "Healing range <span style=\"color:#0098DC;\">expands</span>, attacks now also heal allied Operators, and ATK <span style=\"color:#0098DC;\">+10%</span>. If there are ground enemies on sowed tiles, all allied units within skill range gain <span style=\"color:#0098DC;\">+10%</span> ATK and <span style=\"color:#0098DC;\">+10</span> ASPD; When an enemy passes through a sowed tile, it gains the following effect: Teleport back to this location after moving more than <span style=\"color:#0098DC;\">4</span> tile(s) away",
+      "Healing range <span style=\"color:#0098DC;\">expands</span>, attacks now also heal allied Operators, and ATK <span style=\"color:#0098DC;\">+14%</span>. If there are ground enemies on sowed tiles, all allied units within skill range gain <span style=\"color:#0098DC;\">+10%</span> ATK and <span style=\"color:#0098DC;\">+10</span> ASPD; When an enemy passes through a sowed tile, it gains the following effect: Teleport back to this location after moving more than <span style=\"color:#0098DC;\">4</span> tile(s) away",
+      "Healing range <span style=\"color:#0098DC;\">expands</span>, attacks now also heal allied Operators, and ATK <span style=\"color:#0098DC;\">+18%</span>. If there are ground enemies on sowed tiles, all allied units within skill range gain <span style=\"color:#0098DC;\">+10%</span> ATK and <span style=\"color:#0098DC;\">+10</span> ASPD; When an enemy passes through a sowed tile, it gains the following effect: Teleport back to this location after moving more than <span style=\"color:#0098DC;\">4</span> tile(s) away",
+      "Healing range <span style=\"color:#0098DC;\">expands</span>, attacks now also heal allied Operators, and ATK <span style=\"color:#0098DC;\">+22%</span>. If there are ground enemies on sowed tiles, all allied units within skill range gain <span style=\"color:#0098DC;\">+15%</span> ATK and <span style=\"color:#0098DC;\">+15</span> ASPD; When an enemy passes through a sowed tile, it gains the following effect: Teleport back to this location after moving more than <span style=\"color:#0098DC;\">4</span> tile(s) away",
+      "Healing range <span style=\"color:#0098DC;\">expands</span>, attacks now also heal allied Operators, and ATK <span style=\"color:#0098DC;\">+26%</span>. If there are ground enemies on sowed tiles, all allied units within skill range gain <span style=\"color:#0098DC;\">+15%</span> ATK and <span style=\"color:#0098DC;\">+15</span> ASPD; When an enemy passes through a sowed tile, it gains the following effect: Teleport back to this location after moving more than <span style=\"color:#0098DC;\">4</span> tile(s) away",
+      "Healing range <span style=\"color:#0098DC;\">expands</span>, attacks now also heal allied Operators, and ATK <span style=\"color:#0098DC;\">+30%</span>. If there are ground enemies on sowed tiles, all allied units within skill range gain <span style=\"color:#0098DC;\">+15%</span> ATK and <span style=\"color:#0098DC;\">+15</span> ASPD; When an enemy passes through a sowed tile, it gains the following effect: Teleport back to this location after moving more than <span style=\"color:#0098DC;\">4</span> tile(s) away",
+      "Healing range <span style=\"color:#0098DC;\">expands</span>, attacks now also heal allied Operators, and ATK <span style=\"color:#0098DC;\">+34%</span>. If there are ground enemies on sowed tiles, all allied units within skill range gain <span style=\"color:#0098DC;\">+20%</span> ATK and <span style=\"color:#0098DC;\">+20</span> ASPD; When an enemy passes through a sowed tile, it gains the following effect: Teleport back to this location after moving more than <span style=\"color:#0098DC;\">3</span> tile(s) away",
+      "Healing range <span style=\"color:#0098DC;\">expands</span>, attacks now also heal allied Operators, and ATK <span style=\"color:#0098DC;\">+38%</span>. If there are ground enemies on sowed tiles, all allied units within skill range gain <span style=\"color:#0098DC;\">+20%</span> ATK and <span style=\"color:#0098DC;\">+20</span> ASPD; When an enemy passes through a sowed tile, it gains the following effect: Teleport back to this location after moving more than <span style=\"color:#0098DC;\">3</span> tile(s) away",
+      "Healing range <span style=\"color:#0098DC;\">expands</span>, attacks now also heal allied Operators, and ATK <span style=\"color:#0098DC;\">+44%</span>. If there are ground enemies on sowed tiles, all allied units within skill range gain <span style=\"color:#0098DC;\">+25%</span> ATK and <span style=\"color:#0098DC;\">+25</span> ASPD; When an enemy passes through a sowed tile, it gains the following effect: Teleport back to this location after moving more than <span style=\"color:#0098DC;\">3</span> tile(s) away",
+      "Healing range <span style=\"color:#0098DC;\">expands</span>, attacks now also heal allied Operators, and ATK <span style=\"color:#0098DC;\">+50%</span>. If there are ground enemies on sowed tiles, all allied units within skill range gain <span style=\"color:#0098DC;\">+25%</span> ATK and <span style=\"color:#0098DC;\">+25</span> ASPD; When an enemy passes through a sowed tile, it gains the following effect: Teleport back to this location after moving more than <span style=\"color:#0098DC;\">2</span> tile(s) away"
+    ],
+    "rangeId": "x-2",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [60, 60, 60, 55, 55, 55, 50, 47, 47, 45],
+    "initSp": [20, 20, 20, 25, 25, 25, 30, 30, 30, 30],
+    "duration": [30, 30, 30, 30, 30, 30, 30, 30, 30, 30]
   },
   "skchr_nian_1": {
     "id": "skchr_nian_1",
@@ -14016,16 +14177,16 @@
     "iconId": "skchr_lessng_3",
     "name": "Oathbreaker",
     "description": [
-      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+50%</span>, and attacks deal <span style=\"color:#0098DC;\">140%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
-      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+55%</span>, and attacks deal <span style=\"color:#0098DC;\">145%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
-      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+60%</span>, and attacks deal <span style=\"color:#0098DC;\">150%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
-      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+65%</span>, and attacks deal <span style=\"color:#0098DC;\">160%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
-      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+70%</span>, and attacks deal <span style=\"color:#0098DC;\">165%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
-      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+75%</span>, and attacks deal <span style=\"color:#0098DC;\">170%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
-      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+80%</span>, and attacks deal <span style=\"color:#0098DC;\">180%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
-      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+90%</span>, and attacks deal <span style=\"color:#0098DC;\">190%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
-      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+100%</span>, and attacks deal <span style=\"color:#0098DC;\">200%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
-      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, HP <span style=\"color:#0098DC;\">+110%</span>, and attacks deal <span style=\"color:#0098DC;\">220%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>"
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, Max HP <span style=\"color:#0098DC;\">+50%</span>, and attacks deal <span style=\"color:#0098DC;\">140%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, Max HP <span style=\"color:#0098DC;\">+55%</span>, and attacks deal <span style=\"color:#0098DC;\">145%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, Max HP <span style=\"color:#0098DC;\">+60%</span>, and attacks deal <span style=\"color:#0098DC;\">150%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, Max HP <span style=\"color:#0098DC;\">+65%</span>, and attacks deal <span style=\"color:#0098DC;\">160%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, Max HP <span style=\"color:#0098DC;\">+70%</span>, and attacks deal <span style=\"color:#0098DC;\">165%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, Max HP <span style=\"color:#0098DC;\">+75%</span>, and attacks deal <span style=\"color:#0098DC;\">170%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, Max HP <span style=\"color:#0098DC;\">+80%</span>, and attacks deal <span style=\"color:#0098DC;\">180%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, Max HP <span style=\"color:#0098DC;\">+90%</span>, and attacks deal <span style=\"color:#0098DC;\">190%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, Max HP <span style=\"color:#0098DC;\">+100%</span>, and attacks deal <span style=\"color:#0098DC;\">200%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>",
+      "Become immune to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Includes Stun, Cold, Freeze, etc.\" href=\"/terminology#negative_status\">Negative Statuses</a>, Max HP <span style=\"color:#0098DC;\">+110%</span>, and attacks deal <span style=\"color:#0098DC;\">220%</span> ATK as Physical damage when attacking a blocked target\n<span style=\"color:#F49800;\">Skill can be used when Operator is affected by a Negative Status, removing the status, but dealing 600 Arts damage to self</span>"
     ],
     "rangeId": null,
     "activationType": "Manual",
@@ -14976,6 +15137,75 @@
     "spCost": [45, 45, 45, 43, 43, 43, 41, 39, 37, 35],
     "initSp": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
     "duration": [12, 12, 12, 13, 13, 13, 14, 14, 14, 15]
+  },
+  "skchr_zuole_1": {
+    "id": "skchr_zuole_1",
+    "iconId": "skchr_zuole_1",
+    "name": "Fiendslayer",
+    "description": [
+      "Next attack's ATK increases to <span style=\"color:#0098DC;\">130%</span>; When this unit's HP is lower than <span style=\"color:#0098DC;\">80%</span>, this attack strikes <span style=\"color:#0098DC;\">1</span> additional time; when lower than <span style=\"color:#0098DC;\">50%</span>, this attack strikes <span style=\"color:#0098DC;\">2</span> additional times\n<span style=\"color:#F49800;\">Can store 1 charge</span>",
+      "Next attack's ATK increases to <span style=\"color:#0098DC;\">135%</span>; When this unit's HP is lower than <span style=\"color:#0098DC;\">80%</span>, this attack strikes <span style=\"color:#0098DC;\">1</span> additional time; when lower than <span style=\"color:#0098DC;\">50%</span>, this attack strikes <span style=\"color:#0098DC;\">2</span> additional times\n<span style=\"color:#F49800;\">Can store 1 charge</span>",
+      "Next attack's ATK increases to <span style=\"color:#0098DC;\">140%</span>; When this unit's HP is lower than <span style=\"color:#0098DC;\">80%</span>, this attack strikes <span style=\"color:#0098DC;\">1</span> additional time; when lower than <span style=\"color:#0098DC;\">50%</span>, this attack strikes <span style=\"color:#0098DC;\">2</span> additional times\n<span style=\"color:#F49800;\">Can store 1 charge</span>",
+      "Next attack's ATK increases to <span style=\"color:#0098DC;\">145%</span>; When this unit's HP is lower than <span style=\"color:#0098DC;\">80%</span>, this attack strikes <span style=\"color:#0098DC;\">1</span> additional time; when lower than <span style=\"color:#0098DC;\">50%</span>, this attack strikes <span style=\"color:#0098DC;\">2</span> additional times\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Next attack's ATK increases to <span style=\"color:#0098DC;\">150%</span>; When this unit's HP is lower than <span style=\"color:#0098DC;\">80%</span>, this attack strikes <span style=\"color:#0098DC;\">1</span> additional time; when lower than <span style=\"color:#0098DC;\">50%</span>, this attack strikes <span style=\"color:#0098DC;\">2</span> additional times\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Next attack's ATK increases to <span style=\"color:#0098DC;\">155%</span>; When this unit's HP is lower than <span style=\"color:#0098DC;\">80%</span>, this attack strikes <span style=\"color:#0098DC;\">1</span> additional time; when lower than <span style=\"color:#0098DC;\">50%</span>, this attack strikes <span style=\"color:#0098DC;\">2</span> additional times\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Next attack's ATK increases to <span style=\"color:#0098DC;\">160%</span>; When this unit's HP is lower than <span style=\"color:#0098DC;\">80%</span>, this attack strikes <span style=\"color:#0098DC;\">1</span> additional time; when lower than <span style=\"color:#0098DC;\">50%</span>, this attack strikes <span style=\"color:#0098DC;\">2</span> additional times\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Next attack's ATK increases to <span style=\"color:#0098DC;\">170%</span>; When this unit's HP is lower than <span style=\"color:#0098DC;\">80%</span>, this attack strikes <span style=\"color:#0098DC;\">1</span> additional time; when lower than <span style=\"color:#0098DC;\">50%</span>, this attack strikes <span style=\"color:#0098DC;\">2</span> additional times\n<span style=\"color:#F49800;\">Can store 2 charges</span>",
+      "Next attack's ATK increases to <span style=\"color:#0098DC;\">180%</span>; When this unit's HP is lower than <span style=\"color:#0098DC;\">80%</span>, this attack strikes <span style=\"color:#0098DC;\">1</span> additional time; when lower than <span style=\"color:#0098DC;\">50%</span>, this attack strikes <span style=\"color:#0098DC;\">2</span> additional times\n<span style=\"color:#F49800;\">Can store 3 charges</span>",
+      "Next attack's ATK increases to <span style=\"color:#0098DC;\">200%</span>; When this unit's HP is lower than <span style=\"color:#0098DC;\">80%</span>, this attack strikes <span style=\"color:#0098DC;\">1</span> additional time; when lower than <span style=\"color:#0098DC;\">50%</span>, this attack strikes <span style=\"color:#0098DC;\">2</span> additional times\n<span style=\"color:#F49800;\">Can store 3 charges</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [7, 7, 7, 6, 6, 6, 5, 5, 5, 4],
+    "initSp": [0, 0, 0, 2, 2, 2, 4, 5, 5, 6],
+    "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "skchr_zuole_2": {
+    "id": "skchr_zuole_2",
+    "iconId": "skchr_zuole_2",
+    "name": "Risktaker",
+    "description": [
+      "Immediately loses <span style=\"color:#FF6237;\">50%</span> of current HP and gains a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">60%</span> Max HP; ATK <span style=\"color:#0098DC;\">+80%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and gradually depletes after the skill ends</span>",
+      "Immediately loses <span style=\"color:#FF6237;\">50%</span> of current HP and gains a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">65%</span> Max HP; ATK <span style=\"color:#0098DC;\">+90%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and gradually depletes after the skill ends</span>",
+      "Immediately loses <span style=\"color:#FF6237;\">50%</span> of current HP and gains a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">70%</span> Max HP; ATK <span style=\"color:#0098DC;\">+100%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and gradually depletes after the skill ends</span>",
+      "Immediately loses <span style=\"color:#FF6237;\">50%</span> of current HP and gains a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">75%</span> Max HP; ATK <span style=\"color:#0098DC;\">+110%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and gradually depletes after the skill ends</span>",
+      "Immediately loses <span style=\"color:#FF6237;\">50%</span> of current HP and gains a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">80%</span> Max HP; ATK <span style=\"color:#0098DC;\">+120%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and gradually depletes after the skill ends</span>",
+      "Immediately loses <span style=\"color:#FF6237;\">50%</span> of current HP and gains a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">85%</span> Max HP; ATK <span style=\"color:#0098DC;\">+130%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and gradually depletes after the skill ends</span>",
+      "Immediately loses <span style=\"color:#FF6237;\">50%</span> of current HP and gains a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">90%</span> Max HP; ATK <span style=\"color:#0098DC;\">+140%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and gradually depletes after the skill ends</span>",
+      "Immediately loses <span style=\"color:#FF6237;\">50%</span> of current HP and gains a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">100%</span> Max HP; ATK <span style=\"color:#0098DC;\">+150%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and gradually depletes after the skill ends</span>",
+      "Immediately loses <span style=\"color:#FF6237;\">50%</span> of current HP and gains a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">110%</span> Max HP; ATK <span style=\"color:#0098DC;\">+160%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and gradually depletes after the skill ends</span>",
+      "Immediately loses <span style=\"color:#FF6237;\">50%</span> of current HP and gains a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">120%</span> Max HP; ATK <span style=\"color:#0098DC;\">+170%</span>, Block <span style=\"color:#0098DC;\">+1</span>, and attacks all blocked enemies\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and gradually depletes after the skill ends</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [30, 29, 28, 27, 26, 25, 24, 22, 21, 20],
+    "initSp": [0, 0, 0, 5, 5, 5, 10, 11, 12, 13],
+    "duration": [12, 12, 12, 12, 12, 12, 12, 12, 12, 12]
+  },
+  "skchr_zuole_3": {
+    "id": "skchr_zuole_3",
+    "iconId": "skchr_zuole_3",
+    "name": "Blessings Unto Yan",
+    "description": [
+      "Immediately performs <span style=\"color:#0098DC;\">7</span> frontal slashes, with each slash dealing <span style=\"color:#0098DC;\">185%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">3</span> enemies (the last strike has a doubled damage multiplier, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> targets for <span style=\"color:#0098DC;\">3</span>s); During this time, the HP recovery effect of this unit's Trait is changed to granting a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">2</span> times the recovery amount\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and lasts for 15s</span>",
+      "Immediately performs <span style=\"color:#0098DC;\">7</span> frontal slashes, with each slash dealing <span style=\"color:#0098DC;\">195%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">3</span> enemies (the last strike has a doubled damage multiplier, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> targets for <span style=\"color:#0098DC;\">3</span>s); During this time, the HP recovery effect of this unit's Trait is changed to granting a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">2</span> times the recovery amount\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and lasts for 15s</span>",
+      "Immediately performs <span style=\"color:#0098DC;\">7</span> frontal slashes, with each slash dealing <span style=\"color:#0098DC;\">200%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">3</span> enemies (the last strike has a doubled damage multiplier, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> targets for <span style=\"color:#0098DC;\">3</span>s); During this time, the HP recovery effect of this unit's Trait is changed to granting a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">2</span> times the recovery amount\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and lasts for 15s</span>",
+      "Immediately performs <span style=\"color:#0098DC;\">7</span> frontal slashes, with each slash dealing <span style=\"color:#0098DC;\">205%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">3</span> enemies (the last strike has a doubled damage multiplier, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> targets for <span style=\"color:#0098DC;\">3.5</span>s); During this time, the HP recovery effect of this unit's Trait is changed to granting a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">2.5</span> times the recovery amount\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and lasts for 15s</span>",
+      "Immediately performs <span style=\"color:#0098DC;\">7</span> frontal slashes, with each slash dealing <span style=\"color:#0098DC;\">210%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">3</span> enemies (the last strike has a doubled damage multiplier, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> targets for <span style=\"color:#0098DC;\">3.5</span>s); During this time, the HP recovery effect of this unit's Trait is changed to granting a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">2.5</span> times the recovery amount\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and lasts for 15s</span>",
+      "Immediately performs <span style=\"color:#0098DC;\">7</span> frontal slashes, with each slash dealing <span style=\"color:#0098DC;\">215%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">3</span> enemies (the last strike has a doubled damage multiplier, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> targets for <span style=\"color:#0098DC;\">3.5</span>s); During this time, the HP recovery effect of this unit's Trait is changed to granting a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">2.5</span> times the recovery amount\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and lasts for 15s</span>",
+      "Immediately performs <span style=\"color:#0098DC;\">7</span> frontal slashes, with each slash dealing <span style=\"color:#0098DC;\">220%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">3</span> enemies (the last strike has a doubled damage multiplier, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> targets for <span style=\"color:#0098DC;\">4</span>s); During this time, the HP recovery effect of this unit's Trait is changed to granting a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">3</span> times the recovery amount\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and lasts for 15s</span>",
+      "Immediately performs <span style=\"color:#0098DC;\">7</span> frontal slashes, with each slash dealing <span style=\"color:#0098DC;\">225%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">3</span> enemies (the last strike has a doubled damage multiplier, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> targets for <span style=\"color:#0098DC;\">4</span>s); During this time, the HP recovery effect of this unit's Trait is changed to granting a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">3</span> times the recovery amount\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and lasts for 15s</span>",
+      "Immediately performs <span style=\"color:#0098DC;\">7</span> frontal slashes, with each slash dealing <span style=\"color:#0098DC;\">235%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">3</span> enemies (the last strike has a doubled damage multiplier, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> targets for <span style=\"color:#0098DC;\">5</span>s); During this time, the HP recovery effect of this unit's Trait is changed to granting a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">3</span> times the recovery amount\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and lasts for 15s</span>",
+      "Immediately performs <span style=\"color:#0098DC;\">7</span> frontal slashes, with each slash dealing <span style=\"color:#0098DC;\">245%</span> ATK as Physical damage to up to <span style=\"color:#0098DC;\">3</span> enemies (the last strike has a doubled damage multiplier, and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stuns</a> targets for <span style=\"color:#0098DC;\">5</span>s); During this time, the HP recovery effect of this unit's Trait is changed to granting a <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> equal to <span style=\"color:#0098DC;\">3</span> times the recovery amount\n<span style=\"color:#F49800;\">The <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a> can stack up to 2x Max HP, and lasts for 15s</span>"
+    ],
+    "rangeId": "3-2",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [30, 30, 30, 29, 29, 29, 28, 27, 26, 25],
+    "initSp": [0, 1, 2, 3, 4, 5, 6, 7, 8, 10],
+    "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   },
   "skchr_pallas_1": {
     "id": "skchr_pallas_1",
@@ -16732,14 +16962,15 @@
     "name": "Block Road",
     "description": [
       "Lv. I: Blocks the enemy's path, forcing them to go around it.",
-      "Lv. II: Blocks the enemy's path, forcing them to go around it. Reinforced and gains <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by normal enemy attacks if the unit is not blocking (but will still take Splash damage)\" href=\"/terminology#camouflage\">Camouflage</a>."
+      "Lv. II: Reinforced; Blocks the enemy's path, forcing them to go around it",
+      "Lv. III: Reinforced, and gains <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by normal enemy attacks if the unit is not blocking (but will still take Splash damage)\" href=\"/terminology#camouflage\">Camouflage</a>; Blocks the enemy's path, forcing them to go around it"
     ],
     "rangeId": null,
     "activationType": "Passive",
     "spRecovery": "Passive",
-    "spCost": [0, 0],
-    "initSp": [0, 0],
-    "duration": [-1, -1]
+    "spCost": [0, 0, 0],
+    "initSp": [0, 0, 0],
+    "duration": [-1, -1, -1]
   },
   "sktok_xboverwatch": {
     "id": "sktok_xboverwatch",
@@ -16931,8 +17162,8 @@
     "iconId": "sktok_xbprsh",
     "name": "Resource Planning",
     "description": [
-      "Lv. I: Gives an extra deployment slot each battle (up to 3 constructs of the same type can be deployed).",
-      "Lv. II: Gives 2 extra deployment slots each battle (up to 3 constructs of the same type can be deployed)."
+      "Lv. I: Gives an extra deployment slot each battle",
+      "Lv. II: Gives 2 extra deployment slots each battle"
     ],
     "rangeId": null,
     "activationType": "Passive",
@@ -16946,8 +17177,8 @@
     "iconId": "sktok_xblrsh",
     "name": "Improve Personnel Status",
     "description": [
-      "Lv. I: Gives 2 Life Points each battle (up to 5 constructs of the same type can be deployed).",
-      "Lv. II: Gives 3 Life Points each battle (up to 5 constructs of the same type can be deployed)."
+      "Lv. I: Gives 2 Life Points each battle",
+      "Lv. II: Gives 3 Life Points each battle"
     ],
     "rangeId": null,
     "activationType": "Passive",
@@ -16991,8 +17222,8 @@
     "name": "Smelt",
     "description": [
       "Lv. I: Allows you to combine &lt;Fresh Water&gt; and &lt;Iron Ore&gt; into &lt;Crude Gold&gt; (up to 1 construct of the same type can be deployed).",
-      "Lv. II: Allows you to combine &lt;Fresh Water&gt; and &lt;Iron Ore&gt; into more &lt;Crude Gold&gt; (up to 1 construct of the same type can be deployed).",
-      "Lv. III: Allows you to combine &lt;Fresh Water&gt; and &lt;Iron Ore&gt; into even more &lt;Crude Gold&gt; (up to 1 construct of the same type can be deployed)."
+      "Lv. II: Additionally allows you to combine &lt;Fresh Water&gt; and &lt;Stone&gt; into &lt;Crude Gold&gt; (up to 1 construct of the same type can be deployed)",
+      "Lv. III: Additionally allows you to combine &lt;Fresh Water&gt; and &lt;Wood&gt; into &lt;Crude Gold&gt; (up to 1 construct of the same type can be deployed)"
     ],
     "rangeId": null,
     "activationType": "Passive",
@@ -17047,11 +17278,13 @@
     "id": "sktok_wfactory",
     "iconId": "sktok_wfactory",
     "name": "Pump Water",
-    "description": ["Allows &lt;Fresh Water&gt; to be gathered from &lt;Clear Water&gt;."],
+    "description": [
+      "Allows &lt;Fresh Water&gt; to be gathered from &lt;Clear Water&gt;, lasts for 85s"
+    ],
     "rangeId": null,
     "activationType": "Auto",
     "spRecovery": "Auto",
-    "spCost": [20],
+    "spCost": [8],
     "initSp": [0],
     "duration": [-1]
   },
@@ -17102,14 +17335,14 @@
     "iconId": "sktok_umbrella",
     "name": "Help Hide",
     "description": [
-      "Can be deployed on high and low ground. Grants <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by normal enemy attacks if the unit is not blocking (but will still take Splash damage)\" href=\"/terminology#camouflage\">Camouflage</a> to all allies in the 8 surrounding tiles."
+      "Can be deployed on high and low ground. Grants <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by normal enemy attacks if the unit is not blocking (but will still take Splash damage)\" href=\"/terminology#camouflage\">Camouflage</a> and Immunity to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a> to all allies in the 8 surrounding tiles"
     ],
     "rangeId": "x-4",
     "activationType": "Auto",
     "spRecovery": "Auto",
     "spCost": [1],
     "initSp": [1],
-    "duration": [100]
+    "duration": [40]
   },
   "sktok_repairman": {
     "id": "sktok_repairman",
@@ -18026,6 +18259,543 @@
     "activationType": "Auto",
     "spRecovery": "Passive",
     "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_dhtl_1": {
+    "id": "sktok_dhtl_1",
+    "iconId": "sktok_dhtl",
+    "name": "Throttle",
+    "description": [
+      "Blocks the water flow; takes <span style=\"color:#0098DC;\">3</span>s to build"
+    ],
+    "rangeId": "0-1",
+    "activationType": "Auto",
+    "spRecovery": "Passive",
+    "spCost": [1],
+    "initSp": [1],
+    "duration": [3]
+  },
+  "sktok_dhtl_2": {
+    "id": "sktok_dhtl_2",
+    "iconId": "sktok_dhtl",
+    "name": "Throttle",
+    "description": ["Blocks the water flow"],
+    "rangeId": "0-1",
+    "activationType": "Auto",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_dhsb": {
+    "id": "sktok_dhsb",
+    "iconId": "sktok_dhsb",
+    "name": "Pump",
+    "description": [
+      "Pumps shallow water from the tile behind this unit forward; if the tile behind is a clear paddy, reduces the Blight level of the target paddy; if the tile behind is a Blighted paddy, increases the Blight level of the target paddy until it is equal to or exceeds that of the original paddy\nIf an allied unit is located on the tile behind, effect range <span style=\"color:#0098DC;\">+2</span>"
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_xbalis": {
+    "id": "sktok_xbalis",
+    "iconId": "sktok_common",
+    "name": "Fire",
+    "description": [
+      "Fires a crossbow bolt forward, dealing damage to the first allied unit it collides with"
+    ],
+    "rangeId": "5-1",
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [4],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_xbmgbird": {
+    "id": "sktok_xbmgbird",
+    "iconId": "sktok_xbmgbird",
+    "name": "'Gift'",
+    "description": ["Leaves some treasures behind after being healed to max HP"],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_xbtent": {
+    "id": "sktok_xbtent",
+    "iconId": "sktok_xbtent",
+    "name": "Aid",
+    "description": [
+      "During the skill duration, all allied constructs gain <span style=\"color:#0098DC;\">100%</span> <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Reduces incoming Physical and Arts damage by the corresponding amount (only the strongest effect of this type applies)\" href=\"/terminology#sanctuary\">Sanctuary</a>"
+    ],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [120],
+    "initSp": [80],
+    "duration": [8]
+  },
+  "sktok_xbexbi": {
+    "id": "sktok_xbexbi",
+    "iconId": "sktok_xbexbi",
+    "name": "Recollect",
+    "description": [
+      "Filled with tokens of formidable foes; some are commemorations, while others are premonitions."
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_xbfence": {
+    "id": "sktok_xbfence",
+    "iconId": "sktok_xbfence",
+    "name": "Raise",
+    "description": ["Can deploy hunting cage"],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_xbfdtion": {
+    "id": "sktok_xbfdtion",
+    "iconId": "sktok_xbfdtion",
+    "name": "Central Core",
+    "description": ["Be careful! You lose if this is destroyed!"],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_xbmcv": {
+    "id": "sktok_xbmcv",
+    "iconId": "sktok_xbmcv",
+    "name": "Engine Core",
+    "description": ["Be careful! You lose this Strange Territory game if this is destroyed!"],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_xbmire": {
+    "id": "sktok_xbmire",
+    "iconId": "sktok_xbmire",
+    "name": "Corrosion",
+    "description": [
+      "Enemies on this position have -15% DEF and RES",
+      "Enemies on this position have -25% DEF and RES",
+      "Enemies on this position have -35% DEF and RES"
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0, 0, 0],
+    "initSp": [0, 0, 0],
+    "duration": [-1, -1, -1]
+  },
+  "sktok_xbspgun": {
+    "id": "sktok_xbspgun",
+    "iconId": "sktok_xbspgun",
+    "name": "Burst!",
+    "description": [
+      "Fires a smoke bomb at an enemy in front, inflicting 20% <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Amplifies all Physical, Arts, and True damage taken by the corresponding amount (only the strongest effect of this type applies)\" href=\"/terminology#fragile\">Fragile</a> for 5s",
+      "Fires a smoke bomb at an enemy in front, inflicting 20% <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Amplifies all Physical, Arts, and True damage taken by the corresponding amount (only the strongest effect of this type applies)\" href=\"/terminology#fragile\">Fragile</a> for 10s",
+      "Fires a smoke bomb at an enemy in front, inflicting 40% <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Amplifies all Physical, Arts, and True damage taken by the corresponding amount (only the strongest effect of this type applies)\" href=\"/terminology#fragile\">Fragile</a> for 10s"
+    ],
+    "rangeId": "3-2",
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [7, 5, 4],
+    "initSp": [0, 0, 0],
+    "duration": [0, 0, 0]
+  },
+  "sktok_xbdrill": {
+    "id": "sktok_xbdrill",
+    "iconId": "sktok_xbdrill",
+    "name": "Gather",
+    "description": [
+      "Produces &lt;Master Gatherers&gt; to gather from &lt;Thickets&gt;, &lt;Monoliths&gt;, &lt;Strange Ore Veins&gt;, and &lt;Glowstone Ore Veins&gt; with a bonus when gathering from &lt;Glowstone Ore Veins&gt;. Limit of 3."
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [10],
+    "initSp": [5],
+    "duration": [-1]
+  },
+  "sktok_xbflare": {
+    "id": "sktok_xbflare",
+    "iconId": "sktok_xbflare",
+    "name": "Temporary Illumination",
+    "description": ["Scouts the visible area within a certain range"],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_xbcage": {
+    "id": "sktok_xbcage",
+    "iconId": "sktok_xbcage",
+    "name": "Capture",
+    "description": [
+      "Captures any common prey within attack range with less than 50% HP",
+      "Captures any common prey within attack range"
+    ],
+    "rangeId": "1-1",
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [5, 1],
+    "initSp": [0, 0],
+    "duration": [0, 0]
+  },
+  "sktok_xbbee": {
+    "id": "sktok_xbbee",
+    "iconId": "sktok_xbbee",
+    "name": "Scan",
+    "description": [
+      "Searches for the nearest &lt;Buried Metal Chest&gt;, &lt;Thorned Treasure Chest&gt;, &lt;Fowlbeast's Return&gt;, or &lt;Historical Remains&gt; and temporarily scouts the visible area around it"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [1],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_xbember": {
+    "id": "sktok_xbember",
+    "iconId": "sktok_xbember",
+    "name": "Impel",
+    "description": [
+      "Makes an allied unit's HP unable to drop beneath 1 for 10s; afterwards, that unit automatically retreats from battle with +100% Redeployment Time",
+      "Makes an allied unit's HP unable to drop beneath 1 for 15s; afterwards, that unit automatically retreats from battle",
+      "Makes an allied unit's HP unable to drop beneath 1 for 20s; afterwards, that unit automatically retreats from battle with -50% Redeployment Time"
+    ],
+    "rangeId": "1-1",
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [0, 0, 0],
+    "initSp": [0, 0, 0],
+    "duration": [10, 15, 20]
+  },
+  "sktok_xbistorm": {
+    "id": "sktok_xbistorm",
+    "iconId": "sktok_xbistorm",
+    "name": "Ice Blast!",
+    "description": [
+      "Immediately inflicts Cold on enemies in attack range for 15s",
+      "Immediately inflicts Freeze on enemies in attack range for 15s"
+    ],
+    "rangeId": "x-4",
+    "activationType": "Passive",
+    "spRecovery": "Auto",
+    "spCost": [0, 0],
+    "initSp": [0, 0],
+    "duration": [-1, -1]
+  },
+  "sktok_xbfarmm": {
+    "id": "sktok_xbfarmm",
+    "iconId": "sktok_xbfarmm",
+    "name": "Plant",
+    "description": [
+      "Produces &lt;Rice&gt; daily (up to 12 constructs of the same type can be deployed)."
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_xbfort": {
+    "id": "sktok_xbfort",
+    "iconId": "sktok_xbfort",
+    "name": "Deploy",
+    "description": [
+      "When placed, allows Ranged Operators to be deployed on top",
+      "More sturdy; when placed, allows Ranged Operators to be deployed on top",
+      "More sturdy; when placed, allows Ranged Operators to be deployed on top, and increases their ASPD"
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0, 0, 0],
+    "initSp": [0, 0, 0],
+    "duration": [0, 0, 0]
+  },
+  "sktok_xbbarir": {
+    "id": "sktok_xbbarir",
+    "iconId": "sktok_xbbarir",
+    "name": "Block",
+    "description": [
+      "Can block enemies",
+      "Can block enemies",
+      "Can block enemies, and deals high Physical damage to surrounding enemies when destroyed"
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0, 0, 0],
+    "initSp": [0, 0, 0],
+    "duration": [-1, -1, -1]
+  },
+  "sktok_xblight": {
+    "id": "sktok_xblight",
+    "iconId": "sktok_xblight",
+    "name": "Scout",
+    "description": [
+      "Can scout the visible area within a certain range",
+      "Can scout the visible area within a certain range",
+      "Can scout the visible area within the entire node"
+    ],
+    "rangeId": "0-1",
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0, 0, 0],
+    "initSp": [0, 0, 0],
+    "duration": [-1, -1, -1]
+  },
+  "sktok_xbdiam": {
+    "id": "sktok_xbdiam",
+    "iconId": "sktok_common",
+    "name": "Gatherable",
+    "description": ["&lt;Glowstone&gt; can be gathered here"],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_xbhydr": {
+    "id": "sktok_xbhydr",
+    "iconId": "sktok_xbhydr",
+    "name": "Key",
+    "description": [
+      "Gradually restores own HP. After receiving a certain number of attacks, get destroyed and unlocks a new area"
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_xbsighta": {
+    "id": "sktok_xbsighta",
+    "iconId": "sktok_xbsighta",
+    "name": "Gush",
+    "description": [
+      "Water splashes, moistening the air. Standing next to it, you can feel a breath of coolness."
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_xbsightb": {
+    "id": "sktok_xbsightb",
+    "iconId": "sktok_xbsightb",
+    "name": "Sway",
+    "description": [
+      "The most drought-tolerant tree has been planted in the barrenlands. Even when storms strike, this plant will continue to stand."
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_xbsightc": {
+    "id": "sktok_xbsightc",
+    "iconId": "sktok_xbsightc",
+    "name": "Stand",
+    "description": [
+      "One of the most popular outdoor facilities. People often rest up on top to enjoy a rare moment of leisure."
+    ],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_xbstation": {
+    "id": "sktok_xbstation",
+    "iconId": "sktok_xbstation",
+    "name": "Command",
+    "description": ["Destroy to unlock a special expedition for this node"],
+    "rangeId": null,
+    "activationType": "Passive",
+    "spRecovery": "Passive",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [-1]
+  },
+  "sktok_xbcbag": {
+    "id": "sktok_xbcbag",
+    "iconId": "sktok_xbcbag",
+    "name": "Release the Prey",
+    "description": [
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey",
+      "Can only be deployed inside Beast Pens to release captured prey"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    "initSp": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "duration": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "sktok_xbspps": {
+    "id": "sktok_xbspps",
+    "iconId": "sktok_xbspps",
+    "name": "Ignition",
+    "description": [
+      "Reduces the DEF of surrounding enemies, but increases their Movement Speed"
+    ],
+    "rangeId": "x-4",
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_xbcanoe": {
+    "id": "sktok_xbcanoe",
+    "iconId": "sktok_xbcanoe",
+    "name": "Deployment Platform",
+    "description": [
+      "Constructs a platform on the water upon which <span style=\"color:#0098DC;\">any</span> unit can be deployed"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [1],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_npccom": {
+    "id": "sktok_npccom",
+    "iconId": "sktok_npc",
+    "name": "Trigger Dialogue",
+    "description": ["Activate skill and speak to this character."],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [1],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_tfalco": {
+    "id": "sktok_tfalco",
+    "iconId": "sktok_npc",
+    "name": "Trigger Dialogue",
+    "description": ["Activate skill and speak to this character."],
+    "rangeId": "x-2",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [1],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_trademan_summon": {
+    "id": "sktok_trademan_summon",
+    "iconId": "sktok_npc",
+    "name": "Trigger Dialogue",
+    "description": ["Activate skill and speak to this character."],
+    "rangeId": "x-2",
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [1],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_trsrhuntr": {
+    "id": "sktok_trsrhuntr",
+    "iconId": "sktok_npc",
+    "name": "Trigger Dialogue",
+    "description": ["Activate skill and speak to this character."],
+    "rangeId": null,
+    "activationType": "Manual",
+    "spRecovery": "Auto",
+    "spCost": [1],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_rnfcar": {
+    "id": "sktok_rnfcar",
+    "iconId": "sktok_rnfcar",
+    "name": "Reinforce",
+    "description": ["Fortifies a forward barricade: Increases Max HP and DEF"],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [0],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_ads": {
+    "id": "sktok_ads",
+    "iconId": "sktok_ads",
+    "name": "Cover",
+    "description": ["Nullifies up to 4 Straight Shot bullets from surrounding enemies"],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [1],
+    "initSp": [0],
+    "duration": [0]
+  },
+  "sktok_edd": {
+    "id": "sktok_edd",
+    "iconId": "sktok_edd",
+    "name": "Lay Mines",
+    "description": [
+      "Launches a detection line forward that extends until it reaches high ground; enemies that cross the detection line will be tagged with bombs, and the bombs can further detonate Originium explosives"
+    ],
+    "rangeId": null,
+    "activationType": "Auto",
+    "spRecovery": "Auto",
+    "spCost": [10],
     "initSp": [0],
     "duration": [0]
   }

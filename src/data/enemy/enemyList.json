@@ -16895,6 +16895,524 @@
   },
   {
     "sort": 748,
+    "id": "enemy_1390_dhsbr",
+    "slug": "filth",
+    "code": "HSL1",
+    "name": "Filth",
+    "description": "A fabric construct born from the farmers' fears of a poor harvest. They carry a crop-killing Blight, and pose a great risk to agricultural yields.",
+    "race": "Apparition",
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Causes Blight to the paddy when defeated",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Becomes <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> on Blighted tiles",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 749,
+    "id": "enemy_1390_dhsbr_2",
+    "slug": "expelled_filth",
+    "code": "HSL2",
+    "name": "Expelled Filth",
+    "description": "A fabric construct born from the farmers' fears of a failed harvest. They carry a wide range of crop-killing Blights, and pose a tremendous risk to agricultural yields.",
+    "race": "Apparition",
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Causes Blight to the paddy when defeated",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Becomes <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> on Blighted tiles",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 750,
+    "id": "enemy_1391_dhbow",
+    "slug": "consumption",
+    "code": "HSL3",
+    "name": "Consumption",
+    "description": "A fabric construct that contaminates plants, capable of spraying Blight from a distance. Even crops on agricultural plates are at risk.",
+    "race": "Apparition",
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "When on Blighted tiles, attacks deal Arts damage",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 751,
+    "id": "enemy_1391_dhbow_2",
+    "slug": "banished_consumption",
+    "code": "HSL4",
+    "name": "Banished Consumption",
+    "description": "A fabric construct that corrodes plants, capable of spraying highly hazardous Blight from a distance. Even well-protected crops on agricultural plates are at risk.",
+    "race": "Apparition",
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "When on Blighted tiles, attacks deal Arts damage",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 752,
+    "id": "enemy_1392_dhshld",
+    "slug": "scum",
+    "code": "HSL5",
+    "name": "Scum",
+    "description": "A large fabric construct that uses its huge mass and thick skin to run rampant across the paddies, detested by farmers.",
+    "race": "Apparition",
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      { "text": "More likely to be attacked", "textFormat": "NORMAL" },
+      {
+        "text": "Causes heavy Blight to the paddy when defeated",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 753,
+    "id": "enemy_1392_dhshld_2",
+    "slug": "accursed_scum",
+    "code": "HSL6",
+    "name": "Accursed Scum",
+    "description": "A gargantuan fabric construct that uses its huge mass and nigh-impenetrable skin to wreak havoc across the paddies, loathed by farmers.",
+    "race": "Apparition",
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      { "text": "More likely to be attacked", "textFormat": "NORMAL" },
+      {
+        "text": "Causes heavy Blight to the paddy when defeated",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 754,
+    "id": "enemy_1393_dhele",
+    "slug": "blemish",
+    "code": "HSL7",
+    "name": "Blemish",
+    "description": "A fabric construct that spreads Blight across a wide area. If left unchecked, once fertile farmland will become a hotbed of blight in less than half a day.",
+    "race": "Apparition",
+    "type": "ELITE",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Absorbs shallow water to attack all allied melee units on the map, dealing splash damage in a cross",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When on Blighted tiles, attacks deal additional Arts damage and causes Blight to the paddy",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 755,
+    "id": "enemy_1393_dhele_2",
+    "slug": "renounced_blemish",
+    "code": "HSL8",
+    "name": "Renounced Blemish",
+    "description": "A fabric construct that ruthlessly spreads Blight across a wide area. If left unchecked, once fertile farmland will instantly become a farmer's worst nightmare.",
+    "race": "Apparition",
+    "type": "ELITE",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Absorbs shallow water to attack all allied melee units on the map, dealing splash damage in a cross",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When on Blighted tiles, attacks deal additional Arts damage and causes Blight to the paddy",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 756,
+    "id": "enemy_1394_dhzts",
+    "slug": "miasma",
+    "code": "HSL9",
+    "name": "Miasma",
+    "description": "Similar to a stockbeast in appearance, seemingly docile at first glance. But unlike other fabric constructs, they become aggressive towards people after absorbing the Blight in the soil and water, so exercise caution.",
+    "race": "Apparition",
+    "type": "ELITE",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      { "text": "Rebirth", "textFormat": "NORMAL" },
+      {
+        "text": "Regenerates itself on the spot when defeated, continuously absorbing any Blight it is in contact with and increasing DEF based on the amount absorbed; attacks now deal additional Arts damage",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 757,
+    "id": "enemy_1394_dhzts_2",
+    "slug": "basal_miasma",
+    "code": "HSL10",
+    "name": "Basal Miasma",
+    "description": "Similar to a stockbeast in appearance, seemingly docile at first glance. But unlike other fabric constructs, they become very aggressive towards people after absorbing the Blight in the soil and water, so exercise the utmost caution.",
+    "race": "Apparition",
+    "type": "ELITE",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      { "text": "Rebirth", "textFormat": "NORMAL" },
+      {
+        "text": "Regenerates itself on the spot when defeated, continuously absorbing any Blight it is in contact with and increasing DEF based on the amount absorbed; attacks now deal additional Arts damage",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 758,
+    "id": "enemy_1395_dhxts",
+    "slug": "fieldmus",
+    "code": "HSL11",
+    "name": "Fieldmus",
+    "description": "The fieldmus is the farmer's sworn enemy, as well as a living page from the annals of Terra's agricultural history. They have adapted to modern farming techniques, and even Throttle Valves cannot escape their destructive tendencies.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      { "text": "Attacks surrounding Throttle Valves", "textFormat": "NORMAL" },
+      {
+        "text": "Becomes <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> on Blighted tiles",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 759,
+    "id": "enemy_1395_dhxts_2",
+    "slug": "hard-snouted_fieldmus",
+    "code": "HSL12",
+    "name": "Hard-Snouted Fieldmus",
+    "description": "The fieldmus is the farmer's sworn enemy, as well as a living page from the annals of Terra's agricultural history. They have fully adapted to modern farming techniques, and even the most advanced Throttle Valves cannot escape their destructive tendencies.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      { "text": "Attacks surrounding Throttle Valves", "textFormat": "NORMAL" },
+      {
+        "text": "Becomes <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a> on Blighted tiles",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 760,
+    "id": "enemy_1396_dhdts",
+    "slug": "fieldmus_bruiser",
+    "code": "HSL13",
+    "name": "Fieldmus Bruiser",
+    "description": "The more bountiful the harvest, the fatter the fieldmus. When these creatures grow four-packs, even the Tianshis sigh—for they destroy Throttle Valves with frightening efficiency.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Can only be blocked by Operators with 3 or more Block",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Sprints upon taking damage, gaining greatly increased Movement Speed for a short time",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Deals heavy damage to Throttle Valves it passes over",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 761,
+    "id": "enemy_1396_dhdts_2",
+    "slug": "fieldmus_ravager",
+    "code": "HSL14",
+    "name": "Fieldmus Ravager",
+    "description": "The more bountiful the harvest, the fatter the fieldmus. When these creatures grow eight-packs, even the Tianshis rub their aching brows—for they can do away with a Throttle Valve in the blink of an eye.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Can only be blocked by Operators with 3 or more Block",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Sprints upon taking damage, gaining greatly increased Movement Speed for a short time",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Deals heavy damage to Throttle Valves it passes over",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 762,
+    "id": "enemy_1397_dhtsxt",
+    "slug": "fieldmus_flying_thief",
+    "code": "HSL15",
+    "name": "Fieldmus Flying Thief",
+    "description": "The thing with fieldmus is that not only do they ruin farm equipment, they also take the loose parts back to their lairs. Who knows, maybe they'll be able to build a nomadic city one day.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Can only be blocked by Operators with 3 or more Block",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Sprints upon taking damage, gaining greatly increased Movement Speed for a short time",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Deals heavy damage to Throttle Valves it passes over",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When defeated, grants a deployable unit",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 763,
+    "id": "enemy_1397_dhtsxt_2",
+    "slug": "fieldmus_heistmaster",
+    "code": "HSL16",
+    "name": "Fieldmus Heistmaster",
+    "description": "The thing with fieldmus is that not only do they dismantle farm equipment, they also leave no loose parts behind. Who knows, maybe they'll be able to build a nomadic city one day.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Can only be blocked by Operators with 3 or more Block",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Sprints upon taking damage, gaining greatly increased Movement Speed for a short time",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Deals heavy damage to Throttle Valves it passes over",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When defeated, grants a deployable unit",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 764,
+    "id": "enemy_1398_dhdcr",
+    "slug": "sky_pole_-_jia",
+    "code": "HSL17",
+    "name": "Sky Pole - Jia",
+    "description": "Structural pillar-type comprehensive monitoring-maintenance system on experimental plates, Sky Pole Model Jia. Capable of monitoring soil conditions, water source quality, and pest and Blight status in real time; during emergency situations, can release the corresponding Sky Pole Model Yi.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "None Physical",
+    "abilityList": [
+      {
+        "text": "Starts battle as a friendly unit, monitors the paddy's Blight level",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Wakes up when the Blight level in the current paddy exceeds a certain threshold",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Gradually loses HP. For every certain percentage of HP lost, releases a certain number of Sky Pole - Yi",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate", "Frighten"],
+    "lifePointReduction": 0,
+    "weight": 0,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1399_dhtb"]
+  },
+  {
+    "sort": 765,
+    "id": "enemy_1398_dhdcr_2",
+    "slug": "out_of_control_sky_pole_-_jia",
+    "code": "HSL18",
+    "name": "Out of Control Sky Pole - Jia",
+    "description": "Structural pillar-type comprehensive monitoring-maintenance system on experimental plates, Sky Pole Model Jia. Originally capable of monitoring soil conditions, water source quality, and pest and Blight status in real time; during emergency situations, can release the corresponding Sky Pole Model Yi. However, it has now gone out of control.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "None Physical",
+    "abilityList": [
+      {
+        "text": "Starts battle as a friendly unit, monitors the paddy's Blight level",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Wakes up when the Blight level in the current paddy exceeds a certain threshold",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Gradually loses HP. For every certain percentage of HP lost, releases a certain number of Out of Control Sky Pole - Yi",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate", "Frighten"],
+    "lifePointReduction": 0,
+    "weight": 0,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1399_dhtb_2"]
+  },
+  {
+    "sort": 766,
+    "id": "enemy_1399_dhtb",
+    "slug": "sky_pole_-_yi",
+    "code": "HSL19",
+    "name": "Sky Pole - Yi",
+    "description": "UAV-type comprehensive monitoring-maintenance system on experimental plates, Sky Pole Model Yi. Capable of completing tasks within the signal range of Model Jia, such as collecting crop samples, eliminating pests, spraying pesticides, and driving away trespassing beasts.",
+    "race": "Drone",
+    "type": "NORMAL",
+    "attackPattern": "Melee Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Latches onto the first unit within range and relentlessly attacks until the target is defeated",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate", "Frighten"],
+    "lifePointReduction": 1,
+    "weight": 0,
+    "isFlying": true,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 767,
+    "id": "enemy_1399_dhtb_2",
+    "slug": "out_of_control_sky_pole_-_yi",
+    "code": "HSL20",
+    "name": "Out of Control Sky Pole - Yi",
+    "description": "UAV-type comprehensive monitoring-maintenance system on experimental plates, Sky Pole Model Yi. Originally capable of completing tasks within the signal range of Model Jia, such as collecting crop samples, eliminating pests, spraying pesticides, and driving away trespassing beasts. However, it has now gone out of control.",
+    "race": "Drone",
+    "type": "NORMAL",
+    "attackPattern": "Melee Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Latches onto the first unit within range and relentlessly attacks until the target is defeated",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate", "Frighten"],
+    "lifePointReduction": 1,
+    "weight": 0,
+    "isFlying": true,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 787,
     "id": "enemy_2001_duckmi",
     "slug": "duck_lord",
     "code": "DLD",
@@ -16917,7 +17435,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 749,
+    "sort": 788,
     "id": "enemy_2002_bearmi",
     "slug": "gopnik",
     "code": "GPN",
@@ -16934,7 +17452,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 750,
+    "sort": 789,
     "id": "enemy_2034_sythef",
     "slug": "crying_thief",
     "code": "THF",
@@ -16960,7 +17478,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 751,
+    "sort": 790,
     "id": "enemy_2009_csaudc",
     "slug": "derisive_audience",
     "code": "CS1",
@@ -16982,7 +17500,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 752,
+    "sort": 791,
     "id": "enemy_2010_csdcr",
     "slug": "scarlet_singer",
     "code": "CS2",
@@ -17008,7 +17526,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 753,
+    "sort": 792,
     "id": "enemy_2011_csppt",
     "slug": "theater_golem",
     "code": "CS3",
@@ -17034,7 +17552,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 754,
+    "sort": 793,
     "id": "enemy_2012_csbln",
     "slug": "small_surprise",
     "code": "CS4",
@@ -17057,7 +17575,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 755,
+    "sort": 794,
     "id": "enemy_2017_csphts",
     "slug": "ominous_apparition",
     "code": "PTS",
@@ -17087,7 +17605,7 @@
     "relatedEnemies": ["enemy_2016_csphtm"]
   },
   {
-    "sort": 756,
+    "sort": 795,
     "id": "enemy_2021_syfish",
     "slug": "bone_sea_drifter",
     "code": "SY1",
@@ -17109,7 +17627,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 757,
+    "sort": 796,
     "id": "enemy_2022_syzeni",
     "slug": "ocean_stonecutter",
     "code": "SY2",
@@ -17131,7 +17649,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 758,
+    "sort": 797,
     "id": "enemy_2023_sypult",
     "slug": "retching_broodmother",
     "code": "SY3",
@@ -17154,7 +17672,7 @@
     "relatedEnemies": ["enemy_2024_synut"]
   },
   {
-    "sort": 759,
+    "sort": 798,
     "id": "enemy_2024_synut",
     "slug": "baleful_broodling",
     "code": "SY4",
@@ -17178,7 +17696,7 @@
     "relatedEnemies": ["enemy_2023_sypult"]
   },
   {
-    "sort": 760,
+    "sort": 799,
     "id": "enemy_2025_syufo",
     "slug": "skimming_sea_drifter",
     "code": "SY5",
@@ -17204,7 +17722,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 761,
+    "sort": 800,
     "id": "enemy_2033_syboys",
     "slug": "pathshaper_fractal",
     "code": "SY6",
@@ -17227,7 +17745,7 @@
     "relatedEnemies": ["enemy_2031_syboy", "enemy_2032_syboy2"]
   },
   {
-    "sort": 762,
+    "sort": 801,
     "id": "enemy_2040_syrott",
     "slug": "ishar'mla's_tears",
     "code": "SY7",
@@ -17254,7 +17772,7 @@
     "relatedEnemies": ["enemy_2039_syskad"]
   },
   {
-    "sort": 763,
+    "sort": 802,
     "id": "enemy_2041_syjely",
     "slug": "izumik's_offspring",
     "code": "SY8",
@@ -17271,7 +17789,7 @@
     "relatedEnemies": ["enemy_2042_syboss"]
   },
   {
-    "sort": 764,
+    "sort": 803,
     "id": "enemy_2035_sybox",
     "slug": "chest_seaborn",
     "code": "SY9",
@@ -17288,7 +17806,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 765,
+    "sort": 804,
     "id": "enemy_2043_smsbr",
     "slug": "tainted_carcass",
     "code": "EJ1",
@@ -17310,7 +17828,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 766,
+    "sort": 805,
     "id": "enemy_2044_smwiz",
     "slug": "distorted_caster",
     "code": "EJ2",
@@ -17332,7 +17850,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 767,
+    "sort": 806,
     "id": "enemy_2045_smdrn",
     "slug": "collapsed_construct",
     "code": "EJ3",
@@ -17349,7 +17867,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 768,
+    "sort": 807,
     "id": "enemy_2046_smwar",
     "slug": "shattered_champion",
     "code": "EJ4",
@@ -17366,7 +17884,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 769,
+    "sort": 808,
     "id": "enemy_2059_smbox",
     "slug": "testaceous_vinecreeps",
     "code": "EJ5",
@@ -17383,7 +17901,41 @@
     "relatedEnemies": []
   },
   {
-    "sort": 773,
+    "sort": 810,
+    "id": "enemy_2060_smshdw",
+    "slug": "khaganshadow",
+    "code": "EJ6",
+    "name": "Khaganshadow",
+    "description": "A soul trapped in the Khagan Nightzmora, which will raise its weapon and follow its eternal general to the ends of the land.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 811,
+    "id": "enemy_2061_smhond",
+    "slug": "royal_companion",
+    "code": "EJ7",
+    "name": "Royal Companion",
+    "description": "The proud beastkin have long had close ties to Sargon royalty, some even choosing to serve by a king's side as guardian.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 812,
     "id": "enemy_4001_toxcar",
     "slug": "retrofitted_gastruck",
     "code": "MU1",
@@ -17405,7 +17957,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 774,
+    "sort": 813,
     "id": "enemy_4001_toxcar_2",
     "slug": "supercharged_gastruck",
     "code": "MU2",
@@ -17427,7 +17979,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 775,
+    "sort": 814,
     "id": "enemy_4002_syokai",
     "slug": "cheap_second-hand_drone",
     "code": "MU3",
@@ -17454,7 +18006,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 776,
+    "sort": 815,
     "id": "enemy_4002_syokai_2",
     "slug": "remodeled_second-hand_drone",
     "code": "MU4",
@@ -17481,7 +18033,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 777,
+    "sort": 816,
     "id": "enemy_4003_pbank",
     "slug": "mobile_power_source",
     "code": "MU5",
@@ -17508,7 +18060,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 778,
+    "sort": 817,
     "id": "enemy_1050_lslime",
     "slug": "pompeii",
     "code": "UM1",
@@ -17519,7 +18071,7 @@
     "attackPattern": "Ranged Arts",
     "abilityList": [
       {
-        "text": "Can attack up to 4 targets at once and ignites targets it attacks, dealing Burn damage over time",
+        "text": "Can attack up to 4 targets at once and ignites targets it attacks, dealing Immolation damage over time",
         "textFormat": "NORMAL"
       },
       {
@@ -17538,7 +18090,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 779,
+    "sort": 818,
     "id": "enemy_1500_skulsr",
     "slug": "skullshatterer",
     "code": "SS",
@@ -17564,7 +18116,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 780,
+    "sort": 819,
     "id": "enemy_1502_crowns",
     "slug": "crownslayer",
     "code": "CS",
@@ -17586,7 +18138,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 781,
+    "sort": 820,
     "id": "enemy_1503_talula",
     "slug": "talulah",
     "code": "TA",
@@ -17617,7 +18169,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 782,
+    "sort": 821,
     "id": "enemy_1504_cqbw",
     "slug": "w",
     "code": "W",
@@ -17643,7 +18195,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 783,
+    "sort": 822,
     "id": "enemy_1505_frstar",
     "slug": "frostnova",
     "code": "FN",
@@ -17673,7 +18225,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 784,
+    "sort": 823,
     "id": "enemy_1507_mephi",
     "slug": "mephisto",
     "code": "MP",
@@ -17699,7 +18251,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 785,
+    "sort": 824,
     "id": "enemy_1508_faust",
     "slug": "faust",
     "code": "FA",
@@ -17729,7 +18281,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 786,
+    "sort": 825,
     "id": "enemy_1509_mousek",
     "slug": "rat_king",
     "code": "MK",
@@ -17763,7 +18315,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 787,
+    "sort": 826,
     "id": "enemy_1510_frstar2",
     "slug": "frostnova,_'winter's_scar'",
     "code": "FNF",
@@ -17793,7 +18345,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 788,
+    "sort": 827,
     "id": "enemy_1506_patrt",
     "slug": "patriot",
     "code": "PT",
@@ -17838,7 +18390,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 789,
+    "sort": 828,
     "id": "enemy_1511_mdrock",
     "slug": "mudrock",
     "code": "MR",
@@ -17869,7 +18421,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 790,
+    "sort": 829,
     "id": "enemy_1512_mcmstr",
     "slug": "the_big_ugly_thing",
     "code": "BU",
@@ -17905,7 +18457,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 791,
+    "sort": 830,
     "id": "enemy_1513_dekght",
     "slug": "corrupted_knight",
     "code": "DK1",
@@ -17935,7 +18487,7 @@
     "relatedEnemies": ["enemy_1513_dekght_2"]
   },
   {
-    "sort": 792,
+    "sort": 831,
     "id": "enemy_1513_dekght_2",
     "slug": "withered_knight",
     "code": "DK2",
@@ -17962,7 +18514,7 @@
     "relatedEnemies": ["enemy_1513_dekght"]
   },
   {
-    "sort": 793,
+    "sort": 832,
     "id": "enemy_1514_smephi",
     "slug": "mephisto,_'the_singer'",
     "code": "SMP",
@@ -17998,7 +18550,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 794,
+    "sort": 833,
     "id": "enemy_1515_bsnake",
     "slug": "deathless_black_snake",
     "code": "BSN",
@@ -18042,7 +18594,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 795,
+    "sort": 834,
     "id": "enemy_1516_jakill",
     "slug": "jesselton_williams",
     "code": "JAK",
@@ -18084,7 +18636,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 796,
+    "sort": 835,
     "id": "enemy_1517_xi",
     "slug": "free",
     "code": "DSK",
@@ -18125,7 +18677,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 797,
+    "sort": 836,
     "id": "enemy_1519_bgball",
     "slug": "essence_of_evolution",
     "code": "BB",
@@ -18171,7 +18723,7 @@
     "relatedEnemies": ["enemy_1137_plasm", "enemy_1138_tumor"]
   },
   {
-    "sort": 798,
+    "sort": 837,
     "id": "enemy_1520_empgrd",
     "slug": "'emperor's_blade',_pursuer",
     "code": "EMG",
@@ -18211,7 +18763,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 799,
+    "sort": 838,
     "id": "enemy_1521_dslily",
     "slug": "sal_viento_bishop_quintus",
     "code": "SVK",
@@ -18249,7 +18801,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 800,
+    "sort": 839,
     "id": "enemy_1522_captan",
     "slug": "pancho_salas",
     "code": "CPS",
@@ -18293,7 +18845,7 @@
     "relatedEnemies": ["enemy_1164_bmbmot_3"]
   },
   {
-    "sort": 801,
+    "sort": 840,
     "id": "enemy_1523_mandra",
     "slug": "mandragora",
     "code": "MD",
@@ -18333,7 +18885,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 802,
+    "sort": 841,
     "id": "enemy_1524_bldkgt",
     "slug": "the_blood_knight_dikaiopolis",
     "code": "BK",
@@ -18378,7 +18930,7 @@
     "relatedEnemies": ["enemy_1186_bldbld"]
   },
   {
-    "sort": 803,
+    "sort": 842,
     "id": "enemy_1525_blkswb",
     "slug": "degenbrecher",
     "code": "BJ",
@@ -18430,7 +18982,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 804,
+    "sort": 843,
     "id": "enemy_1526_sfsui",
     "slug": "sui-xiang",
     "code": "SUI",
@@ -18483,7 +19035,7 @@
     "relatedEnemies": ["enemy_1211_msfsui"]
   },
   {
-    "sort": 805,
+    "sort": 844,
     "id": "enemy_1527_martyr",
     "slug": "andoain,_the_'martyr'",
     "code": "AND",
@@ -18528,7 +19080,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 806,
+    "sort": 845,
     "id": "enemy_1528_manfri",
     "slug": "manfred",
     "code": "MAN",
@@ -18568,7 +19120,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 807,
+    "sort": 846,
     "id": "enemy_1529_dsdevr",
     "slug": "the_endspeaker,_will_of_we_many",
     "code": "AMA",
@@ -18605,7 +19157,7 @@
     ]
   },
   {
-    "sort": 808,
+    "sort": 847,
     "id": "enemy_1530_white",
     "slug": "kreide,_'worldly_remains'",
     "code": "KRE",
@@ -18645,7 +19197,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 809,
+    "sort": 848,
     "id": "enemy_1531_bbrain",
     "slug": "awaken",
     "code": "BBR",
@@ -18691,7 +19243,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 810,
+    "sort": 849,
     "id": "enemy_1532_minima",
     "slug": "materialist_antagonizer",
     "code": "CST",
@@ -18744,7 +19296,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 811,
+    "sort": 850,
     "id": "enemy_1533_stmkgt",
     "slug": "the_last_steam_knight",
     "code": "LYN",
@@ -18790,7 +19342,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 812,
+    "sort": 851,
     "id": "enemy_1535_wlfmster",
     "slug": "zaaro,_signore_dei_lupi",
     "code": "ZA",
@@ -18835,7 +19387,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 813,
+    "sort": 852,
     "id": "enemy_1536_ncrmcr",
     "slug": "the_leader",
     "code": "EB",
@@ -18880,7 +19432,7 @@
     "relatedEnemies": ["enemy_1288_duskls", "enemy_1288_duskls_2"]
   },
   {
-    "sort": 814,
+    "sort": 853,
     "id": "enemy_1538_ymmons",
     "slug": "ya",
     "code": "YA01",
@@ -18928,7 +19480,7 @@
     "relatedEnemies": ["enemy_1312_ymillu", "enemy_1538_ymmons_2", "enemy_1538_ymmons_3"]
   },
   {
-    "sort": 817,
+    "sort": 856,
     "id": "enemy_1537_mhrors",
     "slug": "rathalos",
     "code": "6935",
@@ -18993,7 +19545,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 818,
+    "sort": 857,
     "id": "enemy_1539_reid",
     "slug": "hateful_avenger/boss",
     "code": "A15",
@@ -19023,7 +19575,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 819,
+    "sort": 858,
     "id": "enemy_1540_wdncr",
     "slug": "eblana",
     "code": "EB",
@@ -19040,7 +19592,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 820,
+    "sort": 859,
     "id": "enemy_1541_wdslms",
     "slug": "damazti_cluster/clone",
     "code": "DC3",
@@ -19057,7 +19609,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 821,
+    "sort": 860,
     "id": "enemy_1542_wdslm",
     "slug": "damazti_cluster",
     "code": "DC1",
@@ -19110,7 +19662,7 @@
     "relatedEnemies": ["enemy_1323_wdbshd"]
   },
   {
-    "sort": 822,
+    "sort": 861,
     "id": "enemy_1543_cstlrs",
     "slug": "kristen",
     "code": "KW",
@@ -19162,7 +19714,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 823,
+    "sort": 862,
     "id": "enemy_1544_cledub",
     "slug": "the_gardener",
     "code": "CD",
@@ -19210,7 +19762,7 @@
     "relatedEnemies": ["enemy_3005_lpeopl"]
   },
   {
-    "sort": 824,
+    "sort": 863,
     "id": "enemy_1545_shpkg",
     "slug": "dolly,_sovereign_of_sheep",
     "code": "DLY",
@@ -19270,7 +19822,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 825,
+    "sort": 864,
     "id": "enemy_1546_cliff",
     "slug": "'clip'_cliff",
     "code": "BSC",
@@ -19314,7 +19866,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 826,
+    "sort": 865,
     "id": "enemy_1547_blord",
     "slug": "duq'arael,_'regent's_crimson'",
     "code": "PB",
@@ -19366,7 +19918,7 @@
     "relatedEnemies": ["enemy_1367_dseed"]
   },
   {
-    "sort": 827,
+    "sort": 866,
     "id": "enemy_1548_ltniak",
     "slug": "herkunftshorn,_'witch_king'",
     "code": "HH",
@@ -19430,7 +19982,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 828,
+    "sort": 867,
     "id": "enemy_1549_windoc",
     "slug": "harold_craigavon",
     "code": "HC",
@@ -19478,7 +20030,51 @@
     "relatedEnemies": []
   },
   {
-    "sort": 829,
+    "sort": 868,
+    "id": "enemy_1550_dhnzzh",
+    "slug": "slumbering_of_sui",
+    "code": "SUI",
+    "name": "'Slumbering of Sui'",
+    "description": "Born from the heart of an awakened Feranmut. A thousand years twisted into shadow. The executors of Sui are never alone, for fear is always by their side; to wait in the boundless chaos, or thread the needle in search for a shred of enlightenment?",
+    "race": "Apparition",
+    "type": "BOSS",
+    "attackPattern": "Melee Ranged Physical",
+    "abilityList": [
+      { "text": "Chaos", "textFormat": "TITLE" },
+      {
+        "text": "Molts after taking a certain amount of damage, causing Blight to the paddies it is on, reducing ATK, DEF, RES, and Weight, while increasing Movement Speed",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When HP drops to 0 for the first time, melts into the water and continuously summons enemies; enters the Enlightened State when reborn",
+        "textFormat": "NORMAL"
+      },
+      { "text": "Enlightened", "textFormat": "TITLE" },
+      {
+        "text": "Changes attributes, attacks now deal 2 strikes of Physical damage, and becomes immune to most control effects",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Marks all allied units that have attacked 'Slumbering of Sui'; when a marked unit leaves the field, causes extremely high level of Blight to the tiles where 'Slumbering of Sui' is on",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[As Needlework] When the Blight level of a paddy at this unit's location exceeds a certain threshold, 'Slumbering of Sui' will continuously absorb and condense Blight into a spear that deals a large amount of Arts damage, prioritizing marked Operators",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "'Slumbering of Sui' has reduced DEF, RES, and Movement Speed when it is on paddies unaffected by Blight, or when scoured with unpolluted water.",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence"],
+    "lifePointReduction": 2,
+    "weight": 10,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 870,
     "id": "enemy_2003_rockman",
     "slug": "lost_colossus",
     "code": "WDG",
@@ -19500,7 +20096,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 830,
+    "sort": 871,
     "id": "enemy_2004_balloon",
     "slug": "jetman",
     "code": "JTM",
@@ -19522,7 +20118,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 831,
+    "sort": 872,
     "id": "enemy_2005_axetro",
     "slug": "forsaken_one",
     "code": "FSK",
@@ -19544,7 +20140,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 832,
+    "sort": 873,
     "id": "enemy_2006_flsnip",
     "slug": "rusthammer_warrior",
     "code": "RSH",
@@ -19570,7 +20166,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 833,
+    "sort": 874,
     "id": "enemy_2007_flwitch",
     "slug": "frozen_monstrosity",
     "code": "FZM",
@@ -19600,7 +20196,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 834,
+    "sort": 875,
     "id": "enemy_2008_flking",
     "slug": "gravestone",
     "code": "GST",
@@ -19626,7 +20222,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 835,
+    "sort": 876,
     "id": "enemy_2013_csbot",
     "slug": "wandering_puppet",
     "code": "MSC",
@@ -19648,7 +20244,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 836,
+    "sort": 877,
     "id": "enemy_2014_csicer",
     "slug": "snow_doe",
     "code": "ICR",
@@ -19674,7 +20270,7 @@
     "relatedEnemies": ["enemy_2015_csicem"]
   },
   {
-    "sort": 837,
+    "sort": 878,
     "id": "enemy_2015_csicem",
     "slug": "frost_buck",
     "code": "ICM",
@@ -19700,7 +20296,7 @@
     "relatedEnemies": ["enemy_2014_csicer"]
   },
   {
-    "sort": 838,
+    "sort": 879,
     "id": "enemy_2016_csphtm",
     "slug": "lucian,_'blood_diamond'",
     "code": "PTM",
@@ -19726,7 +20322,7 @@
     "relatedEnemies": ["enemy_2017_csphts"]
   },
   {
-    "sort": 839,
+    "sort": 880,
     "id": "enemy_2018_csdoll",
     "slug": "big_sad_lock",
     "code": "DOL",
@@ -19761,7 +20357,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 840,
+    "sort": 881,
     "id": "enemy_2019_cshost",
     "slug": "troupe_mouthpiece",
     "code": "HST",
@@ -19792,7 +20388,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 841,
+    "sort": 882,
     "id": "enemy_2020_cswrtr",
     "slug": "playwright",
     "code": "WRT",
@@ -19826,7 +20422,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 842,
+    "sort": 883,
     "id": "enemy_2026_syudg",
     "slug": "saint_carmen",
     "code": "UGF",
@@ -19852,7 +20448,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 843,
+    "sort": 884,
     "id": "enemy_2027_syudg2",
     "slug": "saint_iberia",
     "code": "UGS",
@@ -19879,7 +20475,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 844,
+    "sort": 885,
     "id": "enemy_2028_syevil",
     "slug": "tidelinked_bishop",
     "code": "SEV",
@@ -19901,7 +20497,7 @@
     "relatedEnemies": ["enemy_2029_symon", "enemy_2030_symon2"]
   },
   {
-    "sort": 845,
+    "sort": 886,
     "id": "enemy_2029_symon",
     "slug": "tidelinked_archon",
     "code": "SMF",
@@ -19927,7 +20523,7 @@
     "relatedEnemies": ["enemy_2028_syevil"]
   },
   {
-    "sort": 846,
+    "sort": 887,
     "id": "enemy_2030_symon2",
     "slug": "tidelinked_immortal",
     "code": "SMS",
@@ -19957,7 +20553,7 @@
     "relatedEnemies": ["enemy_2028_syevil"]
   },
   {
-    "sort": 847,
+    "sort": 888,
     "id": "enemy_2031_syboy",
     "slug": "pathshaper",
     "code": "SRF",
@@ -19983,7 +20579,7 @@
     "relatedEnemies": ["enemy_2033_syboys"]
   },
   {
-    "sort": 848,
+    "sort": 889,
     "id": "enemy_2032_syboy2",
     "slug": "lingering_pathshaper",
     "code": "SRS",
@@ -20010,7 +20606,7 @@
     "relatedEnemies": ["enemy_2033_syboys"]
   },
   {
-    "sort": 849,
+    "sort": 890,
     "id": "enemy_2037_sygirl",
     "slug": "paranoia_illusion",
     "code": "GIR",
@@ -20046,7 +20642,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 850,
+    "sort": 891,
     "id": "enemy_2038_sydonq",
     "slug": "the_last_knight",
     "code": "DOQ",
@@ -20079,7 +20675,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 851,
+    "sort": 892,
     "id": "enemy_2039_syskad",
     "slug": "ishar'mla,_heart_of_corruption",
     "code": "SKA",
@@ -20115,7 +20711,7 @@
     "relatedEnemies": ["enemy_2040_syrott"]
   },
   {
-    "sort": 852,
+    "sort": 893,
     "id": "enemy_2042_syboss",
     "slug": "izumik,_source_of_ecology",
     "code": "MZK",
@@ -20148,7 +20744,7 @@
     "relatedEnemies": ["enemy_2041_syjely"]
   },
   {
-    "sort": 853,
+    "sort": 894,
     "id": "enemy_2036_syshop",
     "slug": "cannot",
     "code": "KNT",
@@ -20174,7 +20770,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 854,
+    "sort": 895,
     "id": "enemy_2048_smgrd",
     "slug": "demon's_blade",
     "code": "DB",
@@ -20200,7 +20796,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 855,
+    "sort": 896,
     "id": "enemy_2049_smgrd2",
     "slug": "'demon's_blade,'_the_vagabond",
     "code": "DBV",
@@ -20226,7 +20822,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 856,
+    "sort": 897,
     "id": "enemy_2050_smsha",
     "slug": "fallen_snowpriest",
     "code": "FSP",
@@ -20252,7 +20848,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 857,
+    "sort": 898,
     "id": "enemy_2051_smsha2",
     "slug": "hollow_snowpriest",
     "code": "HSP",
@@ -20278,7 +20874,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 858,
+    "sort": 899,
     "id": "enemy_2052_smgia",
     "slug": "weaving_vinecreeps",
     "code": "WVC",
@@ -20304,7 +20900,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 859,
+    "sort": 900,
     "id": "enemy_2053_smgia2",
     "slug": "elder_vinecreeps",
     "code": "EVC",
@@ -20330,7 +20926,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 860,
+    "sort": 901,
     "id": "enemy_2054_smdeer",
     "slug": "'samivilinn,'_the_resolution_of_the_very_north",
     "code": "SAM",
@@ -20364,7 +20960,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 861,
+    "sort": 902,
     "id": "enemy_2055_smlead",
     "slug": "'eikthyrnir,'_the_scar_of_the_shattered",
     "code": "EIK",
@@ -20409,7 +21005,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 862,
+    "sort": 903,
     "id": "enemy_2056_smedzi",
     "slug": "crazelyseon,_the_ascendant_of_cosmoi",
     "code": "CES",
@@ -20444,7 +21040,67 @@
     "relatedEnemies": []
   },
   {
-    "sort": 869,
+    "sort": 904,
+    "id": "enemy_2057_smkght",
+    "slug": "kharanduu_khagan,_the_scourge_of_the_land",
+    "code": "KSL",
+    "name": "Kharanduu Khagan, the Scourge of the Land",
+    "description": "On the other side of time, the Khagan of the Nightzmora's Khaganquest comes to a close. Infinite wealth awaits his trampling heel on the golden coast.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "When dealing damage, increases ATK and ASPD, up to a limit. This effect will reset a few seconds after this unit stops attacking",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Conquest] After charging up, deals heavy Physical damage to all units around &lt;Lugalszargus, the Overlord of Ages&gt; in a large area and inflicts <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When &lt;Lugalszargus, the Overlord of Ages&gt; is defeated or leaves, ASPD, Movement Speed, DEF, and RES are greatly increased, and your units become the target of [Conquest]",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 30,
+    "weight": 7,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 905,
+    "id": "enemy_2058_smlion",
+    "slug": "lugalszargus,_the_overlord_of_ages",
+    "code": "LOA",
+    "name": "Lugalszargus, the Overlord of Ages",
+    "description": "On the other side of reality, 'The Shah of Past and Future' issues his edict. Life and death take up ranks alongside one another to fulfill Sargon's immense, monumental ambition.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "When blocked, passes through the target, dealing Arts damage to the blocking unit",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "[Edict] After charging up, deals heavy Arts damage to all units around &lt;Kharanduu Khagan, the Scourge of the Land&gt; in a large area and inflicts <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When &lt;Kharanduu Khagan, the Scourge of the Land&gt; is defeated or leaves, ASPD, Movement Speed, DEF, and RES are greatly increased, and your units become the target of [Edict]",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 30,
+    "weight": 7,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 910,
     "id": "enemy_6001_trsgst",
     "slug": "fleet-footed_thief",
     "code": "DL1",
@@ -20467,7 +21123,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 870,
+    "sort": 911,
     "id": "enemy_6002_trswlf",
     "slug": "teary_detective",
     "code": "DL2",
@@ -20497,7 +21153,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 871,
+    "sort": 912,
     "id": "enemy_6003_trsslm",
     "slug": "shiny_pooloo",
     "code": "DL3",
@@ -20523,7 +21179,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 872,
+    "sort": 913,
     "id": "enemy_6004_pleslm",
     "slug": "milan",
     "code": "DL4",
@@ -20553,7 +21209,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 873,
+    "sort": 914,
     "id": "enemy_6005_llstone",
     "slug": "spherical_colossus",
     "code": "DL5",
@@ -20583,7 +21239,7 @@
     "relatedEnemies": ["enemy_6006_fystone"]
   },
   {
-    "sort": 874,
+    "sort": 915,
     "id": "enemy_6006_fystone",
     "slug": "crude_sphere",
     "code": "DL6",
@@ -20606,7 +21262,7 @@
     "relatedEnemies": ["enemy_6005_llstone"]
   },
   {
-    "sort": 875,
+    "sort": 916,
     "id": "enemy_6007_mtslm",
     "slug": "drifting_cabin",
     "code": "DL7",
@@ -20632,7 +21288,7 @@
     "relatedEnemies": ["enemy_6008_mtslms"]
   },
   {
-    "sort": 876,
+    "sort": 917,
     "id": "enemy_6008_mtslms",
     "slug": "fluorescent_originium_slug",
     "code": "DL8",
@@ -20649,7 +21305,7 @@
     "relatedEnemies": ["enemy_6007_mtslm"]
   },
   {
-    "sort": 877,
+    "sort": 918,
     "id": "enemy_6009_nlkgtbs",
     "slug": "fruit_of_gluttony",
     "code": "DL9",
@@ -20679,7 +21335,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 878,
+    "sort": 919,
     "id": "enemy_6010_boxing",
     "slug": "'boy_wonder'_sandel",
     "code": "DL10",
@@ -20705,7 +21361,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 879,
+    "sort": 920,
     "id": "enemy_6011_planty",
     "slug": "nature's_compromise",
     "code": "DL11",
@@ -20735,7 +21391,7 @@
     "relatedEnemies": ["enemy_6012_plants"]
   },
   {
-    "sort": 880,
+    "sort": 921,
     "id": "enemy_6012_plants",
     "slug": "small_symbiont",
     "code": "DL12",
@@ -20752,7 +21408,7 @@
     "relatedEnemies": ["enemy_6011_planty"]
   },
   {
-    "sort": 881,
+    "sort": 922,
     "id": "enemy_6013_smith",
     "slug": "mama's_'rebel_girl'",
     "code": "DL13",
@@ -20782,7 +21438,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 882,
+    "sort": 923,
     "id": "enemy_6014_crzgas",
     "slug": "tumor",
     "code": "DL14",
@@ -20809,7 +21465,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 883,
+    "sort": 924,
     "id": "enemy_6015_ictruck",
     "slug": "supersweetie_smiley",
     "code": "DL15",
@@ -20847,7 +21503,7 @@
     "relatedEnemies": ["enemy_6017_icdrone"]
   },
   {
-    "sort": 884,
+    "sort": 925,
     "id": "enemy_6016_splash",
     "slug": "thirster",
     "code": "DL16",
@@ -20885,7 +21541,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 885,
+    "sort": 926,
     "id": "enemy_6017_icdrone",
     "slug": "supersweetie_delivery_drone",
     "code": "DL17",
@@ -20908,7 +21564,7 @@
     "relatedEnemies": ["enemy_6015_ictruck"]
   },
   {
-    "sort": 886,
+    "sort": 927,
     "id": "enemy_6018_carrier",
     "slug": "hatred_without_root",
     "code": "DL18",
@@ -20944,7 +21600,7 @@
     ]
   },
   {
-    "sort": 887,
+    "sort": 928,
     "id": "enemy_6019_escort",
     "slug": "seeding_drone",
     "code": "DL19",
@@ -20966,7 +21622,7 @@
     "relatedEnemies": ["enemy_6018_carrier"]
   },
   {
-    "sort": 888,
+    "sort": 929,
     "id": "enemy_6020_orang",
     "slug": "spirit_of_liquor",
     "code": "DL20",
@@ -21000,7 +21656,7 @@
     "relatedEnemies": ["enemy_6021_cask"]
   },
   {
-    "sort": 889,
+    "sort": 930,
     "id": "enemy_6021_cask",
     "slug": "aged_mead",
     "code": "DL21",
@@ -21022,7 +21678,7 @@
     "relatedEnemies": ["enemy_6020_orang"]
   },
   {
-    "sort": 890,
+    "sort": 931,
     "id": "enemy_7001_blwzad",
     "slug": "tribal_shaman",
     "code": "SD1",
@@ -21044,7 +21700,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 891,
+    "sort": 932,
     "id": "enemy_7001_blwzad_2",
     "slug": "lord_ameer_shaman",
     "code": "SD2",
@@ -21066,7 +21722,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 892,
+    "sort": 933,
     "id": "enemy_7002_veingd",
     "slug": "vein_guardian",
     "code": "SD3",
@@ -21088,7 +21744,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 893,
+    "sort": 934,
     "id": "enemy_7002_veingd_2",
     "slug": "maddened_vein_guardian",
     "code": "SD4",
@@ -21110,7 +21766,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 894,
+    "sort": 935,
     "id": "enemy_7003_catapt",
     "slug": "anything_can_be_broken",
     "code": "SD5",
@@ -21132,12 +21788,12 @@
     "relatedEnemies": []
   },
   {
-    "sort": 895,
+    "sort": 936,
     "id": "enemy_7003_catapt_2",
     "slug": "everything_should_be_smashed",
     "code": "SD6",
     "name": "'Everything Should Be Smashed'",
-    "description": "A contraption that hurls fruit with rock-hard shells instead of boulders, destroying all constructs in its detection range by targeting their weak points. After some improvements and upgrades, it is powerful enough to destroy large constructs.",
+    "description": "A contraption that hurls fruit with rock-hard shells instead of boulders, destroying all constructs in its detection range by targeting their weak points. After some upgrades, it is powerful enough to destroy large buildings.",
     "race": "Machina",
     "type": "NORMAL",
     "attackPattern": "Ranged Physical",
@@ -21154,7 +21810,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 896,
+    "sort": 937,
     "id": "enemy_7004_xbdeer",
     "slug": "leporibeast_shorthorn",
     "code": "SD7",
@@ -21176,7 +21832,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 897,
+    "sort": 938,
     "id": "enemy_7004_xbdeer_2",
     "slug": "leporibeast_longhorn",
     "code": "SD8",
@@ -21198,7 +21854,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 898,
+    "sort": 939,
     "id": "enemy_7005_xbbull",
     "slug": "mossback_beast",
     "code": "SD9",
@@ -21221,7 +21877,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 899,
+    "sort": 940,
     "id": "enemy_7005_xbbull_2",
     "slug": "lush_mossback_beast",
     "code": "SD10",
@@ -21244,7 +21900,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 900,
+    "sort": 941,
     "id": "enemy_7006_xbcrab",
     "slug": "cragpincer",
     "code": "SD11",
@@ -21266,7 +21922,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 901,
+    "sort": 942,
     "id": "enemy_7006_xbcrab_2",
     "slug": "crystalline_cragpincer",
     "code": "SD12",
@@ -21288,7 +21944,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 902,
+    "sort": 943,
     "id": "enemy_7015_xbcrab2",
     "slug": "consortium_of_pincers",
     "code": "SD13",
@@ -21304,13 +21960,13 @@
       }
     ],
     "immunities": [],
-    "lifePointReduction": 0,
+    "lifePointReduction": 1,
     "weight": 3,
     "isFlying": false,
     "relatedEnemies": []
   },
   {
-    "sort": 903,
+    "sort": 944,
     "id": "enemy_7007_xbbird",
     "slug": "sandfall_crystalhoof",
     "code": "SD14",
@@ -21333,7 +21989,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 905,
+    "sort": 946,
     "id": "enemy_7009_mtmoun",
     "slug": "the_immortal",
     "code": "SD16",
@@ -21359,7 +22015,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 906,
+    "sort": 947,
     "id": "enemy_7010_bldrgn",
     "slug": "great_wingbeast",
     "code": "SD17",
@@ -21389,7 +22045,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 907,
+    "sort": 948,
     "id": "enemy_7011_paki",
     "slug": "sargonian_contract_assassin",
     "code": "SD18",
@@ -21397,7 +22053,7 @@
     "description": "A Sargonian assassin available for hire. Extremely agile with their unusual footwork. If the pay is generous enough, they are also willing to take on non-assassination work at their own discretion, and charge by the hour.",
     "race": null,
     "type": "ELITE",
-    "attackPattern": "Melee Physical",
+    "attackPattern": "Melee Ranged Physical",
     "abilityList": [
       {
         "text": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a>, blinks forward a short distance when blocked",
@@ -21411,7 +22067,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 908,
+    "sort": 949,
     "id": "enemy_7012_wilder",
     "slug": "dauntless_linebreaker",
     "code": "SD19",
@@ -21439,7 +22095,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 909,
+    "sort": 950,
     "id": "enemy_7013_slwazd",
     "slug": "the_ruinbringer",
     "code": "SD20",
@@ -21468,7 +22124,7 @@
     "relatedEnemies": ["enemy_1021_bslime", "enemy_1021_bslime_2"]
   },
   {
-    "sort": 910,
+    "sort": 951,
     "id": "enemy_7014_dva",
     "slug": "al-rafiq",
     "code": "SD21",
@@ -21508,7 +22164,7 @@
     "relatedEnemies": []
   },
   {
-    "sort": 911,
+    "sort": 952,
     "id": "enemy_8006_flmgd",
     "slug": "reforged_retinue",
     "code": "SFR02",
@@ -21530,7 +22186,7 @@
     "relatedEnemies": ["enemy_8001_flmlod_3", "enemy_8001_flmlod_2"]
   },
   {
-    "sort": 914,
+    "sort": 955,
     "id": "enemy_8001_flmlod_3",
     "slug": "sverdsmeltr,_guardian_ember_of_the_king",
     "code": "SFR01",
@@ -21582,5 +22238,422 @@
       "enemy_8004_flmspr",
       "enemy_8005_flmspr2"
     ]
+  },
+  {
+    "sort": 956,
+    "id": "enemy_7016_shushu",
+    "slug": "barrenlands_musbeast",
+    "code": "SD22",
+    "name": "Barrenlands Musbeast",
+    "description": "A musbeast commonly found in the barrens. Though not particularly aggressive by nature, they become a bottomless pit of ruined foodstuffs when in groups.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "When other Barrenlands Musbeasts are nearby, ATK increases (stacks)",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 0,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 957,
+    "id": "enemy_7017_miner",
+    "slug": "mine_drudge",
+    "code": "SD23",
+    "name": "Mine Drudge",
+    "description": "A familiar sight in mine shafts for millennia. Laborers have always propped up the pinnacles of civilization with their rugged hands, but found their own feet mired in the mud of the label 'uncivilized.'",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Deals more damage when attacking resources",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 958,
+    "id": "enemy_7018_scarab",
+    "slug": "volatile_originium_slug",
+    "code": "SD24",
+    "name": "Volatile Originium Slug",
+    "description": "The name of this Originium Slug may actually be a misnomer, as the volatile part is actually the 'harvest' between its legs. When asked about this, its namers claimed that these creatures were too fast to be closely observed.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "None Physical",
+    "abilityList": [
+      {
+        "text": "Cannot be blocked by Operators or Summons; explodes when Blocked and deals great AoE damage",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 959,
+    "id": "enemy_7019_thief",
+    "slug": "wilderness_rogue",
+    "code": "SD25",
+    "name": "Wilderness Rogue",
+    "description": "There will always be thieves out in the barrens, and they come in all shapes and sizes. These are no different, just that they carry treasure chests and run really fast.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "None",
+    "abilityList": [{ "text": "Cannot be blocked.", "textFormat": "NORMAL" }],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 960,
+    "id": "enemy_7020_xbtor",
+    "slug": "spined_shellbeast",
+    "code": "SD26",
+    "name": "Spined Shellbeast",
+    "description": "A type of hard and prickly shellbeast. If it retracts its head into its shell, just save your energy.",
+    "race": "Wild Beast",
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Retreats into its shell upon taking damage, reducing any further physical and Arts damage to 0. In this state, upon receiving damage from allied Operators, deals physical damage equal to 100% of their own ATK to the attacker. Will come out from its shell after taking no damage for a period of time",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Levitate"],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 961,
+    "id": "enemy_7021_xbmoth",
+    "slug": "luminous_fowlbeast",
+    "code": "SD27",
+    "name": "Luminous Fowlbeast",
+    "description": "A small creature that can only be seen far from nomadic cities. With a flutter of its wings, it escapes once more into the shadows.",
+    "race": "Wild Beast",
+    "type": "NORMAL",
+    "attackPattern": "None",
+    "abilityList": [
+      {
+        "text": "Upon taking damage, becomes Invulnerable and cannot move for a period of time",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 0,
+    "isFlying": true,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 962,
+    "id": "enemy_7022_gatgod",
+    "slug": "zumrutruyasi_priestess",
+    "code": "SD28",
+    "name": "Zümrütrüyası Priestess",
+    "description": "A priestess whose allure reflects her power. The more eye-catching her flowers, the sharper her blade.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "As her HP being reduced, her damage taken from units not blocked by herself is also gradually reduced to 0",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Gains increased ATK when making consecutive attacks. (Resets when affected by <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, attack, or use skills (inflicted through the Cold status); When enemies are frozen, RES -15\" href=\"/terminology#frozen\">Freeze</a>, <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a>, or <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Target becomes aerial and cannot move, attack, or use skills. Duration halved if Weight is greater than 3.\" href=\"/terminology#levitate\">Levitate</a>)",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 0,
+    "weight": 6,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 963,
+    "id": "enemy_7023_gatbb",
+    "slug": "zumrutruyasi_acolyte",
+    "code": "SD29",
+    "name": "Zümrütrüyası Acolyte",
+    "description": "An acolyte whose charm reflects her power. The more delicate her flowers, the swifter her blade.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "When unblocked, damage taken is reduced by 50%",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 6,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 964,
+    "id": "enemy_7024_clking",
+    "slug": "wandering_troubadour",
+    "code": "SD30",
+    "name": "Wandering Troubadour",
+    "description": "No matter where they go, the troubadours who cross the barrens to entertain others will always be surrounded by graceful, flickering flames and deafening cheers.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Deals heavy <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"After Burn Damage reaches 1000, the affected unit has its RES reduced by 20 for 10 seconds and takes 1200 Arts damage\" href=\"/terminology#burn_damage\">Burn Damage</a> to nearby units every second, and recovers a huge amount of HP every second",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Become Silenced during the Wet Season or when <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, attack, or use skills (inflicted through the Cold status); When enemies are frozen, RES -15\" href=\"/terminology#frozen\">Frozen</a>",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Levitate"],
+    "lifePointReduction": 0,
+    "weight": 6,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 965,
+    "id": "enemy_7025_clbb",
+    "slug": "wandering_apprentice",
+    "code": "SD31",
+    "name": "Wandering Apprentice",
+    "description": "The young apprentices who follow behind the Wandering Troubadours are not yet proficient at controlling flames, but can already perform the critical job of moving the oil cannisters.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "Attacks deal <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"After Burn Damage reaches 1000, the affected unit has its RES reduced by 20 for 10 seconds and takes 1200 Arts damage\" href=\"/terminology#burn_damage\">Burn Damage</a>, and recovers HP every second",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Become Silenced during the Wet Season or when <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, attack, or use skills (inflicted through the Cold status); When enemies are frozen, RES -15\" href=\"/terminology#frozen\">Frozen</a>",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 966,
+    "id": "enemy_7026_xbele",
+    "slug": "timestream_guardian",
+    "code": "SD32",
+    "name": "Timestream Guardian",
+    "description": "Nobody knows when this colossus was created. It responds to time with silence, its fists acting as their persevering faith.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Normally does not attack, but counters when attacked",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "After 2 attacks, the next attack deals heavy Physical damage to targets within range and inflicts <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When HP falls below 50%, gains significantly increased ASPD",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 0,
+    "weight": 6,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 967,
+    "id": "enemy_7027_xbbtl",
+    "slug": "crystalline_titanibeast",
+    "code": "SD33",
+    "name": "Crystalline Titanibeast",
+    "description": "An unusual lifeform that appears in crystal caves. It endeavored and molted into the sturdiest of shells, yet still cannot escape its enemy's ruthless pursuit. Forever at odds with Crystalline Oberobeasts.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Periodically gains a Shield that blocks damage; the Shield lasts for 80 attacks before breaking",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When below 50% HP, attacks all units within Attack Range at the same time",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Levitate"],
+    "lifePointReduction": 0,
+    "weight": 6,
+    "isFlying": true,
+    "relatedEnemies": ["enemy_7028_xbscp"]
+  },
+  {
+    "sort": 968,
+    "id": "enemy_7028_xbscp",
+    "slug": "crystalline_oberobeast",
+    "code": "SD34",
+    "name": "Crystalline Oberobeast",
+    "description": "An unusual lifeform that appears in crystal caves. It resembles a metal crab with sharper pincers, allowing it to easily tear its prey apart. Forever foes with Crystalline Titanibeasts.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Attacks strike twice; when below 50% HP, attacks strike 4 times instead",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Reduces the target's DEF with each attack",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Upon approaching a Crystalline Titanibeast, instantly slays it and obtains some of its abilities; afterwards, each attack now strikes 4 times",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 0,
+    "weight": 6,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_7027_xbbtl"]
+  },
+  {
+    "sort": 969,
+    "id": "enemy_7029_pilot",
+    "slug": "sailraider",
+    "code": "SD35",
+    "name": "Sailraider",
+    "description": "One of Sargonian Lords Ameer's subordinate. They always appear in unexpected places, ripping opposing frontlines apart as they roam the land.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Cannot be blocked or attacked by melee attacks\" href=\"/terminology#low-altitude_hovering\">Low-Altitude Hovering</a>; has increased Attack Range while in <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Cannot be blocked or attacked by melee attacks\" href=\"/terminology#low-altitude_hovering\">Low-Altitude Hovering</a>",
+        "textFormat": "NORMAL"
+      },
+      { "text": "Attacks deal Arts splash damage", "textFormat": "NORMAL" },
+      {
+        "text": "Crashes upon losing a certain percentage of HP, dealing heavy damage in an area and <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stunning</a> itself",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "After a period of time, reenters <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Cannot be blocked or attacked by melee attacks\" href=\"/terminology#low-altitude_hovering\">Low-Altitude Hovering</a> status",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 30,
+    "weight": 5,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 970,
+    "id": "enemy_7030_skodo",
+    "slug": "dustweaver",
+    "code": "SD36",
+    "name": "Dustweaver",
+    "description": "One of Sargonian Lords Ameer's subordinate. Sand pervades sky, dust obstructs sun. Life collapses, evil flourishes.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "[Sandstorm's Dustwake] Increases the Movement Speed and ASPD of enemies within a certain range (including self)",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Devours the blocker when blocked (up to a maximum of 3), and increases the effect of [Sandstorm's Dustwake]",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 30,
+    "weight": 5,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 971,
+    "id": "enemy_7031_ghking",
+    "slug": "annihilator",
+    "code": "SD37",
+    "name": "Annihilator",
+    "description": "Time and time again it grows weaker, and yet it gets back up every time. This is the Annihilator—this is Sargon.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Melee Arts",
+    "abilityList": [
+      { "text": "First Form", "textFormat": "TITLE" },
+      {
+        "text": "[Annihilation] Causes the next attack to <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a> the target, and makes itself unblockable by allied Operators and Summons; deals a large amount of Arts damage when passing through allied units",
+        "textFormat": "NORMAL"
+      },
+      { "text": "Second Form", "textFormat": "TITLE" },
+      { "text": "Increases ATK and ASPD", "textFormat": "NORMAL" }
+    ],
+    "immunities": ["Stun", "Silence", "Sleep", "Frozen", "Levitate"],
+    "lifePointReduction": 30,
+    "weight": 5,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 972,
+    "id": "enemy_7034_xbmsn",
+    "slug": "diligent_laborer",
+    "code": "SD38",
+    "name": "Diligent Laborer",
+    "description": "Laborers such as these can be seen everywhere across the barrens. Their diligence is their greatest virtue.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee",
+    "abilityList": [
+      {
+        "text": "Moves at regular speed only when in visible range",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 0,
+    "weight": 5,
+    "isFlying": false,
+    "relatedEnemies": []
   }
 ]

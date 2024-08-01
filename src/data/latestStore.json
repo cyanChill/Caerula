@@ -1,7 +1,17 @@
 {
-  "latest-operator-ids": ["char_4081_warmy", "char_4117_ray"],
+  "latest-operator-ids": [
+    "char_4023_rfalcn",
+    "char_4119_wanqin",
+    "char_4122_grabds",
+    "char_2025_shu",
+    "char_4121_zuole"
+  ],
   "latest-skin-ids": [
-    "char_4078_bdhkgt_yun#2",
+    "char_2024_chyue_nian#10",
+    "char_4080_lin_nian#10",
+    "char_4066_highmo_nian#10",
+    "char_449_glider_nian#10",
+    "char_341_sntlla_summer#15",
     "char_103_angel_kfc#1",
     "char_134_ifrit_kfc#1",
     "char_201_moeshd_kfc#1"

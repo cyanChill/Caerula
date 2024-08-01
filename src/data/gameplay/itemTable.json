@@ -1007,6 +1007,14 @@
     "usage": "A time-limited currency arranged for a new type of headhunting contract; Collect enough to recruit an operator from a designated pool for a limited time",
     "rarity": 5
   },
+  "LMTGS_COIN_4701": {
+    "id": "LMTGS_COIN_4701",
+    "iconId": "LMTGS_COIN_4701",
+    "name": "Headhunting Data Contract",
+    "description": "A long-term, stable relationship with the headhunting agency can effectively control our expenditures. However, we hope that this method will not be required every time.",
+    "usage": "A time-limited currency arranged for a new type of headhunting contract; Collect enough to recruit an operator from a designated pool for a limited time",
+    "rarity": 5
+  },
   "EPGS_COIN": {
     "id": "EPGS_COIN",
     "iconId": "EPGS_COIN",
@@ -1343,6 +1351,46 @@
     "usage": "A glazed mooncake filled with salted egg yolk. Can be used to restore Sanity.",
     "rarity": 5
   },
+  "ap_supply_lt_100_2024_1": {
+    "id": "ap_supply_lt_100_2024_1",
+    "iconId": "ap_supply_lt_100_2024_1",
+    "name": "Pure Floral Dew",
+    "description": "Muelsyse claims she bought it just before meeting up with you, but the bottle looks pristinely label-free.",
+    "usage": "A crystal-clear beverage. Can be used to restore Sanity.",
+    "rarity": 5
+  },
+  "ap_supply_lt_100_2024_2": {
+    "id": "ap_supply_lt_100_2024_2",
+    "iconId": "ap_supply_lt_100_2024_2",
+    "name": "Volcanic Lava Cake",
+    "description": "The one dessert Eyjafjalla knows how to make. Catering to the festive atmosphere, she made some very special adjustments to the ingredients.",
+    "usage": "A handmade cake with a few recipe tweaks to fit the holiday spirit. Can be used to restore Sanity.",
+    "rarity": 5
+  },
+  "ap_supply_lt_100_2024_3": {
+    "id": "ap_supply_lt_100_2024_3",
+    "iconId": "ap_supply_lt_100_2024_3",
+    "name": "Pastoral Afternoon Tea Pastries",
+    "description": "Teatime refreshments courtesy of Viviana. The poem may be sweet as honey, but sometimes a little pastry can't be beat.",
+    "usage": "A treat from an Operator's hometown. Can be used to restore Sanity.",
+    "rarity": 5
+  },
+  "ap_supply_lt_100_2024_4": {
+    "id": "ap_supply_lt_100_2024_4",
+    "iconId": "ap_supply_lt_100_2024_4",
+    "name": "Glassy-Sweet Rice Fritters",
+    "description": "Traditionally flavored Yanese dim sum Zuo Le specially brought from Yumen. That sweet scent just slaps you in the face the moment you unwrap them.",
+    "usage": "A Yanese-style dim sum so sugary you can taste it just by looking. Can be used to restore Sanity.",
+    "rarity": 5
+  },
+  "ap_supply_lt_100_2024_5": {
+    "id": "ap_supply_lt_100_2024_5",
+    "iconId": "ap_supply_lt_100_2024_5",
+    "name": "Custard Creams",
+    "description": "In the most ordinary foods dwells the most heartfelt care. Popping open the bag for a bite never fails to bring Amiya's considerate nature to mind.",
+    "usage": "A homestyle snack from an Operator's hometown. Can be used to restore Sanity.",
+    "rarity": 5
+  },
   "EXTERMINATION_AGENT": {
     "id": "EXTERMINATION_AGENT",
     "iconId": "EXTERMINATION_AGENT",
@@ -1378,7 +1426,7 @@
   "LINKAGE_TKT_GACHA_10_1701": {
     "id": "LINKAGE_TKT_GACHA_10_1701",
     "iconId": "LINKAGE_TKT_GACHA_10_1701",
-    "name": "Elite Forces Headhunting Permit",
+    "name": "Expert Headhunting Permit",
     "description": "In order to ensure the available talent pool can be scaled upwards to satisfy the Doctor's emergency preparation request, this batch of headhunting items carries specificity, time-sensitivity, and of course, a degree of risk.",
     "usage": "A batch headhunting permit issued by the Rhodes Island HR Department; Can be used at a certain time to recruit talented Operators, 10 rolls at once.",
     "rarity": 5
@@ -1475,6 +1523,14 @@
     "id": "LIMITED_TKT_GACHA_10_4401",
     "iconId": "LIMITED_TKT_GACHA_10_4401",
     "name": "Candleglow Sonata Headhunting Permit",
+    "description": "In order to ensure the available talent pool can be scaled upwards to satisfy the Doctor's emergency preparation request, this batch of headhunting items carries specificity, time-sensitivity, and of course, a degree of risk.",
+    "usage": "A batch headhunting permit issued by the Rhodes Island HR Department; Can be used at a certain time to recruit talented Operators, 10 rolls at once.",
+    "rarity": 5
+  },
+  "LIMITED_TKT_GACHA_10_4701": {
+    "id": "LIMITED_TKT_GACHA_10_4701",
+    "iconId": "LIMITED_TKT_GACHA_10_4701",
+    "name": "Bountiful Harmony Headhunting Permit",
     "description": "In order to ensure the available talent pool can be scaled upwards to satisfy the Doctor's emergency preparation request, this batch of headhunting items carries specificity, time-sensitivity, and of course, a degree of risk.",
     "usage": "A batch headhunting permit issued by the Rhodes Island HR Department; Can be used at a certain time to recruit talented Operators, 10 rolls at once.",
     "rarity": 5
@@ -1722,6 +1778,30 @@
   "2023recruitment10_3": {
     "id": "2023recruitment10_3",
     "iconId": "2023recruitment10_3",
+    "name": "Type-γ Headhunting Permit",
+    "description": "Due to various strategic considerations, Rhodes Island conducted targeted headhunting in addition to batch recruitment in order to seek assistance from individuals with special talents.",
+    "usage": "A special permit issued by the Rhodes Island HR Department with specific instructions for the headhunting agency. Can be used to headhunt for 10 Operators.",
+    "rarity": 5
+  },
+  "2024recruitment10_1": {
+    "id": "2024recruitment10_1",
+    "iconId": "2024recruitment10_1",
+    "name": "Type-α Headhunting Permit",
+    "description": "Due to various strategic considerations, Rhodes Island conducted targeted headhunting in addition to batch recruitment in order to seek assistance from individuals with special talents.",
+    "usage": "A special permit issued by the Rhodes Island HR Department with specific instructions for the headhunting agency. Can be used to headhunt for 10 Operators.",
+    "rarity": 5
+  },
+  "2024recruitment10_2": {
+    "id": "2024recruitment10_2",
+    "iconId": "2024recruitment10_2",
+    "name": "Type-β Headhunting Permit",
+    "description": "Due to various strategic considerations, Rhodes Island conducted targeted headhunting in addition to batch recruitment in order to seek assistance from individuals with special talents.",
+    "usage": "A special permit issued by the Rhodes Island HR Department with specific instructions for the headhunting agency. Can be used to headhunt for 10 Operators.",
+    "rarity": 5
+  },
+  "2024recruitment10_3": {
+    "id": "2024recruitment10_3",
+    "iconId": "2024recruitment10_3",
     "name": "Type-γ Headhunting Permit",
     "description": "Due to various strategic considerations, Rhodes Island conducted targeted headhunting in addition to batch recruitment in order to seek assistance from individuals with special talents.",
     "usage": "A special permit issued by the Rhodes Island HR Department with specific instructions for the headhunting agency. Can be used to headhunt for 10 Operators.",
@@ -4215,6 +4295,30 @@
     "usage": "Used to improve the Potential of Warmy.",
     "rarity": 5
   },
+  "p_char_4119_wanqin": {
+    "id": "p_char_4119_wanqin",
+    "iconId": "p_char_4119_wanqin",
+    "name": "Wanqing's Token",
+    "description": "An exquisite model of a Tianshi apparatus, reportedly sold in limited runs by the Tianshi Bureaus to great fanfare among the children of Yan. Variations of 'you'd better study hard if you want one' ring in the ears of every Yanese child.",
+    "usage": "Used to improve the Potential of Wanqing.",
+    "rarity": 5
+  },
+  "p_char_4122_grabds": {
+    "id": "p_char_4122_grabds",
+    "iconId": "p_char_4122_grabds",
+    "name": "Grain Buds's Token",
+    "description": "A handmade bamboo flute. Pure and clear of timbre, but the tuning is mildly suspect.",
+    "usage": "Used to improve the Potential of Grain Buds.",
+    "rarity": 5
+  },
+  "p_char_4023_rfalcn": {
+    "id": "p_char_4023_rfalcn",
+    "iconId": "p_char_4023_rfalcn",
+    "name": "Kestrel's Token",
+    "description": "A rustic scimitar. Regarding you as a friend in arms, the tribal warrior of Sargon gifts you this.",
+    "usage": "Used to improve the Potential of Kestrel.",
+    "rarity": 5
+  },
   "p_char_103_angel": {
     "id": "p_char_103_angel",
     "iconId": "p_char_103_angel",
@@ -4893,6 +4997,22 @@
     "name": "Ray's Token",
     "description": "A scrapbook, author's intent indiscernible. The 'cryptid photo' inside seems like a collaged stitch job—should somebody tell her?",
     "usage": "Used to improve the Potential of Ray.",
+    "rarity": 6
+  },
+  "p_char_2025_shu": {
+    "id": "p_char_2025_shu",
+    "iconId": "p_char_2025_shu",
+    "name": "Shu's Token",
+    "description": "An ancient illustration reflecting the principles on which the seasons revolve, as imagined by those a millennium ago. May time drift on and turn the age; it is this still that stays the same.",
+    "usage": "Used to improve the Potential of Shu.",
+    "rarity": 6
+  },
+  "p_char_4121_zuole": {
+    "id": "p_char_4121_zuole",
+    "iconId": "p_char_4121_zuole",
+    "name": "Zuo Le's Token",
+    "description": "A crafted kite of distinctly Yanese make, still carrying the scent of the leaves in the trees. While the clumsy hands of its flier often cause it to fall, it will always come to rise again on the wind.",
+    "usage": "Used to improve the Potential of Zuo Le.",
     "rarity": 6
   },
   "class_p_char_123_fang": {
@@ -6071,6 +6191,14 @@
     "usage": "A personal letter sent to the Doctor, used to improve Kroos the Keen Glint to Max Potential.",
     "rarity": 5
   },
+  "voucher_full_forcer": {
+    "id": "voucher_full_forcer",
+    "iconId": "voucher_full_forcer",
+    "name": "Enforcer's Personal Letter",
+    "description": "The letter writes of the sights and sounds on his journey to Kazdel, as well as Cecelia's fragrant homemade lattes.",
+    "usage": "A personal letter sent to the Doctor, used to improve Enforcer to Max Potential.",
+    "rarity": 5
+  },
   "uni_set_guitar": {
     "id": "uni_set_guitar",
     "iconId": "uni_set_guitar",
@@ -6735,6 +6863,14 @@
     "usage": "Rationing certificates issued by Rhodes Island to field operators, including vouchers. Can be used to exchange for supplies in Rhodes Island's landship, regional branches, and various safehouses.",
     "rarity": 5
   },
+  "act17d0_token_form_rep_1": {
+    "id": "act17d0_token_form_rep_1",
+    "iconId": "act17d0_token_form_rep_1",
+    "name": "Rhodes Island Resource Allocation Certificate",
+    "description": "The certificate bears the signature of the administrator, an anti-counterfeiting watermark, and a detailed record of the supplies needed by the operators and for what reasons they are needed. After these three items have been verified, the responsible personnel will collect the voucher attached to the certificate and distribute the supplies to the field operator.",
+    "usage": "Rationing certificates issued by Rhodes Island to field operators, including vouchers. Can be used to exchange for supplies in Rhodes Island's landship, regional branches, and various safehouses.",
+    "rarity": 5
+  },
   "act18d0_token_page": {
     "id": "act18d0_token_page",
     "iconId": "act18d0_token_page",
@@ -7297,6 +7433,14 @@
   },
   "act22side_token_manuscript": {
     "id": "act22side_token_manuscript",
+    "iconId": "act22side_token_manuscript",
+    "name": "Manuscripts of Ballads",
+    "description": "Few who know these folksongs are able to put them in writing, while those who pen Taran history wouldn't go out of their way to listen. But there'll always be people devoted to compiling the scattered culture of Tara, say the merchants, and it's a business that's gone on for several centuries.",
+    "usage": "Pages filled with Taran folksongs and legends, copied down as heard. Collect enough, and you'll be able to trade them with the River Valley Caravan for goods.",
+    "rarity": 5
+  },
+  "act22side_token_manuscript_rep_1": {
+    "id": "act22side_token_manuscript_rep_1",
     "iconId": "act22side_token_manuscript",
     "name": "Manuscripts of Ballads",
     "description": "Few who know these folksongs are able to put them in writing, while those who pen Taran history wouldn't go out of their way to listen. But there'll always be people devoted to compiling the scattered culture of Tara, say the merchants, and it's a business that's gone on for several centuries.",
@@ -7893,6 +8037,86 @@
     "name": "Spicy Bottletree Sap",
     "description": "Bottletree sap naturally fermented in the abdomens of tree-hanging Originium slugs, celebrated by man and adored by sandbeasts. Still, how the beasts get the sap when they can't climb trees is one of Rim Billiton's great mysteries. Are there feral barreners helping them? Can't be...",
     "usage": "Extremely spicy and fantastically invigorating, with a deep velvet flavor fresh bottletree sap can't hope to match. And the upside of not chronically ruining your body like hard liquor would. Give it to wild sandbeasts, and you might end up trading for their stashed curios.",
+    "rarity": 5
+  },
+  "sandbox_1_tokencoin": {
+    "id": "sandbox_1_tokencoin",
+    "iconId": "sandbox_1_tokencoin",
+    "name": "Prosperity Point",
+    "description": "Each bead of sweat shed upon the barren ground will one day bear witness to the prospering of Terran civilization.",
+    "usage": "A voucher that can be exchanged for rewards at 'Gift of Prosperity'.",
+    "rarity": 5
+  },
+  "uni_set_SargonFair_1": {
+    "id": "uni_set_SargonFair_1",
+    "iconId": "uni_set_SargonFair_1",
+    "name": "Arsalan Furniture Collection I",
+    "description": "When the region's so close to the foehn hotlands, furnishings like these in Arsalan add a precious hint of comfort to your room.",
+    "usage": "Obtain the furniture belonging to the 'Arakeeshtu Jungle' and 'Narutabatim Alkalies' sets in the 'Arsalan Travel Tent' furniture series.",
+    "rarity": 5
+  },
+  "act31side_token_box": {
+    "id": "act31side_token_box",
+    "iconId": "act31side_token_box",
+    "name": "Sky Pole",
+    "description": "The newest fruit borne of the Dahuang Tianshi Bureau's research. Simple to control, resiliently mobile. Sample-taking and soil monitoring are among its many functions. Naughty children occasionally make off with them to use in 'fowl fights.'",
+    "usage": "An agricultural drone developed by the Tianshi Bureaus, which people occasionally leave lying in the fields after they malfunction. If you pick any up, you can exchange them for goods at Shennong Market.",
+    "rarity": 5
+  },
+  "act4bossrush_milestone_point": {
+    "id": "act4bossrush_milestone_point",
+    "iconId": "act1bossrush_milestone_point",
+    "name": "Trial EXP",
+    "description": "Right and wrong are far from crucial in a simulation. They are only a form of support. They help you make the correct choices when the battle is real.",
+    "usage": "Experience gained from finished trials. Upgrades trial levels.",
+    "rarity": 5
+  },
+  "act4bossrush_token_relic": {
+    "id": "act4bossrush_token_relic",
+    "iconId": "act1bossrush_token_relic",
+    "name": "Data Blackbox",
+    "description": "An encrypted data block. Always remember, the conversion of information often entails unavoidable wear. Make good use of your information storage devices, but do not depend on them.",
+    "usage": "Used to perform Data Iteration on Limiter Units.",
+    "rarity": 5
+  },
+  "act4bossrush_relic_01": {
+    "id": "act4bossrush_relic_01",
+    "iconId": "act4bossrush_relic_01",
+    "name": "Lightened Load",
+    "description": null,
+    "usage": null,
+    "rarity": 5
+  },
+  "act4bossrush_relic_02": {
+    "id": "act4bossrush_relic_02",
+    "iconId": "act4bossrush_relic_02",
+    "name": "Preheated Core",
+    "description": null,
+    "usage": null,
+    "rarity": 5
+  },
+  "act4bossrush_relic_03": {
+    "id": "act4bossrush_relic_03",
+    "iconId": "act4bossrush_relic_03",
+    "name": "Strength In Numbers",
+    "description": null,
+    "usage": null,
+    "rarity": 5
+  },
+  "act4bossrush_relic_04": {
+    "id": "act4bossrush_relic_04",
+    "iconId": "act4bossrush_relic_04",
+    "name": "Progressive Overclock\n",
+    "description": null,
+    "usage": null,
+    "rarity": 5
+  },
+  "uni_set_NHL": {
+    "id": "uni_set_NHL",
+    "iconId": "uni_set_NHL",
+    "name": "Guide Ahead Furniture Collection Set",
+    "description": "The Procurement Department's reconnected with its suppliers, and replenished stocks of initially limited pieces of furniture! Give your thanks to Closure!",
+    "usage": "Obtain all furniture exclusive to the Guide Ahead event not yet acquired.",
     "rarity": 5
   }
 }

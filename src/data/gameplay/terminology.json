@@ -187,9 +187,9 @@
         "slug": "necrosis_damage_-_player"
       },
       "ba.dt.burning2": {
-        "name": "Burn damage - Player",
+        "name": "Burn damage - Ally",
         "description": "Explodes when at max (1000 for Normal and Elite, 2000 for Leaders), dealing 7000 Elemental damage and temporarily inflicting -20 RES. 10s cooldown.",
-        "slug": "burn_damage_-_player"
+        "slug": "burn_damage_-_ally"
       }
     }
   },
@@ -334,7 +334,7 @@
       },
       "cc.g.R6": {
         "name": "Team Rainbow",
-        "description": "Includes the following Operators:\nAsh, Tachanka, Blitz, Frost",
+        "description": "Includes the following Operators:\nAsh Tachanka Blitz Frost Ela Doc Iana Fuze",
         "slug": "team_rainbow"
       },
       "cc.g.sp": {
@@ -359,7 +359,7 @@
       },
       "cc.g.sui": {
         "name": "Sui",
-        "description": "Includes the following Operators\nNian, Dusk, Ling, Chongyue",
+        "description": "Includes the following Operators:\nNian Dusk Ling Chongyue Shu",
         "slug": "sui"
       },
       "cc.g.glasgow": {
@@ -414,7 +414,7 @@
       },
       "cc.c.skill": {
         "name": "Certain Skills",
-        "description": "Includes the following skills: \nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed, Million Dollar Smile, Marigold Poetry Gathering",
+        "description": "Includes the following skills:\nCapable Assistance, S.W.E.E.P., Snack Network, Cleaning Agreement, Substitute, Necessary Responsibility, Guarding, Tiny Leader, Self-Absorbed Million Dollar Smile, Marigold Poetry Gathering, Art of Defense",
         "slug": "certain_skills"
       },
       "cc.t.strong2": {
@@ -456,6 +456,11 @@
         "name": "Karma",
         "description": "Whenever a recipe that consumes 8 Morale fails to produce a byproduct, gain 1 point of Karma for every 1 Morale consumed",
         "slug": "karma"
+      },
+      "cc.t.accmuguard1": {
+        "name": "Martial Arts",
+        "description": "Accumulate 1 point when assisting with Specialization training to level 1, 2 points to level 2, and 3 points at level 3, with a maximum accumulation limit of 3 points (cannot be accumulated or consumed when the Trainer's Morale is 0)",
+        "slug": "martial_arts"
       },
       "cc.sk.manu1": {
         "name": "Standardization Skills",

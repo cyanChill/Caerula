@@ -131,6 +131,12 @@
       "name": "Iteration Provident",
       "altName": "ITERATION PROVIDENT",
       "description": "Two Paths, One Goal\nSo-called 'fate' has been recursive from the start, a harmonious reconstruction, a mirror with limitless reflections. And then came you."
+    },
+    "unveiling": {
+      "id": "unveiling",
+      "name": "Unveiling of Devotion",
+      "altName": "UNVEILING OF DEVOTION",
+      "description": "It's what everyone's been waiting for! Słoma brazenly advances into all-new territory!\nBringing together the best and brightest of Kazimierz's creative talent, for a limited time only, while supplies last! Love won't announce itself, so muster up your courage, brush off your shyness, and seize your treasure with your own hands!"
     }
   },
   "skinTable": {
@@ -1828,6 +1834,28 @@
       "artists": null,
       "releasedAt": 0
     },
+    "char_4023_rfalcn_1": {
+      "id": "char_4023_rfalcn_1",
+      "usedBy": "char_4023_rfalcn",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Kestrel's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["釜飯轟々丸"],
+      "releasedAt": 0
+    },
+    "char_4023_rfalcn_2": {
+      "id": "char_4023_rfalcn_2",
+      "usedBy": "char_4023_rfalcn",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Kestrel's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["釜飯轟々丸"],
+      "releasedAt": 0
+    },
     "char_261_sddrag_1": {
       "id": "char_261_sddrag_1",
       "usedBy": "char_261_sddrag",
@@ -1892,6 +1920,28 @@
       "imgAlt": "Elysium's \"Elite 2\" skin",
       "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
       "artists": ["Skade"],
+      "releasedAt": 0
+    },
+    "char_4119_wanqin_1": {
+      "id": "char_4119_wanqin_1",
+      "usedBy": "char_4119_wanqin",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Wanqing's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["三目YYB"],
+      "releasedAt": 0
+    },
+    "char_4119_wanqin_2": {
+      "id": "char_4119_wanqin_2",
+      "usedBy": "char_4119_wanqin",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Wanqing's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["三目YYB"],
       "releasedAt": 0
     },
     "char_476_blkngt_1": {
@@ -4391,6 +4441,28 @@
       "artists": ["せんむ"],
       "releasedAt": 0
     },
+    "char_4122_grabds_1": {
+      "id": "char_4122_grabds_1",
+      "usedBy": "char_4122_grabds",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Grain Buds's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["YUJI"],
+      "releasedAt": 0
+    },
+    "char_4122_grabds_2": {
+      "id": "char_4122_grabds_2",
+      "usedBy": "char_4122_grabds",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Grain Buds's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["YUJI"],
+      "releasedAt": 0
+    },
     "char_433_windft_1": {
       "id": "char_433_windft_1",
       "usedBy": "char_433_windft",
@@ -6063,6 +6135,28 @@
       "artists": ["竜崎いち"],
       "releasedAt": 0
     },
+    "char_2025_shu_1": {
+      "id": "char_2025_shu_1",
+      "usedBy": "char_2025_shu",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Shu's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["IRIS_呓"],
+      "releasedAt": 0
+    },
+    "char_2025_shu_2": {
+      "id": "char_2025_shu_2",
+      "usedBy": "char_2025_shu",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Shu's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["IRIS_呓"],
+      "releasedAt": 0
+    },
     "char_2014_nian_1": {
       "id": "char_2014_nian_1",
       "usedBy": "char_2014_nian",
@@ -6501,6 +6595,28 @@
       "imgAlt": "Hellagur's \"Elite 2\" skin",
       "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
       "artists": ["Liduke"],
+      "releasedAt": 0
+    },
+    "char_4121_zuole_1": {
+      "id": "char_4121_zuole_1",
+      "usedBy": "char_4121_zuole",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Zuo Le's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["九日九号"],
+      "releasedAt": 0
+    },
+    "char_4121_zuole_2": {
+      "id": "char_4121_zuole_2",
+      "usedBy": "char_4121_zuole",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Zuo Le's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["九日九号"],
       "releasedAt": 0
     },
     "char_485_pallas_1": {
@@ -7669,6 +7785,61 @@
       "artists": ["Jacknife"],
       "releasedAt": 1663340400
     },
+    "char_2024_chyue_nian#10": {
+      "id": "char_2024_chyue_nian#10",
+      "usedBy": "char_2024_chyue",
+      "brandId": "nian",
+      "subBrand": { "id": "2024#nian", "name": "0011 Productions/IX" },
+      "name": "Alighting",
+      "imgAlt": "Chongyue's \"Alighting\" skin",
+      "description": "0011 Custom Brand [Magnificence Curation] Series Collection/Alighting. Magnum opus of a Yumen craftsman, given to a traveler heading on a long journey. In the hope that men and might need no longer be a burden, that he can wander for myriad li with ease.",
+      "artists": ["KuroBlood"],
+      "releasedAt": 1722427200
+    },
+    "char_4080_lin_nian#10": {
+      "id": "char_4080_lin_nian#10",
+      "usedBy": "char_4080_lin",
+      "brandId": "nian",
+      "subBrand": { "id": "2024#nian", "name": "0011 Productions/IX" },
+      "name": "Heavenly Mirage",
+      "imgAlt": "Lin's \"Heavenly Mirage\" skin",
+      "description": "0011 Custom Brand [Magnificence Curation] Series Collection/Heavenly Mirage. Recreation of a Lungmen VIP's childhood fantasy. She enters the Xians' abode, dressed in celestial garb, skirts dark as kohl, jade pure as ice, face austere, serene. Transcendent.",
+      "artists": ["三目YYB"],
+      "releasedAt": 1722427200
+    },
+    "char_4066_highmo_nian#10": {
+      "id": "char_4066_highmo_nian#10",
+      "usedBy": "char_4066_highmo",
+      "brandId": "nian",
+      "subBrand": { "id": "2024#nian", "name": "0011 Productions/IX" },
+      "name": "The Land With Me",
+      "imgAlt": "Highmore's \"The Land With Me\" skin",
+      "description": "0011 Custom Brand [Magnificence Curation] Series Collection/The Land With Me. Handmade by a Lungmen craftsman, inspired by Yanese landscape paintings. Thanks to weaving and dyeing techniques rarely seen in the modern age, mounts and seas emerge from the nichang's fabric, blurring fantasy and reality.",
+      "artists": ["Horin"],
+      "releasedAt": 1722427200
+    },
+    "char_449_glider_nian#10": {
+      "id": "char_449_glider_nian#10",
+      "usedBy": "char_449_glider",
+      "brandId": "nian",
+      "subBrand": { "id": "2024#nian", "name": "0011 Productions/IX" },
+      "name": "Saturated Within Rain",
+      "imgAlt": "Honeyberry's \"Saturated Within Rain\" skin",
+      "description": "0011 Custom Brand [Magnificence Curation] Series Collection/Saturated Within Rain. Handmade by a Lungmen craftsman, matching a scene of beauty and wonder recorded in an ancient tome. Remember to bring a paper umbrella, for within, the drops of ink now fall as gentle rains.",
+      "artists": ["Liyu黎"],
+      "releasedAt": 1722427200
+    },
+    "char_385_finlpp_nian#11": {
+      "id": "char_385_finlpp_nian#11",
+      "usedBy": "char_385_finlpp",
+      "brandId": "nian",
+      "subBrand": { "id": "2024#nian#2", "name": "0011 Productions/X" },
+      "name": "Yearly Present",
+      "imgAlt": "Purestream's \"Yearly Present\" skin",
+      "description": "0011 New Arrivals/Yearly Present. Purestream dons new clothes and brings a gift for her visit, the trendy multi-layered style unable to hide the bright colors of Yan—the hem's red lining and the pendants on her staff and her waist come together in harmonious ingenuity.",
+      "artists": ["直立行走"],
+      "releasedAt": 1723654800
+    },
     "char_402_tuye_epoque#14": {
       "id": "char_402_tuye_epoque#14",
       "usedBy": "char_402_tuye",
@@ -8031,6 +8202,17 @@
       "description": "EPOQUE Sub-Brand [Passe] Series Selects/Lances of Kaliskas. Ashlock's formalwear, worn when her family banished her. Traditional dress worthy of a Kazimierz knight, not entirely inappropriate on her.",
       "artists": ["NoriZC"],
       "releasedAt": 1714496400
+    },
+    "char_4017_puzzle_epoque#29": {
+      "id": "char_4017_puzzle_epoque#29",
+      "usedBy": "char_4017_puzzle",
+      "brandId": "epoque",
+      "subBrand": { "id": "2023#epoque#11", "name": "EPOQUE/XXIX" },
+      "name": "Amidst the Pieces",
+      "imgAlt": "Puzzle's \"Amidst the Pieces\" skin",
+      "description": "EPOQUE Collection New Arrivals/Amidst the Pieces. Puzzle knows that he should tailor his attire to his target—one of the most efficient ways to win trust and exchange intel. When alone, however, he barely spares a thought to his appearance.",
+      "artists": ["kan"],
+      "releasedAt": 1724259600
     },
     "char_212_ansel_epoque#29": {
       "id": "char_212_ansel_epoque#29",
@@ -8999,6 +9181,17 @@
       "description": "MARTHE [Coral Coast] Casual Vacation Series HDm74. Comfortable, relaxed, breathable, and lightweight. Allows you to enjoy a perfect beach experience in absolute relaxation.",
       "artists": ["〇亻"],
       "releasedAt": 1707238800
+    },
+    "char_341_sntlla_summer#15": {
+      "id": "char_341_sntlla_summer#15",
+      "usedBy": "char_341_sntlla",
+      "brandId": "summer",
+      "subBrand": { "id": "2023#summer#5", "name": "Coral Coast/XV" },
+      "name": "Holiday HD71",
+      "imgAlt": "Santalla's \"Holiday HD71\" skin",
+      "description": "MARTHE [Coral Coast] Holiday Series HD71. Comfortable, relaxed, breathable, and lightweight. Allows you to enjoy a perfect beach experience in absolute relaxation.",
+      "artists": ["Studio Montagne"],
+      "releasedAt": 1722510000
     },
     "char_241_panda_marthe#1": {
       "id": "char_241_panda_marthe#1",
@@ -10793,6 +10986,28 @@
       "artists": ["幻象黑兔"],
       "releasedAt": 1714496400
     },
+    "char_297_hamoni_unveiling#1": {
+      "id": "char_297_hamoni_unveiling#1",
+      "usedBy": "char_297_hamoni",
+      "brandId": "unveiling",
+      "subBrand": { "id": "2024#unveiling", "name": "Unveiling of Devotion/I" },
+      "name": "Decoration",
+      "imgAlt": "Harmonie's \"Decoration\" skin",
+      "description": "Unveiling of Devotion Series New Arrivals/Decoration. A cute dress Harmonie rarely wears. With its adjustable fit and flexible materials, it can accentuate the body's natural curves better than any other. The accessories are all from her beloved private collection.",
+      "artists": ["STAR影法师"],
+      "releasedAt": 1723287600
+    },
+    "char_271_spikes_unveiling#1": {
+      "id": "char_271_spikes_unveiling#1",
+      "usedBy": "char_271_spikes",
+      "brandId": "unveiling",
+      "subBrand": { "id": "2024#unveiling", "name": "Unveiling of Devotion/I" },
+      "name": "Dangerous Invitation",
+      "imgAlt": "Arene's \"Dangerous Invitation\" skin",
+      "description": "Unveiling of Devotion Series New Arrivals/Dangerous Invitation. A graceful custom-made suit just for Arene. The stiff material is painstakingly cut to fit his youthful figure. He also personally selected the accompanying perfume.",
+      "artists": ["umo_yszx"],
+      "releasedAt": 1723287600
+    },
     "char_1001_amiya2_2": {
       "id": "char_1001_amiya2_2",
       "usedBy": "char_1001_amiya2",
@@ -10898,7 +11113,12 @@
       "char_337_utage_summer#4",
       "char_337_utage_epoque#15"
     ],
-    "char_271_spikes": ["char_271_spikes_1", "char_271_spikes_2", "char_271_spikes_winter#2"],
+    "char_271_spikes": [
+      "char_271_spikes_1",
+      "char_271_spikes_2",
+      "char_271_spikes_winter#2",
+      "char_271_spikes_unveiling#1"
+    ],
     "char_4067_lolxh": ["char_4067_lolxh_1", "char_4067_lolxh_2"],
     "char_4063_quartz": ["char_4063_quartz_1", "char_4063_quartz_2"],
     "char_491_humus": ["char_491_humus_1", "char_491_humus_2"],
@@ -10919,7 +11139,7 @@
       "char_181_flower_daily#1",
       "char_181_flower_epoque#9"
     ],
-    "char_385_finlpp": ["char_385_finlpp_1", "char_385_finlpp_2"],
+    "char_385_finlpp": ["char_385_finlpp_1", "char_385_finlpp_2", "char_385_finlpp_nian#11"],
     "char_4041_chnut": ["char_4041_chnut_1", "char_4041_chnut_2", "char_4041_chnut_summer#12"],
     "char_199_yak": ["char_199_yak_1", "char_199_yak_2", "char_199_yak_summer#1"],
     "char_150_snakek": ["char_150_snakek_1", "char_150_snakek_2", "char_150_snakek_wild#1"],
@@ -10955,6 +11175,7 @@
     "char_349_chiave": ["char_349_chiave_1", "char_349_chiave_2"],
     "char_488_buildr": ["char_488_buildr_1", "char_488_buildr_2"],
     "char_513_apionr": ["char_513_apionr_1", "char_513_apionr_2"],
+    "char_4023_rfalcn": ["char_4023_rfalcn_1", "char_4023_rfalcn_2"],
     "char_261_sddrag": [
       "char_261_sddrag_1",
       "char_261_sddrag_2",
@@ -10967,6 +11188,7 @@
       "char_401_elysm_snow#2",
       "char_401_elysm_summer#9"
     ],
+    "char_4119_wanqin": ["char_4119_wanqin_1", "char_4119_wanqin_2"],
     "char_476_blkngt": [
       "char_476_blkngt_1",
       "char_476_blkngt_2",
@@ -10974,7 +11196,7 @@
       "char_476_blkngt_nian#8"
     ],
     "char_497_ctable": ["char_497_ctable_1", "char_497_ctable_2", "char_497_ctable_nian#9"],
-    "char_4017_puzzle": ["char_4017_puzzle_1", "char_4017_puzzle_2"],
+    "char_4017_puzzle": ["char_4017_puzzle_1", "char_4017_puzzle_2", "char_4017_puzzle_epoque#29"],
     "char_308_swire": ["char_308_swire_1", "char_308_swire_2", "char_308_swire_nian#2"],
     "char_265_sophia": ["char_265_sophia_1", "char_265_sophia_2", "char_265_sophia_epoque#11"],
     "char_4106_bryota": ["char_4106_bryota_1", "char_4106_bryota_2"],
@@ -11009,7 +11231,7 @@
     "char_475_akafyu": ["char_475_akafyu_1", "char_475_akafyu_2", "char_475_akafyu_epoque#15"],
     "char_1030_noirc2": ["char_1030_noirc2_1", "char_1030_noirc2_2"],
     "char_421_crow": ["char_421_crow_1", "char_421_crow_2", "char_421_crow_summer#9"],
-    "char_4066_highmo": ["char_4066_highmo_1", "char_4066_highmo_2"],
+    "char_4066_highmo": ["char_4066_highmo_1", "char_4066_highmo_2", "char_4066_highmo_nian#10"],
     "char_486_takila": [
       "char_486_takila_1",
       "char_486_takila_2",
@@ -11054,7 +11276,7 @@
       "char_373_lionhd_wild#3",
       "char_373_lionhd_snow#3"
     ],
-    "char_341_sntlla": ["char_341_sntlla_1", "char_341_sntlla_2"],
+    "char_341_sntlla": ["char_341_sntlla_1", "char_341_sntlla_2", "char_341_sntlla_summer#15"],
     "char_388_mint": [
       "char_388_mint_1",
       "char_388_mint_2",
@@ -11062,7 +11284,12 @@
       "char_388_mint_epoque#30"
     ],
     "char_338_iris": ["char_338_iris_1", "char_338_iris_2", "char_338_iris_witch#3"],
-    "char_297_hamoni": ["char_297_hamoni_1", "char_297_hamoni_2", "char_297_hamoni_epoque#24"],
+    "char_297_hamoni": [
+      "char_297_hamoni_1",
+      "char_297_hamoni_2",
+      "char_297_hamoni_epoque#24",
+      "char_297_hamoni_unveiling#1"
+    ],
     "char_4110_delphn": ["char_4110_delphn_1", "char_4110_delphn_2"],
     "char_1011_lava2": ["char_1011_lava2_1", "char_1011_lava2_2", "char_1011_lava2_nian#6"],
     "char_489_serum": ["char_489_serum_1", "char_489_serum_2"],
@@ -11101,7 +11328,12 @@
       "char_473_mberry_epoque#14",
       "char_473_mberry_nian#9"
     ],
-    "char_449_glider": ["char_449_glider_1", "char_449_glider_2", "char_449_glider_epoque#17"],
+    "char_449_glider": [
+      "char_449_glider_1",
+      "char_449_glider_2",
+      "char_449_glider_epoque#17",
+      "char_449_glider_nian#10"
+    ],
     "char_4114_harold": ["char_4114_harold_1", "char_4114_harold_2"],
     "char_1024_hbisc2": ["char_1024_hbisc2_1", "char_1024_hbisc2_2"],
     "char_494_vendla": ["char_494_vendla_1", "char_494_vendla_2"],
@@ -11169,6 +11401,7 @@
     "char_195_glassb": ["char_195_glassb_1", "char_195_glassb_2", "char_195_glassb_kitchen#1"],
     "char_326_glacus": ["char_326_glacus_1", "char_326_glacus_2", "char_326_glacus_ghost#1"],
     "char_4032_provs": ["char_4032_provs_1", "char_4032_provs_2", "char_4032_provs_wild#7"],
+    "char_4122_grabds": ["char_4122_grabds_1", "char_4122_grabds_2"],
     "char_433_windft": ["char_433_windft_1", "char_433_windft_2"],
     "char_101_sora": [
       "char_101_sora_1",
@@ -11279,7 +11512,7 @@
       "char_426_billro_snow#3",
       "char_426_billro_summer#8"
     ],
-    "char_4080_lin": ["char_4080_lin_1", "char_4080_lin_2"],
+    "char_4080_lin": ["char_4080_lin_1", "char_4080_lin_2", "char_4080_lin_nian#10"],
     "char_377_gdglow": [
       "char_377_gdglow_1",
       "char_377_gdglow_2",
@@ -11351,6 +11584,7 @@
       "char_202_demkni_test#1"
     ],
     "char_423_blemsh": ["char_423_blemsh_1", "char_423_blemsh_2", "char_423_blemsh_witch#2"],
+    "char_2025_shu": ["char_2025_shu_1", "char_2025_shu_2"],
     "char_2014_nian": ["char_2014_nian_1", "char_2014_nian_2", "char_2014_nian_nian#4"],
     "char_311_mudrok": [
       "char_311_mudrok_1",
@@ -11368,7 +11602,7 @@
       "char_264_f12yin_boc#3",
       "char_264_f12yin_epoque#15"
     ],
-    "char_2024_chyue": ["char_2024_chyue_1", "char_2024_chyue_2"],
+    "char_2024_chyue": ["char_2024_chyue_1", "char_2024_chyue_2", "char_2024_chyue_nian#10"],
     "char_172_svrash": [
       "char_172_svrash_1",
       "char_172_svrash_2",
@@ -11400,6 +11634,7 @@
     ],
     "char_4098_vvana": ["char_4098_vvana_1", "char_4098_vvana_2"],
     "char_188_helage": ["char_188_helage_1", "char_188_helage_2", "char_188_helage_boc#2"],
+    "char_4121_zuole": ["char_4121_zuole_1", "char_4121_zuole_2"],
     "char_485_pallas": [
       "char_485_pallas_1",
       "char_485_pallas_2",
