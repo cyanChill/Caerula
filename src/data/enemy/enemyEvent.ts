@@ -916,6 +916,32 @@ export const EnemyEventTable: Record<
       "enemy_1549_windoc",
     ],
   },
+  hs: {
+    name: "Here A People Sows",
+    enemies: [
+      "enemy_1390_dhsbr",
+      "enemy_1390_dhsbr_2",
+      "enemy_1391_dhbow",
+      "enemy_1391_dhbow_2",
+      "enemy_1392_dhshld",
+      "enemy_1392_dhshld_2",
+      "enemy_1393_dhele",
+      "enemy_1393_dhele_2",
+      "enemy_1394_dhzts",
+      "enemy_1394_dhzts_2",
+      "enemy_1395_dhxts",
+      "enemy_1395_dhxts_2",
+      "enemy_1396_dhdts",
+      "enemy_1396_dhdts_2",
+      "enemy_1397_dhtsxt",
+      "enemy_1397_dhtsxt_2",
+      "enemy_1398_dhdcr",
+      "enemy_1398_dhdcr_2",
+      "enemy_1399_dhtb",
+      "enemy_1399_dhtb_2",
+      "enemy_1550_dhnzzh",
+    ],
+  },
   /* Interlocking Competition */
   ichw: {
     name: "Interlocking Competition: Hymnoi Wisdom",
@@ -1012,6 +1038,10 @@ export const EnemyEventTable: Record<
       "enemy_2054_smdeer",
       "enemy_2055_smlead",
       "enemy_2056_smedzi",
+      "enemy_2060_smshdw",
+      "enemy_2061_smhond",
+      "enemy_2057_smkght",
+      "enemy_2058_smlion",
     ],
   },
   /* Stationary Security Service */
@@ -1042,8 +1072,8 @@ export const EnemyEventTable: Record<
     ],
   },
   /* Reclamation Algorithm */
-  ra: {
-    name: "Reclamation Algorithm",
+  ra1: {
+    name: "Fire Within the Sand",
     enemies: [
       "enemy_7001_blwzad",
       "enemy_7001_blwzad_2",
@@ -1065,6 +1095,28 @@ export const EnemyEventTable: Record<
       "enemy_7012_wilder",
       "enemy_7013_slwazd",
       "enemy_7014_dva",
+    ],
+  },
+  ra2: {
+    name: "Tales Within the Sand",
+    enemies: [
+      "enemy_7016_shushu",
+      "enemy_7017_miner",
+      "enemy_7018_scarab",
+      "enemy_7019_thief",
+      "enemy_7020_xbtor",
+      "enemy_7021_xbmoth",
+      "enemy_7022_gatgod",
+      "enemy_7023_gatbb",
+      "enemy_7024_clking",
+      "enemy_7025_clbb",
+      "enemy_7026_xbele",
+      "enemy_7027_xbbtl",
+      "enemy_7028_xbscp",
+      "enemy_7029_pilot",
+      "enemy_7030_skodo",
+      "enemy_7031_ghking",
+      "enemy_7034_xbmsn",
     ],
   },
   /* Design of Strife */

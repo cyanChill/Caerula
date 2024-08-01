@@ -332,7 +332,7 @@ export const BranchTable: Record<BranchId, Branch> = {
   },
   musha: {
     id: "musha",
-    name: "Musha",
+    name: "Soloblade",
     profession: "Guard",
     position: "MELEE",
     damageType: "PHYSICAL",
@@ -428,7 +428,7 @@ export const BranchTable: Record<BranchId, Branch> = {
   },
   shotprotector: {
     id: "shotprotector",
-    name: "Sentinel Protector",
+    name: "Sentry Protector",
     profession: "Defender",
     position: "MELEE",
     damageType: "PHYSICAL",
