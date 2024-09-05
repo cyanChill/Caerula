@@ -1,19 +1,8 @@
 {
-  "latest-operator-ids": [
-    "char_4023_rfalcn",
-    "char_4119_wanqin",
-    "char_4122_grabds",
-    "char_2025_shu",
-    "char_4121_zuole"
-  ],
+  "latest-operator-ids": ["char_4125_rdoc", "char_4126_fuze", "char_4124_iana", "char_4123_ela"],
   "latest-skin-ids": [
-    "char_2024_chyue_nian#10",
-    "char_4080_lin_nian#10",
-    "char_4066_highmo_nian#10",
-    "char_449_glider_nian#10",
-    "char_341_sntlla_summer#15",
-    "char_103_angel_kfc#1",
-    "char_134_ifrit_kfc#1",
-    "char_201_moeshd_kfc#1"
+    "char_4123_ela_rainbow6#2",
+    "char_4125_rdoc_rainbow6#2",
+    "char_4124_iana_rainbow6#2"
   ]
 }

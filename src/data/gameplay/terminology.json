@@ -337,6 +337,16 @@
         "description": "Includes the following Operators:\nAsh Tachanka Blitz Frost Ela Doc Iana Fuze",
         "slug": "team_rainbow"
       },
+      "cc.g.Attack": {
+        "name": "Attacking team",
+        "description": "Includes the following Operators:\nAsh Blitz Iana Fuze",
+        "slug": "attacking_team"
+      },
+      "cc.g.Defence": {
+        "name": "Defending team",
+        "description": "Includes the following Operators:\nTachanka Frost Ela Doc",
+        "slug": "defending_team"
+      },
       "cc.g.sp": {
         "name": "Alternate",
         "description": "Includes all Alternate Operators.",
