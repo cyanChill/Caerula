@@ -20581,6 +20581,281 @@
     "type": null,
     "tokensUsed": null
   },
+  "char_4125_rdoc": {
+    "id": "char_4125_rdoc",
+    "slug": "doc",
+    "name": "Doc",
+    "displayName": "Doc",
+    "rarity": 5,
+    "position": "MELEE",
+    "range": ["2-2", "2-2", "2-2"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 896,
+            "atk": 289,
+            "def": 168,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 14,
+            "blockCnt": 2,
+            "atkInterval": 1.05
+          },
+          {
+            "hp": 1228,
+            "atk": 413,
+            "def": 238,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 14,
+            "blockCnt": 2,
+            "atkInterval": 1.05
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 70,
+        "stats": [
+          {
+            "hp": 1228,
+            "atk": 413,
+            "def": 238,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 16,
+            "blockCnt": 2,
+            "atkInterval": 1.05
+          },
+          {
+            "hp": 1596,
+            "atk": 551,
+            "def": 302,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 16,
+            "blockCnt": 2,
+            "atkInterval": 1.05
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 20000 },
+          { "id": "3221", "count": 4 },
+          { "id": "30032", "count": 5 },
+          { "id": "30062", "count": 2 }
+        ]
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 1596,
+            "atk": 551,
+            "def": 302,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 16,
+            "blockCnt": 2,
+            "atkInterval": 1.05
+          },
+          {
+            "hp": 2217,
+            "atk": 657,
+            "def": 360,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 16,
+            "blockCnt": 2,
+            "atkInterval": 1.05
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 120000 },
+          { "id": "3223", "count": 3 },
+          { "id": "31014", "count": 8 },
+          { "id": "30063", "count": 11 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Field Medic",
+          "description": "Max HP +3%, attacks ignore 30 DEF",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 0, "level": 1 }
+        },
+        {
+          "name": "Field Medic",
+          "description": "Max HP +3%, attacks ignore 50 <span style=\"color:#0098DC;\">(+20)</span> DEF",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 0, "level": 1 }
+        },
+        {
+          "name": "Field Medic",
+          "description": "Max HP +6%, attacks ignore 60 DEF",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Field Medic",
+          "description": "Max HP +6%, attacks ignore 80 <span style=\"color:#0098DC;\">(+20)</span> DEF",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Field Medic",
+          "description": "Max HP +12%, attacks ignore 120 DEF",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Field Medic",
+          "description": "Max HP +12%, attacks ignore 140 <span style=\"color:#0098DC;\">(+20)</span> DEF",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ],
+      "1": [
+        {
+          "name": "Sympathicus Simulation",
+          "description": "When healing an allied unit, any healing in excess of that unit's Max HP will be converted into a rapidly-decaying <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a>",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Sympathicus Simulation",
+          "description": "When healing an allied unit, any healing in excess of that unit's Max HP will be converted into a decaying <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Absorbs a certain amount of damage.\" href=\"/terminology#barrier\">Barrier</a>",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Redeployment Time -4 sec",
+      "Max HP +200",
+      "Improves Talent",
+      "DP Cost -1"
+    ],
+    "profession": "Guard",
+    "branch": "instructor",
+    "skills": [
+      {
+        "id": "skchr_rdoc_1",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "31084", "count": 3 },
+              { "id": "30053", "count": 3 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "31064", "count": 3 },
+              { "id": "31084", "count": 5 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30125", "count": 4 },
+              { "id": "30094", "count": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_rdoc_2",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "31054", "count": 3 },
+              { "id": "30093", "count": 3 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "30064", "count": 3 },
+              { "id": "31064", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30135", "count": 4 },
+              { "id": "31064", "count": 4 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 4 }] },
+      {
+        "level": 3,
+        "cost": [{ "id": "3301", "count": 4 }, { "id": "30051", "count": 5 }]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30062", "count": 2 }]
+      },
+      {
+        "level": 5,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30012", "count": 8 }]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "31073", "count": 3 }]
+      },
+      {
+        "level": 7,
+        "cost": [
+          { "id": "3303", "count": 6 },
+          { "id": "30033", "count": 3 },
+          { "id": "31043", "count": 3 }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "hp": 150,
+      "atk": 0,
+      "def": 40,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": null, "faction": null, "team": "rainbow" },
+    "tags": ["Healing", "Support"],
+    "type": "limited",
+    "tokensUsed": null
+  },
   "char_106_franka": {
     "id": "char_106_franka",
     "slug": "franka",
@@ -24148,6 +24423,251 @@
       "atkInterval": 0
     },
     "affiliation": { "nation": "siracusa", "faction": null, "team": "chiave" },
+    "tags": ["AoE", "Survival"],
+    "type": null,
+    "tokensUsed": null
+  },
+  "char_4126_fuze": {
+    "id": "char_4126_fuze",
+    "slug": "fuze",
+    "name": "Fuze",
+    "displayName": "Fuze",
+    "rarity": 5,
+    "position": "MELEE",
+    "range": ["1-1", "1-1", "1-1"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 1213,
+            "atk": 321,
+            "def": 122,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 21,
+            "blockCnt": 2,
+            "atkInterval": 1.2
+          },
+          {
+            "hp": 1556,
+            "atk": 446,
+            "def": 175,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 21,
+            "blockCnt": 2,
+            "atkInterval": 1.2
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 70,
+        "stats": [
+          {
+            "hp": 1556,
+            "atk": 446,
+            "def": 175,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 23,
+            "blockCnt": 2,
+            "atkInterval": 1.2
+          },
+          {
+            "hp": 1995,
+            "atk": 604,
+            "def": 237,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 23,
+            "blockCnt": 2,
+            "atkInterval": 1.2
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 20000 },
+          { "id": "3221", "count": 4 },
+          { "id": "30042", "count": 4 },
+          { "id": "30012", "count": 3 }
+        ]
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 1995,
+            "atk": 604,
+            "def": 237,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 25,
+            "blockCnt": 3,
+            "atkInterval": 1.2
+          },
+          {
+            "hp": 2660,
+            "atk": 795,
+            "def": 290,
+            "res": 0,
+            "respawnTime": 80,
+            "cost": 25,
+            "blockCnt": 3,
+            "atkInterval": 1.2
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 120000 },
+          { "id": "3223", "count": 3 },
+          { "id": "31024", "count": 8 },
+          { "id": "30023", "count": 16 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Ballistic Shield",
+          "description": "Gains 17% ranged Physical resist",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Ballistic Shield",
+          "description": "Gains 20% <span style=\"color:#0098DC;\">(+3%)</span> ranged Physical resist",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Ballistic Shield",
+          "description": "Gains 27% ranged Physical resist",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Ballistic Shield",
+          "description": "Gains 30% <span style=\"color:#0098DC;\">(+3%)</span> ranged Physical resist",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Redeployment Time -10 sec",
+      "DP Cost -1",
+      "Improves Talent",
+      "DP Cost -1"
+    ],
+    "profession": "Guard",
+    "branch": "centurion",
+    "skills": [
+      {
+        "id": "skchr_fuze_1",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "31044", "count": 3 },
+              { "id": "30103", "count": 3 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "31044", "count": 3 },
+              { "id": "30104", "count": 5 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30145", "count": 4 },
+              { "id": "30064", "count": 2 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_fuze_2",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "31064", "count": 3 },
+              { "id": "30073", "count": 3 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "31074", "count": 3 },
+              { "id": "30074", "count": 6 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30155", "count": 4 },
+              { "id": "31074", "count": 3 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 4 }] },
+      {
+        "level": 3,
+        "cost": [{ "id": "3301", "count": 4 }, { "id": "30061", "count": 4 }]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30012", "count": 4 }]
+      },
+      {
+        "level": 5,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30022", "count": 5 }]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30033", "count": 5 }]
+      },
+      {
+        "level": 7,
+        "cost": [
+          { "id": "3303", "count": 6 },
+          { "id": "31033", "count": 3 },
+          { "id": "30093", "count": 2 }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "hp": 0,
+      "atk": 40,
+      "def": 40,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": null, "faction": null, "team": "rainbow" },
     "tags": ["AoE", "Survival"],
     "type": null,
     "tokensUsed": null
@@ -50717,6 +51237,265 @@
     "type": null,
     "tokensUsed": ["token_10022_kazema_shadow"]
   },
+  "char_4124_iana": {
+    "id": "char_4124_iana",
+    "slug": "iana",
+    "name": "Iana",
+    "displayName": "Iana",
+    "rarity": 5,
+    "position": "MELEE",
+    "range": ["1-1", "1-1", "1-1"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 1139,
+            "atk": 321,
+            "def": 120,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 13,
+            "blockCnt": 2,
+            "atkInterval": 1.2
+          },
+          {
+            "hp": 1519,
+            "atk": 440,
+            "def": 185,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 13,
+            "blockCnt": 2,
+            "atkInterval": 1.2
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 70,
+        "stats": [
+          {
+            "hp": 1519,
+            "atk": 440,
+            "def": 185,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 15,
+            "blockCnt": 2,
+            "atkInterval": 1.2
+          },
+          {
+            "hp": 1924,
+            "atk": 580,
+            "def": 241,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 15,
+            "blockCnt": 2,
+            "atkInterval": 1.2
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 20000 },
+          { "id": "3281", "count": 4 },
+          { "id": "30022", "count": 4 },
+          { "id": "30052", "count": 3 }
+        ]
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 1924,
+            "atk": 580,
+            "def": 241,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 15,
+            "blockCnt": 2,
+            "atkInterval": 1.2
+          },
+          {
+            "hp": 2436,
+            "atk": 708,
+            "def": 291,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 15,
+            "blockCnt": 2,
+            "atkInterval": 1.2
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 120000 },
+          { "id": "3283", "count": 3 },
+          { "id": "31064", "count": 7 },
+          { "id": "31083", "count": 12 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "Gemini Replicator",
+          "description": "When deployed, creates a Holographic Mirage at that location; the Mirage will not attack, but when attacked, nullifies the attacker's Invisibility for 6s and immediately switches to a &lt;Substitute&gt;",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 0, "level": 1 }
+        },
+        {
+          "name": "Gemini Replicator",
+          "description": "When deployed, creates a Holographic Mirage at that location; the Mirage will not attack, but when attacked, nullifies the attacker's Invisibility for 6s and immediately switches to a &lt;Substitute&gt;",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 0, "level": 1 }
+        },
+        {
+          "name": "Gemini Replicator",
+          "description": "When deployed, creates a Holographic Mirage at that location; the Mirage will not attack, but when attacked, inflicts 10% Fragile to the attacker and nullifies the attacker's Invisibility for 6s, and immediately switches to a &lt;Substitute&gt;",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Gemini Replicator",
+          "description": "When deployed, creates a Holographic Mirage at that location; the Mirage will not attack, but when attacked, inflicts 12% <span style=\"color:#0098DC;\">(+2%)</span> Fragile to the attacker and removes the attacker's Invisibility for 6s, and immediately switches to a &lt;Substitute&gt;",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "Gemini Replicator",
+          "description": "When deployed, creates a Holographic Mirage at that location; the Mirage will not attack, but when attacked, inflicts 20% Fragile to the attacker and nullifies the attacker's Invisibility for 8s, and immediately switches to a &lt;Substitute&gt;",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "Gemini Replicator",
+          "description": "When deployed, creates a Holographic Mirage at that location; the Mirage will not attack, but when attacked, inflicts 22% <span style=\"color:#0098DC;\">(+2%)</span> Fragile to the attacker and removes the attacker's Invisibility for 8s, and immediately switches to a &lt;Substitute&gt;",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Redeployment Time -4 sec",
+      "ATK +27",
+      "Improves Talent",
+      "DP Cost -1"
+    ],
+    "profession": "Specialist",
+    "branch": "dollkeeper",
+    "skills": [
+      {
+        "id": "skchr_iana_1",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "31024", "count": 3 },
+              { "id": "30013", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "30084", "count": 3 },
+              { "id": "31034", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30155", "count": 4 },
+              { "id": "30054", "count": 3 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_iana_2",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 5 },
+              { "id": "31014", "count": 3 },
+              { "id": "31063", "count": 4 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 6 },
+              { "id": "31084", "count": 3 },
+              { "id": "31054", "count": 6 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 10 },
+              { "id": "30115", "count": 4 },
+              { "id": "31024", "count": 4 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 4 }] },
+      {
+        "level": 3,
+        "cost": [{ "id": "3301", "count": 4 }, { "id": "30041", "count": 5 }]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30052", "count": 3 }]
+      },
+      {
+        "level": 5,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30062", "count": 3 }]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 6 }, { "id": "30093", "count": 3 }]
+      },
+      {
+        "level": 7,
+        "cost": [
+          { "id": "3303", "count": 6 },
+          { "id": "31073", "count": 3 },
+          { "id": "30013", "count": 2 }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "hp": 0,
+      "atk": 50,
+      "def": 30,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": null, "faction": null, "team": "rainbow" },
+    "tags": ["Debuff", "Fast-Redeploy"],
+    "type": "limited",
+    "tokensUsed": null
+  },
   "char_103_angel": {
     "id": "char_103_angel",
     "slug": "exusiai",
@@ -65965,6 +66744,320 @@
     "tags": ["Summon", "Crowd-Control"],
     "type": null,
     "tokensUsed": ["token_10025_doroth_recttp"]
+  },
+  "char_4123_ela": {
+    "id": "char_4123_ela",
+    "slug": "ela",
+    "name": "Ela",
+    "displayName": "Ela",
+    "rarity": 6,
+    "position": "RANGED",
+    "range": ["3-1", "3-3", "3-3"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 696,
+            "atk": 270,
+            "def": 72,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 10,
+            "blockCnt": 1,
+            "atkInterval": 0.85
+          },
+          {
+            "hp": 916,
+            "atk": 366,
+            "def": 108,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 10,
+            "blockCnt": 1,
+            "atkInterval": 0.85
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 916,
+            "atk": 366,
+            "def": 108,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 12,
+            "blockCnt": 1,
+            "atkInterval": 0.85
+          },
+          {
+            "hp": 1145,
+            "atk": 476,
+            "def": 141,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 12,
+            "blockCnt": 1,
+            "atkInterval": 0.85
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 30000 },
+          { "id": "3281", "count": 5 },
+          { "id": "30062", "count": 5 },
+          { "id": "30012", "count": 7 }
+        ]
+      },
+      {
+        "maxLevel": 90,
+        "stats": [
+          {
+            "hp": 1145,
+            "atk": 476,
+            "def": 141,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 12,
+            "blockCnt": 1,
+            "atkInterval": 0.85
+          },
+          {
+            "hp": 1468,
+            "atk": 588,
+            "def": 173,
+            "res": 0,
+            "respawnTime": 70,
+            "cost": 12,
+            "blockCnt": 1,
+            "atkInterval": 0.85
+          }
+        ],
+        "evolveCost": [
+          { "id": "4001", "count": 180000 },
+          { "id": "3283", "count": 4 },
+          { "id": "30125", "count": 4 },
+          { "id": "30044", "count": 7 }
+        ]
+      }
+    ],
+    "talents": {
+      "0": [
+        {
+          "name": "GRZMOT Mine",
+          "description": "Can deploy up to 1 GRZMOT Mine (Can store up to 2); the first enemy that passes the mine will trigger its effect. When retreats, immediately triggers the effect of a GRZMOT Mine from the tile this Operator was deployed on",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 0, "level": 1 }
+        },
+        {
+          "name": "GRZMOT Mine",
+          "description": "Can deploy up to 2 <span style=\"color:#0098DC;\">(+1)</span> GRZMOT Mines (Can store up to 2); the first enemy that passes the mine will trigger its effect. When retreats, immediately triggers the effect of a GRZMOT Mine from the tile this Operator was deployed on",
+          "range": null,
+          "potential": 3,
+          "unlockCond": { "elite": 0, "level": 1 }
+        },
+        {
+          "name": "GRZMOT Mine",
+          "description": "Can deploy up to 2 GRZMOT Mines (Can store up to 3); the first enemy that passes the mine will trigger its effect. When retreats, immediately triggers the effect of a GRZMOT Mine from the tile this Operator was deployed on",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "GRZMOT Mine",
+          "description": "Can deploy up to 3 <span style=\"color:#0098DC;\">(+1)</span> GRZMOT Mines (Can store up to 3); the first enemy that passes the mine will trigger its effect. When retreats, immediately triggers the effect of a GRZMOT Mine from the tile this Operator was deployed on",
+          "range": null,
+          "potential": 3,
+          "unlockCond": { "elite": 1, "level": 1 }
+        },
+        {
+          "name": "GRZMOT Mine",
+          "description": "Can deploy up to 3 GRZMOT Mines (Can store up to 4); the first enemy that passes the mine will trigger its effect. When retreats, immediately triggers the effect of a GRZMOT Mine from the tile this Operator was deployed on",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "GRZMOT Mine",
+          "description": "Can deploy up to 4 <span style=\"color:#0098DC;\">(+1)</span> GRZMOT Mines (Can store up to 4); the first enemy that passes the mine will trigger its effect. When retreats, immediately triggers the effect of a GRZMOT Mine from the tile this Operator was deployed on",
+          "range": null,
+          "potential": 3,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ],
+      "1": [
+        {
+          "name": "'Bullseye'",
+          "description": "Attacks have a 30% chance to deal 150% of ATK as Physical damage; The chance is increased to 100% when attacking a target that's affected by a GRZMOT Mine",
+          "range": null,
+          "potential": 1,
+          "unlockCond": { "elite": 2, "level": 1 }
+        },
+        {
+          "name": "'Bullseye'",
+          "description": "Attacks have a 30% chance to deal 160% <span style=\"color:#0098DC;\">(+10%)</span> of ATK as Physical damage; The chance is increased to 100% when attacking a target that's affected by a GRZMOT Mine",
+          "range": null,
+          "potential": 5,
+          "unlockCond": { "elite": 2, "level": 1 }
+        }
+      ]
+    },
+    "potentials": [
+      "DP Cost -1",
+      "Improves First Talent",
+      "ATK +27",
+      "Improves Second Talent",
+      "DP Cost -1"
+    ],
+    "profession": "Specialist",
+    "branch": "traper",
+    "skills": [
+      {
+        "id": "skchr_ela_1",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 0, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "31014", "count": 4 },
+              { "id": "31033", "count": 9 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "30054", "count": 4 },
+              { "id": "31044", "count": 8 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30125", "count": 6 },
+              { "id": "31034", "count": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_ela_2",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 1, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "31044", "count": 4 },
+              { "id": "31073", "count": 6 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "31084", "count": 4 },
+              { "id": "31024", "count": 8 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30135", "count": 6 },
+              { "id": "31044", "count": 6 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skchr_ela_3",
+        "tokenUsed": null,
+        "unlockCond": { "elite": 2, "level": 1 },
+        "masteryCost": [
+          {
+            "upgradeTime": 28800,
+            "ingredients": [
+              { "id": "3303", "count": 8 },
+              { "id": "30084", "count": 4 },
+              { "id": "30093", "count": 5 }
+            ]
+          },
+          {
+            "upgradeTime": 57600,
+            "ingredients": [
+              { "id": "3303", "count": 12 },
+              { "id": "30084", "count": 4 },
+              { "id": "31014", "count": 9 }
+            ]
+          },
+          {
+            "upgradeTime": 86400,
+            "ingredients": [
+              { "id": "3303", "count": 15 },
+              { "id": "30145", "count": 6 },
+              { "id": "30094", "count": 4 }
+            ]
+          }
+        ]
+      }
+    ],
+    "skillLevel": [
+      { "level": 2, "cost": [{ "id": "3301", "count": 5 }] },
+      {
+        "level": 3,
+        "cost": [
+          { "id": "3301", "count": 5 },
+          { "id": "30011", "count": 6 },
+          { "id": "30061", "count": 4 }
+        ]
+      },
+      {
+        "level": 4,
+        "cost": [{ "id": "3302", "count": 8 }, { "id": "30022", "count": 5 }]
+      },
+      {
+        "level": 5,
+        "cost": [
+          { "id": "3302", "count": 8 },
+          { "id": "30032", "count": 4 },
+          { "id": "30042", "count": 4 }
+        ]
+      },
+      {
+        "level": 6,
+        "cost": [{ "id": "3302", "count": 8 }, { "id": "31073", "count": 5 }]
+      },
+      {
+        "level": 7,
+        "cost": [
+          { "id": "3303", "count": 8 },
+          { "id": "30013", "count": 6 },
+          { "id": "30053", "count": 4 }
+        ]
+      }
+    ],
+    "trustBonus": {
+      "hp": 0,
+      "atk": 80,
+      "def": 0,
+      "res": 0,
+      "respawnTime": 0,
+      "cost": 0,
+      "blockCnt": 0,
+      "atkInterval": 0
+    },
+    "affiliation": { "nation": null, "faction": null, "team": "rainbow" },
+    "tags": ["Summon", "Crowd-Control", "DPS"],
+    "type": "limited",
+    "tokensUsed": ["token_10033_ela_grzmot"]
   },
   "char_147_shining": {
     "id": "char_147_shining",

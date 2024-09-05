@@ -2076,6 +2076,28 @@
       "artists": ["Cenm0"],
       "releasedAt": 0
     },
+    "char_4125_rdoc_1": {
+      "id": "char_4125_rdoc_1",
+      "usedBy": "char_4125_rdoc",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Doc's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["Ubisoft"],
+      "releasedAt": 0
+    },
+    "char_4125_rdoc_2": {
+      "id": "char_4125_rdoc_2",
+      "usedBy": "char_4125_rdoc",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Doc's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["Ubisoft"],
+      "releasedAt": 0
+    },
     "char_106_franka_1": {
       "id": "char_106_franka_1",
       "usedBy": "char_106_franka",
@@ -2393,6 +2415,28 @@
       "imgAlt": "Broca's \"Elite 2\" skin",
       "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
       "artists": ["Infukun"],
+      "releasedAt": 0
+    },
+    "char_4126_fuze_1": {
+      "id": "char_4126_fuze_1",
+      "usedBy": "char_4126_fuze",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Fuze's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["Ubisoft"],
+      "releasedAt": 0
+    },
+    "char_4126_fuze_2": {
+      "id": "char_4126_fuze_2",
+      "usedBy": "char_4126_fuze",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Fuze's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["Ubisoft"],
       "releasedAt": 0
     },
     "char_274_astesi_1": {
@@ -4793,6 +4837,28 @@
       "artists": ["温泉瓜"],
       "releasedAt": 0
     },
+    "char_4124_iana_1": {
+      "id": "char_4124_iana_1",
+      "usedBy": "char_4124_iana",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Iana's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["Ubisoft"],
+      "releasedAt": 0
+    },
+    "char_4124_iana_2": {
+      "id": "char_4124_iana_2",
+      "usedBy": "char_4124_iana",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Iana's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["Ubisoft"],
+      "releasedAt": 0
+    },
     "char_103_angel_1": {
       "id": "char_103_angel_1",
       "usedBy": "char_103_angel",
@@ -5935,6 +6001,28 @@
       "imgAlt": "Dorothy's \"Elite 2\" skin",
       "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
       "artists": ["Jacknife"],
+      "releasedAt": 0
+    },
+    "char_4123_ela_1": {
+      "id": "char_4123_ela_1",
+      "usedBy": "char_4123_ela",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Elite 0",
+      "imgAlt": "Ela's \"Elite 0\" skin",
+      "description": "An outfit commonly worn by Operators.\nWhile not as practical as a uniform, it's what they find most comfortable.",
+      "artists": ["Ubisoft"],
+      "releasedAt": 0
+    },
+    "char_4123_ela_2": {
+      "id": "char_4123_ela_2",
+      "usedBy": "char_4123_ela",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_2", "name": "Default Outfit" },
+      "name": "Elite 2",
+      "imgAlt": "Ela's \"Elite 2\" skin",
+      "description": "An outfit that has been improved after the Operator's Promotion.\nCustom-made to suit each Operator's experiences and needs, these outfits are designed to provide them maximum flexibility on any battlefield. Furthermore, this is all done without compromising the comfort that they've come to expect.",
+      "artists": ["Ubisoft"],
       "releasedAt": 0
     },
     "char_147_shining_1": {
@@ -7165,6 +7253,17 @@
       "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
       "name": "Default",
       "imgAlt": "Sandbeast's \"Default\" skin",
+      "description": null,
+      "artists": null,
+      "releasedAt": 0
+    },
+    "token_10033_ela_grzmot": {
+      "id": "token_10033_ela_grzmot",
+      "usedBy": "token_10033_ela_grzmot",
+      "brandId": null,
+      "subBrand": { "id": "ILLUST_0", "name": "Default Outfit" },
+      "name": "Default",
+      "imgAlt": "Grzmot Mine's \"Default\" skin",
       "description": null,
       "artists": null,
       "releasedAt": 0
@@ -8741,6 +8840,17 @@
       "description": "MARTHE [Coral Coast] Waverider Series WR04. This swimsuit tailor-made for Ægir beachgoers allows inhabitants of the sea to look dazzling on the sand.",
       "artists": ["alchemaniac"],
       "releasedAt": 1611176400
+    },
+    "char_192_falco_marthe#6": {
+      "id": "char_192_falco_marthe#6",
+      "usedBy": "char_192_falco",
+      "brandId": "marthe",
+      "subBrand": { "id": "2024#marthe", "name": "MARTHE/VI" },
+      "name": "Easy Time",
+      "imgAlt": "Plume's \"Easy Time\" skin",
+      "description": "MARTHE Sports Line New Arrivals/Easy Time. A popular design with fitness lovers in mind. Stitchless weaving techniques and high-performance elastic materials come together for a smooth feel, ensuring snugness and flexibility during exercise.",
+      "artists": ["deel"],
+      "releasedAt": 1727370000
     },
     "char_145_prove_summer#3": {
       "id": "char_145_prove_summer#3",
@@ -10513,6 +10623,50 @@
       "artists": ["Ubisoft"],
       "releasedAt": 1629320400
     },
+    "token_10033_ela_grzmot_rainbow6#2": {
+      "id": "token_10033_ela_grzmot_rainbow6#2",
+      "usedBy": "token_10033_ela_grzmot",
+      "brandId": "crossover",
+      "subBrand": { "id": "2024#rainbow6", "name": "Rainbow Six Siege/II" },
+      "name": "Safehouse",
+      "imgAlt": "Grzmot Mine's \"Safehouse\" skin",
+      "description": null,
+      "artists": null,
+      "releasedAt": 1725555600
+    },
+    "char_4123_ela_rainbow6#2": {
+      "id": "char_4123_ela_rainbow6#2",
+      "usedBy": "char_4123_ela",
+      "brandId": "crossover",
+      "subBrand": { "id": "2024#rainbow6", "name": "Rainbow Six Siege/II" },
+      "name": "Safehouse",
+      "imgAlt": "Ela's \"Safehouse\" skin",
+      "description": "Rainbow Six Collaborative Series/Safehouse. A set of clothes that Ela bought at the market. Light and comfortable, it is her favorite outfit in the safehouse. She particularly likes how the local hat looks on her.",
+      "artists": ["Ubisoft"],
+      "releasedAt": 1725555600
+    },
+    "char_4125_rdoc_rainbow6#2": {
+      "id": "char_4125_rdoc_rainbow6#2",
+      "usedBy": "char_4125_rdoc",
+      "brandId": "crossover",
+      "subBrand": { "id": "2024#rainbow6", "name": "Rainbow Six Siege/II" },
+      "name": "Exhibition",
+      "imgAlt": "Doc's \"Exhibition\" skin",
+      "description": "Rainbow Six Collaborative Series/Exhibition. Picked by Doc based on practical requirements, offering protection against wind, dust, and cold as he goes to the next place that needs him. Of that, there is never a shortage.",
+      "artists": ["Ubisoft"],
+      "releasedAt": 1725555600
+    },
+    "char_4124_iana_rainbow6#2": {
+      "id": "char_4124_iana_rainbow6#2",
+      "usedBy": "char_4124_iana",
+      "brandId": "crossover",
+      "subBrand": { "id": "2024#rainbow6", "name": "Rainbow Six Siege/II" },
+      "name": "Mirrormaze",
+      "imgAlt": "Iana's \"Mirrormaze\" skin",
+      "description": "Rainbow Six Collaborative Series/Mirrormaze. Iana's casual outfit for her free time. She has changed into a pair of shorts, hoping that the sun here is different. Perhaps she will not need her hood.",
+      "artists": ["Ubisoft"],
+      "releasedAt": 1725555600
+    },
     "char_340_shwaz_striker#1": {
       "id": "char_340_shwaz_striker#1",
       "usedBy": "char_340_shwaz",
@@ -11036,7 +11190,7 @@
     "char_123_fang": ["char_123_fang_1", "char_123_fang_winter#1"],
     "char_240_wyvern": ["char_240_wyvern_1"],
     "char_504_rguard": ["char_504_rguard_1"],
-    "char_192_falco": ["char_192_falco_1"],
+    "char_192_falco": ["char_192_falco_1", "char_192_falco_marthe#6"],
     "char_208_melan": ["char_208_melan_1", "char_208_melan_epoque#1"],
     "char_281_popka": ["char_281_popka_1"],
     "char_209_ardign": ["char_209_ardign_1", "char_209_ardign_snow#1", "char_209_ardign_epoque#26"],
@@ -11200,6 +11354,7 @@
     "char_308_swire": ["char_308_swire_1", "char_308_swire_2", "char_308_swire_nian#2"],
     "char_265_sophia": ["char_265_sophia_1", "char_265_sophia_2", "char_265_sophia_epoque#11"],
     "char_4106_bryota": ["char_4106_bryota_1", "char_4106_bryota_2"],
+    "char_4125_rdoc": ["char_4125_rdoc_1", "char_4125_rdoc_2", "char_4125_rdoc_rainbow6#2"],
     "char_106_franka": ["char_106_franka_1", "char_106_franka_2", "char_106_franka_ncg#1"],
     "char_131_flameb": [
       "char_131_flameb_1",
@@ -11220,6 +11375,7 @@
     "char_459_tachak": ["char_459_tachak_1", "char_459_tachak_2", "char_459_tachak_rainbow6#1"],
     "char_143_ghost": ["char_143_ghost_1", "char_143_ghost_2", "char_143_ghost_winter#1"],
     "char_356_broca": ["char_356_broca_1", "char_356_broca_2", "char_356_broca_marthe#4"],
+    "char_4126_fuze": ["char_4126_fuze_1", "char_4126_fuze_2"],
     "char_274_astesi": [
       "char_274_astesi_1",
       "char_274_astesi_2",
@@ -11442,6 +11598,7 @@
     "char_458_rfrost": ["char_458_rfrost_1", "char_458_rfrost_2"],
     "char_369_bena": ["char_369_bena_1", "char_369_bena_2"],
     "char_4016_kazema": ["char_4016_kazema_1", "char_4016_kazema_2", "char_4016_kazema_witch#3"],
+    "char_4124_iana": ["char_4124_iana_1", "char_4124_iana_2", "char_4124_iana_rainbow6#2"],
     "char_103_angel": [
       "char_103_angel_1",
       "char_103_angel_2",
@@ -11566,6 +11723,7 @@
     "char_437_mizuki": ["char_437_mizuki_1", "char_437_mizuki_2", "char_437_mizuki_sale#7"],
     "char_1023_ghost2": ["char_1023_ghost2_1", "char_1023_ghost2_2", "char_1023_ghost2_boc#6"],
     "char_4048_doroth": ["char_4048_doroth_1", "char_4048_doroth_2", "char_4048_doroth_witch#4"],
+    "char_4123_ela": ["char_4123_ela_1", "char_4123_ela_2", "char_4123_ela_rainbow6#2"],
     "char_147_shining": ["char_147_shining_1", "char_147_shining_2", "char_147_shining_summer#1"],
     "char_179_cgbird": ["char_179_cgbird_1", "char_179_cgbird_2", "char_179_cgbird_witch#1"],
     "char_003_kalts": ["char_003_kalts_1", "char_003_kalts_2", "char_003_kalts_boc#6"],
@@ -11732,6 +11890,7 @@
     "token_10031_swire2_gdtrap": ["token_10031_swire2_gdtrap"],
     "token_10032_jesca2_jckshd": ["token_10032_jesca2_jckshd"],
     "token_10034_ray_sndbst": ["token_10034_ray_sndbst"],
+    "token_10033_ela_grzmot": ["token_10033_ela_grzmot", "token_10033_ela_grzmot_rainbow6#2"],
     "trap_079_allydonq": ["trap_079_allydonq"]
   }
 }

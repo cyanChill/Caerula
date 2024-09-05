@@ -1859,6 +1859,10 @@
       { "langId": "JP", "actors": ["Toshiyuki Toyonaga"] },
       { "langId": "KR", "actors": ["Kim Daol"] }
     ],
+    "char_4123_ela": [{ "langId": "LINKAGE", "actors": ["Monica Nowak"] }],
+    "char_4124_iana": [{ "langId": "LINKAGE", "actors": ["Clare McConnell"] }],
+    "char_4125_rdoc": [{ "langId": "LINKAGE", "actors": ["Alex Ivanovici"] }],
+    "char_4126_fuze": [{ "langId": "LINKAGE", "actors": ["Gabriel Furman"] }],
     "char_311_mudrok#1": [
       { "langId": "CN_MANDARIN", "actors": ["Duduru"] },
       { "langId": "JP", "actors": ["Maaya Uchida"] },
@@ -52750,6 +52754,618 @@
         "unlockCond": null
       }
     ],
+    "char_4123_ela": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "Since you're stuck here sifting through documents, I might as well help you solve a few problems around the office.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "Hitting supply lines does a whole lot more damage than taking out people.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "If you ask me, your office is on the bland side. Just hit me up if you ever want to mix things up a little.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "The whole 'cozy family relationship' thing isn't for me.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "I get a lot more out of talking to strangers than I do from that 'self-help' shtick.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "We define ourselves by symbols, but those symbols can be perverted. Reused. Reworked, reframed, remade. In a word, stolen. Who are you then?",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "I don't mind helping you run errands out of combat, but on the battlefield, I need ample room to call the shots.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "When someone can't find fault with your results and has to resort to nitpicking your attitude, that tells you everything you need to know about them.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "To call the shots, you need to prove that you've got what it takes — and you've certainly done that. So, where are you sending me next?",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "Your workload is clearly excessive, even by the highest standards. Take a rest.",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "Codename Ela, member of Team Rainbow. Just give me my objective, then sit back and wait for the good news.",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "Picked up a few new tricks.",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "A medal? Thanks. Workmanship's not bad at all, as far as decorations go.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "Together, we can shake the very stars from the sky.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "At least make it challenging.",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "Time to show you what I can do.",
+        "unlockCond": null
+      },
+      { "title": "Depart", "text": "No time to waste.", "unlockCond": null },
+      {
+        "title": "Begin Operation",
+        "text": "I'll make you regret this.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "A tooth for a tooth.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "An eye for an eye.",
+        "unlockCond": null
+      },
+      { "title": "Deployment 1", "text": "I got this.", "unlockCond": null },
+      { "title": "Deployment 2", "text": "Idziemy.", "unlockCond": null },
+      {
+        "title": "In Battle 1",
+        "text": "Here's a memento.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 2",
+        "text": "That will slow them down.",
+        "unlockCond": null
+      },
+      { "title": "In Battle 3", "text": "Eat this!", "unlockCond": null },
+      { "title": "In Battle 4", "text": "Don't move!", "unlockCond": null },
+      {
+        "title": "4-star Result",
+        "text": "The end justifies the means.",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "I'm sorry, was I too fast for you?",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "That's it?",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "Try to keep up!",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "This place isn't half bad.",
+        "unlockCond": null
+      },
+      {
+        "title": "Tap",
+        "text": "Do me a favor, don't talk to me.",
+        "unlockCond": null
+      },
+      {
+        "title": "Trust Tap",
+        "text": "Tell me YOUR story.",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      { "title": "Greeting", "text": "I'm here.", "unlockCond": null }
+    ],
+    "char_4124_iana": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "Not sure if it's really me standing before you? Here's a hint: the Gemini doesn't talk.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "Multitasking has never been a problem for me.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "Intel is half the battle.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "You need to clean your pot regularly, if you want decent coffee.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "Seeing is not always believing. Technology reveals the hidden truth.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "I've encountered a few difficulties because of my appearance. No more than that, though.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "I'll follow your lead.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "I trust your judgment.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "I wonder what souvenirs I'll take home from this unforgettable journey.",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "Hold on, I'll be right back.",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "Code name Iana, Team Rainbow. There's a lot of intel we can share with each other.",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "Have you considered holographic recordings?",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "A promotion? Do I get more access permissions?",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "Here's hoping this helps me reach more unexplored corners.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "Friendly reminder, my hologram doesn't stop bullets.",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "Gemini will show the way.",
+        "unlockCond": null
+      },
+      {
+        "title": "Depart",
+        "text": "Rage against the dying of the light.",
+        "unlockCond": null
+      },
+      {
+        "title": "Begin Operation",
+        "text": "Target detected.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "Ready when you are.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "Gathering intel.",
+        "unlockCond": null
+      },
+      { "title": "Deployment 1", "text": "Cover me.", "unlockCond": null },
+      {
+        "title": "Deployment 2",
+        "text": "Mic-check successful.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 1",
+        "text": "Stay out of sight!",
+        "unlockCond": null
+      },
+      { "title": "In Battle 2", "text": "Stay close!", "unlockCond": null },
+      { "title": "In Battle 3", "text": "Resetting.", "unlockCond": null },
+      {
+        "title": "In Battle 4",
+        "text": "Hostile in my sights!",
+        "unlockCond": null
+      },
+      {
+        "title": "4-star Result",
+        "text": "All systems are complementary, if you know how to connect them.",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "Exactly how it should be.",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "You've still got fight in you, show them what you're made of.",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "Your story doesn't end here.",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "If that's how you want it.",
+        "unlockCond": null
+      },
+      { "title": "Tap", "text": "Come on.", "unlockCond": null },
+      {
+        "title": "Trust Tap",
+        "text": "Come on, I'll help.",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      {
+        "title": "Greeting",
+        "text": "Ready for more action?",
+        "unlockCond": null
+      }
+    ],
+    "char_4125_rdoc": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "Here are the files, and this is your coffee. No need to thank me.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "Yes…? Oh! Sorry Doctor, I thought an operator was calling out to me.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "If you can hold a scalpel, you can hold a gun. Never doubt the steadiness of a surgeon's hand.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "Neither sickness nor the enemy can take from me what I want to protect.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "When you have walked with death, you learn to appreciate life.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "I've learned from experience that the place to save lives is in the field, not an office. And sometimes, the only way to save a life is to take one.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "My job is to keep you alive. Make it as hard as you like.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "Not a fan of your worried face. What's the matter?",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "Doctor. I'm so glad we found you.",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "When was the last time you took a break? You need to stop working.",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "Code name Doc, Team Rainbow. I'll protect you.",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "This will make things easier.",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "If we must, we must.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "Thank you, I'd been hoping to get authorization to access confidential files on Oripathy.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "Call if you need a hand.",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "Let's be safe out there.",
+        "unlockCond": null
+      },
+      {
+        "title": "Depart",
+        "text": "At least we are well prepared.",
+        "unlockCond": null
+      },
+      {
+        "title": "Begin Operation",
+        "text": "There are still active targets in the area.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "Ready to go.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "I've got your backs.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "Get going quickly.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 2",
+        "text": "Try not to get yourselves hurt.",
+        "unlockCond": null
+      },
+      { "title": "In Battle 1", "text": "Located target.", "unlockCond": null },
+      {
+        "title": "In Battle 2",
+        "text": "Target acquired.",
+        "unlockCond": null
+      },
+      {
+        "title": "In Battle 3",
+        "text": "Stick close to me.",
+        "unlockCond": null
+      },
+      { "title": "In Battle 4", "text": "Reloading!", "unlockCond": null },
+      {
+        "title": "4-star Result",
+        "text": "Are you alright? Any difficulty breathing?",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "We're almost at the extraction point. Then, we can rest.",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "Let's get you back on your feet, shall we?",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "We're wasting time.",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "Always a pleasure.",
+        "unlockCond": null
+      },
+      {
+        "title": "Tap",
+        "text": "Careful, I'm carrying a bunch of bric-a-bracs.",
+        "unlockCond": null
+      },
+      {
+        "title": "Trust Tap",
+        "text": "Nothing abnormal. If we get a situation, I'll let you know. ",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      { "title": "Greeting", "text": "Bonjour", "unlockCond": null }
+    ],
+    "char_4126_fuze": [
+      {
+        "title": "Appointed as Assistant",
+        "text": "Right... Let me know if you need anything.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 1",
+        "text": "Watch out. There are a lot of dangerous materials in the workroom.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 2",
+        "text": "Engineering Department... Not bad. The head of the department, though... A bit too talkative.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk 3",
+        "text": "I like machines. They don't talk, but they're always honest with their readings.",
+        "unlockCond": null
+      },
+      {
+        "title": "Talk after Promotion 1",
+        "text": "Chaos is only an enemy if you're unable to adapt.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Talk after Promotion 2",
+        "text": "When the approaching chaos endangers your loved ones, the thing to do isn't to protect them. It's... to keep them as far away from you as possible.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Talk after Trust Increase 1",
+        "text": "No, my comms equipment's fine. Nothing to worry.",
+        "unlockCond": { "type": "trust", "val": 40 }
+      },
+      {
+        "title": "Talk after Trust Increase 2",
+        "text": "You want me to say something? Uh, that's the hardest part.",
+        "unlockCond": { "type": "trust", "val": 100 }
+      },
+      {
+        "title": "Talk after Trust Increase 3",
+        "text": "My hometown? There... the sky is blue, and all the buildings under it are blue, too.",
+        "unlockCond": { "type": "trust", "val": 200 }
+      },
+      {
+        "title": "Idle",
+        "text": "Good... I'll find something to do.",
+        "unlockCond": null
+      },
+      {
+        "title": "Onboard",
+        "text": "Rainbow Operator, codename Fuze. I've said everything I need to. Let's get to it.",
+        "unlockCond": null
+      },
+      {
+        "title": "Watching Battle Record",
+        "text": "No problem. I'll find some time to watch them.",
+        "unlockCond": null
+      },
+      {
+        "title": "Promotion 1",
+        "text": "Good. Thank you.",
+        "unlockCond": { "type": "promotion", "val": 1 }
+      },
+      {
+        "title": "Promotion 2",
+        "text": "Do I need to give some crowd a speech? No? Good.",
+        "unlockCond": { "type": "promotion", "val": 2 }
+      },
+      {
+        "title": "Added to Squad",
+        "text": "At your command.",
+        "unlockCond": null
+      },
+      {
+        "title": "Appointed as Squad Leader",
+        "text": "Do exactly as I say.",
+        "unlockCond": null
+      },
+      {
+        "title": "Depart",
+        "text": "Enough talk. Now we act.",
+        "unlockCond": null
+      },
+      {
+        "title": "Begin Operation",
+        "text": "Матрёшка готов поручить.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 1",
+        "text": "Focus on the task at hand.",
+        "unlockCond": null
+      },
+      {
+        "title": "Selecting Operator 2",
+        "text": "Remember our objectives.",
+        "unlockCond": null
+      },
+      {
+        "title": "Deployment 1",
+        "text": "Lower your voice.",
+        "unlockCond": null
+      },
+      { "title": "Deployment 2", "text": "Remain silent.", "unlockCond": null },
+      { "title": "In Battle 1", "text": "With me!", "unlockCond": null },
+      { "title": "In Battle 2", "text": "Remain alert.", "unlockCond": null },
+      { "title": "In Battle 3", "text": "Stay focused.", "unlockCond": null },
+      { "title": "In Battle 4", "text": "Hold position.", "unlockCond": null },
+      {
+        "title": "4-star Result",
+        "text": "Every action builds our chances to win.",
+        "unlockCond": null
+      },
+      {
+        "title": "3-star Result",
+        "text": "Asset secured.",
+        "unlockCond": null
+      },
+      {
+        "title": "Sub 3-star Result",
+        "text": "On your feet, your wounds are not fatal.",
+        "unlockCond": null
+      },
+      {
+        "title": "Operation Failure",
+        "text": "Move, right now!",
+        "unlockCond": null
+      },
+      {
+        "title": "Assigned to Facility",
+        "text": "This place isn't bad.",
+        "unlockCond": null
+      },
+      { "title": "Tap", "text": "Don't do that...", "unlockCond": null },
+      {
+        "title": "Trust Tap",
+        "text": "I made some pilaf. Want some?",
+        "unlockCond": null
+      },
+      { "title": "Title", "text": "Arknights.", "unlockCond": null },
+      { "title": "Greeting", "text": "Hey...", "unlockCond": null }
+    ],
     "char_113_cqbw_epoque#7": [
       {
         "title": "Appointed as Assistant",
@@ -58211,6 +58827,7 @@
     "char_308_swire": ["char_308_swire", "char_308_swire_CN_TOPOLECT"],
     "char_265_sophia": ["char_265_sophia"],
     "char_4106_bryota": ["char_4106_bryota"],
+    "char_4125_rdoc": ["char_4125_rdoc"],
     "char_106_franka": ["char_106_franka"],
     "char_131_flameb": ["char_131_flameb"],
     "char_154_morgan": ["char_154_morgan"],
@@ -58226,6 +58843,7 @@
     "char_459_tachak": ["char_459_tachak"],
     "char_143_ghost": ["char_143_ghost"],
     "char_356_broca": ["char_356_broca"],
+    "char_4126_fuze": ["char_4126_fuze"],
     "char_274_astesi": ["char_274_astesi"],
     "char_333_sidero": ["char_333_sidero"],
     "char_475_akafyu": ["char_475_akafyu"],
@@ -58336,6 +58954,7 @@
     "char_458_rfrost": ["char_458_rfrost"],
     "char_369_bena": ["char_369_bena"],
     "char_4016_kazema": ["char_4016_kazema"],
+    "char_4124_iana": ["char_4124_iana"],
     "char_103_angel": ["char_103_angel"],
     "char_332_archet": ["char_332_archet"],
     "char_456_ash": ["char_456_ash"],
@@ -58388,6 +59007,7 @@
     "char_437_mizuki": ["char_437_mizuki"],
     "char_1023_ghost2": ["char_1023_ghost2"],
     "char_4048_doroth": ["char_4048_doroth"],
+    "char_4123_ela": ["char_4123_ela"],
     "char_147_shining": ["char_147_shining"],
     "char_179_cgbird": ["char_179_cgbird"],
     "char_003_kalts": ["char_003_kalts", "char_003_kalts_boc#6"],

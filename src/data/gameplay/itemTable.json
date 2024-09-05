@@ -1535,6 +1535,14 @@
     "usage": "A batch headhunting permit issued by the Rhodes Island HR Department; Can be used at a certain time to recruit talented Operators, 10 rolls at once.",
     "rarity": 5
   },
+  "LINKAGE_TKT_GACHA_10_4801": {
+    "id": "LINKAGE_TKT_GACHA_10_4801",
+    "iconId": "LINKAGE_TKT_GACHA_10_4801",
+    "name": "Expert Headhunting Permit",
+    "description": "In order to ensure the available talent pool can be scaled upwards to satisfy the Doctor's emergency preparation request, this batch of headhunting items carries specificity, time-sensitivity, and of course, a degree of risk.",
+    "usage": "A batch headhunting permit issued by the Rhodes Island HR Department; Can be used at a certain time to recruit talented Operators, 10 rolls at once.",
+    "rarity": 5
+  },
   "voucher_item_4pick1": {
     "id": "voucher_item_4pick1",
     "iconId": "voucher_item_4pick1",
@@ -4319,6 +4327,30 @@
     "usage": "Used to improve the Potential of Kestrel.",
     "rarity": 5
   },
+  "p_char_4124_iana": {
+    "id": "p_char_4124_iana",
+    "iconId": "p_char_4124_iana",
+    "name": "Iana's Token",
+    "description": "Contact lenses for everyday use. Does not endow you with the power of Gemini, but things do seem to look a little sharper.",
+    "usage": "Used to improve the Potential of Iana.",
+    "rarity": 5
+  },
+  "p_char_4125_rdoc": {
+    "id": "p_char_4125_rdoc",
+    "iconId": "p_char_4125_rdoc",
+    "name": "Doc's Token",
+    "description": "A shotgun shell. He regrets that the conflict had to be resolved that way, but he did not hesitate, not when even more lives were at stake.",
+    "usage": "Used to improve the Potential of Doc.",
+    "rarity": 5
+  },
+  "p_char_4126_fuze": {
+    "id": "p_char_4126_fuze",
+    "iconId": "p_char_4126_fuze",
+    "name": "Fuze's Token",
+    "description": "An unusual helmet. You often wonder what his expression is behind the mask.",
+    "usage": "Used to improve the Potential of Fuze.",
+    "rarity": 5
+  },
   "p_char_103_angel": {
     "id": "p_char_103_angel",
     "iconId": "p_char_103_angel",
@@ -5013,6 +5045,14 @@
     "name": "Zuo Le's Token",
     "description": "A crafted kite of distinctly Yanese make, still carrying the scent of the leaves in the trees. While the clumsy hands of its flier often cause it to fall, it will always come to rise again on the wind.",
     "usage": "Used to improve the Potential of Zuo Le.",
+    "rarity": 6
+  },
+  "p_char_4123_ela": {
+    "id": "p_char_4123_ela",
+    "iconId": "p_char_4123_ela",
+    "name": "Ela's Token",
+    "description": "A set of goggles and noise-canceling earphones. She was not sure whether you needed the goggles at one point.",
+    "usage": "Used to improve the Potential of Ela.",
     "rarity": 6
   },
   "class_p_char_123_fang": {
@@ -8055,6 +8095,14 @@
     "usage": "Obtain the furniture belonging to the 'Arakeeshtu Jungle' and 'Narutabatim Alkalies' sets in the 'Arsalan Travel Tent' furniture series.",
     "rarity": 5
   },
+  "uni_set_SargonFair_2": {
+    "id": "uni_set_SargonFair_2",
+    "iconId": "uni_set_SargonFair_2",
+    "name": "Arsalan Furniture Collection II",
+    "description": "When the region's so close to the foehn hotlands, furnishings like these in Arsalan add a precious hint of comfort to your room.",
+    "usage": "Obtain the furniture belonging to the 'Eqlumuy Oasis' and 'Traditions' sets in the 'Arsalan Travel Tent' furniture series.",
+    "rarity": 5
+  },
   "act31side_token_box": {
     "id": "act31side_token_box",
     "iconId": "act31side_token_box",
@@ -8117,6 +8165,14 @@
     "name": "Guide Ahead Furniture Collection Set",
     "description": "The Procurement Department's reconnected with its suppliers, and replenished stocks of initially limited pieces of furniture! Give your thanks to Closure!",
     "usage": "Obtain all furniture exclusive to the Guide Ahead event not yet acquired.",
+    "rarity": 5
+  },
+  "act32side_token_stamp": {
+    "id": "act32side_token_stamp",
+    "iconId": "act32side_token_stamp",
+    "name": "Galería Stamp Card",
+    "description": "Upon seeing these cards, Tecno indifferently thumbs at a row of halved radishes in the corner of her workshop, each cross-section dyed through in seal ink and ready to go.",
+    "usage": "A card for the Galería stamp rally. The more stamps, the more prizes you get. Despite each and every card bearing the limited-daily ultra-rare secret stamps, Reynell will still gladly exchange them for goods. In his words, 'my small token of respect to our anonymous seal-forger supreme.'",
     "rarity": 5
   }
 }

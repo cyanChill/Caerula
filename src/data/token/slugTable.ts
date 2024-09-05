@@ -42,5 +42,6 @@ export const TokSlugTable: Record<string, TokenId> = {
   "champagne_bomb": "token_10031_swire2_gdtrap",
   "mobile_riot_shield": "token_10032_jesca2_jckshd",
   "sandbeast": "token_10034_ray_sndbst",
+  "grzmot_mine": "token_10033_ela_grzmot",
   "tide-hunt_knight": "trap_079_allydonq"
 };

@@ -17412,6 +17412,472 @@
     "relatedEnemies": []
   },
   {
+    "sort": 768,
+    "id": "enemy_1401_pogpro",
+    "slug": "coalition_army_hound",
+    "code": "R18",
+    "name": "Coalition Army Hound",
+    "description": "A hound trained by the Bolívar Coalition Army. Perro officers were not too enthused about this being introduced into their tactical considerations.",
+    "race": "Infected Creature",
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 0,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 769,
+    "id": "enemy_1401_pogpro_2",
+    "slug": "coalition_army_hound_pro",
+    "code": "R19",
+    "name": "Coalition Army Hound Pro",
+    "description": "A hunting hound trained in Columbia and purchased by the Bolívarian Coalition government. The idea was met with some resistance within the army.",
+    "race": "Infected Creature",
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 0,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 770,
+    "id": "enemy_1402_tgshd",
+    "slug": "armored_scout",
+    "code": "R20",
+    "name": "Armored Scout",
+    "description": "An armored scout. The armor they wear is capable of pinpointing the location of attackers.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Exposes the attacker for 5s when attacked",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "When Exposed, allied units cannot use barricades to keep themselves out of enemy's sight, and take more damage",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 771,
+    "id": "enemy_1402_tgshd_2",
+    "slug": "heavy_scout",
+    "code": "R21",
+    "name": "Heavy Scout",
+    "description": "A heavily-armored scout. The Coalition Army has reinforced the armor, but has no clue how to upgrade the tracing function.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Exposes the attacker for 5s when attacked",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "When Exposed, allied units cannot use barricades to keep themselves out of enemy's sight, and take more damage",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 772,
+    "id": "enemy_1403_gunsho",
+    "slug": "light_rapid_crossbowman",
+    "code": "R22",
+    "name": "Light Rapid Crossbowman",
+    "description": "A light crossbowman who can fire three bolts at once. The price of such on-demand firepower is their weakness in long-time battles.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Launches a Straight Shot when positioned in a straight line with an allied unit: fires 3 bolts in the target's direction",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 773,
+    "id": "enemy_1403_gunsho_2",
+    "slug": "heavy_rapid_crossbowman",
+    "code": "R23",
+    "name": "Heavy Rapid Crossbowman",
+    "description": "A heavy crossbowman who can fire three bolts at once. The Columbian investigation team was forced to admit that these 'homemade gadgets' were just as powerful as some of the latest cutting-edge weaponry.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Launches a Straight Shot when positioned in a straight line with an allied unit: fires 3 bolts in the target's direction",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 774,
+    "id": "enemy_1404_msnip",
+    "slug": "heavy_crossbowman_ambusher",
+    "code": "R24",
+    "name": "Heavy Crossbowman Ambusher",
+    "description": "A sniper issued with a mass-produced kinetically-boosted crossbow. Though expensive, they are well worth the price tag, capable of stunning targets for long durations after being charged up.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Launches a Straight Shot when positioned in a straight line with an allied unit: fires 1 bolt in the target's direction that deals Arts damage and inflicts <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a>",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 775,
+    "id": "enemy_1404_msnip_2",
+    "slug": "heavy_crossbowman_hunter",
+    "code": "R25",
+    "name": "Heavy Crossbowman Hunter",
+    "description": "A sniper issued with a prototype kinetically-boosted crossbow. Exorbitantly expensive. It's said that the buyer reached a secret agreement with a small Columbian company.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Ranged Arts",
+    "abilityList": [
+      {
+        "text": "<a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a>",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Launches a Straight Shot when positioned in a straight line with an allied unit: fires 1 bolt in the target's direction that deals Arts damage and inflicts <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a>",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 776,
+    "id": "enemy_1405_boomer",
+    "slug": "reckless_grenadier",
+    "code": "R26",
+    "name": "Reckless Grenadier",
+    "description": "A specialized combatant who does not carry conventional weapons. Though well-paid and exempted from standard military training, nobody envies them.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Upon taking damage for the first time while unblocked, fires an explosive in each cardinal direction; afterwards, gains increased Movement Speed and reduced Weight",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 777,
+    "id": "enemy_1405_boomer_2",
+    "slug": "impetuous_grenadier",
+    "code": "R27",
+    "name": "Impetuous Grenadier",
+    "description": "A specialized combatant whose fighting methods differ from the norm. The other soldiers call them cannon fodder, unaware that they are seen the exact same way by their superiors.",
+    "race": null,
+    "type": "NORMAL",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Upon taking damage for the first time while unblocked, fires an explosive in each cardinal direction; afterwards, gains increased Movement Speed and reduced Weight",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 778,
+    "id": "enemy_1406_chghmr",
+    "slug": "battleline_advance_guard",
+    "code": "R28",
+    "name": "Battleline Advance Guard",
+    "description": "Heavily-armed personnel in charge of advancing the frontline. Typically made up of grumpy old veterans who take out their anger towards their superiors on anything standing in their way.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Each time this unit is blocked, the next attack's ATK is greatly increased.",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 779,
+    "id": "enemy_1406_chghmr_2",
+    "slug": "battleline_breacher",
+    "code": "R29",
+    "name": "Battleline Breacher",
+    "description": "Heavily-armored personnel in charge of breaking through enemy lines. They only know how to swing their hammer, whether it's towards a roadblock or a living person.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Physical",
+    "abilityList": [
+      {
+        "text": "Each time this unit is blocked, the next attack's ATK is greatly increased.",
+        "textFormat": "SILENCE"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 4,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 780,
+    "id": "enemy_1407_hummbd",
+    "slug": "farseer",
+    "code": "R30",
+    "name": "Farseer",
+    "description": "An unmanned drone issued by Coalition Army. Though originally designed for reconnaissance, a circuitry issue made it unreliable at this, so an attack module was installed as a last resort.",
+    "race": "Drone",
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      { "text": "Flying unit.", "textFormat": "NORMAL" },
+      {
+        "text": "When defeated, Exposes nearby allied units for 8s",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "When Exposed, allied units cannot use barricades to keep themselves out of enemy's sight, and take more damage",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": true,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 781,
+    "id": "enemy_1407_hummbd_2",
+    "slug": "farseer_b",
+    "code": "R31",
+    "name": "Farseer B",
+    "description": "An unmanned drone modified by a Coalition veteran, who haphazardly adjusted the circuitry of the recon module before devoting the rest of his effort into boosting the firepower.",
+    "race": "Drone",
+    "type": "NORMAL",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      { "text": "Flying unit.", "textFormat": "NORMAL" },
+      {
+        "text": "When defeated, Exposes nearby allied units for 8s",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "When Exposed, allied units cannot use barricades to keep themselves out of enemy's sight, and take more damage",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 1,
+    "isFlying": true,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 782,
+    "id": "enemy_1408_scotcn",
+    "slug": "battlefield_observing_mortarman",
+    "code": "R32",
+    "name": "Battlefield Observing Mortarman",
+    "description": "A mortarman with keen senses, who fires shells embedded with reconnaissance units. An exceptional talent within the Coalition Army.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Capable of extremely long ranged-attacks",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Shells deal area damage to target and any allied units in the surrounding 8 tiles, and exposes targets for 5s",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When Exposed, allied units cannot use barricades to keep themselves out of enemy's sight, and take more damage",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 783,
+    "id": "enemy_1408_scotcn_2",
+    "slug": "battlefield_surveying_mortarman",
+    "code": "R33",
+    "name": "Battlefield Surveying Mortarman",
+    "description": "A mortarman with a wealth of experience, who fires shells embedded with reconnaissance units. It is said that two military leaders once even fought to claim a senior mortarman.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Capable of extremely long ranged-attacks",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Shells deal area damage to target and any allied units in the surrounding 8 tiles, and exposes targets for 5s",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When Exposed, allied units cannot use barricades to keep themselves out of enemy's sight, and take more damage",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 2,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 784,
+    "id": "enemy_1409_bdguad",
+    "slug": "mateo's_security_guard",
+    "code": "R34",
+    "name": "Mateo's Security Guard",
+    "description": "Mateo's security guard. Every Coalition Army leader needs people like these, or they wouldn't be able to sleep well at night.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Launches a Straight Shot when positioned in a straight line with an allied unit: fires 2 explosives in the target's direction",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "When unblocked, Physical and Arts damage taken is reduced",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 785,
+    "id": "enemy_1409_bdguad_2",
+    "slug": "mateo's_guard",
+    "code": "R35",
+    "name": "Mateo's Guard",
+    "description": "Mateo's guard. Certain Coalition Army leaders have cultivated such individuals, leading them to feel that they are above their peers.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Launches a Straight Shot when positioned in a straight line with an allied unit: fires 2 explosives in the target's direction",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "When unblocked, Physical and Arts damage taken is reduced",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": []
+  },
+  {
+    "sort": 786,
+    "id": "enemy_1409_bdguad_3",
+    "slug": "mateo's_bodyguard",
+    "code": "R36",
+    "name": "Mateo's Bodyguard",
+    "description": "Mateo's most trusted bodyguard. Very few military leaders have such individuals around them, but they often fail to appreciate how precious such loyalty really is.",
+    "race": null,
+    "type": "ELITE",
+    "attackPattern": "Melee Ranged Physical",
+    "abilityList": [
+      {
+        "text": "Launches a Straight Shot when positioned in a straight line with an allied unit: fires 2 explosives in the target's direction",
+        "textFormat": "SILENCE"
+      },
+      {
+        "text": "When unblocked, Physical and Arts damage taken is reduced",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "Replenishes all ammo for &lt;Captain Mateo&gt; upon approaching him",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": [],
+    "lifePointReduction": 1,
+    "weight": 3,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1551_bolicp"]
+  },
+  {
     "sort": 787,
     "id": "enemy_2001_duckmi",
     "slug": "duck_lord",
@@ -20072,6 +20538,46 @@
     "weight": 10,
     "isFlying": false,
     "relatedEnemies": []
+  },
+  {
+    "sort": 869,
+    "id": "enemy_1551_bolicp",
+    "slug": "captain_mateo",
+    "code": "EC",
+    "name": "Captain Mateo",
+    "description": "Captain Mateo of the Coalition Army. He refuses to recognize the dead end he stands at, and employs violence against anyone who reminds him of that.",
+    "race": null,
+    "type": "BOSS",
+    "attackPattern": "Melee Ranged Physical",
+    "abilityList": [
+      { "text": "First Form", "textFormat": "TITLE" },
+      {
+        "text": "Launches a Straight Shot when positioned in a straight line with an allied unit: fires 10 bolts in the target's direction, with the last bolt permanently reducing the target's DEF",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "When HP drops to 0 for the first time, appears at another location and enters Second Form",
+        "textFormat": "NORMAL"
+      },
+      { "text": "Second Form", "textFormat": "TITLE" },
+      {
+        "text": "['Lights Out!'] Upon receiving damage, releases 3 smoke bombs in a frontal area that make enemies inside <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Prevents being targeted by enemy attacks if the unit is not blocking\" href=\"/terminology#invisible\">Invisible</a>; smokescreen lasts for 30s (Initial use: 1)",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "['Stand Down!'] Attacks <a style=\"border-bottom:1px dotted currentcolor;cursor:help;\" title=\"Unable to move, block, attack, or use skills\" href=\"/terminology#stun\">Stun</a> the target for 6s (Initial uses: 6)",
+        "textFormat": "NORMAL"
+      },
+      {
+        "text": "['Attention!'] Calls all &lt;Mateo's Bodyguard&gt; to this unit's current position, and makes them hold there for 30s",
+        "textFormat": "NORMAL"
+      }
+    ],
+    "immunities": ["Silence", "Sleep"],
+    "lifePointReduction": 2,
+    "weight": 8,
+    "isFlying": false,
+    "relatedEnemies": ["enemy_1409_bdguad_3"]
   },
   {
     "sort": 870,

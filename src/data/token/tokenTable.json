@@ -4342,6 +4342,101 @@
     "type": "summon",
     "usedBy": "char_4117_ray"
   },
+  "token_10033_ela_grzmot": {
+    "id": "token_10033_ela_grzmot",
+    "iconId": "token_10033_ela_grzmot",
+    "slug": "grzmot_mine",
+    "name": "Grzmot Mine",
+    "displayName": "Grzmot Mine",
+    "rarity": 6,
+    "position": "MELEE",
+    "range": ["0-1", "0-1", "0-1"],
+    "stats": [
+      {
+        "maxLevel": 50,
+        "stats": [
+          {
+            "hp": 1000,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "respawnTime": 5,
+            "cost": 5,
+            "blockCnt": 0,
+            "atkInterval": 1
+          },
+          {
+            "hp": 1000,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "respawnTime": 5,
+            "cost": 5,
+            "blockCnt": 0,
+            "atkInterval": 1
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 80,
+        "stats": [
+          {
+            "hp": 1000,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "respawnTime": 5,
+            "cost": 5,
+            "blockCnt": 0,
+            "atkInterval": 1
+          },
+          {
+            "hp": 1000,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "respawnTime": 5,
+            "cost": 5,
+            "blockCnt": 0,
+            "atkInterval": 1
+          }
+        ],
+        "evolveCost": []
+      },
+      {
+        "maxLevel": 90,
+        "stats": [
+          {
+            "hp": 1000,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "respawnTime": 5,
+            "cost": 5,
+            "blockCnt": 0,
+            "atkInterval": 1
+          },
+          {
+            "hp": 1000,
+            "atk": 100,
+            "def": 0,
+            "res": 0,
+            "respawnTime": 5,
+            "cost": 5,
+            "blockCnt": 0,
+            "atkInterval": 1
+          }
+        ],
+        "evolveCost": []
+      }
+    ],
+    "talents": {},
+    "trait": "Cannot be attacked; cannot be deployed on tiles where enemies are <span style=\"color:#00B0FF;\">already present</span>",
+    "skillIds": ["sktok_ela_1", "sktok_ela_2", "sktok_ela_3"],
+    "type": "trap",
+    "usedBy": "char_4123_ela"
+  },
   "trap_079_allydonq": {
     "id": "trap_079_allydonq",
     "iconId": "trap_079_allydonq",
