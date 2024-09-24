@@ -1,8 +1,14 @@
 {
-  "latest-operator-ids": ["char_4125_rdoc", "char_4126_fuze", "char_4124_iana", "char_4123_ela"],
+  "latest-operator-ids": [
+    "char_4125_rdoc",
+    "char_4126_fuze",
+    "char_4124_iana",
+    "char_4123_ela"
+  ],
   "latest-skin-ids": [
     "char_4123_ela_rainbow6#2",
     "char_4125_rdoc_rainbow6#2",
-    "char_4124_iana_rainbow6#2"
+    "char_4124_iana_rainbow6#2",
+    "char_192_falco_marthe#6"
   ]
 }
