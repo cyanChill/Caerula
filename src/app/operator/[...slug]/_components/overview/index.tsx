@@ -96,7 +96,7 @@ function HeroImage({ id }: { id: string }) {
   return (
     <div
       aria-hidden="true"
-      className="relative overflow-clip rounded-[2rem] @container"
+      className="relative -z-10 overflow-clip rounded-[2rem] @container"
     >
       <Image
         {...baseAttributes}
