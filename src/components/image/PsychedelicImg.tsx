@@ -3,11 +3,11 @@ import Image from "next/image";
 
 import { cn } from "@/lib/style";
 
-interface Props extends Omit<ImageProps, "alt" | "className"> {
+type Props = Omit<ImageProps, "alt" | "className"> & {
   alt?: string;
   dim?: boolean;
   classNames?: { wrapper?: string; image?: string };
-}
+};
 
 /**
  * @description Image that grows to the container size. Has a blurred
@@ -21,6 +21,7 @@ export default function PsychedelicImg({
 }: Props) {
   return (
     <div className={cn(classNames?.wrapper, "relative overflow-clip")}>
+      {/* @ts-expect-error - Typing on `...props` is broken. */}
       <Image
         alt={alt}
         {...props}
@@ -31,6 +32,7 @@ export default function PsychedelicImg({
         )}
       />
       {/* Background blur image */}
+      {/* @ts-expect-error - Typing on `...props` is broken. */}
       <Image
         aria-hidden="true"
         alt={alt}

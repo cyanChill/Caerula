@@ -1,6 +1,5 @@
-import { forwardRef } from "react";
-
-import { type VariantProps, cva } from "class-variance-authority";
+import type { VariantProps } from "class-variance-authority";
+import { cva } from "class-variance-authority";
 
 import { cn } from "@/lib/style";
 
@@ -101,15 +100,22 @@ const buttonVariants = cva(
   },
 );
 
-type Props = ButtonConfig & React.ButtonHTMLAttributes<HTMLButtonElement>;
+type Props = ButtonConfig &
+  React.ButtonHTMLAttributes<HTMLButtonElement> & {
+    ref?: React.RefObject<HTMLButtonElement | null>;
+  };
 
-export const Button = forwardRef(function Button(
-  { children, className, style, variant, color, radius, ...props }: Props,
-  ref: React.ForwardedRef<HTMLButtonElement>,
-) {
+export function Button({
+  children,
+  className,
+  style,
+  variant,
+  color,
+  radius,
+  ...props
+}: Props) {
   return (
     <button
-      ref={ref}
       {...props}
       style={style}
       className={cn(buttonVariants({ variant, color, radius }), className)}
@@ -117,4 +123,4 @@ export const Button = forwardRef(function Button(
       {children}
     </button>
   );
-});
+}

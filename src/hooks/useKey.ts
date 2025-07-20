@@ -9,7 +9,7 @@ type Options = {
   /** Whether we have `e.preventDefault()` called before our callback. */
   preventDefault?: boolean;
   /** Defaults to window object as target. */
-  target?: RefObject<HTMLElement>;
+  target?: RefObject<HTMLElement | null>;
   /** Determines when the events will occur. */
   when?: boolean;
 };

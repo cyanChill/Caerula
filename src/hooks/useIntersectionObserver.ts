@@ -9,7 +9,7 @@ const defaultOptions: IntersectionObserverInit = {
 
 /** Fires a callback on intersection with target. */
 export function useIntersectionObserver(
-  target: RefObject<HTMLElement>,
+  target: RefObject<HTMLElement | null>,
   callback: IntersectionObserverCallback,
   options: IntersectionObserverInit = defaultOptions,
 ) {
