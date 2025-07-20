@@ -6,7 +6,7 @@ import * as Client from "./client";
 type DynamicFieldsetProps = WithCSS<{
   id: string;
   formId: string;
-  fields: { id: string; label: string; formEl: React.ReactNode }[];
+  fields: Array<{ id: string; label: string; formEl: React.ReactNode }>;
   disabled?: boolean;
 }>;
 

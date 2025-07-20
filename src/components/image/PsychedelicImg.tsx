@@ -21,7 +21,6 @@ export default function PsychedelicImg({
 }: Props) {
   return (
     <div className={cn(classNames?.wrapper, "relative overflow-clip")}>
-      {/* @ts-expect-error - Typing on `...props` is broken. */}
       <Image
         alt={alt}
         {...props}
@@ -32,7 +31,6 @@ export default function PsychedelicImg({
         )}
       />
       {/* Background blur image */}
-      {/* @ts-expect-error - Typing on `...props` is broken. */}
       <Image
         aria-hidden="true"
         alt={alt}

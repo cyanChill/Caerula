@@ -24,7 +24,7 @@ import FilesTab, { getFilesTabContent } from "./_components/filesTab";
 import CostsTab, { getCostsTabContent } from "./_components/costsTab";
 
 interface Props {
-  params: { slug: string[] };
+  params: Promise<{ slug: string[] }>;
 }
 
 /** @description Statically generate routes instead of on-demand at request time. */
@@ -38,7 +38,8 @@ export async function generateMetadata(
   { params }: Props,
   parent: ResolvingMetadata,
 ): Promise<Metadata> {
-  const slug = decodeURIComponent(params.slug.join("/"));
+  const { slug: rawSlug } = await params;
+  const slug = decodeURIComponent(rawSlug.join("/"));
   const opId = OpSlugTable[slug];
 
   if (!opId) {
@@ -60,8 +61,9 @@ export async function generateMetadata(
   });
 }
 
-export default function Operator({ params }: Props) {
-  const slug = decodeURIComponent(params.slug.join("/"));
+export default async function Operator({ params }: Props) {
+  const { slug: rawSlug } = await params;
+  const slug = decodeURIComponent(rawSlug.join("/"));
   const opId = OpSlugTable[slug];
   if (!opId) notFound();
 

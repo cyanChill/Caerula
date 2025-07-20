@@ -128,11 +128,11 @@ function CostCard({ title, icon, theme, children }: CostCardProps) {
 function CostGroup(props: {
   title?: string;
   titleAs?: "h3" | "h4";
-  groups: {
+  groups: Array<{
     icon: React.ReactNode | string;
     items: ItemCount[];
     alt?: string;
-  }[];
+  }>;
 }) {
   return (
     <article className="py-4">

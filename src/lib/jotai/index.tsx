@@ -10,7 +10,6 @@ export function JotaiProvider({ children }: { children: React.ReactNode }) {
 /** @description Initialize Jotai atoms on render. */
 export function HydrateAtoms(props: {
   atomValues: Iterable<
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     readonly [WritableAtom<unknown, [any], unknown>, unknown]
   >;
   children: React.ReactNode;

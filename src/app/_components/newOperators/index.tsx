@@ -18,7 +18,7 @@ type OperatorExcerpt = Pick<
 >;
 
 interface Props {
-  operators: (OperatorExcerpt & { description: string })[];
+  operators: Array<OperatorExcerpt & { description: string }>;
 }
 
 /**
@@ -39,7 +39,9 @@ export default function NewOperators({ operators }: Props) {
 }
 
 /** @description Tablist to switch between the latest operators displayed. */
-function CarouselIndicator(props: { labels: { id: string; name: string }[] }) {
+function CarouselIndicator(props: {
+  labels: Array<{ id: string; name: string }>;
+}) {
   return (
     <TabList
       label="Latest Operator Carousel"
@@ -139,7 +141,7 @@ function Overview(
         <p className="mb-2 font-array text-[clamp(1.5rem,5cqw,3.5rem)] font-bold leading-none tracking-wider">
           {props.name}
         </p>
-        <div className="flex flex-wrap gap-2 text-[clamp(0.75rem,2cqw,1rem)] ">
+        <div className="flex flex-wrap gap-2 text-[clamp(0.75rem,2cqw,1rem)]">
           <Rarity
             rarity={props.rarity}
             size="size-[1em]"

@@ -12,7 +12,7 @@ export const selectedFieldIdAtom = atom("");
 type INTERNAL_FieldSelectorProps = {
   formId: string;
   defaultVal: string;
-  options: { label: string; value: string }[];
+  options: Array<{ label: string; value: string }>;
 };
 
 /** @description Allows us to change what field is rendered. */

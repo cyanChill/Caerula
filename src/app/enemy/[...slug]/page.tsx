@@ -22,7 +22,7 @@ import StatList from "@/features/characters/StatList";
 import EnemyPageLock from "./_components/enemyPageLock";
 
 interface Props {
-  params: { slug: string[] };
+  params: Promise<{ slug: string[] }>;
 }
 
 /** @description Statically generate routes instead of on-demand at request time. */
@@ -34,7 +34,8 @@ export async function generateMetadata(
   { params }: Props,
   parent: ResolvingMetadata,
 ): Promise<Metadata> {
-  const slug = decodeURIComponent(params.slug.join("/"));
+  const { slug: rawSlug } = await params;
+  const slug = decodeURIComponent(rawSlug.join("/"));
   const enemy = EnemyList.find((e) => e.slug === slug);
 
   if (!enemy) {
@@ -52,8 +53,9 @@ export async function generateMetadata(
   });
 }
 
-export default function Enemy({ params }: Props) {
-  const slug = decodeURIComponent(params.slug.join("/"));
+export default async function Enemy({ params }: Props) {
+  const { slug: rawSlug } = await params;
+  const slug = decodeURIComponent(rawSlug.join("/"));
   const enemy = EnemyList.find((e) => e.slug === slug);
   if (!enemy) notFound();
 

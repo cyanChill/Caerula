@@ -10,7 +10,7 @@ import TokenAnalysis from "./_components/analysis";
 import TokenOverview from "./_components/overview";
 
 interface Props {
-  params: { slug: string[] };
+  params: Promise<{ slug: string[] }>;
 }
 
 /** @description Statically generate routes instead of on-demand at request time. */
@@ -24,7 +24,8 @@ export async function generateMetadata(
   { params }: Props,
   parent: ResolvingMetadata,
 ): Promise<Metadata> {
-  const slug = decodeURIComponent(params.slug.join("/"));
+  const { slug: rawSlug } = await params;
+  const slug = decodeURIComponent(rawSlug.join("/"));
   const tokId = TokSlugTable[slug];
 
   if (!tokId) {
@@ -44,8 +45,9 @@ export async function generateMetadata(
   });
 }
 
-export default function Token({ params }: Props) {
-  const slug = decodeURIComponent(params.slug.join("/"));
+export default async function Token({ params }: Props) {
+  const { slug: rawSlug } = await params;
+  const slug = decodeURIComponent(rawSlug.join("/"));
   const tokId = TokSlugTable[slug];
   if (!tokId) notFound();
 

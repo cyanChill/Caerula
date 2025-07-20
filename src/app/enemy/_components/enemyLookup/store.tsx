@@ -14,19 +14,21 @@ export const enemyLookupFilterAtom = atom({
 });
 
 export const enemiesAtom = atom<
-  Pick<
-    Enemy,
-    | "sort"
-    | "id"
-    | "slug"
-    | "code"
-    | "name"
-    | "race"
-    | "type"
-    | "attackPattern"
-    | "immunities"
-    | "isFlying"
-  >[]
+  Array<
+    Pick<
+      Enemy,
+      | "sort"
+      | "id"
+      | "slug"
+      | "code"
+      | "name"
+      | "race"
+      | "type"
+      | "attackPattern"
+      | "immunities"
+      | "isFlying"
+    >
+  >
 >([]);
 
 export const filteredEnemiesListAtom = atom((get) => {

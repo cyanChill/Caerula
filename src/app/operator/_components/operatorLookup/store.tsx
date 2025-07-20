@@ -13,18 +13,20 @@ export const operatorLookupFilterAtom = atom({
 });
 
 export const operatorsAtom = atom<
-  Pick<
-    Operator,
-    | "id"
-    | "slug"
-    | "displayName"
-    | "rarity"
-    | "profession"
-    | "branch"
-    | "affiliation"
-    | "type"
-    | "position"
-  >[]
+  Array<
+    Pick<
+      Operator,
+      | "id"
+      | "slug"
+      | "displayName"
+      | "rarity"
+      | "profession"
+      | "branch"
+      | "affiliation"
+      | "type"
+      | "position"
+    >
+  >
 >([]);
 
 export const isFiltersValidAtom = atom((get) => {

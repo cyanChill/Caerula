@@ -9,10 +9,12 @@ import Card from "@/components/ui/Card";
 import ArtistChips from "@/features/skins/ArtistChips";
 
 interface Props {
-  skins: (Pick<Skin, "id" | "name" | "imgAlt" | "description" | "artists"> & {
-    opName: string;
-    slug: string;
-  })[];
+  skins: Array<
+    Pick<Skin, "id" | "name" | "imgAlt" | "description" | "artists"> & {
+      opName: string;
+      slug: string;
+    }
+  >;
 }
 
 /** @description Displays the list of the newest outfits for operators. */

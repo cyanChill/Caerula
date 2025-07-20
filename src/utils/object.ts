@@ -2,7 +2,6 @@
 export type InterfaceToType<T> = { [K in keyof T]: T[K] };
 
 /** @description Return object with only the specified keys. */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function pickKeys<T extends Record<PropertyKey, any>, K extends keyof T>(
   obj: T,
   keys: readonly K[],
@@ -13,7 +12,6 @@ export function pickKeys<T extends Record<PropertyKey, any>, K extends keyof T>(
 }
 
 /** @description Return object without the specified keys. */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function omitKeys<T extends Record<PropertyKey, any>, K extends keyof T>(
   obj: T,
   keys: readonly K[],
