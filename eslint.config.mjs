@@ -1,10 +1,13 @@
 import nextJSConfig from "@next/eslint-plugin-next";
+import { defineConfig } from "eslint/config";
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 import tseslintConfig from "typescript-eslint";
 
-export default tseslintConfig.config([
+export default defineConfig([
   tseslintConfig.configs.recommended,
+  // @ts-expect-error - Should be resolved in Next.js v16.
   nextJSConfig.flatConfig.recommended,
+  // @ts-expect-error - Should be resolved in Next.js v16.
   nextJSConfig.flatConfig.coreWebVitals,
   eslintPluginPrettierRecommended,
   /* TypeScript Eslint Config */
@@ -38,8 +41,6 @@ export default tseslintConfig.config([
   },
   /* Ignored directories & files */
   {
-    ignores: [
-      "src/data",
-    ],
+    ignores: ["src/data", "next-env.d.ts"],
   },
 ]);
