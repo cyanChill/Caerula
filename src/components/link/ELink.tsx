@@ -1,8 +1,7 @@
-import type { LinkProps } from "next/link";
-import Link from "next/link";
-
 import type { WithCSS } from "@/lib/style";
 import { omitKeys } from "@/utils/object";
+import type { LinkProps } from "@/components/link/Link";
+import Link from "@/components/link/Link";
 
 type Props = WithCSS<{ children: React.ReactNode }> &
   (

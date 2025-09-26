@@ -1,6 +1,5 @@
 import type { Metadata, ResolvingMetadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 
 import type { TokenClassification } from "@/data/types/AKCharacter";
 import OperatorTable from "@/data/operator/operatorTable.json";
@@ -8,6 +7,7 @@ import TokenTable from "@/data/token/tokenTable.json";
 
 import { cn } from "@/lib/style";
 import { constructMetadata } from "@/lib/metadata";
+import Link from "@/components/link/Link";
 import { CharacterLink } from "@/features/characters/Link";
 import { getRarityColor } from "@/features/characters/utils";
 

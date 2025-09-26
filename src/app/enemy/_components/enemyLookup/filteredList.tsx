@@ -1,11 +1,11 @@
 "use client";
 import { useAtomValue } from "jotai";
 import Image from "next/image";
-import Link from "next/link";
 
 import { filteredEnemiesListAtom } from "./store";
 
 import { cn } from "@/lib/style";
+import Link from "@/components/link/Link";
 
 /** @description List of filtered enemies. */
 export function FilteredEnemyList() {

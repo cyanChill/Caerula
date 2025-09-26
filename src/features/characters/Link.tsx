@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 
 import { type BgColor, cn } from "@/lib/style";
+import Link from "@/components/link/Link";
 
 type CharacterLinkProps = {
   avatar: { id: string; bg: BgColor; className?: string };

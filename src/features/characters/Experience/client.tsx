@@ -1,6 +1,5 @@
 "use client";
 import { useAtomValue, useSetAtom } from "jotai";
-import Link from "next/link";
 
 import {
   levelAtom,
@@ -19,6 +18,7 @@ import {
 import { cn } from "@/lib/style";
 import TransformArrow from "@/components/accents/TransformArrow";
 import Tabs, { TabPanel } from "@/components/layout/Tabs";
+import Link from "@/components/link/Link";
 import Knob from "@/components/form/Knob";
 import Slider from "@/components/form/Slider";
 import { ContainedRange } from "@/features/characters/RangePattern";

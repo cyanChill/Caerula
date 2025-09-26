@@ -1,7 +1,6 @@
 import type { Metadata, ResolvingMetadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import Link from "next/link";
 
 import { XMark, LinkChain } from "@/assets/svgs/navigation";
 import type { Enemy, EnemyId } from "@/data/types/AKEnemy";
@@ -18,6 +17,7 @@ import Tabs, {
   TabPanel,
   TabPanelGroup,
 } from "@/components/layout/Tabs";
+import Link from "@/components/link/Link";
 import StatList from "@/features/characters/StatList";
 import EnemyPageLock from "./_components/enemyPageLock";
 
