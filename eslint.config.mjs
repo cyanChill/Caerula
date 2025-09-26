@@ -41,6 +41,6 @@ export default defineConfig([
   },
   /* Ignored directories & files */
   {
-    ignores: ["src/data", "next-env.d.ts"],
+    ignores: ["src/data", "next-env.d.ts", ".next"],
   },
 ]);
