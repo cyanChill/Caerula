@@ -18,9 +18,9 @@
     "geist": "^1.5.1",
     "jotai": "^2.15.0",
     "jotai-scope": "^0.9.4",
-    "next": "^15.5.4",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
+    "next": "^15.5.7",
+    "react": "19.1.2",
+    "react-dom": "19.1.2",
     "server-only": "^0.0.1",
     "tailwind-merge": "^2.6.0"
   },
