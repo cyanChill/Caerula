@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@vercel/analytics':
         specifier: ^1.5.0
-        version: 1.5.0(next@15.5.9(react-dom@19.1.4(react@19.1.4))(react@19.1.4))(react@19.1.4)
+        version: 1.5.0(next@15.5.10(react-dom@19.1.5(react@19.1.5))(react@19.1.5))(react@19.1.5)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -22,22 +22,22 @@ importers:
         version: 3.45.1
       geist:
         specifier: ^1.5.1
-        version: 1.5.1(next@15.5.9(react-dom@19.1.4(react@19.1.4))(react@19.1.4))
+        version: 1.5.1(next@15.5.10(react-dom@19.1.5(react@19.1.5))(react@19.1.5))
       jotai:
         specifier: ^2.15.0
-        version: 2.15.0(@types/react@19.1.13)(react@19.1.4)
+        version: 2.15.0(@types/react@19.1.13)(react@19.1.5)
       jotai-scope:
         specifier: ^0.9.4
-        version: 0.9.4(jotai@2.15.0(@types/react@19.1.13)(react@19.1.4))(react@19.1.4)
+        version: 0.9.4(jotai@2.15.0(@types/react@19.1.13)(react@19.1.5))(react@19.1.5)
       next:
-        specifier: ^15.5.9
-        version: 15.5.9(react-dom@19.1.4(react@19.1.4))(react@19.1.4)
+        specifier: ^15.5.10
+        version: 15.5.10(react-dom@19.1.5(react@19.1.5))(react@19.1.5)
       react:
-        specifier: 19.1.4
-        version: 19.1.4
+        specifier: 19.1.5
+        version: 19.1.5
       react-dom:
-        specifier: 19.1.4
-        version: 19.1.4(react@19.1.4)
+        specifier: 19.1.5
+        version: 19.1.5(react@19.1.5)
       server-only:
         specifier: ^0.0.1
         version: 0.0.1
@@ -46,8 +46,8 @@ importers:
         version: 2.6.0
     devDependencies:
       '@next/eslint-plugin-next':
-        specifier: 15.5.9
-        version: 15.5.9
+        specifier: 15.5.10
+        version: 15.5.10
       '@tailwindcss/container-queries':
         specifier: ^0.1.1
         version: 0.1.1(tailwindcss@3.4.17)
@@ -97,8 +97,8 @@ packages:
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
 
-  '@emnapi/runtime@1.7.1':
-    resolution: {integrity: sha512-PVtJr5CmLwYAU9PZDMITZoR5iAOShYREoR45EyyLrbntV50mdePTgUn4AmOw90Ifcj+x2kRjdzr1HP3RrNiHGA==}
+  '@emnapi/runtime@1.8.1':
+    resolution: {integrity: sha512-mehfKSMWjjNol8659Z8KxEMrdSJDDot5SXMq00dM8BN4o+CLNXQ0xH2V7EchNHV4RmbZLmmPdEaXZc5H2FXmDg==}
 
   '@eslint-community/eslint-utils@4.9.0':
     resolution: {integrity: sha512-ayVFHdtZ+hsq1t2Dy24wCmGXGe4q9Gu3smhLYALJrr473ZH27MsnSL+LKUlimp4BWJqMDMLmPpx/Q9R3OAlL4g==}
@@ -308,11 +308,11 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@next/env@15.5.9':
-    resolution: {integrity: sha512-4GlTZ+EJM7WaW2HEZcyU317tIQDjkQIyENDLxYJfSWlfqguN+dHkZgyQTV/7ykvobU7yEH5gKvreNrH4B6QgIg==}
+  '@next/env@15.5.10':
+    resolution: {integrity: sha512-plg+9A/KoZcTS26fe15LHg+QxReTazrIOoKKUC3Uz4leGGeNPgLHdevVraAAOX0snnUs3WkRx3eUQpj9mreG6A==}
 
-  '@next/eslint-plugin-next@15.5.9':
-    resolution: {integrity: sha512-kUzXx0iFiXw27cQAViE1yKWnz/nF8JzRmwgMRTMh8qMY90crNsdXJRh2e+R0vBpFR3kk1yvAR7wev7+fCCb79Q==}
+  '@next/eslint-plugin-next@15.5.10':
+    resolution: {integrity: sha512-fDpxcy6G7Il4lQVVsaJD0fdC2/+SmuBGTF+edRLlsR4ZFOE3W2VyzrrGYdg/pHW8TydeAdSVM+mIzITGtZ3yWA==}
 
   '@next/swc-darwin-arm64@15.5.7':
     resolution: {integrity: sha512-IZwtxCEpI91HVU/rAUOOobWSZv4P2DeTtNaCdHqLcTJU4wdNXgAySvKa/qJCgR5m6KI8UsKDXtO2B31jcaw1Yw==}
@@ -578,8 +578,8 @@ packages:
   caniuse-lite@1.0.30001745:
     resolution: {integrity: sha512-ywt6i8FzvdgrrrGbr1jZVObnVv6adj+0if2/omv9cmR2oiZs30zL4DIyaptKcbOrBdOIc74QTMoJvSE2QHh5UQ==}
 
-  caniuse-lite@1.0.30001760:
-    resolution: {integrity: sha512-7AAMPcueWELt1p3mi13HR/LHH0TJLT11cnwDJEs3xA4+CK/PLKeO9Kl1oru24htkyUKtkGCvAx4ohB0Ttry8Dw==}
+  caniuse-lite@1.0.30001766:
+    resolution: {integrity: sha512-4C0lfJ0/YPjJQHagaE9x2Elb69CIqEPZeG0anQt9SIvIoOH4a4uaRl73IavyO+0qZh6MDLH//DrXThEYKHkmYA==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -966,8 +966,8 @@ packages:
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
-  next@15.5.9:
-    resolution: {integrity: sha512-agNLK89seZEtC5zUHwtut0+tNrc0Xw4FT/Dg+B/VLEo9pAcS9rtTKpek3V6kVcVwsB2YlqMaHdfZL4eLEVYuCg==}
+  next@15.5.10:
+    resolution: {integrity: sha512-r0X65PNwyDDyOrWNKpQoZvOatw7BcsTPRKdwEqtc9cj3wv7mbBIk9tKed4klRaFXJdX0rugpuMTHslDrAU1bBg==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
     hasBin: true
     peerDependencies:
@@ -1181,13 +1181,13 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-dom@19.1.4:
-    resolution: {integrity: sha512-s2868ab/xo2SI6H4106A7aFI8Mrqa4xC6HZT/pBzYyQ3cBLqa88hu47xYD8xf+uECleN698Awn7RCWlkTiKnqQ==}
+  react-dom@19.1.5:
+    resolution: {integrity: sha512-tvMijysf97vcHla1PNI/aU2apv7f4r0ct0OBk3i3QOBfsVhZzHEuPBLemClkfuw8LroE4FH6kXcQOftf2ntPHQ==}
     peerDependencies:
-      react: ^19.1.4
+      react: ^19.1.5
 
-  react@19.1.4:
-    resolution: {integrity: sha512-DHINL3PAmPUiK1uszfbKiXqfE03eszdt5BpVSuEAHb5nfmNPwnsy7g39h2t8aXFc/Bv99GH81s+j8dobtD+jOw==}
+  react@19.1.5:
+    resolution: {integrity: sha512-lCX00zqONdNfcnJYEL91LuNYzyWFU70vKhApUR08Y1Fi/Y5FGw6l6hAWtlkq+k/vnx463XLm/5dyQp5HAJCw6Q==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -1391,7 +1391,7 @@ snapshots:
 
   '@alloc/quick-lru@5.2.0': {}
 
-  '@emnapi/runtime@1.7.1':
+  '@emnapi/runtime@1.8.1':
     dependencies:
       tslib: 2.8.1
     optional: true
@@ -1536,7 +1536,7 @@ snapshots:
 
   '@img/sharp-wasm32@0.34.5':
     dependencies:
-      '@emnapi/runtime': 1.7.1
+      '@emnapi/runtime': 1.8.1
     optional: true
 
   '@img/sharp-win32-arm64@0.34.5':
@@ -1571,9 +1571,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@next/env@15.5.9': {}
+  '@next/env@15.5.10': {}
 
-  '@next/eslint-plugin-next@15.5.9':
+  '@next/eslint-plugin-next@15.5.10':
     dependencies:
       fast-glob: 3.3.1
 
@@ -1735,10 +1735,10 @@ snapshots:
       '@typescript-eslint/types': 8.44.1
       eslint-visitor-keys: 4.2.1
 
-  '@vercel/analytics@1.5.0(next@15.5.9(react-dom@19.1.4(react@19.1.4))(react@19.1.4))(react@19.1.4)':
+  '@vercel/analytics@1.5.0(next@15.5.10(react-dom@19.1.5(react@19.1.5))(react@19.1.5))(react@19.1.5)':
     optionalDependencies:
-      next: 15.5.9(react-dom@19.1.4(react@19.1.4))(react@19.1.4)
-      react: 19.1.4
+      next: 15.5.10(react-dom@19.1.5(react@19.1.5))(react@19.1.5)
+      react: 19.1.5
 
   acorn-jsx@5.3.2(acorn@8.15.0):
     dependencies:
@@ -1817,7 +1817,7 @@ snapshots:
 
   caniuse-lite@1.0.30001745: {}
 
-  caniuse-lite@1.0.30001760: {}
+  caniuse-lite@1.0.30001766: {}
 
   chalk@4.1.2:
     dependencies:
@@ -2033,9 +2033,9 @@ snapshots:
 
   function-bind@1.1.2: {}
 
-  geist@1.5.1(next@15.5.9(react-dom@19.1.4(react@19.1.4))(react@19.1.4)):
+  geist@1.5.1(next@15.5.10(react-dom@19.1.5(react@19.1.5))(react@19.1.5)):
     dependencies:
-      next: 15.5.9(react-dom@19.1.4(react@19.1.4))(react@19.1.4)
+      next: 15.5.10(react-dom@19.1.5(react@19.1.5))(react@19.1.5)
 
   glob-parent@5.1.2:
     dependencies:
@@ -2103,15 +2103,15 @@ snapshots:
 
   jiti@1.21.7: {}
 
-  jotai-scope@0.9.4(jotai@2.15.0(@types/react@19.1.13)(react@19.1.4))(react@19.1.4):
+  jotai-scope@0.9.4(jotai@2.15.0(@types/react@19.1.13)(react@19.1.5))(react@19.1.5):
     dependencies:
-      jotai: 2.15.0(@types/react@19.1.13)(react@19.1.4)
-      react: 19.1.4
+      jotai: 2.15.0(@types/react@19.1.13)(react@19.1.5)
+      react: 19.1.5
 
-  jotai@2.15.0(@types/react@19.1.13)(react@19.1.4):
+  jotai@2.15.0(@types/react@19.1.13)(react@19.1.5):
     optionalDependencies:
       '@types/react': 19.1.13
-      react: 19.1.4
+      react: 19.1.5
 
   js-yaml@4.1.0:
     dependencies:
@@ -2173,15 +2173,15 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@15.5.9(react-dom@19.1.4(react@19.1.4))(react@19.1.4):
+  next@15.5.10(react-dom@19.1.5(react@19.1.5))(react@19.1.5):
     dependencies:
-      '@next/env': 15.5.9
+      '@next/env': 15.5.10
       '@swc/helpers': 0.5.15
-      caniuse-lite: 1.0.30001760
+      caniuse-lite: 1.0.30001766
       postcss: 8.4.31
-      react: 19.1.4
-      react-dom: 19.1.4(react@19.1.4)
-      styled-jsx: 5.1.6(react@19.1.4)
+      react: 19.1.5
+      react-dom: 19.1.5(react@19.1.5)
+      styled-jsx: 5.1.6(react@19.1.5)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.5.7
       '@next/swc-darwin-x64': 15.5.7
@@ -2307,12 +2307,12 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@19.1.4(react@19.1.4):
+  react-dom@19.1.5(react@19.1.5):
     dependencies:
-      react: 19.1.4
+      react: 19.1.5
       scheduler: 0.26.0
 
-  react@19.1.4: {}
+  react@19.1.5: {}
 
   read-cache@1.0.0:
     dependencies:
@@ -2409,10 +2409,10 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-jsx@5.1.6(react@19.1.4):
+  styled-jsx@5.1.6(react@19.1.5):
     dependencies:
       client-only: 0.0.1
-      react: 19.1.4
+      react: 19.1.5
 
   sucrase@3.35.0:
     dependencies:
