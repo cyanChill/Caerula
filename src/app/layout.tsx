@@ -50,6 +50,11 @@ export const metadata: Metadata = {
     title: "Caerula",
     card: "summary_large_image",
   },
+  // Prevent site from being indexed by Google Search Console.
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({
